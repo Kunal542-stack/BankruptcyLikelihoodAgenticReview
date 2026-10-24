@@ -1,0 +1,14 @@
+# notebooks (build_dataframe.ipynb, xgboost_model.ipynb)
+pandas==2.3.3
+numpy==2.0.2
+requests==2.32.5
+scikit-learn==1.6.1
+xgboost==2.1.4
+optuna==5.0.0
+jupyter==1.1.1
+ipykernel==6.31.0
+
+# investigator agent (agent/)
+claude-agent-sdk==0.2.173
+matplotlib==3.9.4
+beautifulsoup4==4.15.0

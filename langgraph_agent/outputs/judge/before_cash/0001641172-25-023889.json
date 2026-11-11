@@ -1,0 +1,84 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 45%",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "very high, about 55%",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk high at about 45% (vs 18% band base rate), agrees with the model",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Liabilities 8.9x assets (peer median 0.59x), current ratio 0.07 vs 1.42, equity about -$26.6M",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Cash only $109,692 at Jun-25, about 0.3 months of runway at the last quarter's ~$1M burn",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Uncured defaults/accelerations by eight outside creditors totalling about $4.3M (39x cash), with NRS starting a civil action to enforce a confession of judgment",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Going concern doubt, NYSE American suspension/delisting, notes converting at $0.001-0.013 a share",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Losses are mostly cash: non-cash share fell from 63% to 51% to 36%",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Owner support: Bellino $2.0M note assigned to majority owner Mr. Cassidy, plus advances and $3.0M related-party convertible debt",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Capital Foundry revolver still funding (draws in Jul/Aug 2025)",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Creditors have mostly sent letters so far; company in discussions with lenders; GemCap foreclosure settled Nov 2024; burn down 20%",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "A court filing may never happen: foreclosure, sale or quiet wind-down of a tiny company is plausible, the main reason not to go higher",
+   "importance": "critical",
+   "candidate": "covered"
+  }
+ ],
+ "contradictions": [
+  "Own risk: CANDIDATE puts it at very high, about 55%; GOLD at high, about 45%",
+  "Prior-year annualized operating cash flow: CANDIDATE -$7.1M vs GOLD -$6.60M",
+  "Peer percentiles differ in meaning: CANDIDATE gives current assets 58, current liabilities 94, total liabilities 94, revenue 95, net income 4, operating income 5, OCF 6, while GOLD gives 17%, 36%, 33%, 22%, 26%, 28%, 18% (CANDIDATE appears to rank ratios to assets rather than raw values)",
+  "CANDIDATE says at least seven creditors defaulted; GOLD counts eight outside creditors with $4.3M of demands"
+ ],
+ "extra_points_in_candidate": [
+  "Debt maturity schedule: current convertible debt $2,152,668 plus $3.0M related party; line-of-credit maturities $2.94M in 2025 and $6.32M in 2026",
+  "10-K statement that there are no agreements or commitments to secure additional financing",
+  "Insider entity Excel funding and converting debt to equity, with a perpetual $2.5M revolver",
+  "Capital Foundry facility matures February 2028",
+  "Covenant breaches on several equipment financings; Bellino Trust missed June 1 payment",
+  "Specific dates to watch: AFG 15-day deadline 21 Aug, Agile $800K loan maturity 23 Oct, Bellino note maturity ~18 Oct, Excel line maturity ~27 Nov 2025"
+ ],
+ "scores": {
+  "verdict_agreement": 4,
+  "coverage": 4,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same real-risk verdict and agrees with the model, covering the leverage, liquidity, creditor defaults, going concern and the main mitigants including owner support and a possible out-of-court wind-down, but sets risk one step higher (55% vs 45%). It misses the exact $110K cash figure, the total demands versus cash, and the NRS court action, and its peer percentiles and prior-year cash flow differ from GOLD.",
+ "critical_recall": 0.5,
+ "all_recall": 0.8,
+ "candidate_check_problems": 0,
+ "gold_words": 1270,
+ "candidate_words": 1071
+}

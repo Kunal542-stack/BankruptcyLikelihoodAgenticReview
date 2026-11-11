@@ -1,0 +1,83 @@
+{
+ "gold_verdict": "Real risk",
+ "gold_own_risk": "very high, about 50%",
+ "candidate_verdict": "Real risk",
+ "candidate_own_risk": "high, about 45%",
+ "key_points": [
+  {
+   "point": "Verdict real risk with own risk very high (~50%) vs 4% base rate; agrees with the model and thinks it under-ranks the case",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Liabilities 8.35x assets, current ratio 0.05, equity -$106.6M; all convertible notes and derivative liabilities reclassified to current",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Cash nearly gone: $3.2M ($0.2M restricted), ~1 month of runway at ~$2.9M/month burn, ~2-4 months after ~$7.3M post-quarter inflows; going concern doubt",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Covenant stress: minimum-liquidity forbearance (extended through Oct 31, 2024), $4.0M floor vs $3.2M cash unreconciled with reported compliance; management says continued compliance unlikely",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Final Nasdaq deadline Dec 9, 2024; delisting is a Fundamental Change allowing a cash put of the $62.9M notes (~20x cash)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Small net loss is an accounting effect of ~$44M non-cash fair-value gains; cash-adjusted loss not shrinking (~-$60M a year)",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Lenders keep funding ($4M draws Aug/Sep/Oct, PIK accepted); Athyrium is secured lender and 29.7% shareholder",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Equity raises still close (~$3.0M gross in October plus ATM)",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going concern doubt not new (since FY23 10-K) and no defaults reported (Item 3 'None')",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Cushions are limited: last $4M draw at holders' sole discretion and ATM capped at $6M",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Candidate's peer-percentile column mostly reports ratio percentiles in place of the input-level percentiles GOLD gives (current liabilities 97 vs 82, total liabilities 96 vs 69, net income 17 vs 53, operating income 6 vs 35, operating cash flow 6 vs 34); minor because both reports cite the same ratio percentiles in the text",
+  "Revenue peer percentile 31 in CANDIDATE vs 21 in GOLD",
+  "Candidate says it only 'partly' agrees with the model, while GOLD says it agrees; both say the model understates the distress, so this is framing rather than substance"
+ ],
+ "extra_points_in_candidate": [
+  "August 2024 deals require a noteholder-approved financial advisor, restructuring milestones and covenants on financing if the company seeks bankruptcy protection",
+  "TDR exchange in August 2024",
+  "Pending special stockholder meeting on the note and warrant deals",
+  "Athyrium holds $18.4M of 2028 notes and may prefer out-of-court fixes",
+  "About 165 issued patents could be licensed",
+  "Possible recoupment claims from the former lab business and burn after headcount cuts as open questions"
+ ],
+ "scores": {
+  "verdict_agreement": 4,
+  "coverage": 4,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same real-risk verdict with a slightly lower risk level (high, 45% vs very high, 50%) and covers all of GOLD's critical drivers: extreme leverage with all notes current, about one month of cash, covenant forbearance, and the Dec 9 Nasdaq put trigger. It gives less detail on the cash-adjusted loss trend and the limits on lender and ATM cushions, its peer-percentile column mixes ratio and level percentiles, and it adds a useful point about bankruptcy-financing covenants in the August 2024 deals.",
+ "critical_recall": 0.8,
+ "all_recall": 0.8,
+ "candidate_check_problems": 0,
+ "gold_words": 1264,
+ "candidate_words": 1036
+}

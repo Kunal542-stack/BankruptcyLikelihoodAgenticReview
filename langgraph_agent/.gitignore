@@ -1,0 +1,6 @@
+# SEC filings the agent downloads for each case (large, and downloaded again when a case runs)
+**/filings/
+**/text/
+outputs/llm_calls/
+__pycache__/
+.DS_Store

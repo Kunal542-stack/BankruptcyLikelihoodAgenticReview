@@ -1,0 +1,84 @@
+{
+ "gold_verdict": "Real risk. Agrees with the flag but thinks the 0.606 score understates the risk.",
+ "gold_own_risk": "High, about 30% (vs 4% base rate for the 0.5\u20130.7 band)",
+ "candidate_verdict": "Real risk. Partly agrees with the model and thinks it understates the distress, placing the report nearer the >0.7 band.",
+ "candidate_own_risk": "High, roughly 30%",
+ "key_points": [
+  {
+   "point": "Verdict real risk, high ~30% vs 4% base rate; agrees with flag but score understates risk",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Almost no liquidity: current ratio 0.17, negative working capital, $4.5M unrestricted cash = ~0.4 months of ~$12M/month burn (~1.6 months with the ~$14.1M July advance); MD&A says resources are not sufficient for 12 months",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Big loss with almost no revenue (~-43% of assets on $1.2M revenue), and most of the loss is real cash",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Yorkville lender debt ($46M at 30 Jun plus $15M in July, ~$61M total) that cash cannot cover; repayable in cash if VWAP stays below the floor; largest advance has a $2.30 floor vs a $2.13 share price, so the trigger is close",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Going-concern doubt since Q1 2022, auditor substantial-doubt opinion, management cannot conclude its plans are probable",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: no default ('Defaults Upon Senior Securities: None'), no NT filing, no advisors",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Evidence against: funders keep paying in (new Yorkville advances in June and July; CEO vehicles bought $16.5M of preferred)",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: burn falling from $67M/quarter (Q1 23) to $36M (Q2 24); Torrance staff cuts",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: Nasdaq listing compliance regained after 1-for-23 reverse split; hard assets (~$196M equity, mostly the plant) could back a loan; has survived with under $10M cash since mid-2023",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Q2 loss of only ~$5M was flattered by a $48.3M fair-value gain on warrants and derivatives",
+   "importance": "supporting",
+   "candidate": "covered"
+  }
+ ],
+ "contradictions": [
+  "CEO-affiliated preferred purchase: CANDIDATE cites $10M (from the 11 Apr 2024 8-K) vs GOLD $16.5M of Series C bought by CEO vehicles.",
+  "H1 2024 cash loss: CANDIDATE gives a cash-adjusted loss of $96.7M (removing only stock compensation and D&A) vs GOLD $83M (removing all non-cash items). Both conclude most of the loss is cash; the methods differ.",
+  "Peer percentiles differ materially: current assets 2nd vs 24th, current liabilities 68th vs 53rd, total liabilities 60th vs 49th, net income 21st vs 10th, operating income 24th vs 10th, operating cash flow 19th vs 11th, revenue 6th vs 12th. This likely reflects a different peer set or metric (% of assets vs dollars)."
+ ],
+ "extra_points_in_candidate": [
+  "$58.4M of unpaid PP&E purchases sits in current liabilities, more than all current assets.",
+  "$50.2M deferred warrant asset within total assets.",
+  "July 2024 PPA details: $100M limit over 24 months, $1.00 floor, 19.99% exchange cap; named as the company's principal access to capital.",
+  "Event-of-default language under which Yorkville advances become immediately due in cash.",
+  "Specific 2023 debenture maturities to watch: 30 Aug 2024 ($26.6M), 2 Oct 2024 ($27.9M) and 26 Nov 2024 ($15M), with unknown balances.",
+  "First vehicle deliveries and commercialization cited as evidence against.",
+  "Going-concern doubt counted across seven prior 10-Qs and two 10-Ks."
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 3,
+  "consistency": 3,
+  "overall": 4
+ },
+ "summary": "CANDIDATE matches GOLD on verdict and risk level (real risk, high ~30%, model understates) and covers the core drivers: extreme illiquidity, sub-one-month cash runway, real cash losses, going-concern doubt and dependence on Yorkville. However, it misses GOLD's near-trigger $2.30 floor vs $2.13 price, the absence of default, regained Nasdaq compliance and the hard-asset backing, and it differs on the CEO funding amount, the cash-loss figure and the peer percentiles.",
+ "critical_recall": 0.8,
+ "all_recall": 0.65,
+ "candidate_check_problems": 0,
+ "gold_words": 1186,
+ "candidate_words": 1117
+}

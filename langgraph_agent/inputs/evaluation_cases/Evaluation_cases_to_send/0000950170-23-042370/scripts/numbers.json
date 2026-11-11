@@ -1,0 +1,167 @@
+{
+ "peers": {
+  "total_assets": {
+   "value": 57911000.0,
+   "peer_median": 368070000.0,
+   "pct_peers_below": 33.7,
+   "n": 691
+  },
+  "current_assets": {
+   "value": 20174000.0,
+   "peer_median": 155834000.0,
+   "pct_peers_below": 31.2,
+   "n": 667
+  },
+  "current_liabilities": {
+   "value": 42362000.0,
+   "peer_median": 78483080.5,
+   "pct_peers_below": 41.7,
+   "n": 666
+  },
+  "total_liabilities": {
+   "value": 139341000.0,
+   "peer_median": 151727500.0,
+   "pct_peers_below": 48.7,
+   "n": 696
+  },
+  "revenue": {
+   "value": 58838000.0,
+   "peer_median": 303106000.0,
+   "pct_peers_below": 34.1,
+   "n": 651
+  },
+  "net_income": {
+   "value": -43464000.0,
+   "peer_median": -2069138.0,
+   "pct_peers_below": 24.9,
+   "n": 695
+  },
+  "operating_income": {
+   "value": -44840000.0,
+   "peer_median": -2649570.6666666665,
+   "pct_peers_below": 23.8,
+   "n": 651
+  },
+  "operating_cash_flow": {
+   "value": -60430000.0,
+   "peer_median": 948000.0,
+   "pct_peers_below": 6.2,
+   "n": 691
+  },
+  "ni_ta": {
+   "value": -0.7505309872045035,
+   "peer_median": -0.06428941652882529,
+   "pct_peers_below": 16.6,
+   "n": 688
+  },
+  "oi_ta": {
+   "value": -0.7742915853637479,
+   "peer_median": -0.07321324265197558,
+   "pct_peers_below": 14.1,
+   "n": 645
+  },
+  "ocf_ta": {
+   "value": -1.043497781077861,
+   "peer_median": 0.018044348566432257,
+   "pct_peers_below": 8.6,
+   "n": 683
+  },
+  "tl_ta": {
+   "value": 2.4061231890314447,
+   "peer_median": 0.6065433227219719,
+   "pct_peers_below": 90.4,
+   "n": 691
+  },
+  "cr": {
+   "value": 0.47622869552901187,
+   "peer_median": 1.359503952462964,
+   "pct_peers_below": 17.2,
+   "n": 657
+  },
+  "ni_rev": {
+   "value": -0.7387062782555491,
+   "peer_median": -0.09921265986078141,
+   "pct_peers_below": 20.8,
+   "n": 648
+  },
+  "rev_ta": {
+   "value": 1.0160073215796654,
+   "peer_median": 0.5968026439235801,
+   "pct_peers_below": 76.7,
+   "n": 644
+  }
+ },
+ "calc": {
+  "leverage_tl_ta": 2.4061231890314447,
+  "equity": -81430,
+  "current_ratio": 0.47622869552901187,
+  "working_capital": -22188,
+  "ocf_q2": -7969,
+  "burn_h1_per_month": 5138.0,
+  "burn_q2_per_month": 2853.6666666666665,
+  "runway_months_h1": 0.611716621253406,
+  "runway_months_q2": 1.1013900245298447,
+  "convert_principal": 65500,
+  "cash_vs_convert": 0.04798473282442748,
+  "rev_change_h1": -0.35410994994291733,
+  "rev_change_q2": -0.3738574938574939,
+  "interest_semiannual": 2292.5,
+  "model_ni_check": -43464,
+  "model_ocf_check": -60430,
+  "model_rev_check": 58838
+ },
+ "adj": {
+  "FY2021": {
+   "net_loss": -65,
+   "noncash": -5061,
+   "cash_loss": -5126,
+   "ocf": -21373,
+   "working_capital": -16247
+  },
+  "FY2022": {
+   "net_loss": -52726,
+   "noncash": 9859,
+   "cash_loss": -42867,
+   "ocf": -26588,
+   "working_capital": 16279
+  },
+  "H1-2022": {
+   "net_loss": -20915,
+   "noncash": 4898,
+   "cash_loss": -16017,
+   "ocf": -13193,
+   "working_capital": 2824
+  },
+  "Q1-2023": {
+   "net_loss": -9901,
+   "noncash": -3294,
+   "cash_loss": -13195,
+   "ocf": -22246,
+   "working_capital": -9051
+  },
+  "H1-2023": {
+   "net_loss": -21732,
+   "noncash": -4033,
+   "cash_loss": -25765,
+   "ocf": -30215,
+   "working_capital": -4450
+  },
+  "Q2-2023": {
+   "net_loss": -11831,
+   "noncash": -739,
+   "cash_loss": -12570,
+   "ocf": -7969,
+   "working_capital": 4601
+  }
+ },
+ "prior": {
+  "total_assets": 74933000.0,
+  "current_assets": 35228000.0,
+  "current_liabilities": 53722000.0,
+  "total_liabilities": 147957000.0,
+  "revenue": 91096000.0,
+  "net_income": -41830000.0,
+  "operating_income": -31692000.0,
+  "operating_cash_flow": -26386000.0
+ }
+}

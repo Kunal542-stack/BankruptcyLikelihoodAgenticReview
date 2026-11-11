@@ -1,0 +1,85 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "very high, about 50% within 365 days; agrees with the flag but says the 0.5-0.7 band understates the risk",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "very high, about 45%; agrees partly, says the score understates the risk",
+ "key_points": [
+  {
+   "point": "Verdict real risk, very high risk (~50%); agrees with the flag but the model band (4% bankrupt) understates the risk",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "PortoCem $79.1m guarantee missed, giving debenture holders the right to declare early maturity; acceleration of substantially all debt would leave the company without enough liquidity",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Company expects to fail first-lien and fixed-charge covenants for Q3 2025",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Revolver fully drawn ($710.4m loans + $19.5m L/Cs), no backup liquidity",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Maturity wall: if the $511m 2026 Notes are not dealt with, about $5.0bn more springs due July-August 2026",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Large loss: annualized net income -$1.51bn (-12.6% of assets), mostly non-cash ~$700m impairments, but cash earnings turned negative (-$374m) in H1 2025 after positive FY2022-FY2024",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Operating cash burn: Q2 OCF -$352m; $551m unrestricted cash lasts ~4.7 months at Q2 burn (less with capex)",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Distress signals: financial advisor retained for strategic alternatives, L/C facility rolled week by week then to 2025-11-14, NT 10-K and two NT 10-Qs, Nasdaq notices, material weaknesses",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: no payment missed (Defaults Upon Senior Securities: None), lenders keep waiving (Aug 7 debenture waiver, L/C facility committed)",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: Jamaica sold for $1.055bn, $98.6m escrow, Puerto Rico claim and up to $110m from Genera; positive book equity, CEO bought shares in Oct 2024 offering, most loss non-cash",
+   "importance": "supporting",
+   "candidate": "covered"
+  }
+ ],
+ "contradictions": [
+  "Prior-year annualized net income: CANDIDATE gives -$60.4M, GOLD gives -$70M.",
+  "Peer ranks differ in basis and value: GOLD ranks net income, operating income and OCF as the lowest of 144 peers (in dollars), CANDIDATE puts them at the 9th-12th percentile of 147 peers; revenue 9th percentile vs GOLD 33rd (in $) / 8th (as % of assets); current liabilities 86th vs GOLD 70th ($) / 88th (% of assets)."
+ ],
+ "extra_points_in_candidate": [
+  "Going concern doubt presented as the first main reason, with the exact Note 2 wording",
+  "Debt fair value $5,785M vs $9,088M carrying at year-end 2024 as a market signal of restructuring",
+  "GMLP preferred dividend not paid on 2025-05-15",
+  "PortoCem downgrade trigger suspended through August 30, 2026",
+  "Term Loan A commitments are zero",
+  "Nasdaq compliance deadline 2026-02-16",
+  "Q2 segment margin $25.0M vs $158.4M",
+  "Only about $80M of cash and liquidity estimated at 2024-09-30",
+  "$2.73B New 2029 Notes at 12.000% with springing maturity"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same verdict and nearly the same risk level as GOLD (real risk, very high, ~45% vs ~50%) and covers the critical filing evidence: the missed PortoCem guarantee, the expected covenant breach, the fully drawn revolver and the advisor hire. It gives less weight to the size of the ~$5bn springing maturity wall, the negative cash-earnings trend, and the weekly L/C rollovers and late filings, and has minor differences in prior-year net income and peer ranks.",
+ "critical_recall": 0.67,
+ "all_recall": 0.8,
+ "candidate_check_problems": 0,
+ "gold_words": 1100,
+ "candidate_words": 1049
+}

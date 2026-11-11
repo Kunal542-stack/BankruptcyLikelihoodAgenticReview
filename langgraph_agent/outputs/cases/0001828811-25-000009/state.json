@@ -1,0 +1,1927 @@
+{
+ "adsh": "0001828811-25-000009",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001828811-25-000009",
+ "case": {
+  "adsh": "0001828811-25-000009",
+  "cik": 1828811,
+  "name": "LI-CYCLE HOLDINGS CORP.",
+  "form": "10-K",
+  "fp": "FY",
+  "period_end": "20241231",
+  "filed": "20250331",
+  "sic": 4955,
+  "score": 0.64,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 861.2,
+    "year_before_musd": 886.0,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 20
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 86.4,
+    "year_before_musd": 149.0,
+    "share_of_assets_pct": 10.0,
+    "peer_percentile": 62
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 150.0,
+    "year_before_musd": 156.7,
+    "share_of_assets_pct": 17.4,
+    "peer_percentile": 82
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 598.1,
+    "year_before_musd": 509.6,
+    "share_of_assets_pct": 69.4,
+    "peer_percentile": 55
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 28.0,
+    "year_before_musd": 18.3,
+    "share_of_assets_pct": 3.3,
+    "peer_percentile": 4
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -137.7,
+    "year_before_musd": -138.0,
+    "share_of_assets_pct": -16.0,
+    "peer_percentile": 9
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -125.5,
+    "year_before_musd": -162.6,
+    "share_of_assets_pct": -14.6,
+    "peer_percentile": 9
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -106.4,
+    "year_before_musd": -99.8,
+    "share_of_assets_pct": -12.4,
+    "peer_percentile": 7
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 0.69,
+   "current_ratio": 0.58,
+   "peer_count": 153,
+   "peer_median_liabilities_to_assets": 0.68,
+   "peer_median_current_ratio": 0.8,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20231231,
+    "filed": 20240315,
+    "total_assets": 886000000.0,
+    "current_assets": 149000000.0,
+    "current_liabilities": 156700000.0,
+    "total_liabilities": 509600000.0,
+    "revenue": 18300000.0,
+    "net_income": -138000000.0,
+    "operating_income": -162600000.0,
+    "operating_cash_flow": -99800000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20240331,
+    "filed": 20240510,
+    "total_assets": 932300000.0,
+    "current_assets": 187000000.0,
+    "current_liabilities": 161300000.0,
+    "total_liabilities": 689300000.0,
+    "revenue": 16800000.0,
+    "net_income": -546800000.0,
+    "operating_income": -176800000.0,
+    "operating_cash_flow": -116400000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240630,
+    "filed": 20240808,
+    "total_assets": 899900000.0,
+    "current_assets": 104300000.0,
+    "current_liabilities": 139600000.0,
+    "total_liabilities": 664200000.0,
+    "revenue": 25200000.0,
+    "net_income": -289800000.0,
+    "operating_income": -142200000.0,
+    "operating_cash_flow": -144000000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20240930,
+    "filed": 20241107,
+    "total_assets": 870600000.0,
+    "current_assets": 82100000.0,
+    "current_liabilities": 135800000.0,
+    "total_liabilities": 575300000.0,
+    "revenue": 28000000.0,
+    "net_income": -117866666.66666669,
+    "operating_income": -128400000.0,
+    "operating_cash_flow": -123333333.33333331
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20241231,
+    "filed": 20250331,
+    "total_assets": 861200000.0,
+    "current_assets": 86400000.0,
+    "current_liabilities": 150000000.0,
+    "total_liabilities": 598100000.0,
+    "revenue": 28000000.0,
+    "net_income": -137700000.0,
+    "operating_income": -125500000.0,
+    "operating_cash_flow": -106400000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001828811-25-000009",
+   "form": "10-K",
+   "date": "2025-03-31",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001628280-24-011518",
+   "form": "10-K",
+   "date": "2024-03-15",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001628280-24-046320",
+   "form": "10-Q",
+   "date": "2024-11-07",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001628280-24-035849",
+   "form": "10-Q",
+   "date": "2024-08-08",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001628280-24-022455",
+   "form": "10-Q",
+   "date": "2024-05-10",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001193125-25-037173",
+   "form": "8-K",
+   "date": "2025-02-27",
+   "why": "8-K items 1.01,3.01,7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001193125-25-018466",
+   "form": "8-K",
+   "date": "2025-01-31",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001193125-25-007774",
+   "form": "8-K",
+   "date": "2025-01-16",
+   "why": "8-K items 1.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001193125-25-006238",
+   "form": "8-K",
+   "date": "2025-01-14",
+   "why": "8-K items 1.01,2.03,3.02,9.01"
+  },
+  {
+   "adsh": "0001193125-24-273918",
+   "form": "8-K",
+   "date": "2024-12-10",
+   "why": "8-K items 1.01,2.03,3.02,9.01"
+  },
+  {
+   "adsh": "0001193125-24-253156",
+   "form": "8-K",
+   "date": "2024-11-07",
+   "why": "8-K items 1.01,2.03,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-248114",
+   "form": "8-K",
+   "date": "2024-10-31",
+   "why": "8-K items 1.01,2.03,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-197474",
+   "form": "8-K",
+   "date": "2024-08-09",
+   "why": "8-K items 4.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-180724",
+   "form": "8-K",
+   "date": "2024-07-18",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-172271",
+   "form": "8-K",
+   "date": "2024-06-28",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-155150",
+   "form": "8-K/A",
+   "date": "2024-06-05",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001193125-24-154388",
+   "form": "8-K",
+   "date": "2024-06-04",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001193125-24-138800",
+   "form": "8-K",
+   "date": "2024-05-15",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001140361-24-017276",
+   "form": "8-K",
+   "date": "2024-04-02",
+   "why": "8-K items 4.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-077662",
+   "form": "8-K",
+   "date": "2024-03-26",
+   "why": "8-K items 2.05,5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-076623",
+   "form": "8-K",
+   "date": "2024-03-25",
+   "why": "8-K items 1.01,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-065459",
+   "form": "8-K",
+   "date": "2024-03-12",
+   "why": "8-K items 1.01,2.03,3.02,3.03,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-053521",
+   "form": "NT 10-K",
+   "date": "2024-02-29",
+   "why": "late-filing notice"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concludes there is substantial doubt about the company's ability to continue as a going concern without additional financing.",
+   "numbers": "",
+   "quote": "This casts substantial doubt upon the Company\u2019s ability to continue as a going concern without access to additional capital through financing transactions or otherwise.",
+   "section": "Item 1A. Risk Factors - substantial doubt about going concern"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Year-end cash was small relative to the annual loss and operating cash burn.",
+   "numbers": "cash and cash equivalents $22.6 million; net loss $137.7 million; net cash used in operating activities $106.4 million (FY2024)",
+   "quote": "As of December 31, 2024, Li-Cycle held cash and cash equivalents of $22.6 million.",
+   "section": "Item 1A. Risk Factors - substantial doubt about going concern"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company needs new financing in the near term to fund operations for the next twelve months.",
+   "numbers": "",
+   "quote": "Li-Cycle requires additional short or long-term financing in the near term in order to have sufficient cash and cash equivalents on hand to support current operations for the twelve months following the filing of this Annual Report on Form 10-K.",
+   "section": "Item 1A. Risk Factors - substantial doubt about going concern"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The filing explicitly states that without new capital the company may have to liquidate or file for bankruptcy protection, and that it knows of no sources of financing.",
+   "numbers": "",
+   "quote": "may therefore need to significantly modify or terminate operations or dissolve and liquidate its assets under applicable bankruptcy laws or otherwise file for bankruptcy protection.",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The NYSE began delisting proceedings after the share price stayed below $1.00, trading was suspended on February 26, 2025, and the shares moved to the OTCQX.",
+   "numbers": "average closing price less than $1.00 over 30 trading days; suspended February 26, 2025; OTCQX from February 27, 2025",
+   "quote": "Trading in the Common Shares on the NYSE was suspended immediately after market close on February 26, 2025.",
+   "section": "Item 1A. Risk Factors - active, liquid trading market"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company carries substantial convertible debt that far exceeds its cash.",
+   "numbers": "KSP Convertible Note $133.7 million; First A&R Glencore Note $124.1 million; Second A&R Glencore Convertible Note $121.8 million; Glencore Senior Secured Convertible Note $81.6 million",
+   "quote": "including an aggregate principal amount of $133.7 million outstanding under the KSP Convertible Note, $124.1 million outstanding under the First A&R Glencore Note",
+   "section": "Item 1A. Risk Factors - ability to service debt"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The main debt maturities are not immediate: the KSP note is due September 29, 2026 and the Glencore unsecured note is due May 31, 2027.",
+   "numbers": "KSP $100.0 million original principal due September 29, 2026; Glencore Unsecured $200.0 million due May 31, 2027",
+   "quote": "the unsecured convertible note in the principal amount of $200.0 million due May 31, 2027 issued to an affiliate of Glencore plc on May 31, 2022.",
+   "section": "Frequently Used Terms"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Glencore senior secured note has a monthly minimum liquidity covenant of $10.0 million and a capex limit; with $22.6 million of cash and ongoing burn, the margin is thin, and a breach could lead to acceleration and foreclosure.",
+   "numbers": "minimum liquidity $10.0 million tested monthly; capex limit $2.0 million",
+   "quote": "The Glencore Senior Secured Convertible Note also contains a minimum liquidity covenant that requires us to maintain a minimum amount of liquidity of $10.0 million, tested monthly.",
+   "section": "Item 1A. Risk Factors - Glencore Senior Secured Convertible Note covenants"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Failing to make a required mandatory redemption of the convertible notes would be a default and could trigger cross-acceleration.",
+   "numbers": "",
+   "quote": "Our failure to redeem any or all of the KSP Convertible Notes and the Glencore Convertible Notes, as applicable, as required by their respective terms, will constitute a default thereunder, as applicable.",
+   "section": "Item 1A. Risk Factors - ability to service debt"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company closed a DOE loan facility of up to $475.0 million on November 7, 2024 to fund the Rochester Hub.",
+   "numbers": "up to $475.0 million (up to $445.0 million principal and up to $30.0 million capitalized interest); first advance by November 7, 2025",
+   "quote": "On November 7, 2024, Li-Cycle entered into an agreement for a loan facility of up to $475.0 million",
+   "section": "Item 1. Business - Support from Government Programs"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Drawing on the DOE loan requires about $173.0 million of base equity funding, and the company knows of no source for it.",
+   "numbers": "base equity contribution approximately $173.0 million (up to approximately $97.0 million via letters of credit)",
+   "quote": "We are presently aware of no such sources of financing to fund the base equity contribution we are required to provide as a condition to drawing on the DOE Loan Facility.",
+   "section": "Item 1A. Risk Factors - DOE Loan Facility"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "A January 20, 2025 executive order paused federal disbursements, including by the DOE, adding uncertainty to DOE loan draws.",
+   "numbers": "January 20, 2025",
+   "quote": "paused the disbursement of funds appropriated through the Inflation Reduction Act of 2022 or the Infrastructure Investment and Jobs Act by all federal agencies, including the DOE.",
+   "section": "Item 1A. Risk Factors - DOE Loan Facility"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The Rochester Hub is paused and needs about $483.3 million to complete, including $89.7 million of costs already incurred but unpaid.",
+   "numbers": "total costs incurred $566.6 million; incurred but not yet paid $89.7 million; cost to complete approximately $483.3 million; project cost approximately $960.2 million",
+   "quote": "The Company's current estimate of cost to complete is approximately $483.3 million, including $89.7 million of costs incurred but not yet paid related to the Rochester Hub project as of December 31, 2024.",
+   "section": "Item 1A. Risk Factors - Rochester Hub development"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Contractors have filed mechanic's liens over alleged late payments, and MasTec started arbitration plus a lien foreclosure action (stayed).",
+   "numbers": "liens approximately $64.0 million (contractors and suppliers), $36.0 million (subcontractors), $5.1 million (Warehouse Landlord) as at March 18, 2025; MasTec claim $48.7 million",
+   "quote": "On April 9, 2024, one of the lienors, MasTec, commenced arbitration proceedings to seek recovery of $48.7 million allegedly due under the construction contract for the Rochester Hub project",
+   "section": "Item 1A. Risk Factors - Rochester Hub development"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "A Special Committee hired Moelis to explore financing and strategic alternatives because of the liquidity position.",
+   "numbers": "",
+   "quote": "the Special Committee engaged Moelis to assist with exploring financing options and evaluate strategic alternatives.",
+   "section": "Item 1A. Risk Factors - Cash Preservation Plan and strategic alternatives"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Glencore, the main lender, sent a letter on March 14, 2025 expressing interest in a potential transaction involving the company.",
+   "numbers": "March 14, 2025",
+   "quote": "On March 14, 2025, we received a letter from Glencore, expressing its interest in a potential transaction involving Li-Cycle.",
+   "section": "Item 1A. Risk Factors - additional third-party financing"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Any strategic transaction may give little or no value to existing equity.",
+   "numbers": "",
+   "quote": "Given the Company\u2019s current financial position, the terms of any such strategic transaction may assign limited or no value to the Company\u2019s existing equity.",
+   "section": "Item 1A. Risk Factors - additional third-party financing"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The company did raise money through the Glencore senior secured note, an ATM program and an underwritten offering, but says it still needs significant additional financing.",
+   "numbers": "Glencore Senior Secured Convertible Note $75.0 million issued March 25, 2024",
+   "quote": "While Li-Cycle was successful in closing the Glencore Senior Secured Convertible Note investment, the Company will require a significant amount of financing in addition to the proceeds of the Glencore Senior Secured Convertible Note",
+   "section": "Item 1A. Risk Factors - Cash Preservation Plan and strategic alternatives"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The Glencore convertible notes were amended and restated again on January 31, 2025, and Glencore gave a consent and waiver for the underwritten offering.",
+   "numbers": "January 31, 2025",
+   "quote": "The A&R Glencore Convertible Notes were further amended and restated on January 31, 2025.",
+   "section": "Item 5. Market for Registrant's Common Equity - Glencore Convertible Notes"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Interest on the Glencore notes is paid in kind rather than in cash, which saves cash but grows the debt balance.",
+   "numbers": "",
+   "quote": "The Company has elected to pay interest by PIK since the first interest payment on the Glencore Senior Secured Convertible Note on December 31, 2024.",
+   "section": "Item 5. Market for Registrant's Common Equity - Glencore Convertible Notes"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Most of the company's assets already secure the Glencore notes and the DOE loan, so it has little room to raise more secured debt.",
+   "numbers": "",
+   "quote": "we do not have substantial remaining assets available to secure other indebtedness.",
+   "section": "Item 1A. Risk Factors - secured indebtedness"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Under the Cash Preservation Plan the company cut staff, began closing the Ontario Spoke and curtailed the New York Spoke; it still ran three Spokes and sold 5,919 tonnes of BM&E in 2024.",
+   "numbers": "approximately 240 employees; recycled 9,113 tonnes; produced 5,385 tonnes BM&E; sold 5,919 tonnes BM&E",
+   "quote": "commencement of closure activities at its Ontario Spoke, curtailing of operations at its New York Spoke",
+   "section": "Item 1A. Risk Factors - Cash Preservation Plan; Item 7. MD&A - Company Overview"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company has a history of net losses and expects them to continue.",
+   "numbers": "net loss $137.7 million (FY2024); $138.0 million (FY2023)",
+   "quote": "Li-Cycle expects to incur net losses in the future and may never achieve sustained profitability.",
+   "section": "Item 1A. Risk Factors - history of losses"
+  },
+  {
+   "filing": "10-K filed 2025-03-31",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The company reports material weaknesses in internal control over financial reporting.",
+   "numbers": "",
+   "quote": "Li-Cycle has identified material weaknesses in its internal control over financial reporting.",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded there is substantial doubt about the company's ability to continue as a going concern for one year.",
+   "numbers": "",
+   "quote": "the Company has concluded that there is substantial doubt about its ability to continue as a going concern for a period of one year from the date that the Consolidated Financial Statements are issued.",
+   "section": "Item 7. MD&A - Overview"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "FY2023 net loss and operating cash outflow were large, and the cash balance is declining.",
+   "numbers": "net loss $138.0 million; cash flows used in operating activities $99.8 million (FY2023)",
+   "quote": "As of December 31, 2023, Li-Cycle\u2019s net loss and cash flows used in operating activities amounted to $138.0 million and $99.8 million, respectively.",
+   "section": "Item 1A. Risk Factors - substantial doubt about going concern"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Even with the Glencore senior secured note, the company says it lacks cash for twelve months unless it raises more near-term financing.",
+   "numbers": "",
+   "quote": "it will not have sufficient cash and cash equivalents on hand to support current operations for the twelve months following the filing of this Annual Report on Form 10-K.",
+   "section": "Item 1A. Risk Factors - substantial doubt about going concern"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The filing warns that without enough capital the company may have to terminate operations or liquidate under bankruptcy laws.",
+   "numbers": "",
+   "quote": "may therefore need to significantly modify or terminate operations or dissolve and liquidate our assets under applicable bankruptcy laws or otherwise.",
+   "section": "Item 1A. Risk Factors - substantial doubt about going concern"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Total convertible debt at year-end 2023 was $344.6 million.",
+   "numbers": "total indebtedness $344.6 million; KSP Convertible Note $119.3 million; Glencore Convertible Notes $225.3 million",
+   "quote": "As of December 31, 2023, we had total indebtedness of $344.6 million outstanding, including $119.3 million outstanding under the KSP Convertible Note and $225.3 million outstanding under the Glencore Convertible Notes.",
+   "section": "Item 1A. Risk Factors - ability to service debt"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The KSP note matures September 29, 2026, so the main maturity is not within the next year.",
+   "numbers": "$100.0 million due September 29, 2026",
+   "quote": "the unsecured convertible note in the principal amount of $100.0 million due September 29, 2026",
+   "section": "Frequently Used Terms"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On March 11, 2024 the company agreed to issue a $75.0 million senior secured convertible note to a Glencore affiliate, expected to close around March 25, 2024, subject to conditions.",
+   "numbers": "$75.0 million; agreement March 11, 2024; expected close March 25, 2024",
+   "quote": "on March 11, 2024, the Company entered into the Glencore Senior Secured Convertible Note Purchase Agreement to issue the Glencore Senior Secured Convertible Note in an aggregate principal amount of $75.0 million to an affiliate of Glencore plc",
+   "section": "Item 1A. Risk Factors - ability to service debt; Item 7. MD&A"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company relied on the NYSE financial viability exception to skip shareholder approval for the Glencore note, which signals financial distress.",
+   "numbers": "",
+   "quote": "the Company\u2019s reliance on the NYSE financial viability exception to the NYSE\u2019s shareholder approval policy",
+   "section": "Item 7. MD&A - Overview"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company says it needs significant financing beyond the Glencore senior secured note.",
+   "numbers": "",
+   "quote": "The Company will require a significant amount of financing in addition to the Glencore Senior Secured Convertible Note in order to meet its funding needs.",
+   "section": "Item 1A. Risk Factors - substantial doubt about going concern"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The new Glencore note will carry a monthly minimum liquidity covenant of $10.0 million and a capex limit; an uncured breach could allow acceleration and foreclosure.",
+   "numbers": "minimum liquidity $10.0 million tested monthly; capex limit $2.0 million",
+   "quote": "require us to maintain a minimum amount of liquidity to be set at $10.0 million, to be tested monthly.",
+   "section": "Item 1A. Risk Factors - Glencore Senior Secured Convertible Note covenants"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The Glencore senior secured note will be secured by most of the company's assets, which leaves little collateral for other borrowing.",
+   "numbers": "",
+   "quote": "we will not have substantial remaining assets available to secure other indebtedness",
+   "section": "Item 1A. Risk Factors - secured indebtedness"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company may not have the cash for mandatory redemptions, and failing to redeem would be a default that could cause cross-acceleration.",
+   "numbers": "",
+   "quote": "We may not have sufficient available cash or be able to obtain financing at the time of a mandatory redemption.",
+   "section": "Item 1A. Risk Factors - ability to service debt"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Interest on the Glencore convertible notes has been paid in kind, which saves cash but grows the debt.",
+   "numbers": "first interest payment date November 30, 2022",
+   "quote": "The Company has elected to pay interest by PIK since the first interest payment date on the Glencore Convertible Note of November 30, 2022.",
+   "section": "Item 5. Market for Registrant's Common Equity - Glencore Convertible Notes"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "Glencore could own about 47.8% on an as-converted basis and will get the right to nominate two more directors, which points to deeper lender involvement.",
+   "numbers": "approximately 47.8%",
+   "quote": "Glencore and its affiliates would beneficially own approximately 47.8% of the common shares on an as-converted basis",
+   "section": "Item 7. MD&A - Overview"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Rochester Hub construction is paused; its revised cost is about $960.2 million against $452.2 million spent, and it needs significant funding before restarting.",
+   "numbers": "total costs incurred $567.2 million; cash spend $452.2 million; incurred but not yet paid $115.0 million; revised project cost approximately $960.2 million",
+   "quote": "the revised estimated project cost of the Rochester Hub project is approximately $960.2 million for the MHP scope.",
+   "section": "Item 1A. Risk Factors - Rochester Hub development"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The DOE loan was only a conditional commitment of up to $375.0 million, with no assurance it would close or at what size.",
+   "numbers": "up to $375.0 million",
+   "quote": "There are no assurances that the DOE Loan will close, that it will not be significantly modified, or that it will yield the maximum amount of expected gross proceeds",
+   "section": "Item 1A. Risk Factors - Rochester Hub development"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Contractors filed mechanic's liens over alleged late payments on the Rochester Hub, though no foreclosure proceeding was pending at the time.",
+   "numbers": "liens approximately $67.6 million, $31.4 million, $5.6 million and $8.6 million as at February 29, 2024",
+   "quote": "Currently, no legal proceeding is pending to foreclose on any of these liens.",
+   "section": "Item 3. Legal Proceedings - Mechanic's Liens Filed in New York State"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The Rochester Hub warehouse landlord sent a notice of default; a court restrained termination, and the parties reached an agreement in principle on a ground lease.",
+   "numbers": "unpaid amount $5.1 million claimed by Warehouse Landlord",
+   "quote": "the parties have reached an agreement in principle that would include the restatement of the Hub Warehouse Agreement as a ground lease",
+   "section": "Item 1A. Risk Factors; Item 3. Legal Proceedings"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "A Special Committee hired Moelis and other advisors to explore financing and strategic alternatives and to help manage short-term liquidity.",
+   "numbers": "",
+   "quote": "as well as to assist the Company with managing short-term liquidity and implementing liquidity generating initiatives.",
+   "section": "Item 7. MD&A - Overview"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company received an NYSE notice on December 20, 2023 for trading below $1.00 and had six months to cure.",
+   "numbers": "less than $1.00 over 30 trading days; notice December 20, 2023; six-month cure period",
+   "quote": "the average closing price of Li-Cycle\u2019s common shares was less than $1.00 over a consecutive 30 trading-day period.",
+   "section": "Item 1A. Risk Factors - NYSE delisting"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Under the Cash Preservation Plan the company paused the Ontario Spoke, slowed other Spokes, and expected further significant workforce cuts.",
+   "numbers": "",
+   "quote": "additional steps that the Company expects to take in the near-term to significantly reduce the workforce",
+   "section": "Item 1A. Risk Factors - Cash Preservation Plan"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The company's market capitalization fell sharply after the Rochester Hub pause, so counterparties may give its assets little value.",
+   "numbers": "",
+   "quote": "the market capitalization of Li-Cycle has sharply declined following the announcement of the construction pause on the Rochester Hub project on October 23, 2023.",
+   "section": "Item 1A. Risk Factors - Cash Preservation Plan and strategic alternatives"
+  },
+  {
+   "filing": "10-K filed 2024-03-15",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The company reports material weaknesses in internal control over financial reporting, made worse by planned cuts to accounting staff.",
+   "numbers": "",
+   "quote": "Li-Cycle has identified material weaknesses in its internal control over financial reporting",
+   "section": "Item 1A. Risk Factors - internal control over financial reporting"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded there is substantial doubt about the company's ability to continue as a going concern for one year, citing recurring operating losses, operating cash burn and the paused Rochester Hub.",
+   "numbers": "losses from operations $25.2 million (Q3 2024) and $96.3 million (nine months 2024); net cash used in operating activities $92.5 million (nine months 2024)",
+   "quote": "the Company has concluded that there is substantial doubt about its ability to continue as a going concern for a period of one year",
+   "section": "Note 1 - Going concern"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "MD&A states that without additional near-term financing the company will not have adequate liquidity over the next 12 months.",
+   "numbers": "",
+   "quote": "without additional financing in the near term, we will not have adequate liquidity during the 12-month period following September 30, 2024",
+   "section": "MD&A - Liquidity and Financing Initiatives"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Unrestricted cash fell by more than half since year-end and total cash including restricted cash dropped to $42.1 million.",
+   "numbers": "cash and cash equivalents $32.2 million vs $70.6 million at Dec 31, 2023; restricted cash $9.9 million; cash, cash equivalents and restricted cash $42.1 million vs $80.3 million; total current assets $82.1 million vs $149.0 million",
+   "quote": "Cash and cash equivalents $ 32.2 $ 70.6",
+   "section": "Balance sheet; MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash burn continued in Q3 2024, though at a lower rate than a year earlier, and management expects negative operating cash flow until the paused Rochester Hub is completed and operating.",
+   "numbers": "net cash used in operating activities $(20.6) million Q3 2024 vs $(38.7) million Q3 2023; $(92.5) million nine months 2024",
+   "quote": "Net cash used in operating activities $ (20.6) $ (38.7) $ 18.1 $ (92.5) $ (89.3) $ (3.2)",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter-end the company signed a DOE ATVM loan facility of up to $475 million for the Rochester Hub, with no scheduled principal repayments before June 15, 2027 and final maturity in 2040.",
+   "numbers": "up to $475 million (up to $445 million principal and up to $30 million deferred and accrued interest); draws through March 31, 2027; final maturity March 15, 2040",
+   "quote": "On November 7, 2024, the Company entered into an agreement for a loan facility (\u201cDOE Loan Facility\u201d) of up to $475 million",
+   "section": "Note 17 - Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Drawing on the DOE facility requires a first draw by November 7, 2025, full payment of a Base Equity Contribution that includes about $173 million of reserve accounts, and settling about $92 million of unpaid Hub commitments, which the company does not yet have funding for.",
+   "numbers": "reserve accounts approximately $173 million (up to approximately $97 million via letters of credit); approximately $92 million of unpaid commitments; first draw deadline November 7, 2025",
+   "quote": "The amount of the Base Equity Contribution includes an estimated approximately $173 million to fund reserve accounts required under the DOE Loan Facility",
+   "section": "Note 17 - Subsequent events; MD&A - Liquidity and Financing Initiatives"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The DOE facility requires a minimum unrestricted cash balance after the first draw and carries operational and financial covenants that may restrict further financing.",
+   "numbers": "minimum unrestricted cash $20 million before Hub completion, $10 million after",
+   "quote": "The Company is also required to maintain a minimum unrestricted cash balance after First Advance of $20 million prior to completion of the Rochester Hub Project",
+   "section": "Note 17 - Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Restarting construction of the Rochester Hub needs large additional funding far above current cash, and management says there is no assurance any financing would be enough to restart or complete it.",
+   "numbers": "estimated cost to complete $486.7 million, including $91.9 million of existing Hub commitments in accounts payable",
+   "quote": "We will require additional funding to restart the construction of the Rochester Hub which has an estimated cost to complete of $486.7 million inclusive of $91.9 million to settle various existing Hub commitments included in accounts payable.",
+   "section": "MD&A - Material Cash Requirements"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Convertible debt rose to $342.6 million carrying value, with $609.1 million of principal and rolled-up interest due over the next five years, starting with $163.7 million in 2026.",
+   "numbers": "total convertible debt $342.6 million vs $288.1 million; maturities 2025 $\u2014, 2026 $163.7, 2027 $314.5, 2028 $\u2014, 2029 $130.9, total $609.1 million",
+   "quote": "Total convertible debt at end of the period $ 342.6 $ 288.1",
+   "section": "Note 11 - Convertible debt"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The company pays interest on its convertible notes in kind rather than cash, which saves cash now but grows principal at high effective rates.",
+   "numbers": "effective interest rate 18.7% (KSP) and 20.6% (Glencore notes); non-cash interest and accretion on convertible debt $44.4 million (nine months 2024)",
+   "quote": "The Company has elected to pay interest by PIK since the first interest payment date of December 31, 2021.",
+   "section": "Note 11 - Convertible debt; cash flow statement"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Glencore senior secured note has a monthly-tested minimum liquidity covenant and a capital expenditure limit, both tight given current cash levels.",
+   "numbers": "minimum liquidity $10.0 million tested monthly; capex limit $2.0 million per transaction",
+   "quote": "The Glencore Senior Secured Convertible Note also contains a minimum liquidity covenant that will require us to maintain a minimum amount of liquidity to be set at $10.0 million, to be tested monthly.",
+   "section": "MD&A - Liquidity and Financing Initiatives"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The $75 million Glencore senior secured note is secured by first-priority liens on all assets of the company and its main subsidiaries, and the A&R Glencore notes will become pari passu secured with a new five-year maturity from December 9, 2024.",
+   "numbers": "$75.0 million senior secured note maturing March 25, 2029; A&R Glencore notes $116.6 million and $114.6 million",
+   "quote": "The Company and the Issuance Date Note Guarantors have also granted perfected, first priority security interests (subject to customary exceptions and permitted liens) in all of their respective assets",
+   "section": "Note 11 - Convertible debt"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The First A&R Glencore Note's maturity is set to be pushed out to five years from December 9, 2024, extending its due date.",
+   "numbers": "",
+   "quote": "the maturity will be amended to be five (5) years from December 9, 2024",
+   "section": "MD&A - Liquidity and Financing Initiatives"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "The Q3 2024 net income of $56.5 million came from a non-cash fair value gain on convertible note derivatives driven by the share price decline; adjusted EBITDA remained negative.",
+   "numbers": "fair value gain $99.2 million (Q3) and $110.1 million (nine months); Q3 net income $56.5 million; adjusted EBITDA $(21.7) million Q3 and $(72.5) million nine months",
+   "quote": "During the three and nine months ended September 30, 2024, the Company recognized a fair value gain of $99.2 million and $110.1 million on the embedded derivatives",
+   "section": "Note 11 - Convertible debt; MD&A - Non-GAAP reconciliation"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "The nine-month net loss of $88.4 million includes a one-off non-cash debt extinguishment loss and large non-cash interest, alongside share-based compensation and depreciation.",
+   "numbers": "debt extinguishment loss $58.9 million; interest and accretion $44.4 million; share-based compensation $6.1 million; depreciation and amortization $11.2 million; net loss $(88.4) million",
+   "quote": "primarily driven by the non-cash debt extinguishment loss of $58.9 million",
+   "section": "MD&A - Other income (expense); cash flow statement"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "No impairment was recorded, but the recoverability test assumes Hub financing is obtained; the no-funding scenario does not support the North America asset carrying value.",
+   "numbers": "PP&E $693.2 million",
+   "quote": "If over time Li-Cycle does not obtain financing, there could be an impairment.",
+   "section": "MD&A - Material Accounting Policies and Critical Estimates"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "A Special Committee hired Moelis and other advisors to explore financing and strategic alternatives and manage short-term liquidity.",
+   "numbers": "",
+   "quote": "The Special Committee selected Moelis and other advisors to assist with exploring financing options to increase the liquidity of Li-Cycle",
+   "section": "Note 1 - Going concern"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "Under its Cash Preservation Plan the company is cutting staff, closing the Ontario Spoke, and after quarter-end decided to curtail its New York Spoke.",
+   "numbers": "",
+   "quote": "On November 7, 2024, the Company decided to curtail operations at its New York Spoke as part of its Spoke optimization plans and focus on Generation 3 Spokes.",
+   "section": "MD&A - Company Overview; Note 1"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Main Hub contractor MasTec is pursuing arbitration and foreclosure actions over amounts it says are owed, and an affiliate filed a second foreclosure action for subcontractors.",
+   "numbers": "$48.7 million claimed, reflected in accounts payable",
+   "quote": "seek recovery of $48.7 million allegedly due under the construction contract for the Rochester Hub project, plus interest, fees, costs and expenses",
+   "section": "Note 14 - Commitments and contingencies"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The Pike warehouse lease dispute was settled through an amended ground sublease and the lawsuit was discontinued.",
+   "numbers": "",
+   "quote": "Following certain court-ordered settlement conferences, the parties reached a settlement.",
+   "section": "Note 14 - Commitments and contingencies"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The ATM equity program has raised very little so far at a low share price, leaving most of its capacity unused.",
+   "numbers": "$1.1 million net proceeds; 701,323 shares at $1.67 weighted average; remaining capacity $73.8 million of $75.0 million",
+   "quote": "As of September 30, 2024, the Company raised $1.1 million of net proceeds under the ATM Program by issuing an aggregate of 701,323 of the Company\u2019s common shares at a weighted average price of $1.67 per share",
+   "section": "Note 12 - Share capital"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company lists possible NYSE delisting among its risks and carried out a 1-for-8 share consolidation effective June 3, 2024.",
+   "numbers": "1-for-8 share consolidation",
+   "quote": "the NYSE may delist our common shares, which could limit investors\u2019 ability to engage in transactions in our common shares",
+   "section": "Forward-looking statements; Note 12 - Share capital"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "KPMG declined to stand for re-appointment as auditor, and Marcum Canada LLP was appointed on October 15, 2024 for fiscal 2024.",
+   "numbers": "",
+   "quote": "KPMG LLP (\u201cKPMG\u201d), the Company\u2019s independent registered public accounting firm, notified the Company that it had decided to decline to stand for re-appointment",
+   "section": "Note 17 - Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Glencore agreed to buy all MHP output from the Rochester Hub, and off-take and working capital terms were aligned with the DOE loan requirements.",
+   "numbers": "100% of MHP",
+   "quote": "the Company entered into an agreement with Glencore Ltd. (\u201cGlencore\u201d) covering the off-take of 100% of the MHP to be produced at its Rochester Hub",
+   "section": "Note 17 - Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue grew but remains well below cost of sales, so the business loses money at the gross level, while SG&A fell sharply from restructuring.",
+   "numbers": "revenue $8.4 million Q3 2024 vs $4.7 million; cost of sales $(20.0) million Q3; nine-month revenue $21.0 million vs cost of sales $(57.3) million; SG&A down $13.0 million or 50% in Q3",
+   "quote": "Revenue $ 8.4 $ 4.7 $ 3.7 $ 21.0 $ 11.9 $ 9.1",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2024-11-07",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Total liabilities increased while equity declined, though equity remains positive.",
+   "numbers": "total liabilities $575.3 million vs $509.6 million; total equity $295.3 million vs $376.4 million; accumulated deficit $(360.0) million",
+   "quote": "Total liabilities $ 575.3 $ 509.6",
+   "section": "Balance sheet"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded there is substantial doubt about the company's ability to continue as a going concern for one year, citing recurring operating losses, operating cash burn and the paused Rochester Hub.",
+   "numbers": "losses from operations $26.9 million (Q2 2024) and $71.1 million (six months 2024); net cash used in operating activities $72.0 million (six months 2024)",
+   "quote": "the Company has concluded that there is substantial doubt about its ability to continue as a going concern for a period of one year",
+   "section": "Note 1 - Going concern; Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "MD&A states that without additional near-term financing the company will not have adequate liquidity over the next 12 months.",
+   "numbers": "",
+   "quote": "without additional financing in the near term, we will not have adequate liquidity during the 12-month period following June 30, 2024",
+   "section": "MD&A - Liquidity and Financing Initiatives; Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash declined from year-end even after the $75 million Glencore note proceeds, and the risk factors describe a declining cash balance.",
+   "numbers": "cash and cash equivalents $57.0 million vs $70.6 million; restricted cash $9.6 million; cash, cash equivalents and restricted cash $66.6 million vs $80.3 million; total current assets $104.3 million vs $149.0 million",
+   "quote": "Cash, cash equivalents and restricted cash were $66.6 million as at June 30, 2024, compared to $80.3 million as at December 31, 2023.",
+   "section": "Balance sheet; MD&A - Sources and Conditions of Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Quarterly operating cash burn stayed high in Q2 2024, and six-month operating cash use was higher than a year earlier.",
+   "numbers": "net cash used in operating activities $(37.3) million Q2 2024 vs $(38.7) million Q2 2023; $(72.0) million six months 2024 vs $(63.8) million",
+   "quote": "Net cash used in operating activities $ (37.3) $ (38.7) $ 1.4 $ (72.0) $ (63.8) $ (8.2)",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised new secured money from Glencore in March 2024, which made up nearly all financing inflows for the period.",
+   "numbers": "$75.0 million gross proceeds; $1.3 million transaction costs; net cash from financing $73.7 million",
+   "quote": "net cash provided by financing activities were $73.7 million, compared to $0.4 million used in the corresponding period of 2023, and were primarily driven by $75.0 million of gross proceeds",
+   "section": "MD&A - Cash Flows Summary"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "A DOE conditional commitment for up to $375.0 million was still not closed, and the company says it cannot know when or whether any DOE funds will be received.",
+   "numbers": "up to $375.0 million conditional commitment; $8.8 million spent on DOE loan process fees",
+   "quote": "We cannot know or guarantee when, if ever, or how much, if any, funds will be available or received from the on-going DOE loan process.",
+   "section": "MD&A - Liquidity and Financing Initiatives; Sources and Conditions of Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Even if the DOE loan closes, the company must first raise separate financing for a base equity commitment and reserve amounts before it can draw.",
+   "numbers": "",
+   "quote": "to secure additional financing required by us to fund a required base equity commitment and required reserve amounts in order to draw down on the contemplated DOE Loan",
+   "section": "MD&A - Liquidity and Financing Initiatives"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Restarting the Rochester Hub requires large additional funding well beyond current cash.",
+   "numbers": "estimated cost to complete $490.9 million, including $94.3 million of existing Hub commitments in accounts payable",
+   "quote": "We will require additional funding to restart the construction of the Rochester Hub which has an estimated cost to complete of $490.9 million inclusive of $94.3 million to settle various existing Hub commitments included in accounts payable.",
+   "section": "MD&A - Material Cash Requirements"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "No material debt matures and no cash interest is required on the convertible notes until September 29, 2026 because of the PIK option.",
+   "numbers": "first material maturity September 29, 2026",
+   "quote": "We have no material debt maturities until September 29, 2026 and no requirements to pay cash interest associated with our convertible debt until September 29, 2026 under the Company\u2019s option to elect PIK interest.",
+   "section": "MD&A - Material Cash Requirements"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Convertible debt rose to $426.4 million carrying value, with $615.9 million of principal and rolled-up interest due in 2027 to 2029, and the notes carry high effective interest rates.",
+   "numbers": "convertible debt $426.4 million vs $288.1 million; maturities 2027 $164.9, 2028 $320.1, 2029 $130.9, total $615.9 million; effective rates 18.7% (KSP) and 20.6% (Glencore)",
+   "quote": "At June 30, 2024, we had convertible debt of $426.4 million.",
+   "section": "Note 11 - Convertible debt; MD&A - Sources and Conditions of Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Glencore senior secured note includes a monthly-tested minimum liquidity covenant and a capital expenditure limit.",
+   "numbers": "minimum liquidity $10.0 million tested monthly; capex limit $2.0 million per transaction",
+   "quote": "The Glencore Senior Secured Convertible Note also contains a minimum liquidity covenant that will require us to maintain a minimum amount of liquidity to be set at $10.0 million, to be tested monthly.",
+   "section": "MD&A - Liquidity and Financing Initiatives"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "Glencore's notes could give it near-control of the company on conversion, and it gained the right to nominate two more directors, which shows a supportive but increasingly dominant creditor.",
+   "numbers": "approximately 49.86% as-converted ownership; three Board nominees",
+   "quote": "Glencore and its affiliates would beneficially own approximately 49.86% of the common shares on an as-converted basis",
+   "section": "MD&A - Liquidity and Financing Initiatives"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "The six-month net loss of $144.9 million includes a one-off non-cash debt extinguishment loss and non-cash interest, alongside share-based compensation and depreciation.",
+   "numbers": "debt extinguishment loss $58.9 million; interest and accretion on convertible debt $27.1 million; share-based compensation $4.2 million; depreciation and amortization $6.8 million; net loss $(144.9) million",
+   "quote": "primarily driven by the non-cash debt extinguishment loss of $58.9 million and increase in interest expense of $25.9 million",
+   "section": "MD&A - Other income (expense); cash flow statement"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "The small Q2 net loss of $8.2 million was helped by a non-cash fair value gain on note derivatives, and adjusted EBITDA remained clearly negative.",
+   "numbers": "fair value gain $34.7 million (Q2) and $10.9 million (six months); adjusted EBITDA $(23.4) million Q2 and $(50.8) million six months",
+   "quote": "During the three and six months ended June 30, 2024, the Company recognized a fair value gain of $34.7 million and $10.9 million on the embedded derivatives",
+   "section": "Note 11 - Convertible debt; MD&A - Non-GAAP reconciliation"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "No impairment was recorded, but the test assumes Hub financing is obtained; the no-funding model does not support the North America asset carrying value.",
+   "numbers": "PP&E $697.8 million",
+   "quote": "If over time Li-Cycle does not obtain financing, there could be an impairment.",
+   "section": "MD&A - Material Accounting Policies and Critical Estimates"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "A Special Committee hired Moelis and other advisors to explore financing and strategic alternatives and manage short-term liquidity.",
+   "numbers": "",
+   "quote": "The Special Committee selected Moelis and other advisors to assist with exploring financing options to increase the liquidity of Li-Cycle",
+   "section": "Note 1 - Going concern"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company finished a workforce reduction, expects to close the Ontario Spoke, and spent cash on non-recurring restructuring costs and litigation.",
+   "numbers": "approximately 17% of workforce; cash restructuring costs $11.2 million; lawsuit and lien cash costs $5.7 million; $4.4 million cash severance expected in next 12 months",
+   "quote": "the Company completed the workforce reduction announced on March 26, 2024, affecting approximately 17% of the Company\u2019s workforce, primarily at the corporate level",
+   "section": "Note 1 - Going concern; MD&A - Net Cash Used in Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Contractors, subcontractors and the warehouse landlord filed mechanic's liens over alleged late payments on the Rochester Hub, which may block asset sales or use of the properties as collateral.",
+   "numbers": "approximately $65.1 million (contractors and suppliers), $38.7 million (subcontractors), $5.1 million (Warehouse Landlord) as at August 1, 2024",
+   "quote": "As at August 1, 2024, there were liens on the Company\u2019s interests in the Rochester Hub property filed by contractors and suppliers to the Company of approximately $65.1 million",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Hub contractor MasTec started arbitration and a foreclosure action, and an affiliate filed a second foreclosure action on behalf of subcontractors.",
+   "numbers": "$48.7 million claimed, reflected in accounts payable",
+   "quote": "seek recovery of $48.7 million allegedly due under the construction contract for the Rochester Hub project, plus interest, fees, costs and expenses",
+   "section": "Note 14 - Commitments and contingencies"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The Pike warehouse lease dispute was settled and the lawsuit discontinued on June 24, 2024.",
+   "numbers": "",
+   "quote": "Following certain court-ordered settlement conferences, the parties reached a settlement.",
+   "section": "Note 14 - Commitments and contingencies"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company negotiated longer payment terms with suppliers to push some trade payables beyond one year, a sign of cash strain.",
+   "numbers": "$6.3 million of trade payables deferred; $1.5 million interest on deferrals",
+   "quote": "we reached new agreements and renegotiated certain previous agreements with certain suppliers to extend the payment terms for $6.3 million of trade accounts payable beyond one year",
+   "section": "MD&A - Sources and Conditions of Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Apart from Hub commitments, the company has sizable payables plus lease and severance cash needs over the next year.",
+   "numbers": "accounts payable $41.7 million excluding Hub; cash lease payments $10.7 million; cash severance $4.4 million",
+   "quote": "Excluding Rochester Hub related commitments referred to above, we have $41.7 million of accounts payable as at June 30, 2024",
+   "section": "MD&A - Material Cash Requirements"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "A $75 million ATM equity program was set up in June 2024, but the company gives no assurance it can raise money through it.",
+   "numbers": "$75 million ATM; \u20ac5.3 million ($5.8 million) grant received April 30, 2024",
+   "quote": "We can provide no assurance as to whether we will be able to raise funds through the sale of our common shares under the ATM.",
+   "section": "MD&A - Sources and Conditions of Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Disclosure controls were not effective because of material weaknesses in internal control over financial reporting.",
+   "numbers": "",
+   "quote": "its disclosure controls and procedures were not effective, due to the material weaknesses in the Company\u2019s internal control over financial reporting described below",
+   "section": "Item 4 - Controls and Procedures"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company lists possible NYSE delisting among its risks and did a 1-for-8 share consolidation effective June 3, 2024.",
+   "numbers": "1-for-8 share consolidation",
+   "quote": "the NYSE may delist our common shares, which could limit investors\u2019 ability to engage in transactions in our common shares and subject us to additional trading restrictions",
+   "section": "Forward-looking statements; Note 12 - Share capital"
+  },
+  {
+   "filing": "10-Q filed 2024-08-08",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Total liabilities grew sharply while equity shrank, though equity stays positive.",
+   "numbers": "total liabilities $664.2 million vs $509.6 million; total equity $235.7 million vs $376.4 million; accumulated deficit $(416.5) million",
+   "quote": "Total liabilities $ 664.2 $ 509.6",
+   "section": "Balance sheet"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded there is substantial doubt about the company's ability to continue as a going concern for one year, citing recurring operating losses, operating cash burn and the Rochester Hub construction pause.",
+   "numbers": "losses from operations $44.2 million (Q1 2024) vs $39.1 million (Q1 2023); net cash used in operating activities $29.1 million vs $22.4 million",
+   "quote": "the Company has concluded that there is substantial doubt about its ability to continue as a going concern for a period of one year from the date that these unaudited condensed consolidated interim financial statements were issued.",
+   "section": "Note 1 ii. Going concern"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The filing warns the company may need to terminate operations or liquidate under bankruptcy laws if it cannot address its liquidity needs, and says its ability to pay all creditors in full is uncertain.",
+   "numbers": "",
+   "quote": "may therefore need to significantly modify or terminate operations or dissolve and liquidate its assets under applicable bankruptcy laws or otherwise.",
+   "section": "MD&A - Key Factors - Financial Condition and Capital Requirements"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The company states outright that its ability to satisfy all creditor claims in full is uncertain and that losses have continued since quarter end.",
+   "numbers": "",
+   "quote": "The Company\u2019s ability to satisfy claims of all its creditors in full is uncertain.",
+   "section": "MD&A - Key Factors - Financial Condition and Capital Requirements"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large part of the $136.7 million quarterly net loss is non-cash: a $58.9 million debt extinguishment loss on the Glencore note amendment, $23.8 million fair value loss on financial instruments, $11.5 million interest and accretion on convertible debt, $4.2 million depreciation and $3.2 million share-based compensation.",
+   "numbers": "net loss $136.7 million; debt extinguishment loss $58.9 million; fair value loss $23.8 million; interest and accretion $11.5 million; D&A $4.2 million; share-based compensation $3.2 million",
+   "quote": "the Company recorded $58.9 million as a debt extinguishment loss presented in the unaudited condensed consolidated statement of operations and comprehensive loss for the three months ended March 31, 2024.",
+   "section": "Note on convertible debt (Glencore); Statement of cash flows"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Cash rose to $109.1 million at March 31, 2024 from $70.6 million at December 31, 2023, helped by the new Glencore financing, with restricted cash of $9.6 million; operating cash burn was $29.1 million in the quarter.",
+   "numbers": "cash $109.1 million vs $70.6 million; restricted cash $9.6 million; cash, cash equivalents and restricted cash $118.7 million; financing inflow $73.7 million",
+   "quote": "Cash and cash equivalents $ 109.1 $ 70.6",
+   "section": "Balance sheet; Statement of cash flows"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company closed a $75.0 million senior secured convertible note with a Glencore affiliate on March 25, 2024, providing new money from an existing lender.",
+   "numbers": "$75.0 million",
+   "quote": "On March 11, 2024, the Company entered into an agreement (the \u201cGlencore Senior Secured Convertible Note Purchase Agreement\u201d) to issue a senior secured convertible note in an aggregate principal amount of $75.0 million to an affiliate of Glencore plc",
+   "section": "Note 1 ii. Going concern"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Despite the Glencore note, the company says it needs significant additional financing and there is no assurance it will obtain it.",
+   "numbers": "",
+   "quote": "The Company will require a significant amount of financing in addition to the Glencore Senior Secured Convertible Note in order to meet its funding needs.",
+   "section": "MD&A - Key Factors - Financing Options and Strategic Alternatives"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "A Special Committee hired Moelis and other advisors to explore financing and strategic alternatives and to help manage short-term liquidity.",
+   "numbers": "",
+   "quote": "The Special Committee selected Moelis & Company LLC (\u201cMoelis\u201d) and other advisors to assist with exploring financing options to increase the liquidity of Li-Cycle",
+   "section": "MD&A - Overview"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Convertible debt totals $447.7 million on the balance sheet, with no scheduled maturities until 2027, when $163.4 million comes due, followed by $314.5 million in 2028 and $130.9 million in 2029.",
+   "numbers": "total convertible debt $447.7 million vs $288.1 million; maturities $163.4 million (2027), $314.5 million (2028), $130.9 million (2029), total $608.8 million",
+   "quote": "Total convertible debt at end of the period $ 447.7 $ 288.1",
+   "section": "Note on convertible debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Interest is being paid in kind, not in cash, and the effective interest rates on the amended debt are very high.",
+   "numbers": "effective rate 20.6% (Glencore notes); 18.7% (KSP notes); KSP notes total $119.3 million including PIK; Glencore notes total 306.2",
+   "quote": "After the amendment, the effective interest rate of the A&R Glencore Convertible Notes and Glencore Senior Secured Convertible Note is 20.6%.",
+   "section": "Note on convertible debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The new secured note has a monthly-tested minimum liquidity covenant of $10.0 million and caps capital expenditures at $2.0 million per transaction.",
+   "numbers": "minimum liquidity $10.0 million; capex limit $2.0 million",
+   "quote": "contains a minimum liquidity covenant that will require us to maintain a minimum amount of liquidity to be set at $10.0 million, to be tested monthly.",
+   "section": "MD&A - Recent Liquidity Developments"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The Glencore senior secured note is secured by first priority liens on substantially all assets of the company and key subsidiaries, and the KSP note was amended to add penalty interest on default.",
+   "numbers": "",
+   "quote": "have also granted perfected, first priority security interests (subject to customary exceptions and permitted liens) in all of their respective assets",
+   "section": "Note on convertible debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Contractor MasTec started arbitration and a foreclosure action over $48.7 million allegedly unpaid on the Rochester Hub construction contract, and other contractors filed mechanic's liens over late payments.",
+   "numbers": "$48.7 million",
+   "quote": "seek recovery of $48.7 million allegedly due under the construction contract for the Rochester Hub project, plus interest, fees, costs and expenses.",
+   "section": "Note 17 Commitments and contingencies"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Payments to contractors and suppliers were delayed under the Cash Preservation Plan, and $6.6 million of payables were pushed beyond one year.",
+   "numbers": "$6.6 million",
+   "quote": "Certain payments to contractors and suppliers of the Company have been delayed as a result of the Cash Preservation Plan",
+   "section": "MD&A - Cash Preservation Plan"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The Rochester Hub warehouse landlord, Pike, sent a purported notice of default for unpaid amounts and uncleared liens; the company sued and the parties are negotiating a settlement.",
+   "numbers": "company seeks damages of at least $39.0 million - $53.0 million; company funded approximately $53.5 million of construction costs",
+   "quote": "sent the Company a purported notice of default a claiming that the Company failed to pay certain amounts in connection with leasing a warehouse and administrative building related to the Rochester Hub",
+   "section": "Note 17 Commitments and contingencies"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The Rochester Hub is still paused and needs an estimated $504.3 million more to complete, including $111.3 million already incurred but unpaid, which is far above current cash.",
+   "numbers": "CTC $504.3 million; unpaid incurred costs $111.3 million; total cash spend $455.9 million; revised project cost $960.2 million",
+   "quote": "The Company\u2019s current estimate of the CTC is approximately $504.3 million, including $111.3 million of costs incurred but not yet paid as of March 31, 2024.",
+   "section": "MD&A - Rochester Hub Project Review"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue is very small and falling, and Spoke operations are paused or slowed.",
+   "numbers": "product revenue $1.9 million vs $3.1 million",
+   "quote": "Product revenue $ 1.9 $ 3.1",
+   "section": "Note 3 Revenue"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The board approved cutting about 17% of the workforce, with total charges of about $8.3 million, mostly cash severance over the next twelve months.",
+   "numbers": "17% workforce reduction; charges approximately $8.3 million; $0.4 million cost of sales and $5.1 million SG&A recorded in Q1 2024",
+   "quote": "On March 25, 2024, the Board approved plans to reduce approximately 17% of the Company's workforce, primarily at the corporate level",
+   "section": "Note 1 ii. Going concern; MD&A - Cash Preservation Plan"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "No impairment was recorded, but the recoverability test assumes financing to finish the Rochester Hub; without that funding the cash flows would not cover the North America asset group's carrying value.",
+   "numbers": "",
+   "quote": "If over time Li-Cycle does not obtain financing, there could be an impairment.",
+   "section": "Note 2 Impairment of long-lived assets"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "In a centralization move, the CFO and the Executive Chair left their roles and an interim CFO was appointed.",
+   "numbers": "",
+   "quote": "Debbie Simpson ceased serving as the Chief Financial Officer of the Company",
+   "section": "MD&A - Employee Matters and Growth Management"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Glencore could own about 47.8% of the shares if its notes are converted, which could mean a change of control; Glencore also gained board nomination rights.",
+   "numbers": "approximately 47.8%; Senior Secured note conversion price $0.53 per share",
+   "quote": "Glencore and its affiliates would beneficially own approximately 47.8% of the common shares on an as-converted basis",
+   "section": "MD&A - Recent Liquidity Developments"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company received most of an approved German state grant for its Germany Spoke.",
+   "numbers": "\u20ac5.3 million ($5.8 million) received of up to \u20ac6.4 million ($6.9 million)",
+   "quote": "On April 30, 2024, the Company received \u20ac5.3 million ($5.8 million) of the approved grant.",
+   "section": "Note 20 Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2024-05-10",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Market capitalization has fallen sharply since the construction pause, and the company warns that counterparties may assign little or no value to its assets.",
+   "numbers": "",
+   "quote": "there is a risk that minimal or no value will be assessed on Li-Cycle\u2019s assets by potential counterparties",
+   "section": "MD&A - Key Factors - Financing Options and Strategic Alternatives"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The NYSE began delisting proceedings because the share price averaged below $1.00 over 30 trading days after a reverse split in the prior year, trading was suspended on February 26, 2025, and the company chose not to appeal.",
+   "numbers": "average closing price less than $1.00 over a consecutive 30 trading-day period; suspended February 26, 2025",
+   "quote": "The Company has decided not to appeal the NYSE\u2019s delisting determination.",
+   "section": "8-K filed 2025-02-27, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The shares moved to the OTCQX under LICYF, and the company is looking for another eligible market by April 30, 2025; it warns the OTC market may be less liquid and could hurt its ability to raise capital.",
+   "numbers": "OTCQX from February 27, 2025; deadline April 30, 2025",
+   "quote": "The Company is also seeking a listing of the Common Shares on another eligible market, on or before April 30, 2025.",
+   "section": "8-K filed 2025-02-27, Items 3.01 and 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Glencore and Wood River (Koch) gave short waivers so the OTC market counts as an Eligible Market under their convertible notes, but only through April 30, 2025.",
+   "numbers": "February 25, 2025 to April 30, 2025",
+   "quote": "during a period from February 25, 2025 to and including April 30, 2025, subject to the terms and conditions thereof.",
+   "section": "8-K filed 2025-02-27, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In January 2025 the company closed an underwritten offering of units and pre-funded units at $1.00 per unit with warrants, raising about $13.4 million net for working capital.",
+   "numbers": "5,000,000 units and 10,000,000 pre-funded units at $1.00; net proceeds approximately $13.4 million",
+   "quote": "The Company received net proceeds of approximately $13.4 million from the Offering, after deducting the Offering expenses payable by the Company, including the Underwriter\u2019s discounts and commissions.",
+   "section": "8-K filed 2025-01-16, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "Glencore consented to the warrant issuance and waived any default under its senior secured note that the warrants could trigger, in exchange for amending the Glencore Notes to match any more favorable warrant terms (done January 31, 2025).",
+   "numbers": "",
+   "quote": "agreed to waive any default or event of default under the Glencore Senior Secured Convertible Note which may occur as a result of the issuance of the Warrants",
+   "section": "8-K filed 2025-01-16, Item 1.01; 8-K filed 2025-01-31, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Glencore holds a $75 million senior secured convertible note plus two amended convertible notes; the first was secured by first-priority liens (including the U.S. subsidiaries from January 13, 2025) and the second becomes secured no later than June 1, 2026.",
+   "numbers": "$75,000,000; $116,551,170.40; $114,615,632; Second Modification Date no later than June 1, 2026",
+   "quote": "The modification to the Second A&R Glencore Convertible Note will take place no later than June 1, 2026 in accordance with the terms of the Second A&R Glencore Convertible Note",
+   "section": "8-K filed 2025-01-14, Item 1.01; 8-K filed 2024-12-10, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The first Glencore note's conversion price reset to $3.03 per share on December 9, 2024, raising Glencore's fully diluted ownership to about 66%.",
+   "numbers": "$3.03 per share; approximately 66%",
+   "quote": "This conversion price adjustment increased Glencore\u2019s beneficial ownership in the Company on a pro forma fully-diluted basis to approximately 66% as of December 9, 2024.",
+   "section": "8-K filed 2024-12-10, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In March 2024 Glencore provided $75 million of new money through a five-year senior secured convertible note whose interest can be paid in kind, which saves cash.",
+   "numbers": "$75,000,000; SOFR plus 5% cash or plus 6% PIK; conversion price $0.53",
+   "quote": "Interest on the Senior Secured Convertible Note is payable either in cash or by payment-in-kind (\u201cPIK\u201d) at the Company\u2019s election",
+   "section": "8-K filed 2024-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The senior secured note carries a minimum liquidity covenant, budget delivery and limits on debt, liens, asset sales and capex overruns; some events of default trigger redemption with a make-whole amount.",
+   "numbers": "",
+   "quote": "including satisfaction of a minimum liquidity covenant, monthly, quarterly and annual financial reporting requirements, delivery of an annual operating budget",
+   "section": "8-K filed 2024-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The Audit Committee used the NYSE financial-viability exception to skip shareholder approval of the Glencore note, finding that a delay would seriously jeopardize the company's financial viability.",
+   "numbers": "",
+   "quote": "a delay in securing shareholder approval of the Transaction would seriously jeopardize the financial viability of the Company",
+   "section": "8-K filed 2024-03-12, Item 1.01 (Closing Conditions)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "KPMG's FY2023 audit report had a going concern paragraph citing recurring losses, operating cash outflows and the paused Rochester Hub construction as raising substantial doubt.",
+   "numbers": "",
+   "quote": "that raise substantial doubt about its ability to continue as a going concern.",
+   "section": "8-K filed 2024-04-02, Item 4.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "U.S. subsidiaries signed a DOE ATVM loan agreement for up to $475 million over about 15 years, with no principal due before June 15, 2027 and final maturity March 15, 2040.",
+   "numbers": "up to $475 million; no principal before June 15, 2027; up to approximately $30 million capitalized interest; maturity March 15, 2040",
+   "quote": "an approximately 15-year term loan (the \u201cDOE Loan Facility\u201d) with an aggregate loan amount of up to $475 million",
+   "section": "8-K filed 2024-11-07, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Drawing the DOE loan requires a first draw by November 7, 2025, paying about $92 million of unpaid project commitments and funding a Base Equity Contribution that includes about $173 million of reserve accounts.",
+   "numbers": "First Advance by November 7, 2025; approximately $92 million unpaid commitments; approximately $173 million reserves, up to approximately $97 million via letters of credit",
+   "quote": "The amount of the Base Equity Contribution includes an estimated approximately $173 million to fund reserve accounts required under the DOE Loan Facility (\u201cReserve Accounts\u201d), of which up to approximately $97 million can be satisfied through delivery of letters of credit.",
+   "section": "8-K filed 2024-11-07, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The Rochester Hub still needs about $487 million to complete, and the company is still looking for a complete funding package to restart construction and meet the DOE conditions.",
+   "numbers": "total capital cost approximately $960 million; cost to complete approximately $487 million",
+   "quote": "The Company estimates the total capital cost of the Rochester Hub Project through to mechanical completion to be approximately $960 million, of which the remaining cost to complete the project (\u201cCTC\u201d) is approximately $487 million.",
+   "section": "8-K filed 2024-11-07, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "After the first DOE draw the company must keep a minimum unrestricted cash balance of $20 million until the project is completed, then $10 million.",
+   "numbers": "$20 million; $10 million",
+   "quote": "The Company is also required to maintain a minimum unrestricted cash balance after First Advance of $20 million prior to completion of the Rochester Hub Project",
+   "section": "8-K filed 2024-11-07, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The DOE and the collateral agent consented to the Glencore security arrangements and to deferring the LG Energy Solution nickel sulphate offtake from 2025 to 2028, showing continued lender support.",
+   "numbers": "offtake deferred from 2025 to 2028",
+   "quote": "which consent has been granted pursuant to the Omnibus Amendment and Consent Agreement.",
+   "section": "8-K filed 2025-01-14, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Offtake agreements with Glencore and Traxys were amended for a scaled-down Rochester Hub (MHP scope), with Glencore taking 100% of MHP output, partly to support the DOE loan.",
+   "numbers": "up to approximately 8,250 MT lithium carbonate and 72,000 WMT MHP per annum; Traxys fee 2.5%",
+   "quote": "The Amended Commercial Agreements now provide for the off-take of 100% of the future MHP production from the Rochester Hub, which would be sold to and purchased by Glencore.",
+   "section": "8-K filed 2024-10-31, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Under the warehouse ground sublease settlement, HubCo owes $5.1 million of unpaid construction costs by March 1, 2026; missing it is a Reimbursement Default letting the landlord take the warehouse. The settlement followed liens, a landlord default notice and a lawsuit.",
+   "numbers": "$5.1 million due by March 1, 2026; rent $2.5 million per annum",
+   "quote": "HubCo has agreed to pay the balance of the unpaid construction costs for the Warehouse (being $5.1 million, the \u201cUnpaid Construction Costs\u201d) to the Landlord on or before March 1, 2026.",
+   "section": "8-K filed 2024-06-04, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company set up an at-the-market equity program with B. Riley for up to $75 million of shares.",
+   "numbers": "up to $75,000,000; commission up to 3.0%",
+   "quote": "having an aggregate offering price of up to $75,000,000 (the \u201cShares\u201d), through an \u201cat the market\u201d equity offering program",
+   "section": "8-K filed 2024-06-28, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "As part of its cash preservation plan, the company cut about 17% of its workforce at a cost of about $8.3 million, mostly cash severance.",
+   "numbers": "approximately 60 positions; approximately 17%; approximately $8.3 million",
+   "quote": "Overall, the Company expects to eliminate approximately 60 positions, representing approximately 17% of the Company\u2019s global workforce.",
+   "section": "8-K filed 2024-03-26, Item 2.05"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Top management turned over in March 2024: the Executive Chair, the CFO and the EMEA President left, an interim CFO was appointed (made permanent in July 2024), and a new COO was named.",
+   "numbers": "",
+   "quote": "Effective as of March 26, 2024, Ms. Debbie Simpson will cease serving as the Chief Financial Officer of the Company.",
+   "section": "8-K filed 2024-03-26, Item 5.02; 8-K filed 2024-07-18, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "KPMG declined to stand for re-appointment, and the annual meeting had to be adjourned because no successor auditor had been found; Marcum was chosen in August 2024.",
+   "numbers": "",
+   "quote": "the Company adjourned its annual and special meeting of shareholders (the \u201cMeeting\u201d) as the Company was not able to complete its process to identify and recommend the appointment of a successor to KPMG",
+   "section": "8-K filed 2024-04-02, Item 4.01; 8-K filed 2024-08-09, Items 4.01 and 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "KPMG reported material weaknesses in internal control over financial reporting as of December 31, 2023 and October 31, 2022.",
+   "numbers": "",
+   "quote": "certain material weaknesses in the Company\u2019s ICFR related to (a) an ineffective",
+   "section": "8-K filed 2024-04-02, Item 4.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The FY2023 10-K was filed late because management was busy with the Moelis financing and strategic process, the switch to U.S. GAAP, impairment testing and the going concern assessment.",
+   "numbers": "expected filing on or before March 15, 2024",
+   "quote": "For the reasons discussed above, the Company will be unable to file its 2023 Form 10-K in a timely manner without unreasonable effort and expense.",
+   "section": "NT 10-K filed 2024-02-29, Part III"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "After pausing Rochester Hub construction because of rising costs, the company hired Moelis as financial advisor to evaluate financing and strategic alternatives.",
+   "numbers": "engaged November 13, 2023",
+   "quote": "it had engaged Moelis & Company LLC (\u201cMoelis\u201d) as its financial advisor to assist in evaluating financing and strategic alternatives for the Company.",
+   "section": "NT 10-K filed 2024-02-29, Part III"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Preliminary FY2023 results showed a net loss of about $137-138 million and cash down to about $76.1 million from $517.9 million a year earlier, before any impairment.",
+   "numbers": "revenue $17.5-$18.5 million; net loss $138.5-$136.5 million; cash approximately $76.1 million vs $517.9 million",
+   "quote": "a net loss between $138.5 million and $136.5 million, and cash and cash equivalents of approximately $76.1 million,",
+   "section": "NT 10-K filed 2024-02-29, Part IV"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The Koch (Wood River) convertible note was amended to add penalty interest on an event of default, matching the Glencore senior secured note.",
+   "numbers": "",
+   "quote": "the Koch Note was amended to include penalty interest upon an event of default consistent with the penalty interest provision of the Senior Secured Convertible Note",
+   "section": "8-K filed 2024-03-25, Item 1.01"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The 0.640 score comes from a net loss of $137.7 million (-16% of assets, 9th peer percentile), operating cash burn of $106.4 million, tiny revenue (4th percentile) and a current ratio of 0.58 against a peer median of 0.8. Leverage of 0.69 is close to the peer median of 0.68, so it does not explain the score. The filings show the distress is real and worse than the numbers suggest. Year-end cash of $22.6 million covers only about 2.5 months at the FY2024 burn (~$8.9M/month), or about 4.9 months at the Q4 2024 burn (~$13.9M, ~$4.6M/month). Even adding the ~$13.4M January 2025 offering and keeping the $10.0M minimum liquidity covenant, usable cash lasts roughly 3 to 6 months. Meanwhile the company says it knows of no financing sources, has been delisted from the NYSE, and openly names bankruptcy protection as a possible outcome.",
+  "verdict": "real risk",
+  "own_risk": "very high",
+  "own_risk_pct": 45,
+  "agree_with_model": "yes",
+  "moved_by": [
+   "Cash of $22.6M against ~$106.4M annual operating burn (Q4 2024 burn ~$13.9M) leaves roughly 2.5 to 5 months of runway, and a $10.0M monthly minimum liquidity covenant cuts the usable amount further",
+   "The 10-K explicitly says the company may need to file for bankruptcy protection and that it is aware of no sources of financing (including for the ~$173M DOE base equity contribution)",
+   "NYSE trading was suspended on February 26, 2025 and the shares moved to the OTCQX; the noteholder waivers treating OTC as an Eligible Market run only through April 30, 2025",
+   "The 10-K warns that any strategic transaction may assign limited or no value to existing equity, and the dominant secured lender Glencore (~66% fully diluted) sent a letter on March 14, 2025 expressing interest in a transaction. This is a typical setup for a court-supervised sale or restructuring.",
+   "Mechanic's liens of about $64.0M plus $36.0M plus $5.1M, MasTec's $48.7M arbitration and foreclosure action, and $89.7M of incurred but unpaid Rochester Hub costs",
+   "Substantially all assets are already pledged, which leaves little room for new secured debt. The DOE loan cannot be drawn without equity funding that does not exist, and federal disbursements were paused on January 20, 2025."
+  ],
+  "reasons": [
+   {
+    "reason": "Large net loss relative to assets, the input the model weights most",
+    "kind": "model input",
+    "numbers": "net income -$137.7M (-16.0% of assets) vs -$138.0M the year before",
+    "peer_comparison": "9th percentile of 153 peers",
+    "quote": "Li-Cycle expects to incur net losses in the future and may never achieve sustained profitability.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - history of losses"
+   },
+   {
+    "reason": "Heavy operating cash burn that is not shrinking on an annual basis",
+    "kind": "model input",
+    "numbers": "operating cash flow -$106.4M vs -$99.8M; Q4 2024 alone about -$13.9M (106.4 - 92.5)",
+    "peer_comparison": "7th percentile",
+    "quote": "",
+    "source": "10-K filed 2025-03-31; 10-Q filed 2024-11-07, MD&A - Results of Operations"
+   },
+   {
+    "reason": "Weak short-term liquidity: current assets fell sharply and no longer cover current liabilities",
+    "kind": "model input",
+    "numbers": "current assets $86.4M (from $149.0M) vs current liabilities $150.0M; current ratio 0.58",
+    "peer_comparison": "peer median current ratio 0.8; current liabilities at 82nd percentile of assets",
+    "quote": "",
+    "source": "10-K filed 2025-03-31"
+   },
+   {
+    "reason": "Tiny revenue base that cannot support the cost structure",
+    "kind": "model input",
+    "numbers": "revenue $28.0M (3.3% of assets), up from $18.3M; operating income -$125.5M",
+    "peer_comparison": "revenue 4th percentile; operating income 9th percentile",
+    "quote": "Revenue $ 8.4 $ 4.7 $ 3.7 $ 21.0 $ 11.9 $ 9.1",
+    "source": "10-Q filed 2024-11-07, MD&A - Results of Operations"
+   },
+   {
+    "reason": "Very little cash left. It lasts about 2.5 months at the FY2024 burn and about 4.9 months at the Q4 2024 burn, and the $10.0M covenant floor shortens both.",
+    "kind": "from the filings",
+    "numbers": "cash $22.6M at Dec 31, 2024; ~$13.4M net raised January 2025; minimum liquidity $10.0M tested monthly",
+    "peer_comparison": "",
+    "quote": "As of December 31, 2024, Li-Cycle held cash and cash equivalents of $22.6 million.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - substantial doubt about going concern"
+   },
+   {
+    "reason": "Management says it needs near-term financing to fund the next twelve months and names bankruptcy as a possible outcome",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "may therefore need to significantly modify or terminate operations or dissolve and liquidate its assets under applicable bankruptcy laws or otherwise file for bankruptcy protection.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors"
+   },
+   {
+    "reason": "The DOE loan is the main path to finishing the Hub, but it cannot be drawn without a ~$173M base equity contribution that has no known source",
+    "kind": "from the filings",
+    "numbers": "DOE facility up to $475.0M; base equity reserves ~$173.0M; first advance deadline November 7, 2025",
+    "peer_comparison": "",
+    "quote": "We are presently aware of no such sources of financing to fund the base equity contribution we are required to provide as a condition to drawing on the DOE Loan Facility.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - DOE Loan Facility"
+   },
+   {
+    "reason": "Possible lender-led transaction with little or no value for equity",
+    "kind": "from the filings",
+    "numbers": "Glencore letter March 14, 2025; Glencore ~66% fully diluted ownership",
+    "peer_comparison": "",
+    "quote": "Given the Company\u2019s current financial position, the terms of any such strategic transaction may assign limited or no value to the Company\u2019s existing equity.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - additional third-party financing"
+   },
+   {
+    "reason": "Delisting from the NYSE hurts the company's ability to raise equity and depends on short-term noteholder waivers",
+    "kind": "from the filings",
+    "numbers": "suspended February 26, 2025; OTCQX from February 27, 2025; waivers through April 30, 2025",
+    "peer_comparison": "",
+    "quote": "Trading in the Common Shares on the NYSE was suspended immediately after market close on February 26, 2025.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - active, liquid trading market"
+   },
+   {
+    "reason": "Large convertible debt far exceeds cash, and PIK interest at ~19-21% effective rates keeps it growing",
+    "kind": "from the filings",
+    "numbers": "KSP $133.7M; First A&R Glencore $124.1M; Second A&R Glencore $121.8M; Glencore Senior Secured $81.6M",
+    "peer_comparison": "total liabilities/assets 0.69 vs peer median 0.68",
+    "quote": "including an aggregate principal amount of $133.7 million outstanding under the KSP Convertible Note, $124.1 million outstanding under the First A&R Glencore Note",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - ability to service debt"
+   },
+   {
+    "reason": "A thin covenant cushion means a breach could come quickly, followed by acceleration and foreclosure",
+    "kind": "from the filings",
+    "numbers": "minimum liquidity $10.0M tested monthly vs $22.6M cash",
+    "peer_comparison": "",
+    "quote": "The Glencore Senior Secured Convertible Note also contains a minimum liquidity covenant that requires us to maintain a minimum amount of liquidity of $10.0 million, tested monthly.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - Glencore Senior Secured Convertible Note covenants"
+   },
+   {
+    "reason": "Unpaid contractors have filed liens and started arbitration and foreclosure actions on the paused Rochester Hub",
+    "kind": "from the filings",
+    "numbers": "liens ~$64.0M, $36.0M, $5.1M; MasTec claim $48.7M; cost to complete ~$483.3M including $89.7M incurred but unpaid",
+    "peer_comparison": "",
+    "quote": "On April 9, 2024, one of the lienors, MasTec, commenced arbitration proceedings to seek recovery of $48.7 million allegedly due under the construction contract for the Rochester Hub project",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - Rochester Hub development"
+   },
+   {
+    "reason": "Almost no unpledged collateral is left for new secured borrowing",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "we do not have substantial remaining assets available to secure other indebtedness.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - secured indebtedness"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "The main debt maturities are not near: KSP is due September 2026 and the Glencore unsecured note May 2027, and interest is paid in kind, so there is no large cash debt payment in the next 12 months",
+    "quote": "the unsecured convertible note in the principal amount of $200.0 million due May 31, 2027 issued to an affiliate of Glencore plc on May 31, 2022.",
+    "source": "10-K filed 2025-03-31, Frequently Used Terms"
+   },
+   {
+    "point": "Interest on the Glencore notes is paid in kind, which saves cash",
+    "quote": "The Company has elected to pay interest by PIK since the first interest payment on the Glencore Senior Secured Convertible Note on December 31, 2024.",
+    "source": "10-K filed 2025-03-31, Item 5 - Glencore Convertible Notes"
+   },
+   {
+    "point": "A DOE loan facility of up to $475.0M closed, with no principal due before June 2027",
+    "quote": "On November 7, 2024, Li-Cycle entered into an agreement for a loan facility of up to $475.0 million",
+    "source": "10-K filed 2025-03-31, Item 1. Business - Support from Government Programs"
+   },
+   {
+    "point": "Glencore, the strategic lender and offtaker, keeps supporting the company: it provided $75M of new money in 2024, gave waivers, and sent a letter of interest in March 2025. An out-of-court takeover by Glencore could avoid a filing.",
+    "quote": "On March 14, 2025, we received a letter from Glencore, expressing its interest in a potential transaction involving Li-Cycle.",
+    "source": "10-K filed 2025-03-31, Item 1A. Risk Factors - additional third-party financing"
+   },
+   {
+    "point": "The company still raises small amounts of equity (~$13.4M net in January 2025)",
+    "quote": "The Company received net proceeds of approximately $13.4 million from the Offering, after deducting the Offering expenses payable by the Company, including the Underwriter\u2019s discounts and commissions.",
+    "source": "8-K filed 2025-01-16, Item 1.01"
+   },
+   {
+    "point": "Burn slowed in the second half of 2024 under the Cash Preservation Plan (Q3 -$20.6M vs -$38.7M a year earlier; Q4 about -$13.9M)",
+    "quote": "Net cash used in operating activities $ (20.6) $ (38.7) $ 18.1 $ (92.5) $ (89.3) $ (3.2)",
+    "source": "10-Q filed 2024-11-07, MD&A - Results of Operations"
+   },
+   {
+    "point": "Equity is still positive, and liabilities/assets of 0.69 are in line with peers",
+    "quote": "",
+    "source": "model inputs; 10-Q filed 2024-11-07, Balance sheet"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2023-10-23",
+    "event": "Rochester Hub construction paused; market capitalization falls sharply"
+   },
+   {
+    "date": "2023-11-13",
+    "event": "Moelis engaged to evaluate financing and strategic alternatives"
+   },
+   {
+    "date": "2023-12-20",
+    "event": "NYSE notice for average share price below $1.00"
+   },
+   {
+    "date": "2024-02-29",
+    "event": "NT 10-K filed; FY2023 10-K delayed"
+   },
+   {
+    "date": "2024-03-11",
+    "event": "Agreement for $75.0M Glencore senior secured convertible note, using the NYSE financial viability exception"
+   },
+   {
+    "date": "2024-03-15",
+    "event": "FY2023 10-K with going concern doubt"
+   },
+   {
+    "date": "2024-03-25",
+    "event": "Glencore senior secured note closes; ~17% workforce cut approved"
+   },
+   {
+    "date": "2024-04-09",
+    "event": "MasTec starts arbitration for $48.7M on Rochester Hub contract"
+   },
+   {
+    "date": "2024-06-03",
+    "event": "1-for-8 share consolidation effective"
+   },
+   {
+    "date": "2024-06-28",
+    "event": "Up to $75M ATM program set up (8-K filed)"
+   },
+   {
+    "date": "2024-10-15",
+    "event": "Marcum Canada appointed auditor after KPMG declined re-appointment"
+   },
+   {
+    "date": "2024-11-07",
+    "event": "DOE loan facility of up to $475M signed; New York Spoke curtailed"
+   },
+   {
+    "date": "2024-12-09",
+    "event": "First Glencore note conversion price reset to $3.03; Glencore ~66% fully diluted"
+   },
+   {
+    "date": "2024-12-31",
+    "event": "Cash $22.6M; FY2024 net loss $137.7M; operating cash burn $106.4M"
+   },
+   {
+    "date": "2025-01-16",
+    "event": "Underwritten unit offering closes, ~$13.4M net (8-K filed)"
+   },
+   {
+    "date": "2025-01-20",
+    "event": "Executive order pauses federal IRA/IIJA disbursements, including by the DOE"
+   },
+   {
+    "date": "2025-01-31",
+    "event": "Glencore convertible notes amended and restated again"
+   },
+   {
+    "date": "2025-02-26",
+    "event": "NYSE trading suspended; company does not appeal delisting"
+   },
+   {
+    "date": "2025-02-27",
+    "event": "Shares begin trading on OTCQX as LICYF"
+   },
+   {
+    "date": "2025-03-14",
+    "event": "Glencore letter expressing interest in a potential transaction"
+   },
+   {
+    "date": "2025-03-31",
+    "event": "FY2024 10-K filed with going concern doubt and explicit bankruptcy language"
+   }
+  ],
+  "dates_to_watch": [
+   "Monthly tests of the $10.0M minimum liquidity covenant (from April 2025)",
+   "2025-04-30: noteholder waivers treating OTC as an Eligible Market expire, which is also the deadline to list on another eligible market",
+   "Any terms or announcement of a Glencore transaction or the outcome of the Special Committee/Moelis process",
+   "Q1 2025 10-Q (around May 2025): cash balance and burn",
+   "2025-11-07: deadline for the first DOE loan advance",
+   "2026-03-01: $5.1M unpaid warehouse construction costs due to the landlord",
+   "2026-06-01: Second A&R Glencore note becomes secured",
+   "2026-09-29: KSP convertible note maturity"
+  ],
+  "would_change_my_mind": [
+   "A fully funded package: base equity of ~$173M plus payment of unpaid Hub commitments, which would unlock the DOE loan",
+   "A Glencore deal done out of court (for example, a merger or take-private) that pays or assumes creditors",
+   "New equity or non-secured financing that extends runway beyond 12 months",
+   "Settlement of the MasTec claim and the contractor liens without large cash outflows",
+   "Further cuts that push monthly burn well below ~$4.6M"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Exact Q4 2024 operating cash flow. I derived it as FY2024 minus nine-month burn (106.4 - 92.5 = ~$13.9M), and it may include one-off items.",
+   "Restricted cash at December 31, 2024, and cash on hand at the March 31, 2025 filing date",
+   "Terms of the Glencore March 14, 2025 letter, including whether any deal would go through court",
+   "Whether DOE disbursements remain paused after the January 20, 2025 executive order",
+   "Any covenant breach or default notice after year-end",
+   "How much each model input contributed to the score"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

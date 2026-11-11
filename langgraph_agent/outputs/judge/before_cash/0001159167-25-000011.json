@@ -1,0 +1,83 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 30% within 12 months (vs 4% band rate); agrees with the model's flag and thinks the band understates risk",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "high, roughly 30%; agrees with the model only partly, saying the filings show more risk than the numbers",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk high ~30%, agrees with the model's flag but the band understates the risk",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going-concern doubt itself breaches the term-loan covenant; lenders waived it only until May 6, 2025, further waivers at lenders' sole discretion, no cure before the March 2026 10-K; waiver cost a 2% PIK fee and 6% penny warrants",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Large net loss of $145.5M (28% of assets) cushioned by $88.7M of one-offs (Amazon fee, IP settlement); underlying 2024 cash loss about -$156M, so the improvement on 2023 is mostly not real",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Auditor's going concern doubt, appearing for the first time (FY2023 10-K said cash was sufficient)",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Debt larger than cash: $248.3M of term-loan principal and minimum return due in 1-3 years, maturity July 24, 2026, against year-end cash of $134.3M (about $94M after returning $40M to lender control)",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Fewer funding options: ATM sales suspended and a formal strategic review (sale or refinancing) started",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "High leverage and weak liquidity: liabilities 88% of assets, equity shrunk to about $61M, current ratio 1.32",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Minimum Core Assets covenant ($200M) also waived; core assets $260M, about $60M headroom; company currently in compliance",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: no missed payments or default, lender waived rather than accelerated; loan maturity July 2026 lies outside the 12-month window",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: much lower costs (operating loss cut by $161.1M), Q4 operating cash flow only about -$2.7M, asset-light business and known brand could attract a buyer",
+   "importance": "supporting",
+   "candidate": "covered"
+  }
+ ],
+ "contradictions": [
+  "Candidate lists 'ATM capacity $79.6M at Sep 28, 2024' as evidence against, while GOLD states the 10-K says ATM sales have been suspended, so that capacity is not usable.",
+  "Candidate's liquidity rests on cash of $99.4M at Sep 28, 2024 and about $59M usable after the $40M return; GOLD uses year-end cash of $134.3M and about $94.3M unrestricted, so the candidate's runway (about 6 to 17 months) is based on older, lower cash figures.",
+  "Candidate puts the debt at about $180M principal, while GOLD cites $248.3M of principal plus minimum return due in 1-3 years from the 10-K table; the candidate's figure leaves out the minimum guaranteed return actually owed."
+ ],
+ "extra_points_in_candidate": [
+  "The 10-K explicitly names a possible U.S. Bankruptcy Code filing among outcomes.",
+  "Loan pricing of SOFR + 9.00% plus 2.5% PIK and a 1.4x-1.7x minimum guaranteed return.",
+  "A $4.0M use fee falls due on May 6, 2025 with the waiver expiry.",
+  "Picea manufacturing agreement expires on 2025-08-17 unless extended.",
+  "Gross margin of 20.9% for FY2024 and 32.2% in Q3 2024; new robot line launched in March 2025.",
+  "Operating income of about -$191.7M and operating cash flow of about -$122M without one-time items."
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 3,
+  "overall": 4
+ },
+ "summary": "CANDIDATE matches GOLD on the verdict (real risk, high, about 30%) and on the core drivers: the 8-week going-concern covenant waiver, the auditor's doubt, and losses propped up by $88.7M of one-offs. However, it treats the suspended ATM as available liquidity, uses stale Q3 cash instead of year-end cash, and understates the debt owed, which weakens its debt-versus-cash and funding-options picture.",
+ "critical_recall": 0.6,
+ "all_recall": 0.75,
+ "candidate_check_problems": 0,
+ "gold_words": 1199,
+ "candidate_words": 1057
+}

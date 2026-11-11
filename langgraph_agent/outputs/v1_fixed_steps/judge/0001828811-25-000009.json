@@ -1,0 +1,80 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "very high, about 50-60% (agrees with flag; thinks 0.640 understates the risk)",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "very high, roughly 45% (agrees with the model)",
+ "key_points": [
+  {
+   "point": "Verdict real risk, very high risk of about 50-60%, agrees with the model's flag (and thinks it understates)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Cash runs out within months: $22.6M cash at 12/31/24, $10.0M monthly minimum liquidity covenant, roughly 3-7 months of runway, going-concern substantial doubt in the 10-K",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "The $475M DOE loan can't be drawn: about $173.0M base equity needed first, federal disbursements paused 2025-01-20",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Secured creditor Glencore sent a 2025-03-14 letter proposing a transaction that 'may assign limited or no value' to existing equity; likely court process (inference)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Large losses relative to the business (net loss $137.7M on $28.0M revenue, OCF -$106.4M, bottom peer percentiles), and the loss is real because the +$105.1M non-cash fair-value gain is offset by extinguishment and accretion charges",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "NYSE delisting (not appealed) and auditor going-concern language about working capital deficiency",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Size and leverage are ordinary for peers (leverage 0.69 near median), so the score is not a small-company artefact",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: no near-term debt maturities (first in 2026), interest can be paid in kind",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: lender cooperation (Glencore $75M note, Glencore/Wood River waivers) and the Glencore deal could be done out of court",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: new money ($16.4M ATM in 2024, $17.3M raise in January 2025, $58.6M ATM capacity left) and no missed payments or forbearance",
+   "importance": "supporting",
+   "candidate": "missing"
+  }
+ ],
+ "contradictions": [],
+ "extra_points_in_candidate": [
+  "Management's risk-factor language naming liquidation or bankruptcy protection as a possible outcome",
+  "Mechanic's liens (~$64.0M, $36.0M, $5.1M) and MasTec's $48.7M arbitration and foreclosure action",
+  "Glencore holds about 66% on a fully diluted basis",
+  "OTC noteholder waivers expire 2025-04-30, with a deadline to list on another eligible market",
+  "Burn slowed under the Cash Preservation Plan (Q3 -$20.6M vs -$38.7M a year earlier; Q4 OCF about -$13.9M)",
+  "DOE facility has no principal due before June 2027",
+  "Equity remains positive"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 5,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same real-risk, very-high verdict as GOLD (45% vs 50-60%) and covers the main drivers: short cash runway with the $10M liquidity covenant, the undrawable DOE loan, the Glencore letter that may leave equity with little value, and delisting. It leaves out GOLD's analysis of the non-cash parts of the loss, the January 2025 $17.3M raise and remaining ATM capacity, and does not say the score understates the risk, but nothing it says contradicts GOLD.",
+ "critical_recall": 0.8,
+ "all_recall": 0.8,
+ "candidate_check_problems": 0,
+ "gold_words": 1202,
+ "candidate_words": 1084
+}

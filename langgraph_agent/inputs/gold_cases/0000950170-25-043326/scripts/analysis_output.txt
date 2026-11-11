@@ -1,0 +1,47 @@
+TL/TA 1.9672653113866094 prev 1.6981322473398264
+equity -119.997 prev -77.485
+current ratio 0.3780270059145185 prev 0.12658263985040752
+total_assets               124.1     111.0 chg     12%
+current_assets              33.9      17.7 chg     91%
+current_liabilities         89.6     140.1 chg    -36%
+total_liabilities          244.1     188.5 chg     29%
+revenue                    119.4      60.5 chg     97%
+net_income                 -74.9    -250.7 chg    -70%
+operating_income           -60.3    -196.8 chg    -69%
+operating_cash_flow        -54.3     -64.4 chg    -16%
+net_income quarterly 2024 ($M): [np.float64(-36.97), np.float64(-26.98), np.float64(-12.22), np.float64(1.26)]
+operating_income quarterly 2024 ($M): [np.float64(-34.47), np.float64(-25.26), np.float64(-8.64), np.float64(8.11)]
+operating_cash_flow quarterly 2024 ($M): [np.float64(-12.81), np.float64(-5.62), np.float64(-12.31), np.float64(-23.58)]
+monthly burn FY 4.526833333333333 Q4 7.86 FY incl. investing -4.827583333333333
+months of cash: FY 4.662641287139649 Q4 2.685368956743002 FY incl inv -4.3721668881945766
+                      2024    2023
+net_loss            -74908 -250696
+D&A                   8341    3762
+gain_sale_fa          -743       0
+goodwill_impairment      0   60045
+noncash_lease         5690    2147
+debt_extinguishment  -5398     326
+stock_comp           -5976   48252
+fair_value_changes   11732   50230
+debt_disc_amort        252      97
+deferred_tax          -287   -3321
+cash-adjusted loss $K {'2024': -61297, '2023': -89158}
+non-cash share of loss {'2024': np.float64(0.18170288887702246), '2023': np.float64(0.6443581070300284)}
+Q4 stock comp ($K): -20619  Q4 NI ex SBC reversal 32.3M: -31.034999999999997
+                                   name     filed  total_assets       revenue    net_income     tl_ta    ocf_ta     ni_ta         cr
+2                           JET.AI INC.  20241114  3.357365e+06  1.446650e+07 -1.244198e+07  2.497638 -1.922354 -3.705877   0.179510
+3         SAKER AVIATION SERVICES, INC.  20241114  9.933877e+06  8.622631e+06  9.824907e+05  0.080730 -0.122482  0.098903  12.337136
+5                    VOLATO GROUP, INC.  20241119  4.793400e+07  5.982133e+07 -5.165867e+07  1.409605 -0.309175 -1.077704   0.659920
+20  GLOBAL CROSSING AIRLINES GROUP INC.  20250306  1.667390e+08  2.237510e+08 -1.147200e+07  1.176731  0.048405 -0.068802   0.354452
+8                             AIR T INC  20250212  1.876230e+08  3.007133e+08  1.184000e+06  0.925382  0.137702  0.006311   1.903974
+22             BLADE AIR MOBILITY, INC.  20250313  2.566750e+08  2.486930e+08 -2.730700e+07  0.135335 -0.009814 -0.106387   7.073044
+4                     FLYEXCLUSIVE INC.  20241114  4.871470e+08  3.145440e+08 -2.302400e+07  1.018536 -0.148987 -0.047263   0.500802
+1                    MESA AIR GROUP INC  20241015  6.643650e+08  4.815360e+08 -8.812933e+07  0.796969  0.039328 -0.132652   0.452857
+21            WHEELS UP EXPERIENCE INC.  20250311  1.158011e+09  7.921040e+08 -3.396350e+08  1.169453 -0.067260 -0.293292   0.362013
+9   SUN COUNTRY AIRLINES HOLDINGS, INC.  20250212  1.630177e+09  1.075739e+09  5.290300e+07  0.650116  0.101131  0.032452   0.631282
+tl_ta 1.967 all-peer median 0.813 rank worse-than 23 of 24 | small-peer median 0.972 n 10
+ocf_ta -0.438 all-peer median 0.044 rank worse-than 23 of 24 | small-peer median -0.039 n 10
+ni_ta -0.604 all-peer median 0.007 rank worse-than 22 of 24 | small-peer median -0.088 n 10
+cr 0.378 all-peer median 0.779 rank worse-than 20 of 24 | small-peer median 0.566 n 10
+ni_rev -0.627 all-peer median 0.009 rank worse-than 22 of 24 | small-peer median -0.092 n 10
+peer filed max 20250320 company rows filed max 20250321

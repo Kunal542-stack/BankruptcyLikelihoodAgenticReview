@@ -1,0 +1,1895 @@
+{
+ "adsh": "0001008654-23-000079",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001008654-23-000079",
+ "case": {
+  "adsh": "0001008654-23-000079",
+  "cik": 1008654,
+  "name": "TUPPERWARE BRANDS CORP",
+  "form": "10-K",
+  "fp": "FY",
+  "period_end": "20221231",
+  "filed": "20231013",
+  "sic": 3089,
+  "score": 0.537,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 743.6,
+    "year_before_musd": 1240.1,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 42
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 431.6,
+    "year_before_musd": 651.9,
+    "share_of_assets_pct": 58.0,
+    "peer_percentile": 67
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 1001.9,
+    "year_before_musd": 545.1,
+    "share_of_assets_pct": 134.7,
+    "peer_percentile": 100
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 1173.4,
+    "year_before_musd": 1458.8,
+    "share_of_assets_pct": 157.8,
+    "peer_percentile": 100
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 1304.0,
+    "year_before_musd": 1600.6,
+    "share_of_assets_pct": 175.4,
+    "peer_percentile": 86
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -232.5,
+    "year_before_musd": 15.6,
+    "share_of_assets_pct": -31.3,
+    "peer_percentile": 12
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": 23.6,
+    "year_before_musd": 247.2,
+    "share_of_assets_pct": 3.2,
+    "peer_percentile": 50
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -34.0,
+    "year_before_musd": 108.8,
+    "share_of_assets_pct": -4.6,
+    "peer_percentile": 29
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 1.58,
+   "current_ratio": 0.43,
+   "peer_count": 24,
+   "peer_median_liabilities_to_assets": 0.64,
+   "peer_median_current_ratio": 2.06,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20231013,
+    "total_assets": 743600000.0,
+    "current_assets": 431600000.0,
+    "current_liabilities": 1001900000.0,
+    "total_liabilities": 1173400000.0,
+    "revenue": 1304000000.0,
+    "net_income": -232500000.0,
+    "operating_income": 23600000.0,
+    "operating_cash_flow": -34000000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001008654-23-000079",
+   "form": "10-K",
+   "date": "2023-10-13",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001008654-22-000008",
+   "form": "10-K",
+   "date": "2022-02-23",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001008654-22-000059",
+   "form": "10-Q",
+   "date": "2022-11-02",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001008654-22-000045",
+   "form": "10-Q",
+   "date": "2022-08-04",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001008654-22-000022",
+   "form": "10-Q",
+   "date": "2022-05-05",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001008654-23-000074",
+   "form": "8-K",
+   "date": "2023-10-10",
+   "why": "8-K items 1.01,2.03,5.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000070",
+   "form": "8-K",
+   "date": "2023-09-18",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000068",
+   "form": "8-K",
+   "date": "2023-08-25",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000065",
+   "form": "8-K",
+   "date": "2023-08-11",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001008654-23-000062",
+   "form": "8-K",
+   "date": "2023-08-03",
+   "why": "8-K items 1.01,2.03,3.02,7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000060",
+   "form": "NT 10-Q",
+   "date": "2023-08-03",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001008654-23-000057",
+   "form": "8-K",
+   "date": "2023-07-07",
+   "why": "8-K items 1.01,2.03,7.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000054",
+   "form": "8-K",
+   "date": "2023-06-07",
+   "why": "8-K items 3.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000039",
+   "form": "8-K/A",
+   "date": "2023-05-08",
+   "why": "8-K items 1.01,2.03,5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000037",
+   "form": "NT 10-Q",
+   "date": "2023-05-08",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001008654-23-000035",
+   "form": "8-K",
+   "date": "2023-05-08",
+   "why": "8-K items 1.01,2.03,5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000027",
+   "form": "8-K",
+   "date": "2023-04-07",
+   "why": "8-K items 3.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000024",
+   "form": "NT 10-K",
+   "date": "2023-03-16",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001008654-23-000022",
+   "form": "8-K",
+   "date": "2023-03-16",
+   "why": "8-K items 4.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000005",
+   "form": "8-K",
+   "date": "2023-02-28",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001008654-23-000003",
+   "form": "8-K",
+   "date": "2023-01-06",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001008654-22-000063",
+   "form": "8-K",
+   "date": "2022-12-22",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001008654-22-000055",
+   "form": "8-K",
+   "date": "2022-11-02",
+   "why": "8-K items 2.02,5.02,9.01"
+  },
+  {
+   "adsh": "0001008654-22-000041",
+   "form": "8-K",
+   "date": "2022-08-03",
+   "why": "8-K items 1.01,2.02,2.03,5.02,9.01"
+  },
+  {
+   "adsh": "0001008654-22-000032",
+   "form": "8-K",
+   "date": "2022-06-06",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001008654-22-000020",
+   "form": "8-K",
+   "date": "2022-05-04",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001008654-22-000019",
+   "form": "8-K",
+   "date": "2022-05-04",
+   "why": "8-K items 2.02,5.02,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded there is substantial doubt about the Company's ability to continue as a going concern for at least one year, citing liquidity, Turnaround Plan execution and covenant compliance uncertainties.",
+   "numbers": "",
+   "quote": "the Company has concluded that there is substantial doubt about its ability to continue as a going concern for at least one year from the date of issuance of these Consolidated Financial Statements",
+   "section": "Item 1. Business - Substantial Doubt Regarding the Company's Ability to Continue as a Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Before the August 2, 2023 Debt Restructuring Agreement, the Company was in default of amended financial and non-financial covenants and had no access to its Revolver.",
+   "numbers": "August 2, 2023",
+   "quote": "Prior to execution of the Debt Restructuring Agreement on August 2, 2023, the Company was in default with certain amended financial and non-financial covenants included in the Credit Agreement and had no access to its Revolver.",
+   "section": "Item 1A. Risk Factors - Risks Related to Liquidity"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The Debt Restructuring Agreement with the bank group restored limited Revolver access, providing near-term flexibility to fund operations.",
+   "numbers": "up to $21.0 million",
+   "quote": "which enabled immediate access to up to $21.0 million on the Revolver subject to liquidity and other cash covenants",
+   "section": "Item 1. Business - Substantial Doubt Regarding the Company's Ability to Continue as a Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Debt Restructuring Agreement imposes new liquidity covenants that sweep excess cash to debt reduction.",
+   "numbers": "",
+   "quote": "it also imposes new covenants, including liquidity covenants requiring the use of excess cash for debt reduction",
+   "section": "Item 1. Business - Substantial Doubt Regarding the Company's Ability to Continue as a Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Covenant non-compliance is an event of default allowing lenders to demand repayment, and the Company states it could not repay if demanded.",
+   "numbers": "",
+   "quote": "If such demand for repayment were to occur, the Company does not have the financial resources to repay such obligations.",
+   "section": "Item 1A. Risk Factors - Current and future indebtedness"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The Tupperware trademark is pledged as collateral and lenders could foreclose on it if a default is not cured or waived.",
+   "numbers": "",
+   "quote": "the lenders could, among other things, foreclose upon any collateral under the Credit Agreement, including the Tupperware trademark",
+   "section": "Item 1. Business - Resources"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The Company appointed an Alvarez & Marsal managing director as Chief Restructuring Officer, engaged a financial advisor, and added a director with restructuring experience.",
+   "numbers": "May 4, 2023",
+   "quote": "Brian J. Fox, Chief Restructuring Officer since May 4, 2023 and Managing Director for Alvarez & Marsal since May 2016.",
+   "section": "Item 1. Business - Executive Officers"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The Board is exploring strategic alternatives with financial advisors, and the filing states that if the Turnaround Plan fails the Company may be forced to file for bankruptcy.",
+   "numbers": "",
+   "quote": "it may be forced to file for bankruptcy protection, which could include either reorganization or liquidation.",
+   "section": "Item 1. Business - Substantial Doubt Regarding the Company's Ability to Continue as a Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Mitigating actions (financing, equity issuance, property monetization) depend on third parties and are not considered probable until completed; equity raises would be highly dilutive.",
+   "numbers": "",
+   "quote": "it is highly likely that existing stockholders will be diluted",
+   "section": "Item 1. Business - Substantial Doubt Regarding the Company's Ability to Continue as a Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The Company is pursuing asset sales and has already sold the Indonesia warehouse/office and the Hemingway, South Carolina plant in 2023, and completed the Nuvo sale on August 7, 2023.",
+   "numbers": "Nuvo sale completed August 7, 2023",
+   "quote": "The Indonesia warehouse and commercial office, and the Hemingway, South Carolina manufacturing plant were sold in 2023",
+   "section": "Item 2. Properties; Item 7. MD&A"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The Company is reviewing its real property for dispositions or sale-leasebacks and other monetization to raise liquidity, though timing and amount are uncertain.",
+   "numbers": "",
+   "quote": "the Company is reviewing its real property portfolio for real estate available for potential dispositions, or sale-leaseback transactions",
+   "section": "Item 1. Business - Substantial Doubt Regarding the Company's Ability to Continue as a Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash flow turned negative in 2022.",
+   "numbers": "$34.0 million outflow in 2022 vs $108.8 million inflow in 2021",
+   "quote": "Cash from operations was a $34.0 million outflow in 2022 compared to $108.8 million inflow in 2021, primarily due to a decrease in income from continuing operations.",
+   "section": "Item 7. MD&A - Overview of the Company's Performance"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "More vendors are demanding more frequent payment or prepayment, and further negative operating cash flow is expected.",
+   "numbers": "",
+   "quote": "further impacted by an increase in the number of vendors requiring more frequent payment or prepayment for goods and services",
+   "section": "Item 1A. Risk Factors - Risks Related to Liquidity"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Most cash is held outside the U.S., some is blocked by currency remittance restrictions, and going concern doubt limits hedging ability.",
+   "numbers": "Argentina $8.3 million; Ukraine $4.9 million",
+   "quote": "remittances from Argentina and Ukraine of $8.3 million and $4.9 million, respectively",
+   "section": "Item 1A. Risk Factors - International operations"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Liquidity constraints triggered large non-cash charges in 2022, chiefly a deferred tax asset valuation allowance, plus additional deferred tax liabilities, software abandonment and goodwill/intangible impairment.",
+   "numbers": "$179.4 million valuation allowance; $12.3 million deferred tax liabilities; $3.6 million software abandonment; $3.2 million goodwill and intangible impairment",
+   "quote": "resulting in a $179.4 million valuation allowance of deferred tax assets",
+   "section": "Item 1. Business - Substantial Doubt Regarding the Company's Ability to Continue as a Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The Company dropped its permanent reinvestment assertion because it will need to repatriate cash to meet debt obligations, raising a deferred tax liability.",
+   "numbers": "$24.0 million",
+   "quote": "has increased its deferred tax liability to $24.0 million in the fourth quarter of 2022",
+   "section": "Item 1A. Risk Factors - International operations"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Net sales fell sharply in 2022 on weaker recruiting and sales force activity, lockdowns, failed compensation changes and price increases.",
+   "numbers": "$1,304.0 million in 2022 vs $1,600.6 million in 2021",
+   "quote": "Net sales were $1,304.0 million in 2022 compared to $1,600.6 million in 2021",
+   "section": "Item 7. MD&A - Overview of the Company's Performance"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The active sales force kept shrinking year over year through Q2 2023.",
+   "numbers": "18 percent (Q4 2022), 15 percent (Q1 2023), 16 percent (Q2 2023)",
+   "quote": "The Company\u2019s active sales force declined 18 percent, 15 percent and 16 percent as of the end of the fourth quarter of 2022, the first quarter of 2023 and the second quarter of 2023",
+   "section": "Item 1A. Risk Factors - Business model"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The 10-K was filed late, triggering an NYSE notice; Q1-Q3 2023 10-Qs are also delayed with an NYSE extension to March 31, 2024, and the FY2023 10-K timing cannot be predicted.",
+   "numbers": "NYSE notice April 7, 2023; extension to March 31, 2024",
+   "quote": "On October 3, 2023, NYSE approved the Company\u2019s late filer extension requests and the Company now has until March 31, 2024 to file its Forms 10-Q for the first, second and third quarters of 2023.",
+   "section": "Item 1A. Risk Factors - Risks Related to Our Common Stock"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "NYSE notified the Company it fell below continued listing standards; it regained the price standard on August 1, 2023 and NYSE accepted its business plan, but it remains out of compliance on market capitalization.",
+   "numbers": "market capitalization and stockholders' equity less than $50 million; price below $1.00; 18-month cure period",
+   "quote": "however, the Company continues to be out of compliance with the global market capitalization standard",
+   "section": "Item 1A. Risk Factors - Risks Related to Our Common Stock"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The Company's stock price has been very volatile and low, ranging from $0.62 to $5.38 in 2023.",
+   "numbers": "low $0.62 (July 18, 2023); high $5.38 (August 1, 2023); $1.26 on October 5, 2023",
+   "quote": "the last reported sale price of the Company\u2019s common stock on NYSE on October 5, 2023, was $1.26 per share",
+   "section": "Item 1A. Risk Factors - Risks Related to Our Common Stock"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The Company restated its 2021 and 2020 financial statements and 2021-2022 interim data, and found material weaknesses with ineffective internal control over financial reporting.",
+   "numbers": "",
+   "quote": "the Company did not maintain effective internal control over financial reporting at December 31, 2022",
+   "section": "Item 1. Business - Restatement of Previously Issued Financial Statements"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The current independent auditor could be dismissed, resign or refuse re-appointment, which could delay future filings.",
+   "numbers": "",
+   "quote": "the Company\u2019s current independent auditor could be dismissed, resign or refuse to stand for re-appointment as a result of these issues",
+   "section": "Item 1A. Risk Factors - Risks Related to Our Common Stock"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Senior departures are piling up: the Chief Legal Officer, Chief Accounting Officer and Executive Vice Chair are leaving, the VP Internal Audit and Treasurer resigned, and accounting staff attrition is significant.",
+   "numbers": "",
+   "quote": "Also in 2023, the Company\u2019s Vice President, Internal Audit, and its Vice President, Treasurer, resigned from their positions.",
+   "section": "Item 1A. Risk Factors - Management"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Headcount fell sharply due to divestitures and re-engineering, creating resource constraints.",
+   "numbers": "approximately 6,600 employees; about 35 percent fewer",
+   "quote": "the Company had approximately 6,600 employees, about 35 percent fewer than at December 25, 2021",
+   "section": "Item 1. Business - Human Capital"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Securities litigation continues: a court denied the motion to dismiss the 2022 class action, while the earlier class action dismissal was affirmed on appeal.",
+   "numbers": "",
+   "quote": "On September 28, 2023, the Court denied the defendant\u2019s motion to dismiss the First Amended Class Action Complaint.",
+   "section": "Item 3. Legal Proceedings"
+  },
+  {
+   "filing": "10-K filed 2023-10-13",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The filing says the Turnaround Plan's timing and investment are likely to be constrained by liquidity.",
+   "numbers": "",
+   "quote": "The timing and investment in support of the Turnaround Plan could most likely be constrained by the Company\u2019s liquidity.",
+   "section": "Item 1. Business - Business Strategy"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In Q4 2021 the Company refinanced its credit facilities with a new $880.0 million facility (a $480.0 million revolver plus USD and Euro term loans), cutting term loan rates by six percentage points.",
+   "numbers": "$880.0 million; $480.0 million revolver; $200.0 million USD term loan; \u20ac176.0 million Euro term loan",
+   "quote": "During the fourth quarter of 2021, the Company completed the refinance of its credit facilities by securing $880.0 million in a new credit facility.",
+   "section": "Item 1. Business - Liquidity and Capital Allocation"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The refinancing pushed out maturities to November 23, 2026 and increased liquidity.",
+   "numbers": "maturity 2026; approximately $100.0 million liquidity increase",
+   "quote": "extended the maturity of the credit facility by two and a half years to 2026, and increased liquidity by approximately $100.0 million",
+   "section": "Item 7. MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Current debt fell sharply after the refinancing, with total debt roughly flat.",
+   "numbers": "Total debt $709.4 million (2021) vs $683.3 million (2020); current debt $8.9 million vs $424.7 million",
+   "quote": "Current debt and finance lease obligations $ 8.9 $ 424.7",
+   "section": "Item 7. MD&A - Debt Summary"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The Company was in compliance with its credit agreement financial covenants at year-end 2021.",
+   "numbers": "",
+   "quote": "As of December 25, 2021 the Company is in compliance with the financial covenants in the Credit Agreement.",
+   "section": "Note 17: Debt"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Management stated it had sufficient liquidity to fund working capital, capex and restructuring, backed by year-end cash.",
+   "numbers": "cash and cash equivalents $267.2 million",
+   "quote": "The Company believes that it has sufficient liquidity to fund its working capital, capital spending needs, and current and anticipated restructuring actions.",
+   "section": "Item 7. MD&A - Cash"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "The Company had unused credit lines available at year-end 2021.",
+   "numbers": "$156.5 million unused, including $150.0 million committed",
+   "quote": "At December 25, 2021, the Company had $156.5 million of unused lines of credit, including $150.0 million under the committed, secured Credit Agreement",
+   "section": "Note 17: Debt"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Most cash was held by foreign subsidiaries, though less than 1 percent was deemed ineligible for repatriation.",
+   "numbers": "$230.1 million held by foreign subsidiaries",
+   "quote": "Cash and cash equivalents balance as of December 25, 2021 includes $230.1 million held by foreign subsidiaries.",
+   "section": "Item 7. MD&A - Cash"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Net working capital improved substantially, mainly from reclassifying short-term borrowings to long-term and higher cash.",
+   "numbers": "$455.9 million improvement; $412.0 million decrease in short-term borrowings; $125.8 million increase in cash",
+   "quote": "The Company's net working capital position improved by $455.9 million at the end of 2021 compared with the end of 2020.",
+   "section": "Item 7. MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "other",
+   "direction": "against",
+   "finding": "S&P upgraded the Company to B+ with a stable outlook and affirmed it after the refinancing; Moody's withdrew its ratings after a debt redemption.",
+   "numbers": "B to B+",
+   "quote": "On August 6, 2021, Standard & Poor\u2019s (\"S&P\") raised its rating of the Company from B to B+ with a stable outlook, due to the continued deleveraging.",
+   "section": "Item 7. MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "The Company was profitable at the operating level in 2021, with operating income up from 2020.",
+   "numbers": "Operating income $250.5 million (2021), $191.6 million (2020); income from continuing operations before taxes $198.2 million; tax provision $42.6 million",
+   "quote": "Operating income 250.5 191.6 168.9",
+   "section": "Consolidated Statements of Income"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "2021 results included non-cash and one-off items: a Philippines goodwill impairment, a loss on debt extinguishment, stock compensation and depreciation.",
+   "numbers": "goodwill impairment $8.1 million; loss on debt extinguishment $19.9 million; stock-based compensation $8.6 million; depreciation and amortization $39.7 million",
+   "quote": "The Company concluded the full value of the Philippines goodwill was impaired and recorded an $8.1 million impairment charge in the fourth quarter of 2021.",
+   "section": "Item 7. MD&A - Impairment Expense; Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The Company raised cash from asset sales, including the remaining Orlando headquarters land and a French manufacturing facility.",
+   "numbers": "approximately $37.3 million (Orlando); approximately $9.1 million (France); gain of $26.2 million on Orlando land",
+   "quote": "The Company completed the sale of its remaining properties surrounding its Company headquarters in Orlando, Florida in the fourth quarter of 2021 for approximately $37.3 million.",
+   "section": "Item 7. MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Gains on disposal of assets added to 2021 operating income and are not recurring.",
+   "numbers": "$32.3 million (2021) vs $14.3 million (2020)",
+   "quote": "In 2021 the Company realized a gain of $26.2 million from the sale of the remaining land near the Company headquarters in Orlando, Florida.",
+   "section": "Item 7. MD&A - Gain on Disposal of Assets"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The beauty businesses were classified as held for sale and discontinued operations as part of divesting non-core assets, and discontinued operations provided cash in 2021.",
+   "numbers": "cash provided by discontinued operations $23.5 million",
+   "quote": "Cash provided by (used in) discontinued operations 23.5 (0.5) 0.2",
+   "section": "Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The Company spent cash on share repurchases in 2021.",
+   "numbers": "$25.0 million",
+   "quote": "Common stock repurchase (25.0) \u2014 \u2014",
+   "section": "Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Year-end cash including restricted cash rose sharply.",
+   "numbers": "$273.8 million (2021) vs $150.5 million (2020)",
+   "quote": "Cash, cash equivalents and restricted cash at end of period (a) $ 273.8 $ 150.5 $ 126.1",
+   "section": "Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Borrowing costs were low and interest expense fell after the refinancing, with mandatory quarterly prepayments starting in 2022.",
+   "numbers": "weighted average interest rate 2.08%; interest expense $35.2 million (2021) vs $38.6 million (2020); prepayments starting March 31, 2022",
+   "quote": "As of December 25, 2021, the Company had a weighted average interest rate of 2.08% with a base rate spread of 200 basis points on LIBOR-based borrowings under the Credit Agreement.",
+   "section": "Note 17: Debt"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "A risk factor warns that a covenant breach could accelerate debt that the Company might not be able to cover.",
+   "numbers": "",
+   "quote": "The Company may not have sufficient working capital or liquidity to satisfy its debt obligations in the event of an acceleration of all or a portion of its outstanding obligations.",
+   "section": "Item 1A. Risk Factors - Current and future indebtedness"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The Tupperware trademark is collateral under the new credit facility, which is secured by substantially all personal property of the borrower and guarantors.",
+   "numbers": "",
+   "quote": "The Company\u2019s Tupperware trademark is collateral under the new credit facility.",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The SEC was investigating the Company's Mexico accounting, where misstatements came from management override of controls and employee misconduct.",
+   "numbers": "",
+   "quote": "The SEC is conducting an inquiry into the Company\u2019s accounting practices relating to its Mexico operations.",
+   "section": "Item 1A. Risk Factors; Item 3. Legal Proceedings; Note 1"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The 2020 securities class action was dismissed with prejudice in February 2022, though the plaintiff could appeal, and derivative suits remained stayed.",
+   "numbers": "",
+   "quote": "on February 4, 2022, the Court dismissed the third amended complaint with prejudice",
+   "section": "Item 3. Legal Proceedings"
+  },
+  {
+   "filing": "10-K filed 2022-02-23",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "Re-engineering charges under the Turnaround Plan fell in 2021, mainly severance.",
+   "numbers": "$14.8 million (2021) vs $35.3 million (2020)",
+   "quote": "Total re-engineering charges $ 14.8 $ 35.3",
+   "section": "Item 7. MD&A - Re-engineering Charges"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded there is substantial doubt about the Company's ability to continue as a going concern for twelve months after the filing, driven by expected covenant non-compliance.",
+   "numbers": "",
+   "quote": "Accordingly, the Company believes that there is substantial doubt about its ability to continue as a going concern for the twelve-month period following the date of this filing.",
+   "section": "Note 16 Debt / MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Company states it is probable it will not maintain compliance with its Credit Agreement covenants, including the Consolidated Net Leverage Ratio, over the next twelve months.",
+   "numbers": "",
+   "quote": "it is probable that the Company will not be able to maintain compliance with the covenants in its Credit Agreement, including the existing Consolidated Net Leverage Ratio covenant, for the next twelve months",
+   "section": "Note 16 Debt / MD&A Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Company is negotiating with lenders to amend the Credit Agreement but gives no assurance that an amendment, waiver or refinancing will succeed.",
+   "numbers": "",
+   "quote": "there can be no assurance that the Company will be successful in such efforts",
+   "section": "Note 16 Debt / MD&A Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "Effective August 1, 2022 lenders agreed to a First Amendment temporarily raising the maximum Net Leverage Ratio, stepping back down to 3.75x from Q2 2023, adding higher pricing tiers and moving to SOFR.",
+   "numbers": "4.5x Q3 2022; 4.25x Q4 2022 and Q1 2023; 3.75x Q2 2023 and thereafter",
+   "quote": "allow for a temporary higher maximum total Net Leverage Ratio of 4.5x in the third quarter of 2022, 4.25x in the fourth quarter of 2022 and first quarter of 2023",
+   "section": "Note 16 Debt"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Company was in compliance at September 24, 2022, but net leverage nearly doubled since year-end and sits close to the 4.5x cap, which tightens to 4.25x next quarter.",
+   "numbers": "Net Leverage 4.17x (vs 2.11x at Dec 25, 2021); Interest Coverage 5.93x (vs 8.23x)",
+   "quote": "with a Consolidated Net Leverage Ratio of 4.17x and a Consolidated Interest Coverage Ratio of 5.93x",
+   "section": "Note 16 Debt"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "If covenants are breached and not amended or waived, lenders could accelerate amounts due under the Credit Agreement, and the Company may lack liquidity to repay accelerated debt.",
+   "numbers": "",
+   "quote": "The Company may not have sufficient working capital or liquidity to satisfy its debt obligations in the event of an acceleration of all or a portion of its outstanding obligations.",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Total debt is about $700.8 million, mostly long-term, with all Credit Agreement facilities maturing in November 2026 and only $13.0 million current.",
+   "numbers": "Total debt $700.8M; term loan $369.2M; revolver $332.8M; current $13.0M; long-term $687.8M",
+   "quote": "Each of the Revolver Facility, the USD Term Loan, and the Euro Term Loan will mature on November 23, 2026.",
+   "section": "Note 16 Debt"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The borrowing rate rose to 4.39% at a 275 basis point spread on SOFR, and Q3 interest expense edged up due to rising rates.",
+   "numbers": "4.39% weighted average rate; 275 bps spread; Q3 interest expense $8.3M vs $8.2M",
+   "quote": "As of September 24, 2022, the Company had a weighted average interest rate of 4.39% with a base rate spread of 275 basis points on SOFR-based borrowings under the Credit Agreement.",
+   "section": "Note 16 Debt / MD&A Interest Expense"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The fair value of the term loan and revolver was below carrying value, indicating a market discount on the debt.",
+   "numbers": "Carrying $702.0M vs fair value $660.1M",
+   "quote": "Total $ 702.0 $ 660.1 $ 710.5 $ 710.5",
+   "section": "Note 19 Fair Value Measurements"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash and cash equivalents fell sharply from year-end, while unused credit lines were $135.3 million, mostly under the committed secured Credit Agreement.",
+   "numbers": "Cash $102.9M (vs $267.2M); restricted cash $8.7M; unused lines $135.3M incl. $131.3M committed",
+   "quote": "At September 24, 2022, the Company had $135.3 million of unused lines of credit, including $131.3 million under the committed, secured Credit Agreement",
+   "section": "Note 9 / Note 16 / MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Nearly all cash is held by foreign subsidiaries, though less than 1 percent was deemed ineligible for repatriation.",
+   "numbers": "$102.1M of $102.9M held abroad",
+   "quote": "Cash and cash equivalents balance as of September 24, 2022 includes $102.1 million held by foreign subsidiaries.",
+   "section": "MD&A Cash"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Year-to-date operating cash flow turned negative, driven by a $133.0 million decrease in income from continuing operations, and each of the first three quarters of 2022 had negative operating cash flow.",
+   "numbers": "YTD operating cash flow -$65.8M vs +$3.6M; income from continuing operations down $133.0M",
+   "quote": "Net cash from operating activities was an outflow of $65.8 million and inflow of $3.6 million in the year-to-date period ended September 24, 2022 and September 25, 2021, respectively.",
+   "section": "MD&A Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Cash fell $162.2 million year-to-date, partly because the Company spent $75.0 million on an accelerated share repurchase in Q1 2022 while also drawing on the revolver.",
+   "numbers": "Net change in cash -$162.2M; buyback $75.0M; revolver borrowings $209.0M, repayments $188.2M; financing outflow $64.3M",
+   "quote": "$151.9 million decrease in cash and cash equivalents used primarily to repurchase $75.0 million of shares as part of the ASR in the first quarter of 2022",
+   "section": "MD&A Liquidity / Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The Company says it may need additional capital and that debt or equity financing may not be available on favorable terms or at all.",
+   "numbers": "",
+   "quote": "additional financing, whether debt or equity, may not be available on favorable terms, or at all.",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The going concern doubt may hurt the stock price, credit rating and relationships with customers, vendors and lenders, and may impair capital raising.",
+   "numbers": "",
+   "quote": "may negatively impact relationships with third parties with whom the Company does business, including customers, vendors and lenders",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Part of the results reflects non-cash items, including depreciation, stock compensation, credit loss provisions and asset write-offs.",
+   "numbers": "D&A $28.9M; stock-based compensation $4.9M; credit loss provision $6.5M; loss on disposal $1.6M; debt cost amortization $1.2M (YTD)",
+   "quote": "Depreciation and amortization 28.9 29.2",
+   "section": "Condensed Consolidated Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Income tax provisions were large relative to pretax income, with a Q3 effective tax rate above 100 percent.",
+   "numbers": "Q3 tax provision $11.0M; YTD $32.6M; Q3 ETR 152.8 percent",
+   "quote": "The effective tax rate was 152.8 percent and (25.8) percent in the third quarter of 2022 and 2021, respectively.",
+   "section": "MD&A Provision (Benefit) for Income Taxes"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The Turnaround Plan continues with re-engineering charges, and 2023 charges are not yet approved by the Board.",
+   "numbers": "$56.0M to date; $20.0M-$30.0M expected 2022; Q3 $4.5M, YTD $13.0M",
+   "quote": "The Company expects to incur $20.0 million to $30.0 million of Turnaround Plan charges in 2022.",
+   "section": "Note 5 Re-engineering Charges"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "The Company is pursuing expense reduction and cash savings initiatives to pay down debt and reduce leverage.",
+   "numbers": "",
+   "quote": "The expense reduction and cash saving initiatives include streamlining facilities, managing working capital, reducing capital expenditures, and reducing overall selling, general and administrative expenses.",
+   "section": "Note 16 Debt / MD&A"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The credit facility is secured by substantially all personal property of the parent and guarantors, including the Tupperware trademark.",
+   "numbers": "",
+   "quote": "The Company\u2019s Tupperware\u00ae trademark is collateral under the new credit facility.",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The SEC inquiry into Mexico accounting practices was settled with an immaterial civil penalty, while shareholder class actions and derivative suits remain pending.",
+   "numbers": "",
+   "quote": "On September 29, 2022, the SEC issued a final order approving the settlement of the inquiry.",
+   "section": "Note 18 Commitments and Contingencies / Part II Item 1"
+  },
+  {
+   "filing": "10-Q filed 2022-11-02",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The dividend has been suspended since late 2019.",
+   "numbers": "",
+   "quote": "The Company suspended its dividend beginning in the fourth quarter of 2019.",
+   "section": "MD&A Dividends"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Management states it has sufficient liquidity to fund working capital, capital spending and restructuring, and the filing contains no substantial doubt going concern statement.",
+   "numbers": "Cash $118.8M at June 25, 2022",
+   "quote": "The Company believes that it has sufficient liquidity to fund its working capital, capital spending needs and current and anticipated restructuring actions.",
+   "section": "MD&A Cash"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "The Company reports no limitations on its access to its committed facility.",
+   "numbers": "",
+   "quote": "The Company has not experienced any limitations on its ability to access its committed facility.",
+   "section": "MD&A Cash"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash fell sharply since year-end, while unused credit lines totaled $147.5 million, mostly committed under the secured Credit Agreement.",
+   "numbers": "Cash $118.8M (vs $267.2M); restricted cash $7.9M; unused lines $147.5M incl. $143.5M committed",
+   "quote": "At June 25, 2022, the Company had $147.5 million of unused lines of credit, including $143.5 million under the committed, secured Credit Agreement",
+   "section": "Note 9 / Note 16 / MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Nearly all cash sits in foreign subsidiaries, though less than 1 percent is ineligible for repatriation.",
+   "numbers": "$117.4M of $118.8M held abroad",
+   "quote": "Cash and cash equivalents balance as of June 25, 2022 includes $117.4 million held by foreign subsidiaries.",
+   "section": "MD&A Cash"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Year-to-date operating cash flow turned negative, with negative operating cash flow in both Q1 and Q2 2022, driven by a $68.9 million drop in income from continuing operations.",
+   "numbers": "YTD operating cash flow -$58.9M vs +$3.7M; income from continuing operations down $68.9M",
+   "quote": "Net cash from operating activities was an outflow of $58.9 million and inflow of $3.7 million in the year-to-date period ended June 25, 2022 and June 26, 2021, respectively.",
+   "section": "MD&A Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The Company spent $75.0 million on an accelerated share repurchase in Q1 2022, a main driver of the cash decline.",
+   "numbers": "Cash decrease $148.7M; buyback $75.0M; net change in cash -$147.1M; financing outflow $73.2M",
+   "quote": "$148.7 million decrease in cash and cash equivalents used primarily to repurchase $75.0 million of shares as part of the ASR in the first quarter of 2022",
+   "section": "MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The Company was in covenant compliance at June 25, 2022, but net leverage rose from 2.11x to 3.13x against a 3.75x maximum.",
+   "numbers": "Net Leverage 3.13x (vs 2.11x); Interest Coverage 7.93x (vs 8.23x); max leverage 3.75x; min coverage above 3.00x",
+   "quote": "As of June 25, 2022, the Company is in compliance with the financial covenants in the Credit Agreement, with a Consolidated Net Leverage Ratio of 3.13x and a Consolidated Interest Coverage Ratio of 7.93x.",
+   "section": "Note 16 Debt / MD&A Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The covenant amendment was needed because of market volatility, inflation pressures and a change in the Company's liquidity year-to-date.",
+   "numbers": "",
+   "quote": "Considering the current global market volatility, inflationary cost pressures primarily in China and Europe, and a change in the Company\u2019s liquidity year-to-date",
+   "section": "Note 16 Debt / Note 22 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "As a subsequent event on August 1, 2022, lenders agreed to temporarily raise the maximum Net Leverage Ratio, stepping back down to 3.75x from Q2 2023.",
+   "numbers": "4.5x Q3 2022; 4.25x Q4 2022 and Q1 2023; 3.75x Q2 2023 onward",
+   "quote": "allow for a temporary higher maximum total Net Leverage Ratio of 4.5x in the third quarter of 2022, 4.25x in the fourth quarter of 2022 and first quarter of 2023",
+   "section": "Note 22 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The amendment adds higher pricing tiers for leverage above 3.0x, raising borrowing costs, and switches the reference rate to SOFR.",
+   "numbers": "new tiers 3.0x-3.5x and 3.5x+; revert after 2.75x or less for two quarters",
+   "quote": "introduce two additional pricing levels for total Net Leverage Ratios of 3.0x to 3.5x, and for 3.5x and higher",
+   "section": "Note 22 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Total debt is about $700.6 million, mostly long-term, with all Credit Agreement facilities maturing November 23, 2026 and only $12.4 million current.",
+   "numbers": "Total debt $700.6M; term loan $383.4M; revolver $318.8M; current $12.4M; long-term $688.2M",
+   "quote": "Each of the Revolver Facility, the USD Term Loan, and the Euro Term Loan will mature on November 23, 2026.",
+   "section": "Note 16 Debt"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Interest expense fell because the Q4 2021 refinancing lowered interest rates; the weighted average rate was 2.96%.",
+   "numbers": "Q2 interest expense $6.0M vs $9.7M; YTD $10.6M vs $21.5M; rate 2.96%, 225 bps spread",
+   "quote": "The decrease in interest expense is a result of the debt restructuring in the fourth quarter of 2021, which resulted in a significant reduction in interest rates versus the prior debt outstanding under the previous credit agreement.",
+   "section": "MD&A Interest Expense"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The fair value of the term loan and revolver was below carrying value.",
+   "numbers": "Carrying $702.2M vs fair value $661.0M",
+   "quote": "Total $ 702.2 $ 661.0 $ 710.5 $ 710.5",
+   "section": "Note 20 Fair Value Measurements"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The Company routinely draws on the revolver within each quarter to fund operating, investing and financing activities and pays it down at quarter end.",
+   "numbers": "Revolver borrowings $146.0M; repayments $139.2M (YTD)",
+   "quote": "The Company routinely increases its Revolver Facility borrowings under the Credit Agreement during each quarter to fund operating, investing and financing activities",
+   "section": "Note 16 Debt / MD&A"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The Company closed the sale of Nutrimetics on July 1, 2022, after selling House of Fuller Mexico in May 2022, and is exploring alternatives for Nuvo.",
+   "numbers": "",
+   "quote": "On July 1, 2022 the Company closed on the sale of our Nutrimetics beauty business in Australia, France and New Zealand, consistent with our strategy to focus on our core Tupperware business.",
+   "section": "Note 22 Subsequent Events / Note 13"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Risk factors warn of negative operating cash flow in Q1 and Q2 2022, a possible need for additional capital, and that financing may not be available.",
+   "numbers": "",
+   "quote": "additional financing, whether debt or equity, may not be available on favorable terms, or at all.",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Results include non-cash items such as depreciation, stock compensation, credit loss provisions and IT asset write-offs.",
+   "numbers": "D&A $19.7M; stock-based compensation $5.9M; credit loss provision $4.4M; loss on disposal $1.6M; debt cost amortization $0.9M (YTD)",
+   "quote": "Depreciation and amortization 19.7 19.6",
+   "section": "Condensed Consolidated Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "About $133 million of currency translation losses and the matching contra-asset liability were derecognized on the House of Fuller Mexico sale, a non-cash item.",
+   "numbers": "~$133M",
+   "quote": "Approximately $133 million of currency translation losses in accumulated other comprehensive income and the equivalent amount of the contra-asset liability were derecognized and removed from the balance sheet in the second quarter of 2022",
+   "section": "Note 13 Held for Sale Assets and Discontinued Operations"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Business was hurt by COVID lockdowns in China and by weak consumer sentiment, inflation and gas prices in Europe.",
+   "numbers": "",
+   "quote": "In addition, the Company's business activities, particularly in Europe, continued to experience volatility and were impacted by lower consumer sentiment, higher inflation, and higher gas prices.",
+   "section": "Note 1 Economic Uncertainties"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The Turnaround Plan continues to generate re-engineering charges, mainly severance and consulting.",
+   "numbers": "$51.5M to date; $15.0M-$20.0M expected 2022; Q2 $7.0M, YTD $8.5M",
+   "quote": "The Company expects to incur $15.0 million to $20.0 million of Turnaround Plan charges in 2022.",
+   "section": "Note 5 Re-engineering Charges"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The Company recorded small out-of-period adjustments that management judged immaterial.",
+   "numbers": "$1.5M Q2; $1.3M YTD",
+   "quote": "Management has determined that these errors were not material to any of its previously issued financial statements.",
+   "section": "Note 1 Summary of Significant Accounting Policies"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The SEC inquiry into Mexico accounting is in settlement discussions with an immaterial accrued liability, and shareholder class actions and derivative suits are pending.",
+   "numbers": "",
+   "quote": "In the second quarter of 2022, the Company has recognized an estimated liability for this matter in an amount the Company believes is immaterial to its business, financial condition, results of operations and cash flows.",
+   "section": "Note 18 Commitments and Contingencies / Part II Item 1"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The dividend has been suspended since Q4 2019.",
+   "numbers": "",
+   "quote": "The Company suspended its dividend beginning in the fourth quarter of 2019.",
+   "section": "MD&A Dividends"
+  },
+  {
+   "filing": "10-Q filed 2022-08-04",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Part II Item 5 Other Information reports nothing.",
+   "numbers": "",
+   "quote": "Not applicable.",
+   "section": "Part II Item 5"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Management states it has sufficient liquidity to fund working capital, capital spending and restructuring, supported by $245.6 million of cash and cash equivalents at March 26, 2022.",
+   "numbers": "cash and cash equivalents $245.6 million (vs $267.2 million at Dec 25, 2021); restricted cash $7.4 million; total $253.0 million",
+   "quote": "The Company believes that it has sufficient liquidity to fund its working capital, capital spending needs and current and anticipated restructuring actions.",
+   "section": "MD&A - Financial Condition, Cash; Note 9"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash flow for the first quarter of 2022 was a larger outflow than a year earlier, driven by lower net income and lower accrued liabilities.",
+   "numbers": "operating cash outflow $41.3 million in Q1 2022 vs outflow $11.6 million in Q1 2021",
+   "quote": "Net cash from operating activities was an outflow of $41.3 million and outflow of $11.6 million in the year-to-date period ended March 26, 2022 and March 27, 2021, respectively.",
+   "section": "MD&A - Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Undrawn credit availability was small at quarter end, with only $44.8 million left under the committed facility.",
+   "numbers": "$48.8 million unused lines; $44.8 million committed; $4.0 million uncommitted; revolver capacity $480.0 million",
+   "quote": "At March 26, 2022, the Company had $48.8 million of unused lines of credit, including $44.8 million under the committed, secured Credit Agreement, and $4.0 million available under various uncommitted lines around the world.",
+   "section": "Note 16 Debt / MD&A - Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Total debt rose by about $100 million in the quarter as revolver borrowings increased from $312.0 million to $417.0 million.",
+   "numbers": "total debt $809.8 million vs $709.4 million; term loan $394.2 million; revolver $417.0 million vs $312.0 million",
+   "quote": "Total debt $ 809.8 $ 709.4",
+   "section": "Note 16 Debt / MD&A - Debt Summary"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "All Credit Agreement facilities, refinanced in November 2021, mature in November 2026, so there is no near-term maturity wall.",
+   "numbers": "maturity November 23, 2026",
+   "quote": "Each of the Revolver Facility, the USD Term Loan, and the Euro Term Loan will mature on November 23, 2026.",
+   "section": "Note 16 Debt - Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company was in compliance with its financial covenants at March 26, 2022, though the net leverage ratio rose from 2.11 to 2.88 against a 3.75 maximum.",
+   "numbers": "net leverage 2.88 (2.11 at Dec 25, 2021) vs max 3.75; interest coverage 8.81 (8.23) vs min 3.00",
+   "quote": "As of March 26, 2022 the Company is in compliance with the financial covenants in the Credit Agreement. with a Consolidated Net Leverage Ratio of 2.88 and a Consolidated Interest Coverage Ratio of 8.81.",
+   "section": "Note 16 Debt - Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Management warns that further deterioration in net income during 2022 could bring the company close to the leverage covenant threshold and require cost actions.",
+   "numbers": "leverage covenant threshold 3.75 to 1.00",
+   "quote": "additional deterioration in net income in the remaining quarters of the year ending December 31, 2022 could result in the Company approaching the consolidated leverage ratio covenant threshold",
+   "section": "Note 16 Debt - Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company spent $75.0 million on an accelerated share repurchase in the quarter while funding itself with net revolver borrowings of $105.0 million.",
+   "numbers": "revolver borrowings $128.0 million; revolver repayments $23.0 million; share repurchase $75.0 million; net financing inflow $28.9 million",
+   "quote": "$75.0 million outflow related to the repurchase of its Common Stock outstanding",
+   "section": "MD&A - Financing Activities"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "A new risk factor says the company generated significant negative operating cash flow and expects further spending that may cause more negative cash flow periods.",
+   "numbers": "",
+   "quote": "in the first quarter of fiscal 2022 we generated significant negative operating cash flow",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company says it may need additional equity or debt capital to meet its requirements and that such financing may not be available on favorable terms.",
+   "numbers": "",
+   "quote": "we may require additional capital through various sources of financing that may include the issuance of new equity securities, debt or a combination of both.",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Sales trends deteriorated in the quarter, with inventory building up, and COVID-19 lockdowns in Asia and the Russia/Ukraine conflict hurting activity.",
+   "numbers": "inventory increase $15.2 million; Russia and Ukraine about 2.1% of 2021 sales",
+   "quote": "a $15.2 million increase in inventory due to deterioration of sales trends in the quarter",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Sales force activity in Europe fell in March 2022 because of the Russia/Ukraine conflict, and Ukrainian assets were fully reserved.",
+   "numbers": "reserve and impairment approximately $0.4 million",
+   "quote": "In March 2022, there was lower sales force activity in the Europe segment stemming from the Russia/Ukraine conflict.",
+   "section": "MD&A - Recent Developments and Updates"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Non-cash items in operating cash flow were modest, including depreciation and amortization, stock compensation and credit loss provisions.",
+   "numbers": "D&A $10.7 million; stock-based compensation $2.9 million; provision for credit losses $3.3 million; unrealized FX gain $(3.1) million",
+   "quote": "Depreciation and amortization 10.7 9.8",
+   "section": "Condensed Consolidated Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The company runs an operational Turnaround Plan (right-sizing, divestitures, debt restructuring) and expects further charges in 2022.",
+   "numbers": "$44.5 million charges to date; $15.0 million to $20.0 million expected in 2022; Q1 2022 re-engineering $1.5 million",
+   "quote": "The Company expects to incur $15.0 million to $20.0 million of Turnaround Plan charges in 2022.",
+   "section": "Note 5 Re-engineering Charges"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company closed the sale of its House of Fuller beauty business after quarter end as part of divesting non-core assets.",
+   "numbers": "",
+   "quote": "On Wednesday, May 4, 2022 the Company closed on the pending sale of our House of Fuller beauty business in Mexico",
+   "section": "Note 22 Subsequent Event"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "other",
+   "direction": "against",
+   "finding": "Further asset sales are in progress, with non-binding offers received for Nutrimetics and strategic alternatives being explored for Nuvo.",
+   "numbers": "",
+   "quote": "The Company is evaluating the non-binding offers received for Nutrimetics with the intent of entering into a definitive agreement in the second quarter of 2022.",
+   "section": "Note 13 Held for Sale Assets and Discontinued Operations"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "S&P had upgraded the company to B+ with a stable outlook and kept the rating after the November 2021 refinancing.",
+   "numbers": "S&P B+ stable",
+   "quote": "On August 6, 2021, Standard & Poor\u2019s (\"S&P\") raised its rating of the Company from B to B+ with a stable outlook, due to the continued deleveraging.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Interest expense fell sharply after the 2021 debt restructuring lowered interest rates.",
+   "numbers": "interest expense $4.6 million vs $11.8 million; weighted average rate 2.35%",
+   "quote": "Interest expense was $4.6 million and $11.8 million in the first quarter of 2022 and 2021, respectively.",
+   "section": "MD&A - Interest Expense"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Most cash is held by foreign subsidiaries, although less than 1 percent is deemed ineligible for repatriation.",
+   "numbers": "$235.5 million of $245.6 million held abroad",
+   "quote": "Cash and cash equivalents balance as of March 26, 2022 includes $235.5 million held by foreign subsidiaries.",
+   "section": "MD&A - Cash"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The Credit Agreement requires mandatory quarterly prepayments starting March 31, 2022, and the company relies on revolver borrowings within each quarter to fund activities.",
+   "numbers": "",
+   "quote": "The Company has prepayment options, as well as mandatory quarterly prepayments starting March 31, 2022.",
+   "section": "Note 16 Debt - Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The SEC is conducting an inquiry into accounting practices at Tupperware Mexico and Fuller Mexico, and a dismissed securities class action is under appeal.",
+   "numbers": "",
+   "quote": "The United States Securities and Exchange Commission (\u201cSEC\u201d) is conducting an inquiry into our accounting practices relating to the Company\u2019s Tupperware Mexico and Fuller Mexico locations.",
+   "section": "Note 18 Commitments and Contingencies / Part II Item 1 Legal Proceedings"
+  },
+  {
+   "filing": "10-Q filed 2022-05-05",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The dividend remains suspended, as it has been since late 2019.",
+   "numbers": "",
+   "quote": "The Company suspended its dividend beginning in the fourth quarter of 2019.",
+   "section": "MD&A - Dividends"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded there is substantial doubt about the company's ability to continue as a going concern for at least one year from the 10-K issuance date.",
+   "numbers": "",
+   "quote": "the Company has concluded that there is substantial doubt about its ability to continue as a going concern for at least one year from the expected issuance date of its Form 10-K financial statements.",
+   "section": "8-K filed 2023-04-07, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management expects the auditor's report on the 2022 financial statements to include a going concern explanatory paragraph.",
+   "numbers": "",
+   "quote": "management also expects that the report of the Independent Registered Public Accounting Firm that will accompany the audited consolidated financial statements for the year ended December 31, 2022 will contain an explanatory paragraph expressing substantial doubt",
+   "section": "8-K filed 2023-04-07, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company says it could not repay its borrowings if lenders demanded repayment, and it depends on the revolver to fund operations.",
+   "numbers": "",
+   "quote": "If such demand for repayment were to occur, the Company does not have the financial resources to repay such obligations.",
+   "section": "8-K filed 2023-04-07, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company judged a covenant violation probable because of forecast financial covenant breaches and the late 10-K, even after the Second and Third Amendments.",
+   "numbers": "",
+   "quote": "The Company has determined that a violation of its Credit Agreement covenants is probable to occur as a result of forecasted non-compliance with financial covenants and the Company\u2019s delay in filing its Form 10-K",
+   "section": "8-K filed 2023-04-07, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company expects to classify all Credit Agreement borrowings at year-end 2022 as current.",
+   "numbers": "$705 million of borrowings as of December 31, 2022",
+   "quote": "the Company also currently expects that it will be required to classify its $705 million of borrowings under its Credit Agreement as of December 31, 2022 as a current obligation in its 2022 balance sheet.",
+   "section": "8-K filed 2023-04-07, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company missed an interest payment; the Fourth Amendment waived borrowing conditions so it could draw $5.3 million to pay past-due interest despite existing defaults.",
+   "numbers": "$5.3 million borrowing",
+   "quote": "notwithstanding the existence of each of a default related to such past-due interest and an event of default resulting from the Company\u2019s failure to timely deliver audited financials",
+   "section": "8-K filed 2023-05-08, Item 1.01 (Fourth Amendment)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "In July 2023 the company forecast that it lacked the liquidity to make its July 2023 interest payment and said it may be forced to reorganize or liquidate.",
+   "numbers": "",
+   "quote": "is forecasting insufficient liquidity to make its interest payment in July 2023 under the Credit Agreement, which would further limit its ability to borrow under the Credit Agreement.",
+   "section": "8-K filed 2023-07-07, Item 7.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company disclosed it had already violated Credit Agreement covenants by filing its 10-K and 10-Q late.",
+   "numbers": "",
+   "quote": "The Company also has violated certain covenants under the Credit Agreement due to the delay in filing (a) its Form 10-K",
+   "section": "8-K filed 2023-07-07, Item 7.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Lenders granted a short waiver deferring June 2023 term loan amortization payments to July 2025 and waiving a prepayment from an Indonesian real property sale.",
+   "numbers": "$2,500,000, $500,000 and \u20ac2,200,000 amortization deferred; $10.4 million Indonesian property proceeds; $6 million revolver prepayment",
+   "quote": "provides for a deferral of the $2,500,000, $500,000, and \u20ac2,200,000 principal amortization payments required to be made on or about June 30, 2023",
+   "section": "8-K filed 2023-07-07, Item 1.01 (Limited Waiver)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company appointed a Chief Restructuring Officer from Alvarez & Marsal, which lenders also required it to keep as financial advisor.",
+   "numbers": "",
+   "quote": "On May 4, 2023, the Company appointed Brian J. Fox of Alvarez & Marsal North America, LLC (\u201cA&M\u201d) as the Company\u2019s Chief Restructuring Officer.",
+   "section": "8-K filed 2023-05-08, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company hired Moelis & Company to explore strategic alternatives and ways to improve liquidity and capital structure.",
+   "numbers": "",
+   "quote": "The Company has engaged Moelis & Company LLC to run a process to explore strategic alternatives, and advise on potential means to improve the Company\u2019s liquidity and capital structure and other strategic transactions.",
+   "section": "8-K filed 2023-05-08, Item 7.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On August 2, 2023, lenders signed a Debt Restructuring Agreement that waived existing events of default and restructured the facilities, showing continued lender support.",
+   "numbers": "revolver commitments $38,375,527.10; USD Term A $425,000,000; USD Term C $156,412,093.89; EUR Term D \u20ac173,425,559.64",
+   "quote": "waives certain events of default existing under, and restructures the credit facilities documented by, that certain Credit Agreement dated as of November 23, 2021",
+   "section": "8-K filed 2023-08-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Restructured debt is expensive, with cash-pay loans at SOFR plus 6.00% maturing July 31, 2025, and 14.00% payment-in-kind loans growing in principal until July 31, 2027.",
+   "numbers": "SOFR + 6.00% (Base Rate + 5.00%); 14.00% PIK; maturities July 31, 2025 and July 31, 2027",
+   "quote": "The interest accruing on the 2027 Maturity Date Loans is payable in kind, and thus capitalized thereon and increasing the principal balance thereof, on a quarterly basis, and the 2027 Maturity Date Loans mature on July 31, 2027.",
+   "section": "8-K filed 2023-08-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The restructuring adds a restructuring fee and a facility fee that become due on default, acceleration or maturity, plus lender warrants for about 4.99% of shares.",
+   "numbers": "restructuring fee approximately $16,250,000; facility fee $10,000,000; warrants for 2,548,874 shares (about 4.99%) at $0.01",
+   "quote": "an approximately $16,250,000 restructuring fee (the \u201cRestructuring Fee\u201d)",
+   "section": "8-K filed 2023-08-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Lenders imposed tight cash controls: a weekly $15 million minimum U.S. liquidity covenant, 13-week cash flow forecast compliance, and revolver draws only when U.S. cash is $7,000,000 or less.",
+   "numbers": "$15 million minimum liquidity; $7,000,000 U.S. cash cap; capex max $31 million; minimum EBITDA $87 million to $128 million",
+   "quote": "a $15 million minimum liquidity covenant, which is tested on a weekly basis and calculated solely with respect to the U.S. Loan Parties and inclusive of unfunded Global Tranche Revolving Commitments",
+   "section": "8-K filed 2023-08-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "Leverage, interest coverage and EBITDA covenants under the restructured agreement are not tested until the quarter ending around March 31, 2024.",
+   "numbers": "first test quarter ending on or about March 31, 2024",
+   "quote": "a maximum Consolidated Net Leverage Ratio (which excludes the 2027 Maturity Date Loans), which is tested on a quarterly basis, commencing with the fiscal quarter ending on or about March 31, 2024",
+   "section": "8-K filed 2023-08-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Filing the 10-K after October 2, 2023 required majority lender consent to avoid a default, which would become an Event of Default if not cured within 30 days, allowing acceleration and foreclosure.",
+   "numbers": "10-K deadline September 16, 2023 extended to October 2, 2023; 30-day cure",
+   "quote": "the Company will need to seek consent of a majority of the Lenders in order to avoid such delay resulting in a default",
+   "section": "8-K filed 2023-09-18, Item 7.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Under the Fifth Amendment of October 5, 2023, lenders granted another short extension of the financial statement delivery deadlines, moving the 2022 audited statements to November 1, 2023.",
+   "numbers": "10-K deadline to November 1, 2023; Q1 10-Q to December 29, 2023; Q2 to January 31, 2024; Q3 to March 15, 2024",
+   "quote": "extends the deadline for delivery of (i) the Company\u2019s annual audited financial statements for the fiscal year ending December 31, 2022 from September 16, 2023 to November 1, 2023",
+   "section": "8-K filed 2023-10-10, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "The company expects an Indonesian tax refund that must be used to prepay term loans, and it earlier received about $10.4 million from selling Indonesian real property.",
+   "numbers": "foreign cash cap raised from $55 million to $75 million; $10.4 million property proceeds",
+   "quote": "in connection with the anticipated receipt of certain tax refunds in Indonesia (the \u201cIndonesian Tax Refund\u201d)",
+   "section": "8-K filed 2023-10-10, Item 1.01; 8-K filed 2023-07-07, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "NYSE notified the company it was below continued listing standards because market capitalization and stockholders' equity were under $50 million and the share price was under $1.00.",
+   "numbers": "market cap and equity below $50 million; average price below $1.00",
+   "quote": "the Company\u2019s average global market capitalization over a consecutive 30 trading-day period was less than $50 million and, at the same time, its last reported stockholders\u2019 equity was less than $50 million",
+   "section": "8-K filed 2023-06-07, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "neutral",
+   "finding": "NYSE approved a further cure period for the late filings until March 31, 2024, but warned that missed interim milestones could lead to early trading suspension.",
+   "numbers": "cure period to March 31, 2024",
+   "quote": "On October 3, 2023 the Company received approval of its Extension Request from the NYSE\u2019s Listings Operations Committee, subject to reassessment on an ongoing basis.",
+   "section": "8-K filed 2023-10-10, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The 2022 10-K and the 2023 10-Qs are late because prior financial statements were materially misstated and must be restated; NT 10-K and two NT 10-Q notices were filed.",
+   "numbers": "restatement of 2020, 2021 and 2021-2022 interim periods; $23-28 million reduction to 2020 beginning retained earnings",
+   "quote": "were materially misstated and should be restated and no longer be relied upon because of the identification of material prior period misstatements.",
+   "section": "NT 10-K filed 2023-03-16, Part III"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "As of October 2023 the 2022 10-K and the Q1 and Q2 2023 10-Qs were still delayed, and the Q3 2023 10-Q was also expected to be late.",
+   "numbers": "",
+   "quote": "the 2022 Form 10-K and the Quarterly Reports on Form 10-Q for the quarters ended April 1, 2023 and July 1, 2023 continue to be delayed",
+   "section": "8-K filed 2023-10-10, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Multiple material weaknesses were identified, covering income taxes, leases, intercompany loans, goodwill valuation, reconciliations and the cash flow statement, and internal control was not effective.",
+   "numbers": "",
+   "quote": "management concluded that as of December 31, 2022, the Company\u2019s internal control over financial reporting was not effective.",
+   "section": "8-K filed 2023-09-18, Item 7.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The restatement adjustments are described as mainly non-cash, but the company was evaluating possible deferred tax valuation allowances and goodwill and intangible impairments for Q4 2022.",
+   "numbers": "",
+   "quote": "The Company believes that the adjustments identified to date are primarily non-cash corrections related to income taxes and lease accounting treatment.",
+   "section": "8-K filed 2023-03-16, Item 4.02; 8-K filed 2023-04-07, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Preliminary revenue for the first two quarters of 2023 showed a material decline from the prior year.",
+   "numbers": "Q1 2023 revenue $280 - $290 million; Q2 2023 revenue $260 - $270 million",
+   "quote": "The Company believes that its preliminary estimated revenue results for the quarter ended July 1, 2023 will be within the range of $260 - $270 million.",
+   "section": "NT 10-Q filed 2023-08-03, Part IV; 8-K filed 2023-05-08, Item 7.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Third Amendment (February 2023) cut the revolver from $450 million to $220 million, converted $200 million into a term loan, loosened covenants to 6.25x leverage, and shortened maturity to July 31, 2025.",
+   "numbers": "revolver $450 million to $220 million; $200 million Term Loan 2; leverage max 6.25 to 1.00; maturity July 31, 2025",
+   "quote": "The Company entered into both the Second Amendment and Third Amendment to address expected non-compliance with financial covenants",
+   "section": "8-K filed 2023-04-07, Item 8.01; 8-K filed 2023-02-28, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Covenant relief started in 2022: the First Amendment loosened leverage limits, and the Second Amendment raised them to 5.25x, shortened maturity to 2025 and required weekly 13-week cash flow forecasts.",
+   "numbers": "leverage 4.50 (Q3 2022), 5.25 (Q4 2022); maturity November 23, 2026 to November 23, 2025",
+   "quote": "the maturity date of the Credit Agreement is shortened from November 23, 2026 to November 23, 2025",
+   "section": "8-K filed 2022-12-22, Item 1.01; 8-K filed 2022-08-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Senior people are leaving, including the Executive Vice Chair, the Chief Accounting Officer and the Chief Legal Officer, and lenders required a restructuring-experienced director who chairs a new Transformation Committee.",
+   "numbers": "Board expanded to 13 directors",
+   "quote": "Richard Goudis, Executive Vice Chair and Director of the Company, informed the Company of his intention to resign from his officer and director positions",
+   "section": "8-K filed 2023-10-10, Item 5.02; 8-K filed 2023-09-18; 8-K filed 2023-08-25; 8-K filed 2023-08-11"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The company engaged advisors to seek supplemental financing and was reviewing real estate sales or sale-leasebacks, but none of these actions was considered probable.",
+   "numbers": "",
+   "quote": "The Company has engaged financial advisors to assist in securing supplemental financing, and is engaging in discussions with potential investors or financing partners.",
+   "section": "8-K filed 2023-04-07, Item 8.01"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score of 0.537 comes from a balance sheet that is underwater: liabilities are 158% of assets against a peer median of 64%, the current ratio is 0.43 against a peer median of 2.06, and net income swung from +$15.6M to -$232.5M with operating cash flow turning negative (-$34.0M). The filings show that this distress is real, and worse than the numbers alone suggest. The company missed an interest payment in 2023, forecast that it could not make its July 2023 interest payment, was in default before the August 2, 2023 restructuring, and says it cannot repay its roughly $705M of Credit Agreement debt if lenders demand it, while cash was about $103M at September 2022 and is mostly held abroad. The model's 4% band therefore understates the risk; the August 2023 Debt Restructuring Agreement buys time but does not fix the gap.",
+  "verdict": "real risk",
+  "own_risk": "high",
+  "own_risk_pct": 30,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "Missed interest payment: the Fourth Amendment (May 2023) waived borrowing conditions so the company could draw $5.3M to pay past-due interest despite existing defaults",
+   "In July 2023 the company forecast insufficient liquidity to make its July 2023 interest payment and said it may be forced to reorganize or liquidate",
+   "Debt that cash cannot cover: about $705M of Credit Agreement borrowings expected to be classified as current at 2022 year-end, against cash of $102.9M (Sep 2022), $102.1M of it held abroad; the company says it lacks the resources to repay if demanded",
+   "The company was in default of amended covenants and had no Revolver access before August 2, 2023; filing the 10-K late was itself a covenant violation",
+   "The restructured debt is expensive (SOFR + 6.00% cash-pay loans due July 31, 2025; 14.00% PIK loans due July 31, 2027), and lender-imposed controls are tight (weekly $15M minimum U.S. liquidity, revolver draws only when U.S. cash is $7M or less)",
+   "Restructuring professionals in place: a CRO from Alvarez & Marsal and Moelis running a strategic-alternatives process; the filing names bankruptcy (reorganization or liquidation) as a possible outcome",
+   "Partly offsetting: the August 2, 2023 Debt Restructuring Agreement waived existing defaults, restored up to $21.0M of Revolver access and defers financial covenant tests to about March 31, 2024; asset sales (Indonesia, Hemingway SC, Nuvo) brought in some cash"
+  ],
+  "reasons": [
+   {
+    "reason": "Liabilities far exceed assets, implying stockholders' equity of about -$430M",
+    "kind": "model input",
+    "numbers": "total liabilities $1,173.4M vs total assets $743.6M; liabilities/assets 1.58 (year before 1.18)",
+    "peer_comparison": "peer median liabilities/assets 0.64; total liabilities share of assets is at the 100th peer percentile",
+    "quote": "",
+    "source": "10-K filed 2023-10-13, balance sheet (model inputs)"
+   },
+   {
+    "reason": "Current liabilities nearly doubled as Credit Agreement debt was reclassified to current, giving a current ratio of 0.43",
+    "kind": "model input",
+    "numbers": "current liabilities $1,001.9M vs $545.1M a year earlier; current assets $431.6M; current ratio 0.43",
+    "peer_comparison": "peer median current ratio 2.06; current liabilities share of assets at the 100th peer percentile",
+    "quote": "the Company also currently expects that it will be required to classify its $705 million of borrowings under its Credit Agreement as of December 31, 2022 as a current obligation in its 2022 balance sheet.",
+    "source": "8-K filed 2023-04-07, Item 8.01"
+   },
+   {
+    "reason": "Large net loss, partly driven by non-cash tax charges that were themselves triggered by the liquidity problems",
+    "kind": "model input",
+    "numbers": "net income -$232.5M vs +$15.6M; $179.4M deferred tax asset valuation allowance",
+    "peer_comparison": "net income/assets -31.3%, 12th peer percentile",
+    "quote": "resulting in a $179.4 million valuation allowance of deferred tax assets",
+    "source": "10-K filed 2023-10-13, Item 1. Business - Substantial Doubt"
+   },
+   {
+    "reason": "Operating income collapsed and operating cash flow turned negative",
+    "kind": "model input",
+    "numbers": "operating income $23.6M vs $247.2M; operating cash flow -$34.0M vs +$108.8M",
+    "peer_comparison": "operating income 50th peer percentile; operating cash flow 29th peer percentile",
+    "quote": "Cash from operations was a $34.0 million outflow in 2022 compared to $108.8 million inflow in 2021, primarily due to a decrease in income from continuing operations.",
+    "source": "10-K filed 2023-10-13, Item 7. MD&A"
+   },
+   {
+    "reason": "Months of cash: last reported cash of $102.9M (Sep 24, 2022) would last about 36 months at the FY2022 burn of $34.0M a year (~$2.8M a month), and about 45 months at the Q3 2022 burn of $6.9M a quarter ($65.8M YTD outflow at Q3 less $58.9M at Q2). Q4 2022 was implicitly a +$31.8M inflow. The runway figure is misleading, though: nearly all cash is held abroad, some is blocked, and the binding constraint is ~$705M of debt that cash cannot repay. The company also could not fund a July 2023 interest payment",
+    "kind": "from the filings",
+    "numbers": "cash $102.9M, $102.1M abroad; YTD OCF -$65.8M (Q3 2022), -$58.9M (Q2 2022); FY2022 OCF -$34.0M",
+    "peer_comparison": "",
+    "quote": "Cash and cash equivalents balance as of September 24, 2022 includes $102.1 million held by foreign subsidiaries.",
+    "source": "10-Q filed 2022-11-02, MD&A Cash"
+   },
+   {
+    "reason": "Missed interest payment; lenders had to waive borrowing conditions so the company could pay past-due interest",
+    "kind": "from the filings",
+    "numbers": "$5.3 million borrowing",
+    "peer_comparison": "",
+    "quote": "notwithstanding the existence of each of a default related to such past-due interest and an event of default resulting from the Company\u2019s failure to timely deliver audited financials",
+    "source": "8-K filed 2023-05-08, Item 1.01 (Fourth Amendment)"
+   },
+   {
+    "reason": "The company forecast it could not make its July 2023 interest payment",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "is forecasting insufficient liquidity to make its interest payment in July 2023 under the Credit Agreement, which would further limit its ability to borrow under the Credit Agreement.",
+    "source": "8-K filed 2023-07-07, Item 7.01"
+   },
+   {
+    "reason": "In default before the August 2023 restructuring, with no Revolver access",
+    "kind": "from the filings",
+    "numbers": "August 2, 2023",
+    "peer_comparison": "",
+    "quote": "Prior to execution of the Debt Restructuring Agreement on August 2, 2023, the Company was in default with certain amended financial and non-financial covenants included in the Credit Agreement and had no access to its Revolver.",
+    "source": "10-K filed 2023-10-13, Item 1A. Risk Factors - Risks Related to Liquidity"
+   },
+   {
+    "reason": "The company cannot repay its debt if it is accelerated, and the Tupperware trademark is pledged as collateral",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "If such demand for repayment were to occur, the Company does not have the financial resources to repay such obligations.",
+    "source": "10-K filed 2023-10-13, Item 1A. Risk Factors - Current and future indebtedness"
+   },
+   {
+    "reason": "Going concern doubt, with bankruptcy explicitly named as a possible outcome if the Turnaround Plan fails",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "it may be forced to file for bankruptcy protection, which could include either reorganization or liquidation.",
+    "source": "10-K filed 2023-10-13, Item 1. Business - Substantial Doubt"
+   },
+   {
+    "reason": "Restructured debt is costly and partly PIK, so principal grows while cash-pay loans mature in July 2025; added fees and warrants raise the burden further",
+    "kind": "from the filings",
+    "numbers": "SOFR + 6.00%; 14.00% PIK; ~$16.25M restructuring fee; $10M facility fee; maturities July 31, 2025 and July 31, 2027",
+    "peer_comparison": "",
+    "quote": "The interest accruing on the 2027 Maturity Date Loans is payable in kind, and thus capitalized thereon and increasing the principal balance thereof, on a quarterly basis, and the 2027 Maturity Date Loans mature on July 31, 2027.",
+    "source": "8-K filed 2023-08-03, Item 1.01"
+   },
+   {
+    "reason": "Tight lender cash controls and a cash sweep leave little room for error",
+    "kind": "from the filings",
+    "numbers": "$15M weekly minimum U.S. liquidity; revolver only when U.S. cash is $7M or less; up to $21.0M Revolver access",
+    "peer_comparison": "",
+    "quote": "a $15 million minimum liquidity covenant, which is tested on a weekly basis and calculated solely with respect to the U.S. Loan Parties and inclusive of unfunded Global Tranche Revolving Commitments",
+    "source": "8-K filed 2023-08-03, Item 1.01"
+   },
+   {
+    "reason": "Restructuring advisors and a CRO were hired, and a strategic-alternatives process is under way",
+    "kind": "from the filings",
+    "numbers": "CRO appointed May 4, 2023",
+    "peer_comparison": "",
+    "quote": "The Company has engaged Moelis & Company LLC to run a process to explore strategic alternatives, and advise on potential means to improve the Company\u2019s liquidity and capital structure and other strategic transactions.",
+    "source": "8-K filed 2023-05-08, Item 7.01"
+   },
+   {
+    "reason": "The business keeps shrinking: revenue fell 19% in 2022, the sales force kept declining, and 2023 quarterly revenue continued to slide",
+    "kind": "from the filings",
+    "numbers": "revenue $1,304.0M vs $1,600.6M; sales force -18%, -15%, -16%; Q2 2023 revenue $260-270M",
+    "peer_comparison": "revenue/assets at 86th peer percentile (inflated by the shrunken asset base)",
+    "quote": "The Company believes that its preliminary estimated revenue results for the quarter ended July 1, 2023 will be within the range of $260 - $270 million.",
+    "source": "NT 10-Q filed 2023-08-03, Part IV"
+   },
+   {
+    "reason": "Late filings, a restatement, material weaknesses and NYSE non-compliance add the risks of further defaults and a delisting",
+    "kind": "from the filings",
+    "numbers": "NYSE extension to March 31, 2024; market cap and equity below $50M",
+    "peer_comparison": "",
+    "quote": "however, the Company continues to be out of compliance with the global market capitalization standard",
+    "source": "10-K filed 2023-10-13, Item 1A. Risk Factors - Risks Related to Our Common Stock"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "The August 2, 2023 Debt Restructuring Agreement waived existing events of default and restructured the facilities, showing that lenders still support the company",
+    "quote": "waives certain events of default existing under, and restructures the credit facilities documented by, that certain Credit Agreement dated as of November 23, 2021",
+    "source": "8-K filed 2023-08-03, Item 1.01"
+   },
+   {
+    "point": "Limited Revolver access was restored after the restructuring",
+    "quote": "which enabled immediate access to up to $21.0 million on the Revolver subject to liquidity and other cash covenants",
+    "source": "10-K filed 2023-10-13, Item 1. Business - Substantial Doubt"
+   },
+   {
+    "point": "Leverage, interest coverage and EBITDA covenants are not tested until about March 31, 2024, and the nearest maturity is July 31, 2025",
+    "quote": "a maximum Consolidated Net Leverage Ratio (which excludes the 2027 Maturity Date Loans), which is tested on a quarterly basis, commencing with the fiscal quarter ending on or about March 31, 2024",
+    "source": "8-K filed 2023-08-03, Item 1.01"
+   },
+   {
+    "point": "Lenders keep granting extensions and waivers: the Fifth Amendment moved the financial statement deadlines, and an earlier waiver deferred June 2023 amortization to July 2025",
+    "quote": "extends the deadline for delivery of (i) the Company\u2019s annual audited financial statements for the fiscal year ending December 31, 2022 from September 16, 2023 to November 1, 2023",
+    "source": "8-K filed 2023-10-10, Item 1.01"
+   },
+   {
+    "point": "Asset sales are raising cash: the Indonesia property, the Hemingway plant and Nuvo were sold, and more real estate monetization is under review",
+    "quote": "The Indonesia warehouse and commercial office, and the Hemingway, South Carolina manufacturing plant were sold in 2023",
+    "source": "10-K filed 2023-10-13, Item 2. Properties; Item 7. MD&A"
+   },
+   {
+    "point": "Much of the 2022 net loss is non-cash (the $179.4M valuation allowance and other tax and impairment charges), so the cash loss is far smaller than the -$232.5M net income suggests; operating income stayed positive at $23.6M",
+    "quote": "resulting in a $179.4 million valuation allowance of deferred tax assets",
+    "source": "10-K filed 2023-10-13, Item 1. Business - Substantial Doubt"
+   },
+   {
+    "point": "The company regained compliance with the NYSE price standard and NYSE accepted its business plan and late-filer extension",
+    "quote": "On October 3, 2023, NYSE approved the Company\u2019s late filer extension requests and the Company now has until March 31, 2024 to file its Forms 10-Q for the first, second and third quarters of 2023.",
+    "source": "10-K filed 2023-10-13, Item 1A. Risk Factors - Risks Related to Our Common Stock"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2021-11-23",
+    "event": "New $880.0M Credit Agreement (refinancing), maturing November 23, 2026"
+   },
+   {
+    "date": "2022-03-26",
+    "event": "Q1 2022: operating cash outflow of $41.3M, a $75.0M share buyback funded by revolver borrowing; unused committed lines fall to $44.8M"
+   },
+   {
+    "date": "2022-05-04",
+    "event": "House of Fuller Mexico sale closed"
+   },
+   {
+    "date": "2022-07-01",
+    "event": "Nutrimetics sale closed"
+   },
+   {
+    "date": "2022-08-01",
+    "event": "First Amendment temporarily raises the maximum Net Leverage Ratio"
+   },
+   {
+    "date": "2022-09-24",
+    "event": "Q3 2022: cash $102.9M ($102.1M abroad), YTD operating cash outflow $65.8M, net leverage 4.17x"
+   },
+   {
+    "date": "2022-11-02",
+    "event": "Q3 10-Q discloses going concern doubt and probable covenant non-compliance"
+   },
+   {
+    "date": "2022-12-22",
+    "event": "Second Amendment: leverage limit raised to 5.25x, maturity shortened to November 23, 2025, weekly 13-week cash forecasts required"
+   },
+   {
+    "date": "2023-02-28",
+    "event": "Third Amendment: revolver cut from $450M to $220M, $200M converted to a term loan, maturity shortened to July 31, 2025"
+   },
+   {
+    "date": "2023-03-16",
+    "event": "NT 10-K filed; prior financial statements are to be restated"
+   },
+   {
+    "date": "2023-04-07",
+    "event": "8-K: going concern doubt, probable covenant violation, $705M of borrowings to be classified as current; NYSE late-filing notice"
+   },
+   {
+    "date": "2023-05-04",
+    "event": "Brian J. Fox of Alvarez & Marsal appointed Chief Restructuring Officer"
+   },
+   {
+    "date": "2023-05-08",
+    "event": "Fourth Amendment lets the company borrow $5.3M to pay past-due interest; Moelis engaged to explore strategic alternatives"
+   },
+   {
+    "date": "2023-06-07",
+    "event": "NYSE notice: market capitalization and equity below $50M, share price below $1.00"
+   },
+   {
+    "date": "2023-07-07",
+    "event": "8-K forecasts insufficient liquidity for the July 2023 interest payment; limited waiver defers June amortization"
+   },
+   {
+    "date": "2023-08-02",
+    "event": "Debt Restructuring Agreement waives defaults, restores up to $21.0M of Revolver access, adds PIK loans, fees and warrants"
+   },
+   {
+    "date": "2023-08-07",
+    "event": "Nuvo sale completed"
+   },
+   {
+    "date": "2023-09-18",
+    "event": "8-K: a 10-K filed after October 2, 2023 needs majority lender consent to avoid a default"
+   },
+   {
+    "date": "2023-10-03",
+    "event": "NYSE approves late-filer extension to March 31, 2024"
+   },
+   {
+    "date": "2023-10-05",
+    "event": "Fifth Amendment extends the financial statement delivery deadlines"
+   },
+   {
+    "date": "2023-10-13",
+    "event": "FY2022 10-K filed with going concern doubt and material weaknesses"
+   }
+  ],
+  "dates_to_watch": [
+   "Weekly test of the $15M minimum U.S. liquidity covenant, and 13-week cash flow forecast compliance",
+   "Quarterly cash interest payments on the SOFR + 6.00% loans",
+   "2023-12-29: Q1 2023 10-Q delivery deadline under the Fifth Amendment",
+   "2024-01-31: Q2 2023 10-Q delivery deadline",
+   "2024-03-15: Q3 2023 10-Q delivery deadline",
+   "2024-03-31: NYSE late-filer cure deadline and first quarterly test of the leverage, interest coverage and EBITDA covenants",
+   "2025-07-31: maturity of the cash-pay restructured loans",
+   "2027-07-31: maturity of the 14.00% PIK loans"
+  ],
+  "would_change_my_mind": [
+   "New equity or supplemental financing large enough to cover near-term debt service and reduce the debt (lowers risk)",
+   "Material asset or real estate sales, or a strategic transaction from the Moelis process, that pays down a meaningful part of the ~$705M debt (lowers risk)",
+   "Stabilizing revenue and a return to positive operating cash flow in the 2023 10-Qs (lowers risk)",
+   "Another missed interest payment, a breach of the weekly $15M liquidity covenant, or missed filing deadlines without lender consent (raises risk sharply)",
+   "Lenders refusing further waivers or moving to accelerate the debt or foreclose on the trademark (raises risk sharply)",
+   "NYSE suspension or delisting (raises risk)"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Cash balance at December 31, 2022 and in 2023; the latest cash figure in the findings is $102.9M at September 24, 2022",
+   "Operating cash flow for 2023 quarters, since the 2023 10-Qs had not been filed",
+   "How much cash is actually available in the U.S. versus trapped abroad (only Argentina $8.3M and Ukraine $4.9M are named as restricted)",
+   "Total debt after the August 2023 restructuring, including accrued PIK interest and fees",
+   "The size and timing of the Indonesian tax refund and of any further asset sale proceeds",
+   "Whether the July 2023 interest payment was eventually made in full"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

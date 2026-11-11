@@ -1,0 +1,1280 @@
+{
+ "adsh": "0001628280-24-037286",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001628280-24-037286",
+ "case": {
+  "adsh": "0001628280-24-037286",
+  "cik": 1750153,
+  "name": "CANOO INC.",
+  "form": "10-Q",
+  "fp": "Q2",
+  "period_end": "20240630",
+  "filed": "20240814",
+  "sic": 3714,
+  "score": 0.606,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 543.3,
+    "year_before_musd": 522.1,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 43
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 33.4,
+    "year_before_musd": 25.5,
+    "share_of_assets_pct": 6.1,
+    "peer_percentile": 2
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 195.0,
+    "year_before_musd": 202.4,
+    "share_of_assets_pct": 35.9,
+    "peer_percentile": 68
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 347.0,
+    "year_before_musd": 289.4,
+    "share_of_assets_pct": 63.9,
+    "peer_percentile": 60
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 1.2,
+    "year_before_musd": 0.0,
+    "share_of_assets_pct": 0.2,
+    "peer_percentile": 6
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -231.3,
+    "year_before_musd": -323.2,
+    "share_of_assets_pct": -42.6,
+    "peer_percentile": 21
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -211.7,
+    "year_before_musd": -310.2,
+    "share_of_assets_pct": -39.0,
+    "peer_percentile": 24
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -166.8,
+    "year_before_musd": -259.1,
+    "share_of_assets_pct": -30.7,
+    "peer_percentile": 19
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 0.64,
+   "current_ratio": 0.17,
+   "peer_count": 120,
+   "peer_median_liabilities_to_assets": 0.59,
+   "peer_median_current_ratio": 1.86,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "cash": {
+   "cash_usd": 4513000,
+   "period_months": 6,
+   "operating_cash_flow_musd": -83.4,
+   "monthly_cash_burn_musd": 13.9,
+   "months_of_cash": 0.32,
+   "net_income_musd": -115.6,
+   "non_cash_charges_musd": {
+    "stock_compensation": 12.1,
+    "depreciation_amortization": 6.8
+   },
+   "cash_adjusted_net_income_musd": -96.7,
+   "non_cash_share_of_loss_pct": 16,
+   "note": "from this filing's XBRL, for its period to date (not annualized); months_of_cash = cash / monthly burn over that period; non-cash charges counted: stock compensation, depreciation and amortization, impairment (a negative stock compensation is a reversal that makes the loss look smaller)"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230330,
+    "total_assets": 496472000.0,
+    "current_assets": 52319000.0,
+    "current_liabilities": 218278000.0,
+    "total_liabilities": 259899000.0,
+    "revenue": 0.0,
+    "net_income": -487694000.0,
+    "operating_income": -506801000.0,
+    "operating_cash_flow": -400475000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230515,
+    "total_assets": 488116000.0,
+    "current_assets": 26997000.0,
+    "current_liabilities": 174780000.0,
+    "total_liabilities": 236364000.0,
+    "revenue": 0.0,
+    "net_income": -362928000.0,
+    "operating_income": -326112000.0,
+    "operating_cash_flow": -268864000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230814,
+    "total_assets": 522096000.0,
+    "current_assets": 25503000.0,
+    "current_liabilities": 202358000.0,
+    "total_liabilities": 289351000.0,
+    "revenue": 0.0,
+    "net_income": -323204000.0,
+    "operating_income": -310186000.0,
+    "operating_cash_flow": -259088000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230930,
+    "filed": 20231114,
+    "total_assets": 534346000.0,
+    "current_assets": 32789000.0,
+    "current_liabilities": 187638000.0,
+    "total_liabilities": 368694000.0,
+    "revenue": 692000.0,
+    "net_income": -364768000.0,
+    "operating_income": -271816000.0,
+    "operating_cash_flow": -255246666.66666663
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20231231,
+    "filed": 20240401,
+    "total_assets": 542005000.0,
+    "current_assets": 32551000.0,
+    "current_liabilities": 184447000.0,
+    "total_liabilities": 292429000.0,
+    "revenue": 886000.0,
+    "net_income": -302021000.0,
+    "operating_income": -267819000.0,
+    "operating_cash_flow": -251134000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20240331,
+    "filed": 20240515,
+    "total_assets": 544676000.0,
+    "current_assets": 32393000.0,
+    "current_liabilities": 201222000.0,
+    "total_liabilities": 360414000.0,
+    "revenue": 0.0,
+    "net_income": -442748000.0,
+    "operating_income": -250592000.0,
+    "operating_cash_flow": -190076000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240630,
+    "filed": 20240814,
+    "total_assets": 543322000.0,
+    "current_assets": 33355000.0,
+    "current_liabilities": 195026000.0,
+    "total_liabilities": 347025000.0,
+    "revenue": 1210000.0,
+    "net_income": -231294000.0,
+    "operating_income": -211678000.0,
+    "operating_cash_flow": -166838000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001628280-24-037286",
+   "form": "10-Q",
+   "date": "2024-08-14",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001628280-24-014075",
+   "form": "10-K",
+   "date": "2024-04-01",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001628280-24-023563",
+   "form": "10-Q",
+   "date": "2024-05-15",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001104659-24-081260",
+   "form": "8-K",
+   "date": "2024-07-22",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001104659-24-071312",
+   "form": "8-K",
+   "date": "2024-06-13",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001104659-24-045981",
+   "form": "8-K",
+   "date": "2024-04-11",
+   "why": "8-K items 1.01,3.02,3.03,5.03,9.01"
+  },
+  {
+   "adsh": "0001104659-24-034144",
+   "form": "8-K",
+   "date": "2024-03-14",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001104659-24-011311",
+   "form": "8-K",
+   "date": "2024-02-07",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001104659-24-008789",
+   "form": "8-K",
+   "date": "2024-01-31",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001104659-24-003517",
+   "form": "8-K",
+   "date": "2024-01-12",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001104659-24-001794",
+   "form": "8-K",
+   "date": "2024-01-05",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001104659-23-127730",
+   "form": "8-K",
+   "date": "2023-12-20",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-120740",
+   "form": "8-K",
+   "date": "2023-11-22",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-105656",
+   "form": "8-K",
+   "date": "2023-10-02",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-103906",
+   "form": "8-K",
+   "date": "2023-09-26",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-101194",
+   "form": "8-K",
+   "date": "2023-09-15",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001104659-23-100495",
+   "form": "8-K",
+   "date": "2023-09-13",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-097276",
+   "form": "8-K",
+   "date": "2023-08-31",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-087814",
+   "form": "8-K",
+   "date": "2023-08-04",
+   "why": "8-K items 1.01,1.02,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-079108",
+   "form": "8-K",
+   "date": "2023-07-07",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-075793",
+   "form": "8-K",
+   "date": "2023-06-28",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001104659-23-049213",
+   "form": "8-K",
+   "date": "2023-04-25",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001104659-23-043269",
+   "form": "8-K",
+   "date": "2023-04-10",
+   "why": "8-K items 1.01,7.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-025434",
+   "form": "8-K",
+   "date": "2023-03-31",
+   "why": "8-K items 3.01,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concludes there is substantial doubt about the company's ability to continue as a going concern, citing recurring losses, negative operating cash flow and a working capital deficit.",
+   "numbers": "operating cash outflow $83.4 million for six months ended June 30, 2024",
+   "quote": "These conditions and events raise substantial doubt about the Company\u2019s ability to continue as a going concern.",
+   "section": "Note 2 - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management cannot conclude that its plans to raise more debt, non-dilutive or equity financing are probable of being successfully implemented.",
+   "numbers": "",
+   "quote": "management cannot conclude as of the date of this filing that its plans are probable of being successfully implemented.",
+   "section": "Note 2 - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Substantial doubt has been identified in each of the previous seven 10-Qs and the previous two 10-Ks.",
+   "numbers": "seven 10-Qs since quarter ended March 31, 2022; two 10-Ks",
+   "quote": "our management has performed an analysis of our ability to continue as a going concern and has identified substantial doubt about our ability to continue as a going concern.",
+   "section": "Summary of Risk Factors / Forward-looking statements"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Unrestricted cash fell to about $4.5 million at June 30, 2024, from $6.4 million at December 31, 2023.",
+   "numbers": "cash $4,513K vs $6,394K; restricted cash current $3,983K, non-current $10,600K; total cash incl. restricted $19,096K",
+   "quote": "Cash and cash equivalents $ 4,513 $ 6,394",
+   "section": "Condensed Consolidated Balance Sheet"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Six-month operating cash burn of $83.4 million is far larger than the cash on hand, and management expects expenditures to increase significantly.",
+   "numbers": "net cash used in operating activities $(83,419)K (2023: $(129,544)K)",
+   "quote": "expects that expenditures will increase significantly in connection with its ongoing activities.",
+   "section": "Note 2 - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Liquidity depends on unrestricted cash and on access to capital under the July 2024 Yorkville PPA.",
+   "numbers": "",
+   "quote": "The Company\u2019s principal sources of liquidity are its unrestricted cash balance and the Company's principal access to capital is under the July 2024 PPA",
+   "section": "Note 2 - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Large amounts for property and equipment purchases remain unpaid in current liabilities.",
+   "numbers": "$58,411K acquisition of property and equipment included in current liabilities",
+   "quote": "Acquisition of property and equipment included in current liabilities $ 58,411 $ 68,050",
+   "section": "Cash flow statement - supplemental non-cash disclosures"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The six-month net loss of $115.6 million includes large non-cash items in both directions, so the cash burn of $83.4 million is the better measure.",
+   "numbers": "net loss $(115,647)K; FV loss on convertible debt $67,116K; gain on warrants $(22,046)K; gain on derivative $(16,790)K; gain on extinguishment $(24,462)K; SBC $12,082K; depreciation $6,845K",
+   "quote": "Loss on fair value change in convertible debt and other 67,116",
+   "section": "Condensed Consolidated Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The Q2 2024 net loss was only $5.0 million, compared with $110.7 million in Q1 2024, which points to large non-cash fair value swings rather than better operations.",
+   "numbers": "Q2 net loss $(4,960)K; Q1 net loss $(110,687)K; Q2 SBC $1,128K",
+   "quote": "Net loss and comprehensive loss \u2014 \u2014 \u2014 \u2014 \u2014 (4,960) (4,960)",
+   "section": "Statement of Stockholders' Equity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Yorkville prepaid advances remain outstanding: $31.0 million on the Tenth Pre-Paid Advance and $15.0 million on the June Prepaid Advance, which matures six months after June 13, 2024.",
+   "numbers": "$31.0 million Tenth PPA; $15.0 million June PPA; June PPA maturity six months from June 13, 2024",
+   "quote": "As of June 30, 2024, a principal balance of $31.0 million remains outstanding under the Tenth Pre-Paid Advance.",
+   "section": "Note 9 - Yorkville PPAs"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "If the stock trades below the floor price or the exchange cap is used up, monthly cash repayments are triggered, and on an event of default the full balance becomes due in cash.",
+   "numbers": "default interest 15.0%; redemption premium 3.0%",
+   "quote": "the full amount outstanding under the Pre-Paid Advances plus the Redemption Premium, together with interest and other amounts owed in respect thereof, will become, at Yorkville\u2019s election, immediately due and payable in cash.",
+   "section": "Note 9 - Yorkville PPAs"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter end, the company entered the July 2024 PPA and received net proceeds of about $14.1 million on a $15.0 million initial advance, with an aggregate limit of $100 million.",
+   "numbers": "$15,000,000 initial advance; ~$14.1 million net; $100,000,000 aggregate limit; $2.70 price; $1.00 floor; 2.8 million warrants at $2.70",
+   "quote": "net proceeds of the Initial July Prepaid Advance to the Company were approximately $14.1 million.",
+   "section": "Note 18 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "First-half 2024 funding came mainly from Yorkville PPAs, part of which went to repay earlier PPAs, plus preferred stock and a sale of employee retention credits; the floor price was cut to $1.00.",
+   "numbers": "PPA proceeds $97,347K; PPA repayments $(33,007)K; preferred $16,500K; ERC sale $9,013K; financing inflow $88,539K",
+   "quote": "in no event shall the Purchase Price under the July 2024 PPA be less than $1.00 per share",
+   "section": "Cash flow statement; Note 18"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Share issuance under the June and July 2024 PPAs is capped at 19.99% of outstanding shares unless stockholders approve more, which limits further draws.",
+   "numbers": "19.99% exchange cap",
+   "quote": "Outstanding amounts and limited capacity under the Yorkville PPAs will make us more vulnerable to downturns in our financial condition.",
+   "section": "Summary of Risk Factors; Note 9"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Series B preferred stock carries a liquidation preference that ranks ahead of common stock.",
+   "numbers": "$47.2 million liquidation preference",
+   "quote": "As of June 30, 2024, the Liquidation Preference of the Series B Preferred Stock was $47.2 million.",
+   "section": "Note 13 - Redeemable Preferred Stock"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company did a 1-for-23 reverse stock split on March 8, 2024, and flags the risk of Nasdaq delisting.",
+   "numbers": "1-for-23 reverse split",
+   "quote": "Our failure to meet the continued listing requirements of The Nasdaq Capital Market could result in a delisting of our securities.",
+   "section": "Summary of Risk Factors; Note 2"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "On the filing date the company announced a Torrance facility reorganization with WARN notices, relocating about 137 of 194 employees to Oklahoma or Texas.",
+   "numbers": "up to $3.0 million charge; 137 of 194 employees; first separations October 15, 2024",
+   "quote": "the Company currently estimates that it will record an aggregate charge related to one-time relocation benefits and severance payments in the range of approximately up to $3.0 million.",
+   "section": "Note 18 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Capital spending fell sharply year over year while inventory grew; the company is early-stage and has commercialized its first vehicles.",
+   "numbers": "capex $(6,923)K vs $(33,905)K; inventory $9,302K vs $6,153K",
+   "quote": "We have commercialized our first production vehicles and are delivering them to customers.",
+   "section": "MD&A Overview; Cash flow statement"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Pending litigation includes a Champ Key claim for more than $23.0 million plus punitive damages, a securities class action, and a new California employment class action filed July 8, 2024.",
+   "numbers": "Champ Key damages in excess of $23.0 million",
+   "quote": "seeks injunctive relief, compensatory damages in excess of $23.0 million and punitive damages, interests, costs of suit and attorneys\u2019 fees.",
+   "section": "Note 11 - Legal Proceedings"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company is suing DDG to recover Section 16(b) short-swing profits, a possible but uncertain cash inflow.",
+   "numbers": "$61.1 million sought; fact discovery deadline January 24, 2025",
+   "quote": "In the action, the Company seeks to recover an estimated $61.1 million of Section 16(b) profits.",
+   "section": "Note 11 - Legal Proceedings"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Total assets consist mostly of property and equipment and the deferred warrant asset, which are not liquid.",
+   "numbers": "total assets $543,322K; PP&E $380,129K; deferred warrant asset $50,175K",
+   "quote": "Property and equipment, net 380,129 377,100",
+   "section": "Condensed Consolidated Balance Sheet"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management identified substantial doubt about the company's ability to continue as a going concern and cannot conclude its plans are probable of success.",
+   "numbers": "",
+   "quote": "management cannot conclude as of the date of this filing that its plans are probable of being successfully implemented",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management states existing cash and additional liquidity sources are not sufficient to support planned operations for the next 12 months.",
+   "numbers": "",
+   "quote": "we believe that our existing cash resources and additional sources of liquidity are not sufficient to support planned operations for the next 12 months",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "MD&A repeats that substantial doubt exists for twelve months from the issuance date of the financial statements.",
+   "numbers": "",
+   "quote": "Management believes substantial doubt exists about the Company\u2019s ability to continue as a going concern for twelve months from the date of issuance of the financial statements",
+   "section": "Item 7 MD&A Overview"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Unrestricted cash at year-end 2023 was very small compared with the annual operating cash burn.",
+   "numbers": "unrestricted cash $6.4 million at Dec 31, 2023; operating cash flow -$251.1 million (2023), -$400.5 million (2022)",
+   "quote": "As of December 31, 2023, we had unrestricted cash and cash equivalents in the amount of $6.4 million",
+   "section": "Item 7 MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Operating cash flow was deeply negative, and the company expects negative operating and investing cash flow to continue in 2024.",
+   "numbers": "-$251.1 million (2023); -$400.5 million (2022)",
+   "quote": "We have had negative cash flow from operating activities of $251.1 million and $400.5 million for the years ended December 31, 2023 and 2022, respectively.",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Net loss narrowed in 2023 and the accumulated deficit reached $1.5 billion.",
+   "numbers": "net loss $302.0 million (2023) vs $487.7 million (2022); accumulated deficit $1.5 billion",
+   "quote": "We incurred a net loss and comprehensive loss of $302.0 million and $487.7 million, for the years ended December 31, 2023 and 2022, respectively.",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Part of the 2023 loss was non-cash, including stock compensation, loss on debt extinguishment and depreciation.",
+   "numbers": "stock-based compensation $30,206K; loss on extinguishment of debt $30,717K; depreciation $13.8 million (2023)",
+   "quote": "Loss on extinguishment of debt \u2014 30,717 30,717",
+   "section": "Item 7 MD&A non-GAAP reconciliation"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The Yorkville PPA is essentially fully drawn, so no more capital is available from it without an amendment or new arrangement.",
+   "numbers": "$299.9 million drawn of $300 million; $45.0 million Pre-Paid Advances outstanding as of March 25, 2024",
+   "quote": "additional capital under the PPA will not be available to the Company without Yorkville agreeing to amend the PPA or entering into a new financing arrangement",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "If the stock VWAP stays below $1.85, the company must make accelerated monthly repayments of Pre-Paid Advances.",
+   "numbers": "Trigger Price $1.85; $12.5 million principal per month plus premium and interest",
+   "quote": "the Company is required to make monthly repayments of all outstanding Pre-Paid Advance amounts beginning on the 10th calendar day after such Triggering Date",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company cannot use the ATM program while Pre-Paid Advances are outstanding unless Yorkville consents.",
+   "numbers": "ATM up to $200.0 million",
+   "quote": "if there are any amounts outstanding under a Pre-Paid Advance, we are not permitted to utilize the ATM Sales Agreement without prior consent from Yorkville",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In 2023 the company raised money through several equity and convertible channels, showing continued, though limited, access to capital.",
+   "numbers": "",
+   "quote": "our principal sources of liquidity were proceeds from the Yorkville PPA (Notes 9 and 14), Yorkville Convertible Debentures (Note 9), the RDO SPA (Note 14), the Preferred Stock Purchase Agreement (Note 14), the ATM Offering (Note 14) and the PIPEs",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Management says its current sources of financing remain limited.",
+   "numbers": "",
+   "quote": "We continue to explore potential sources of capital financing, but our current sources of financing remain limited.",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company did a 1-for-23 reverse split to regain Nasdaq bid price compliance and says delisting remains a risk.",
+   "numbers": "1-for-23 reverse split on March 8, 2024; $1.00 minimum bid",
+   "quote": "On March 8, 2024, we effected a 1-for-23 reverse stock split in order to increase the trading price of our Common Stock and comply with the $1.00 minimum bid price requirement",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Cumulative Series B preferred dividends are an additional obligation on the company.",
+   "numbers": "",
+   "quote": "We are also required to pay dividends to the holders of our Series B Cumulative Perpetual Redeemable Preferred Stock",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Production in 2023 was limited, and customer commitments such as Walmart's can be terminated or reduced.",
+   "numbers": "",
+   "quote": "Walmart also has the right to terminate the Walmart EV Fleet Purchase Agreement for convenience upon at least 30 days\u2019 written notice.",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Operating expenses fell sharply in 2023, with large cuts to R&D and SG&A.",
+   "numbers": "R&D $139.2 million vs $299.2 million; SG&A $113.3 million vs $196.0 million",
+   "quote": "The decrease of $160.0 million, or 53%, was primarily due to decrease in research and development costs of $90.8 million",
+   "section": "Item 7 MD&A Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The previously reported material weaknesses in internal control have been remediated.",
+   "numbers": "",
+   "quote": "Although the identified weaknesses have been remediated, we cannot assure you that we will not identify other material weaknesses in the future",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concludes substantial doubt exists about the company's ability to continue as a going concern for twelve months, and cannot conclude its funding plans are probable.",
+   "numbers": "",
+   "quote": "The Company believes substantial doubt exists about the Company\u2019s ability to continue as a going concern for twelve months from the date of issuance of the Company's Condensed Consolidated Financial Statements.",
+   "section": "Note 2 - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states it cannot conclude its plans to raise capital are probable of being successfully implemented.",
+   "numbers": "",
+   "quote": "management cannot conclude as of the date of this filing that its plans are probable of being successfully implemented.",
+   "section": "Note 2 - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Substantial doubt has been identified repeatedly, in each of the prior six 10-Qs and the prior two 10-Ks.",
+   "numbers": "six Form 10-Qs; two Form 10-Ks",
+   "quote": "In connection with each of our previous six Form 10-Qs (beginning with the quarter ended March 31, 2022) and each of our previous two Form 10-Ks, our management has performed an analysis",
+   "section": "Summary of Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Unrestricted cash was only $3.7 million at March 31, 2024, against quarterly operating cash burn of $47.5 million, and there is a working capital deficit.",
+   "numbers": "Cash $3,656K (vs $6,394K at 12/31/23); restricted cash $3,986K current + $10,600K non-current; operating cash flow -$47,519K for Q1 2024",
+   "quote": "the Company\u2019s principal sources of liquidity are its unrestricted cash balance of $3.7 million and its access to capital under the Yorkville PPA",
+   "section": "Note 2 - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management states existing cash and additional liquidity sources are insufficient to fund planned operations for the next 12 months.",
+   "numbers": "",
+   "quote": "we believe that our existing cash resources and additional sources of liquidity are not sufficient to support planned operations for the next 12 months.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Total current assets of $32.4 million are small relative to $57.6 million of property and equipment purchases still sitting in current liabilities.",
+   "numbers": "Total current assets $32,393K; PP&E in current liabilities $57,566K",
+   "quote": "Acquisition of property and equipment included in current liabilities $ 57,566 $ 79,527",
+   "section": "Statement of Cash Flows - supplemental non-cash"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Much of the $110.7 million Q1 net loss is non-cash, but cash used in operations was still $47.5 million.",
+   "numbers": "Net loss $110,687K; loss on FV change in convertible debt $58,584K; warrant liability loss $19,508K; SBC $10,954K; depreciation $3,390K; gain on extinguishment $(24,466)K; derivative gain $(10,037)K",
+   "quote": "Loss on fair value change in convertible debt 58,584",
+   "section": "Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Stock-based compensation rose because of the immediate vesting of CEO RSU grants.",
+   "numbers": "SG&A SBC $10.3 million vs $5.7 million",
+   "quote": "primarily due to immediate award vesting related to the CEO RSU grants.",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "$45.0 million of principal remained outstanding under Yorkville's Tenth Pre-Paid Advance, which matures 15 months after issuance.",
+   "numbers": "$45.0 million outstanding; 5.0% interest, 15.0% on default; 15-month maturity",
+   "quote": "As of March 31, 2024, a principal balance of $45.0 million remains outstanding under the Tenth Pre-Paid Advance.",
+   "section": "Note 9 - Convertible Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "If the VWAP stays below the floor price, monthly cash repayments are triggered, and on an event of default all amounts plus premium become due in cash at Yorkville's election.",
+   "numbers": "Floor price $2.30; 3.0% redemption premium",
+   "quote": "the full amount outstanding under the Pre-Paid Advances plus the Redemption Premium, together with interest and other amounts owed in respect thereof, will become, at Yorkville\u2019s election, immediately due and payable in cash.",
+   "section": "Note 9 - Convertible Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The Tenth Pre-Paid Advance of $62.0 million mostly refinanced earlier advances and paid heavy charges, leaving only $15.0 million of net proceeds.",
+   "numbers": "$62.0M advance; ~$33.0M repayment of prior PPAs; $14.0M financing charges; $15.0M net",
+   "quote": "The net proceeds received by the Company, after giving the effect to the repayment, financing charges of $14.0 million provided for in the PPA, were $15.0 million.",
+   "section": "Note 9 - Convertible Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Q1 operations were funded almost entirely by Yorkville pre-paid advances, partly offset by cash repayments of earlier PPAs.",
+   "numbers": "PPA proceeds $83,257K; PPA repayments $(33,007)K; net financing $49,785K",
+   "quote": "Proceeds from PPA, net of issuance costs 83,257 5,001",
+   "section": "Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter end, CEO-affiliated entities bought Series C Preferred and warrants, a sign of insider support, though the amounts are small relative to cash burn.",
+   "numbers": "$10,000,000 initial; additional $6,500,000 of a possible $15,000,000",
+   "quote": "the Series C Preferred Stock Purchasers and certain affiliated entities had in the aggregate elected to purchase 6,500 Series C Preferred Shares and 2.9 million Series C Warrants for a total aggregate purchase price of $6,500,000.",
+   "section": "Note 18 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company relies on heavily dilutive equity-linked financing, with a 1-for-23 reverse split and a lowered Yorkville floor price.",
+   "numbers": "1-for-23 reverse split March 8, 2024; floor lowered from $11.50 to $2.30",
+   "quote": "On March 8, 2024, the Company effected a 1-for-23 reverse stock split",
+   "section": "Note 2 - Reverse Stock Split"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company flags a risk of failing Nasdaq continued listing requirements.",
+   "numbers": "",
+   "quote": "Our failure to meet the continued listing requirements of The Nasdaq Capital Market could result in a delisting of our securities.",
+   "section": "Summary of Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Series B Preferred has a $46.3 million liquidation preference ahead of common stock, and its dividends are accruing unpaid.",
+   "numbers": "Liquidation preference $46.3M; accumulated undeclared dividends $1.4M",
+   "quote": "As of March 31, 2024, the Liquidation Preference of the Series B Preferred Stock was $46.3 million.",
+   "section": "Note 13 - Series B Preferred Stock"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "The company cut R&D and salary spending by narrowing to essential activities and low-volume production.",
+   "numbers": "R&D $3.7M vs $8.3M; R&D salary $19.0M vs $27.3M",
+   "quote": "redirecting focus on initiatives related to commencing low-volume production.",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Several earlier Yorkville advances and debentures were fully settled during the quarter, mostly by issuing shares rather than paying cash.",
+   "numbers": "Shares issued for extinguishment of PPA debt $54,940K; for debentures $22,254K",
+   "quote": "As of March 31, 2024, the September Convertible Debentures was fully paid off through the issuance of 3.5 million shares of Common Stock to Yorkville",
+   "section": "Note 9 - Convertible Debt"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On July 19, 2024 Canoo entered a new Prepaid Advance Agreement with Yorkville: a $15,000,000 initial advance, with up to $100,000,000 in total advances over 24 months.",
+   "numbers": "Initial Advance $15,000,000; net ~$14.1 million; aggregate limit $100,000,000 over 24 months",
+   "quote": "with an aggregate limitation on the Prepaid Advances of $100,000,000 over the course of 24 months from the Effective Date",
+   "section": "8-K filed 2024-07-22, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The July 2024 advance nets only about $14.1 million after fees. It is repaid by issuing shares at as low as 95% of VWAP, with a $1.00 floor, and is capped at 19.99% of outstanding shares without stockholder approval.",
+   "numbers": "net ~$14.1 million; initial price $2.70; Floor Price $1.00; Exchange Cap 19.99%",
+   "quote": "net proceeds of the Initial Advance to the Company will be approximately $14.1 million",
+   "section": "8-K filed 2024-07-22, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Prepaid advances accrue 5% interest, rising to 15% upon events of default.",
+   "numbers": "5%; 15% on default",
+   "quote": "interest accrues on the outstanding balance of a Prepaid Advance at an annual rate equal to 5%, subject to an increase to 15% upon events of default described in the PPA",
+   "section": "8-K filed 2024-07-22, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On June 13, 2024 Canoo entered a separate Pre-Paid Advance Agreement with Yorkville for $15,000,000, repaid by issuing shares at an initial $2.30, with price resets at 60 and 120 days.",
+   "numbers": "$15,000,000; net ~$14,100,000; $2.30 per share",
+   "quote": "Yorkville agreed to advance $15,000,000 to the Company (the \u201cPre-Paid Advance\u201d)",
+   "section": "8-K filed 2024-06-13, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In April 2024, entities affiliated with CEO Tony Aquila bought $10,000,000 of Series C preferred stock and warrants, with a right to buy up to $15,000,000 more.",
+   "numbers": "$10,000,000; optional additional $15,000,000; 4,473,272 warrants at $2.2355; 7.50% dividend",
+   "quote": "for a total aggregate purchase price of $10,000,000",
+   "section": "8-K filed 2024-04-11, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "In March 2024 a $62,032,000 Yorkville advance was used mainly to repay $32,000,000 of prior advances plus a redemption premium, leaving only $15,000,000 of net new cash.",
+   "numbers": "advance $62,032,000; repaid $32,000,000 principal + $47,123 interest; net $15,000,000; price $2.30",
+   "quote": "$32,000,000 in principal amount and $47,123 of accrued and unpaid interest remained outstanding under all prior pre-paid advances pursuant to the PPA",
+   "section": "8-K filed 2024-03-14, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "For the March 2024 advance, Yorkville waived terms of the original PPA, including its $50,000,000 Maximum Advance Amount.",
+   "numbers": "Maximum Advance Amount $50,000,000",
+   "quote": "waive certain terms (including waiver of the Maximum Advance Amount) and conditions set forth in the PPA with respect to such Supplemental Advance",
+   "section": "8-K filed 2024-03-14, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "From November 2023 to January 2024, Canoo took a series of small Yorkville advances at steadily lower share prices, showing heavy reliance on dilutive funding.",
+   "numbers": "$0.3900 (Nov 2023), $0.28 (Dec 2023), $0.24 (Jan 11 2024), $0.1805 (Jan 31 2024)",
+   "quote": "the Purchase Price (as such term is used in the PPA) will be equal to the lower of (a) $0.1805 per share",
+   "section": "8-K filed 2024-01-31, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The supplemental advances brought in modest net cash each time.",
+   "numbers": "Fourth ~$20,000,000; Fifth ~$15,000,000; Sixth ~$16,450,000; Seventh $18,800,000; Third $11,750,000",
+   "quote": "net proceeds of the Seventh Supplemental Advance to the Company will be $18,800,000",
+   "section": "8-K filed 2024-01-31, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "In January 2024 Yorkville exchanged its warrants for new warrants on about 238 million shares at $0.1805, a large dilution overhang.",
+   "numbers": "110,803,324 and 127,270,416 shares at $0.1805",
+   "quote": "a warrant to purchase 127,270,416 shares of Common Stock at an exercise price of $0.1805",
+   "section": "8-K filed 2024-01-31, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Several Yorkville convertible debentures mature between August and November 2024, within months of this filing; their remaining balances are not stated in these 8-Ks.",
+   "numbers": "$26,595,745 due Aug 30, 2024; $27,936,819 due Oct 2, 2024; $15,000,000 due Nov 26, 2024",
+   "quote": "The Initial Debenture will mature on November 26, 2024, and may be extended at Yorkville\u2019s option.",
+   "section": "8-Ks filed 2023-07-07, 2023-08-04, 2023-09-26, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Certain trigger events under the debentures force monthly cash principal payments plus a 5% premium.",
+   "numbers": "$3,750,000 monthly (Sept 2023 debenture); $7,500,000 monthly (June/Aug 2023 debentures); 5% premium",
+   "quote": "Upon the occurrence of certain trigger events, the Company will be required to make monthly cash payments of principal in the amount of $3,750,000",
+   "section": "8-K filed 2023-09-26, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "Under the debentures, failing to file or keep effective the required resale registration statements counts as an Event of Default.",
+   "numbers": "default interest 15.0%",
+   "quote": "such event will be deemed an Event of Default (as defined in the Convertible Debenture)",
+   "section": "8-K filed 2023-09-26, Registration Rights Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "By August 2023 the company had nearly used up the Nasdaq 19.99% Exchange Cap for Yorkville issuances, so further share-settled funding needed stockholder approval.",
+   "numbers": "95,447,319 shares issued; ~907 shares remaining",
+   "quote": "with approximately 907 shares of Common Stock remaining available to be issued under the Exchange Cap",
+   "section": "8-K filed 2023-08-04, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "In March 2023 Nasdaq notified Canoo that it failed the $1.00 minimum bid price requirement.",
+   "numbers": "$1.00; 30 consecutive business days; deadline September 25, 2023",
+   "quote": "the Company no longer complies with the $1.00 Minimum Bid Price requirement",
+   "section": "8-K filed 2023-03-31, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "In September 2023 the stock moved to the Nasdaq Capital Market to get a second compliance period, and the company said it might do a reverse stock split.",
+   "numbers": "additional 180-day compliance period",
+   "quote": "consider implementing available options to regain compliance with the Bid Price Requirement within the allotted compliance period, including by effecting a reverse stock split, if necessary",
+   "section": "8-K filed 2023-09-15, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In September 2023 an institutional investor bought $45,000,000 of Series B preferred stock and warrants, with talks on up to $150.0 million in total.",
+   "numbers": "$45,000,000; up to $150.0 million; 22,959,184 warrants at $0.5612",
+   "quote": "for a total purchase price of $45,000,000",
+   "section": "8-K filed 2023-10-02, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In June 2023, CEO-affiliated entities bought 16,330,720 common shares plus warrants, showing insider financial support.",
+   "numbers": "16,330,720 shares; $0.5358 per share; warrants at $0.67",
+   "quote": "at a combined purchase price of $0.5358 per share and accompanying Warrant",
+   "section": "8-K filed 2023-06-28, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In April 2023 an entity affiliated with the CEO took over the $34.2 million Oklahoma City factory purchase and leased the facility back to Canoo for ten years, so Canoo avoided the cash purchase.",
+   "numbers": "$34.2 million; ~500,000 sq ft; 10-year lease; $7.11 to $10.94 per sq ft",
+   "quote": "for the leaseback of approximately 500,000 square feet of the vehicle manufacturing facility in Oklahoma City, Oklahoma",
+   "section": "8-K filed 2023-04-10, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Senior management turned over often: the CFO left after about seven months in 2023, and the President resigned in February 2024, both reported as without disagreement.",
+   "numbers": "CFO tenure January 26, 2023 to August 26, 2023",
+   "quote": "Effective August 26, 2023, Ken Manget, who served as the Company\u2019s Chief Financial Officer since January 26, 2023, will no longer serve as the Company\u2019s Chief Financial Officer.",
+   "section": "8-K filed 2023-08-31, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "In February 2024 the President and a director resigned, and two new independent directors were appointed.",
+   "numbers": "",
+   "quote": "Ms. Josette Sheeran, the Company\u2019s President and a director of the Board, tendered her resignation from her officer and board member positions with the Company",
+   "section": "8-K filed 2024-02-07, Item 5.02"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score of 0.606 comes from a balance sheet with almost no liquid assets and large losses. Current assets are 6.1% of total assets (2nd peer percentile), the current ratio is 0.17 against a peer median of 1.86, and the annualized loss is about 42.6% of assets on revenue of only $1.2M. The model probably understates the distress. The annualized net loss is reduced by non-cash fair-value gains: Q2 net loss was only $5.0M, against $110.7M in Q1. The filing itself shows $4.5M of unrestricted cash, about 0.32 months of burn, and the company survives on serial Yorkville prepaid advances that are capped and have near-term maturities. The distress is real, not an artefact.",
+  "verdict": "real risk",
+  "own_risk": "high",
+  "own_risk_pct": 30,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "Unrestricted cash of $4.5M covers about 0.32 months of the $13.9M monthly six-month burn. Implied Q2 burn was about $35.9M ($83.4M six-month minus $47.5M Q1), or about $12M a month.",
+   "The only new financing is the July 2024 PPA, with about $14.1M net from the initial advance, roughly one month of burn. Further draws depend on Yorkville, the share price staying above the $1.00 floor, and the 19.99% exchange cap.",
+   "Near-term debt the cash cannot cover: $31.0M on the Tenth Pre-Paid Advance and $15.0M on the June PPA (maturing about Dec 13, 2024). Yorkville debentures were originally dated to mature Aug 30, Oct 2 and Nov 26, 2024; their remaining balances are not stated.",
+   "Cash repayment triggers and default acceleration: a VWAP below the floor or an exhausted exchange cap forces monthly cash repayments, and an event of default makes the full balance due in cash.",
+   "$58.4M of unpaid property and equipment purchases sits in current liabilities, against $33.4M of total current assets.",
+   "Funding depends on a single lender, and the advances shrink after refinancing: the $62.0M March advance netted only $15.0M after repaying prior PPAs and paying $14.0M of financing charges.",
+   "Facility reorganization and WARN notices were announced on the filing date, showing operational retrenchment."
+  ],
+  "reasons": [
+   {
+    "reason": "Extreme illiquidity: current assets are tiny relative to current liabilities.",
+    "kind": "model input",
+    "numbers": "current assets $33.4M vs current liabilities $195.0M; current ratio 0.17",
+    "peer_comparison": "Current assets/assets is at the 2nd percentile of 120 peers; the peer median current ratio is 1.86.",
+    "quote": "",
+    "source": "10-Q filed 2024-08-14, balance sheet (shared/financials.csv)"
+   },
+   {
+    "reason": "Deep losses and operating cash burn with negligible revenue.",
+    "kind": "model input",
+    "numbers": "annualized net income -$231.3M (-42.6% of assets); operating income -$211.7M; OCF -$166.8M; revenue $1.2M",
+    "peer_comparison": "Net income 21st percentile, OCF 19th percentile, revenue 6th percentile",
+    "quote": "",
+    "source": "10-Q filed 2024-08-14 (shared/financials.csv)"
+   },
+   {
+    "reason": "Cash on hand covers about a third of a month of burn. Most of the loss is cash: only 16% is non-cash.",
+    "kind": "from the filings",
+    "numbers": "cash $4,513K; six-month OCF -$83.4M; monthly burn $13.9M; months of cash 0.32; cash-adjusted net income -$96.7M",
+    "peer_comparison": "",
+    "quote": "Cash and cash equivalents $ 4,513 $ 6,394",
+    "source": "10-Q filed 2024-08-14, Condensed Consolidated Balance Sheet"
+   },
+   {
+    "reason": "The reported net loss is distorted by non-cash fair-value swings. The low Q2 loss likely flatters the model's annualized net income.",
+    "kind": "from the filings",
+    "numbers": "Q2 net loss $(4,960)K vs Q1 $(110,687)K; FV loss on convertible debt $67,116K; gains on warrants $22,046K, derivative $16,790K, extinguishment $24,462K",
+    "peer_comparison": "",
+    "quote": "Loss on fair value change in convertible debt and other 67,116",
+    "source": "10-Q filed 2024-08-14, Condensed Consolidated Statement of Cash Flows"
+   },
+   {
+    "reason": "Management cannot conclude that its funding plans are probable of success. Substantial doubt has persisted since Q1 2022.",
+    "kind": "from the filings",
+    "numbers": "seven prior 10-Qs and two 10-Ks with substantial doubt",
+    "peer_comparison": "",
+    "quote": "management cannot conclude as of the date of this filing that its plans are probable of being successfully implemented.",
+    "source": "10-Q filed 2024-08-14, Note 2 - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Liquidity rests entirely on the July 2024 Yorkville PPA, which is limited by the 19.99% exchange cap and the $1.00 floor.",
+    "kind": "from the filings",
+    "numbers": "$14.1M net initial advance; $100M aggregate limit; $1.00 floor; 19.99% cap",
+    "peer_comparison": "",
+    "quote": "The Company\u2019s principal sources of liquidity are its unrestricted cash balance and the Company's principal access to capital is under the July 2024 PPA",
+    "source": "10-Q filed 2024-08-14, Note 2 - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Outstanding prepaid advances can turn into cash obligations. A trigger or default makes them due in cash.",
+    "kind": "from the filings",
+    "numbers": "$31.0M Tenth PPA; $15.0M June PPA maturing six months after June 13, 2024; 15% default interest; 3% redemption premium",
+    "peer_comparison": "",
+    "quote": "the full amount outstanding under the Pre-Paid Advances plus the Redemption Premium, together with interest and other amounts owed in respect thereof, will become, at Yorkville\u2019s election, immediately due and payable in cash.",
+    "source": "10-Q filed 2024-08-14, Note 9 - Yorkville PPAs"
+   },
+   {
+    "reason": "Large unpaid capex payables in current liabilities exceed all current assets.",
+    "kind": "from the filings",
+    "numbers": "$58,411K PP&E acquisitions in current liabilities vs $33.4M current assets",
+    "peer_comparison": "",
+    "quote": "Acquisition of property and equipment included in current liabilities $ 58,411 $ 68,050",
+    "source": "10-Q filed 2024-08-14, Cash flow statement - supplemental non-cash disclosures"
+   },
+   {
+    "reason": "Total assets are mostly illiquid, so the 0.64 liabilities/assets ratio, close to the 0.59 peer median, overstates the cushion.",
+    "kind": "from the filings",
+    "numbers": "total assets $543.3M; PP&E $380.1M; deferred warrant asset $50.2M",
+    "peer_comparison": "Liabilities/assets 0.64 vs peer median 0.59 (60th percentile)",
+    "quote": "Property and equipment, net 380,129 377,100",
+    "source": "10-Q filed 2024-08-14, Condensed Consolidated Balance Sheet"
+   },
+   {
+    "reason": "Debentures with near-term maturity dates add potential cash claims. Their remaining balances are unclear.",
+    "kind": "from the filings",
+    "numbers": "$26,595,745 due Aug 30, 2024; $27,936,819 due Oct 2, 2024; $15,000,000 due Nov 26, 2024",
+    "peer_comparison": "",
+    "quote": "The Initial Debenture will mature on November 26, 2024, and may be extended at Yorkville\u2019s option.",
+    "source": "8-Ks filed 2023-07-07, 2023-08-04, 2023-09-26, Item 1.01"
+   },
+   {
+    "reason": "Litigation exposure adds possible cash claims.",
+    "kind": "from the filings",
+    "numbers": "Champ Key damages in excess of $23.0M; securities class action; employment class action filed July 8, 2024",
+    "peer_comparison": "",
+    "quote": "seeks injunctive relief, compensatory damages in excess of $23.0 million and punitive damages, interests, costs of suit and attorneys\u2019 fees.",
+    "source": "10-Q filed 2024-08-14, Note 11 - Legal Proceedings"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "New financing closed after quarter end, and Yorkville has repeatedly refinanced and waived terms rather than enforcing them.",
+    "quote": "net proceeds of the Initial July Prepaid Advance to the Company were approximately $14.1 million.",
+    "source": "10-Q filed 2024-08-14, Note 18 - Subsequent Events"
+   },
+   {
+    "point": "The aggregate July PPA limit of $100M over 24 months gives headroom if the share price and cap allow.",
+    "quote": "with an aggregate limitation on the Prepaid Advances of $100,000,000 over the course of 24 months from the Effective Date",
+    "source": "8-K filed 2024-07-22, Item 1.01"
+   },
+   {
+    "point": "CEO-affiliated entities have repeatedly injected capital: Series C preferred, the 2023 common stock purchase, and the factory sale-leaseback.",
+    "quote": "for a total aggregate purchase price of $10,000,000",
+    "source": "8-K filed 2024-04-11, Item 1.01"
+   },
+   {
+    "point": "The company has survived substantial doubt for more than two years, settling much of its debt in shares rather than cash.",
+    "quote": "As of March 31, 2024, the September Convertible Debentures was fully paid off through the issuance of 3.5 million shares of Common Stock to Yorkville",
+    "source": "10-Q filed 2024-05-15, Note 9 - Convertible Debt"
+   },
+   {
+    "point": "Cash burn and capex are falling year over year, and first vehicles are being delivered.",
+    "quote": "We have commercialized our first production vehicles and are delivering them to customers.",
+    "source": "10-Q filed 2024-08-14, MD&A Overview"
+   },
+   {
+    "point": "There is a possible $61.1M Section 16(b) recovery from DDG, but it is uncertain and slow.",
+    "quote": "In the action, the Company seeks to recover an estimated $61.1 million of Section 16(b) profits.",
+    "source": "10-Q filed 2024-08-14, Note 11 - Legal Proceedings"
+   },
+   {
+    "point": "Restricted cash of about $14.6M exists in addition to unrestricted cash, though it is not freely available.",
+    "quote": "",
+    "source": "10-Q filed 2024-08-14, Condensed Consolidated Balance Sheet"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2023-03-31",
+    "event": "Nasdaq notice of failure to meet the $1.00 minimum bid price"
+   },
+   {
+    "date": "2023-04-10",
+    "event": "CEO-affiliated entity takes over the $34.2M Oklahoma City factory purchase and leases it back"
+   },
+   {
+    "date": "2023-08-04",
+    "event": "Exchange Cap for Yorkville issuances nearly exhausted (~907 shares left)"
+   },
+   {
+    "date": "2023-10-02",
+    "event": "$45M Series B preferred and warrants sold to an institutional investor"
+   },
+   {
+    "date": "2024-01-31",
+    "event": "Seventh supplemental Yorkville advance at $0.1805; warrants exchanged for about 238M shares"
+   },
+   {
+    "date": "2024-03-08",
+    "event": "1-for-23 reverse stock split"
+   },
+   {
+    "date": "2024-03-14",
+    "event": "$62.0M Tenth Pre-Paid Advance, mostly refinancing, with $15.0M net"
+   },
+   {
+    "date": "2024-04-01",
+    "event": "10-K: substantial doubt; cash not sufficient for the next 12 months"
+   },
+   {
+    "date": "2024-04-11",
+    "event": "CEO-affiliated $10M Series C preferred purchase"
+   },
+   {
+    "date": "2024-05-15",
+    "event": "Q1 10-Q: cash $3.7M, Q1 operating burn $47.5M"
+   },
+   {
+    "date": "2024-06-13",
+    "event": "June $15M Pre-Paid Advance (~$14.1M net), maturing in six months"
+   },
+   {
+    "date": "2024-07-19",
+    "event": "July 2024 PPA: $15M initial advance (~$14.1M net), up to $100M over 24 months, $1.00 floor"
+   },
+   {
+    "date": "2024-08-14",
+    "event": "Q2 10-Q: cash $4.5M, substantial doubt; Torrance reorganization and WARN notices announced"
+   }
+  ],
+  "dates_to_watch": [
+   "2024-08-30: maturity date of the $26.6M Yorkville debenture (remaining balance unknown)",
+   "2024-10-02: maturity date of the $27.9M Yorkville debenture (remaining balance unknown)",
+   "2024-10-15: first separations under the Torrance reorganization",
+   "Mid-November 2024: Q3 10-Q, covering cash level, new draws and the going-concern language",
+   "2024-11-26: maturity date of the $15M debenture",
+   "About 2024-12-13: maturity of the $15.0M June Prepaid Advance",
+   "Any stockholder vote to lift the 19.99% exchange cap",
+   "Share price relative to the $1.00 PPA floor and the Nasdaq $1.00 minimum bid"
+  ],
+  "would_change_my_mind": [
+   "A sizeable non-Yorkville financing, such as a strategic investor, government loan or large equity raise, covering at least six months of burn",
+   "A large confirmed vehicle order with cash deposits, or meaningful revenue growth",
+   "Recovery of the $61.1M Section 16(b) claim",
+   "Yorkville extending maturities and continuing draws under the $100M limit without cash repayment triggers",
+   "Toward higher risk: a missed payment or event of default, a trading halt or Nasdaq delisting notice, failure to obtain stockholder approval for the exchange cap, or the share price falling below the $1.00 floor"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Remaining principal on the 2023 Yorkville convertible debentures maturing August to November 2024",
+   "Share price at filing date relative to the PPA trigger and floor prices",
+   "How much of the July $14.1M had been spent by the filing date, and the actual cash on 2024-08-14",
+   "Whether vendors holding the $58.4M of capex payables are pressing for payment",
+   "How much each model input contributed to the 0.606 score"
+  ]
+ },
+ "problems": [],
+ "attempts": 3
+}

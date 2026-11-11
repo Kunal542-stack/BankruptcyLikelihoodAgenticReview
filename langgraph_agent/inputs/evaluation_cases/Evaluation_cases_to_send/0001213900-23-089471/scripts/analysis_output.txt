@@ -1,0 +1,30 @@
+8 inputs ($m): this report | Q3 2022 annualized
+  total_assets               47.26 |     60.94
+  current_assets             15.53 |     43.08
+  current_liabilities       111.24 |     37.30
+  total_liabilities         142.81 |    131.08
+  revenue                    53.76 |     88.70
+  net_income                -47.95 |    -66.42
+  operating_income          -53.00 |    -36.83
+  operating_cash_flow       -47.68 |    -33.72
+liabilities/assets 3.02
+current ratio 0.14
+equity ($k) -95552
+working capital ($k) -95709
+quarterly OCF {'Q1': -22246, 'Q2': -7969, 'Q3': -5543}
+monthly burn 9M avg 3973k -> 0.47 months; last quarter 1848k -> 1.02 months
+with Nov-16 B. Riley $8,530k loan: 5.6 months at Q3 burn
+weekly MCA repayments ($k) 232 -> per month approx 1005
+   period  net_loss  noncash_total  cash_loss_before_wc    ocf
+0  FY2021       -65          -5061                -5126 -21373
+1  FY2022    -52726           9859               -42867 -26588
+2  9M2022    -49812          21280               -28532 -25287
+3  9M2023    -35966            442               -35524 -35758
+goodwill impairment share of 9M23 loss 0.188
+net_income peer median -2.53 nogin pct 23
+operating_cash_flow peer median 1.82 nogin pct 6
+total_assets peer median 361.21 nogin pct 32
+revenue peer median 300.85 nogin pct 30
+small peers ($20-100m assets) n 92 median L/A 0.42 median CR 1.19 median NI/A -0.113 share with L/A>3 0.022 share CR<0.2 0.13
+all peers share with L/A>=3.02 0.09 CR<=0.14 0.11
+charts saved

@@ -1,0 +1,84 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "medium, about 12% (vs 4% band base rate); agrees with the model and sees the report as riskier than its band",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "medium, about 6%; agrees with the model",
+ "key_points": [
+  {
+   "point": "Verdict real risk, medium risk about 12% (3x the 4% base rate), agrees with the model, riskier than its band suggests",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Annualized operating loss -$42.1M is -30% of assets, near the bottom of peers; the quarter's net loss is flattered by a one-off $9.0M asset-sale gain (pre-tax -$13.4M without it)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Underlying cash loss before working-capital changes (-$8.7M a quarter; FY23 OCF positive only because $70.8M of working capital was released) with little inventory left to release",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Thin covenant headroom: $9.5M available vs a $7.0M / 12.5% of line cap floor; revolver cut from $100M to $60M to $40M; new covenant-compliance caveat in the liquidity language",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Thin liquidity: $18.3M cash incl. restricted; long runway at reported burn but only about 5.5 months at the underlying cash loss plus capex",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "No substantial-doubt language, clean audit opinion, and management says liquidity is sufficient for the next twelve months",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Purchase commitments rose from $12.1M to $33.0M",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Selling core assets (Nautilus brand IP for $10.5M) and issuing cheap equity at $1.22 for only $4.6M net, plus Chief Accounting Officer resignation, as distress signals",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Debt is small ($17.3M, matures Oct 2026), no defaults, waivers or late filings; April and July lender amendments look like cooperation, not forbearance",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Costs down, gross margin up (20.7% vs 12.7%), and the strong October-March season lies ahead",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Own risk estimate is about 6% in CANDIDATE vs about 12% in GOLD (same medium level, but half the probability, so CANDIDATE does not convey GOLD's view that the case is clearly riskier than the band).",
+  "CANDIDATE treats the $4.6M equity raise at $1.22 as evidence against risk, while GOLD presents the cheap equity raise as a distress signal.",
+  "CANDIDATE refers to a possible Nasdaq bid notice, while GOLD refers to NYSE notices (different exchange).",
+  "Peer statistics differ (CANDIDATE: 37 peers, operating income at the 28th percentile, current-ratio median 2.04; GOLD: 2nd-worst OI/TA of 21 size-filtered peers, current-ratio median 2.2), though this reflects different peer sets rather than a clear factual conflict."
+ ],
+ "extra_points_in_candidate": [
+  "Borrowing availability fell from $65.8M a year earlier to $14.9M at March 2023 to $9.5M; covenant floor steps from $10.0M to $9.0M to $7.0M.",
+  "Limited access to new capital: public float under $75M and a 90-day lockup on new share sales; equity fell from $104.8M to $59.1M.",
+  "10-K risk factor warning that lender acceleration could leave the company unable to pay on time.",
+  "Amendments improved the advance rate on Amazon receivables; $2.3M from selling Vi Labs.",
+  "Restructuring with job cuts in February 2023 and monthly borrowing-base reporting after the July amendment.",
+  "Watch item: equity lockup ends mid-September 2023."
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same verdict (real risk, medium, agrees with the model) and covers GOLD's main drivers: the operating loss, the one-off gain, thin covenant headroom with a shrinking revolver, rising purchase commitments and the no-going-concern evidence against. It gives a lower 6% estimate versus GOLD's 12%, and it only partly makes GOLD's case on the pre-working-capital cash loss and the distress reading of the brand IP sale and the cheap equity raise.",
+ "critical_recall": 0.67,
+ "all_recall": 0.8,
+ "candidate_check_problems": 0,
+ "gold_words": 1194,
+ "candidate_words": 1123
+}

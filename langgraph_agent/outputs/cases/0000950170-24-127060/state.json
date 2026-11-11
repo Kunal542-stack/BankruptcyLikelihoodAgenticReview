@@ -1,0 +1,1610 @@
+{
+ "adsh": "0000950170-24-127060",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0000950170-24-127060",
+ "case": {
+  "adsh": "0000950170-24-127060",
+  "cik": 1580063,
+  "name": "BIORA THERAPEUTICS, INC.",
+  "form": "10-Q",
+  "fp": "Q3",
+  "period_end": "20240930",
+  "filed": "20241114",
+  "sic": 2834,
+  "score": 0.615,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 14.5,
+    "year_before_musd": 34.7,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 23
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 6.1,
+    "year_before_musd": 19.2,
+    "share_of_assets_pct": 41.7,
+    "peer_percentile": 23
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 120.6,
+    "year_before_musd": 69.5,
+    "share_of_assets_pct": 831.6,
+    "peer_percentile": 97
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 121.1,
+    "year_before_musd": 153.5,
+    "share_of_assets_pct": 835.1,
+    "peer_percentile": 96
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 1.2,
+    "year_before_musd": 0.0,
+    "share_of_assets_pct": 8.2,
+    "peer_percentile": 31
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -21.5,
+    "year_before_musd": -144.9,
+    "share_of_assets_pct": -148.2,
+    "peer_percentile": 17
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -63.4,
+    "year_before_musd": -71.7,
+    "share_of_assets_pct": -436.9,
+    "peer_percentile": 6
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -42.9,
+    "year_before_musd": -46.3,
+    "share_of_assets_pct": -295.8,
+    "peer_percentile": 6
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 8.35,
+   "current_ratio": 0.05,
+   "peer_count": 878,
+   "peer_median_liabilities_to_assets": 0.46,
+   "peer_median_current_ratio": 3.12,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230330,
+    "total_assets": 53525000.0,
+    "current_assets": 38116000.0,
+    "current_liabilities": 23305000.0,
+    "total_liabilities": 155812000.0,
+    "revenue": 305000.0,
+    "net_income": -38157000.0,
+    "operating_income": -61781000.0,
+    "operating_cash_flow": -64417000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230515,
+    "total_assets": 53243000.0,
+    "current_assets": 37168000.0,
+    "current_liabilities": 25083000.0,
+    "total_liabilities": 158241000.0,
+    "revenue": 8000.0,
+    "net_income": -69764000.0,
+    "operating_income": -62176000.0,
+    "operating_cash_flow": -48392000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230814,
+    "total_assets": 49673000.0,
+    "current_assets": 33885000.0,
+    "current_liabilities": 37668000.0,
+    "total_liabilities": 170554000.0,
+    "revenue": 8000.0,
+    "net_income": -70496000.0,
+    "operating_income": -60956000.0,
+    "operating_cash_flow": -47440000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230930,
+    "filed": 20231113,
+    "total_assets": 34703000.0,
+    "current_assets": 19247000.0,
+    "current_liabilities": 69544000.0,
+    "total_liabilities": 153489000.0,
+    "revenue": 5333.333333333333,
+    "net_income": -144936000.0,
+    "operating_income": -71732000.0,
+    "operating_cash_flow": -46338666.666666664
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20231231,
+    "filed": 20240401,
+    "total_assets": 31215000.0,
+    "current_assets": 19071000.0,
+    "current_liabilities": 62972000.0,
+    "total_liabilities": 132636000.0,
+    "revenue": 4000.0,
+    "net_income": -124115000.0,
+    "operating_income": -67143000.0,
+    "operating_cash_flow": -48499000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20240331,
+    "filed": 20240515,
+    "total_assets": 22990000.0,
+    "current_assets": 14071000.0,
+    "current_liabilities": 51104000.0,
+    "total_liabilities": 123175000.0,
+    "revenue": 2168000.0,
+    "net_income": -16756000.0,
+    "operating_income": -62064000.0,
+    "operating_cash_flow": -49984000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240630,
+    "filed": 20240812,
+    "total_assets": 18263000.0,
+    "current_assets": 9201000.0,
+    "current_liabilities": 45993000.0,
+    "total_liabilities": 107585000.0,
+    "revenue": 1720000.0,
+    "net_income": 4552000.0,
+    "operating_income": -62604000.0,
+    "operating_cash_flow": -46896000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20240930,
+    "filed": 20241114,
+    "total_assets": 14505000.0,
+    "current_assets": 6054000.0,
+    "current_liabilities": 120618000.0,
+    "total_liabilities": 121134000.0,
+    "revenue": 1189333.3333333333,
+    "net_income": -21501333.333333332,
+    "operating_income": -63372000.0,
+    "operating_cash_flow": -42904000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0000950170-24-127060",
+   "form": "10-Q",
+   "date": "2024-11-14",
+   "why": "this report"
+  },
+  {
+   "adsh": "0000950170-24-039423",
+   "form": "10-K",
+   "date": "2024-04-01",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0000950170-24-095491",
+   "form": "10-Q",
+   "date": "2024-08-12",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0000950170-24-060530",
+   "form": "10-Q",
+   "date": "2024-05-15",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001193125-24-246602",
+   "form": "8-K",
+   "date": "2024-10-29",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0000950170-24-113271",
+   "form": "8-K",
+   "date": "2024-10-07",
+   "why": "8-K items 2.03,3.02"
+  },
+  {
+   "adsh": "0000950170-24-106347",
+   "form": "8-K",
+   "date": "2024-09-13",
+   "why": "8-K items 2.03,3.02"
+  },
+  {
+   "adsh": "0001193125-24-204481",
+   "form": "8-K",
+   "date": "2024-08-21",
+   "why": "8-K items 1.01,2.03,3.02,9.01"
+  },
+  {
+   "adsh": "0001193125-24-198866",
+   "form": "8-K",
+   "date": "2024-08-12",
+   "why": "8-K items 1.01,2.03,3.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-172679",
+   "form": "8-K",
+   "date": "2024-07-01",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001193125-24-161664",
+   "form": "8-K",
+   "date": "2024-06-14",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001193125-24-084852",
+   "form": "8-K",
+   "date": "2024-04-02",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001193125-24-064362",
+   "form": "8-K",
+   "date": "2024-03-11",
+   "why": "8-K items 1.01,2.03,3.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-297118",
+   "form": "8-K",
+   "date": "2023-12-18",
+   "why": "8-K items 1.01,2.03,3.02,7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-296812",
+   "form": "8-K",
+   "date": "2023-12-15",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001193125-23-252459",
+   "form": "8-K",
+   "date": "2023-10-06",
+   "why": "8-K items 1.01"
+  },
+  {
+   "adsh": "0001193125-23-237298",
+   "form": "8-K",
+   "date": "2023-09-19",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-167950",
+   "form": "8-K",
+   "date": "2023-06-15",
+   "why": "8-K items 5.02,5.07,9.01"
+  },
+  {
+   "adsh": "0001193125-23-166863",
+   "form": "8-K",
+   "date": "2023-06-14",
+   "why": "8-K items 1.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-163496",
+   "form": "8-K",
+   "date": "2023-06-08",
+   "why": "8-K items 3.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concludes that substantial doubt exists about the company's ability to continue as a going concern because current cash will not fund operations for 12 months.",
+   "numbers": "",
+   "quote": "As a result, substantial doubt exists about the Company\u2019s ability to continue as a going concern for 12 months following the issuance date of the condensed consolidated financial statements",
+   "section": "Note 1 Liquidity; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "At September 30, 2024 the company had only $3.0 million of cash and cash equivalents plus $0.2 million restricted cash, and a working capital deficit.",
+   "numbers": "cash $3.0 million; restricted cash $0.2 million; accumulated deficit $967.1 million",
+   "quote": "As of September 30, 2024, the Company had cash and cash equivalents of $3.0 million, restricted cash of $0.2 million and a working capital deficit.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash, cash equivalents and restricted cash fell from $15,211 thousand at the start of the year to $3,196 thousand at September 30, 2024.",
+   "numbers": "net decrease (12,015); beginning 15,211; end 3,196 (thousands)",
+   "quote": "Net decrease in cash, cash equivalents and restricted cash",
+   "section": "Condensed consolidated statements of cash flows; balance sheet"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "For the nine months the company reported a net loss of $16.1 million but used $32.2 million of cash in operating activities, about double the reported loss.",
+   "numbers": "net loss $16.1 million; operating cash used $32.2 million (nine months)",
+   "quote": "For the nine months ended September 30, 2024, the Company reported net loss of $16.1 million and cash used in operating activities of $32.2 million.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "The reported net loss is reduced by large non-cash fair-value gains on warrant and derivative liabilities, partly offset by non-cash extinguishment losses and stock compensation, so the loss understates cash burn.",
+   "numbers": "warrant FV gain $35.2 million; derivative FV gain $8.7 million; extinguishment loss $10.9 million; stock-based comp $4.4 million; debt discount amortization $3.2 million; D&A $0.3 million",
+   "quote": "non-cash adjustments of $25.0 million, primarily driven by a $35.2 million change in fair value of the warrant liabilities and an $8.7 million change in fair value of the derivative liabilities",
+   "section": "MD&A Cash Flows - Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "A one-off $3.8 million gain from discontinued operations came from reversing previously expensed amounts that settled for less.",
+   "numbers": "$3.8 million",
+   "quote": "Gain from discontinued operations increased by $3.8 million for both the three and nine months ended September 30, 2024",
+   "section": "MD&A Results of Operations - Discontinued Operations"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "On July 3, 2024 the company entered a forbearance agreement with 2028 noteholders because of its potential failure to meet the minimum liquidity covenant, issuing 124,996 warrants in exchange.",
+   "numbers": "124,996 Forbearance Warrants at $6.30 exercise price",
+   "quote": "as a result of the Company's potential failure to comply with minimum liquidity requirement of Section 3.13 thereof",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The forbearance was extended several times in short increments, to August 4, 2024 and then through October 31, 2024.",
+   "numbers": "extended to August 4, 2024; then through October 31, 2024",
+   "quote": "The parties subsequently agreed to extend the forbearance through October 31, 2024.",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The A&R Indenture requires minimum liquidity of $4.0 million, which is above the $3.0 million of cash and cash equivalents held at September 30, 2024.",
+   "numbers": "minimum liquidity $4.0 million vs cash $3.0 million",
+   "quote": "The A&R Indenture requires the Company to maintain minimum liquidity of $4.0 million",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The company states it was in compliance with its debt covenants at September 30, 2024 and through the filing date.",
+   "numbers": "",
+   "quote": "As of September 30, 2024 and through the date of this filing, the Company was in compliance with its debt and related covenants (see Note 6).",
+   "section": "Note 1 Liquidity; MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Management expects it is unlikely to keep meeting the financial covenants over the next twelve months; a breach would be a default that could accelerate the notes, so all Convertible Notes were reclassified to current.",
+   "numbers": "",
+   "quote": "As a result, all Convertible Notes and related derivative liabilities have been reclassified to current on the condensed consolidated balance sheet as of September 30, 2024.",
+   "section": "Note 1 Liquidity; Note 5/6 fair value and Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Convertible notes with total face value of $62.9 million were outstanding, consisting of $58.3 million of 11.0%/13.0% senior secured 2028 notes and $4.6 million of 7.25% 2025 notes, against $3.0 million of cash.",
+   "numbers": "total $62.9 million; 2028 notes $58.3 million; 2025 notes $4.6 million",
+   "quote": "The face value of convertible notes outstanding was $62.9 million",
+   "section": "MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The $4.6 million of unsecured 2025 Convertible Notes mature on December 1, 2025, and the 2028 notes are secured by substantially all company assets.",
+   "numbers": "$4.6 million due December 1, 2025",
+   "quote": "The 2025 Convertible Notes are due on December 1, 2025, unless earlier repurchased, redeemed or converted",
+   "section": "Note 6 Convertible Notes - 2025 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The June 1, 2024 interest payment on the 2028 notes was paid in kind with additional notes rather than cash.",
+   "numbers": "approximately $2.8 million PIK interest",
+   "quote": "The payment was made to the holders by issuing additional 2028 Convertible Notes in an amount equal to the interest payment obligation of approximately $2.8 million for the payment date occurring on June 1, 2024.",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The August 2024 debt exchange with the related-party holder was accounted for as a troubled debt restructuring, and the exchanges produced extinguishment losses.",
+   "numbers": "loss on extinguishment $8.7 million (August) and $2.0 million (September)",
+   "quote": "The Debt Exchange Transaction with a related party holder (see Note 7) constitutes a TDR under ASC 470.",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Noteholders agreed to buy new senior secured Payment Priority Notes for cash, with monthly $4.0 million subsequent draws available up to three times; draws were made in September and October 2024.",
+   "numbers": "initial $16.0 million Payment Priority Notes purchase agreement; subsequent draws $4.0 million each, maximum $16.0 million; September 2024 draw $4.0 million; October 7, 2024 draw $4.0 million",
+   "quote": "Once per month, up to three times, the Company may request that the Holders purchase additional Payment Priority Notes",
+   "section": "Note 6 Convertible Notes; Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter end the company raised small amounts of new equity: about $3.0 million gross in an October 28, 2024 registered direct offering and $0.5 million net from its at-the-market sales.",
+   "numbers": "October 2024 Offering gross approximately $3.0 million at $4.025 per share; ATM net $0.5 million from 99,672 shares at $4.67",
+   "quote": "The Company received gross proceeds from the Offering of approximately $3.0 million before deducting placement agent fees and estimated offering expenses.",
+   "section": "Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Nine-month financing inflows came from stock issuance, senior secured convertible notes and warrants.",
+   "numbers": "common stock $6.5 million; senior secured convertible notes $10.8 million; warrants $2.8 million; insurance financing payments $1.5 million",
+   "quote": "$6.5 million in proceeds from the issuance of common stock, $10.8 million in proceeds from the issuance of senior secured convertible notes and $2.8 million from the issuance of common stock warrants",
+   "section": "MD&A Cash Flows - Financing Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company says it has recently found it hard to raise significant capital in public markets, and that its ATM use has been limited by Form S-3 eligibility rules.",
+   "numbers": "ATM Facility up to $90.0 million",
+   "quote": "Recently, we have found it challenging to access the public capital markets to obtain significant capital.",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company has already cut NaviCap program and G&A headcount and warns it may have to cease operations if it cannot raise capital.",
+   "numbers": "",
+   "quote": "To date, we have substantially reduced our NaviCap program headcount and resources and our general and administrative headcount. Eventually, if we are not able to raise additional capital, we may have to cease operations.",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company sold its remaining investment in Enumera for $3.0 million in March 2024, an asset sale that provided cash.",
+   "numbers": "$3.0 million",
+   "quote": "In March 2024, the Company entered into a stock purchase agreement with Enumera investors, pursuant to which it sold its remaining investment for $3.0 million.",
+   "section": "Note 3 Strategic Transformation; MD&A Investing Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "management",
+   "direction": "against",
+   "finding": "Related-party holder Athyrium, owning 29.7% of common stock, holds $18.4 million of 2028 notes and has taken part in the exchanges and PIK arrangements, which shows continued support from an owner and lender.",
+   "numbers": "Athyrium $18.4 million notes including $1.0 million PIK; 29.7% ownership",
+   "quote": "As of September 30, 2024, Athyrium held $18.4 million aggregate principal amount of 2028 Convertible Notes, including $1.0 million in PIK Notes (see Note 6).",
+   "section": "Note 7 Related Party Transactions"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company did a 1-for-10 reverse stock split on October 18, 2024 after a 1-for-25 split in January 2023, and a delisting from the Nasdaq Global Market would be a Fundamental Change that lets noteholders demand repurchase.",
+   "numbers": "1-for-10 (October 18, 2024); 1-for-25 (January 3, 2023)",
+   "quote": "On October 18, 2024, the Company effected the 2024 Reverse Stock Split.",
+   "section": "Note 1; Note 6 Fundamental Change; Note 9 Stockholders' Equity"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "At December 31, 2023 the company had about $51.1 million face value of convertible notes outstanding, and some of its debt agreements contain restrictive covenants.",
+   "numbers": "$51.1 million convertible notes (face value)",
+   "quote": "As of December 31, 2023, we had a face value of approximately $51.1 million of convertible notes outstanding.",
+   "section": "Item 1A Risk Factors - outstanding debt"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The convertible note indentures prohibit most additional indebtedness and liens, and allow only up to $10.0 million of additional subordinated borrowed debt, which limits new financing options.",
+   "numbers": "$10.0 million subordinated debt basket",
+   "quote": "additional subordinated indebtedness for borrowed money that, in an aggregate principal amount (or accredited value, as applicable), does not exceed $10.0 million at any time outstanding",
+   "section": "Item 1A Risk Factors - outstanding debt"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company warns its business may not generate enough cash to service its debt and that missing a covenant or payment would cause a default that could make other debt immediately payable.",
+   "numbers": "",
+   "quote": "Our business may not generate sufficient funds, and we may otherwise be unable to maintain sufficient cash reserves, to pay amounts due under our indebtedness",
+   "section": "Item 1A Risk Factors - outstanding debt"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Access to equity through the ATM Facility may be limited by SEC rules on smaller companies' Form S-3 eligibility, and additional capital may not be available on satisfactory terms.",
+   "numbers": "",
+   "quote": "may be limited by, among other things, SEC rules and regulations impacting the eligibility of smaller companies to use Form S-3 for primary offerings of securities",
+   "section": "Item 1A Risk Factors - capital availability"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "going_concern",
+   "direction": "neutral",
+   "finding": "The risk factors say funding shortfalls may affect the company's ability to continue as a going concern; the passages provided do not include the going concern note or auditor's report, so no substantial doubt statement appears here.",
+   "numbers": "",
+   "quote": "Each of the foregoing may harm our business, operating results, and financial condition, and may impact our ability to continue as a going concern.",
+   "section": "Item 1A Risk Factors - capital availability"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "If it cannot raise capital, the company says it may have to delay programs, reduce its workforce and stop development efforts.",
+   "numbers": "",
+   "quote": "If we are unable to raise additional capital in sufficient amounts or on satisfactory terms, we may have to make reductions in our workforce",
+   "section": "Item 1A Risk Factors - capital availability"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The company is exploring non-dilutive funding such as licenses, collaborations and asset or business-line sales, but sale proceeds may have to go to paying down debt rather than to working capital.",
+   "numbers": "",
+   "quote": "We may also be required to use some or all of these sale proceeds to pay down indebtedness, which would then not serve to increase our working capital.",
+   "section": "Item 1A Risk Factors - capital availability"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company sold its minority stake in Enumera in March 2024, an asset sale that brought in cash.",
+   "numbers": "",
+   "quote": "We received a minority ownership stake in Enumera in exchange for the assets and subsequently, in March 2024 we sold that minority ownership stake.",
+   "section": "Item 1 Business - Matters Related to Discontinued Laboratory Operations"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Biora is a clinical-stage biotech with no approved products; its historical revenue came from laboratory operations that were discontinued in 2021.",
+   "numbers": "",
+   "quote": "Biora Therapeutics, Inc. is a clinical-stage biotechnology company developing oral biotherapeutics that could enable new treatment approaches in the delivery of therapeutics.",
+   "section": "Item 1 Business - Overview"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Sole-source suppliers of complex device components have missed timing requirements in the past and still do, which could delay testing and clinical studies.",
+   "numbers": "",
+   "quote": "the failure of a manufacturer to meet our requirements on time, as we have experienced in the past and continue to experience, could lead to delays",
+   "section": "Item 1A Risk Factors - suppliers"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The company still receives payor recoupment requests tied to its former lab business and expects them to continue, creating possible cash liabilities.",
+   "numbers": "",
+   "quote": "We continue to receive recoupment requests and we expect these disputes and requests for recoupment may continue for a period of time in the future.",
+   "section": "Item 1A Risk Factors - Reimbursement Risks Related to Our Historical Testing Business"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The company sometimes receives government investigative demands and subpoenas and is subject to a corporate integrity agreement with the OIG, with possible fines or penalties.",
+   "numbers": "",
+   "quote": "we occasionally receive investigative demands, subpoenas, or other requests for information from state and federal governmental agencies",
+   "section": "Item 1A Risk Factors - laws and governmental regulations"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company holds a sizable patent portfolio that it intends to monetize through partnerships and licensing.",
+   "numbers": "approximately 70 patent families; around 165 issued patents; approximately 135 pending applications",
+   "quote": "a patent portfolio consisting of approximately 70 distinct patent families comprising around 165 issued patents and approximately 135 pending applications",
+   "section": "Item 1 Business - Intellectual Property"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The company has large NOL carryforwards, which could be limited by an ownership change.",
+   "numbers": "federal NOLs $500.3 million; state NOLs $218.6 million",
+   "quote": "we had net operating loss (\"NOL\") carryforwards of approximately $500.3 million for federal income tax purposes, and $218.6 million for state income tax purposes",
+   "section": "Item 1A Risk Factors - net operating loss carryforwards"
+  },
+  {
+   "filing": "10-K filed 2024-04-01",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Cash held at banks is above FDIC insured limits, so a bank failure could affect its ability to pay operating expenses.",
+   "numbers": "",
+   "quote": "Our cash held in non-interest-bearing and interest-bearing accounts exceeds the Federal Deposit Insurance Corporation (\u201cFDIC\u201d) insurance limits.",
+   "section": "Item 1A Risk Factors - financial institutions"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concludes cash is not sufficient for 12 months and substantial doubt exists about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "substantial doubt exists about the Company\u2019s ability to continue as a going concern for 12 months following the issuance date of the condensed consolidated financial statements for the three and six months ended June 30, 2024",
+   "section": "Note 1 Liquidity; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "At June 30, 2024 the company had only $5.1 million of cash and cash equivalents plus $0.2 million restricted cash, and a working capital deficit.",
+   "numbers": "cash and cash equivalents $5.1 million; restricted cash $0.2 million; total $5,325 thousand vs $15,211 thousand at December 31, 2023",
+   "quote": "As of June 30, 2024, the Company had cash and cash equivalents of $5.1 million, restricted cash of $0.2 million and a working capital deficit.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash burn was $23.4 million in six months, far above the remaining cash balance.",
+   "numbers": "cash used in operating activities $23.4 million (six months); net income $2.3 million",
+   "quote": "For the six months ended June 30, 2024, the Company reported net income of $2.3 million and cash used in operating activities of $23.4 million.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash, cash equivalents and restricted cash fell by $9,886 thousand in the first six months of 2024.",
+   "numbers": "net decrease (9,886) thousand; beginning 15,211; ending 5,325",
+   "quote": "Net decrease in cash, cash equivalents and restricted cash",
+   "section": "Condensed consolidated statements of cash flows"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "The six-month net income is driven by non-cash fair value gains on warrant and derivative liabilities, masking an underlying operating loss.",
+   "numbers": "non-cash adjustments $31.4 million; warrant liability fair value change $26.9 million; derivative liability fair value change $10.3 million",
+   "quote": "offset by non-cash adjustments of $31.4 million, primarily driven by a $26.9 million change in fair value of the warrant liabilities and a $10.3 million change in fair value of the derivative liabilities",
+   "section": "MD&A Cash Flows - Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Non-cash charges in the period include stock-based compensation and debt discount amortization.",
+   "numbers": "stock-based compensation $3.1 million ($3,112 thousand); debt discount amortization $2.3 million; extinguishment loss $0.2 million; depreciation and amortization $0.2 million",
+   "quote": "partially offset by $3.1 million of stock-based compensation expense, $2.3 million of debt discount amortization",
+   "section": "MD&A Cash Flows - Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "After quarter end the company obtained a forbearance from 2028 noteholders because of a potential failure to meet the minimum liquidity covenant, paying with warrants.",
+   "numbers": "forbearance to July 31, 2024; 1,249,999 Forbearance Warrants at $0.63 per share",
+   "quote": "as a result of the Company's potential failure to comply with minimum liquidity requirement of Section 3.13 thereof, the Company issued to the holders 1,249,999 warrants to purchase shares of common stock",
+   "section": "Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The forbearance was extended in short increments, first to August 4, 2024 and then to August 16, 2024.",
+   "numbers": "extensions to August 4, 2024 and August 16, 2024",
+   "quote": "The parties subsequently agreed to extend the forbearance until August 16, 2024.",
+   "section": "Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The 2028 notes indenture requires minimum liquidity of $4.0 million, close to the $5.1 million cash on hand at June 30, 2024.",
+   "numbers": "minimum liquidity $4.0 million",
+   "quote": "The 2028 Convertible Notes Indenture requires the Company to maintain minimum liquidity of $4.0 million",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company states it was in compliance with the 2028 and 2025 note covenants at June 30, 2024.",
+   "numbers": "",
+   "quote": "As of both June 30, 2024 and December 31, 2023, the Company was in compliance with all such covenants.",
+   "section": "Note 6 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company carries $50.3 million of 2028 senior secured convertible notes and $4.6 million of 2025 convertible notes, versus $5.1 million of cash.",
+   "numbers": "2028 notes face value $50.3 million at 11.0%/13.0%; 2025 notes face value $4.6 million at 7.25%; total $54.9 million",
+   "quote": "As of June 30, 2024, the Company had a face value of $50.3 million of 11.0%/13.0% convertible senior secured notes due 2028",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The 2028 notes are secured by substantially all assets of the company and its subsidiaries.",
+   "numbers": "",
+   "quote": "The 2028 Convertible Notes are the Company\u2019s senior secured obligations, and are secured by substantially all of the Company\u2019s and its subsidiaries\u2019 assets.",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The 2028 notes have a springing maturity tied to the 2025 notes if $5.0 million or more of them remain outstanding; $4.6 million of 2025 notes are outstanding.",
+   "numbers": "maturity December 19, 2028; springing threshold $5.0 million; 2025 notes outstanding $4.6 million",
+   "quote": "the date that is 90 days prior to the maturity of the Convertible Notes solely to the extent there are Convertible Notes outstanding in a principal amount equal to or greater than $5.0 million",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The June 1, 2024 interest payment on the 2028 notes was paid in kind with additional notes rather than cash.",
+   "numbers": "PIK interest approximately $2.8 million; 13.0% PIK rate",
+   "quote": "The payment was made to the holders by issuing additional 2028 Convertible Notes in an amount equal to the interest payment obligation of approximately $2.8 million for the payment date occurring on June 1, 2024.",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On August 12, 2024 noteholders agreed to buy $16.0 million of new Payment Priority Notes for cash and exchange $10.8 million of existing 2028 notes into them.",
+   "numbers": "$16.0 million new cash at par; $10.8 million exchanged; 6,677,794 warrants at $0.60",
+   "quote": "The Company also entered into a note purchase agreements with the Holders to purchase $16.0 million in aggregate principal amount of Payment Priority Notes from the Company for cash at par value on the initial closing date.",
+   "section": "Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company may request up to three additional monthly draws of $4.0 million of Payment Priority Notes, up to $16.0 million more.",
+   "numbers": "Subsequent Draw $4.0 million each; maximum $16.0 million",
+   "quote": "Once per month, up to three times following the initial closing date, the Company may request that the Holders purchase additional Payment Priority Notes (a \u201cSubsequent Draw\u201d) with a purchase price of $4.0 million",
+   "section": "Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The new $90.0 million ATM is capped at $6.0 million by Form S-3 public float limits, and early sales raised only $0.4 million at a low share price.",
+   "numbers": "ATM capacity $6.0 million; net proceeds $0.4 million; 525,853 shares; $0.69 per share",
+   "quote": "the Company may sell shares of its common stock having an aggregate gross sales price of up to $6.0 million",
+   "section": "Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Risk factors state that Form S-3 eligibility rules for smaller companies may limit capital raising through the ATM.",
+   "numbers": "",
+   "quote": "Our ability to raise capital in the public capital markets, including through our ATM Facility, may be limited by, among other things, SEC rules and regulations impacting the eligibility of smaller companies to use Form S-3",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The March 2024 registered direct offering at $1.10 per share raised net proceeds of $5.5 million, with outstanding warrants repriced to $1.10.",
+   "numbers": "5,454,548 shares at $1.10; net proceeds $5.5 million; 6,415,822 warrants amended",
+   "quote": "The Company received net proceeds of $5.5 million after deducting placement agent fees and offering expenses.",
+   "section": "Note 9 Stockholders' Equity - Registered Offerings"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The December 2023 note exchange with one holder was accounted for as a troubled debt restructuring because the company is experiencing financial difficulty.",
+   "numbers": "restructuring gain $25.5 million in APIC; future interest approximately $11.7 million in carrying value",
+   "quote": "because the Company is experiencing financial difficulty and a concession has been granted by the holder",
+   "section": "Note 6 Convertible Notes - Note Exchanges"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company sold its remaining Enumera investment for $3.0 million in cash.",
+   "numbers": "$3.0 million",
+   "quote": "In March 2024, the Company entered into a stock purchase agreement with Enumera investors, pursuant to which it sold its remaining investment for $3.0 million.",
+   "section": "Note 3 Strategic Transformation - Investment in Enumera Molecular, Inc."
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "Athyrium, a related party, is a major noteholder and the largest shareholder, and took its June interest in PIK notes.",
+   "numbers": "$18.4 million of 2028 notes including $1 million PIK; 10,929,763 shares (30.4%)",
+   "quote": "Athyrium also held 10,929,763 shares, or 30.4%, of the Company's common stock outstanding",
+   "section": "Note 7 Related Party Transactions"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company has a large accumulated deficit and expects increasing operating losses with no current product revenue.",
+   "numbers": "accumulated deficit $948.7 million",
+   "quote": "The Company had an accumulated deficit of $948.7 million as of June 30, 2024.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Management expects expenses and operating losses to keep increasing in the near term.",
+   "numbers": "",
+   "quote": "We expect to continue to incur significant expenses and increasing operating losses in the near term.",
+   "section": "MD&A Factors Affecting Our Performance"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "management",
+   "direction": "against",
+   "finding": "Management says current liquidity gives enough runway to reach key R&D milestones and plans to raise more capital.",
+   "numbers": "",
+   "quote": "Management believes that the Company\u2019s liquidity position as of the date of this filing provides sufficient runway to achieve important research and development pipeline milestones.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-12",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "Part II Item 3 Default Upon Senior Securities and Item 5 Other Information appear only as table of contents entries in the passages; no text is shown.",
+   "numbers": "",
+   "quote": "Default Upon Senior Securities",
+   "section": "Table of contents, Part II Items 3 and 5"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concludes cash is not sufficient for 12 months and substantial doubt exists about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "substantial doubt exists about the Company\u2019s ability to continue as a going concern for 12 months following the issuance date of the condensed consolidated financial statements for the three months ended March 31, 2024",
+   "section": "Note 1 Liquidity; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "At March 31, 2024 the company had $10.6 million of cash and cash equivalents plus $0.2 million restricted cash, and a working capital deficit.",
+   "numbers": "cash and cash equivalents $10.6 million; restricted cash $0.2 million; total $10,820 thousand vs $15,211 thousand at December 31, 2023",
+   "quote": "As of March 31, 2024, the Company had cash and cash equivalents of $10.6 million, restricted cash of $0.2 million and a working capital deficit.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Quarterly operating cash burn of $12.5 million is larger than the $10.6 million cash balance.",
+   "numbers": "cash used in operating activities $12.5 million (three months); net loss $4.2 million",
+   "quote": "For the three months ended March 31, 2024, the Company reported a net loss of $4.2 million and cash used in operating activities of $12.5 million.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash, cash equivalents and restricted cash fell by $4,391 thousand in the quarter despite asset sale and financing inflows.",
+   "numbers": "net decrease (4,391) thousand; beginning 15,211; ending 10,820",
+   "quote": "Net decrease in cash, cash equivalents and restricted cash",
+   "section": "Condensed consolidated statements of cash flows"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "The reported net loss is reduced by large non-cash fair value gains on warrant liabilities, so the underlying operating loss is larger.",
+   "numbers": "non-cash items net $10.6 million; warrant liability fair value change $13.9 million; derivative liability fair value change $1.4 million",
+   "quote": "a $4.2 million net loss and non-cash charges of $10.6 million, primarily driven by a $13.9 million change in fair value of the warrant liabilities and a $1.4 million change in fair value of the derivative liabilities",
+   "section": "MD&A Cash Flows - Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Non-cash charges include debt discount amortization and stock-based compensation.",
+   "numbers": "debt discount amortization $1.9 million; stock-based compensation $1.5 million ($1,539 thousand); extinguishment loss $0.2 million; depreciation $0.1 million",
+   "quote": "partially offset by $1.9 million of debt discount amortization, $1.5 million of stock-based compensation expense",
+   "section": "MD&A Cash Flows - Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Convertible notes outstanding total $52.1 million face value, about five times the cash balance.",
+   "numbers": "2028 notes $47.5 million at 11.0%/13.0%; 2025 notes $4.6 million at 7.25%; total $52.1 million",
+   "quote": "The face value of convertible notes outstanding was $52.1 million and our accumulated deficit as of March 31, 2024 was $955.1 million.",
+   "section": "MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The 2028 notes are secured by substantially all assets of the company and its subsidiaries.",
+   "numbers": "",
+   "quote": "The 2028 Convertible Notes are the Company\u2019s senior secured obligations, and are secured by substantially all of the Company\u2019s and its subsidiaries\u2019 assets.",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The 2028 notes have a springing maturity tied to the 2025 notes if $5.0 million or more remain outstanding; $4.6 million of 2025 notes are outstanding.",
+   "numbers": "springing threshold $5.0 million; 2025 notes outstanding $4.6 million",
+   "quote": "the date that is 90 days prior to the maturity of the Convertible Notes solely to the extent there are Convertible Notes outstanding in a principal amount equal to or greater than $5.0 million",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The maturity of the convertible notes was extended to December 19, 2028.",
+   "numbers": "maturity December 19, 2028",
+   "quote": "In March 2024 the maturity date of the Convertible Notes was extended to December 19, 2028.",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The 2028 notes carry 11.0% cash or 13.0% PIK interest, payable semi-annually with the first payment on June 1, 2024.",
+   "numbers": "11.0% cash / 13.0% PIK; interest expense $0.7 million for the quarter",
+   "quote": "The Notes will accrue interest at a rate of 11.0% per annum in the case of cash payment and 13.0% in the case of blended payments or payments-in-kind",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The 2028 notes indenture requires minimum liquidity of $4.0 million, while cash was $10.6 million and quarterly burn $12.5 million.",
+   "numbers": "minimum liquidity $4.0 million",
+   "quote": "The 2028 Convertible Notes Indenture requires the Company to maintain minimum liquidity of $4.0 million",
+   "section": "Note 6 Convertible Notes - 2028 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company states it was in compliance with all covenants of the 2028 and 2025 notes at March 31, 2024.",
+   "numbers": "",
+   "quote": "As of both March 31, 2024 and December 31, 2023, the Company was in compliance with all such covenants.",
+   "section": "Note 6 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On March 8, 2024 a holder exchanged $5.6 million of 2025 notes for $3.8 million of 2028 notes and bought $2.8 million of new 2028 notes for cash.",
+   "numbers": "$5.6 million exchanged; $3.8 million 2028 notes issued; $2.8 million new cash; 2,000,000 warrants at $2.75",
+   "quote": "the investor agreed to purchase $2.8 million in aggregate principal amount of 2028 Convertible Notes from the Company for cash at par value",
+   "section": "Note 6 Convertible Notes - Note Exchanges"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Financing inflows in the quarter came from common stock and new senior secured convertible notes.",
+   "numbers": "$2.8 million common stock; $2.8 million senior secured convertible notes; $0.4 million insurance financing payments; $0.1 million offering costs",
+   "quote": "$2.8 million in proceeds from the issuance of common stock and $2.8 million in proceeds from the issuance of senior secured convertible notes",
+   "section": "MD&A Cash Flows - Financing Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The company plans to raise capital through an ATM facility of up to $90.0 million, though risk factors warn Form S-3 rules may limit its use.",
+   "numbers": "ATM up to $90.0 million",
+   "quote": "pursuant to which we may offer and sell shares of common stock having an aggregate offering price of up to $90.0 million from time to time",
+   "section": "MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Risk factors state that Form S-3 eligibility rules for smaller companies may limit raising capital through the ATM.",
+   "numbers": "",
+   "quote": "Our ability to raise capital in the public capital markets, including through our ATM Facility, may be limited by, among other things, SEC rules and regulations impacting the eligibility of smaller companies to use Form S-3",
+   "section": "Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "In connection with the March 2024 Offering, December 2023 warrants were repriced down to $1.10 per share, indicating a low share price.",
+   "numbers": "2,322,059 warrants amended; exercise price $1.10",
+   "quote": "lower the exercise price to $1.10 per share",
+   "section": "Note 6 Convertible Notes - Note Exchanges"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The December 2023 note exchange with one holder was accounted for as a troubled debt restructuring because the company is experiencing financial difficulty.",
+   "numbers": "restructuring gain $25.5 million in APIC; future interest approximately $11.7 million in carrying value",
+   "quote": "because the Company is experiencing financial difficulty and a concession has been granted by the holder",
+   "section": "Note 6 Convertible Notes - Note Exchanges"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company sold its remaining Enumera investment for $3.0 million in cash during the quarter.",
+   "numbers": "$3.0 million",
+   "quote": "In March 2024, the Company entered into a stock purchase agreement with Enumera investors, pursuant to which it sold its remaining investment for $3.0 million.",
+   "section": "Note 3 Strategic Transformation - Investment in Enumera Molecular, Inc."
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "Athyrium, a related party, holds $17.4 million of 2028 notes and 35.9% of common stock.",
+   "numbers": "$17.4 million 2028 notes; 10,929,763 shares (35.9%); warrants for up to 24,583,231 shares",
+   "quote": "Athyrium also held 10,929,763 shares, or 35.9%, of the Company's common stock outstanding",
+   "section": "Note 7 Related Party Transactions"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company has a very large accumulated deficit and no current product revenue.",
+   "numbers": "accumulated deficit $955.1 million",
+   "quote": "The Company had an accumulated deficit of $955.1 million as of March 31, 2024.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Management expects expenses and operating losses to keep increasing in the near term.",
+   "numbers": "",
+   "quote": "We expect to continue to incur significant expenses and increasing operating losses in the near term.",
+   "section": "MD&A Factors Affecting Our Performance"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "management",
+   "direction": "against",
+   "finding": "Management says current liquidity gives enough runway to reach key R&D milestones and plans further equity or debt raises.",
+   "numbers": "",
+   "quote": "Management believes that the Company\u2019s liquidity position as of the date of this filing provides sufficient runway to achieve important research and development pipeline milestones.",
+   "section": "Note 1 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "Part II Item 3 Default Upon Senior Securities and Item 5 Other Information appear only as table of contents entries in the passages; no text is shown.",
+   "numbers": "",
+   "quote": "Default Upon Senior Securities",
+   "section": "Table of contents, Part II Items 3 and 5"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "As part of the August 2024 debt exchange, the company agreed to hire a financial advisor acceptable to the majority 2028 noteholders and to work with it on a restructuring milestone schedule and cash flow forecast.",
+   "numbers": "",
+   "quote": "The Company has agreed to retain a financial advisor agreeable to the Holders of a majority in aggregate principal amount of 2028 Notes. The Company has agreed to work with such financial advisor regarding a restructuring milestone schedule and cashflow forecast.",
+   "section": "8-K filed 2024-08-12, Item 1.01, Covenants in the Note Purchase Agreement and the Note Exchange Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The amended and restated indenture includes covenants on financing if the company seeks bankruptcy protection, which shows bankruptcy was being planned for in the debt documents.",
+   "numbers": "",
+   "quote": "the Company will agree to certain covenants regarding financing in the event it seeks bankruptcy protection under relevant bankruptcy law.",
+   "section": "8-K filed 2024-08-12, Item 1.01, Amended and Restated Indenture"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "New Payment Priority Notes are senior secured, rank ahead of the existing 2028 Notes in payment, and are secured by substantially all assets, which layers secured debt on the company.",
+   "numbers": "up to $16,000,000 Payment Priority Notes; 11.00% / 13.00% due 2028",
+   "quote": "The Payment Priority Notes are the Company\u2019s senior secured obligations with payment priority over the existing 2028 Notes, and are secured by substantially all of the Company\u2019s and its subsidiaries\u2019 assets",
+   "section": "8-K filed 2024-08-21, Item 1.01, Amended and Restated Indenture"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "While Payment Priority Notes are outstanding, the other 2028 Notes receive interest only in kind, so cash interest on that debt stops and the principal grows.",
+   "numbers": "",
+   "quote": "2028 Notes that are not Payment Priority Notes will receive interest only in the form of payment-in-kind while Payment Priority Notes are outstanding",
+   "section": "8-K filed 2024-08-12, Item 1.01, Amended and Restated Indenture"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Lenders funded three $4,000,000 tranches of Payment Priority Notes (August 15, September 10 and October 7, 2024), giving $12,000,000 of new secured money out of a $16,000,000 facility.",
+   "numbers": "$4,000,000 on August 15, 2024; $4,000,000 on September 10, 2024; $4,000,000 on October 7, 2024; up to $16,000,000 total",
+   "quote": "of which $4,000,000 was purchased on August 15, 2024 and an additional $4,000,000 was purchased on September 10, 2024",
+   "section": "8-K filed 2024-10-07, Item 2.03, Note Purchase Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Each later draw on the facility is at each purchaser's sole discretion and capped at $4,000,000, so the rest of the funding is not committed.",
+   "numbers": "up to $4,000,000 per Subsequent Draw; maximum $16,000,000",
+   "quote": "each Purchaser may agree to purchase a principal amount of Payment Priority Notes in such Subsequent Draw, in its sole discretion, up to a maximum of $4,000,000 for all Purchasers",
+   "section": "8-K filed 2024-08-12, Item 1.01, Note Purchase Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "At each closing, $10,759,986 of existing 2028 Notes plus accrued interest was exchanged into Payment Priority Notes, moving existing debt up to senior priority instead of reducing it.",
+   "numbers": "$10,759,986 exchanged at the initial closing and at each subsequent closing",
+   "quote": "the Company acquired an aggregate of $10,759,986 in aggregate principal amount, plus accrued and unpaid interest thereon, of the existing 2028 Notes in exchange for $10,759,986 of a series of Payment Priority Notes",
+   "section": "8-K filed 2024-08-21, 2024-09-13 and 2024-10-07, Note Exchange Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The note financings came with commitment warrants at $0.60 per share, and existing warrants (including 17,476,790 from December 2023) were repriced to $0.60, which means heavy dilution.",
+   "numbers": "6,677,794, 6,655,538 and 6,666,666 commitment warrants; $0.60 exercise price; 17,476,790 December 2023 warrants repriced",
+   "quote": "to amend outstanding warrants previously issued to lower the exercise price to $0.60 per share",
+   "section": "8-K filed 2024-08-21, Item 1.01, Warrant Amendments"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On October 28, 2024 the company sold 745,342 shares at $4.025 in a registered direct offering for about $3 million gross, plus warrants at $3.90, and repriced older warrants to $3.90.",
+   "numbers": "745,342 shares at $4.025; approximately $3 million gross proceeds; 6.0% placement fee; warrants at $3.90",
+   "quote": "The Company received gross proceeds from the Offering of approximately $3 million before deducting placement agent fees and estimated offering expenses.",
+   "section": "8-K filed 2024-10-29, Item 1.01, Registered Direct Offering"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "In October 2024, carve-outs still allowed issuing equity to holders of both the 7.25% 2025 Notes and the 2028 Notes for refinancing or restructuring, so 2025 notes still appear to be outstanding and restructuring was still possible.",
+   "numbers": "7.25% Convertible Senior Notes due 2025; 11.00% / 13.00% Convertible Senior Secured Notes due 2028",
+   "quote": "holders of the Company\u2019s 7.25% Convertible Senior Notes due 2025 and/or 11.00% / 13.00% Convertible Senior Secured Notes due 2028 (collectively, the \u201cNotes\u201d) in connection with refinancing or restructuring of the Notes",
+   "section": "8-K filed 2024-10-29, Item 1.01, Registered Direct Offering"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The 2028 Notes have a springing maturity: they come due 90 days before the 2025 notes mature if $5,000,000 or more of the 2025 notes is still outstanding.",
+   "numbers": "90 days; $5,000,000; December 19, 2028",
+   "quote": "the date that is 90 days prior to the maturity of the Existing Notes solely to the extent there are Existing Notes outstanding in a principal amount equal to or greater than $5,000,000",
+   "section": "8-K filed 2023-12-18, Item 1.01, Indenture"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The secured notes indenture requires minimum liquidity of $4 million, a tight floor for a cash-burning company.",
+   "numbers": "$4 million minimum liquidity",
+   "quote": "The Indenture requires the Company to maintain minimum liquidity of $4 million",
+   "section": "8-K filed 2023-12-18, Item 1.01, Indenture"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Events of default include a $250,000 cross-default and bankruptcy events, and holders of 25% of the notes can accelerate all principal and interest.",
+   "numbers": "$250,000 cross-default threshold; 25% of holders to accelerate; 30-day interest cure period",
+   "quote": "noteholders of at least 25% of the aggregate principal amount of Notes then outstanding, by notice to the Company and the Trustee, may declare the principal amount of, and all accrued and unpaid interest on, all of the Notes",
+   "section": "8-K filed 2023-12-18, Item 1.01, Indenture"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company missed the June 10, 2024 deadline to meet Nasdaq's $50 million market value of listed securities rule and received a delisting determination. It planned to request a hearing, and any Panel extension could run no later than December 9, 2024.",
+   "numbers": "$50 million MVLS threshold; June 10, 2024; June 11, 2024; December 9, 2024",
+   "quote": "The Company did not regain compliance with the MVLS Rule by June 10, 2024 and, accordingly, on June 11, 2024, the Staff notified the Company that its securities were subject to delisting from Nasdaq",
+   "section": "8-K filed 2024-06-14, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Delisting counts as a Fundamental Change under the secured notes, which would let noteholders require a cash repurchase at par plus accrued interest.",
+   "numbers": "",
+   "quote": "The definition of Fundamental Change includes certain business combination transactions involving the Company and certain de-listing events with respect to the Company\u2019s common stock.",
+   "section": "8-K filed 2023-12-18, Item 1.01, Indenture"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "A $90,000,000 at-the-market program was set up in July 2024, but baby-shelf limits based on public float cap sales at $6,000,000.",
+   "numbers": "$90,000,000 program; capped at $6,000,000; up to 3.0% commission",
+   "quote": "the Company is offering shares of its common stock having an aggregate gross sales price of up to $6,000,000",
+   "section": "8-K filed 2024-07-01, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Parts of the note and warrant deals need stockholder approval under Nasdaq rules, with a preliminary proxy due by November 7, 2024. Athyrium-affiliated holders agreed to vote in favor.",
+   "numbers": "preliminary proxy no later than November 7, 2024",
+   "quote": "The Company has agreed to seek the Stockholder Approval at a special meeting of stockholders pursuant to a preliminary proxy statement filed no later than November 7, 2024",
+   "section": "8-K filed 2024-08-12, Item 1.01, Covenants in the Note Purchase Agreement and the Note Exchange Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In April 2024 the company sold 5,454,548 shares at $1.10 in a registered direct offering for about $6 million gross and repriced existing warrants to $1.10.",
+   "numbers": "5,454,548 shares at $1.10; approximately $6 million gross",
+   "quote": "The Company expects to receive gross proceeds from the Offering of approximately $6 million before deducting placement agent fees and estimated offering expenses.",
+   "section": "8-K filed 2024-04-02, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "In March 2024, $5,625,000 of 2025 notes was exchanged for $3,825,000 of secured 2028 notes, and a purchaser bought $2,812,500 of new notes for cash with 2,000,000 warrants.",
+   "numbers": "$5,625,000 exchanged for $3,825,000; $2,812,500 new notes; 2,000,000 warrants at $2.75",
+   "quote": "the Company agreed to acquire an aggregate of $5,625,000 of the Company\u2019s Existing Notes from the holder in exchange for (i) $3,825,000 in aggregate principal amount of 11.00% / 13.00% Convertible Senior Secured Notes due 2028",
+   "section": "8-K filed 2024-03-11, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "In December 2023, $72,500,000 of 7.25% 2025 notes was exchanged at a deep discount for $23,930,000 of secured 2028 notes plus shares and warrants, alongside $16,953,000 of new note purchases. This cut principal but converted unsecured debt to secured.",
+   "numbers": "$72,500,000 exchanged; $23,930,000 new secured notes; 625,000 shares; $16,953,000 new money",
+   "quote": "the Company agreed to acquire an aggregate of $72,500,000 of the Company\u2019s Existing Notes from the holders in exchange for (i) $23,930,000 in aggregate principal amount of 11.00% / 13.00% Convertible Senior Secured Notes due 2028",
+   "section": "8-K filed 2023-12-18, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "In September 2023, $50 million of 2025 notes held by Athyrium entities was exchanged for common stock and warrants, removing that debt.",
+   "numbers": "$50 million exchanged; 9,235,281 shares; 7,399,226 pre-funded warrants; 16,634,507 warrants",
+   "quote": "the Company acquired an aggregate of $50 million of the Company\u2019s Existing Notes from the Holders in exchange for (i) 9,235,281 shares of the Company\u2019s common stock",
+   "section": "8-K filed 2023-09-19, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "against",
+   "finding": "In October 2023 the company agreed to sell its former Ann Arbor genetics laboratory property for $2,750,000 before about $250,000 of costs.",
+   "numbers": "$2,750,000 consideration; approximately $250,000 costs",
+   "quote": "The total consideration for the Property is $2,750,000, before estimated commissions, fees and closing costs of approximately $250,000.",
+   "section": "8-K filed 2023-10-06, Item 1.01"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score of 0.615 comes mainly from a balance sheet where liabilities are 8.35 times assets and the current ratio is 0.05. Both are in the worst 3-4% of 878 peers. Operating income and operating cash flow are also deeply negative. The reported net loss (-$21.5M annualized) looks milder than the business really is, because non-cash fair-value gains on warrants and derivatives offset it. So the model may even understate the distress. The filings confirm the distress is real. Cash was $3.0M at September 30, 2024 against a $4.0M minimum-liquidity covenant, about one month of last-quarter burn. All convertible notes were reclassified to current. The company is living on forbearances, discretionary $4M secured draws and a lender-driven restructuring process whose documents already include bankruptcy financing covenants.",
+  "verdict": "real risk",
+  "own_risk": "high",
+  "own_risk_pct": 45,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "Cash of $3.0M at 2024-09-30 against Q3 operating burn of about $8.8M ($32.2M nine-month minus $23.4M six-month), about 1 month of runway. Even adding post-quarter inflows (Oct 7 $4.0M draw, about $3.0M gross offering, $0.5M ATM), the runway is only about 3-4 months.",
+   "Cash is below the $4.0M minimum-liquidity covenant. The company needed a forbearance from July 3, 2024, extended in short steps only through October 31, 2024.",
+   "Management says continued covenant compliance over 12 months is unlikely, so all Convertible Notes ($62.9M face) were reclassified to current. A default could accelerate them, and cash cannot cover that.",
+   "The August 2024 debt deals require hiring a financial advisor agreeable to the noteholders, a restructuring milestone schedule and a cash flow forecast. The A&R indenture adds covenants on financing if the company seeks bankruptcy protection.",
+   "The company received a Nasdaq delisting determination for the $50M MVLS rule, and any Panel extension runs no later than December 9, 2024. Delisting is a Fundamental Change that lets secured noteholders demand a cash repurchase.",
+   "Interest on the 2028 notes was paid in kind (June 2024), and non-priority 2028 notes get PIK-only interest. The debt is growing, and new money is layered as senior secured ahead of the existing notes.",
+   "The debt exchanges were accounted for as troubled debt restructurings because the company is experiencing financial difficulty."
+  ],
+  "reasons": [
+   {
+    "reason": "Liabilities far exceed assets. The company is deeply insolvent on a book basis.",
+    "kind": "model input",
+    "numbers": "total liabilities $121.1M vs total assets $14.5M; liabilities/assets 8.35",
+    "peer_comparison": "total liabilities at the 96th peer percentile; peer median liabilities/assets 0.46",
+    "quote": "",
+    "source": "10-Q filed 2024-11-14, balance sheet (shared/financials.csv)"
+   },
+   {
+    "reason": "Current liabilities jumped as all convertible notes were reclassified to current, leaving a current ratio of 0.05.",
+    "kind": "model input",
+    "numbers": "current liabilities $120.6M (year before $69.5M) vs current assets $6.1M; current ratio 0.05",
+    "peer_comparison": "current liabilities at the 97th peer percentile; peer median current ratio 3.12",
+    "quote": "As a result, all Convertible Notes and related derivative liabilities have been reclassified to current on the condensed consolidated balance sheet as of September 30, 2024.",
+    "source": "10-Q filed 2024-11-14, Note 1 Liquidity"
+   },
+   {
+    "reason": "Operating losses and cash burn are very large relative to the asset base.",
+    "kind": "model input",
+    "numbers": "operating income -$63.4M annualized; operating cash flow -$42.9M annualized; revenue $1.2M",
+    "peer_comparison": "operating income and operating cash flow both at the 6th peer percentile",
+    "quote": "",
+    "source": "10-Q filed 2024-11-14 (shared/financials.csv)"
+   },
+   {
+    "reason": "Net income understates the cash burn because of non-cash fair-value gains. The model's most important input therefore looks milder than reality.",
+    "kind": "from the filings",
+    "numbers": "nine-month net loss $16.1M vs operating cash used $32.2M; warrant FV gain $35.2M; derivative FV gain $8.7M; annualized net income -$21.5M vs operating income -$63.4M",
+    "peer_comparison": "net income at the 17th peer percentile, less extreme than operating income (6th)",
+    "quote": "For the nine months ended September 30, 2024, the Company reported net loss of $16.1 million and cash used in operating activities of $32.2 million.",
+    "source": "10-Q filed 2024-11-14, Note 1 Liquidity"
+   },
+   {
+    "reason": "There is roughly one month of cash at the last quarter's burn rate. Q3 operating burn was about $8.8M (about $2.9M per month) against $3.0M cash.",
+    "kind": "from the filings",
+    "numbers": "cash $3.0M; restricted cash $0.2M; cash fell from $15,211K to $3,196K in nine months; Q3 burn about $8.8M",
+    "peer_comparison": "",
+    "quote": "As of September 30, 2024, the Company had cash and cash equivalents of $3.0 million, restricted cash of $0.2 million and a working capital deficit.",
+    "source": "10-Q filed 2024-11-14, Note 1 Liquidity"
+   },
+   {
+    "reason": "Management concludes there is substantial doubt about going concern, the third consecutive quarter with this conclusion.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "As a result, substantial doubt exists about the Company\u2019s ability to continue as a going concern for 12 months following the issuance date of the condensed consolidated financial statements",
+    "source": "10-Q filed 2024-11-14, Note 1 Liquidity"
+   },
+   {
+    "reason": "Cash is below the minimum-liquidity covenant, and the company is relying on a short-dated forbearance.",
+    "kind": "from the filings",
+    "numbers": "minimum liquidity $4.0M vs cash $3.0M; forbearance extended through 2024-10-31",
+    "peer_comparison": "",
+    "quote": "The parties subsequently agreed to extend the forbearance through October 31, 2024.",
+    "source": "10-Q filed 2024-11-14, Note 6 Convertible Notes"
+   },
+   {
+    "reason": "Secured debt dwarfs cash and is secured by substantially all assets.",
+    "kind": "from the filings",
+    "numbers": "convertible notes face value $62.9M (2028 notes $58.3M, 2025 notes $4.6M) vs $3.0M cash",
+    "peer_comparison": "",
+    "quote": "The face value of convertible notes outstanding was $62.9 million",
+    "source": "10-Q filed 2024-11-14, MD&A Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Lenders are steering a restructuring process with a milestone schedule.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "The Company has agreed to retain a financial advisor agreeable to the Holders of a majority in aggregate principal amount of 2028 Notes. The Company has agreed to work with such financial advisor regarding a restructuring milestone schedule and cashflow forecast.",
+    "source": "8-K filed 2024-08-12, Item 1.01"
+   },
+   {
+    "reason": "The debt documents already plan for financing in a bankruptcy.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "the Company will agree to certain covenants regarding financing in the event it seeks bankruptcy protection under relevant bankruptcy law.",
+    "source": "8-K filed 2024-08-12, Item 1.01, Amended and Restated Indenture"
+   },
+   {
+    "reason": "The Nasdaq delisting process is under way. Delisting would trigger a Fundamental Change repurchase right on the secured notes, which the company cannot fund.",
+    "kind": "from the filings",
+    "numbers": "$50M MVLS threshold; Panel extension no later than 2024-12-09",
+    "peer_comparison": "",
+    "quote": "The Company did not regain compliance with the MVLS Rule by June 10, 2024 and, accordingly, on June 11, 2024, the Staff notified the Company that its securities were subject to delisting from Nasdaq",
+    "source": "8-K filed 2024-06-14, Item 3.01"
+   },
+   {
+    "reason": "Interest is paid in kind and the debt exchanges are troubled debt restructurings, both signs the company cannot service its debt in cash.",
+    "kind": "from the filings",
+    "numbers": "PIK interest about $2.8M (June 1, 2024); extinguishment losses $8.7M and $2.0M",
+    "peer_comparison": "",
+    "quote": "The Debt Exchange Transaction with a related party holder (see Note 7) constitutes a TDR under ASC 470.",
+    "source": "10-Q filed 2024-11-14, Note 6 Convertible Notes"
+   },
+   {
+    "reason": "Equity access is constrained. Two reverse splits, baby-shelf limits and warrant repricings point to a very weak share price and heavy dilution.",
+    "kind": "from the filings",
+    "numbers": "1-for-10 split 2024-10-18 after 1-for-25 in 2023; ATM capped at $6.0M; warrants repriced to $0.60",
+    "peer_comparison": "",
+    "quote": "Recently, we have found it challenging to access the public capital markets to obtain significant capital.",
+    "source": "10-Q filed 2024-11-14, Part II Item 1A Risk Factors"
+   },
+   {
+    "reason": "The company is cutting staff and warns it may have to cease operations.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "To date, we have substantially reduced our NaviCap program headcount and resources and our general and administrative headcount. Eventually, if we are not able to raise additional capital, we may have to cease operations.",
+    "source": "10-Q filed 2024-11-14, Part II Item 1A Risk Factors"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "The company states it was in compliance with its debt covenants at September 30, 2024 and through the filing date, even though cash was below the $4.0M minimum. Forbearance or the amended terms appear to have covered the gap.",
+    "quote": "As of September 30, 2024 and through the date of this filing, the Company was in compliance with its debt and related covenants (see Note 6).",
+    "source": "10-Q filed 2024-11-14, Note 1 Liquidity"
+   },
+   {
+    "point": "Noteholders keep funding: three $4.0M Payment Priority Note draws (August 15, September 10 and October 7, 2024), with possibly one more draw left at their discretion.",
+    "quote": "of which $4,000,000 was purchased on August 15, 2024 and an additional $4,000,000 was purchased on September 10, 2024",
+    "source": "8-K filed 2024-10-07, Item 2.03"
+   },
+   {
+    "point": "Related-party Athyrium owns 29.7% of the stock and holds $18.4M of 2028 notes. It has repeatedly supported the company through exchanges, PIK arrangements and voting agreements, and it may prefer out-of-court solutions.",
+    "quote": "As of September 30, 2024, Athyrium held $18.4 million aggregate principal amount of 2028 Convertible Notes, including $1.0 million in PIK Notes (see Note 6).",
+    "source": "10-Q filed 2024-11-14, Note 7 Related Party Transactions"
+   },
+   {
+    "point": "After quarter end the company raised small amounts of new equity, about $3.0M gross in October 2024 plus $0.5M net from the ATM.",
+    "quote": "The Company received gross proceeds from the Offering of approximately $3.0 million before deducting placement agent fees and estimated offering expenses.",
+    "source": "10-Q filed 2024-11-14, Note 13 Subsequent Events"
+   },
+   {
+    "point": "Earlier exchanges cut debt sharply: $50M of 2025 notes went to equity in September 2023, and $72.5M was exchanged at a deep discount in December 2023. Total liabilities fell from $153.5M to $121.1M year over year.",
+    "quote": "the Company acquired an aggregate of $50 million of the Company\u2019s Existing Notes from the Holders in exchange for (i) 9,235,281 shares of the Company\u2019s common stock",
+    "source": "8-K filed 2023-09-19, Item 1.01"
+   },
+   {
+    "point": "No near-term hard maturity. The 2025 notes ($4.6M) mature December 1, 2025, and because they are below the $5.0M threshold, the 2028 notes' springing maturity does not appear to be triggered.",
+    "quote": "The 2025 Convertible Notes are due on December 1, 2025, unless earlier repurchased, redeemed or converted",
+    "source": "10-Q filed 2024-11-14, Note 6 Convertible Notes"
+   },
+   {
+    "point": "The company has assets it could monetize, mainly patents it intends to license. It has also already sold non-core assets (Enumera $3.0M, Ann Arbor property $2.75M).",
+    "quote": "a patent portfolio consisting of approximately 70 distinct patent families comprising around 165 issued patents and approximately 135 pending applications",
+    "source": "10-K filed 2024-04-01, Item 1 Business - Intellectual Property"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2023-09-19",
+    "event": "8-K: $50M of 2025 notes held by Athyrium entities exchanged for common stock and warrants."
+   },
+   {
+    "date": "2023-12-18",
+    "event": "8-K: $72.5M of 7.25% 2025 notes exchanged for $23.93M of 11%/13% senior secured 2028 notes plus $16.953M new note purchases. The indenture sets a $4M minimum-liquidity covenant."
+   },
+   {
+    "date": "2024-03-11",
+    "event": "8-K: $5.625M of 2025 notes exchanged for $3.825M of 2028 notes, plus $2.8125M of new notes bought for cash. Enumera stake sold for $3.0M in March."
+   },
+   {
+    "date": "2024-04-01",
+    "event": "10-K filed for FY2023: $51.1M convertible notes outstanding; risk factors on debt service and capital access."
+   },
+   {
+    "date": "2024-04-02",
+    "event": "8-K: registered direct offering of 5,454,548 shares at $1.10 (about $6M gross)."
+   },
+   {
+    "date": "2024-05-15",
+    "event": "Q1 10-Q: going concern doubt; cash $10.6M; quarterly operating burn $12.5M."
+   },
+   {
+    "date": "2024-06-01",
+    "event": "2028 note interest of about $2.8M paid in kind."
+   },
+   {
+    "date": "2024-06-11",
+    "event": "Nasdaq notifies the company that its securities are subject to delisting under the MVLS rule."
+   },
+   {
+    "date": "2024-07-01",
+    "event": "8-K: $90M ATM program set up, capped at $6M by baby-shelf limits."
+   },
+   {
+    "date": "2024-07-03",
+    "event": "Forbearance agreement with 2028 noteholders over a potential minimum-liquidity breach."
+   },
+   {
+    "date": "2024-08-12",
+    "event": "Q2 10-Q (cash $5.1M, going concern) and 8-K: Payment Priority Note facility, TDR debt exchange, financial advisor and restructuring milestone schedule, bankruptcy-financing covenants."
+   },
+   {
+    "date": "2024-08-15",
+    "event": "First $4.0M Payment Priority Note purchase."
+   },
+   {
+    "date": "2024-09-10",
+    "event": "Second $4.0M Payment Priority Note purchase."
+   },
+   {
+    "date": "2024-09-30",
+    "event": "Quarter end: cash $3.0M, below the $4.0M minimum liquidity; all convertible notes classified as current."
+   },
+   {
+    "date": "2024-10-07",
+    "event": "Third $4.0M Payment Priority Note purchase."
+   },
+   {
+    "date": "2024-10-18",
+    "event": "1-for-10 reverse stock split."
+   },
+   {
+    "date": "2024-10-28",
+    "event": "Registered direct offering of 745,342 shares at $4.025 (about $3M gross)."
+   },
+   {
+    "date": "2024-10-31",
+    "event": "End of the extended forbearance period with 2028 noteholders."
+   },
+   {
+    "date": "2024-11-14",
+    "event": "Q3 10-Q filed: going concern doubt; management says continued covenant compliance is unlikely; notes reclassified to current."
+   }
+  ],
+  "dates_to_watch": [
+   "November 2024: whether noteholders fund the last discretionary $4.0M Payment Priority Note draw",
+   "Special stockholder meeting to approve the note and warrant deals (preliminary proxy due by 2024-11-07)",
+   "2024-12-01: next semi-annual interest date on the 2028 notes (inferred from the June 1 first payment); cash or PIK",
+   "2024-12-09: latest date for any Nasdaq Panel extension on the MVLS delisting; delisting would be a Fundamental Change",
+   "Any new forbearance or waiver on the $4.0M minimum-liquidity covenant after 2024-10-31",
+   "Restructuring milestones agreed with the noteholders' financial advisor",
+   "2025-12-01: maturity of the $4.6M 2025 Convertible Notes"
+  ],
+  "would_change_my_mind": [
+   "A large equity raise or a licensing or partnership deal for the patent portfolio or oral biotherapeutics platform that funds 12+ months of operations",
+   "Noteholders (led by Athyrium) converting the 2028 and Payment Priority Notes to equity, or agreeing to a long-term covenant waiver",
+   "Nasdaq Panel granting continued listing, or noteholders waiving the delisting Fundamental Change right",
+   "A sale of the company or its assets on terms that repay the secured notes outside court",
+   "Conversely, a missed forbearance extension, an acceleration notice or a failed final draw would push the risk higher"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Whether the forbearance was extended beyond October 31, 2024, or the covenant was waived or amended",
+   "How 'liquidity' is defined in the A&R Indenture, and why the company reports compliance with $3.0M of cash against a $4.0M minimum",
+   "The outcome of the Nasdaq hearing and whether a Panel extension was granted",
+   "Whether the fourth $4.0M Payment Priority Note draw will be funded",
+   "Whether the stockholder approval needed under Nasdaq rules for the note and warrant deals was obtained",
+   "The exact amount and terms of recoupment claims from the former lab business",
+   "Quarterly cash burn after the headcount reductions, beyond Q3 2024"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

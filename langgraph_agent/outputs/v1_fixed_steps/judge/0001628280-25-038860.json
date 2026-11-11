@@ -1,0 +1,81 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 20-25% (vs 4% band base rate); agrees with the model's flag and thinks the score is too low",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "high, about 30%; partly agrees with the model (ranking right, 4% band base rate understates the risk)",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk high (~20-25%) well above the 4% band rate; agrees with the flag but the score is too low",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Annualized loss (-$101M) about 1.04x total assets, worse than most peers, and flattered by one-off Lilly ($18M) and Pfizer ($5M) revenue",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Cash lasts only into Q4 2025 (management quote); about 4-8 months of runway including the July ATM",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Management has explored filing for bankruptcy protection (repeated from the 10-K)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Thin liquidity and leverage: current ratio 1.05 vs peer median 3.26, liabilities 80% of assets, equity $19.6M",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going concern doubt plus Nasdaq bid-price deficiency with a 27 Oct 2025 deadline",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Survival depends on a Fabry partnering deal that has not been signed",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: no debt, so no creditor can force a filing",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: continued fundraising ($21.1M offering, ATM sales, ~$168.8M ATM capacity) and runway repeatedly extended (mid-Q2 -> early Q3 -> Q4)",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Other offsets and cash nature of loss: Lilly milestones up to $1.4B, Fabry BLA as early as Q1 2026, operating costs falling ($72.2M vs $89.4M), loss almost all cash (non-cash only 17%)",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Peer percentiles in the input table differ from GOLD for several inputs (current assets 28th vs 40th, current liabilities 81st vs 67th, total liabilities 75th vs 62nd, revenue 62nd vs 49th); CANDIDATE appears to rank ratios to assets while GOLD ranks levels, so the same labelled column carries different values"
+ ],
+ "extra_points_in_candidate": [
+  "Q1 2025 equity was only $4.9M and the accumulated deficit is $1,554.9M",
+  "Burn excluding the Lilly upfront estimated at about $12M a month, leaving about 4 months of cash",
+  "Pfizer, Biogen, Novartis and Kite have all exited partnerships, and R&D is expected to rise",
+  "Forward-looking-statements quote that the common stock may be delisted from Nasdaq",
+  "No defaults, forbearance, restructuring advisors or late filings reported",
+  "Uncertainty about the remaining value of the Astellas and Genentech deals and about lease/off-balance-sheet obligations"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 5,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same real-risk, high-risk verdict as GOLD (30% vs 20-25%) and covers all of GOLD's critical reasons and evidence against: the loss as large as assets, runway only into Q4 2025, bankruptcy exploration, going concern doubt, no debt and repeated raises. It misses only a few supporting offsets (falling costs, the Fabry BLA timing) and differs from GOLD on some peer percentiles, which look like a different ranking basis rather than errors that matter.",
+ "critical_recall": 1.0,
+ "all_recall": 0.95,
+ "candidate_check_problems": 0,
+ "gold_words": 1200,
+ "candidate_words": 1174
+}

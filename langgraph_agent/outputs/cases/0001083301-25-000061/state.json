@@ -1,0 +1,1036 @@
+{
+ "adsh": "0001083301-25-000061",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001083301-25-000061",
+ "case": {
+  "adsh": "0001083301-25-000061",
+  "cik": 1083301,
+  "name": "TERAWULF INC.",
+  "form": "10-Q",
+  "fp": "Q2",
+  "period_end": "20250630",
+  "filed": "20250808",
+  "sic": 6199,
+  "score": 0.623,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 869.4,
+    "year_before_musd": 479.6,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 42
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 99.1,
+    "year_before_musd": 111.0,
+    "share_of_assets_pct": 11.4,
+    "peer_percentile": 10
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 151.3,
+    "year_before_musd": 92.4,
+    "share_of_assets_pct": 17.4,
+    "peer_percentile": 39
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 695.1,
+    "year_before_musd": 93.3,
+    "share_of_assets_pct": 79.9,
+    "peer_percentile": 41
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 164.1,
+    "year_before_musd": 156.0,
+    "share_of_assets_pct": 18.9,
+    "peer_percentile": 41
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -159.6,
+    "year_before_musd": -41.0,
+    "share_of_assets_pct": -18.4,
+    "peer_percentile": 24
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -150.4,
+    "year_before_musd": -18.2,
+    "share_of_assets_pct": -17.3,
+    "peer_percentile": 37
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": 3.4,
+    "year_before_musd": 78.5,
+    "share_of_assets_pct": 0.4,
+    "peer_percentile": 52
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 0.8,
+   "current_ratio": 0.66,
+   "peer_count": 125,
+   "peer_median_liabilities_to_assets": 0.84,
+   "peer_median_current_ratio": 1.42,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "cash": {
+   "cash_usd": 89993000,
+   "period_months": 6,
+   "operating_cash_flow_musd": 1.7,
+   "monthly_cash_burn_musd": null,
+   "months_of_cash": null,
+   "net_income_musd": -79.8,
+   "non_cash_charges_musd": {
+    "stock_compensation": 40.0,
+    "depreciation_amortization": 34.4,
+    "impairment": 0.0
+   },
+   "cash_adjusted_net_income_musd": -5.5,
+   "non_cash_share_of_loss_pct": 93,
+   "note": "from this filing's XBRL, for its period to date (not annualized); months_of_cash = cash / monthly burn over that period; non-cash charges counted: stock compensation, depreciation and amortization, impairment (a negative stock compensation is a reversal that makes the loss look smaller)"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230331,
+    "total_assets": 317687000.0,
+    "current_assets": 14144000.0,
+    "current_liabilities": 126019000.0,
+    "total_liabilities": 199933000.0,
+    "revenue": 15033000.0,
+    "net_income": -90791000.0,
+    "operating_income": -43745000.0,
+    "operating_cash_flow": -34066000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230515,
+    "total_assets": 316781000.0,
+    "current_assets": 22220000.0,
+    "current_liabilities": 56121000.0,
+    "total_liabilities": 170468000.0,
+    "revenue": 46132000.0,
+    "net_income": -105028000.0,
+    "operating_income": -36884000.0,
+    "operating_cash_flow": -34852000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230814,
+    "total_assets": 299822000.0,
+    "current_assets": 14359000.0,
+    "current_liabilities": 81684000.0,
+    "total_liabilities": 165004000.0,
+    "revenue": 53978000.0,
+    "net_income": -87594000.0,
+    "operating_income": -30132000.0,
+    "operating_cash_flow": -18020000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230930,
+    "filed": 20231113,
+    "total_assets": 311793000.0,
+    "current_assets": 12980000.0,
+    "current_liabilities": 108479000.0,
+    "total_liabilities": 157859000.0,
+    "revenue": 61258666.666666664,
+    "net_income": -83861333.33333333,
+    "operating_income": -33006666.666666668,
+    "operating_cash_flow": -8842666.666666666
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20231231,
+    "filed": 20240320,
+    "total_assets": 378106000.0,
+    "current_assets": 62587000.0,
+    "current_liabilities": 154662000.0,
+    "total_liabilities": 155617000.0,
+    "revenue": 69229000.0,
+    "net_income": -73421000.0,
+    "operating_income": -29421000.0,
+    "operating_cash_flow": 4263000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20240331,
+    "filed": 20240513,
+    "total_assets": 395388000.0,
+    "current_assets": 54356000.0,
+    "current_liabilities": 122112000.0,
+    "total_liabilities": 123045000.0,
+    "revenue": 169732000.0,
+    "net_income": -38452000.0,
+    "operating_income": -9264000.0,
+    "operating_cash_flow": 91384000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240630,
+    "filed": 20240813,
+    "total_assets": 479568000.0,
+    "current_assets": 110964000.0,
+    "current_liabilities": 92416000.0,
+    "total_liabilities": 93327000.0,
+    "revenue": 156014000.0,
+    "net_income": -40978000.0,
+    "operating_income": -18162000.0,
+    "operating_cash_flow": 78454000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20240930,
+    "filed": 20241112,
+    "total_assets": 405905000.0,
+    "current_assets": 32415000.0,
+    "current_liabilities": 32415000.0,
+    "total_liabilities": 33274000.0,
+    "revenue": 140088000.0,
+    "net_income": -57629333.333333336,
+    "operating_income": -33056000.0,
+    "operating_cash_flow": 24402666.666666668
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20241231,
+    "filed": 20250303,
+    "total_assets": 787511000.0,
+    "current_assets": 281431000.0,
+    "current_liabilities": 51845000.0,
+    "total_liabilities": 543066000.0,
+    "revenue": 140051000.0,
+    "net_income": -72418000.0,
+    "operating_income": -76216000.0,
+    "operating_cash_flow": -24422000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20250331,
+    "filed": 20250509,
+    "total_assets": 841162000.0,
+    "current_assets": 230047000.0,
+    "current_liabilities": 120927000.0,
+    "total_liabilities": 670787000.0,
+    "revenue": 137620000.0,
+    "net_income": -245672000.0,
+    "operating_income": -238512000.0,
+    "operating_cash_flow": 225948000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20250630,
+    "filed": 20250808,
+    "total_assets": 869408000.0,
+    "current_assets": 99115000.0,
+    "current_liabilities": 151304000.0,
+    "total_liabilities": 695076000.0,
+    "revenue": 164082000.0,
+    "net_income": -159576000.0,
+    "operating_income": -150436000.0,
+    "operating_cash_flow": 3354000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001083301-25-000061",
+   "form": "10-Q",
+   "date": "2025-08-08",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001083301-25-000018",
+   "form": "10-K",
+   "date": "2025-03-03",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001083301-25-000038",
+   "form": "10-Q",
+   "date": "2025-05-09",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001083301-25-000044",
+   "form": "8-K",
+   "date": "2025-05-30",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001083301-25-000041",
+   "form": "8-K",
+   "date": "2025-05-27",
+   "why": "8-K items 1.01,1.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001083301-24-000151",
+   "form": "8-K",
+   "date": "2024-11-21",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0000950142-24-002636",
+   "form": "8-K",
+   "date": "2024-10-25",
+   "why": "8-K items 1.01,2.03,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001083301-24-000136",
+   "form": "8-K",
+   "date": "2024-10-10",
+   "why": "8-K items 1.01,1.02,7.01"
+  },
+  {
+   "adsh": "0000950142-24-002511",
+   "form": "8-K",
+   "date": "2024-10-03",
+   "why": "8-K items 1.01,1.02,7.01,9.01"
+  },
+  {
+   "adsh": "0000950142-24-002254",
+   "form": "8-K",
+   "date": "2024-08-21",
+   "why": "8-K items 4.01,9.01"
+  },
+  {
+   "adsh": "0001083301-24-000112",
+   "form": "8-K",
+   "date": "2024-07-09",
+   "why": "8-K items 1.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001628280-24-024966",
+   "form": "8-K",
+   "date": "2024-05-23",
+   "why": "8-K items 1.01,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash and cash equivalents fell sharply in the first half of 2025, and working capital is negative.",
+   "numbers": "cash $90.0 million vs $274.1 million; working capital $(52.2) million; net change in cash $(182,647)K",
+   "quote": "As of June 30, 2025, the Company had cash and cash equivalents of $90.0 million, a working capital balance of $(52.2) million, total stockholders\u2019 equity of $174.3 million",
+   "section": "MD&A - Financial Condition"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Six-month operating cash flow was barely positive, and it was supported by a $90.0 million deferred rent inflow.",
+   "numbers": "operating cash flow $1,677K vs $39,227K prior year; increase in deferred rent liability $90,000K",
+   "quote": "Net cash provided by operating activities\n1,677 39,227",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Heavy capital spending on the Lake Mariner buildout is consuming cash.",
+   "numbers": "purchase of and deposits on plant and equipment $(213,629)K; net cash used in investing $(132,096)K",
+   "quote": "increases in purchase of and deposits on plant and equipment of $120.1 million related to the buildout of its facilities at the Lake Mariner Facility",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Cash was used for discretionary share repurchases and for tax withholding on equity awards, rather than retained.",
+   "numbers": "treasury stock $(33,292)K; tax withholdings $(18,936)K; financing cash flow $(52,228)K",
+   "quote": "the Company repurchased $33.3 million and $0 of treasury stock under the Share Repurchase Program, respectively, and paid $18.9 million and $5.7 million in taxes",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Much of the six-month net loss comes from non-cash charges, mainly stock-based compensation and depreciation.",
+   "numbers": "net loss $(79,788)K; stock-based comp $39,978K; depreciation $34,360K; loss on disposals $3,831K; contingent consideration $1,600K",
+   "quote": "The Company recorded stock-based compensation expense of $1.3 million and $40.0 million during the three and six months ended June 30, 2025",
+   "section": "Note 15 / Cash Flow Statement"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Adjusted EBITDA fell sharply year over year.",
+   "numbers": "six-month Adjusted EBITDA $9,836K vs $51,503K; Q2 $14,531K vs $19,526K",
+   "quote": "Non-GAAP Adjusted EBITDA $ 14,531 $ 19,526 $ 9,836 $ 51,503",
+   "section": "MD&A - Non-GAAP Measure"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The only debt is $500.0 million of unsecured 2.75% convertible notes due in 2030, with no principal due before then.",
+   "numbers": "$500,000K principal due thereafter; 2026-2029 $\u2014; 2.75% coupon",
+   "quote": "The 2030 Convertible Notes mature on February 1, 2030",
+   "section": "Note 10 - Debt"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The prior secured term loans were repaid in full ahead of maturity.",
+   "numbers": "",
+   "quote": "The Company fully repaid the principal balance of the Term Loans ahead of maturity in July 2024.",
+   "section": "Note 10 - Debt"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The convertible notes trade at a fair value below par.",
+   "numbers": "fair value approximately $426.6 million vs $500.0 million principal",
+   "quote": "The Company has determined the fair value of convertible notes is approximately $426.6 million as of June 30, 2025",
+   "section": "Note 4 - Fair Value"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The full ATM equity program capacity is still available as a funding source.",
+   "numbers": "$200.0 million remaining ATM capacity",
+   "quote": "As of June 30, 2025, the remaining capacity of the ATM Program to offer and sell shares of Common Stock is $200.0 million.",
+   "section": "Note 14 - Common Stock"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Management states that funding has come from bitcoin sales, rent prepayments and debt and equity issuances.",
+   "numbers": "",
+   "quote": "the Company has relied primarily on proceeds from sale of bitcoin, both self-mined and distributed from the joint venture which owned the Nautilus Cryptomine Facility ,rent prepayments, and its issuances of debt and equity",
+   "section": "MD&A - Financial Condition"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "No impairment was recorded on property, plant and equipment or on the new goodwill.",
+   "numbers": "goodwill $55,457K; PP&E net $604,760K",
+   "quote": "The Company recorded no impairment during the three and six months ended June 30, 2025 and June 30, 2024.",
+   "section": "Note 6 / Note 7"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The company holds no bitcoin, having sold all of it, which removes a liquid reserve.",
+   "numbers": "bitcoin held \u2014 vs 5",
+   "quote": "Number of bitcoin held\n\u2014 5",
+   "section": "Note 5 - Bitcoin"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "going_concern",
+   "direction": "neutral",
+   "finding": "None of the passages provided contain any substantial doubt going concern language.",
+   "numbers": "",
+   "quote": "",
+   "section": "Notes / MD&A"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The company reports no material legal proceedings.",
+   "numbers": "",
+   "quote": "The Company is not a party to any material legal proceedings and is not aware of any pending or threatened claims.",
+   "section": "Note 12 - Commitments and Contingencies"
+  },
+  {
+   "filing": "10-Q filed 2025-08-08",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The company acquired Beowulf E&D, a related party controlled by management, which ended the Services Agreement.",
+   "numbers": "5,000,000 shares valued $19,550K; $2.7 million cash",
+   "quote": "On May 21, 2025, the Company acquired Beowulf E&D which terminated the Services Agreement between the Company and Beowulf E&D.",
+   "section": "Note 16 - Related Party Transactions"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "At year-end 2024 the company held substantial cash, positive working capital and positive stockholders' equity.",
+   "numbers": "cash $274.1 million; working capital $229.6 million; stockholders' equity $244.4 million; accumulated deficit $332.3 million",
+   "quote": "As of December 31, 2024, the Company had balances of cash and cash equivalents of $274.1 million, working capital of $229.6 million, total stockholders\u2019 equity of $244.4 million",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company had a net loss and negative operating cash flow from continuing operations in 2024, versus positive operating cash flow in 2023.",
+   "numbers": "net loss $72.4 million; operating cash flow $(24.4) million in 2024 vs $4.2 million in 2023",
+   "quote": "The Company incurred a net loss of $72.4 million and reported cash used in operating activities of $24.4 million for the year ended December 31, 2024.",
+   "section": "MD&A - Financial Condition"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Part of the operating cash outflow reflects a reclassification: after the Term Loan repayment, bitcoin sale proceeds are reported in investing rather than operating cash flows.",
+   "numbers": "$67.4 million bitcoin sale proceeds in investing activities",
+   "quote": "proceeds from sales of digital currency of $67.4 million are included within cash flows from investing activities",
+   "section": "MD&A - Operating activities"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large share of the 2024 net loss came from non-cash charges, and Adjusted EBITDA was positive.",
+   "numbers": "depreciation $59.8 million; stock-based compensation $30.9 million; loss on disposal of PP&E $17.8 million; amortization of debt costs $11.4 million; Adjusted EBITDA $60,377 thousand",
+   "quote": "Non-GAAP adjusted EBITDA $ 60,377 $ 31,864",
+   "section": "MD&A - Non-GAAP Measure; Cash flow statement"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Depreciation in 2024 included accelerated depreciation on miners due for replacement.",
+   "numbers": "accelerated depreciation $5.1 million",
+   "quote": "the Company recorded accelerated depreciation expense of $5.1 million related to certain miners",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The Term Loans under the LGSA, originally due December 1, 2024, were fully repaid early in July 2024.",
+   "numbers": "principal payments on long-term debt $139.4 million; loss on extinguishment $6.3 million",
+   "quote": "had an original maturity date of December 1, 2024 and was fully repaid in July 2024 ahead of maturity",
+   "section": "MD&A - Interest expense"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Debt was refinanced into low-coupon convertible notes that do not mature until 2030.",
+   "numbers": "2.75% interest; due 2030; net proceeds $487.1 million",
+   "quote": "In October 2024, the Company completed a private offering of convertible senior notes due 2030 (the \u201c2030 Convertible Notes\u201d) which accrue 2.75% interest annually.",
+   "section": "MD&A - Interest expense"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In 2024 the company raised substantial capital from convertible notes, equity and warrants, while also spending cash on buybacks and capped calls.",
+   "numbers": "convertible notes $487.1 million; common stock $188.7 million; warrants $4.8 million; treasury stock repurchases $118.2 million; capped calls $60.0 million",
+   "quote": "Cash provided by financing activities was $335.2 million and $119.9 million for the years ended December 31, 2024 and 2023, respectively.",
+   "section": "MD&A - Financing activities"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company sold its 25% interest in the Nautilus joint venture for cash and recorded a gain.",
+   "numbers": "$85.0 million sale price; $86.1 million proceeds received; $22.6 million gain",
+   "quote": "the Company sold its entire 25% equity interest in Nautilus Cryptomine LLC (\u201cNautilus\u201d) to a subsidiary of Talen Energy Corporation (the \u201cTalen Member\u201d) for $85.0 million in cash",
+   "section": "Business - Nautilus Cryptomine Facility Sale"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After year-end, the company received prepaid rent from HPC lease customers.",
+   "numbers": "$90.0 million Prepaid Rent; applied over 24 months",
+   "quote": "Subsequent to December 31, 2024, the Company received $90.0 million of Prepaid Rent under its HPC Leases",
+   "section": "MD&A - Financial Condition"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "going_concern",
+   "direction": "neutral",
+   "finding": "The auditor issued an unqualified opinion with no substantial doubt language in the passages; going concern appears only as a hypothetical risk if bitcoin's value declines for a sustained period.",
+   "numbers": "",
+   "quote": "This would result in a material adverse effect on our business and could potentially impact our ability to continue as a going concern.",
+   "section": "Risk Factors; Report of Independent Registered Public Accounting Firm"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Capital spending on the Lake Mariner buildout, including HPC infrastructure, rose sharply.",
+   "numbers": "$267.9 million capex in 2024 vs $75.2 million in 2023; $69.2 million for HPC",
+   "quote": "The Company invested $267.9 million and $75.2 million in the buildout of its facilities at the Lake Mariner Facility",
+   "section": "MD&A - Investing activities"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Profitability depends heavily on the bitcoin price, and the company has a history of losses.",
+   "numbers": "accumulated deficit $332.3 million",
+   "quote": "We have a history of operating losses, and we may report additional operating losses in the future.",
+   "section": "Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-03",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The company has only 12 employees and relies on entities controlled by its CEO for services, office space and the Lake Mariner site lease.",
+   "numbers": "12 employees; related party SG&A $12,695 thousand",
+   "quote": "The Lake Mariner Facility operates under a lease agreement with Somerset Operating Company, LLC (\u201cSomerset\u201d), a company controlled by TeraWulf\u2019s CEO.",
+   "section": "Properties; Human Capital"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Most of the Q1 2025 net loss is non-cash: stock-based compensation and depreciation together exceed the net loss.",
+   "numbers": "Net loss $(61,418)K; stock-based compensation $38,674K; depreciation $15,574K",
+   "quote": "Net loss $ (61,418) $ (9,613)",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "No impairment was recorded in either quarter.",
+   "numbers": "",
+   "quote": "The Company recorded no impairment during the three months ended March 31, 2025 and March 31, 2024.",
+   "section": "Note 5 - Property, Plant and Equipment"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Operating cash flow was positive, but $90.0 million of it came from an increase in deferred rent liability; excluding that item, operating cash flow would have been negative.",
+   "numbers": "Operating cash flow $56,487K; deferred rent liability increase $90,000K",
+   "quote": "Increase in deferred rent liability\n90,000 \u2014",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "The company held substantial cash and positive working capital at quarter end, though cash fell $55.9 million during the quarter.",
+   "numbers": "Cash $218.2M (vs $274.1M at 12/31/24); working capital $109.1M; equity $170.4M; accumulated deficit $393.7M",
+   "quote": "the Company had cash and cash equivalents of $218.2 million, a working capital balance of $109.1 million, total stockholders\u2019 equity of $170.4 million",
+   "section": "MD&A - Financial Condition"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Adjusted EBITDA turned negative, down from strongly positive a year earlier.",
+   "numbers": "Adjusted EBITDA $(4,695)K vs $31,977K",
+   "quote": "Non-GAAP Adjusted EBITDA $ (4,695) $ 31,977",
+   "section": "MD&A - Non-GAAP Measure"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue from mining and hosting declined year over year while capex roughly doubled.",
+   "numbers": "Revenue recognized $34,417K vs $41,537K; capex $93,687K vs $46,979K",
+   "quote": "Purchase of and deposits on plant and equipment (93,687) (46,979)",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The only debt is $500 million of 2.75% unsecured convertible notes due February 2030, with no principal due before then.",
+   "numbers": "$500,000K principal; 2.75% coupon; maturity Feb 1, 2030; $0 due 2025-2029",
+   "quote": "The 2030 Convertible Notes mature on February 1, 2030",
+   "section": "Note 8 - Debt"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The prior Term Loans were fully repaid before maturity.",
+   "numbers": "",
+   "quote": "The Company fully repaid the principal balance of the Term Loans ahead of maturity in July 2024.",
+   "section": "Note 8 - Debt"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "default",
+   "direction": "against",
+   "finding": "No defaults upon senior securities were reported.",
+   "numbers": "",
+   "quote": "ITEM 3. Defaults Upon Senior Securities.\nNone.",
+   "section": "Part II Item 3"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company used cash for share buybacks and still has ATM equity capacity available.",
+   "numbers": "Buybacks $33.3M; remaining ATM capacity $87.1M; remaining repurchase capacity $48.6M",
+   "quote": "As of March 31, 2025, the remaining capacity of the ATM Program to offer and sell shares of Common Stock is $87.1 million.",
+   "section": "Note 12 - Common Stock"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Historically the company has relied on bitcoin sales and debt and equity issuance to fund operations.",
+   "numbers": "",
+   "quote": "the Company has relied primarily on proceeds from sale of bitcoin, both self-mined and distributed from the joint venture which owned the Nautilus Cryptomine Facility, and its issuances of debt and equity",
+   "section": "MD&A - Financial Condition"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "going_concern",
+   "direction": "against",
+   "finding": "The passages provided contain no substantial doubt or going concern language.",
+   "numbers": "",
+   "quote": "",
+   "section": "Not present in provided passages"
+  },
+  {
+   "filing": "10-Q filed 2025-05-09",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Legal proceedings: the company reports no material legal proceedings.",
+   "numbers": "",
+   "quote": "The Company is not a party to any material legal proceedings and is not aware of any pending or threatened claims.",
+   "section": "Note 10 - Commitments and Contingencies"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company closed a $500.0 million private offering of 2.75% convertible senior notes and received about $487.1 million in net proceeds.",
+   "numbers": "$500.0 million principal; 2.75%; net proceeds approximately $487.1 million",
+   "quote": "The net proceeds from the sale of the notes were approximately $487.1 million after deducting the Initial Purchasers\u2019 discounts and commissions and estimated offering expenses payable by the Company.",
+   "section": "8-K filed 2024-10-25, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The convertible notes are senior unsecured, carry a low coupon paid semiannually, and do not mature until February 1, 2030.",
+   "numbers": "2.75% per year; maturity February 1, 2030; interest May 1 and November 1",
+   "quote": "The notes will mature on February 1, 2030, unless earlier converted, redeemed or repurchased in accordance with their terms.",
+   "section": "8-K filed 2024-10-25, Indenture and the Notes"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Holders can require a cash repurchase at par if a fundamental change occurs, and the trustee or 25% of holders can accelerate the notes on an event of default.",
+   "numbers": "100% of principal; 25% of holders",
+   "quote": "either the Trustee or the holders of at least 25% in principal amount of the outstanding notes may declare 100% of the principal of and accrued and unpaid interest",
+   "section": "8-K filed 2024-10-25, Indenture and the Notes"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Part of the note proceeds went to non-operating uses: capped calls and share repurchases.",
+   "numbers": "approximately $60 million capped calls; approximately $115.0 million share repurchases",
+   "quote": "approximately $60 million of the net proceeds from the sale of the notes to pay the cost of certain capped call transactions, approximately $115.0 million to repurchase shares of its common stock",
+   "section": "8-K filed 2024-10-25, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The company paid off its remaining $77.5 million term loan in full before its December 1, 2024 maturity, and the strategic review committee formed under the loan amendment was dissolved.",
+   "numbers": "$77.5 million term loan; maturity December 1, 2024; paid July 8, 2024",
+   "quote": "announcing an early payoff of its remaining $77.5 million term loan in full ahead of the applicable maturity date.",
+   "section": "8-K filed 2024-07-09, Items 1.02 and 7.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company sold its equity interest in the Nautilus joint venture to a Talen affiliate for cash and also received the JV's miners and its share of mined bitcoin.",
+   "numbers": "$85,000,000 cash at closing",
+   "quote": "Cumulus Member has agreed to pay $85,000,000 in cash at closing to TeraWulf Member for all of the equity interest held by TeraWulf Member",
+   "section": "8-K filed 2024-10-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company amended its at-the-market sales agreement so it can sell up to $200.0 million of common stock, which gives it access to equity capital.",
+   "numbers": "up to $200.0 million; commission up to 3.0%",
+   "quote": "shares of the Company\u2019s common stock, par value $0.001 per share, having an aggregate offering price of up to $200.0 million",
+   "section": "8-K filed 2024-05-23, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "The company entered a new 35-year lease for the Lake Mariner site, paying 20 million shares and $12 million in cash to terminate the prior lease.",
+   "numbers": "35 years; annual rent $281,398.20; 20 million shares; $12 million cash",
+   "quote": "TeraWulf paid Somerset\u2019s parent company Riesling Power LLC (\u201cRiesling Power\u201d) 20 million shares (the \u201cShares\u201d) of TeraWulf\u2019s common stock, par value $0.001 per share (the \u201cCommon Stock\u201d), and $12 million in cash.",
+   "section": "8-K filed 2024-10-10, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The company bought Beowulf entities owned by its CEO for a mix of cash, shares and earnouts, with approval from an independent committee that obtained a fairness opinion.",
+   "numbers": "approximately $52.4 million; $3 million cash; 5 million shares; up to $19 million cash and up to $13 million stock earnout",
+   "quote": "The aggregate purchase price for the Acquired Companies equals approximately $52.4 million, which consists of $3 million in cash paid on the Closing Date and 5 million shares of common stock",
+   "section": "8-K filed 2025-05-27, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Under the Beowulf deal, the company must fund an employee trust each year with 2% of its HPC/AI data center capex, which is an ongoing cash commitment.",
+   "numbers": "2% of annual capital expenditures",
+   "quote": "to fund the trust annually with an amount equal to 2% of the Company\u2019s annual capital expenditures, calculated in accordance U.S. GAAP",
+   "section": "8-K filed 2025-05-27, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The Chief Accounting Officer resigned to pursue new opportunities, and the internal Director of Financial Reporting was named as his successor.",
+   "numbers": "effective June 20, 2025",
+   "quote": "Kenneth Deane, the Company\u2019s Chief Accounting Officer, resigned from his role effective June 20, 2025 to focus on new professional opportunities.",
+   "section": "8-K filed 2025-05-30, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The company replaced RSM with Deloitte as auditor; RSM's reports had no adverse or going-concern modifications and there were no disagreements, but material weaknesses in cash-flow-statement controls were disclosed.",
+   "numbers": "",
+   "quote": "did not contain any adverse opinion or disclaimer of opinion, nor were they qualified or modified as to uncertainty, audit scope or accounting principles.",
+   "section": "8-K filed 2024-08-21, Item 4.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "There was a COO change: Nazar Khan gave up the COO role to focus on CTO duties, and Sean Farrell was promoted to COO.",
+   "numbers": "",
+   "quote": "Nazar Khan, the Company\u2019s Chief Technology Officer and Chief Operating Officer, resigned from his role as Chief Operating Officer to focus exclusively on his responsibilities as Chief Technology Officer.",
+   "section": "8-K filed 2024-11-21, Item 5.02"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score sits in the 0.5-0.7 band mainly because annualized net income (-$159.6M, -18.4% of assets) and operating income (-$150.4M) are deeply negative, and current assets are only 11.4% of total assets (10th peer percentile), giving a current ratio of 0.66 against a peer median of 1.42. The filings explain most of this. About 93% of the six-month loss is non-cash, mostly stock compensation (much of it in Q1) and depreciation, so annualizing the half-year overstates the cash loss, which is only -$5.5M for the six months. The real pressure is liquidity: cash fell from $274.1M to $90.0M, mainly because of Lake Mariner capex and buybacks. There is no debt due before February 2030, and $200M of ATM capacity remains, so the risk looks close to the band's base rate rather than clearly above it.",
+  "verdict": "unclear",
+  "own_risk": "low",
+  "own_risk_pct": 3.0,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "Down: the only debt is $500M of unsecured 2.75% convertible notes maturing 2030-02-01, with $0 principal due 2025-2029, so no maturity in the next 365 days that cash must cover.",
+   "Down: $200.0M of ATM equity capacity remains available as of 2025-06-30.",
+   "Down: 93% of the six-month net loss is non-cash; the cash-adjusted loss is only -$5.5M.",
+   "Down: the convertible notes are valued at about $426.6M against $500M par (about 85%), which is not a distressed level.",
+   "Up: cash fell about $128M in Q2 alone ($218.2M to $90.0M), driven by capex. At that pace the remaining $90.0M covers only a few months unless capex slows or new financing arrives.",
+   "Up: six-month operating cash flow of $1.7M was only positive because of a one-off $90.0M prepaid rent inflow. The company holds no bitcoin reserve, and working capital is -$52.2M."
+  ],
+  "reasons": [
+   {
+    "reason": "Large annualized net and operating losses are the main inputs pushing the score up. They are inflated by non-cash charges and by annualizing a half-year that includes a heavy Q1 stock-compensation charge.",
+    "kind": "model input",
+    "numbers": "Net income -$159.6M annualized (-$79.8M for six months; Q2 alone about -$18.4M); operating income -$150.4M annualized; stock comp $40.0M and D&A $34.4M in six months; cash-adjusted net income -$5.5M",
+    "peer_comparison": "Net income/assets at the 24th peer percentile; operating income at the 37th",
+    "quote": "The Company recorded stock-based compensation expense of $1.3 million and $40.0 million during the three and six months ended June 30, 2025",
+    "source": "10-Q, 2025-08-08, Note 15 / Cash Flow Statement"
+   },
+   {
+    "reason": "Weak current position: low current assets and negative working capital. Part of current liabilities is likely the current portion of the deferred rent liability, which is settled by rent credits rather than cash. This is an inference; the split was not checked.",
+    "kind": "model input",
+    "numbers": "Current assets $99.1M; current liabilities $151.3M; current ratio 0.66; working capital $(52.2)M",
+    "peer_comparison": "Current assets/assets at the 10th peer percentile; peer median current ratio 1.42",
+    "quote": "As of June 30, 2025, the Company had cash and cash equivalents of $90.0 million, a working capital balance of $(52.2) million, total stockholders\u2019 equity of $174.3 million",
+    "source": "10-Q, 2025-08-08, MD&A - Financial Condition"
+   },
+   {
+    "reason": "Leverage rose sharply year over year because of the $500M convertible notes, but it is in line with peers.",
+    "kind": "model input",
+    "numbers": "Total liabilities $695.1M vs $93.3M a year earlier; liabilities/assets 0.80",
+    "peer_comparison": "Peer median liabilities/assets 0.84; total liabilities/assets at the 41st percentile",
+    "quote": "The 2030 Convertible Notes mature on February 1, 2030",
+    "source": "10-Q, 2025-08-08, Note 10 - Debt"
+   },
+   {
+    "reason": "Operating cash flow is near zero and depends on a one-time prepaid rent inflow; without it, operations consumed cash.",
+    "kind": "from the filings",
+    "numbers": "Six-month operating cash flow $1,677K vs $39,227K a year earlier; deferred rent inflow $90,000K",
+    "peer_comparison": "Annualized OCF/assets at the 52nd peer percentile, which flatters because of the rent prepayment",
+    "quote": "Net cash provided by operating activities\n1,677 39,227",
+    "source": "10-Q, 2025-08-08, Condensed Consolidated Statements of Cash Flows"
+   },
+   {
+    "reason": "Heavy buildout capex plus buybacks drained cash quickly; the Q2 cash decline is the key burn signal, not the null months-of-cash figure.",
+    "kind": "from the filings",
+    "numbers": "Capex $(213,629)K in six months; treasury stock $(33,292)K; tax withholdings $(18,936)K; net change in cash $(182,647)K; cash $274.1M \u2192 $218.2M (Q1) \u2192 $90.0M (Q2)",
+    "peer_comparison": "",
+    "quote": "increases in purchase of and deposits on plant and equipment of $120.1 million related to the buildout of its facilities at the Lake Mariner Facility",
+    "source": "10-Q, 2025-08-08, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Core profitability weakened: Adjusted EBITDA fell sharply year over year, though Q2 recovered to a positive figure after a negative Q1.",
+    "kind": "from the filings",
+    "numbers": "Six-month Adjusted EBITDA $9,836K vs $51,503K; Q2 $14,531K vs $19,526K; Q1 $(4,695)K",
+    "peer_comparison": "",
+    "quote": "Non-GAAP Adjusted EBITDA $ 14,531 $ 19,526 $ 9,836 $ 51,503",
+    "source": "10-Q, 2025-08-08, MD&A - Non-GAAP Measure"
+   },
+   {
+    "reason": "No liquid bitcoin reserve remains to sell.",
+    "kind": "from the filings",
+    "numbers": "Bitcoin held: 0 vs 5",
+    "peer_comparison": "",
+    "quote": "Number of bitcoin held\n\u2014 5",
+    "source": "10-Q, 2025-08-08, Note 5 - Bitcoin"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "No principal is due before February 2030. The notes are unsecured and low-coupon, with interest of about $13.75M a year.",
+    "quote": "The notes will mature on February 1, 2030, unless earlier converted, redeemed or repurchased in accordance with their terms.",
+    "source": "8-K, 2024-10-25, Indenture and the Notes"
+   },
+   {
+    "point": "The full ATM capacity is available for new equity funding.",
+    "quote": "As of June 30, 2025, the remaining capacity of the ATM Program to offer and sell shares of Common Stock is $200.0 million.",
+    "source": "10-Q, 2025-08-08, Note 14 - Common Stock"
+   },
+   {
+    "point": "Most of the loss is non-cash.",
+    "quote": "The Company recorded stock-based compensation expense of $1.3 million and $40.0 million during the three and six months ended June 30, 2025",
+    "source": "10-Q, 2025-08-08, Note 15 / Cash Flow Statement"
+   },
+   {
+    "point": "The company has a record of raising capital and paying off secured debt early.",
+    "quote": "The Company fully repaid the principal balance of the Term Loans ahead of maturity in July 2024.",
+    "source": "10-Q, 2025-08-08, Note 10 - Debt"
+   },
+   {
+    "point": "HPC lease customers prepaid rent, which shows contracted demand for the new business line.",
+    "quote": "Subsequent to December 31, 2024, the Company received $90.0 million of Prepaid Rent under its HPC Leases",
+    "source": "10-K, 2025-03-03, MD&A - Financial Condition"
+   },
+   {
+    "point": "There is no going concern language, no impairment and no material litigation, and equity remains positive at $174.3M.",
+    "quote": "The Company is not a party to any material legal proceedings and is not aware of any pending or threatened claims.",
+    "source": "10-Q, 2025-08-08, Note 12 - Commitments and Contingencies"
+   },
+   {
+    "point": "Cash was spent on discretionary buybacks, which suggests management did not see an immediate liquidity crisis, although it also reduced the cash cushion.",
+    "quote": "the Company repurchased $33.3 million and $0 of treasury stock under the Share Repurchase Program, respectively, and paid $18.9 million and $5.7 million in taxes",
+    "source": "10-Q, 2025-08-08, MD&A - Liquidity and Capital Resources"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2024-05-23",
+    "event": "ATM sales agreement amended to allow up to $200.0M of common stock sales."
+   },
+   {
+    "date": "2024-07-08",
+    "event": "Remaining $77.5M term loan repaid in full ahead of its December 2024 maturity."
+   },
+   {
+    "date": "2024-08-21",
+    "event": "Auditor changed from RSM to Deloitte; no adverse or going-concern modifications; material weaknesses in cash-flow-statement controls disclosed."
+   },
+   {
+    "date": "2024-10-03",
+    "event": "Agreement to sell the 25% Nautilus JV stake to a Talen affiliate for $85.0M in cash."
+   },
+   {
+    "date": "2024-10-10",
+    "event": "New 35-year Lake Mariner lease with a CEO-controlled entity, for 20M shares plus $12M in cash."
+   },
+   {
+    "date": "2024-10-25",
+    "event": "Closed $500M of 2.75% convertible notes due 2030; net proceeds about $487.1M, with about $60M used for capped calls and about $115M for buybacks."
+   },
+   {
+    "date": "2025-03-03",
+    "event": "FY2024 10-K: cash $274.1M, working capital $229.6M; $90.0M of HPC prepaid rent received after year-end."
+   },
+   {
+    "date": "2025-05-09",
+    "event": "Q1 10-Q: cash $218.2M, working capital $109.1M, Adjusted EBITDA $(4.7)M."
+   },
+   {
+    "date": "2025-05-21",
+    "event": "Acquired related-party Beowulf E&D for 5M shares and about $3M in cash plus earnouts, with a 2%-of-capex trust funding commitment."
+   },
+   {
+    "date": "2025-06-20",
+    "event": "Chief Accounting Officer resignation took effect."
+   },
+   {
+    "date": "2025-06-30",
+    "event": "Quarter end: cash $90.0M, working capital $(52.2)M, no bitcoin held."
+   },
+   {
+    "date": "2025-08-08",
+    "event": "Q2 10-Q filed."
+   }
+  ],
+  "dates_to_watch": [
+   "2025-11-01: semiannual coupon on the 2030 convertible notes (about $6.9M)",
+   "Q3 2025 10-Q (around early November 2025): whether cash keeps falling at about $100M+ per quarter and whether the ATM or other financing is used",
+   "Any 8-K announcing new HPC leases, project financing or equity raises to fund the Lake Mariner buildout",
+   "FY2025 10-K (early 2026): auditor's going concern assessment",
+   "2030-02-01: convertible note maturity"
+  ],
+  "would_change_my_mind": [
+   "Toward higher risk: cash falling below about $40M without new financing, ATM sales failing to raise meaningful capital, an HPC tenant defaulting or terminating, capex commitments the company cannot fund, a going concern paragraph, or a covenant or event-of-default notice under the indenture.",
+   "Toward lower risk: new long-term HPC leases with creditworthy tenants, project-level or other non-dilutive financing, sizable ATM proceeds, or cash stabilizing as HPC revenue ramps."
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Outstanding capital commitments for the Lake Mariner HPC buildout over the next 12 months, which are not in the findings",
+   "How much of current liabilities is the current portion of deferred rent versus cash-settled payables",
+   "Whether any ATM sales or other financing occurred after June 30, 2025",
+   "HPC lease terms, tenant credit quality and the revenue ramp schedule",
+   "Bitcoin price sensitivity of mining revenue in the second half of 2025",
+   "Size of the earnout and employee-trust cash obligations from the Beowulf acquisition"
+  ]
+ },
+ "problems": [
+  "the report has 1280 words; the limit is 1200"
+ ],
+ "attempts": 3
+}

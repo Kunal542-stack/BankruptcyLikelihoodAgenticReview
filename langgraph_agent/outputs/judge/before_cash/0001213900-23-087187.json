@@ -1,0 +1,84 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 12% (against a 4% base rate for the 0.5-0.7 band)",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "high, about 25%",
+ "key_points": [
+  {
+   "point": "Verdict is real risk with own risk high at about 12%, raised from a 4% base rate because of near-zero cash against $7.8M of notes, defaults already in place and payables growing unpaid",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Agrees with the model's flag but says the model ranks the case too low",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Main model driver: annualized loss of $31.0M on $2.9M of assets (10.7x assets, worse than 95% of peers), with liabilities 8.16x assets and a current ratio of 0.017",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Essentially no cash: $6,759 at quarter end, covering 0.02 months of 9M burn (0.1 months at the Q3 burn rate); Note 3 says cash may not support daily operations",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Debt already in default: $2,265,447 of July 2022 senior secured notes plus about $828k of promissory notes including the PPP loan; about $7.8M of total note principal against $6,759 of cash",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Hidden burn: payables and accruals rose $5.9M in nine months, so the small operating cash outflow is propped up by unpaid bills",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going concern doubt from the auditor and in the 10-Q, Nasdaq delisting, late-filing notices, auditor replacement and CFO turnover",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: lenders extend and convert instead of enforcing (debentures extended to 2024-02-28, payments deferred, former CEO judgment settled for $75k plus shares)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: 56% of the loss is non-cash and the cash-basis loss fell 40% year on year",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: small funding still arrives (a $100k note, an equity-line draw, a PIPE, crowdfunding), no restructuring advisors are mentioned, and dilution or going dark is more likely than a Chapter 11 filing",
+   "importance": "supporting",
+   "candidate": "missing"
+  }
+ ],
+ "contradictions": [
+  "Cash runway: CANDIDATE infers roughly 1 to 6 months of cash left, while GOLD shows cash of $6,759 covering only 0.02 months (0.1 months at the Q3 burn rate).",
+  "Amount due on 2024-02-28: CANDIDATE adds $2,485,000 and $2,267,140 to get about $4.75M of debentures due, while GOLD treats the extended debentures as $2.485M. CANDIDATE may be counting the same debentures twice.",
+  "New funding: CANDIDATE says new money is drying up, while GOLD lists several small inflows still coming in and counts them as evidence against risk.",
+  "Own risk estimate is about 25% in CANDIDATE versus about 12% in GOLD, although both call it high.",
+  "Prior-period figures differ (total assets $8.7M vs $4.82M, revenue $5.3M vs $4.80M, operating cash flow -$18.5M vs -$16.81M), probably because CANDIDATE uses a different comparison period than GOLD's FY2022."
+ ],
+ "extra_points_in_candidate": [
+  "Secured holders have a first-priority lien on all assets, and the 10-K risk factor warns that assets may be foreclosed upon",
+  "A concentrated maturity wall of about $4.75M on 2024-02-28, plus about $92,600 of new monthly note payments starting in late 2023",
+  "The debenture conversion price was cut from $0.20 to $0.025",
+  "The Second September 2022 Note matures 2023-12-31, and the CFO resigned 2023-10-16 with the CEO also taking the CFO role",
+  "Management expects the operating loss to decrease significantly"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 3,
+  "overall": 4
+ },
+ "summary": "CANDIDATE matches GOLD's verdict (real risk, high) and covers the main drivers: the loss on a tiny asset base, liabilities 8x assets, defaults, going concern doubt, burn hidden by unpaid payables, and lenders extending instead of enforcing. However, it misses the $6,759 cash figure and its 0.02-month runway (wrongly inferring 1 to 6 months), likely double-counts the February 2024 maturities, sets its risk about twice as high as GOLD, and leaves out GOLD's point that dilution or going dark is more likely than formal bankruptcy.",
+ "critical_recall": 0.5,
+ "all_recall": 0.7,
+ "candidate_check_problems": 0,
+ "gold_words": 1140,
+ "candidate_words": 1063
+}

@@ -1,0 +1,39 @@
+peers n 606 missing in this report: []
+
+8 numbers: current | year before | change | peer median | pct of peers below
+total_assets             3.36M    10.34M    -67%    505.56M  pctile  15
+current_assets           1.84M     6.53M    -72%    214.58M  pctile  18
+current_liabilities     25.24M    20.64M    +22%     89.64M  pctile  36
+total_liabilities       30.00M    22.80M    +32%    202.59M  pctile  34
+revenue                  8.93M    24.70M    -64%    350.20M  pctile  23
+net_income             -16.24M   -24.41M    -33%     -0.52M  pctile  26
+operating_income       -11.92M   -21.17M    -44%     -0.60M  pctile  27
+operating_cash_flow     -5.64M    -6.60M    -15%     10.07M  pctile  18
+
+ratios: current | year before | peer median | pctile
+NI/TA     -4.826   -2.360   -0.024 pctile   4
+TL/TA      8.916    2.204    0.592 pctile  94
+CA/CL      0.073    0.316    1.401 pctile   8
+OCF/TA    -1.676   -0.638    0.050 pctile   6
+NI/Rev    -1.819   -0.988   -0.021 pctile  11
+TA      3364896.000 10343953.000 505565000.000 pctile  15
+
+small peers (<$10M assets) n 129
+  NI/TA small-peer median -0.952, co pctile 19
+  TL/TA small-peer median 1.756, co pctile 72
+  CA/CL small-peer median 0.211, co pctile 38
+  OCF/TA small-peer median -0.515, co pctile 27
+
+OCF 9M -4230300 Q1 -2621353 Q2 -612138 Q3 -996809
+monthly burn 9M avg 470,033; last quarter 332,270; months of cash: 0.23 (9M rate), 0.33 (Q3 rate)
+current ratio 0.073; TL/TA 8.92; equity -26,636,945
+current debt-type lines (non-rev LOC+conv+conv RP+other) 6703959
+
+non-cash adjusted loss
+  9M FY25: net loss -12,178,735 non-cash 4,334,238 (36%) adjusted -7,844,497 OCF -4,230,300
+  9M FY24: net loss -18,307,652 non-cash 9,041,721 (49%) adjusted -9,265,931 OCF -5,310,707
+  FY24: net loss -24,495,602 non-cash 12,533,526 (51%) adjusted -11,962,076 OCF -7,337,757
+  FY23: net loss -31,963,679 non-cash 20,038,991 (63%) adjusted -11,924,688 OCF -14,595,226
+revenue 9M -0.638479997801805 Q3 -0.7045761819715577 gross margin Q3 0.21104257342082783
+interest 9M 3239703 cash interest 9M 1644376 AP change 0.5101391880393709
+defaulted amounts sum 6890889

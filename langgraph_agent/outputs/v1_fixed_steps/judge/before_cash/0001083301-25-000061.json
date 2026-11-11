@@ -1,0 +1,87 @@
+{
+ "gold_verdict": "false alarm",
+ "gold_own_risk": "low, about 2%",
+ "candidate_verdict": "unclear",
+ "candidate_own_risk": "medium, about 3%",
+ "key_points": [
+  {
+   "point": "Verdict false alarm with own risk low (~2%), below the 4% band base rate; partly disagrees with the model (loss inflated, but a real funding need the model cannot see)",
+   "importance": "critical",
+   "candidate": "missing"
+  },
+  {
+   "point": "The -$159.6M annualized loss is H1 x 2 inflated by a one-off Q1 stock-comp charge (~$38.7M); Q2 alone annualizes to about -$73.5M, in line with FY2024",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Adjusted for non-cash items (stock comp, depreciation, amortization, disposal losses, stock-settled related-party expense) the business is about break-even (+$2.0M H1 2025, +$47.5M FY2024)",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Real weakness is cash vs capex: cash $90M at 30 June after ~$120M Q2 capex, about 2.2 months of runway, no committed financing named and no 12-month sufficiency statement, so new funding is needed",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Current ratio 0.66 is driven mostly by non-debt items ($47.7M deferred rent settled by providing space, $30M earnout); excluding them the ratio is 1.35",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Leverage 0.80 is close to the peer median (0.84); equity $174.3M",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "No debt matures before 2030: $500M 2.75% converts due 1 Feb 2030, about $13.75M interest a year",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "No defaults, no going-concern doubt, clean FY2024 audit opinion",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Funding sources: $90M prepaid rent from the HPC customer (which also props up operating cash flow) and $200M remaining ATM capacity",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "HPC build progressing (CB-1 earnout milestone achieved July 2025, on track for 72.5 MW for Core42) and some spending was optional (buybacks, tax withholding, capex can slow)",
+   "importance": "supporting",
+   "candidate": "missing"
+  }
+ ],
+ "contradictions": [
+  "Current liabilities driver: CANDIDATE attributes them to 'buildout payables and accruals', while GOLD says they are mainly $47.7M of prepaid customer rent plus a $30M earnout (non-debt items).",
+  "Operating burn: CANDIDATE puts Q2 operating burn at about -$54.8M and H1 operating cash ex-prepayment at about -$88M, while GOLD says Q2 operating cash counting bitcoin sales (now booked in investing) and excluding prepaid rent was only -$5.1M, i.e. the business is near break-even on cash.",
+  "Stock-comp charge: CANDIDATE calls the $40.0M (the six-month total) a Q1 charge, while GOLD gives the Q1 charge as $38.7M (minor).",
+  "Peer ranks differ: CANDIDATE puts operating income at the 37th percentile and revenue at the 41st, while GOLD has 5th and 51st (minor, likely different peer sets)."
+ ],
+ "extra_points_in_candidate": [
+  "Converts are senior unsecured, with fair value about $426.6M (~85% of par); H1 cash interest $7.1M",
+  "In 2024 the company raised $487.1M of converts and $188.7M of equity",
+  "Working capital swung from $229.6M at 31 Dec 2024 to $(52.2)M",
+  "Beowulf E&D acquired from the CEO for about $52.4M, mostly in stock",
+  "Chief Accounting Officer departure effective 20 Jun 2025",
+  "No impairments recorded in 2025 or 2024 periods",
+  "Current ratio peer median of 1.42",
+  "Alternative runway of about 5 months on operating burn alone",
+  "Explicit tripwire: cash below about $30M with no new funding"
+ ],
+ "scores": {
+  "verdict_agreement": 3,
+  "coverage": 3,
+  "consistency": 3,
+  "overall": 3
+ },
+ "summary": "CANDIDATE gets the main story right (inflated one-off loss, long-dated cheap converts, and a short cash runway against heavy HPC capex that requires new funding), but it lands on 'unclear/medium' instead of GOLD's 'false alarm/low'. It misses GOLD's adjusted break-even analysis and the non-debt nature of current liabilities, and it overstates operating cash burn by ignoring bitcoin sales booked in investing, which is why its risk call is harsher.",
+ "critical_recall": 0.75,
+ "all_recall": 0.6,
+ "candidate_check_problems": 1,
+ "gold_words": 1195,
+ "candidate_words": 1213
+}

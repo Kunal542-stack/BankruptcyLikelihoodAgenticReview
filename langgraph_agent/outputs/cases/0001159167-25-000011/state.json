@@ -1,0 +1,1747 @@
+{
+ "adsh": "0001159167-25-000011",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001159167-25-000011",
+ "case": {
+  "adsh": "0001159167-25-000011",
+  "cik": 1159167,
+  "name": "IROBOT CORP",
+  "form": "10-K",
+  "fp": "FY",
+  "period_end": "20241231",
+  "filed": "20250312",
+  "sic": 3630,
+  "score": 0.648,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 516.1,
+    "year_before_musd": 733.7,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 53
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 288.5,
+    "year_before_musd": 465.5,
+    "share_of_assets_pct": 55.9,
+    "peer_percentile": 56
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 218.2,
+    "year_before_musd": 287.1,
+    "share_of_assets_pct": 42.3,
+    "peer_percentile": 72
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 454.9,
+    "year_before_musd": 537.2,
+    "share_of_assets_pct": 88.1,
+    "peer_percentile": 83
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 681.8,
+    "year_before_musd": 890.6,
+    "share_of_assets_pct": 132.1,
+    "peer_percentile": 89
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -145.5,
+    "year_before_musd": -304.7,
+    "share_of_assets_pct": -28.2,
+    "peer_percentile": 30
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -103.0,
+    "year_before_musd": -264.1,
+    "share_of_assets_pct": -19.9,
+    "peer_percentile": 36
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -33.2,
+    "year_before_musd": -114.8,
+    "share_of_assets_pct": -6.4,
+    "peer_percentile": 37
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 0.88,
+   "current_ratio": 1.32,
+   "peer_count": 258,
+   "peer_median_liabilities_to_assets": 0.5,
+   "peer_median_current_ratio": 2.19,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "cash": {
+   "cash_usd": 134303000,
+   "period_months": 12,
+   "operating_cash_flow_musd": -33.2,
+   "monthly_cash_burn_musd": 2.77,
+   "months_of_cash": 48.51,
+   "net_income_musd": -145.5,
+   "non_cash_charges_musd": {
+    "stock_compensation": 24.5,
+    "depreciation_amortization": 21.7,
+    "impairment": 0.0
+   },
+   "cash_adjusted_net_income_musd": -99.4,
+   "non_cash_share_of_loss_pct": 32,
+   "note": "from this filing's XBRL, for its period to date (not annualized); months_of_cash = cash / monthly burn over that period; non-cash charges counted: stock compensation, depreciation and amortization, impairment (a negative stock compensation is a reversal that makes the loss look smaller)"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230214,
+    "total_assets": 835443000.0,
+    "current_assets": 528300000.0,
+    "current_liabilities": 296183000.0,
+    "total_liabilities": 359727000.0,
+    "revenue": 1183383000.0,
+    "net_income": -286295000.0,
+    "operating_income": -240383000.0,
+    "operating_cash_flow": -90021000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230509,
+    "total_assets": 664627000.0,
+    "current_assets": 364235000.0,
+    "current_liabilities": 214000000.0,
+    "total_liabilities": 269188000.0,
+    "revenue": 641168000.0,
+    "net_income": -324448000.0,
+    "operating_income": -325188000.0,
+    "operating_cash_flow": -378028000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230808,
+    "total_assets": 634139000.0,
+    "current_assets": 348245000.0,
+    "current_liabilities": 256682000.0,
+    "total_liabilities": 308720000.0,
+    "revenue": 793720000.0,
+    "net_income": -323824000.0,
+    "operating_income": -304706000.0,
+    "operating_cash_flow": -116222000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230930,
+    "filed": 20231107,
+    "total_assets": 831478000.0,
+    "current_assets": 556849000.0,
+    "current_liabilities": 325393000.0,
+    "total_liabilities": 578590000.0,
+    "revenue": 777381333.3333334,
+    "net_income": -321489333.3333333,
+    "operating_income": -282462666.6666667,
+    "operating_cash_flow": -151516000.0
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20231231,
+    "filed": 20240227,
+    "total_assets": 733698000.0,
+    "current_assets": 465490000.0,
+    "current_liabilities": 287147000.0,
+    "total_liabilities": 537211000.0,
+    "revenue": 890580000.0,
+    "net_income": -304710000.0,
+    "operating_income": -264080000.0,
+    "operating_cash_flow": -114793000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20240331,
+    "filed": 20240508,
+    "total_assets": 626123000.0,
+    "current_assets": 371864000.0,
+    "current_liabilities": 207361000.0,
+    "total_liabilities": 422054000.0,
+    "revenue": 600056000.0,
+    "net_income": 34428000.0,
+    "operating_income": 47600000.0,
+    "operating_cash_flow": 5748000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240630,
+    "filed": 20240807,
+    "total_assets": 585939000.0,
+    "current_assets": 340112000.0,
+    "current_liabilities": 221644000.0,
+    "total_liabilities": 436863000.0,
+    "revenue": 632750000.0,
+    "net_income": -124078000.0,
+    "operating_income": -98336000.0,
+    "operating_cash_flow": -40466000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20240930,
+    "filed": 20241106,
+    "total_assets": 669915000.0,
+    "current_assets": 423785000.0,
+    "current_liabilities": 292638000.0,
+    "total_liabilities": 519753000.0,
+    "revenue": 679748000.0,
+    "net_income": -91213333.33333331,
+    "operating_income": -55880000.0,
+    "operating_cash_flow": -40634666.666666664
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20241231,
+    "filed": 20250312,
+    "total_assets": 516137000.0,
+    "current_assets": 288502000.0,
+    "current_liabilities": 218244000.0,
+    "total_liabilities": 454898000.0,
+    "revenue": 681849000.0,
+    "net_income": -145518000.0,
+    "operating_income": -102950000.0,
+    "operating_cash_flow": -33222000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001159167-25-000011",
+   "form": "10-K",
+   "date": "2025-03-12",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001159167-24-000008",
+   "form": "10-K",
+   "date": "2024-02-27",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001159167-24-000083",
+   "form": "10-Q",
+   "date": "2024-11-06",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001159167-24-000064",
+   "form": "10-Q",
+   "date": "2024-08-07",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001159167-24-000039",
+   "form": "10-Q",
+   "date": "2024-05-08",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001193125-25-052480",
+   "form": "8-K",
+   "date": "2025-03-12",
+   "why": "8-K items 1.01,2.03,5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001159167-24-000079",
+   "form": "8-K",
+   "date": "2024-11-06",
+   "why": "8-K items 2.02,5.02,9.01"
+  },
+  {
+   "adsh": "0001159167-24-000074",
+   "form": "8-K/A",
+   "date": "2024-08-13",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001159167-24-000073",
+   "form": "8-K",
+   "date": "2024-08-13",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001159167-24-000066",
+   "form": "8-K",
+   "date": "2024-08-07",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001159167-24-000056",
+   "form": "8-K",
+   "date": "2024-06-13",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001159167-24-000053",
+   "form": "8-K",
+   "date": "2024-06-05",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001159167-24-000044",
+   "form": "8-K",
+   "date": "2024-05-23",
+   "why": "8-K items 5.02,5.07,9.01"
+  },
+  {
+   "adsh": "0001159167-24-000035",
+   "form": "8-K",
+   "date": "2024-05-07",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001159167-24-000017",
+   "form": "8-K",
+   "date": "2024-03-26",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001193125-24-017523",
+   "form": "8-K",
+   "date": "2024-01-29",
+   "why": "8-K items 1.01,1.02,2.02,2.04,2.05,5.02,7.01,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The independent auditor's report on the fiscal 2024 financial statements includes an explanatory paragraph expressing substantial doubt about the company's ability to continue as a going concern, citing operating losses and negative operating cash flows.",
+   "numbers": "",
+   "quote": "The report also states that we have a history of operating losses and negative cash flows from operations that raise substantial doubt about our ability to continue as a going concern.",
+   "section": "Item 1A. Risk Factors - going concern risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Under Amendment No. 1 signed March 11, 2025, the lenders gave only a short waiver, until May 6, 2025, of the Going Concern Covenant and the Minimum Core Assets Covenant; an event of default occurs after that date unless the waiver is extended.",
+   "numbers": "waiver until May 6, 2025",
+   "quote": "Pursuant to Amendment No. 1, the Lenders waived, until May 6, 2025 (the \"Amendment Period\"), our covenant obligations to (1) provide a report and opinion of our auditor",
+   "section": "Item 1. Business - Recent Developments; MD&A - Amendment to Credit Agreement"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Because of the going concern paragraph, the company would already be in breach of the Going Concern Covenant, and the Agent could exercise all remedies, if not for Amendment No. 1.",
+   "numbers": "",
+   "quote": "we would be in breach of the Going Concern Covenant and the Agent would be able to exercise all applicable remedies under the Credit Agreement but for Amendment No. 1 described above",
+   "section": "Item 1A. Risk Factors - time-limited waiver risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company cannot regain compliance with the Going Concern Covenant before its next 10-K, expected around March 2026, so until then it depends on further waivers that the lenders grant at their sole discretion.",
+   "numbers": "next 10-K expected March 2026",
+   "quote": "As a result, we are dependent on continued waivers from the Lenders to avoid an event of default related to the Going Concern Covenant, which waivers are in the Lenders' sole discretion.",
+   "section": "Item 1A. Risk Factors - time-limited waiver risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company says that if its debt were accelerated it may not have enough cash or be able to refinance or sell assets to repay it, and it may have to cease operations or file a case under the U.S. Bankruptcy Code.",
+   "numbers": "",
+   "quote": "we may be forced to terminate, significantly curtail or cease our operations or to pursue other alternatives, including, but not limited to, commencing a case under the U.S. Bankruptcy Code.",
+   "section": "Item 1A. Risk Factors - time-limited waiver and going concern risk factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "As of the filing date, the company says it complies with the Minimum Core Assets Covenant.",
+   "numbers": "",
+   "quote": "As of the date of filing of this Annual Report on Form 10-K, we are in compliance with the Minimum Core Assets Covenant.",
+   "section": "Item 1. Business - Recent Developments"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "As part of the amendment, the company had to put back into the lender-controlled account the $40.0 million it had withdrawn for inventory in Q3 2024, which reduces its free cash, and payment of a $4.0 million use fee was only deferred to the end of the Amendment Period.",
+   "numbers": "$40.0 million returned to controlled account; $4.0 million use fee deferred",
+   "quote": "we returned to a controlled account for the benefit of the Agent and the Lenders the $40.0 million that we elected to withdraw from such controlled account during the third quarter of 2024 for the purchase of inventory",
+   "section": "Item 1. Business - Recent Developments"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The waiver was costly: a $3.6 million paid-in-kind fee (2.0% of term loans outstanding, implying about $180 million of term loans) added to principal, plus near-free warrants for 6% of the common stock, along with more frequent reporting to the Agent.",
+   "numbers": "$3.6 million PIK fee (2.0% of principal); warrants for 1,840,503 shares (six percent); exercise price $0.01",
+   "quote": "warrants to purchase an aggregate of 1,840,503 shares of our common stock (equal to six percent of our outstanding common stock as of March 10, 2025), with an exercise price of $0.01 per share",
+   "section": "Item 1. Business - Recent Developments"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "On March 12, 2025 the board started a formal strategic review of alternatives, including a possible sale or strategic transaction and refinancing the debt, with no assurance that any transaction will happen.",
+   "numbers": "",
+   "quote": "our board of directors has initiated a formal strategic review to evaluate a broad range of alternatives, including, but not limited to, exploring a potential sale or strategic transaction and refinancing our debt.",
+   "section": "Item 1. Business - Recent Developments"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue fell 23.4% in fiscal 2024 because of weaker retailer orders, lower consumer spending, heavy promotions and aggressive competition.",
+   "numbers": "revenue $681.8 million vs $890.6 million; domestic down $95.8 million (22.4%); international down $112.9 million (24.4%)",
+   "quote": "Our total revenue for fiscal 2024 was $681.8 million, declining 23.4% from revenue of $890.6 million in fiscal 2023.",
+   "section": "Item 1. Business - 2024 Financial Performance; MD&A Overview"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company remained unprofitable in fiscal 2024: gross margin fell to 20.9% and the operating loss was $103.0 million, after losses of $264.1 million and $240.4 million in the two years before.",
+   "numbers": "gross profit $142.4 million; gross margin 20.9%; operating loss ($103.0) million; operating margin (15.1)%",
+   "quote": "operating loss of ($103.0) million, ($264.1) million, and ($240.4) million and operating margin of (15.1)%, (29.7)% and (20.3)%, respectively.",
+   "section": "MD&A - Key Financial Metrics and Non-GAAP Financial Measures"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "The 2024 operating loss was made smaller by one-time gains, the net Amazon termination fee and a litigation settlement, so the underlying operating loss was larger than reported.",
+   "numbers": "$75.2 million net Parent Termination Fee; $13.5 million Litigation Settlement",
+   "quote": "which excludes the one-time benefits of $75.2 million related to the Parent Termination Fee and $13.5 million related to an intellectual property litigation settlement",
+   "section": "Item 1. Business - 2024 Financial Performance"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "The company largely completed a restructuring that cut about 40% of the workforce and reduced operating expenses by $126.4 million, excluding one-time benefits.",
+   "numbers": "about 440 employees cut (40%); 541 employees vs 1,113; opex down $126.4 million",
+   "quote": "During fiscal 2024, we initiated an overall workforce reduction of approximately 440 employees, which represented 40% of our global workforce as of December 30, 2023.",
+   "section": "Item 1. Business - 2024 Financial Performance"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Management expects operating losses to continue for the foreseeable future and may not return to profitability.",
+   "numbers": "",
+   "quote": "We have incurred substantial operating losses in past years, expect to continue to incur operating losses for the foreseeable future, and may not achieve a return to profitability in the future.",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company warns that new financing may not be available on acceptable terms, or at all, and that equity raises could heavily dilute shareholders.",
+   "numbers": "",
+   "quote": "We cannot assure you that additional financing will be available on terms favorable to us, or at all.",
+   "section": "Item 1A. Risk Factors - capital risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The senior secured term loan from Carlyle affiliate TCG Senior Funding has a first-priority lien on substantially all assets and negative covenants, and the rest of the Amazon fee held in the controlled account must eventually be used to prepay the loan.",
+   "numbers": "",
+   "quote": "Our senior secured term loan credit facility provides our lenders with a first-priority lien against substantially all of our assets",
+   "section": "Item 1A. Risk Factors - summary and credit facility risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "In 2025 the company will rely mainly on a single contract manufacturer, Picea, whose agreement expires August 17, 2025 and can be ended by either side on 180 days' notice.",
+   "numbers": "expiry August 17, 2025; 180 days' termination notice",
+   "quote": "Our agreement with Picea is scheduled to expire on August 17, 2025, but it can be extended if both parties agree in writing.",
+   "section": "Item 1A. Risk Factors - third parties"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "New U.S. tariffs on Chinese imports began February 4, 2025; the company says it has moved robot production for the U.S. to Vietnam to limit its exposure.",
+   "numbers": "additional 10% tariff on China imports; 15% Chinese retaliatory tariff",
+   "quote": "effective February 4, 2025, the U.S. government implemented an additional 10% tariff on goods being imported from China",
+   "section": "Item 1A. Risk Factors - trade policy"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Most of senior management was replaced during fiscal 2024, which the company says could hurt retention, morale and operations.",
+   "numbers": "",
+   "quote": "Most of our senior management team have turned over during the course of fiscal 2024.",
+   "section": "Item 1A. Risk Factors - management risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "On March 11, 2025 the company launched a new line of floor cleaning robots, which is the core of its iRobot Elevate turnaround plan.",
+   "numbers": "",
+   "quote": "On March 11, 2025, we announced the launch of a suite of new floor cleaning robots featuring elevated, premium design, improved technology, advanced features and an upgraded Roomba Home app.",
+   "section": "Item 1. Business - 2024 Financial Performance"
+  },
+  {
+   "filing": "10-K filed 2025-03-12",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The Term Loan is carried at fair value, so changes in its value pass through net income as non-cash gains or losses; the company also keeps a valuation allowance against U.S. and some foreign deferred tax assets.",
+   "numbers": "net deferred tax assets $9.8 million",
+   "quote": "As of December 28, 2024, we had net deferred tax assets of $9.8 million.",
+   "section": "Item 1A. Risk Factors - tax and fair value risk factors"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "In this 10-K for fiscal 2023, management expected existing cash and operating cash flow to cover needs for at least the next twelve months; the passages contain no substantial doubt language.",
+   "numbers": "",
+   "quote": "We anticipate that our current cash, cash equivalents and cash provided by operating activities will be sufficient to meet our current and anticipated needs for at least the next twelve months.",
+   "section": "Item 1A. Risk Factors - capital risk factor"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "At December 30, 2023 the company had $185.1 million of cash, and working capital had fallen to $178.3 million from $232.1 million a year earlier.",
+   "numbers": "cash and cash equivalents $185.1 million; restricted cash $1.0 million and $1.8 million; working capital $178.3 million vs $232.1 million; foreign cash $16.4 million",
+   "quote": "At December 30, 2023, our cash and cash equivalents were $185.1 million, and we also had restricted cash of $1.0 million and $1.8 million included in other current assets and other assets, respectively.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "In July 2023 the company took a $200.0 million senior secured term loan, with net proceeds of $188.2 million, to fund operations; it matures July 24, 2026.",
+   "numbers": "$200.0 million term loan; $188.2 million net proceeds; $11.8 million issuance costs; maturity July 24, 2026",
+   "quote": "The Term Loan matures on July 24, 2026 with additional terms more fully described in Note 9 to our consolidated financial statements.",
+   "section": "MD&A - Term Loan"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After the Amazon merger was terminated on January 28, 2024, Amazon paid a $94.0 million termination fee, a one-time cash inflow.",
+   "numbers": "$94.0 million Parent Termination Fee received January 29, 2024",
+   "quote": "Amazon made a cash payment to us in the previously agreed amount of $94.0 million (the \"Parent Termination Fee\") on January 29, 2024.",
+   "section": "Item 1. Business - Termination of Merger Agreement"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "From the fee, $18.8 million went to professional fees and $35.0 million to repay part of the Term Loan; the remaining $40.0 million is restricted for future loan repayments, with limited use allowed for inventory.",
+   "numbers": "$18.8 million professional fees; $35.0 million repaid; $40.0 million restricted",
+   "quote": "The remaining $40.0 million of the Parent Termination Fee will be set aside in a restricted account to be used for future repayments of the Term Loan",
+   "section": "Item 1. Business - Termination of Merger Agreement; MD&A - Liquidity"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Termination of the merger ended the planned sale to Amazon, leaving the company to stabilize on its own with a restructuring plan.",
+   "numbers": "",
+   "quote": "In the near-term, we are focused on stabilizing our company following the termination of the Merger with Amazon.",
+   "section": "Item 1. Business - Strategy & 2023 Highlights"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Fiscal 2023 revenue fell 24.7% because of weaker retailer orders, lower consumer spending and more competition.",
+   "numbers": "revenue $890.6 million vs $1,183.4 million; domestic down $186.6 million (30.3%); international down $106.2 million (18.7%)",
+   "quote": "Our total revenue for fiscal 2023 was $890.6 million, declining 24.7% from revenue of $1,183.4 million in fiscal 2022.",
+   "section": "Item 1. Business - 2023 Financial Performance"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company had a large fiscal 2023 operating loss caused by falling orders and lower gross margin.",
+   "numbers": "operating loss $264.1 million; operating margin (29.7)%",
+   "quote": "During the most recent fiscal year, we incurred a substantial operating loss of $264.1 million due to the combination of declining orders for our products and significant decreases in our gross margin.",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Gross margin fell 7.6 points in 2023 because of promotions, lower fixed-cost leverage, rework costs, purchase commitment losses and inventory write-downs.",
+   "numbers": "gross profit $196.2 million vs $350.1 million; gross margin 22.0% vs 29.6%",
+   "quote": "Gross profit decreased $153.9 million, or 44.0%, to $196.2 million (22.0% of revenue) in fiscal 2023 from $350.1 million (29.6% of revenue) in fiscal 2022.",
+   "section": "MD&A - Gross Margin"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "The GAAP net loss was $304.7 million; non-cash and one-off items such as stock compensation, amortization and impairment, debt issuance costs, investment losses and tax effects explain only part of it, since the non-GAAP net loss was still $214.0 million.",
+   "numbers": "GAAP net loss $(304,710) thousand; stock-based compensation 36,056; amortization 6,532; restructuring 8,155; debt issuance costs 11,837; loss on strategic investments 3,910; income tax effect 9,611; non-GAAP net loss $(214,047) thousand",
+   "quote": "GAAP Net (Loss) Income $ (304,710) $ (286,295) $ 30,390",
+   "section": "MD&A - Non-GAAP reconciliation table"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Amortization in 2023 includes a $4.9 million impairment of intangibles from the Aeris acquisition, and an impairment assessment of goodwill and long-lived assets was planned for Q1 2024 because of the merger termination and restructuring.",
+   "numbers": "$4.9 million impairment (2023); $11.1 million (2022)",
+   "quote": "we will perform an impairment assessment of goodwill and other long-lived assets in connection with our preparation of the financial results for the first quarter of 2024.",
+   "section": "Item 1A. Risk Factors - goodwill; MD&A - Amortization"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The company keeps a full valuation allowance on U.S. deferred tax assets and added allowances in some foreign jurisdictions in 2023, leaving small net deferred tax assets.",
+   "numbers": "net deferred tax assets $8.1 million",
+   "quote": "As of December 30, 2023, we had net deferred tax assets of $8.1 million.",
+   "section": "Item 1A. Risk Factors - tax risk factor"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "In January 2024 the company announced a restructuring to cut about 31% of its workforce and lower costs, after earlier cuts in 2022 and 2023.",
+   "numbers": "about 350 employees (31%); 1,113 employees at end of 2023",
+   "quote": "A critical component of our operational restructuring plan is the overall reduction of approximately 350 employees, which represents 31% of our global workforce as of December 30, 2023.",
+   "section": "Item 1A. Risk Factors - restructuring risk factor"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "The company cut inventory sharply during 2023, which releases working capital.",
+   "numbers": "inventory $152.5 million, down $132.8 million",
+   "quote": "As of December 30, 2023, our inventory balance was $152.5 million, a reduction of $132.8 million from the end of fiscal 2022.",
+   "section": "Item 1. Business - 2023 Financial Performance"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The secured Term Loan has a first-priority lien on substantially all assets, negative covenants and a minimum core assets test.",
+   "numbers": "",
+   "quote": "We are also required to comply with a minimum core assets test.",
+   "section": "Item 1A. Risk Factors - credit facility risk factor"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company warns that a covenant breach could lead to acceleration, and it may not be able to repay or refinance the loan if that happens.",
+   "numbers": "",
+   "quote": "If our outstanding debt were to be accelerated, we may not have sufficient cash or be able to borrow sufficient funds to refinance the debt or sell sufficient assets to repay the debt",
+   "section": "Item 1A. Risk Factors - credit facility risk factor"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Founder Colin Angle stepped down as CEO and chairman in January 2024, and an interim CEO was appointed.",
+   "numbers": "",
+   "quote": "In January 2024, Colin Angle stepped down as Chief Executive Officer and chairman of our board of directors",
+   "section": "Item 1A. Risk Factors - management risk factor"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company depends heavily on one supplier, which bought 79% of its finished goods in 2023.",
+   "numbers": "79% of finished goods from one vendor",
+   "quote": "For fiscal 2023, we purchased 79% of our finished goods from one vendor.",
+   "section": "Item 1A. Risk Factors - third parties"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company's tariff exclusion on Roomba imports from China ran only until May 31, 2024, and U.S. tariffs were expected to return, which would pressure margins.",
+   "numbers": "25% Section 301 tariff; exclusion through May 31, 2024",
+   "quote": "current U.S. tariffs which are expected to be reinstated beginning in May 2024",
+   "section": "Item 1. Business - Manufacturing"
+  },
+  {
+   "filing": "10-K filed 2024-02-27",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The Term Loan is measured at fair value under ASC 825, so changes in its value can make reported results swing without any cash moving.",
+   "numbers": "",
+   "quote": "We have elected to account for the Term Loan under ASC 825 \"Financial Instruments.\"",
+   "section": "Item 1A. Risk Factors - Term Loan fair value"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "going_concern",
+   "direction": "against",
+   "finding": "The filing has no substantial doubt language; management concluded its actions will be sufficient to keep covenant compliance, liquidity and operations for at least 12 months.",
+   "numbers": "",
+   "quote": "While management estimates such actions will be sufficient to allow it to maintain its debt covenant compliance, and its liquidity and operations in the ordinary course for at least 12 months",
+   "section": "Note 2, Summary of Significant Accounting Policies - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Management warns there is no assurance it will stay in covenant compliance or generate enough operating cash flow, given inflation, high rates, recession and weak demand.",
+   "numbers": "",
+   "quote": "there can be no assurance the Company will meet its debt covenant compliance and generate sufficient future cash flows from operations",
+   "section": "Note 2 - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company says it may need additional equity or debt financing, which may not be available on favorable terms.",
+   "numbers": "",
+   "quote": "we may need additional financing, including public or private equity or debt financing, to execute on our current or future business strategy, and additional financing may not be available or on terms favorable to us.",
+   "section": "MD&A - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Unrestricted cash fell to $99.4 million at September 28, 2024 from $185.1 million at December 30, 2023, with another $42.4 million restricted.",
+   "numbers": "Cash and cash equivalents $99,447 vs $185,121 (thousands); restricted cash $42.4 million ($41.1 million set aside for Term Loan, $1.4 million collateral); total cash incl. restricted $141,880",
+   "quote": "At September 28, 2024, our cash and cash equivalents were $99.4 million. We also had $42.4 million in restricted cash",
+   "section": "MD&A - Liquidity and Capital Resources; balance sheet"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Working capital dropped to $131.1 million from $178.3 million at fiscal 2023 year end.",
+   "numbers": "$131.1 million vs $178.3 million",
+   "quote": "Our working capital, which represents our total current assets less total current liabilities, was $131.1 million as of September 28, 2024, compared to $178.3 million as of December 30, 2023.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The nine-month operating loss and operating cash outflow were flattered by a one-time $75.2 million net Amazon termination fee and a one-time $13.5 million litigation settlement; non-GAAP operating loss was $73.1 million.",
+   "numbers": "Operating loss $(41,910); net loss $(68,410); operating cash outflow $(30,476); one-time benefits $75.2 million and $13.5 million; non-GAAP operating loss $(73,083) (thousands)",
+   "quote": "The Company's operating loss of $41.9 million and operating cash outflows of $30.5 million for the nine months ended September 28, 2024 benefited from the one-time receipt of the Parent Termination Fee",
+   "section": "Note 2 - Liquidity; non-GAAP reconciliation"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue kept declining on lower retailer orders, weaker consumer sentiment and pricing competition.",
+   "numbers": "Nine-month revenue $509.8 million vs $583.0 million, down 12.6%; domestic down 10.5%, international down 14.6%",
+   "quote": "During the nine months ended September 28, 2024, the Company's revenue declined 12.6%, compared to the nine months ended September 30, 2023.",
+   "section": "Note 2 - Liquidity; MD&A Overview"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Third quarter showed improvement: operating income of $7.3 million (partly from the $13.5 million litigation settlement), non-GAAP operating income of $15.1 million, Q3 revenue up to $193.4 million and gross margin up to 32.2%.",
+   "numbers": "Q3 operating income $7,257 vs $(59,494); Q3 net loss $(6,371) vs $(79,205); Q3 revenue $193,435 vs $186,176; non-GAAP operating income $15,069; gross margin 32.2% vs 25.8%",
+   "quote": "Gross margin improved to 32.2% during the third quarter of fiscal 2024, compared to 25.8% during the third quarter of 2023.",
+   "section": "Statements of operations; MD&A key metrics; Note 2 - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large part of the nine-month net loss is non-cash: stock compensation, depreciation, inventory reserves and the fair value change of the term loan, totaling $54.1 million of non-cash charges.",
+   "numbers": "Non-cash charges $54.1 million; stock-based compensation 17,937; depreciation and amortization 16,912; change in fair value of term loan 13,515; inventory provision 11,800 (thousands)",
+   "quote": "offset by non-cash charges of $54.1 million",
+   "section": "MD&A - Cash used in operating activities; cash flow statement"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A Q2 2024 $18.4 million inventory-related charge from the contract manufacturing transition was partly non-cash ($10.3 million reserve) and partly purchase commitment losses ($8.1 million).",
+   "numbers": "$18.4 million total; $10.3 million non-cash; $8.1 million purchase commitment losses",
+   "quote": "This charge included a $10.3 million non-cash reserve for obsolete or excess component inventory and a $8.1 million charge for losses on non-cancellable purchase commitments.",
+   "section": "Note 2 - Inventory"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company carries a costly Carlyle senior secured term loan (SOFR plus 9.00%, 2.5% PIK) maturing July 24, 2026, secured by a first lien on substantially all assets.",
+   "numbers": "Original $200.0 million; unpaid principal $178,308, fair value $186,713 (thousands); SOFR + 9.00% spread; 2.5% PIK",
+   "quote": "The Term Loan matures on July 24, 2026.",
+   "section": "Note 9, Debt; Note 6 fair value table"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Any repayment, prepayment or acceleration requires a minimum guaranteed return of 1.4x to 1.7x of principal, making refinancing expensive.",
+   "numbers": "1.4x to 1.7x minimum guaranteed return; core assets covenant $200.0 million",
+   "quote": "the applicable minimum guaranteed return ranges between 1.4x and 1.7x of the principal and the consolidated core assets financial covenant is reduced to $200.0 million.",
+   "section": "Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company was in compliance with its term loan covenants, including the monthly $200.0 million consolidated core assets test (cash, receivables, inventory).",
+   "numbers": "Covenant minimum $200.0 million; cash $99,447, AR $101,326, inventory $149,156 (thousands)",
+   "quote": "As of September 28, 2024, the Company was in compliance with the covenants under the Term Loan.",
+   "section": "Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "The company drew $40.0 million of restricted cash for inventory purchases (requiring certification of $275.0 million pro forma core assets and no default), which must be repaid within five months.",
+   "numbers": "$40.0 million drawdown; $275.0 million pro forma core assets certification; repay within five months",
+   "quote": "The cash will be used for the purchase of inventory and is required to be repaid within five months in accordance with the terms of the loan agreement.",
+   "section": "Note 2 - Liquidity; Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Quarterly cash interest on the term loan is large; $3.9 million was accrued and unpaid at quarter end, with no missed payment disclosed.",
+   "numbers": "Interest expense $5.4 million (Q3) and $16.2 million (nine months); $3.9 million unpaid accrued",
+   "quote": "$3.9 million of which is unpaid and included in accrued expenses on the consolidated balance sheet as of September 28, 2024.",
+   "section": "Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "There is no revolving credit facility; only cash-collateralized letters of credit and an unused Mizuho import tax guarantee line.",
+   "numbers": "Letters of credit $0.4 million; Mizuho line up to 250.0 million Japanese Yen, no balance",
+   "quote": "As of September 28, 2024, we had no outstanding balance under the guarantee line of credit.",
+   "section": "MD&A - Lines of Credit"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised equity through its $100.0 million ATM program and has capacity remaining.",
+   "numbers": "Net proceeds $1.4 million (Q3) and $19.4 million (nine months); $79.6 million remaining",
+   "quote": "As of September 28, 2024, $79.6 million remained available for further sale under the ATM Agreement.",
+   "section": "MD&A - ATM Equity Offering"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The Amazon merger was terminated; the $94.0 million termination fee paid $18.8 million of professional fees, $35.0 million of term loan repayment and $40.0 million into restricted cash.",
+   "numbers": "$94.0 million fee; $18.8 million fees; $35.0 million repayment; $40.0 million restricted; principal reduced to $176.1 million",
+   "quote": "The $35.0 million repayment was applied to the principal, interest and the 1.4x minimum guaranteed return, reducing the principal balance of the loan to $176.1 million.",
+   "section": "Note 1; Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "Operational restructuring cut operating expenses sharply and in November 2024 a further 105 jobs were cut, bringing the 2024 workforce reduction to about 50%.",
+   "numbers": "Opex down $93.5 million or 26.7% (excluding one-time benefits); R&D down 34.2%; S&M down 29.1%; restructuring charges $24.3 million (nine months); 105 more employees",
+   "quote": "Since the start of 2024 and including this new action, the Company has reduced its global workforce by approximately 50%.",
+   "section": "Note 2 - Liquidity; Note 4, Restructuring"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Inventory management improved, with days in inventory falling from 161 to 104.",
+   "numbers": "161 days vs 104 days; inventory $149,156 (thousands)",
+   "quote": "Days in inventory has improved from 161 days during the third quarter of fiscal 2023 to 104 days in the third quarter of fiscal 2024.",
+   "section": "Note 2 - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue is concentrated, with one retailer providing over a quarter of total revenue.",
+   "numbers": "27.1% vs 26.8%",
+   "quote": "the Company generated 27.1% and 26.8%, respectively, of total revenue from one of its retailers.",
+   "section": "Notes - concentration of revenue"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Stockholders' equity fell to $150.2 million with an accumulated deficit of $173.7 million, versus $196.5 million equity at December 30, 2023.",
+   "numbers": "Equity $150,162 vs $196,487; accumulated deficit $(173,705) (thousands)",
+   "quote": "Balance at September 28, 2024 30,559 $ 306 $ 326,394 $ (173,705) $ (2,833) $ 150,162",
+   "section": "Statement of stockholders' equity"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Outstanding purchase orders total $104.6 million, of which $22.7 million of inventory orders cannot be cancelled without penalty.",
+   "numbers": "$104.6 million; $41.2 million inventory; $22.7 million non-cancellable",
+   "quote": "Included in these outstanding purchase orders is $41.2 million related to inventory purchases at our contract manufacturers, of which $22.7 million are not cancellable without penalty.",
+   "section": "MD&A - Contractual Obligations"
+  },
+  {
+   "filing": "10-Q filed 2024-11-06",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The CEO changed in 2024: Colin Angle stepped down in January and Gary S. Cohen was appointed CEO in May.",
+   "numbers": "",
+   "quote": "On May 6, 2024, the Company appointed Gary S. Cohen as the Company's Chief Executive Officer.",
+   "section": "Note 4, Restructuring and Other Charges"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "going_concern",
+   "direction": "against",
+   "finding": "The filing has no substantial doubt language; management concluded its actions will be sufficient to maintain liquidity and operations for at least 12 months.",
+   "numbers": "",
+   "quote": "While management estimates such actions will be sufficient to allow it to maintain liquidity and its operations in the ordinary course for at least 12 months from the issuance of these financial statements",
+   "section": "Note 2, Summary of Significant Accounting Policies - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management warns there is no assurance it will generate enough operating cash flow given inflation, high rates, recession and weak demand.",
+   "numbers": "",
+   "quote": "there can be no assurance the Company will generate sufficient future cash flows from operations",
+   "section": "Note 2 - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company says it may need additional equity or debt financing, which may not be available on favorable terms.",
+   "numbers": "",
+   "quote": "the Company may need additional financing, including public or private equity or debt financing, to execute on its current or future business strategy, and additional financing may not be available or on terms favorable to the Company.",
+   "section": "Note 2 - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Unrestricted cash fell to $108.5 million at June 29, 2024 from $185.1 million at December 30, 2023, with $41.9 million more restricted, mostly for term loan repayment.",
+   "numbers": "Cash and cash equivalents $108,513 vs $185,121 (thousands); restricted cash $41.9 million ($40.5 million for Term Loan, $1.3 million collateral); total incl. restricted $150,398",
+   "quote": "At June 29, 2024, the Company's cash and cash equivalents were $108.5 million.",
+   "section": "Note 2 - Liquidity; balance sheet"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Working capital dropped to $118.5 million from $178.3 million at fiscal 2023 year end.",
+   "numbers": "$118.5 million vs $178.3 million",
+   "quote": "Our working capital, which represents our total current assets less total current liabilities, was $118.5 million as of June 29, 2024, compared to $178.3 million as of December 30, 2023.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The six-month operating loss and cash outflow were flattered by the one-time $75.2 million net Amazon termination fee; non-GAAP operating loss was $88.2 million.",
+   "numbers": "Operating loss $(49,168); net loss $(62,039); operating cash outflow $(20,233); one-time benefit $75.2 million; non-GAAP operating loss $(88,153) (thousands)",
+   "quote": "The Company's operating loss of $49.2 million and operating cash outflows of $20.2 million for the six months ended June 29, 2024 benefited from the one-time receipt of the Parent Termination Fee",
+   "section": "Note 2 - Liquidity; non-GAAP reconciliation"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The second quarter was weak: revenue fell to $166.4 million, the operating loss was $61.1 million and net loss $70.6 million.",
+   "numbers": "Q2 revenue $166,361 vs $236,568; Q2 operating loss $(61,068); Q2 net loss $(70,646); Q2 non-GAAP operating loss $(48,203) (thousands)",
+   "quote": "Gross margin decreased to 16.5% in the three months ended June 29, 2024, compared to 22.6% in the three months ended July 1, 2023.",
+   "section": "Statements of operations; MD&A key metrics and Gross Profit"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue declined 20.3% in the first half on lower retailer orders, weaker consumer spending and aggressive competition.",
+   "numbers": "Six-month revenue $316.4 million vs $396.9 million; domestic down 24.5%; international down 15.9%",
+   "quote": "During the six months ended June 29, 2024, the Company's revenue declined 20.3%, compared to the six months ended July 1, 2023.",
+   "section": "Note 2 - Liquidity; MD&A Overview"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Six-month operating cash use was $20.2 million, helped by inventory reduction but hurt by a $63.9 million cut in accounts payable.",
+   "numbers": "Operating cash flow $(20,233); non-cash charges $35.3 million; accounts payable $(63,875); inventory 35,848 (thousands)",
+   "quote": "Net cash used in operating activities for the six months ended June 29, 2024 was $20.2 million",
+   "section": "MD&A - Cash used in operating activities; cash flow statement"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Part of the loss is non-cash: stock compensation, depreciation, inventory reserves and term loan fair value changes.",
+   "numbers": "Stock-based compensation 12,458; depreciation and amortization 11,116; inventory provision 11,715; change in fair value of term loan 4,746 (thousands); non-cash charges $35.3 million",
+   "quote": "Stock-Based Compensation: Stock-based compensation is a non-cash charge relating to stock-based awards.",
+   "section": "Cash flow statement; MD&A non-GAAP measures"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Q2 included an $18.4 million inventory-related charge from the contract manufacturing transition, of which $10.3 million was a non-cash reserve.",
+   "numbers": "$18.4 million total; $10.3 million non-cash; $8.1 million purchase commitment losses",
+   "quote": "This charge includes a $10.3 million non-cash reserve for obsolete or excess component inventory and a $8.1 million charge for losses on non-cancellable purchase commitments.",
+   "section": "Note 2 - Inventory"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company carries a costly Carlyle senior secured term loan (SOFR plus 9.00%, 2.5% PIK) maturing July 24, 2026.",
+   "numbers": "Original $200.0 million; unpaid principal $177,188, fair value $172,421 (thousands); SOFR + 9.00%; 2.5% PIK",
+   "quote": "The Term Loan matures on July 24, 2026.",
+   "section": "Note 9, Debt; fair value table"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The term loan is secured by a first priority lien on substantially all assets and requires a 1.4x to 1.7x minimum guaranteed return on repayment.",
+   "numbers": "1.4x to 1.7x minimum guaranteed return",
+   "quote": "the obligations under the Term Loan are secured by a first priority lien on substantially all tangible and intangible property of the Company and the guarantors",
+   "section": "Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company was in compliance with its term loan covenants, including the monthly $200.0 million consolidated core assets test.",
+   "numbers": "Covenant minimum $200.0 million; cash $108,513, AR $68,132, inventory $101,365 (thousands)",
+   "quote": "As of June 29, 2024, the Company was in compliance with the covenants under the Term Loan.",
+   "section": "Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "Using the $40.0 million restricted cash for inventory requires certifying $275.0 million pro forma core assets and no default.",
+   "numbers": "$40.0 million; $275.0 million",
+   "quote": "To access the $40.0 million of restricted cash for inventory purchases, the Company must certify to its lenders that the Company has pro forma consolidated core assets of $275.0 million",
+   "section": "Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Quarterly cash interest is large; $3.9 million was accrued and unpaid at quarter end, with no missed payment disclosed.",
+   "numbers": "Interest expense $5.4 million (Q2) and $10.9 million (six months); $3.9 million unpaid accrued",
+   "quote": "$3.9 million of which is unpaid and included in accrued expenses on the consolidated balance sheet as of June 29, 2024.",
+   "section": "Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The Amazon merger was terminated; the $94.0 million fee covered $18.8 million of professional fees, a $35.0 million term loan repayment and $40.0 million of restricted cash.",
+   "numbers": "$94.0 million; $18.8 million; $35.0 million; $40.0 million; principal reduced to $176.1 million",
+   "quote": "The $35.0 million repayment was applied to the principal, interest and the 1.4x minimum guaranteed return, reducing the principal balance of the loan to $176.1 million.",
+   "section": "Note 1; Note 9, Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised equity under its $100.0 million ATM program and still had capacity.",
+   "numbers": "Net proceeds $12.3 million (Q2) and $17.9 million (six months); $81.1 million remaining",
+   "quote": "As of June 29, 2024, $81.1 million remained available for further sale under the ATM Agreement.",
+   "section": "MD&A - ATM Equity Offering"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "There is no revolving credit facility; only cash-collateralized letters of credit and an unused Mizuho import tax guarantee line.",
+   "numbers": "Letters of credit $0.4 million; Mizuho line up to 250.0 million Japanese Yen, no balance",
+   "quote": "As of June 29, 2024, we had no outstanding balance under the guarantee line of credit.",
+   "section": "MD&A - Lines of Credit"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "An operational restructuring plan is cutting about 31% of the workforce and reducing operating expenses, at a cost of $22.4 million in restructuring charges in the first half.",
+   "numbers": "About 350 employees, 31%; opex down $55 million or 23% excluding the termination fee; restructuring charges $22.4 million (six months)",
+   "quote": "further reduce headcount by approximately 350 employees, which represents approximately 31% of the Company's global workforce as of December 30, 2023.",
+   "section": "Note 2 - Liquidity; Note 4, Restructuring"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Inventory was cut by $51.1 million since fiscal 2023 year end to $101.4 million.",
+   "numbers": "$101.4 million; reduction of $51.1 million",
+   "quote": "As of June 29, 2024, the inventory balance was $101.4 million, a reduction of $51.1 million from the end of fiscal 2023.",
+   "section": "Note 2 - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "The 25% Section 301 tariff on China-made Roombas was reinstated, but management expects an immaterial impact after moving supply chain out of China.",
+   "numbers": "25% tariff",
+   "quote": "We have relocated a meaningful portion of our supply chain to outside of China and therefore expect these tariffs to have an immaterial impact on our financial statements.",
+   "section": "MD&A Overview"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "One retailer accounted for a large share of revenue.",
+   "numbers": "23.6% vs 28.9%",
+   "quote": "the Company generated 23.6% and 28.9%, respectively, of total revenue from one of its retailers.",
+   "section": "Notes - concentration of revenue"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Stockholders' equity fell to $149.1 million with an accumulated deficit of $167.3 million after a $70.6 million Q2 net loss.",
+   "numbers": "Equity $149,076 vs $196,487; accumulated deficit $(167,334) (thousands)",
+   "quote": "Balance at June 29, 2024 30,077 $ 301 $ 319,673 $ (167,334) $ (3,564) $ 149,076",
+   "section": "Statement of stockholders' equity"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The CEO changed in 2024: Colin Angle stepped down and Gary S. Cohen was appointed in May; a separation agreement with Faris Habbaba was also filed.",
+   "numbers": "",
+   "quote": "On May 6, 2024, the Company appointed Gary S. Cohen as the Company's President and Chief Executive Officer.",
+   "section": "Note 4, Restructuring and Other Charges; Exhibits"
+  },
+  {
+   "filing": "10-Q filed 2024-08-07",
+   "topic": "other",
+   "direction": "against",
+   "finding": "Management concluded disclosure controls were effective, with no material change in internal control.",
+   "numbers": "",
+   "quote": "our disclosure controls and procedures as of the end of the period covered by this report were effective at a reasonable assurance level",
+   "section": "Item 4. Controls and Procedures"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "Q1 2024 net income of $8.6 million and operating income of $11.9 million came only from the one-time Amazon termination fee; without it the business lost money, and non-GAAP operating loss was $(39,951) thousand.",
+   "numbers": "Net income $8,607K vs $(81,112)K; operating income $11,900K; fee net of professional fees $75.2 million; non-GAAP operating loss $(39,951)K vs $(62,316)K; non-GAAP net loss $(43,039)K",
+   "quote": "benefited from the one-time receipt of the Parent Termination Fee net of professional fees paid of $75.2 million",
+   "section": "Note 2 Liquidity; MD&A non-GAAP reconciliation"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Q1 2024 operating cash flow was only $1.4 million even with the $75.2 million net termination fee, so the underlying operations used about $73.8 million (derived), driven by a $74.6 million cut in accounts payable.",
+   "numbers": "Operating cash flow $1,437K vs $(94,507)K prior year; accounts payable $(74,601)K; working capital outflow $17.0 million",
+   "quote": "Net cash provided by (used in) operating activities 1,437 (94,507)",
+   "section": "Consolidated statements of cash flows; MD&A cash provided by operating activities"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "At March 30, 2024 the company had $118.4 million of cash plus $41.8 million restricted cash, of which $40.0 million is reserved for term loan repayment; cash fell from $185.1 million at year end and working capital fell to $164.5 million.",
+   "numbers": "Cash $118,356K vs $185,121K; restricted cash $41.8 million ($40.0 million for Term Loan); working capital $164.5 million vs $178.3 million; foreign cash $12.4 million",
+   "quote": "The Company also had $41.8 million in restricted cash, $40.0 million of which is set aside for future repayment of the Term Loan",
+   "section": "Note 2 Liquidity; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "going_concern",
+   "direction": "against",
+   "finding": "Management assessed going concern and concluded its actions are sufficient to keep liquidity and operations for at least 12 months; no substantial doubt is disclosed.",
+   "numbers": "",
+   "quote": "While management estimates such actions will be sufficient to allow it to maintain liquidity and its operations in the ordinary course for at least 12 months from the issuance of these financial statements",
+   "section": "Note 2 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Management cautions there is no assurance of sufficient cash flows and that the company may need additional financing that may not be available on favorable terms.",
+   "numbers": "",
+   "quote": "the Company may need additional financing, including public or private equity or debt financing, to execute on its current or future business strategy, and additional financing may not be available or on terms favorable to the Company.",
+   "section": "Note 2 Liquidity; MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The $200.0 million Carlyle senior secured term loan (SOFR plus 9.00%, 2.5% PIK) matures July 24, 2026, with principal reduced to $176.1 million after a $35.0 million repayment; fair value $168,636K.",
+   "numbers": "Original $200.0 million; principal $176.1 million ($176,075K); fair value $168,636K; SOFR + 9.00% spread; 2.5% PIK; maturity July 24, 2026",
+   "quote": "The Term Loan matures on July 24, 2026.",
+   "section": "Note 9 Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Any repayment, prepayment or acceleration requires a minimum guaranteed return of 1.4x to 1.7x of principal, making refinancing or early payoff very expensive.",
+   "numbers": "Minimum guaranteed return 1.4x to 1.7x; core assets covenant $200.0 million",
+   "quote": "the applicable minimum guaranteed return ranges between 1.4x and 1.7x of the principal and the consolidated core assets financial covenant is reduced to $200.0 million.",
+   "section": "Note 9 Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company was in compliance with term loan covenants at March 30, 2024; cash, receivables and inventory total about $291.0 million (derived) against the $200.0 million monthly core assets minimum.",
+   "numbers": "Covenant minimum $200.0 million; cash $118,356K + AR $39,318K + inventory $133,318K = about $291.0 million (derived)",
+   "quote": "As of March 30, 2024, the Company was in compliance with the covenants under the Term Loan.",
+   "section": "Note 9 Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Access to the $40.0 million restricted cash for inventory requires certifying pro forma core assets of $275.0 million and no default, a threshold close to current core asset levels.",
+   "numbers": "$40.0 million restricted; $275.0 million core assets required",
+   "quote": "To access the $40.0 million of restricted cash for inventory purchases, the Company must certify to its lenders that the Company has pro forma consolidated core assets of $275.0 million",
+   "section": "Note 9 Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The term loan has customary events of default including financial covenant breach and cross-default, and is secured by a first priority lien on substantially all company assets.",
+   "numbers": "",
+   "quote": "secured by a first priority lien on substantially all tangible and intangible property of the Company and the guarantors",
+   "section": "Note 9 Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Quarterly cash interest expense was $5.5 million, of which $3.8 million was unpaid and accrued at quarter end.",
+   "numbers": "Cash interest $5.5 million; $3.8 million accrued; accrued interest $3,806K",
+   "quote": "the Company recorded $5.5 million of interest expense in other expense, net on the consolidated statement of operations related to the quarterly cash interest",
+   "section": "Note 9 Debt"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company opened a $100.0 million ATM equity program in February 2024, raised $5.6 million net in Q1, and had $93.7 million remaining available.",
+   "numbers": "ATM $100.0 million; 0.6 million shares sold; $5.6 million net proceeds; $93.7 million remaining",
+   "quote": "As of March 30, 2024, $93.7 million remained available for further sale under the ATM Agreement.",
+   "section": "MD&A ATM Equity Offering"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue declined 6.4% to $150.0 million on lower retailer and distributor orders, weaker consumer sentiment and price competition.",
+   "numbers": "Revenue $150,014K vs $160,292K; down 6.4%; domestic down 4.3%; international down 8.1%",
+   "quote": "During the three months ended March 30, 2024, the Company's revenue declined 6.4% compared to the three months ended April 1, 2023.",
+   "section": "Note 2 Liquidity; MD&A Overview"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "After the Amazon deal ended, the company launched an operational restructuring cutting about 350 jobs (31% of workforce) and recorded $14.1 million of restructuring and other charges, with $10.8 million of cash restructuring liabilities still to be paid within twelve months.",
+   "numbers": "350 employees; 31%; restructuring and other $14,146K; cash charges $14,495K; remaining liability $10,822K; total estimated severance cost about $15.0 million",
+   "quote": "further reduce headcount by approximately 350 employees, which represents approximately 31% of the Company's global workforce as of December 30, 2023.",
+   "section": "Note 2 Liquidity; Note 4 Restructuring and Other Charges"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Non-cash items in the quarter were modest: stock-based compensation $7.9 million, depreciation and amortization $5.8 million, and a $1.0 million gain from the change in fair value of the term loan.",
+   "numbers": "Stock-based compensation $7,948K; D&A $5,812K; change in fair value of term loan $(1,008)K; non-cash restructuring $(349)K",
+   "quote": "Stock-based compensation 7,948 7,932",
+   "section": "Consolidated statements of cash flows"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A goodwill and long-lived asset impairment test triggered by the merger termination found no impairment.",
+   "numbers": "",
+   "quote": "The Company concluded that the fair value exceeded the carrying value at the triggering event date, which resulted in no impairment to goodwill.",
+   "section": "Note 2 Impairment of Goodwill and Long-Lived Assets"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The company carries a full valuation allowance on U.S. and certain foreign deferred tax assets, reflecting doubt it will earn enough taxable income to use them.",
+   "numbers": "Effective tax rate 1.2%",
+   "quote": "primarily due to the recording of a full valuation allowance against our U.S. and certain foreign deferred tax assets.",
+   "section": "MD&A Income tax"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Inventory, a major cash drain, was cut by $19.2 million to $133.3 million (107 days).",
+   "numbers": "Inventory $133.3 million; 107 days; reduction $19.2 million",
+   "quote": "Inventory has consumed a significant amount of cash",
+   "section": "Note 2 Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Customer concentration rose: one retailer accounted for 20.2% of revenue versus 12.0% a year earlier.",
+   "numbers": "20.2% vs 12.0%",
+   "quote": "the Company generated 20.2% and 12.0%, respectively, of total revenue from one of its retailers.",
+   "section": "Notes, concentration of revenue"
+  },
+  {
+   "filing": "10-Q filed 2024-05-08",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The CEO and chairman Colin Angle stepped down with the merger termination and an interim CEO was appointed while a permanent CEO search was conducted.",
+   "numbers": "",
+   "quote": "Colin Angle, the Company's then-Chief Executive Officer, stepped down as an officer of the Company and from his position as chairman of the Board effective January 28, 2024.",
+   "section": "Note 4 Restructuring and Other Charges"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Lenders waived the covenant requiring a fiscal 2024 audit opinion without a going concern exception, which indicates the 10-K audit report carries a going concern exception.",
+   "numbers": "",
+   "quote": "provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company\u2019s ability to continue as a going concern",
+   "section": "8-K filed 2025-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "On March 11, 2025 the company signed Amendment No. 1 to its Carlyle credit agreement, under which lenders granted only a short waiver, until May 6, 2025, of the going concern opinion covenant and the minimum core assets covenant.",
+   "numbers": "Waiver period to May 6, 2025 (about 8 weeks)",
+   "quote": "the Lenders waived, until May 6, 2025 (the \u201cAmendment Period\u201d), the Company\u2019s covenant obligations",
+   "section": "8-K filed 2025-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The waiver covers the financial covenant to maintain a minimum level of core assets, implying the company could not meet or was at risk of not meeting it.",
+   "numbers": "",
+   "quote": "(2) maintain a minimum level of core assets",
+   "section": "8-K filed 2025-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "As part of the amendment the company had to return to the lenders' controlled account the $40.0 million it had withdrawn in Q3 2024 for inventory, reducing usable cash.",
+   "numbers": "$40.0 million",
+   "quote": "the Company returned to a controlled account for the benefit of the Agent and the Lenders the $40.0 million that the Company elected to withdraw from such controlled account during the third quarter of 2024",
+   "section": "8-K filed 2025-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "A $4.0 million use fee was only deferred to the end of the waiver period, and the lenders now require more frequent supplemental financial reporting.",
+   "numbers": "$4.0 million use fee deferred to May 6, 2025",
+   "quote": "the Agent deferred payment of the related $4.0 million use fee until the end of the Amendment Period",
+   "section": "8-K filed 2025-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Amendment No. 1 also tightens lender monitoring by requiring more frequent supplemental financial reporting.",
+   "numbers": "",
+   "quote": "Amendment No. 1 also requires the Company to provide more frequent supplemental financial reporting to the Agent.",
+   "section": "8-K filed 2025-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The amendment fee of $3.6 million is paid in kind, increasing term loan principal, which implies outstanding principal of about $180 million (derived).",
+   "numbers": "$3.6 million fee; 2.0% of principal; implied principal about $180 million (derived)",
+   "quote": "$3.6 million (representing 2.0% of the aggregate principal amount of Term Loans outstanding), which will be paid in kind via an increase of the outstanding principal amount of the Term Loan",
+   "section": "8-K filed 2025-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company also issued lenders penny warrants for 6% of its common stock, a costly concession that signals weak bargaining position.",
+   "numbers": "1,840,503 shares; 6%; exercise price $0.01; expire March 11, 2035",
+   "quote": "warrants to purchase an aggregate of 1,840,503 shares of the Company\u2019s common stock (equal to six percent of the Company\u2019s outstanding common stock as of March 10, 2025), with an exercise price of $0.01 per share",
+   "section": "8-K filed 2025-03-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The board added a ninth director, Neal P. Goldman, at $40,000 per month, and placed him on a recently formed Strategic Process Transaction Committee, indicating a strategic review or transaction process is under way.",
+   "numbers": "Monthly fee $40,000 for minimum 12 months; RSU grant $200,000; board expanded from eight to nine",
+   "quote": "Mr. Goldman was also appointed to the recently-constituted Strategic Process Transaction Committee of the Board.",
+   "section": "8-K filed 2025-03-12, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The new President and COO, Jeff Engel, had been the company's Chief Restructuring Officer since September 2023 and has a turnaround background including AlixPartners.",
+   "numbers": "Base salary $600,000; hiring bonus $425,000",
+   "quote": "he previously served as iRobot\u2019s Chief Restructuring Officer from September 2023 until August 6, 2024.",
+   "section": "8-K filed 2024-08-07, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "Gary S. Cohen, an executive with turnaround experience, became President and CEO on May 6, 2024, replacing interim CEO Glen Weinstein.",
+   "numbers": "Base salary $700,000",
+   "quote": "Gary Cohen, age 63, has more than 25 years of executive leadership and turnaround experience.",
+   "section": "8-K filed 2024-05-07, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The CFO stepped down in November 2024 and was replaced by the principal accounting officer, while the head of HR also departed, adding to heavy executive turnover during 2024.",
+   "numbers": "Effective December 2, 2024",
+   "quote": "On November 4, 2024, Julie Zeiler stepped down as Executive Vice President and Chief Financial Officer of the Company, effective December 2, 2024.",
+   "section": "8-K filed 2024-11-06, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The Chief Research and Development Officer stepped down in June 2024 and a director resigned for personal reasons without disagreement.",
+   "numbers": "Severance $207,500",
+   "quote": "Mr. Ali\u2019s decision to resign from the Board was due to personal reasons and did not result from any disagreement with the Company",
+   "section": "8-K filed 2024-06-05 and 8-K filed 2024-06-13, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "Founder Colin Angle stepped down as CEO and chairman on January 28, 2024, when the Amazon merger was terminated.",
+   "numbers": "",
+   "quote": "On January 28, 2024, Colin Angle stepped down as Chief Executive Officer and chairman of the Board of Directors of the Company (\u201cBoard\u201d).",
+   "section": "8-K filed 2024-01-29, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Amazon's termination of the merger brought a one-time $94.0 million cash payment, which is the company's sole remedy for the failed deal.",
+   "numbers": "$94,000,000",
+   "quote": "Amazon will make a cash payment to the Company in the previously agreed amount of ninety-four million dollars ($94,000,000) (the \u201cParent Termination Fee\u201d) within two (2) business days following the date thereof.",
+   "section": "8-K filed 2024-01-29, Item 1.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The fee triggered a mandatory $35.0 million term loan repayment with the remaining about $40.0 million set aside for lenders, and any repayment requires a minimum guaranteed return of 1.40x to 1.75x of principal.",
+   "numbers": "$35,000,000 repayment; about $40,000,000 set aside; 1.40x to 1.75x minimum return",
+   "quote": "the Company shall apply thirty-five million dollars ($35,000,000) of the Parent Termination Fee immediately to repay the term loans borrowed under the Credit Agreement",
+   "section": "8-K filed 2024-01-29, Item 2.04"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The company announced an operational restructuring cutting about 350 jobs, 31% of its workforce, with expected charges of about $12 million to $13 million.",
+   "numbers": "350 employees; 31%; $12 million to $13 million charges",
+   "quote": "an overall reduction of approximately 350 employees, which represents 31% of the Company\u2019s global workforce as of December 30, 2023.",
+   "section": "8-K filed 2024-01-29, Item 2.05"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "against",
+   "finding": "No late-filing (NT) notice appears among the passages; the 10-K is being filed on 2025-03-12, the same day as the credit agreement amendment.",
+   "numbers": "",
+   "quote": "",
+   "section": "All 8-Ks and late-filing notices provided"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score of 0.648 comes from a $145.5 million net loss (-28.2% of assets), a $103.0 million operating loss, liabilities at 88% of assets against a peer median of 50%, and a current ratio of 1.32 against a peer median of 2.19. The text makes things look worse than these numbers do. The 2024 loss and cash burn were made smaller by about $88.7 million of one-time gains. The auditor's going concern paragraph would by itself put the company in breach of its Carlyle term loan, and that breach is waived only until May 6, 2025. Further waivers are at the lenders' sole discretion, and the company names a Chapter 11 filing as one possible outcome. This is real distress, not an artefact, and the risk is well above the band's 4% rate.",
+  "verdict": "real risk",
+  "own_risk": "high",
+  "own_risk_pct": 30,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "The going concern opinion itself breaches the Going Concern Covenant of the senior secured term loan. The company would already be in default but for a waiver that runs only to May 6, 2025.",
+   "Until the next 10-K (about March 2026), the company cannot regain compliance and depends on waivers granted at the lenders' sole discretion.",
+   "Accelerated or prepaid debt (about $180 million principal) carries a 1.4x to 1.7x minimum guaranteed return. That implies roughly $250 million to $300 million owed (derived), against $134.3 million of cash. The loan also matures July 24, 2026.",
+   "To get the short waiver, the company paid costly concessions: it put the $40.0 million back into the lender-controlled account, paid a $3.6 million PIK fee, deferred a $4.0 million use fee, and gave lenders penny warrants for 6% of the stock. This points to a weak bargaining position and less usable cash.",
+   "Management says outright that it may have to cease operations or file a case under the U.S. Bankruptcy Code. It has also started a formal strategic review covering a sale and refinancing.",
+   "Without the one-time $75.2 million Amazon fee, operating cash burn would have been about $108 million in 2024 (derived). That is far faster than the 2.77 million a month in the computed figure."
+  ],
+  "reasons": [
+   {
+    "reason": "Large net loss. The model weights this input most.",
+    "kind": "model input",
+    "numbers": "Net income -$145.5M (-28.2% of assets) vs -$304.7M the year before; cash-adjusted net income -$99.4M; non-cash charges are 32% of the loss",
+    "peer_comparison": "30th percentile of 258 peers",
+    "quote": "",
+    "source": "10-K, 2025-03-12, financial statements"
+   },
+   {
+    "reason": "Leverage is high and liquidity is thin compared with peers. Equity has shrunk to about $61 million (derived: $516.1M assets minus $454.9M liabilities), down from $196.5M at the end of 2023.",
+    "kind": "model input",
+    "numbers": "Liabilities/assets 0.88; current ratio 1.32; total assets $516.1M vs $733.7M",
+    "peer_comparison": "Peer median liabilities/assets 0.50 (this report is at the 83rd percentile); peer median current ratio 2.19",
+    "quote": "",
+    "source": "10-K, 2025-03-12, balance sheet"
+   },
+   {
+    "reason": "Operating loss and negative operating cash flow continued on a smaller revenue base.",
+    "kind": "model input",
+    "numbers": "Operating income -$103.0M (-19.9% of assets); operating cash flow -$33.2M; revenue $681.8M vs $890.6M",
+    "peer_comparison": "Operating income at the 36th percentile; operating cash flow at the 37th percentile",
+    "quote": "Our total revenue for fiscal 2024 was $681.8 million, declining 23.4% from revenue of $890.6 million in fiscal 2023.",
+    "source": "10-K, 2025-03-12, Item 1. Business - 2024 Financial Performance"
+   },
+   {
+    "reason": "The auditor expresses substantial doubt about the company's ability to continue as a going concern.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "The report also states that we have a history of operating losses and negative cash flows from operations that raise substantial doubt about our ability to continue as a going concern.",
+    "source": "10-K, 2025-03-12, Item 1A. Risk Factors - going concern risk factor"
+   },
+   {
+    "reason": "The going concern opinion breaches the term loan covenant, so the company is out of default only because of Amendment No. 1.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "we would be in breach of the Going Concern Covenant and the Agent would be able to exercise all applicable remedies under the Credit Agreement but for Amendment No. 1 described above",
+    "source": "10-K, 2025-03-12, Item 1A. Risk Factors - time-limited waiver risk factor"
+   },
+   {
+    "reason": "The waiver is short. It covers both the going concern covenant and the minimum core assets covenant, and it ends May 6, 2025.",
+    "kind": "from the filings",
+    "numbers": "Waiver until May 6, 2025 (about 8 weeks after filing)",
+    "peer_comparison": "",
+    "quote": "Pursuant to Amendment No. 1, the Lenders waived, until May 6, 2025 (the \"Amendment Period\"), our covenant obligations to (1) provide a report and opinion of our auditor",
+    "source": "10-K, 2025-03-12, Item 1. Business - Recent Developments"
+   },
+   {
+    "reason": "The company relies on waivers at the lenders' sole discretion until its next 10-K, about March 2026.",
+    "kind": "from the filings",
+    "numbers": "Next 10-K expected March 2026",
+    "peer_comparison": "",
+    "quote": "As a result, we are dependent on continued waivers from the Lenders to avoid an event of default related to the Going Concern Covenant, which waivers are in the Lenders' sole discretion.",
+    "source": "10-K, 2025-03-12, Item 1A. Risk Factors - time-limited waiver risk factor"
+   },
+   {
+    "reason": "The company itself names bankruptcy as a possible outcome if the debt is accelerated.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "we may be forced to terminate, significantly curtail or cease our operations or to pursue other alternatives, including, but not limited to, commencing a case under the U.S. Bankruptcy Code.",
+    "source": "10-K, 2025-03-12, Item 1A. Risk Factors"
+   },
+   {
+    "reason": "The secured debt is expensive to repay or refinance. Any repayment or acceleration carries a minimum guaranteed return, and the loan matures July 24, 2026. The amount owed on acceleration would far exceed cash on hand.",
+    "kind": "from the filings",
+    "numbers": "Principal about $180M (from the $3.6M fee being 2.0% of principal); 1.4x to 1.7x minimum return, so about $250M to $300M owed (derived); cash $134.3M; SOFR + 9.00% plus 2.5% PIK; maturity 2026-07-24",
+    "peer_comparison": "",
+    "quote": "the applicable minimum guaranteed return ranges between 1.4x and 1.7x of the principal and the consolidated core assets financial covenant is reduced to $200.0 million.",
+    "source": "10-Q, 2024-11-06, Note 9, Debt"
+   },
+   {
+    "reason": "The waiver was costly and reduced usable cash. The company had to return $40.0 million to the lender-controlled account, pay a PIK fee and issue penny warrants.",
+    "kind": "from the filings",
+    "numbers": "$40.0M returned to controlled account; $3.6M PIK fee; $4.0M use fee deferred; warrants for 1,840,503 shares (6%) at $0.01",
+    "peer_comparison": "",
+    "quote": "warrants to purchase an aggregate of 1,840,503 shares of our common stock (equal to six percent of our outstanding common stock as of March 10, 2025), with an exercise price of $0.01 per share",
+    "source": "10-K, 2025-03-12, Item 1. Business - Recent Developments"
+   },
+   {
+    "reason": "The reported loss and cash burn understate the underlying losses because one-time gains offset them. The 48.5 months of cash in the computed figure is therefore too optimistic.",
+    "kind": "from the filings",
+    "numbers": "$75.2M net Parent Termination Fee and $13.5M litigation settlement; operating cash flow -$33.2M, or about -$108M without the fee (derived), which gives about 15 months of cash instead of 48.5 (derived)",
+    "peer_comparison": "",
+    "quote": "which excludes the one-time benefits of $75.2 million related to the Parent Termination Fee and $13.5 million related to an intellectual property litigation settlement",
+    "source": "10-K, 2025-03-12, Item 1. Business - 2024 Financial Performance"
+   },
+   {
+    "reason": "Management expects operating losses to continue and warns that new financing may not be available.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "We have incurred substantial operating losses in past years, expect to continue to incur operating losses for the foreseeable future, and may not achieve a return to profitability in the future.",
+    "source": "10-K, 2025-03-12, Item 1A. Risk Factors"
+   },
+   {
+    "reason": "The board has started a formal strategic review, including a possible sale and a refinancing. A new director was added to a Strategic Process Transaction Committee.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "our board of directors has initiated a formal strategic review to evaluate a broad range of alternatives, including, but not limited to, exploring a potential sale or strategic transaction and refinancing our debt.",
+    "source": "10-K, 2025-03-12, Item 1. Business - Recent Developments"
+   },
+   {
+    "reason": "Operations are concentrated and face supply and tariff risk. One contract manufacturer has an agreement that expires soon, one retailer provides more than a quarter of revenue, and new tariffs apply to China.",
+    "kind": "from the filings",
+    "numbers": "Picea agreement expires 2025-08-17; one retailer 27.1% of revenue; additional 10% tariff from 2025-02-04",
+    "peer_comparison": "",
+    "quote": "Our agreement with Picea is scheduled to expire on August 17, 2025, but it can be extended if both parties agree in writing.",
+    "source": "10-K, 2025-03-12, Item 1A. Risk Factors - third parties"
+   },
+   {
+    "reason": "Most of senior management, including the CEO and CFO, turned over during 2024.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "Most of our senior management team have turned over during the course of fiscal 2024.",
+    "source": "10-K, 2025-03-12, Item 1A. Risk Factors - management risk factor"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "The losses are shrinking. The net loss halved to $145.5M from $304.7M, the operating loss fell to $103.0M from $264.1M, and Q4 operating cash burn was small: about $2.7M (derived from -$33.2M for the year minus -$30.5M for nine months).",
+    "quote": "",
+    "source": "10-K, 2025-03-12; 10-Q, 2024-11-06"
+   },
+   {
+    "point": "At filing, the company says it complies with the Minimum Core Assets Covenant, so the only covenant actually breached is the going concern opinion covenant.",
+    "quote": "As of the date of filing of this Annual Report on Form 10-K, we are in compliance with the Minimum Core Assets Covenant.",
+    "source": "10-K, 2025-03-12, Item 1. Business - Recent Developments"
+   },
+   {
+    "point": "Lenders chose to waive rather than accelerate, and they took warrants worth 6% of the equity. This suggests they want to stay involved through a sale or refinancing rather than force a filing.",
+    "quote": "",
+    "source": "8-K, 2025-03-12, Item 1.01"
+   },
+   {
+    "point": "Restructuring cut costs sharply. The workforce fell about 40% (about 50% including the November action) and operating expenses fell $126.4M, excluding one-time benefits.",
+    "quote": "During fiscal 2024, we initiated an overall workforce reduction of approximately 440 employees, which represented 40% of our global workforce as of December 30, 2023.",
+    "source": "10-K, 2025-03-12, Item 1. Business - 2024 Financial Performance"
+   },
+   {
+    "point": "Q3 2024 showed real improvement: operating income of $7.3M and gross margin of 32.2% vs 25.8%.",
+    "quote": "Gross margin improved to 32.2% during the third quarter of fiscal 2024, compared to 25.8% during the third quarter of 2023.",
+    "source": "10-Q, 2024-11-06, MD&A key metrics"
+   },
+   {
+    "point": "Cash of $134.3M and a current ratio above 1 mean there is no immediate cash crunch from operations alone. The term loan does not mature until July 2026, more than 365 days away.",
+    "quote": "The Term Loan matures on July 24, 2026.",
+    "source": "10-Q, 2024-11-06, Note 9, Debt"
+   },
+   {
+    "point": "A new product line launched on March 11, 2025 as the core of the turnaround plan. The company also had ATM capacity left ($79.6M at September 2024), though its value depends on the share price.",
+    "quote": "On March 11, 2025, we announced the launch of a suite of new floor cleaning robots featuring elevated, premium design, improved technology, advanced features and an upgraded Roomba Home app.",
+    "source": "10-K, 2025-03-12, Item 1. Business - 2024 Financial Performance"
+   },
+   {
+    "point": "No missed interest or principal payment and no late filing is disclosed.",
+    "quote": "",
+    "source": "10-Qs 2024; 8-K / NT passages"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2024-01-28",
+    "event": "Amazon merger terminated; founder Colin Angle steps down as CEO and chairman; restructuring cutting 31% of jobs announced"
+   },
+   {
+    "date": "2024-01-29",
+    "event": "Amazon pays the $94.0M termination fee: $35.0M repays the term loan, $40.0M goes to a restricted account, $18.8M pays professional fees"
+   },
+   {
+    "date": "2024-05-06",
+    "event": "Gary S. Cohen appointed President and CEO"
+   },
+   {
+    "date": "2024-09-28",
+    "event": "Q3: unrestricted cash $99.4M; $40.0M of restricted cash drawn for inventory; Q3 operating income $7.3M; covenants in compliance"
+   },
+   {
+    "date": "2024-11-04",
+    "event": "CFO Julie Zeiler steps down; a further 105 jobs cut in November"
+   },
+   {
+    "date": "2024-12-28",
+    "event": "Fiscal 2024 year end: revenue $681.8M (-23.4%), net loss $145.5M, cash $134.3M, liabilities 88% of assets"
+   },
+   {
+    "date": "2025-02-04",
+    "event": "Additional 10% U.S. tariff on Chinese imports takes effect"
+   },
+   {
+    "date": "2025-03-11",
+    "event": "Amendment No. 1: waiver of the going concern and core assets covenants until May 6, 2025; $40.0M returned to the controlled account; $3.6M PIK fee; 6% penny warrants; new robots launched"
+   },
+   {
+    "date": "2025-03-12",
+    "event": "10-K filed with a going concern paragraph; board starts a formal strategic review (sale, refinancing)"
+   }
+  ],
+  "dates_to_watch": [
+   "2025-05-06: covenant waiver ends; event of default unless extended, and the $4.0M use fee comes due",
+   "Q1 2025 10-Q (around May 2025): cash burn without one-time gains, core assets covenant level, and any mention of a further waiver",
+   "Outcome of the strategic review: sale, refinancing, or a lender-led restructuring",
+   "2025-08-17: Picea contract manufacturing agreement expires",
+   "Around March 2026: next 10-K, the earliest point the going concern covenant can be cured",
+   "2026-07-24: term loan maturity"
+  ],
+  "would_change_my_mind": [
+   "Lenders extend the waiver through the next 10-K, or permanently amend the going concern covenant",
+   "A signed sale of the company or a refinancing that repays the Carlyle loan, including its minimum guaranteed return",
+   "A sizeable equity raise or strategic investment that covers most of the loan",
+   "Quarterly results showing positive operating cash flow without one-time items after the new product launch",
+   "Toward higher risk: the waiver not being extended, a core assets covenant breach, a missed interest payment, or the hiring of bankruptcy advisors"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "How much of the $134.3M cash is actually free after $40.0M was returned to the lender-controlled account in March 2025",
+   "The exact year-end term loan principal and the current minimum guaranteed return multiple, which set the payoff amount on acceleration",
+   "Q4 2024 results excluding one-time items and Q1 2025 trading after the product launch",
+   "The lenders' intentions on further waivers and the state of any sale or refinancing talks",
+   "The current market value of the equity and how much ATM capacity remains usable"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

@@ -1,0 +1,83 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 30%",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "high, roughly 25%",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk high ~30% vs 4% band base rate; agrees with the flag but thinks the score understates the risk",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Almost no liquidity: $4.5M unrestricted cash, ~$12M/month Q2 burn, ~0.4 months of cash (~1.6 months with July advance), current ratio 0.17, management says resources not sufficient for 12 months",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Yorkville advances (~$46M at 30 Jun plus $15M in July) that cash cannot cover; monthly cash payments required if VWAP stays below the $2.30 floor, with the share price ($2.13 at 30 Jun) near the trigger",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Big loss with almost no revenue (-$231M annualized on $1.2M revenue, about -43% of assets); most of the loss is real cash, Q2 loss small only due to fair value gains",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going concern doubt since Q1 2022; auditor substantial doubt; management cannot conclude its plans are probable",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Funders keep paying in: new Yorkville advances in June and July, CEO vehicles bought $16.5M of Series C preferred",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Burn is falling (quarterly burn $67M to $36M) and Torrance staff cut/WARN notices announced 14 Aug",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "No default: Part II Item 3 says None, no NT filing, no advisors",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Nasdaq listing compliance regained in Mar 2024 after 1-for-23 reverse split",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Hard assets: ~$196M equity mostly the Oklahoma plant, could back a loan; company has survived with under $10M cash since mid-2023",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Peer percentiles differ materially (different peer sets, 128 vs 120): current assets 24th (GOLD) vs 2nd (CANDIDATE), current liabilities 53rd vs 68th, revenue 12th vs 6th, net income 10th vs 21st",
+  "Q2 fair value gains: GOLD cites a $48.3M gain on warrant and derivative fair values, CANDIDATE gives $22.0M on warrants plus $16.8M on derivatives ($38.8M) plus a separate $24.5M extinguishment gain offset by a $67.1M convertible debt loss"
+ ],
+ "extra_points_in_candidate": [
+  "$58.4M of unpaid capital-spending payables alone exceed total current assets of $33.4M",
+  "Tenth advance raised $62.0M gross but only $15.0M net after repayments and charges",
+  "New July 2024 PPA of up to $100M with a $1.00 floor and a 19.99% exchange cap vote",
+  "Event-of-default clause making all Pre-Paid Advances immediately due in cash at Yorkville's election",
+  "2023 debenture maturities on 2024-08-30, 2024-10-02 and 2024-11-26",
+  "One-off cash sources: $9.0M employee retention credit sale and a pending ~$61.1M Section 16(b) claim against DDG",
+  "Restricted current cash of $4.0M included in the runway estimate"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same verdict (real risk, high, 25% vs 30%, score understates risk) and covers GOLD's critical drivers: near-zero cash runway, Yorkville debt with a $2.30 floor cash-payment trigger, large mostly-cash losses and stark going concern language. It omits the no-default evidence and the hard-asset backing point, only partly covers the Nasdaq compliance and $2.13 share price proximity, and its peer percentiles and Q2 gain breakdown differ from GOLD's.",
+ "critical_recall": 0.8,
+ "all_recall": 0.75,
+ "candidate_check_problems": 1,
+ "gold_words": 1186,
+ "candidate_words": 1236
+}

@@ -1,0 +1,19 @@
+Q2 OCF -8007  months cash (Q2 burn) 6.6  months (H1 avg) 5.2
+after 3.4M severance, months at Q2 burn 5.4
+TL/TA 2.76  royalty liab total 47826  share of TL 0.816
+other liabilities 10812  /TA 0.51
+current ratio 1.65  cash/(CL ex royalty) 1.64  cash - CL ex royalty 6934
+equity -37406
+FY2021 net loss -45262  cash-flow non-cash items 2430  adjusted loss -42832  non-cash share 0.054
+FY2022 net loss -44369  cash-flow non-cash items 2977  adjusted loss -41392  non-cash share 0.067
+H1 2022 net loss -24422  cash-flow non-cash items 1371  adjusted loss -23051  non-cash share 0.056
+H1 2023 net loss -21001  cash-flow non-cash items 2016  adjusted loss -18985  non-cash share 0.096
+total_assets         now    21.23  yr-before    61.86  chg  -65.7%
+current_assets       now    19.91  yr-before    59.61  chg  -66.6%
+current_liabilities  now    12.06  yr-before    14.34  chg  -15.9%
+total_liabilities    now    58.64  yr-before    62.96  chg   -6.9%
+revenue              now     2.63  yr-before     2.68  chg   -1.8%
+net_income           now   -42.00  yr-before   -48.84  chg   14.0%
+operating_income     now   -43.25  yr-before   -48.85  chg   11.5%
+operating_cash_flow  now   -41.17  yr-before   -48.26  chg   14.7%
+peers n 567 share peers worse NI/TA 0.031746031746031744

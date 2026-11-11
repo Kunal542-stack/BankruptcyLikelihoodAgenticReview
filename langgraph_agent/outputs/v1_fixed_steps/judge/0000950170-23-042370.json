@@ -1,0 +1,83 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 45% within 12 months (vs 18% for the >0.7 band); agrees with the model",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "high, about 40% within 365 days (vs 18% for the >0.7 band); agrees with the model",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk high (~45%), above the 18% band rate, agrees with the model",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Cash nearly gone: $3.1M at Jun 2023 (from $15.4M Dec 2022, $0.6M Mar 2023) despite $22M raise; ~1.2 months at Q2 burn (0.6 at H1 average); current ratio 0.48 vs peer median 1.36; going-concern doubt in 10-Q",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Payment default already happened: $2.3M interest on convertible notes missed March 1, 2023; waived in exchange for promissory notes in lieu of cash interest; covenants tightened",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Large loss that is real cash: net loss -75% of assets vs peer median -6%; non-cash items net negative in H1 2023 (fair-value gains), so cash-basis loss is worse than reported",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Liabilities 2.4x assets, stockholders' deficit -$81.4M, and a shrinking business (Q2 revenue -37% year on year)",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Expensive stop-gap borrowing: merchant-cash-advance loan refinanced July 25, 2023 at 34% with $74K weekly repayments; $2M vendor payment plan",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Nasdaq listing pressure: bid-price notice Dec 2022 and market-value notice July 2023, compliance deadline January 8, 2024",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: $22M gross equity raise on April 6, 2023",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: patient noteholders, no cash coupon in Sep 2023, $65.5M convertibles mature Sep 1, 2026",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: burn falling from $22.2M in Q1 to $8.0M in Q2 (partly due to $7.3M client paydown), Adjusted EBITDA improving; but these buy weeks, not a year",
+   "importance": "supporting",
+   "candidate": "missing"
+  }
+ ],
+ "contradictions": [
+  "Candidate's 'Year before' balance-sheet figures (total assets $232.2M, current assets $0.4M, current liabilities $2.9M, total liabilities $10.9M) conflict with GOLD's prior-period figures from the FY2022 10-K (total assets $74.9M, current assets $35.2M, current liabilities $53.7M, total liabilities $148.0M); the candidate appears to have used pre-merger SPAC figures while calling them the filing's prior-year column",
+  "Candidate's peer percentiles differ materially from GOLD's for several inputs (current liabilities 83 vs 42nd, revenue 77 vs 34th), likely because of a different ratio basis, which gives a different picture of where the company ranks"
+ ],
+ "extra_points_in_candidate": [
+  "Default waiver also repriced warrants to $0.01",
+  "Supplemental Indenture lowered minimum liquidity amounts for each quarter of 2023 and Q1 2024",
+  "Cost cuts underway (reduced headcount, cut G&A)",
+  "Convertible notes carried below par ($59.1M fair value); inference that holders may prefer out-of-court equitization",
+  "De-SPAC saw about $173M redeemed",
+  "Original $3M merchant loan at 39% taken Feb 2023; vendor payable on $125K-a-month plan",
+  "Dates to watch: note conversion-rate resets 2023-08-27 and 2023-09-26, and the equity-issuance restriction ending around 2023-10-06"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE matches GOLD on the verdict (real risk, high, about 40% vs 45%, agreeing with the model) and covers all the critical drivers: near-zero cash runway with going-concern doubt, the missed $2.3M coupon, deep balance-sheet insolvency and expensive stop-gap borrowing, plus the main mitigants. It leaves out the Q1-to-Q2 burn decline and the point that the loss is worse on a cash basis, treats Nasdaq pressure only lightly, and its prior-year balance-sheet column conflicts with GOLD's FY2022 figures.",
+ "critical_recall": 0.75,
+ "all_recall": 0.75,
+ "candidate_check_problems": 0,
+ "gold_words": 1174,
+ "candidate_words": 1155
+}

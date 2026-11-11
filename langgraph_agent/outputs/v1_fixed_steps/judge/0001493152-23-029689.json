@@ -1,0 +1,84 @@
+{
+ "gold_verdict": "real risk; agrees with the flag but says the 0.536 score understates the distress",
+ "gold_own_risk": "very high, about 35% within 12 months (band base rate 4%)",
+ "candidate_verdict": "real risk; agrees with the model, distress probably worse than the score band suggests",
+ "candidate_own_risk": "very high, roughly 30% (band base rate 4%)",
+ "key_points": [
+  {
+   "point": "Verdict real risk, very high risk ~35%, agrees with the flag and says the score understates it",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Cash almost gone: $35,359 at 30 Jun 2023 (vs $1.28M at Dec 2022), burn ~$1.36M/month, cash covers ~0.03 months",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Debt in default: $1.48M SPAC notes unpaid and \u00a5100M (~$0.69M) of the CEO loan unpaid, together ~61x cash",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Creditors enforcing: Japanese bank account seized 10 Aug 2023 for unpaid health insurance premiums, which may trigger immediate acceleration of the CEO loan",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Huge loss for its size (net income/assets -5.8x, annualised loss $38.4M on $6.6M assets); bad but not unusual among small peers, so part of the mid-band score is just size",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Liabilities 2.71x assets, negative equity (-$11.4M), current ratio 0.47",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going concern doubt plus listing and governance stress: two Nasdaq notices, auditor dismissed, CEO/COO/directors left, two NT 10-Qs",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Cash-adjusted loss roughly doubled ($13.0M H1 2023 vs $6.7M H1 2022); non-cash items only ~29% of the loss",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: Lind third tranche ($1.5M) conditional on no event of default and an effective registration; $100M YA equity line of limited use at $0.298 share price and 4.99% cap",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Other mitigants and caveats: insiders paid $312k of bills, CEO lender negotiating, drone unit closed, Lind notes mature 2025; Part II Item 3 says 'Not applicable' contradicting the default notes",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Candidate's 'year before' balance-sheet values (total assets $117.0M, current assets $0.1M, current liabilities $0.5M, total liabilities $4.5M) come from the pre-merger SPAC row, which GOLD explicitly rejects; GOLD uses the company's own 31 Dec 2022 comparatives ($11.78M, $8.23M, $5.90M, $9.87M). The driver 'SPAC trust money did not arrive as assets' also differs from GOLD's impairment explanation.",
+  "Peer percentiles differ materially from GOLD: current assets 86 vs 13th, current liabilities 94 vs 19th, total liabilities 95 vs 18th, revenue 18 vs 6th, operating income 6 vs 27th, operating cash flow 3 vs 33rd (partly a reversed ranking convention, but several values disagree in meaning).",
+  "Candidate's cash-adjusted six-month loss is $13.8M vs GOLD's $13.0M, and candidate frames the non-cash share as evidence against rather than as showing the real loss doubled (minor)."
+ ],
+ "extra_points_in_candidate": [
+  "Lind note events of default detailed (cross-default on other debt over $100,000, market cap below $20M for 10 days, delisting) with the inference that existing defaults could trip the cross-default and block the third tranche",
+  "Amount seized ($28,075) and directors' bill payments split into $102,000 and $210,424",
+  "Accumulated deficit of $65,695,768 and impairment of all Japanese fixed assets",
+  "Half the related-party loan repaid by 22 May 2023",
+  "No material legal proceedings reported in the 10-K",
+  "$5M PIPE at the 3 Feb 2023 merger and COO resignation on 25 Jul 2023",
+  "Possible sale or strategic investor (Outsourcing Inc. investment) as a risk-lowering path"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 3,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same verdict and risk level as GOLD (real risk, very high, 30% vs 35%) and covers the critical filing evidence: near-zero cash, the SPAC-note and CEO-loan defaults, the bank account seizure and going-concern and listing stress. It misses GOLD's size nuance, the seizure-triggered CEO loan acceleration, the doubling of the real loss and the Item 3 inconsistency, and its year-before balance-sheet figures and peer percentiles conflict with GOLD's.",
+ "critical_recall": 0.75,
+ "all_recall": 0.8,
+ "candidate_check_problems": 0,
+ "gold_words": 1199,
+ "candidate_words": 1078
+}

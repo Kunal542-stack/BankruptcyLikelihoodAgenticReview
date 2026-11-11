@@ -1,0 +1,55 @@
+OK  through a bankruptcy proceeding or otherwise ['0001113148-23-000009']
+OK  We are not obligated to repay any of the proceeds received under the H ['0001113148-23-000009', '0001113148-22-000007']
+OK  We also believe that it is unlikely that we will be able secure any ad ['0001113148-23-000009']
+OK  MEI did not obtain MEI stockholder approval for the Merger ['0001113148-23-000009']
+OK  would likely conclude that it is in the best interest of stockholders  ['0001113148-23-000009']
+OK  These conditions raise substantial doubt about our ability to continue ['0001113148-23-000009']
+OK  has stated that substantial doubt exists about the Company’s ability t ['0001113148-23-000003']
+OK  will reduce our overall headcount by 21 positions, representing approx ['0001113148-23-000009']
+OK  each of Samuel Agresta, Sujay R. Kango and Brian Schwartz resigned fro ['0001140361-23-036062']
+OK  has determined to delist the Company’s common stock from The Nasdaq Gl ['0001140361-23-032462']
+OK  or otherwise ['0001113148-23-000009', '0001113148-22-000007']
+OK  we believe MEI is required to reimburse us in the amount of $1.0 milli ['0001113148-23-000009']
+OK  will be adequate to satisfy our current operating plans for at least t ['0001113148-22-000007', '0001113148-22-000022']
+OK  we do not expect that we would have the necessary time or financial re ['0001113148-23-000003', '0001113148-23-000006']
+OK  expires on October 2, 2023 ['0001140361-23-032462']
+quotes: 15 missing: 0
+NI/TA                        -1.98
+TL/TA                        2.76
+CR                           1.65
+peer median NI $M            -48
+peer median TL/TA            0.37
+pct peers worse NI/TA        3
+pct peers lower TL/TA        98
+royalty share TL             82
+TL ex royalty / TA           0.51
+months Q2 burn               6.6
+months H1                    5.2
+cash drop %                  78
+equity                       -37406
+pct total_assets             10
+pct current_assets           12
+pct current_liabilities      26
+pct total_liabilities        47
+pct revenue                  18
+pct net_income               52
+pct operating_income         55
+pct operating_cash_flow      52
+in filing: True Total liabilities | 58,638
+in filing: True Total assets | $ | 21,232
+in filing: True Net loss | $ | (9,956) | $ | (11,986) | $ | (21,001)
+in filing: True Cash and cash equivalents | $ | 17,746
+in filing: True Net cash used in operating activities | (20,583)
+in filing: True Total stockholders' deficit | (37,406)
+in filing: False Liabilities related to sale of future royalties, net, current portion | 1,252
+0001140361-22-020431 2022-05-24
+0001113148-22-000022 2022-11-14
+0001140361-23-008332 2023-02-23
+0001113148-23-000003 2023-03-28
+0001140361-23-032462 2023-06-30
+0001140361-23-035755 2023-07-24
+0001140361-23-036062 2023-07-25
+0001113148-23-000009 2023-08-10 (this report)
+all sources <= 2023-08-10: True
+local files exist for all links: True
+links: 32 word count: 1196

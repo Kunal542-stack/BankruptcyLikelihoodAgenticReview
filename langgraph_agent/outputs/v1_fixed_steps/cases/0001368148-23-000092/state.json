@@ -1,0 +1,1258 @@
+{
+ "adsh": "0001368148-23-000092",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001368148-23-000092",
+ "case": {
+  "adsh": "0001368148-23-000092",
+  "cik": 1368148,
+  "name": "ATHERSYS, INC / NEW",
+  "form": "10-Q",
+  "fp": "Q2",
+  "period_end": "20230630",
+  "filed": "20230816",
+  "sic": 2834,
+  "score": 0.582,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 10.5,
+    "year_before_musd": 35.2,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 17
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 3.7,
+    "year_before_musd": 21.4,
+    "share_of_assets_pct": 35.2,
+    "peer_percentile": 19
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 42.7,
+    "year_before_musd": 33.2,
+    "share_of_assets_pct": 407.5,
+    "peer_percentile": 95
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 47.9,
+    "year_before_musd": 46.9,
+    "share_of_assets_pct": 457.2,
+    "peer_percentile": 95
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 0.1,
+    "year_before_musd": 10.5,
+    "share_of_assets_pct": 0.9,
+    "peer_percentile": 15
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -41.5,
+    "year_before_musd": -91.7,
+    "share_of_assets_pct": -395.8,
+    "peer_percentile": 5
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -40.6,
+    "year_before_musd": -93.3,
+    "share_of_assets_pct": -387.9,
+    "peer_percentile": 5
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -21.1,
+    "year_before_musd": -73.2,
+    "share_of_assets_pct": -201.4,
+    "peer_percentile": 8
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 4.57,
+   "current_ratio": 0.09,
+   "peer_count": 958,
+   "peer_median_liabilities_to_assets": 0.45,
+   "peer_median_current_ratio": 3.51,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230403,
+    "total_assets": 27731000.0,
+    "current_assets": 13535000.0,
+    "current_liabilities": 38444000.0,
+    "total_liabilities": 51582000.0,
+    "revenue": 5325000.0,
+    "net_income": -72534000.0,
+    "operating_income": -77009000.0,
+    "operating_cash_flow": -58950000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230515,
+    "total_assets": 21632000.0,
+    "current_assets": 7836000.0,
+    "current_liabilities": 39683000.0,
+    "total_liabilities": 52644000.0,
+    "revenue": 0.0,
+    "net_income": -31244000.0,
+    "operating_income": -29336000.0,
+    "operating_cash_flow": -23864000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230816,
+    "total_assets": 10477000.0,
+    "current_assets": 3692000.0,
+    "current_liabilities": 42697000.0,
+    "total_liabilities": 47896000.0,
+    "revenue": 98000.0,
+    "net_income": -41470000.0,
+    "operating_income": -40644000.0,
+    "operating_cash_flow": -21102000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001368148-23-000092",
+   "form": "10-Q",
+   "date": "2023-08-16",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001368148-23-000025",
+   "form": "10-K",
+   "date": "2023-04-03",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001368148-23-000050",
+   "form": "10-Q",
+   "date": "2023-05-15",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001368148-23-000089",
+   "form": "NT 10-Q",
+   "date": "2023-08-15",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001368148-23-000087",
+   "form": "8-K",
+   "date": "2023-08-11",
+   "why": "8-K items 5.02,8.01"
+  },
+  {
+   "adsh": "0001368148-23-000075",
+   "form": "8-K",
+   "date": "2023-07-31",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001368148-23-000055",
+   "form": "8-K",
+   "date": "2023-05-23",
+   "why": "8-K items 1.01,2.03,3.02,9.01"
+  },
+  {
+   "adsh": "0001368148-23-000040",
+   "form": "8-K",
+   "date": "2023-04-18",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001368148-23-000038",
+   "form": "8-K",
+   "date": "2023-04-14",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001368148-23-000029",
+   "form": "NT 10-K",
+   "date": "2023-04-03",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001368148-23-000003",
+   "form": "8-K",
+   "date": "2023-01-05",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001368148-22-000162",
+   "form": "8-K",
+   "date": "2022-12-29",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001193125-22-282399",
+   "form": "8-K",
+   "date": "2022-11-10",
+   "why": "8-K items 1.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001368148-22-000148",
+   "form": "8-K",
+   "date": "2022-11-01",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001368148-22-000146",
+   "form": "8-K",
+   "date": "2022-10-20",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001368148-22-000141",
+   "form": "8-K",
+   "date": "2022-09-22",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001368148-22-000113",
+   "form": "8-K",
+   "date": "2022-08-17",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001368148-22-000102",
+   "form": "8-K",
+   "date": "2022-08-04",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001368148-22-000099",
+   "form": "8-K",
+   "date": "2022-08-02",
+   "why": "8-K items 5.02,5.07,9.01"
+  },
+  {
+   "adsh": "0001368148-22-000093",
+   "form": "8-K",
+   "date": "2022-07-08",
+   "why": "8-K items 1.02,5.02"
+  },
+  {
+   "adsh": "0001368148-22-000072",
+   "form": "8-K",
+   "date": "2022-06-21",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001368148-22-000060",
+   "form": "8-K",
+   "date": "2022-06-02",
+   "why": "8-K items 2.05,5.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001368148-22-000056",
+   "form": "8-K",
+   "date": "2022-05-12",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001368148-22-000039",
+   "form": "8-K",
+   "date": "2022-04-28",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001368148-22-000035",
+   "form": "8-K",
+   "date": "2022-03-24",
+   "why": "8-K items 3.01,8.01,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states that recurring net losses and negative operating cash flows raise substantial doubt about the company's ability to continue as a going concern within one year.",
+   "numbers": "",
+   "quote": "These factors, among others, raise substantial doubt about our ability to continue as a going concern within one year after the date that these financial statements are issued.",
+   "section": "Notes to financial statements, Note 2. Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The company says that without adequate financing it would likely file for bankruptcy protection and wind down, and it is unclear whether obligations could be paid.",
+   "numbers": "",
+   "quote": "If we are unable to obtain adequate financing, we likely would have to file for protection under the bankruptcy laws to continue to pursue potential transactions and conduct a wind down of our Company.",
+   "section": "Note 2. Going Concern; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management says its restructuring plan cannot be assessed as probable of alleviating the substantial doubt; continued operations depend on raising new capital.",
+   "numbers": "accumulated deficit $676.6 million at June 30, 2023",
+   "quote": "these plans are not entirely within our control and cannot be assessed as being probable of occurring.",
+   "section": "MD&A, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash at quarter end was only $1.8 million, the company's primary source of liquidity.",
+   "numbers": "cash and cash equivalents $1.8 million at June 30, 2023",
+   "quote": "At June 30, 2023, we had cash and cash equivalents of $1.8 million.",
+   "section": "Note 2. Going Concern; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "By August 9, 2023 cash had fallen to $0.8 million against $16.5 million of accounts payable, of which $8.7 million is deferred payables to the supplier.",
+   "numbers": "cash $0.8 million; accounts payable $16.5 million; $8.7 million deferred to supplier (as of August 9, 2023)",
+   "quote": "As of August 9, 2023, we had $0.8 million of cash and cash equivalents and accounts payable of $16.5 million, of which $8.7 million is related to deferred accounts payable to supplier.",
+   "section": "MD&A, Restructuring and Financial; Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash burn fell sharply but was still $10.6 million for six months, well above remaining cash; financing provided only $3.2 million.",
+   "numbers": "operating cash used $10.6 million (6M 2023) vs $36.6 million (6M 2022); financing provided $3.2 million vs $14.4 million",
+   "quote": "Net cash used in operating activities was $10.6 million for the six months ended June 30, 2023 compared to $36.6 million for the six months ended June 30, 2022.",
+   "section": "MD&A, Cash Flow Analysis"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "On May 17, 2023 the company entered a forbearance agreement with its supplier over existing overdue amounts, requiring $11.8 million of deferred payables to be paid at $0.25 million monthly starting October 2023.",
+   "numbers": "$11.8 million deferred accounts payable; $0.25 million monthly from October 2023; 48 months",
+   "quote": "the supplier agrees to forbear from exercising rights and remedies available as a result of existing overdue amounts under existing agreements",
+   "section": "Note 11. Forbearance Agreement and Convertible Note"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "As part of the forbearance, the company issued the supplier a $15.0 million unsecured convertible note at 10% PIK interest, maturing May 17, 2026, with default interest of 14%; its fair value was $15.8 million at June 30, 2023.",
+   "numbers": "principal $15.0 million; 10.0% interest (14% on default); maturity May 17, 2026; fair value $15.8 million; conversion price $1.30 (11,538,461 shares)",
+   "quote": "The Note bears interest at a rate of 10.0% per annum, which shall be capitalized and added to the principal amount semi-annually on January 1 and July 1, commencing on July 1, 2023",
+   "section": "Note 11. Forbearance Agreement and Convertible Note"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The supplier can accelerate the remaining deferred balance if any payment is over 60 days late, and the Note defines events of default including nonpayment and judgments above $3 million, permitting acceleration.",
+   "numbers": "60 days; judgments in excess of $3 million",
+   "quote": "If any cash payment remains unpaid for more than 60 days following the date such cash payment was due, the supplier has the right to declare the entire remaining balance due immediately and payable without further notice.",
+   "section": "Note 11. Forbearance Agreement and Convertible Note; Note 2. Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "The supplier restructuring of roughly $20.9 million past and current due plus $9.8 million future obligations (less $3.9 million credits) pushed cash payments out to October 2023 and later, and produced a $2.6 million gain on extinguishment.",
+   "numbers": "$20.9 million past/current due; $9.8 million future; $3.9 million credits; gain $2.6 million; new liabilities $7.9 million deferred AP and $15.0 million Note",
+   "quote": "The Company recorded a gain on extinguishment of $2.6 million as a result of the restructuring.",
+   "section": "Note 11. Forbearance Agreement and Convertible Note; MD&A"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The former landlord of the abandoned Stow, Ohio facility sued the company on June 9, 2023 for breach of lease, and the lease liability was reclassified entirely to current.",
+   "numbers": "",
+   "quote": "On June 9, 2023, the landlord, Seasons Business Center Four, LLC, brought suit against the Company in the Summit County, Ohio Court of Common Pleas",
+   "section": "Note 5 (property and equipment / lease impairment); MD&A"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large part of the period's loss is non-cash: a $7.5 million right-of-use asset impairment, warrant and note fair value losses, and stock compensation, partly offset by a $2.6 million non-cash extinguishment gain.",
+   "numbers": "6M 2023: impairment 7,545; stock-based compensation 1,275; depreciation 95; warrant fair value change 2,151; note fair value change 640; PIK 185; gain on extinguishment (2,612) (in thousands); Q2 net loss (12,924)",
+   "quote": "the Company recorded an impairment charge related to the right-of-use asset of $7.5 million.",
+   "section": "Statement of cash flows; Note 5; MD&A Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Stockholders' deficit widened to $37.4 million at June 30, 2023 from $23.9 million at December 31, 2022.",
+   "numbers": "total stockholders' deficit (37,419) at June 30, 2023 vs (23,851) at December 31, 2022 (in thousands)",
+   "quote": "Balance at June 30, 2023 \u2014 \u2014 21,833,847 21 639,173 (676,613) (37,419)",
+   "section": "Statement of stockholders' equity"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised a small amount of new equity in April 2023 and repriced earlier warrants to $0.96, but proceeds were modest.",
+   "numbers": "net proceeds approximately $3.4 million (April 19, 2023); 2,315,000 shares; warrants repriced to $0.96",
+   "quote": "The offering closed on April 19, 2023, and the Company received net proceeds of approximately $3.4 million, after giving effect to the payment of placement fees and expenses.",
+   "section": "MD&A, Financial"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Having failed to regain Nasdaq market value compliance, the company obtained a Panel exception only through September 15, 2023.",
+   "numbers": "$35 million market value requirement; deadline September 15, 2023",
+   "quote": "the Panel notified us that it had granted our request for an exception through September 15, 2023, to the continued listing requirements, subject to our demonstrating compliance with the Market Value Standard by September 15, 2023.",
+   "section": "Note 14. Subsequent Events, Nasdaq Notices"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "On July 28, 2023 the company also received a Nasdaq notice for failing the $1.00 minimum bid price, with a cure period until January 24, 2024.",
+   "numbers": "$1.00 bid price; 30 consecutive business days; deadline January 24, 2024",
+   "quote": "the Company has a period of 180 calendar days from the date of the July 2023 Notice, or until January 24, 2024, to regain compliance with the Bid Price Requirement.",
+   "section": "Note 14. Subsequent Events, Minimum Closing Bid Price Compliance"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Named executive officers, including severance owed to former executives, have agreed to defer compensation to preserve liquidity.",
+   "numbers": "approximately $0.3 million deferred as of July 31, 2023",
+   "quote": "To preserve liquidity in the Company, named executive officers, including severance to former executives, have agreed to defer compensation.",
+   "section": "MD&A, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue nearly disappeared as Healios services wound down.",
+   "numbers": "Q2 2023 revenue $48.8 thousand vs $2.3 million; 6M 2023 $49.1 thousand vs $5.2 million",
+   "quote": "Revenues for the three months ended June 30, 2023 were $48.8 thousand compared to $2.3 million for the three months ended June 30, 2022.",
+   "section": "MD&A, Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Nonpayment to the primary contract manufacturer has delayed clinical product supply and may affect trial timing and cost.",
+   "numbers": "",
+   "quote": "continued delays in product supply caused by nonpayment to our primary contract manufacturer for our clinical trials may impact the timing and cost of such studies.",
+   "section": "MD&A, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "The 2022 restructuring (about 70% workforce cut) has materially reduced operating expenses.",
+   "numbers": "Q2 R&D $10.6 million vs $20.8 million (incl. $7.5 million impairment); Q2 G&A $2.3 million vs $5.2 million",
+   "quote": "General and administrative expenses decreased to $2.3 million for the three months ended June 30, 2023, from $5.2 million for the comparable period in 2022.",
+   "section": "MD&A, Results of Operations; Note 12. Restructuring Charges"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Healios, the company's key collaborator, alleges the company is in material breach of the Framework Agreement, and the dispute may lead to legal proceedings.",
+   "numbers": "",
+   "quote": "Healios has alleged that we are in material breach of our Framework Agreement for, among other things, not meeting our supply obligations and cooperation and assistance obligations.",
+   "section": "MD&A, Financial"
+  },
+  {
+   "filing": "10-Q filed 2023-08-16",
+   "topic": "other",
+   "direction": "against",
+   "finding": "On August 9, 2023 the company signed an MOU with Healios for consultation services on Healios possibly joining MASTERS-2, with a small deposit and possible further compensation.",
+   "numbers": "$150,000 deposit",
+   "quote": "Pursuant to the MOU, Healios has deposited $150,000 with the Company to be applied to the charges incurred for these consultation services.",
+   "section": "Note 14. Subsequent Events, Healios Update"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The independent auditor's opinion on the 2022 financial statements states that recurring losses and negative operating cash flows raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "include disclosures and an opinion from our independent registered public accounting firm stating that our recurring losses and negative cash flows from operations raise substantial doubt about our ability to continue as a going concern.",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states that without adequate financing the company would likely file for bankruptcy protection and wind down.",
+   "numbers": "",
+   "quote": "If we are unable to obtain adequate financing, we likely would have to file for protection under the bankruptcy laws to continue to pursue potential transactions and conduct a wind down of our Company.",
+   "section": "MD&A, Restructuring and Financial; Liquidity and Capital Resources; Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management says the restructuring plan cannot be assessed as probable of alleviating the substantial doubt.",
+   "numbers": "accumulated deficit $655.9 million at December 31, 2022",
+   "quote": "these plans are not entirely within our control and cannot be assessed as being probable of occurring.",
+   "section": "MD&A, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "By March 28, 2023, cash of $4.1 million was far below $27.7 million of accounts payable that was currently due, about 80% owed to the primary contract manufacturer.",
+   "numbers": "cash $9.0 million at December 31, 2022; cash $4.1 million and accounts payable $27.7 million at March 28, 2023; ~80% owed to primary CMO",
+   "quote": "As of March 28, 2023, we had accounts payable of $27.7 million that is currently due and we only had cash and cash equivalents of $4.1 million.",
+   "section": "Item 1A. Risk Factors; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company has been delaying payments to most suppliers, including its primary contract manufacturer, to conserve cash.",
+   "numbers": "",
+   "quote": "To conserve cash, we have been delaying payments to most of our suppliers and service providers, including our primary contract manufacturer.",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company suspended its manufacturing agreements in June 2022 and owes the contract manufacturer about $21.7 million, with further significant financial commitments.",
+   "numbers": "approximately $21.7 million owed to CMO",
+   "quote": "Under the terms of these agreements, we currently owe this contract manufacturing organization approximately $21.7 million and have significant future financial commitments to support our bioreactor manufacturing initiatives.",
+   "section": "MD&A, Current Programs"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The company is negotiating with its primary contract manufacturer and may issue a convertible note for a substantial reduction in payables, with no assurance of agreement.",
+   "numbers": "",
+   "quote": "The terms of any such agreement may entail our issuance of a convertible promissory note in exchange for a substantial reduction in the outstanding accounts payable",
+   "section": "MD&A, Restructuring and Financial"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Unpaid liabilities to the contract manufacturer block supply of clinical product needed to finish trial enrollment.",
+   "numbers": "",
+   "quote": "We will need to resolve our outstanding liabilities with our primary contract manufacturing organization to receive sufficient clinical product to complete enrollment in this study.",
+   "section": "Item 1. Business; MD&A Current Programs"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company has a long history of large losses and an accumulated deficit of $655.9 million.",
+   "numbers": "net loss $72.5 million (2022), $87.0 million (2021), $78.8 million (2020); accumulated deficit $655.9 million",
+   "quote": "We incurred net losses of $72.5 million in 2022, $87.0 million in 2021 and $78.8 million in 2020.",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Annual operating cash burn of $59.0 million in 2022 far exceeds year-end cash of $9.0 million.",
+   "numbers": "net cash used in operations $59.0 million (2022), $76.2 million (2021), $61.8 million (2020)",
+   "quote": "Net cash used in our operations was $59.0 million in 2022, $76.2 million in 2021 and $61.8 million in 2020.",
+   "section": "Item 1A. Risk Factors; MD&A Cash Flow Analysis"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "The June 2022 restructuring cut monthly expenses from about $7 million to $3 million and reduced the workforce by 70%.",
+   "numbers": "~$7 million to $3 million per month; 70% workforce reduction; 24 full-time employees at December 31, 2022",
+   "quote": "resulting in reduced expenses from approximately $7 million a month down to $3 million a month and decreasing, including reducing our workforce by 70%",
+   "section": "Item 1. Business"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Part of the 2022 loss came from restructuring charges and a non-cash impairment of property and equipment, plus depreciation.",
+   "numbers": "restructuring charges $2.8 million; impairment $6.2 million; depreciation $1.4 million",
+   "quote": "In addition to the restructuring charges, we also recorded a $6.2 million impairment of certain property and equipment.",
+   "section": "MD&A, Restructuring and Financial; Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Aspire Capital terminated the $100.0 million 2022 equity facility on July 6, 2022 after executive departures triggered its termination right.",
+   "numbers": "$100.0 million facility terminated",
+   "quote": "On July 6, 2022, Aspire Capital terminated the 2022 Equity Facility.",
+   "section": "MD&A, Financial"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company still raised equity in 2022, including an August registered direct offering and a November public offering, though at falling prices.",
+   "numbers": "financing cash $30.8 million (2022); August 2022 net ~$11.0 million; November 2022 net ~$5.0 million at $1.10 combined price",
+   "quote": "Financing activities provided net cash of $30.8 million in 2022, $63.4 million in 2021, and $79.5 million in 2020.",
+   "section": "MD&A, Cash Flow Analysis; Financial"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company is out of compliance with Nasdaq's $35 million market value requirement, with a deadline of April 12, 2023, and could be delisted.",
+   "numbers": "$35 million market value; notice October 14, 2022; deadline April 12, 2023",
+   "quote": "If we are unable to regain compliance, Nasdaq may make a determination to delist our common stock.",
+   "section": "Item 1A. Risk Factors, Risks Related to Our Common Stock"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Healios, the key collaborator and largest stockholder, alleges the company is in material breach of the Framework Agreement, which may lead to legal proceedings.",
+   "numbers": "",
+   "quote": "Healios has alleged that we are in material breach of our Framework Agreement for, among other things, not meeting our supply obligations and cooperation and assistance obligations.",
+   "section": "MD&A, Financial"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Collaboration revenue is small and Healios services are nearly complete, leaving little ongoing revenue.",
+   "numbers": "revenue $5.3 million (2022) vs $5.5 million (2021)",
+   "quote": "At December 31, 2022, the services under the Framework Agreement are largely complete, and are limited to minimal close-out activities.",
+   "section": "MD&A, Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Unless it can sublet the unused Stow, Ohio facility, the company remains bound by lease payments through June 2031.",
+   "numbers": "approximately $1.3 million with 2.0% annual escalators through June 2031",
+   "quote": "Unless we are successful in subletting our facility at Stow, we will be obligated to continue to pay our lease payments, which are approximately $1.3 million with 2.0% annual rent escalators, through June 2031.",
+   "section": "MD&A, Current Programs"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The restructuring removed the President/COO, CSO and CFO in 2022, and the company now relies on an interim CFO.",
+   "numbers": "",
+   "quote": "Daniel Camardo, MBA, Chief Executive Officer, Maia Hansen, Chief Operating Officer and Kasey Rosado, Interim Chief Financial Officer",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-04-03",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Future capital access depends heavily on MASTERS-2 Phase 3 trial results, which could be favorable or unfavorable.",
+   "numbers": "",
+   "quote": "we expect that the results of our MASTERS-2 clinical trial, will have a significant impact, favorable or unfavorable, on our ability to access capital",
+   "section": "Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The notes to the financial statements say there is substantial doubt about the company's ability to continue as a going concern within one year.",
+   "numbers": "",
+   "quote": "These factors, among others, raise substantial doubt about our ability to continue as a going concern within one year after the date that these financial statements are issued.",
+   "section": "Notes - 2. Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management says its restructuring plan cannot be assessed as probable of easing the conditions behind the going concern doubt, and continued operations depend on raising new capital.",
+   "numbers": "accumulated deficit of $663.7 million at March 31, 2023",
+   "quote": "these plans are not entirely within our control and cannot be assessed as being probable of occurring.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company says that without adequate financing it would likely file for bankruptcy protection and wind down.",
+   "numbers": "",
+   "quote": "If we are unable to obtain adequate financing, we likely would have to file for protection under the bankruptcy laws to continue to pursue potential transactions and conduct a wind down of our Company.",
+   "section": "Notes - 2. Going Concern; MD&A - Restructuring and Financial; MD&A - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash and cash equivalents were only $3.1 million at quarter end.",
+   "numbers": "$3.1 million cash and cash equivalents at March 31, 2023",
+   "quote": "At March 31, 2023, we had cash and cash equivalents of $3.1 million.",
+   "section": "Notes - 2. Going Concern; MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "As of May 11, 2023, accounts payable currently due were about 7.6 times cash on hand.",
+   "numbers": "accounts payable $27.5 million; cash and cash equivalents $3.6 million (May 11, 2023)",
+   "quote": "As of May 11, 2023, we had accounts payable of $27.5 million that is currently due, and we only had cash and cash equivalents of $3.6 million.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is delaying payments to most suppliers and service providers to save cash.",
+   "numbers": "",
+   "quote": "To conserve cash, we have been delaying payments to most of our suppliers and service providers.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company suspended its agreements with its primary contract manufacturer, owes it about $21.5 million, and is trying to negotiate payment terms; over 75% of accounts payable is owed to this manufacturer.",
+   "numbers": "approximately $21.5 million owed; over 75% of $27.5 million accounts payable",
+   "quote": "Under the terms of these agreements, we currently owe this contract manufacturing organization approximately $21.5 million and have significant future financial commitments to support our bioreactor manufacturing initiatives.",
+   "section": "MD&A - Overview (manufacturing)"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "A deal with the contract manufacturer under discussion may swap a large part of the overdue payables for a convertible promissory note, with no assurance it will be reached.",
+   "numbers": "",
+   "quote": "The terms of any such agreement may entail our issuance of a convertible promissory note in exchange for a substantial reduction in the outstanding accounts payable",
+   "section": "MD&A - Restructuring and Financial"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Nonpayment to the primary contract manufacturer is delaying clinical product supply, which may affect the timing and cost of trials.",
+   "numbers": "",
+   "quote": "Furthermore, continued delays in product supply caused by nonpayment to our primary contract manufacturer for our clinical trials may impact the timing and cost of such studies.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Quarterly operating cash burn fell sharply but was still about twice the quarter-end cash balance.",
+   "numbers": "net cash used in operating activities $6.0 million (Q1 2023) vs $20.2 million (Q1 2022); cash $3.1 million",
+   "quote": "Net cash used in operating activities was $6.0 million for the three months ended March 31, 2023 compared to $20.2 million for the three months ended March 31, 2022.",
+   "section": "MD&A - Cash Flow Analysis"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Of the $7.811 million quarterly net loss, only a small part was non-cash: stock compensation $707 thousand, depreciation $52 thousand, and a warrant liability fair value change of $629 thousand; no new impairment was recorded in the quarter.",
+   "numbers": "net loss $(7,811) thousand; stock-based compensation 707; depreciation 52; change in fair value of warrant liabilities 629; 2022 impairment approximately $7.2 million",
+   "quote": "Stock-based compensation 707 1,410",
+   "section": "Condensed consolidated statements of cash flows; Note on impairment"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Stockholders' equity was negative at quarter end.",
+   "numbers": "total stockholders' equity $(31,011) thousand at March 31, 2023 vs $(23,851) thousand at December 31, 2022; accumulated deficit (663,689)",
+   "quote": "Balance at March 31, 2023 \u2014 \u2014 18,448,489 18 632,660 (663,689) (31,011)",
+   "section": "Condensed consolidated statements of stockholders' equity"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue fell to zero because the Healios services were largely complete.",
+   "numbers": "revenues $0.0 million (Q1 2023) vs $2.9 million (Q1 2022)",
+   "quote": "Revenues for the three months ended March 31, 2023 were $0.0 million compared to $2.9 million for the three months ended March 31, 2022.",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "The June 2022 restructuring (about 70% workforce cut, paused manufacturing and research) sharply reduced R&D and G&A spending.",
+   "numbers": "R&D $4.5 million vs $20.9 million; G&A $2.8 million vs $4.1 million; restructuring accrual $607 thousand at March 31, 2023",
+   "quote": "Research and development expenses decreased to $4.5 million for the three months ended March 31, 2023 from $20.9 million for the comparable period in 2022.",
+   "section": "MD&A - Results of Operations; Notes - 10. Restructuring Charges"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After the quarter, the company raised a small amount of new equity in an April 2023 registered direct offering.",
+   "numbers": "2,315,000 shares and 1,370,000 pre-funded warrants at $1.00 combined; net proceeds approximately $3.4 million",
+   "quote": "The offering closed on April 19, 2023, and received net proceeds of approximately $3.4 million, after giving effect to the payment of placement fees and expenses.",
+   "section": "Notes - 12. Subsequent Event; MD&A - Financial"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "On April 17, 2023, the exercise price of the August and September 2022 warrants was cut from $6.385 to $0.96.",
+   "numbers": "$0.96 per share for 1,920,000 August Warrant shares and 1,760,000 September Warrant shares",
+   "quote": "reduce the exercise price to $0.96 per share with respect to 1,920,000 shares of Common Stock covered by the August Warrants and 1,760,000 shares of Common Stock covered by the September Warrants.",
+   "section": "Notes - 12. Subsequent Event"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Financing cash flow turned slightly negative after the Aspire Capital equity purchase agreement was terminated in July 2022.",
+   "numbers": "financing used $0.1 million (Q1 2023) vs provided $4.7 million (Q1 2022)",
+   "quote": "The decrease from the comparable period is primarily related to the termination of our equity purchase agreement with Aspire Capital in July 2022.",
+   "section": "MD&A - Cash Flow Analysis"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Nasdaq said the company had not regained compliance with the $35 million minimum market value rule; delisting is stayed only while the company's hearing request is pending.",
+   "numbers": "$35 million minimum market value",
+   "quote": "On April 13, 2023, we received notice from The Nasdaq Stock Market (\u201cNasdaq\u201d) that we had not regained compliance with the minimum market value of $35 million.",
+   "section": "Notes - 12. Subsequent Event; MD&A; Part II Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company gave up its Stow facility and expects possible impairment charges, including on right-of-use assets, in the Q2 2023 report.",
+   "numbers": "",
+   "quote": "On April 21, 2023, we made the decision to and notified our landlord for the Stow facility that we surrendered possession of the property and returned the keys to the landlord.",
+   "section": "Notes - 12. Subsequent Event; MD&A"
+  },
+  {
+   "filing": "10-Q filed 2023-05-15",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Healios, the company's collaborator and a large stockholder, alleges the company is in material breach of the Framework Agreement, and the dispute may lead to legal proceedings.",
+   "numbers": "",
+   "quote": "Healios has alleged that we are in material breach of our Framework Agreement for, among other things, not meeting our supply obligations and cooperation and assistance obligations.",
+   "section": "MD&A - Financial"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The company filed an NT 10-Q for the June 30, 2023 quarter, saying it needed more time to finish its financial statements, including a warrant and convertible note valuation, and to review them.",
+   "numbers": "filing within the fifth calendar day extension",
+   "quote": "because the Registrant needs additional time to complete its financial statements, including additional time to complete a warrant and convertible note valuation, and its review of such financial statements.",
+   "section": "NT 10-Q filed 2023-08-15, Part III"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "neutral",
+   "finding": "The NT 10-K for fiscal 2022 cited time to finish the financial statements and a filing agent's technical problems; the 10-K was transmitted on March 31, 2023.",
+   "numbers": "",
+   "quote": "The Company\u2019s Annual Report on Form 10-K was transmitted and received for filing on EDGAR at approximately 6:03 pm eastern on March 31, 2023",
+   "section": "NT 10-K filed 2023-04-03, Part III"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company signed a Forbearance, Restructuring and Settlement Agreement with a supplier over large past due and current obligations.",
+   "numbers": "past due and current due approximately $20.9 million; future obligations approximately $9.8 million; less approximately $3.9 million in credits",
+   "quote": "comprised of past due and current due obligations in the approximate amount of $20.9 million and future obligations in the approximate amount of $9.8 million",
+   "section": "8-K filed 2023-05-23, Item 2.03 (labeled 2.02) - Forbearance Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The supplier agreed to forbear from remedies on overdue amounts as long as the company pays a reduced $11.8 million in small monthly installments starting October 2023.",
+   "numbers": "$11.8 million aggregate; $0.25 million monthly; commencing October 2023",
+   "quote": "so long as the Company pays to the supplier an aggregate of $11.8 million, in monthly payments of $0.25 million, commencing in October 2023.",
+   "section": "8-K filed 2023-05-23, Forbearance Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Under the forbearance deal the company issued the supplier a $15.0 million convertible note at 10.0% interest, paid in kind and due May 17, 2026, convertible at $1.30 per share after 18 months.",
+   "numbers": "$15.0 million principal; 10.0% per annum capitalized semi-annually; maturity May 17, 2026; conversion price $1.30; 19.99% ownership cap",
+   "quote": "the Company issued a convertible promissory note to the supplier in the principal amount of $15.0 million (the \u201cNote\u201d).",
+   "section": "8-K filed 2023-05-23, Convertible Promissory Note"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Events of default under the note include nonpayment, bankruptcy events and an adverse judgment of $3.0 million or more; on default, interest rises to 14.0% and maturity may be accelerated.",
+   "numbers": "$3.0 million judgment trigger; 14.0% default rate",
+   "quote": "certain events of bankruptcy and an adverse judgment for payment of $3.0 million or more (each, an \u201cEvent of Default\u201d).",
+   "section": "8-K filed 2023-05-23, Convertible Promissory Note"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The landlord sued the company for breach of lease, promissory estoppel and unjust enrichment, and the company intends to defend itself.",
+   "numbers": "amount sought undetermined but in excess of $25,000",
+   "quote": "The amount sought is undetermined but in excess of $25,000.",
+   "section": "8-K filed 2023-08-11, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Nasdaq gave notice on July 28, 2023 that the company had failed the $1.00 minimum bid price rule, with a compliance deadline of January 24, 2024.",
+   "numbers": "$1.00 minimum bid; below for 30 consecutive business days (June 14, 2023 through July 27, 2023); deadline January 24, 2024",
+   "quote": "the closing bid price of the Company\u2019s common stock (the \u201cCommon Stock\u201d) was below $1.00 per share for 30 consecutive business days for the period of June 14, 2023 through July 27, 2023.",
+   "section": "8-K filed 2023-07-31, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "After failing to regain compliance with the $35 million market value standard, the common stock became subject to delisting; the company appealed on April 14, 2023, which stays delisting while the appeal is pending.",
+   "numbers": "$35 million minimum market value",
+   "quote": "Pursuant to the Notification, the Common Stock is subject to delisting from Nasdaq pending the Company\u2019s opportunity to request a hearing before the Nasdaq Hearings Panel (the \u201cPanel\u201d).",
+   "section": "8-K filed 2023-04-14, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "There have been repeated Nasdaq deficiency notices: bid price in March 2022 and December 2022, market value in October 2022, and a 1-for-25 reverse split approved in July 2022.",
+   "numbers": "bid price notices March 18, 2022 and December 22, 2022; market value notice October 14, 2022",
+   "quote": "the Company is not in compliance with the requirement to maintain a minimum market value of listed securities of $35 million",
+   "section": "8-Ks filed 2022-03-24, 2022-10-20, 2022-12-29 (Item 3.01); 8-K filed 2022-08-02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In April 2023 the company sold shares, pre-funded warrants and common warrants at a $1.00 combined price, paying a 6.5% placement fee.",
+   "numbers": "2,315,000 shares; 1,370,000 pre-funded warrants; 3,685,000 common warrants at $0.96; $1.00 combined price; 6.5% fee",
+   "quote": "in combinations of one Share or one Pre-Funded Warrant and one Common Warrant for a combined purchase price of $1.00 (less $0.0001 for each Pre-Funded Warrant).",
+   "section": "8-K filed 2023-04-18, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "On April 17, 2023, the company cut the exercise price of the August and September 2022 warrants from $6.3850 to $0.96.",
+   "numbers": "from $6.3850 to $0.96; 1,920,000 and 1,760,000 shares",
+   "quote": "On April 17, 2023, the Company amended the August Warrants and the September Warrants to, among other things, reduce the exercise price to $0.96 per share",
+   "section": "8-K filed 2023-04-18, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company completed dilutive equity raises with warrants through A.G.P. in August 2022 and November 2022.",
+   "numbers": "November 2022: 3,927,275 shares, 1,077,270 pre-funded warrants, 10,009,090 common warrants at $1.10 combined; August 2022: $0.25 combined (pre-split), 7.0% fee",
+   "quote": "in combinations of one Share or one Pre-Funded Warrant and two Common Warrants for a combined purchase price of $1.10 (less $0.0001 for any Pre-Funded Warrant).",
+   "section": "8-Ks filed 2022-11-10 and 2022-08-17, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Aspire Capital ended its $100 million equity purchase agreement in July 2022 after executive departures triggered its termination right, having bought only a small amount of stock.",
+   "numbers": "up to $100.0 million commitment; 6,870,000 shares sold; proceeds $1,867,971",
+   "quote": "From May 12, 2022 through the date of termination, the Company sold 6,870,000 shares of its common stock under the Purchase Agreement, generating proceeds of $1,867,971.",
+   "section": "8-K filed 2022-07-08, Item 1.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The interim CFO came from Ankura Consulting and earlier worked at a restructuring and turnaround advisory firm; the company pays Ankura about $100,000 per month.",
+   "numbers": "approximately $100,000 per month",
+   "quote": "Prior to joining Ankura, Ms. Rosado was a managing director at CDG Group, a leading restructuring advisory, turnaround management, value enhancement and transaction advisory firm, since 1998.",
+   "section": "8-K filed 2022-08-04, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "In May 2022 the board approved a restructuring plan to cut the workforce by up to 70%, with about $3.5 million in one-time severance costs, and the President/COO, CSO and CFO were let go.",
+   "numbers": "up to 70% workforce reduction; approximately $3.5 million one-time cash expenditures",
+   "quote": "In connection with the Plan, the Company plans to reduce its workforce by up to 70%, with the majority of the reduction expected to be completed by the end of June 2022.",
+   "section": "8-K filed 2022-06-02, Items 2.05 and 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Five directors resigned on June 16, 2022, citing efforts to align resources and not any disagreement; another director resigned in October 2022, and new directors were added in January and August 2023.",
+   "numbers": "five director resignations; board reduced to five members",
+   "quote": "Following their decisions to resign from the Board, the Board reduced its size to five members, effective immediately.",
+   "section": "8-Ks filed 2022-06-21, 2022-11-01, 2023-01-05, 2023-08-11 (Item 5.02)"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score of 0.582 comes from a tiny balance sheet ($10.5M of assets) carrying $47.9M of liabilities (4.57x assets against a peer median of 0.45), a current ratio of 0.09 against a peer median of 3.51, almost no revenue, and an annualized net loss about four times total assets. The filings show this is real distress and not an artefact. Cash was $1.8M at June 30 and $0.8M by August 9, 2023, against $16.5M of accounts payable and a burn of about $1.5M a month. That leaves roughly one month of cash, or less, and management itself says it would likely have to file for bankruptcy protection without adequate financing.",
+  "verdict": "real risk",
+  "own_risk": "very high",
+  "own_risk_pct": 45,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "Cash of $0.8M on August 9, 2023 against $16.5M of accounts payable; at the Q2 burn of about $4.6M per quarter (~$1.5M/month) that is about half a month of cash, or about 1.2 months from the $1.8M June 30 balance",
+   "Management explicitly states it would likely have to file for bankruptcy protection and wind down if it cannot obtain adequate financing, and says its plans cannot be assessed as probable",
+   "History of nonpayment to suppliers, including the primary contract manufacturer, which led to a forbearance agreement with acceleration rights if any payment is more than 60 days late; payments start October 2023 with almost no cash to make them",
+   "$15.0M convertible note with events of default including bankruptcy events and judgments of $3.0M or more, adding to liabilities",
+   "Landlord lawsuit over the abandoned Stow lease and Healios's allegation of material breach of the Framework Agreement",
+   "Nasdaq Panel exception only through September 15, 2023 on the $35M market value standard plus a new $1.00 bid price deficiency, which threaten access to equity capital",
+   "New financing is very small (about $3.4M net in April 2023), and the Aspire $100M equity facility was terminated in July 2022",
+   "NT 10-Q late filing for the June 2023 quarter"
+  ],
+  "reasons": [
+   {
+    "reason": "Liabilities far exceed assets; stockholders' deficit widened to $37.4M",
+    "kind": "model input",
+    "numbers": "total liabilities $47.9M vs total assets $10.5M (4.57x); stockholders' deficit $(37,419) thousand at June 30, 2023 vs $(23,851) thousand at December 31, 2022",
+    "peer_comparison": "liabilities/assets 4.57 vs peer median 0.45; total liabilities at 95th peer percentile as a share of assets",
+    "quote": "Balance at June 30, 2023 \u2014 \u2014 21,833,847 21 639,173 (676,613) (37,419)",
+    "source": "10-Q, 2023-08-16, Statement of stockholders' equity"
+   },
+   {
+    "reason": "Current liabilities are about 11 times current assets; the company cannot cover near-term obligations",
+    "kind": "model input",
+    "numbers": "current assets $3.7M vs current liabilities $42.7M; current ratio 0.09; current assets fell from $21.4M a year earlier",
+    "peer_comparison": "current ratio 0.09 vs peer median 3.51; current liabilities at 95th percentile, current assets at 19th percentile",
+    "quote": "",
+    "source": "Model inputs (10-Q, 2023-08-16 balance sheet)"
+   },
+   {
+    "reason": "Large losses relative to the asset base",
+    "kind": "model input",
+    "numbers": "annualized net income -$41.5M (-395.8% of assets); operating income -$40.6M; Q2 net loss $(12,924) thousand",
+    "peer_comparison": "net income and operating income at 5th peer percentile",
+    "quote": "",
+    "source": "Model inputs (10-Q, 2023-08-16)"
+   },
+   {
+    "reason": "Cash runway is about one month or less. Q2 burn = $10.6M (6M) minus $6.0M (Q1) = $4.6M, about $1.5M/month; $1.8M at June 30 is about 1.2 months, and $0.8M at August 9 is about half a month. Over six months the burn averaged about $1.8M/month",
+    "kind": "from the filings",
+    "numbers": "cash $1.8M (June 30, 2023), $0.8M (August 9, 2023); operating cash used $10.6M for 6M 2023, $6.0M for Q1 2023; accounts payable $16.5M",
+    "peer_comparison": "operating cash flow at 8th peer percentile",
+    "quote": "As of August 9, 2023, we had $0.8 million of cash and cash equivalents and accounts payable of $16.5 million, of which $8.7 million is related to deferred accounts payable to supplier.",
+    "source": "10-Q, 2023-08-16, MD&A Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Management explicitly names bankruptcy as the likely outcome if financing is not obtained",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "If we are unable to obtain adequate financing, we likely would have to file for protection under the bankruptcy laws to continue to pursue potential transactions and conduct a wind down of our Company.",
+    "source": "10-Q, 2023-08-16, Note 2. Going Concern; MD&A Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Going concern doubt, with management saying its plans cannot be assessed as probable",
+    "kind": "from the filings",
+    "numbers": "accumulated deficit $676.6M at June 30, 2023",
+    "peer_comparison": "",
+    "quote": "these plans are not entirely within our control and cannot be assessed as being probable of occurring.",
+    "source": "10-Q, 2023-08-16, MD&A Liquidity and Capital Resources"
+   },
+   {
+    "reason": "The forbearance agreement followed overdue supplier payments, and the supplier can accelerate if any payment is more than 60 days late; payments begin October 2023",
+    "kind": "from the filings",
+    "numbers": "$11.8M deferred payables at $0.25M monthly from October 2023; 60-day acceleration trigger",
+    "peer_comparison": "",
+    "quote": "If any cash payment remains unpaid for more than 60 days following the date such cash payment was due, the supplier has the right to declare the entire remaining balance due immediately and payable without further notice.",
+    "source": "10-Q, 2023-08-16, Note 11. Forbearance Agreement and Convertible Note"
+   },
+   {
+    "reason": "A new $15.0M PIK convertible note adds debt with default triggers, including judgments of $3.0M or more",
+    "kind": "from the filings",
+    "numbers": "principal $15.0M; 10% PIK (14% on default); maturity May 17, 2026; fair value $15.8M",
+    "peer_comparison": "",
+    "quote": "certain events of bankruptcy and an adverse judgment for payment of $3.0 million or more (each, an \u201cEvent of Default\u201d).",
+    "source": "8-K, 2023-05-23, Convertible Promissory Note"
+   },
+   {
+    "reason": "Nonpayment to the contract manufacturer is delaying clinical supply, which threatens the MASTERS-2 trial that future financing depends on",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "continued delays in product supply caused by nonpayment to our primary contract manufacturer for our clinical trials may impact the timing and cost of such studies.",
+    "source": "10-Q, 2023-08-16, MD&A Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Revenue has nearly disappeared",
+    "kind": "model input",
+    "numbers": "Q2 2023 revenue $48.8 thousand vs $2.3M; annualized revenue $0.1M vs $10.5M a year earlier",
+    "peer_comparison": "revenue at 15th peer percentile",
+    "quote": "Revenues for the three months ended June 30, 2023 were $48.8 thousand compared to $2.3 million for the three months ended June 30, 2022.",
+    "source": "10-Q, 2023-08-16, MD&A Results of Operations"
+   },
+   {
+    "reason": "Nasdaq listing is at near-term risk, which would further limit equity raising",
+    "kind": "from the filings",
+    "numbers": "$35M market value standard, Panel deadline September 15, 2023; $1.00 bid price, deadline January 24, 2024",
+    "peer_comparison": "",
+    "quote": "the Panel notified us that it had granted our request for an exception through September 15, 2023, to the continued listing requirements, subject to our demonstrating compliance with the Market Value Standard by September 15, 2023.",
+    "source": "10-Q, 2023-08-16, Note 14. Subsequent Events"
+   },
+   {
+    "reason": "Litigation and disputes: the landlord sued over the Stow lease, and Healios alleges material breach",
+    "kind": "from the filings",
+    "numbers": "landlord claim in excess of $25,000, amount undetermined",
+    "peer_comparison": "",
+    "quote": "Healios has alleged that we are in material breach of our Framework Agreement for, among other things, not meeting our supply obligations and cooperation and assistance obligations.",
+    "source": "10-Q, 2023-08-16, MD&A Financial"
+   },
+   {
+    "reason": "Executives are deferring pay to preserve cash, and the company filed late for the quarter",
+    "kind": "from the filings",
+    "numbers": "approximately $0.3M deferred as of July 31, 2023",
+    "peer_comparison": "",
+    "quote": "To preserve liquidity in the Company, named executive officers, including severance to former executives, have agreed to defer compensation.",
+    "source": "10-Q, 2023-08-16, MD&A Liquidity and Capital Resources"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "The supplier restructuring pushed most overdue cash payments out to October 2023 and later, and produced a gain on extinguishment, easing immediate pressure",
+    "quote": "The Company recorded a gain on extinguishment of $2.6 million as a result of the restructuring.",
+    "source": "10-Q, 2023-08-16, Note 11"
+   },
+   {
+    "point": "Cash burn has fallen sharply after the 70% workforce cut (6M operating cash used $10.6M vs $36.6M a year earlier)",
+    "quote": "Net cash used in operating activities was $10.6 million for the six months ended June 30, 2023 compared to $36.6 million for the six months ended June 30, 2022.",
+    "source": "10-Q, 2023-08-16, MD&A Cash Flow Analysis"
+   },
+   {
+    "point": "Part of the period's loss is non-cash (a $7.5M right-of-use impairment plus fair value changes), so the annualized net loss overstates cash losses",
+    "quote": "the Company recorded an impairment charge related to the right-of-use asset of $7.5 million.",
+    "source": "10-Q, 2023-08-16, Note 5; MD&A"
+   },
+   {
+    "point": "The company can still raise small amounts of equity (April 2023, about $3.4M net)",
+    "quote": "The offering closed on April 19, 2023, and the Company received net proceeds of approximately $3.4 million, after giving effect to the payment of placement fees and expenses.",
+    "source": "10-Q, 2023-08-16, MD&A Financial"
+   },
+   {
+    "point": "The August 2023 MOU with Healios brings a small deposit and possible further compensation, and suggests the relationship may be stabilizing",
+    "quote": "Pursuant to the MOU, Healios has deposited $150,000 with the Company to be applied to the charges incurred for these consultation services.",
+    "source": "10-Q, 2023-08-16, Note 14. Subsequent Events"
+   },
+   {
+    "point": "The $15.0M note is PIK and does not mature until May 2026, so it needs no near-term cash",
+    "quote": "The Note bears interest at a rate of 10.0% per annum, which shall be capitalized and added to the principal amount semi-annually on January 1 and July 1, commencing on July 1, 2023",
+    "source": "10-Q, 2023-08-16, Note 11"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2022-06-02",
+    "event": "8-K: restructuring plan cuts workforce by up to 70%; President/COO, CSO and CFO depart"
+   },
+   {
+    "date": "2022-07-06",
+    "event": "Aspire Capital terminates the $100M equity facility"
+   },
+   {
+    "date": "2022-10-14",
+    "event": "Nasdaq notice for failing the $35M market value requirement"
+   },
+   {
+    "date": "2023-03-28",
+    "event": "Cash $4.1M against $27.7M of accounts payable currently due"
+   },
+   {
+    "date": "2023-04-03",
+    "event": "10-K filed after an NT 10-K; auditor's going concern opinion"
+   },
+   {
+    "date": "2023-04-13",
+    "event": "Nasdaq says the company has not regained market value compliance; company requests a hearing"
+   },
+   {
+    "date": "2023-04-17",
+    "event": "August and September 2022 warrants repriced to $0.96"
+   },
+   {
+    "date": "2023-04-19",
+    "event": "Registered direct offering closes, about $3.4M net"
+   },
+   {
+    "date": "2023-04-21",
+    "event": "Company surrenders the Stow facility to the landlord"
+   },
+   {
+    "date": "2023-05-11",
+    "event": "Cash $3.6M against $27.5M of accounts payable currently due"
+   },
+   {
+    "date": "2023-05-17",
+    "event": "Forbearance agreement with the supplier; $15.0M convertible note issued"
+   },
+   {
+    "date": "2023-06-09",
+    "event": "Landlord sues the company for breach of lease"
+   },
+   {
+    "date": "2023-06-30",
+    "event": "Quarter end: cash $1.8M, stockholders' deficit $37.4M"
+   },
+   {
+    "date": "2023-07-28",
+    "event": "Nasdaq notice for the $1.00 minimum bid price"
+   },
+   {
+    "date": "2023-08-09",
+    "event": "Cash $0.8M against $16.5M of accounts payable; MOU with Healios and $150,000 deposit"
+   },
+   {
+    "date": "2023-08-15",
+    "event": "NT 10-Q filed for the June 2023 quarter"
+   },
+   {
+    "date": "2023-08-16",
+    "event": "10-Q filed with going concern doubt and the bankruptcy warning"
+   }
+  ],
+  "dates_to_watch": [
+   "2023-09-15: Nasdaq Panel deadline to show compliance with the $35M market value standard",
+   "October 2023: first $0.25M monthly forbearance payment to the supplier is due; a payment more than 60 days late lets the supplier accelerate the remaining balance",
+   "Any new financing announcement in the next 1-2 months, since cash on August 9 covered only about two weeks to a month of burn",
+   "Outcome of the Stow landlord lawsuit and the Healios breach dispute (a judgment of $3.0M or more is an event of default under the note)",
+   "2024-01-24: deadline to regain the $1.00 bid price",
+   "MASTERS-2 trial progress and clinical product supply"
+  ],
+  "would_change_my_mind": [
+   "A material equity raise or strategic/partnering deal, for example with Healios, that funds operations for 6-12 months",
+   "A sale of the company or its assets outside court",
+   "Proof that the forbearance payments from October 2023 are being made and that the Nasdaq listing is maintained",
+   "Positive MASTERS-2 data that opens access to capital"
+  ],
+  "confidence": "high",
+  "could_not_check": [
+   "Cash position and any financing after August 9, 2023",
+   "Whether the Nasdaq Panel deadline of September 15, 2023 will be met",
+   "The amount the Stow landlord is seeking beyond 'in excess of $25,000'",
+   "Whether Healios will start formal legal proceedings over the alleged breach",
+   "Monthly burn for July and August 2023 (estimated from Q2: about $1.5M/month)"
+  ]
+ },
+ "problems": [],
+ "attempts": 2
+}

@@ -1,0 +1,2291 @@
+{
+ "adsh": "0001213900-23-087187",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001213900-23-087187",
+ "case": {
+  "adsh": "0001213900-23-087187",
+  "cik": 1357671,
+  "name": "CREATD, INC.",
+  "form": "10-Q",
+  "fp": "Q3",
+  "period_end": "20230930",
+  "filed": "20231115",
+  "sic": 7819,
+  "score": 0.523,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 2.9,
+    "year_before_musd": 8.7,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 30
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 0.4,
+    "year_before_musd": 1.7,
+    "share_of_assets_pct": 12.6,
+    "peer_percentile": 38
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 21.7,
+    "year_before_musd": 15.2,
+    "share_of_assets_pct": 750.1,
+    "peer_percentile": 81
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 23.6,
+    "year_before_musd": 17.3,
+    "share_of_assets_pct": 816.5,
+    "peer_percentile": 82
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 2.8,
+    "year_before_musd": 5.3,
+    "share_of_assets_pct": 97.9,
+    "peer_percentile": 84
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -31.0,
+    "year_before_musd": -31.8,
+    "share_of_assets_pct": -1073.1,
+    "peer_percentile": 5
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -24.5,
+    "year_before_musd": -28.0,
+    "share_of_assets_pct": -845.9,
+    "peer_percentile": 19
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -4.5,
+    "year_before_musd": -18.5,
+    "share_of_assets_pct": -156.0,
+    "peer_percentile": 23
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 8.16,
+   "current_ratio": 0.02,
+   "peer_count": 23,
+   "peer_median_liabilities_to_assets": 0.85,
+   "peer_median_current_ratio": 0.35,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "cash": {
+   "cash_usd": 6759,
+   "period_months": 9,
+   "operating_cash_flow_musd": -3.4,
+   "monthly_cash_burn_musd": 0.38,
+   "months_of_cash": 0.02,
+   "last_quarter_operating_cash_flow_musd": -0.2,
+   "last_quarter_monthly_burn_musd": 0.06,
+   "months_of_cash_at_last_quarter_burn": 0.1,
+   "this_period": {
+    "months": 9,
+    "net_income_musd": -23.3,
+    "non_cash_charges_musd": {
+     "stock_compensation": 8.3,
+     "depreciation_amortization": 0.1
+    },
+    "cash_adjusted_net_income_musd": -14.9,
+    "non_cash_share_of_loss_pct": 36
+   },
+   "same_period_year_before": {
+    "months": 9,
+    "net_income_musd": -23.8,
+    "non_cash_charges_musd": {
+     "stock_compensation": 3.8,
+     "depreciation_amortization": 0.4
+    },
+    "cash_adjusted_net_income_musd": -19.5,
+    "non_cash_share_of_loss_pct": 18
+   },
+   "note": "from this filing's XBRL (not annualized); months_of_cash = cash / monthly burn; the last quarter = this period to date minus the period to date one quarter earlier; non-cash charges counted: stock compensation, depreciation and amortization, impairment (a negative stock compensation is a reversal that makes the loss look smaller)"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230419,
+    "total_assets": 4819749.0,
+    "current_assets": 1479164.0,
+    "current_liabilities": 15207316.0,
+    "total_liabilities": 17322948.0,
+    "revenue": 4796474.0,
+    "net_income": -32293271.0,
+    "operating_income": -29031112.0,
+    "operating_cash_flow": -16805429.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230518,
+    "total_assets": 4475336.0,
+    "current_assets": 946743.0,
+    "current_liabilities": 17776824.0,
+    "total_liabilities": 19827633.0,
+    "revenue": 3944580.0,
+    "net_income": -63625340.0,
+    "operating_income": -54846460.0,
+    "operating_cash_flow": -11432232.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230814,
+    "total_assets": 3928837.0,
+    "current_assets": 710390.0,
+    "current_liabilities": 20734229.0,
+    "total_liabilities": 22974879.0,
+    "revenue": 3371018.0,
+    "net_income": -40713486.0,
+    "operating_income": -32848504.0,
+    "operating_cash_flow": -6381144.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230930,
+    "filed": 20231115,
+    "total_assets": 2892000.0,
+    "current_assets": 363669.0,
+    "current_liabilities": 21693515.0,
+    "total_liabilities": 23612701.0,
+    "revenue": 2831152.0,
+    "net_income": -31033996.0,
+    "operating_income": -24462753.333333332,
+    "operating_cash_flow": -4512384.0
+   }
+  ],
+  "peers": [
+   {
+    "name": "WORLD WRESTLING ENTERTAINMENTINC",
+    "sic": 7812.0,
+    "ddate": 20230630,
+    "filed": 20230802,
+    "total_assets": 1507220000.0,
+    "current_assets": 743513000.0,
+    "current_liabilities": 196947000.0,
+    "total_liabilities": 597909000.0,
+    "revenue": 1415850000.0,
+    "net_income": 177358000.0,
+    "operating_income": 280894000.0,
+    "operating_cash_flow": 179186000.0
+   },
+   {
+    "name": "INTERNATIONAL MEDIA ACQUISITION CORP.",
+    "sic": 7812.0,
+    "ddate": 20230630,
+    "filed": 20230811,
+    "total_assets": 21605037.0,
+    "current_assets": 220483.0,
+    "current_liabilities": 3987004.0,
+    "total_liabilities": 12050950.0,
+    "revenue": NaN,
+    "net_income": 1290464.0,
+    "operating_income": 475048.0,
+    "operating_cash_flow": -969216.0
+   },
+   {
+    "name": "CHICKEN SOUP FOR THE SOUL ENTERTAINMENT, INC.",
+    "sic": 7819.0,
+    "ddate": 20230630,
+    "filed": 20230814,
+    "total_assets": 878599264.0,
+    "current_assets": NaN,
+    "current_liabilities": NaN,
+    "total_liabilities": 859789561.0,
+    "revenue": 379018712.0,
+    "net_income": -191946370.0,
+    "operating_income": -128720304.0,
+    "operating_cash_flow": -43827024.0
+   },
+   {
+    "name": "WINVEST GROUP LTD",
+    "sic": 7812.0,
+    "ddate": 20230630,
+    "filed": 20230814,
+    "total_assets": 151317.0,
+    "current_assets": 150223.0,
+    "current_liabilities": 950308.0,
+    "total_liabilities": 950308.0,
+    "revenue": 329956.0,
+    "net_income": -1542128.0,
+    "operating_income": -1558556.0,
+    "operating_cash_flow": -264668.0
+   },
+   {
+    "name": "KARTOON STUDIOS, INC.",
+    "sic": 7812.0,
+    "ddate": 20230630,
+    "filed": 20230814,
+    "total_assets": 177983000.0,
+    "current_assets": 91611000.0,
+    "current_liabilities": 77187000.0,
+    "total_liabilities": 90470000.0,
+    "revenue": 50454000.0,
+    "net_income": -79984000.0,
+    "operating_income": -61118000.0,
+    "operating_cash_flow": -21174000.0
+   },
+   {
+    "name": "FIRST FOODS GROUP, INC.",
+    "sic": 7812.0,
+    "ddate": 20230630,
+    "filed": 20230818,
+    "total_assets": 55591.0,
+    "current_assets": 31531.0,
+    "current_liabilities": 5487614.0,
+    "total_liabilities": 5637614.0,
+    "revenue": 9700.0,
+    "net_income": -855954.0,
+    "operating_income": -929104.0,
+    "operating_cash_flow": -372624.0
+   },
+   {
+    "name": "VNUE, INC.",
+    "sic": 7822.0,
+    "ddate": 20230630,
+    "filed": 20230821,
+    "total_assets": 155085.0,
+    "current_assets": 155085.0,
+    "current_liabilities": 6841000.0,
+    "total_liabilities": 6841000.0,
+    "revenue": 464060.0,
+    "net_income": -1637008.0,
+    "operating_income": -1355782.0,
+    "operating_cash_flow": -1545140.0
+   },
+   {
+    "name": "MIKE THE PIKE PRODUCTIONS, INC.",
+    "sic": 7812.0,
+    "ddate": 20230630,
+    "filed": 20230822,
+    "total_assets": 4399.0,
+    "current_assets": 0.0,
+    "current_liabilities": 159133.0,
+    "total_liabilities": 159133.0,
+    "revenue": 0.0,
+    "net_income": -39242.0,
+    "operating_income": -39242.0,
+    "operating_cash_flow": -27618.0
+   },
+   {
+    "name": "MMEX RESOURCES CORP",
+    "sic": 7819.0,
+    "ddate": 20230731,
+    "filed": 20230911,
+    "total_assets": 1071956.0,
+    "current_assets": 3250.0,
+    "current_liabilities": 4024703.0,
+    "total_liabilities": 4024703.0,
+    "revenue": 0.0,
+    "net_income": -4742288.0,
+    "operating_income": -1332544.0,
+    "operating_cash_flow": -302052.0
+   },
+   {
+    "name": "GOLIATH FILM & MEDIA HOLDINGS",
+    "sic": 7822.0,
+    "ddate": 20230731,
+    "filed": 20230912,
+    "total_assets": 8668.0,
+    "current_assets": 8668.0,
+    "current_liabilities": 119691.0,
+    "total_liabilities": 119691.0,
+    "revenue": NaN,
+    "net_income": -43268.0,
+    "operating_income": -43268.0,
+    "operating_cash_flow": -42184.0
+   },
+   {
+    "name": "MEDIES",
+    "sic": 7812.0,
+    "ddate": 20230831,
+    "filed": 20231013,
+    "total_assets": 48910.0,
+    "current_assets": 426.0,
+    "current_liabilities": 63737.0,
+    "total_liabilities": 101737.0,
+    "revenue": 0.0,
+    "net_income": -38258.0,
+    "operating_income": NaN,
+    "operating_cash_flow": -9772.0
+   },
+   {
+    "name": "NETFLIX INC",
+    "sic": 7841.0,
+    "ddate": 20230930,
+    "filed": 20231020,
+    "total_assets": 49501786000.0,
+    "current_assets": 10779474000.0,
+    "current_liabilities": 8338718000.0,
+    "total_liabilities": 27394159000.0,
+    "revenue": 33187296000.0,
+    "net_income": 5960202666.666667,
+    "operating_income": 7277192000.0,
+    "operating_cash_flow": 7481716000.0
+   },
+   {
+    "name": "AURA FAT PROJECTS ACQUISITION CORP",
+    "sic": 7822.0,
+    "ddate": 20230831,
+    "filed": 20231023,
+    "total_assets": 30154459.0,
+    "current_assets": 142343.0,
+    "current_liabilities": 1167624.0,
+    "total_liabilities": 5192624.0,
+    "revenue": NaN,
+    "net_income": 3145273.3333333335,
+    "operating_income": -1776324.0,
+    "operating_cash_flow": -721045.3333333334
+   },
+   {
+    "name": "GAIA, INC",
+    "sic": 7812.0,
+    "ddate": 20230930,
+    "filed": 20231030,
+    "total_assets": 138402000.0,
+    "current_assets": 19190000.0,
+    "current_liabilities": 39305000.0,
+    "total_liabilities": 51557000.0,
+    "revenue": 79612000.0,
+    "net_income": -4598666.666666667,
+    "operating_income": -4098666.6666666665,
+    "operating_cash_flow": 13441333.333333334
+   },
+   {
+    "name": "MARCUS CORP",
+    "sic": 7830.0,
+    "ddate": 20230930,
+    "filed": 20231102,
+    "total_assets": 1053933000.0,
+    "current_assets": 86132000.0,
+    "current_liabilities": 146741000.0,
+    "total_liabilities": 581035000.0,
+    "revenue": 757398666.6666666,
+    "net_income": 21645333.333333332,
+    "operating_income": 43673333.333333336,
+    "operating_cash_flow": 91522666.66666669
+   },
+   {
+    "name": "FUBOTV INC. /FL",
+    "sic": 7812.0,
+    "ddate": 20230930,
+    "filed": 20231103,
+    "total_assets": 1220473000.0,
+    "current_assets": 381086000.0,
+    "current_liabilities": 451257000.0,
+    "total_liabilities": 887037000.0,
+    "revenue": 1277392000.0,
+    "net_income": -289818666.6666667,
+    "operating_income": -289678666.6666667,
+    "operating_cash_flow": -234076000.0
+   },
+   {
+    "name": "CINEMARK HOLDINGS, INC.",
+    "sic": 7830.0,
+    "ddate": 20230930,
+    "filed": 20231103,
+    "total_assets": NaN,
+    "current_assets": NaN,
+    "current_liabilities": NaN,
+    "total_liabilities": NaN,
+    "revenue": 3237066666.6666665,
+    "net_income": -274933333.3333333,
+    "operating_income": NaN,
+    "operating_cash_flow": NaN
+   },
+   {
+    "name": "AMC ENTERTAINMENT HOLDINGS, INC.",
+    "sic": 7830.0,
+    "ddate": 20230930,
+    "filed": 20231108,
+    "total_assets": 8793100000.0,
+    "current_assets": 980100000.0,
+    "current_liabilities": 1528800000.0,
+    "total_liabilities": 10931100000.0,
+    "revenue": 4944266666.666667,
+    "net_income": -286133333.3333333,
+    "operating_income": 101333333.33333331,
+    "operating_cash_flow": -183200000.0
+   },
+   {
+    "name": "LIONS GATE ENTERTAINMENT CORP /CN/",
+    "sic": 7812.0,
+    "ddate": 20230930,
+    "filed": 20231109,
+    "total_assets": 6179400000.0,
+    "current_assets": 986500000.0,
+    "current_liabilities": 2821800000.0,
+    "total_liabilities": 5988100000.0,
+    "revenue": 3848200000.0,
+    "net_income": -1913800000.0,
+    "operating_income": -1668600000.0,
+    "operating_cash_flow": 660600000.0
+   },
+   {
+    "name": "CURIOSITYSTREAM INC.",
+    "sic": 7812.0,
+    "ddate": 20230930,
+    "filed": 20231113,
+    "total_assets": 106308000.0,
+    "current_assets": 49091000.0,
+    "current_liabilities": 24242000.0,
+    "total_liabilities": 29369000.0,
+    "revenue": 56152000.0,
+    "net_income": -58982666.666666664,
+    "operating_income": -52941333.333333336,
+    "operating_cash_flow": -18173333.333333332
+   },
+   {
+    "name": "CINEVERSE CORP.",
+    "sic": 7841.0,
+    "ddate": 20230930,
+    "filed": 20231114,
+    "total_assets": 84692000.0,
+    "current_assets": 34502000.0,
+    "current_liabilities": 35237000.0,
+    "total_liabilities": 38809000.0,
+    "revenue": 51984000.0,
+    "net_income": -7706000.0,
+    "operating_income": -4262000.0,
+    "operating_cash_flow": -12348000.0
+   },
+   {
+    "name": "CHOSEN, INC.",
+    "sic": 7812.0,
+    "ddate": 20230930,
+    "filed": 20231114,
+    "total_assets": 216061000.0,
+    "current_assets": 116640000.0,
+    "current_liabilities": 14651000.0,
+    "total_liabilities": 168342000.0,
+    "revenue": 87912000.0,
+    "net_income": 11158666.666666666,
+    "operating_income": 6113333.333333333,
+    "operating_cash_flow": -22881333.333333332
+   },
+   {
+    "name": "READING INTERNATIONAL INC",
+    "sic": 7830.0,
+    "ddate": 20230930,
+    "filed": 20231115,
+    "total_assets": 532597000.0,
+    "current_assets": 41528000.0,
+    "current_liabilities": 127192000.0,
+    "total_liabilities": 490542000.0,
+    "revenue": 236566666.66666663,
+    "net_income": -24385333.333333332,
+    "operating_income": -6764000.0,
+    "operating_cash_flow": -8488000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001213900-23-087187",
+   "form": "10-Q",
+   "date": "2023-11-15",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001213900-23-030833",
+   "form": "10-K",
+   "date": "2023-04-19",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001213900-23-066977",
+   "form": "10-Q",
+   "date": "2023-08-14",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001213900-23-041084",
+   "form": "10-Q",
+   "date": "2023-05-18",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001213900-23-087176",
+   "form": "NT 10-Q",
+   "date": "2023-11-15",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001213900-23-082227",
+   "form": "8-K",
+   "date": "2023-11-01",
+   "why": "8-K items 1.01,5.02,7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-041756",
+   "form": "8-K",
+   "date": "2023-05-22",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001213900-23-039253",
+   "form": "NT 10-Q",
+   "date": "2023-05-15",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001213900-23-036048",
+   "form": "8-K",
+   "date": "2023-05-03",
+   "why": "8-K items 4.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-025596",
+   "form": "NT 10-K",
+   "date": "2023-03-31",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001213900-23-010401",
+   "form": "8-K",
+   "date": "2023-02-10",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001213900-23-010393",
+   "form": "8-K",
+   "date": "2023-02-10",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001213900-23-010380",
+   "form": "8-K",
+   "date": "2023-02-10",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001213900-23-004192",
+   "form": "8-K",
+   "date": "2023-01-20",
+   "why": "8-K items 1.01,3.02,5.07,9.01"
+  },
+  {
+   "adsh": "0001213900-22-073802",
+   "form": "8-K",
+   "date": "2022-11-18",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001213900-22-072405",
+   "form": "NT 10-Q",
+   "date": "2022-11-14",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001213900-22-069781",
+   "form": "8-K",
+   "date": "2022-11-07",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001213900-22-066012",
+   "form": "8-K",
+   "date": "2022-10-25",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001213900-22-058488",
+   "form": "8-K",
+   "date": "2022-09-26",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001213900-22-056905",
+   "form": "8-K",
+   "date": "2022-09-19",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001213900-22-055098",
+   "form": "8-K",
+   "date": "2022-09-09",
+   "why": "8-K items 1.01,5.02"
+  },
+  {
+   "adsh": "0001213900-22-054149",
+   "form": "8-K",
+   "date": "2022-09-06",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001213900-22-042988",
+   "form": "8-K",
+   "date": "2022-07-29",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-031579",
+   "form": "8-K",
+   "date": "2022-06-07",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001213900-22-031042",
+   "form": "8-K",
+   "date": "2022-06-03",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  }
+ ],
+ "other_filings": [
+  {
+   "adsh": "0001213900-23-078595",
+   "form": "8-K",
+   "date": "2023-09-22",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-077812",
+   "form": "8-K",
+   "date": "2023-09-20",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-072850",
+   "form": "8-K",
+   "date": "2023-08-31",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-070596",
+   "form": "8-K",
+   "date": "2023-08-24",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-068618",
+   "form": "8-K",
+   "date": "2023-08-17",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-055756",
+   "form": "8-K",
+   "date": "2023-07-10",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-047862",
+   "form": "8-K",
+   "date": "2023-06-09",
+   "items": "8.01"
+  },
+  {
+   "adsh": "0001213900-23-028313",
+   "form": "8-K/A",
+   "date": "2023-04-07",
+   "items": "8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-028013",
+   "form": "8-K",
+   "date": "2023-04-06",
+   "items": "8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-23-012968",
+   "form": "8-K",
+   "date": "2023-02-17",
+   "items": "8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-077815",
+   "form": "8-K",
+   "date": "2022-12-06",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-073167",
+   "form": "10-Q",
+   "date": "2022-11-16",
+   "items": ""
+  },
+  {
+   "adsh": "0001213900-22-060484",
+   "form": "8-K",
+   "date": "2022-09-30",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-052644",
+   "form": "8-K",
+   "date": "2022-08-31",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-048219",
+   "form": "10-Q",
+   "date": "2022-08-15",
+   "items": ""
+  },
+  {
+   "adsh": "0001213900-22-041743",
+   "form": "8-K",
+   "date": "2022-07-26",
+   "items": "8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-041431",
+   "form": "8-K",
+   "date": "2022-07-26",
+   "items": "7.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-030735",
+   "form": "8-K",
+   "date": "2022-06-01",
+   "items": "7.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-027702",
+   "form": "8-K",
+   "date": "2022-05-17",
+   "items": "2.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-027118",
+   "form": "10-Q",
+   "date": "2022-05-16",
+   "items": ""
+  },
+  {
+   "adsh": "0001213900-22-026164",
+   "form": "8-K",
+   "date": "2022-05-13",
+   "items": "7.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-022192",
+   "form": "8-K",
+   "date": "2022-04-28",
+   "items": "3.01"
+  },
+  {
+   "adsh": "0001213900-22-018644",
+   "form": "8-K",
+   "date": "2022-04-07",
+   "items": "2.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-018351",
+   "form": "10-K",
+   "date": "2022-04-06",
+   "items": ""
+  },
+  {
+   "adsh": "0001213900-22-017436",
+   "form": "NT 10-K",
+   "date": "2022-04-01",
+   "items": ""
+  },
+  {
+   "adsh": "0001213900-22-011276",
+   "form": "8-K",
+   "date": "2022-03-09",
+   "items": "1.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-011130",
+   "form": "8-K",
+   "date": "2022-03-08",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-010749",
+   "form": "8-K",
+   "date": "2022-03-04",
+   "items": "3.01"
+  },
+  {
+   "adsh": "0001213900-22-010496",
+   "form": "8-K",
+   "date": "2022-03-03",
+   "items": "1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-008462",
+   "form": "8-K",
+   "date": "2022-02-18",
+   "items": "5.02,9.01"
+  },
+  {
+   "adsh": "0001213900-22-008501",
+   "form": "8-K",
+   "date": "2022-02-18",
+   "items": "5.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-22-000449",
+   "form": "8-K",
+   "date": "2022-01-04",
+   "items": "5.07,9.01"
+  },
+  {
+   "adsh": "0001213900-21-060639",
+   "form": "8-K",
+   "date": "2021-11-18",
+   "items": "2.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001213900-21-059418",
+   "form": "10-Q",
+   "date": "2021-11-15",
+   "items": ""
+  },
+  {
+   "adsh": "0001213900-21-056765",
+   "form": "8-K",
+   "date": "2021-11-04",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-21-055538",
+   "form": "8-K",
+   "date": "2021-10-29",
+   "items": "5.02,9.01"
+  },
+  {
+   "adsh": "0001213900-21-054783",
+   "form": "8-K",
+   "date": "2021-10-27",
+   "items": "1.01,3.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001213900-21-053326",
+   "form": "8-K",
+   "date": "2021-10-18",
+   "items": "7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-21-051847",
+   "form": "8-K",
+   "date": "2021-10-07",
+   "items": "1.01,2.03,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001213900-21-051506",
+   "form": "8-K/A",
+   "date": "2021-10-06",
+   "items": "9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states substantial doubt about the company's ability to continue as a going concern for one year, citing a large accumulated deficit, net loss and operating cash burn.",
+   "numbers": "accumulated deficit $190.5 million; net loss $23.3 million; net cash used in operating activities $3.4 million (9 months)",
+   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern for a period of one year from the issuance of these financial statements.",
+   "section": "Note 3 \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company says its cash position may not be sufficient to support daily operations and that continuing depends on raising additional funds, with no assurance it can.",
+   "numbers": "",
+   "quote": "its cash position may not be sufficient to support its daily operations.",
+   "section": "Note 3 \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Uninsured cash at quarter end was zero, meaning cash was at or below insured limits.",
+   "numbers": "uninsured cash $0 at September 30, 2023",
+   "quote": "The uninsured cash balance as of September 30, 2023, was $0.",
+   "section": "Summary of significant accounting policies \u2013 Cash Equivalents"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large part of the nine-month net loss is non-cash, mainly stock-based compensation and accretion of debt discount; no intangible or goodwill impairments were recorded in 2023.",
+   "numbers": "net loss $23,340,137; stock based compensation $8,283,267; accretion of debt discount and issuance cost $4,346,584; depreciation and amortization $118,581; currency translation $302,005; impairment of intangible assets $0",
+   "quote": "Stock-based compensation for stock options has been recorded in the consolidated statements of operations and totaled $8,283,267 for the nine months ended September 30, 2023.",
+   "section": "Statement of Cash Flows; stock options note"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Accounts payable and accrued expenses rose sharply, adding to operating cash flow, which suggests unpaid bills are building up.",
+   "numbers": "increase in accounts payable and accrued expenses $5,901,097 (9 months 2023) vs $3,805,245 (9 months 2022)",
+   "quote": "",
+   "section": "Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Part II Item 3 reports default on senior secured notes from the July 2022 Convertible Note Offering.",
+   "numbers": "$2,265,447 principal in default",
+   "quote": "As of September 30, 2023, the Company is in default on $2,265,447 in principal on senior secured notes from The July 2022 Convertible Note Offering.",
+   "section": "Part II, Item 3. Defaults Upon Senior Securities"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Default interest of 18% has been accrued on the July 2022 convertible notes, although the company repaid part of the principal during the period.",
+   "numbers": "default interest accrued $334,296; principal repaid $1,785,686 (9 months)",
+   "quote": "As of September 30, 2023, the notes included in the July 2022 Convertible Note Offering are in default and Default Interest has been accrued at 18% in the amount of $334,296.",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The May 2022 convertible notes went into default in September 2022, carry 110% repayment and 18% default interest, and the remaining notes are still in default.",
+   "numbers": "110% of principal; 18% default interest; $133,284 interest accrued (9 months)",
+   "quote": "The remaining notes are in default as of September 30, 2023.",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The PPP loan, which matured April 30, 2022, is in default and the lender may demand immediate payment or sue.",
+   "numbers": "$198,577 outstanding; $7,426 interest accrued",
+   "quote": "As of September 30, 2023, the Loan is in default, and the lender may require immediate payment of all amounts owed under the Loan or file suit and obtain judgment.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Many short-term notes are in default at quarter end, including the Third and Fourth May 2022, Second June 2022, First August 2022, Second August 2022, First February 2023, April 2023 and June 2023 notes.",
+   "numbers": "Third May 2022 $27,604; Fourth May 2022 $45,200; Second June 2022 $104,500; First August 2022 $134,070; Second August 2022 $923,000; First February 2023 $321,891; April 2023 $130,000; June 2023 $13,000 (original principal)",
+   "quote": "As of September 30, 2023, the Loan is in default.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company has relied on very high-cost merchant-style loans secured by officers, such as the Second August 2022 Note at a 167% effective rate, now in default.",
+   "numbers": "$923,000 note; $310,500 flat interest fee; 167% effective rate; weekly payment $46,150",
+   "quote": "the Second August 2022 Note has a flat interest fee of $310,500, for an effective interest rate of 167%.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Second September 2022 Note was amended in June 2023 to extend maturity to December 31, 2023, yet the note is still in default at quarter end.",
+   "numbers": "$876,000 note; 100% effective rate; extended to December 31, 2023",
+   "quote": "On June 23, 2023, the Company and the Second September 2022 Lender executed an agreement amending the payment terms and extending the Second September 2022 Maturity Date to December 31, 2023.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The Third September 2022 Note, extended to October 12, 2023, went into default after the balance sheet date.",
+   "numbers": "$365,000 note; 143% effective rate; extended to October 12, 2023",
+   "quote": "As of the date of this filing, the Loan is in default.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The December 2022, January 2023 and February 2023 convertible notes, all with 2023 maturities, are in default as of the filing date.",
+   "numbers": "December 2022 note $750,000; January 2023 note $847,500; February 2023 note $1,387,500",
+   "quote": "As of the date of this filing, this note is in default.",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "After quarter end the holder of the defaulted December 2022, January 2023 and February 2023 debentures agreed to extend maturity only to February 28, 2024 and cut the conversion price to $0.025, for 5,000,000 shares.",
+   "numbers": "remaining balance $2,485,000; new maturity February 28, 2024; conversion price $0.025; 5,000,000 consideration shares",
+   "quote": "extend the maturity dates for the Debentures, which have a cumulative remaining balance of $2,485,000, to February 28, 2024",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "In October 2023 the company got two note payments deferred to December 15, 2023, paying $10,000 and 1,500,000 shares for the extension.",
+   "numbers": "payments due October 16, 2023 and November 16, 2023 extended to December 15, 2023; $10,000 paid; 1,500,000 shares",
+   "quote": "two note payments, due on October 16, 2023 and November 16, 2023, were extended to December 15, 2023.",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "New 2023 loans require large monthly amortization starting in late 2023, adding near-term cash demands.",
+   "numbers": "First July 2023 Note $300,000, 7 monthly payments of $47,142.85 from December 11, 2023; Third July 2023 Note $261,250, 6 monthly payments of $45,416.67 from November 30, 2023",
+   "quote": "The Principal Amount and the Guaranteed Interest shall be due and payable in seven equal monthly payments (each, a \u201cMonthly Payment\u201d) of $47,142.85, commencing on December 11, 2023",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company kept raising money after quarter end through its equity line, though the amount was small and at a very low share price.",
+   "numbers": "4,242,322 shares for $75,000",
+   "quote": "the Company drew down from its outstanding Equity Line of Credit and issued 4,242,322 shares for total proceeds of $75,000.",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "An October 2023 PIPE raised only a tiny amount at $0.017 per share with warrants attached.",
+   "numbers": "7,735,294 shares at $0.017; 15,407,588 warrants at $0.02; gross proceeds $20,500",
+   "quote": "were issued 15,407,588 warrants to purchase the Company\u2019s common stock at a price of $0.02 per share for gross proceeds of $20,500.",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On October 31, 2023 the company sold a new 10% convertible promissory note with a $0.016 conversion price and 12-month maturity.",
+   "numbers": "$100,000 purchase price; 10% interest; conversion price $0.016",
+   "quote": "for the purchase of the Promissory Note, for a purchase price of $100,000.",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Investors converted some convertible debt into common stock after quarter end, reducing debt but diluting holders.",
+   "numbers": "$150,000 into 6,000,000 shares (October 3, 2023); $30,000 principal and $8,197.50 interest and fees into 1,527,900 shares (October 11, 2023)",
+   "quote": "On October 3, 2023, an investor converted $150,000 in principal of a convertible promissory note into 6,000,000 shares of the Company\u2019s common stock.",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "management",
+   "direction": "against",
+   "finding": "The CEO, Jeremy Frommer, lent the company money through convertible notes at 18% due December 23, 2023.",
+   "numbers": "$86,100 and $88,100 notes; 18% effective rate; maturity December 23, 2023; conversion $0.20",
+   "quote": "with Jeremy Frommer, the Company\u2019s CEO, whereby the Mr. Frommer issued the Company a promissory note of $86,100",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Loss from operations fell compared with the prior year and management expects it to drop significantly.",
+   "numbers": "loss from operations $18,347,065 (9 months 2023) vs $20,979,527 (9 months 2022)",
+   "quote": "Going forward, the Company expects the loss from operations to decrease significantly as it focuses on organic revenue growth and continues to find efficiencies to reduce operating expenses.",
+   "section": "MD&A \u2013 Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Other expenses rose and were mainly accretion of debt discount from new promissory and convertible notes, a non-cash cost of expensive borrowing.",
+   "numbers": "other expenses $(4,993,072) (9 months 2023) vs $(4,132,804) (9 months 2022)",
+   "quote": "These expenses were predominantly due to accretion of debt discount and issuance costs related to the issuance of additional promissory and convertible notes.",
+   "section": "MD&A \u2013 Other Income and (Expenses)"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The common stock was delisted from Nasdaq in 2022 over a shareholder equity deficit and now trades on OTC markets under VOCL.",
+   "numbers": "",
+   "quote": "on October 26, 2022, Nasdaq completed the delisting by filing a Form 25 Notification of Delisting with the Securities and Exchange Commission.",
+   "section": "Commitments and Contingencies, Nasdaq Notice of Delisting"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The company faces several lawsuits, including a Lind Global breach of contract claim and a confession of judgment from a former executive.",
+   "numbers": "Lind Global in excess of $920,000; Weisberg approximately $415,000 plus approximately $5,000 legal fees; Skube $161,000 plus $500,000 punitive",
+   "quote": "seeking to enforce payment of approximately $415,000 under an executive separation agreement also dated September 2, 2022.",
+   "section": "Commitments and Contingencies, Litigation"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is in breach of several office leases.",
+   "numbers": "Miami Beach lease total $181,299; New York lease monthly rent $12,955",
+   "quote": "As of March 31, 2023, the company is in breach of this lease agreement.",
+   "section": "Commitments and Contingencies, Leases"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The auditor's report has a paragraph on substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "the Company had a significant accumulated deficit, significant net loss and net cash used in operating activities that raise substantial doubt about its ability to continue as a going concern.",
+   "section": "Report of Independent Registered Public Accounting Firm (Rosenberg Rich Baker Berman, P.A.)"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management's going concern note cites a large accumulated deficit, net loss and operating cash burn for 2022.",
+   "numbers": "accumulated deficit $146.2 million; net loss $35.7 million; net cash used in operating activities $16.7 million",
+   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern for a period of one year from the issuance of these financial statements.",
+   "section": "Note 3 \u2013 Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Risk factors disclose a working capital deficit and warn the company may be forced to discontinue operations if working capital is not available.",
+   "numbers": "working capital deficit approximately $13.7 million; accumulated deficit approximately $146.1 million",
+   "quote": "If adequate working capital is not available, we may be forced to discontinue operations, which would cause investors to lose their entire investment.",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company says its cash position may not be sufficient to support daily operations and continuing depends on raising more money.",
+   "numbers": "",
+   "quote": "its cash position may not be sufficient to support its daily operations.",
+   "section": "Note 3 \u2013 Going Concern"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A sizable part of the 2022 net loss is non-cash, including stock compensation, accretion of debt discount, goodwill and intangible impairments, and extinguishment losses.",
+   "numbers": "net loss $35,676,315; share-based compensation $4,183,844; accretion of debt discount and issuance cost $4,668,039; impairment of goodwill $1,433,815; impairment of intangible assets $2,043,011; depreciation and amortization $586,109; loss on extinguishment of debt $832,482; reserve for obsolete inventory $399,058; bad debt expense $398,130; non cash lease expense $274,784; impairment of ROU $101,623",
+   "quote": "the Company recorded an impairment charge of $1,433,815 and $1,035,795 for goodwill for the years ended December 31 2022 and 2021, respectively.",
+   "section": "Consolidated Statements of Cash Flows; Note 2 \u2013 Goodwill"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The company also recorded a non-cash deemed dividend from modifying warrants, which increases loss to common shareholders.",
+   "numbers": "deemed dividend $3,187,906",
+   "quote": "During the year ended December 31, 2022, the Company recognized a deemed dividend of $3,187,906 from the modification of warrants.",
+   "section": "Note 2 \u2013 Recently adopted accounting guidance"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "In September 2022 the company signed a Restructuring Agreement with debenture and warrant holders cutting conversion and exercise prices to $0.20 and extending debenture maturities to March 31, 2023.",
+   "numbers": "conversion price reduced to $0.20; maturity extended to March 31, 2023",
+   "quote": "extend the maturity dates for the Debentures to March 31, 2023",
+   "section": "Item 1 Business \u2013 Restructuring Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Restructuring Agreement caps the company's monthly cash burn, a lender-imposed covenant.",
+   "numbers": "cash burn cap $600,000 per month (can be increased by $150,000 with consent)",
+   "quote": "require that the Company\u2019s cash burn rate not exceed $600,000 per month",
+   "section": "Item 1 Business \u2013 Restructuring Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "As part of the restructuring the company granted the debenture holders a first priority security interest in all assets, with subsidiary guarantees.",
+   "numbers": "",
+   "quote": "the Company granted a first priority security interest in all of their respective assets to the Holders",
+   "section": "Item 1 Business \u2013 Restructuring Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The April 2020 PPP loan, which matured April 30, 2022, is in default and the lender may demand immediate payment.",
+   "numbers": "original principal $282,432; $10,850 interest accrued in 2022; $5,000 repaid after year end",
+   "quote": "As of December 31, 2022, the Loan is in default, and the lender may require immediate payment of all amounts owed under the Loan or file suit and obtain judgment.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company borrowed through very high-cost short-term loans secured by officers with weekly payments.",
+   "numbers": "First June 2022 Note $568,000 at 217%; Second May 2022 Note $401,500 at 162%; First May 2022 Note $693,500 at 143%; Second August 2022 Note $923,000 at 167%, weekly payment $46,150",
+   "quote": "the First June 2022 Note has an effective interest rate of 217%.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The defaulted Seller's Choice note was settled in March 2022 and the matter dismissed.",
+   "numbers": "settlement $799,000 ($660,000 principal, $139,000 interest); gain on extinguishment $147,256",
+   "quote": "Creatd successfully settled the dispute with Home Revolution, LLC for a total of $799,000, which includes $660,000 of note principal and $139,000 of accrued interest.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In October 2022 the company entered a 36-month equity purchase agreement, plus a $1,666,650 debenture for $1,500,000 subscription.",
+   "numbers": "equity line up to $15,000,000 over 36 months; debenture $1,666,650 for $1,500,000; maturity April 24, 2023",
+   "quote": "the Investor purchase up to $15,000,000",
+   "section": "Item 1 Business \u2013 October 2022 Common Stock Purchase Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised new money through short-term convertible debentures in December 2022 and early 2023, all maturing in mid-2023.",
+   "numbers": "$750,000 debenture maturing June 12, 2023; $1,250,000 debenture maturing August 1, 2023; Dorado Goose debenture maturing June 13, 2023; conversion price $0.20",
+   "quote": "an unsecured debenture in the principal amount of $1,250,000.",
+   "section": "Item 1 Business \u2013 financing transactions"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In December 2022 holders exercised warrants at $0.20 in exchange for new warrants, bringing in cash.",
+   "numbers": "4,775,000 warrants exercised at $0.20; 4,775,000 new warrants at $0.77",
+   "quote": "in exchange for the immediate exercise of the 4,775,000 warrants at an exercise price of $0.20",
+   "section": "Item 1 Business \u2013 December 2022 Warrant Amendment and Issuance"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Nasdaq delisted the common stock in 2022 because of a shareholder equity deficit; it now trades on the OTCQB under VOCL.",
+   "numbers": "",
+   "quote": "on October 26, 2022, Nasdaq completed the delisting by filing a Form 25 Notification of Delisting with the Securities and Exchange Commission.",
+   "section": "Item 1 Business \u2013 Nasdaq Notice of Delisting"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Risk factors warn that the company may not service its debt and its assets could be foreclosed on.",
+   "numbers": "",
+   "quote": "If we do not have sufficient funds and are otherwise unable to arrange financing, our assets may be foreclosed upon",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Several lawsuits are pending, including a Lind Global breach of contract claim tied to the May 2022 securities purchase agreements and a confession of judgment from a former executive.",
+   "numbers": "Lind Global in excess of $920,000; Weisberg approximately $415,000 plus approximately $5,000 legal fees; Skube $161,000 plus $500,000 punitive",
+   "quote": "seeking damages in excess of $920,000.",
+   "section": "Item 3 Legal Proceedings"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Operating expenses and loss from operations fell in 2022, driven by lower overhead, marketing and stock compensation.",
+   "numbers": "operating expenses $27,718,380 vs $32,368,400; loss from operations $29,031,112 vs $33,368,720; stock-based compensation $4.2 million vs $9.7 million",
+   "quote": "primarily attributable to a significant reduction in overhead, including an almost $5 million reduction in marketing spend and reductions in research and development.",
+   "section": "Item 7 MD&A \u2013 Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Other expenses rose sharply because of debt discount accretion, interest expense and debt extinguishment losses.",
+   "numbers": "other expenses $6,645,203 (2022) vs $4,010,433 (2021)",
+   "quote": "The increase in other expenses was predominantly due to an increase in accretion of debt discount and issuance cost, interest expense, loss of extinguishment of debt, and loss from settlement of vendor liabilities.",
+   "section": "Item 7 MD&A \u2013 Other Expenses"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Net loss to common shareholders narrowed slightly from 2021.",
+   "numbers": "net loss $35,676,315 ($1.66 per share) vs $37,703,652 ($2.98 per share)",
+   "quote": "Net loss attributable to common shareholders for the year ended December 31, 2022, was $35,676,315, or loss per share of $1.66",
+   "section": "Item 7 MD&A \u2013 Net Loss"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states substantial doubt about the company's ability to continue as a going concern for one year.",
+   "numbers": "accumulated deficit $179 million; net loss $20.4 million; net cash used in operating activities $3.2 million (6 months)",
+   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern for a period of one year from the issuance of these financial statements.",
+   "section": "Note 3 \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company says its cash position may not be sufficient to support daily operations and continuing depends on raising additional funds.",
+   "numbers": "",
+   "quote": "its cash position may not be sufficient to support its daily operations.",
+   "section": "Note 3 \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Uninsured cash at June 30, 2023 was zero, meaning cash was at or below insured limits.",
+   "numbers": "uninsured cash $0",
+   "quote": "The uninsured cash balance as of June 30, 2023, was $0.",
+   "section": "Summary of significant accounting policies \u2013 Cash Equivalents"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Most of the six-month net loss is non-cash, mainly stock-based compensation and accretion of debt discount, with no impairments recorded.",
+   "numbers": "net loss $20,421,383; stock based compensation $7,885,751; accretion of debt discount and issuance cost $3,860,225; depreciation and amortization $72,122; currency translation $220,518; derivative expense $13,144",
+   "quote": "Stock-based compensation for stock options has been recorded in the consolidated statements of operations and totaled $7,868,533 for the six months ended June 30, 2023.",
+   "section": "Statement of Cash Flows; stock options note"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "No goodwill or intangible impairments were recorded in the first half of 2023.",
+   "numbers": "impairment charge $0 for intangible assets; goodwill $46,460",
+   "quote": "During the six months ended June 30, 2023, the Company did not acquire any additional goodwill or recognize any additional impairment of goodwill.",
+   "section": "Summary of significant accounting policies \u2013 Goodwill"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Part II Item 3 reports default on senior secured notes from the July 2022 Convertible Note Offering.",
+   "numbers": "$2,250,000 principal in default",
+   "quote": "As of June 30, 2023, the Company is in default on $2,250,000 in principal on senior secured notes from The July 2022 Convertible Note Offering.",
+   "section": "Part II, Item 3. Defaults Upon Senior Securities"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The May 2022 convertible notes, in default since September 2022 with 110% repayment and 18% default interest, remain in default.",
+   "numbers": "110% of principal; 18% interest; $88,368 interest accrued (6 months)",
+   "quote": "The remaining notes are in default as of June 30, 2023.",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The PPP loan, which matured April 30, 2022, is in default and the lender may demand immediate payment or sue.",
+   "numbers": "$198,577 outstanding; $4,924 interest accrued (6 months)",
+   "quote": "As of June 30, 2023, the Loan is in default, and the lender may require immediate payment of all amounts owed under the Loan or file suit and obtain judgment.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Several short-term notes are in default at June 30, 2023, including the Third and Fourth May 2022, Second June 2022, First February 2023 and April 2023 notes.",
+   "numbers": "Third May 2022 $27,604; Fourth May 2022 $45,200; Second June 2022 $104,500; First February 2023 $321,891; April 2023 $130,000 (original principal)",
+   "quote": "As of June 30, 2023, the Loan is in default.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The December 2022, January 2023 and February 2023 convertible notes are in default as of the filing date.",
+   "numbers": "December 2022 note $750,000; January 2023 note $847,500; February 2023 note $1,387,500",
+   "quote": "As of the date of this filing, this note is in default.",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Two high-cost notes past their May 5, 2023 maturity were amended in June 2023 to extend maturity by only months, to October 12, 2023 and December 31, 2023.",
+   "numbers": "Second September 2022 Note $876,000 at 100%, extended to December 31, 2023; Third September 2022 Note 143%, extended to October 12, 2023",
+   "quote": "On June 23, 2023, the Company and the Second September 2022 Lender executed an agreement amending the payment terms and extending the Second September 2022 Maturity Date to December 31, 2023.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company relies on very high-cost loans secured by officers with weekly payments.",
+   "numbers": "Second August 2022 Note $923,000, flat interest fee $310,500, 167% effective rate, weekly payment $46,150",
+   "quote": "the Second August 2022 Note has a flat interest fee of $310,500, for an effective interest rate of 167%.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The company kept paying down debt in cash, including $1.5 million of July 2022 convertible notes and the November 2022 note in full.",
+   "numbers": "July 2022 notes repaid $1,500,000; Second August 2022 repaid $355,000; Second September 2022 repaid $197,000; Third September 2022 repaid $193,000",
+   "quote": "During the six months ended June 30, 2023, the Company repaid $1,500,000 in principal.",
+   "section": "Note 5 and Note 6 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Lenders converted convertible debt into stock, reducing debt.",
+   "numbers": "Third October 2022 note $866,650 into 4,333,250 shares; December 2022 note $500,000 into 2,500,000 shares",
+   "quote": "Third October 2022 Lender converted the remaining balance of $866,650 into 4,333,250 shares of the Company\u2019s common stock.",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After June 30 the company raised new loans, including convertible notes and an Australian R&D-credit-secured loan.",
+   "numbers": "$300,000 note at 10% with 2,250,000 commitment shares; $261,250 note at 12%; $143,000 note at 10%; AUD 175,000 note maturing September 14, 2023; $13,000 note maturing September 30, 2023",
+   "quote": "Subsequent to June 30, 2023, the Company entered into a loan agreement with a lender whereby the lender issued the Company a promissory note of $300,000.",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The new post-quarter notes carry heavy monthly payments starting in late 2023 and default conversion at deep discounts to a very low share price.",
+   "numbers": "$300,000 note monthly payments $47,143 from December 2023; $261,250 note monthly payments $45,417 from October 2023, default conversion at lower of $0.04 or 75% of lowest price; 6,531,250 warrants at $0.04",
+   "quote": "Upon an event of default, the note is convertible into the Company\u2019s common stock at the lower of $0.04 per share or a price equal to 75% of the lowest trading price",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "management",
+   "direction": "against",
+   "finding": "The CEO, Jeremy Frommer, lent the company money through a convertible note at 18% due December 23, 2023.",
+   "numbers": "$86,100; 18% effective rate; maturity December 23, 2023; conversion $0.20",
+   "quote": "with Jeremy Frommer, the Company\u2019s CEO, whereby the Mr. Frommer issued the Company a promissory note of $86,100",
+   "section": "Note 6 \u2013 Convertible Notes Payable; Note 7 \u2013 Related Party"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "A new CFO was appointed in May 2023 and the prior CFO moved to another role in the company.",
+   "numbers": "",
+   "quote": "On May 18, 2023, the Board appointed Mr. Eric Pickens as the Chief Financial Officer of the Company, effective May 22, 2023.",
+   "section": "MD&A \u2013 Appointment of new Chief Financial Officer"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Loss from operations grew in the first half of 2023, which management attributes to stock compensation and one-time expenses, and it expects losses to decrease.",
+   "numbers": "loss from operations $16,424,252 (6 months 2023) vs $15,003,008 (6 months 2022)",
+   "quote": "Going forward, the Company expects the loss from operations to decrease significantly as it focuses on organic revenue growth and continues to find efficiencies to reduce operating expenses.",
+   "section": "MD&A \u2013 Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Other expenses jumped because of accretion of debt discount from new promissory and convertible notes.",
+   "numbers": "other expenses $(3,997,131) (6 months 2023) vs $(583,278) (6 months 2022)",
+   "quote": "These expenses were predominantly due to accretion of debt discount and issuance costs related to the issuance of additional promissory and convertible notes.",
+   "section": "MD&A \u2013 Other Income and (Expenses)"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The common stock was delisted from Nasdaq in 2022 because of a shareholder equity deficit and trades on OTC markets under VOCL.",
+   "numbers": "",
+   "quote": "on October 26, 2022, Nasdaq completed the delisting by filing a Form 25 Notification of Delisting with the Securities and Exchange Commission.",
+   "section": "Commitments and Contingencies \u2013 Nasdaq Notice of Delisting"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The company faces several lawsuits, including a Lind Global breach of contract claim and a former executive's confession of judgment.",
+   "numbers": "Lind Global in excess of $920,000; Weisberg approximately $415,000 plus approximately $5,000 legal fees (liability not expected to exceed $420,000); Skube $161,000 plus $500,000 punitive",
+   "quote": "seeking to enforce payment of approximately $415,000 under an executive separation agreement also dated September 2, 2022.",
+   "section": "Commitments and Contingencies \u2013 Litigation"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is in breach of several office leases.",
+   "numbers": "Miami Beach lease total $181,299; New York lease monthly rent $12,955",
+   "quote": "As of March 31, 2023, the company is in breach of this lease agreement.",
+   "section": "Commitments and Contingencies \u2013 Leases"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The going concern note states substantial doubt about the company's ability to continue for one year, citing a large accumulated deficit, the quarterly net loss and operating cash burn.",
+   "numbers": "accumulated deficit $168.3 million; net loss $16.0 million; net cash used in operating activities $2.9 million (three months ended March 31, 2023)",
+   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern for a period of one year from the issuance of these financial statements.",
+   "section": "Note 3 \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management states its cash position may not be sufficient to support daily operations and that continuing depends on raising additional funds, with no assurance it can do so.",
+   "numbers": "",
+   "quote": "however, its cash position may not be sufficient to support its daily operations.",
+   "section": "Note 3 \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating activities used cash in the quarter, and a large part of the gap was funded by letting accounts payable and accrued liabilities grow.",
+   "numbers": "net cash used in operating activities $(2,858,058); increase in accounts payable and accrued liabilities $3,605,990",
+   "quote": "Net Cash Used In Operating Activities",
+   "section": "Statement of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "More than half of the quarterly net loss was non-cash, mainly share-based compensation and accretion of debt discount, and management calls the operating loss driven by stock compensation and one-time expenses.",
+   "numbers": "net loss $(15,955,525); share-based compensation $7,291,231; accretion of debt discount and issuance cost $2,155,159; depreciation and amortization $9,406",
+   "quote": "primarily due to stock-based compensation and other one-time expenses",
+   "section": "Statement of Cash Flows; MD&A \u2013 Loss from Operations"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Operating expenses roughly doubled year over year, mainly from stock awards to employees and officers who accepted reduced salaries, partly offset by lower marketing and G&A.",
+   "numbers": "operating expenses $13,685,073 vs $6,785,852; increase $6,899,221; loss from operations $13,711,615 vs $7,009,284",
+   "quote": "The increase of $6,899,221 in operating expenses is mainly related to an increase in stock-based compensation for the award of shares to employees and officers of the Company",
+   "section": "MD&A \u2013 Operating Expenses"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The forward-looking risk list says operating expenses exceed revenues and will likely keep doing so for the foreseeable future.",
+   "numbers": "",
+   "quote": "our operating expenses exceed our revenues and will likely continue to do so for the foreseeable future;",
+   "section": "Forward-looking statements"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Other expenses for the quarter were mostly accretion of debt discount and issuance costs on convertible notes, a non-cash charge reflecting costly financing.",
+   "numbers": "other income (expenses) $(2,243,910) vs $128,236",
+   "quote": "These expenses were predominantly due to accretion of debt discount and issuance costs related to the issuance of convertible notes.",
+   "section": "MD&A \u2013 Other Income and (Expenses)"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The PPP loan matured in April 2022 and is in default, and the lender may demand immediate payment or sue.",
+   "numbers": "principal $198,577; original loan $282,432; matured April 30, 2022",
+   "quote": "As of March 31, 2023, the Loan is in default, and the lender may require immediate payment of all amounts owed under the Loan or file suit and obtain judgment.",
+   "section": "Note 5 \u2013 Notes Payable (PPP Loan)"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Several short-term merchant-style loans that matured in late 2022 are in default (Third May 2022, Fourth May 2022 and Second June 2022 notes).",
+   "numbers": "Third May 2022 Note $27,604 (matured November 23, 2022); Fourth May 2022 Note $45,200 (matured November 23, 2022); Second June 2022 Note $104,500 (matured October 15, 2022)",
+   "quote": "As of March 31, 2023, this note is in default.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The Second and Third September 2022 notes, which carry very high effective rates, weekly payments and officer guarantees, are in default, although the company kept making partial repayments after quarter end.",
+   "numbers": "Second September 2022 Note $876,000, effective rate 100%, weekly payment $27,375, repaid $105,000 in Q1 and $42,000 after; Third September 2022 Note $365,000, effective rate 143%, weekly payment $13,036, repaid $135,000 in Q1 and $30,000 after; both matured May 5, 2023",
+   "quote": "The Company is required to make weekly payment of $27,375. The Second September 2022 Note is secured by officers of the Company.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company relies on extremely expensive short-term financing, for example the Second August 2022 Note with a 167% effective rate and weekly payments, guaranteed by officers.",
+   "numbers": "Second August 2022 Note $923,000; flat interest fee $310,500; effective rate 167%; weekly payment $46,150; repaid $295,000 in Q1 2023",
+   "quote": "the Second August 2022 Note has a flat interest fee of $310,500, for an effective interest rate of 167%.",
+   "section": "Note 5 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The May 2022 convertible notes went into default on September 2, 2022, triggering 110% repayment and 18% default interest, and the remaining notes are still in default.",
+   "numbers": "May 2022 offering $4,000,000; default owes 110% of principal; default interest 18%; $43,940 interest accrued in Q1 2023",
+   "quote": "As part of the default terms the Company owes 110% of the principal outstanding and the notes accrue interest at a rate of 18%.",
+   "section": "Note 6 \u2013 Convertible Notes Payable (May 2022 Offering)"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "After the September 2022 default, most May 2022 and all July 2022 investors forgave default interest and extended maturity only to March 31, 2023, with the conversion price cut to $0.20; the remaining May 2022 notes are again in default.",
+   "numbers": "extended maturity March 31, 2023; conversion price reduced to $0.20; loss on extinguishment $1,083,684 and $339,594; gain on forgiveness $331,861 and $230,162",
+   "quote": "On September 15, 2022, the Company and six out of eight lenders May 2022 Investors agreed to forgive default interest and extend the maturity date to March 31, 2023",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The July 2022 convertible notes are in default as of the filing date despite a large principal repayment in the quarter.",
+   "numbers": "July 2022 offering $2,150,000; repaid $1,500,000 in Q1 2023",
+   "quote": "As of the date of this filing, this loan is in default.",
+   "section": "Note 6 \u2013 Convertible Notes Payable (July 2022 Offering)"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The December 2022 convertible note, which matured April 24, 2023, is in default as of the filing date after partial conversion into stock.",
+   "numbers": "December 2022 Note $750,000; $500,000 converted into 2,500,000 shares",
+   "quote": "As of the date of this filing, this note is in default.",
+   "section": "Note 6 \u2013 Convertible Notes Payable (December 2022 Loan Agreement)"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Large convertible debentures from January and February 2023 come due in mid-2023, inside a few weeks of the filing, plus Australian R&D-secured loans due June 30, 2023.",
+   "numbers": "January 2023 Note $847,500 due June 13, 2023; February 2023 Note $1,387,500 due June 13, 2023; First February 2023 Note $321,891 due June 30, 2023; First August 2022 Note $134,070 due June 30, 2023",
+   "quote": "The maturity date of the January 2023 Note is June 13, 2023",
+   "section": "Note 5 and Note 6 \u2013 Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Some convertible debt was retired by conversion into shares at $0.20 rather than cash.",
+   "numbers": "Third October 2022 Note: $866,650 converted into 4,333,250 shares; December 2022 Note: $500,000 converted into 2,500,000 shares",
+   "quote": "the Third October 2022 Lender converted the remaining balance of $866,650 into 4,333,250 shares of the Company\u2019s common stock.",
+   "section": "Note 6 \u2013 Convertible Notes Payable"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "Part II Item 3 states there has been no default on any indebtedness, which conflicts with the multiple defaults disclosed in the debt notes.",
+   "numbers": "",
+   "quote": "There has been no default in the payment of principal, interest, sinking or purchase fund installment, or any other material default, with respect to any indebtedness of the Company.",
+   "section": "Part II, Item 3 \u2013 Defaults Upon Senior Securities"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "After quarter end the company raised only small amounts: a new $109,250 convertible note at a 65% conversion discount and an equity line draw of $91,016, which also triggered a make-whole share issuance.",
+   "numbers": "note $109,250 at 10%, due April 24, 2024; ELOC 1,409,841 shares for $91,016; make-whole 2,729,522 shares; consultant shares 675,000 valued $76,950",
+   "quote": "issued 1,409,841 shares for total proceeds of $91,016",
+   "section": "Note 14 \u2013 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The common stock was delisted from Nasdaq for a shareholder equity deficit and now trades on the OTCQB, with the symbol changed to VOCL in April 2023.",
+   "numbers": "trading suspended September 7, 2022; Form 25 filed October 26, 2022",
+   "quote": "on October 26, 2022, Nasdaq completed the delisting by filing a Form 25 Notification of Delisting with the Securities and Exchange Commission.",
+   "section": "Commitments and Contingencies \u2013 Nasdaq Notice of Delisting"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The company faces creditor lawsuits, including a breach-of-contract claim by Lind Global, a confession of judgment by former CEO Laurie Weisberg for unpaid severance, and the Skube claim.",
+   "numbers": "Lind Global damages in excess of $920,000; Weisberg approximately $415,000 plus about $5,000 legal fees, liability not expected to exceed $420,000; Skube $161,000 plus $500,000 punitive",
+   "quote": "seeking damages in excess of $920,000",
+   "section": "Commitments and Contingencies \u2013 Legal Proceedings"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is in breach of several office leases (Miami Beach, New York), and settled to end the Westmount lease.",
+   "numbers": "Miami Beach lease total $181,299; New York monthly rent $12,955; Westmount lease total $72,064",
+   "quote": "As of March 31, 2023, the company is in breach of this lease agreement.",
+   "section": "Commitments and Contingencies \u2013 Leases"
+  },
+  {
+   "filing": "10-Q filed 2023-05-18",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Goodwill was impaired in fiscal 2022 for several reporting units, with no further goodwill or intangible impairment in Q1 2023.",
+   "numbers": "goodwill impairment $1,433,815 for 2022; $0 impairment in Q1 2023; goodwill $46,460 at March 31, 2023",
+   "quote": "the Company recorded an impairment charge of $1,433,815 for goodwill for the years ended December 31, 2022.",
+   "section": "Note 2 \u2013 Goodwill"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The company filed an NT 10-Q for the September 30, 2023 quarter because it had not finished its financial statements and the auditor needed more time for its review.",
+   "numbers": "due date November 14, 2023; expected within five calendar days",
+   "quote": "due to a delay experienced by the Registrant in completing its financial statements and other disclosures in the Quarterly Report.",
+   "section": "NT 10-Q filed 2023-11-15, Part III"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "Late-filing notices are a recurring pattern: NT 10-Q for Q3 2022, NT 10-K for fiscal 2022, NT 10-Q for Q1 2023 and NT 10-Q for Q3 2023, each citing delays in completing financial statements.",
+   "numbers": "NT 10-Q 2022-11-14; NT 10-K 2023-03-31; NT 10-Q 2023-05-15; NT 10-Q 2023-11-15",
+   "quote": "to file its Annual Report on Form 10-K for the year ended December 31, 2022",
+   "section": "NT 10-K filed 2023-03-31, Part III"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The 8-K on the auditor change states the prior auditor's report on the 2022 financial statements expressed substantial doubt about going concern.",
+   "numbers": "",
+   "quote": "The audit report of RRBB on the financial statements as of December 31, 2022 expressed substantial doubt about the Company\u2019s ability to continue as a going concern.",
+   "section": "8-K filed 2023-05-03, Item 4.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The company dismissed auditor RRBB in April 2023 and engaged Turner Stone, reporting no disagreements with the prior auditor.",
+   "numbers": "dismissal April 27, 2023; engagement May 1, 2023",
+   "quote": "approved the dismissal of Rosenberg Rich Baker Berman, P.A. (\u201cRRBB\u201d) as the Company\u2019s independent registered public accounting firm.",
+   "section": "8-K filed 2023-05-03, Item 4.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "In October 2023 a debenture holder agreed to extend the December 2022, January 2023 and February 2023 debentures to February 28, 2024 and allow prepayment without penalty.",
+   "numbers": "remaining balance $2,485,000; new maturity February 28, 2024; 5,000,000 shares issued as consideration",
+   "quote": "extend the maturity dates for the Debentures, which have a cumulative remaining balance of $2,485,000, to February 28, 2024",
+   "section": "8-K filed 2023-11-01, Item 1.01 (Restructuring Agreement)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "As part of the same restructuring, the conversion price of the debentures and the warrant exercise price were cut from $0.20 to $0.025, a heavy repricing that implies large dilution.",
+   "numbers": "conversion and exercise price reduced to $0.025 (from $0.20)",
+   "quote": "reduce the conversion price of the Debentures down to $0.025",
+   "section": "8-K filed 2023-11-01, Item 1.01 (Restructuring Agreement)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "Holders of the May 2022 and July 2022 debentures, which had previously defaulted and been extended to March 31, 2023, agreed in October 2023 to a further extension to February 28, 2024.",
+   "numbers": "remaining balance $2,267,140 including interest and fees; new maturity February 28, 2024",
+   "quote": "agreed to extend the maturity dates for the Debentures, which have a cumulative remaining balance of $2,267,140 including interest and fees, to February 28, 2024.",
+   "section": "8-K filed 2023-11-01, Item 1.01 (Extension Agreements)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Both sets of extended debentures now fall due on the same date, February 28, 2024, only a few months away, leaving about $4.75 million due at once.",
+   "numbers": "$2,485,000 + $2,267,140 due February 28, 2024",
+   "quote": "",
+   "section": "8-K filed 2023-11-01, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company settled the former executive's severance claim for little cash plus shares, and the executive agreed to rescind the confession of judgment.",
+   "numbers": "liability $405,208 settled for $75,000 cash and 5,753,472 shares",
+   "quote": "The Company and Executive agreed to settle the outstanding liability of $405,208 in exchange for $75,000 in cash payment and 5,753,472 shares of the Company\u2019s common stock.",
+   "section": "8-K filed 2023-11-01, Item 1.01 (Settlement Agreement)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "The company sold its Brave and Basis brands, with the buyer assuming liabilities, in exchange for a 7.5% stake and 7.5% of cash receipts from the inventory.",
+   "numbers": "approximately $215,000 liabilities assumed; $38,750 cancelled; 7.5% membership interest; 7.5% of cash receipts",
+   "quote": "In addition to the assumption of approximately $215,000 in liabilities and the cancellation of an additional $38,750, the Company received a 7.5% membership interest in the acquiring entity",
+   "section": "8-K filed 2023-11-01, Item 1.01 (Assignment and Assumption Agreement)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The board rescinded a February 2023 restricted share allocation to officers and directors, eliminating the related payroll tax liability.",
+   "numbers": "21,398,080 shares rescinded; payroll tax liability of $2,071,245 eliminated",
+   "quote": "This class consisted of 21,398,080 shares and was previously approved by the Board on February 8, 2023, eliminating the corresponding liability of $2,071,245 for the payroll taxes on this issuance.",
+   "section": "8-K filed 2023-11-01, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The CFO resigned in October 2023 after about seven months and the CEO and Chairman also took the CFO role; the previous CFO had been replaced in May 2023.",
+   "numbers": "CFO resignation October 12/16, 2023; Frommer appointed CFO October 16, 2023; prior CFO replaced May 18, 2023",
+   "quote": "the Board appointed Mr. Jeremy Frommer as the Chief Financial Officer of the Company, effective October 16, 2023.",
+   "section": "8-K filed 2023-11-01, Item 5.02; 8-K filed 2023-05-22, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The CEO personally lent the company money in June 2023, a small insider loan at a high rate that is due in December 2023.",
+   "numbers": "$86,100; effective rate 18%; maturity December 23, 2023",
+   "quote": "the June 2023 Note has an effective interest rate of 18%. The maturity date of the June 2023 Note is December 23, 2023",
+   "section": "8-K filed 2023-11-01, Item 5.02 (Related Party Transactions)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "In January and February 2023 the company raised new money from Dorado Goose through short-dated original issue discount convertible debentures maturing June 13, 2023, plus a $250,000 sale of shares in subsidiary OG Collection.",
+   "numbers": "January 2023: $1,500,000 for $847,500 debenture and 1,562,500 shares; February 2023: $1,250,000 for $1,387,500 debenture (11% OID); OG shares $250,000; conversion price $0.20",
+   "quote": "the Investor purchased from the Company for an aggregate of $1,250,000 in subscription amount, an original issue discount senior convertible debenture in the principal amount of $1,387,500",
+   "section": "8-K filed 2023-02-10 and 8-K filed 2023-01-20, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Proceeds of the October 2022 debenture were partly diverted to pay earlier May and July 2022 debenture investors, and the company agreed to pay them the greater of $750,000 or 50% of a later financing.",
+   "numbers": "$1,500,000 for $1,666,650 debenture due April 24, 2023; $750,000 paid to prior investors; further greater of $750,000 and 50% of gross proceeds",
+   "quote": "the Company\u2019s payment of $750,000 of the proceeds from the sale of the Debenture to the May Investors and July Investors on a pro rata basis",
+   "section": "8-K filed 2022-10-25, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The September 2022 restructuring of the May and July 2022 debentures capped cash burn and granted holders a first-priority security interest in all company and subsidiary assets.",
+   "numbers": "cash burn cap $600,000 per month (up to $150,000 more for marketing with consent); maturity extended to March 31, 2023; conversion price $0.20",
+   "quote": "require that the Company\u2019s cash burn rate not exceed $600,000 per month",
+   "section": "8-K filed 2022-09-19, Item 1.01 (Restructuring Agreement)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The debenture holders hold a first-priority lien on all assets, backed by subsidiary guarantees.",
+   "numbers": "",
+   "quote": "whereby the Company granted a first priority security interest in all of their respective assets to the Holders",
+   "section": "8-K filed 2022-09-19, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "In September 2022 the company raised a small registered direct offering at $0.20 per share with matching warrants.",
+   "numbers": "$800,000 gross proceeds; 4,000,000 shares; 4,000,000 warrants at $0.20",
+   "quote": "resulting in the raise of $800,000 in gross proceeds to the Company",
+   "section": "8-K filed 2022-09-19, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Nasdaq decided to delist the stock for a shareholder equity deficit, with trading moving to OTC Markets from September 7, 2022.",
+   "numbers": "letter September 2, 2022; suspension September 7, 2022",
+   "quote": "the Nasdaq Hearings Panel (the \u201cPanel\u201d) has determined to delist the Company\u2019s common stock from the Exchange",
+   "section": "8-K filed 2022-09-06, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The CEO resigned for good reason in September 2022 under a severance deal backed by a confession of judgment; several directors also resigned in late 2022, though none cited a disagreement.",
+   "numbers": "severance $475,000; director resignations September 21, November 1 and November 17, 2022",
+   "quote": "the Company will pay to the severance in the aggregate amount of $475,000",
+   "section": "8-K filed 2022-09-09, Items 1.01 and 5.02; 8-Ks filed 2022-09-26, 2022-11-07, 2022-11-18"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The original May and July 2022 debentures that later defaulted were short six-month OID notes with warrants, maturing November 30, 2022.",
+   "numbers": "May 2022: $3,600,036 for $4,000,000 debentures; July 2022: $1,935,019 for $2,150,000 debentures; 10% OID; maturity November 30, 2022",
+   "quote": "have a term of six months with a maturity date of November 30, 2022",
+   "section": "8-K filed 2022-06-03 and 8-K filed 2022-07-29, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "In February 2023 the board approved large equity awards, cash bonuses and housing stipends for executives while the company was in financial distress (the share allocation was later rescinded).",
+   "numbers": "10,692,308 shares to CEO, 5,894,788 to COO, 1,663,223 to CFO; bonuses $125,000, $62,500, $31,250; housing stipends $6,300 monthly",
+   "quote": "In addition, each of Jeremy Frommer and Justin Maury will receive monthly housing stipends in the amount of $6,300",
+   "section": "8-K filed 2023-02-10, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Shareholders approved an increase in authorized stock and a reverse stock split at the January 2023 annual meeting.",
+   "numbers": "authorized stock increase 73% for; reverse split 74% for",
+   "quote": "Amendment to our Articles of Incorporation to Effect a Reverse Stock Split:",
+   "section": "8-K filed 2023-01-20, Item 5.07"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "liability",
+   "direction": "toward",
+   "finding": "The working capital deficit at September 30, 2023 grew by about $7.6 million from year-end, mainly from lower cash and higher accounts payable and accrued liabilities.",
+   "numbers": "$21,329,846 at 9/30/2023 vs $13,728,152 at 12/31/2022; increase $7,601,694",
+   "quote": "As of September 30, 2023, the Company had a working capital deficit of $21,329,846 as compared to a working capital deficit of $13,728,152 at December 31, 2022",
+   "section": "MD&A, Liquidity (working capital)"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The working capital deficit widened in every quarter of 2023, showing a steady build-up of current liabilities.",
+   "numbers": "$16,830,081 (3/31/2023); $20,023,839 (6/30/2023); $21,329,846 (9/30/2023)",
+   "quote": "As of June 30, 2023, the Company had a working capital deficit of $20,023,839 as compared to a working capital deficit of $13,728,152 at December 31, 2022",
+   "section": "MD&A, Liquidity (working capital)"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Nine-month operating cash burn fell sharply from the prior year. Against the six-month figure, it implies only about $0.19 million used in Q3 2023, though this was helped by unpaid payables building up.",
+   "numbers": "9M 2023 operating cash used $3,384,288, improvement of $10,335,705; 6M 2023 $3,190,572",
+   "quote": "Net cash used in operating activities for the nine months ended September 30, 2023, was $3,384,288, an improvement of $10,335,705 from the same period in 2022.",
+   "section": "MD&A, Net Cash"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The Second May 2023 Note is another short-term loan with monthly amortization, due February 28, 2024, and converts at a deep discount after a default.",
+   "numbers": "$86,250 note; 10% interest; 9 monthly payments of $11,021 from June 30, 2023; $16,250 debt discount; default conversion at 61% of lowest trading price",
+   "quote": "The maturity date of the Second May 2023 Note is February 28, 2024",
+   "section": "Notes to financial statements, Notes payable"
+  },
+  {
+   "filing": "8-K filed 2023-11-01",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The two October 2023 debenture deals (restructuring and extension agreements) both mature February 28, 2024, with stated balances that create a large maturity concentration.",
+   "numbers": "$2,485,000 (Restructuring Agreement) and $2,267,140 including interest and fees (Extension Agreements), both due February 28, 2024",
+   "quote": "extend the maturity dates for the Debentures, which have a cumulative remaining balance of $2,267,140 including interest and fees, to February 28, 2024.",
+   "section": "Item 1.01"
+  },
+  {
+   "filing": "10-Q filed 2023-11-15",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The court denied the company's motion to dismiss the Lind Global breach-of-contract suit, which seeks over $920,000, so the claim is proceeding.",
+   "numbers": "damages in excess of $920,000",
+   "quote": "The Company filed a Motion to Dismiss, which was denied. The Company then submitted an Answer.",
+   "section": "Notes to financial statements, Commitments and contingencies (litigation)"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The 10-K risk factors say the company expects to need more capital within 12 months and that its assets could be foreclosed on if it cannot arrange financing.",
+   "numbers": "",
+   "quote": "We expect that we will need to raise additional capital within the next 12 months.",
+   "section": "Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The working capital deficit jumped during 2022, and operating cash burn for the year was large compared with available funding.",
+   "numbers": "WC deficit $13,728,152 (12/31/2022) vs $945,773 (12/31/2021); operating cash used $16,805,429 (2022) and $20,518,807 (2021); net loss $35,676,315 (2022)",
+   "quote": "Net cash used in operating activities for the year ended December 31, 2022, and 2021, was $16,805,429 and $20,518,807, respectively.",
+   "section": "MD&A, Liquidity"
+  },
+  {
+   "filing": "10-K filed 2023-04-19",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Share-based payments were a stated non-cash add-back to the 2022 net loss.",
+   "numbers": "share-based payments $4,183,844",
+   "quote": "share-based payments in the amount of $4,183,844 to employees and consultants for services rendered",
+   "section": "MD&A, Net Cash"
+  },
+  {
+   "filing": "10-Q filed 2023-08-14",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Net losses in 2023 ran well above the prior year in the first quarter and first half.",
+   "numbers": "Q1 2023 net loss $15,955,525 vs $6,881,048; 6M 2023 net loss $20,421,383 vs $15,586,286",
+   "quote": "The net loss for the six months ended June 30, 2023, and 2022 was $20,421,383 and $15,586,286, respectively.",
+   "section": "MD&A, Net Cash"
+  }
+ ],
+ "read_rounds": 2,
+ "more": {
+  "done": true,
+  "why": "The read filings already show a consistent, well-documented picture of going-concern doubt, widespread defaults, a lien on all assets, about $4.75M due February 28, 2024, and only tiny, highly dilutive financing; the unread filings are mostly mid-2023 press-release 8-Ks and older 2021\u20132022 reports that would not change this view.",
+  "searches": [],
+  "older_filings": []
+ },
+ "assessment": {
+  "answer": "The score sits in the 0.5-0.7 band mainly because net income is extremely negative against a tiny asset base (annualized -$31.0M against $2.9M of assets, 5th peer percentile) and liabilities are 8.2x assets. Two inputs likely held it below 0.7: operating cash burn improved sharply, and the annualized loss is no worse than a year earlier. The filings show distress well beyond what those 8 numbers capture. The company had $6,759 of cash, was in default on most of its notes and its PPP loan, and owes about $4.75M of debentures on February 28, 2024. Its recent raises were only tens of thousands of dollars.",
+  "verdict": "real risk",
+  "own_risk": "high",
+  "own_risk_pct": 20,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "Cash of $6,759 at 9/30/2023 against a working capital deficit of $21.3M, so there is essentially no liquidity buffer",
+   "Widespread payment defaults: July 2022 senior secured notes ($2.27M principal), May 2022 notes, PPP loan, many merchant-style notes, and the Dec 2022, Jan 2023 and Feb 2023 debentures",
+   "About $4.75M of debentures ($2,485,000 + $2,267,140) now fall due together on February 28, 2024, with no visible way to pay",
+   "New monthly amortization from Nov/Dec 2023 (about $47k + $45k + $11k per month) that current cash cannot cover",
+   "Post-quarter financing was tiny and at sub-2-cent prices ($75,000 equity line draw, $20,500 PIPE, $100,000 note), and conversion prices were cut to $0.025",
+   "Secured debenture holders have a first-priority lien on all assets, and the Lind Global suit (>$920k) is proceeding after the motion to dismiss was denied",
+   "Late-filing pattern, and the CFO resigned in October 2023 with the CEO taking over the role"
+  ],
+  "reasons": [
+   {
+    "reason": "Net loss is roughly 10x total assets, the single most important model input and among the worst of its peers",
+    "kind": "model input",
+    "numbers": "net income -$31.0M annualized (-$23.3M for 9 months) vs total assets $2.9M; -1073% of assets",
+    "peer_comparison": "5th percentile of 23 peers",
+    "quote": "",
+    "source": "10-Q, 2023-11-15, financial statements"
+   },
+   {
+    "reason": "The balance sheet is deeply insolvent and nearly all liabilities are current",
+    "kind": "model input",
+    "numbers": "total liabilities $23.6M vs assets $2.9M (8.16x); current liabilities $21.7M vs current assets $0.4M (current ratio 0.02)",
+    "peer_comparison": "peer median liabilities/assets 0.85 and current ratio 0.35; this company is at the 81st-82nd percentile for liabilities",
+    "quote": "As of September 30, 2023, the Company had a working capital deficit of $21,329,846 as compared to a working capital deficit of $13,728,152 at December 31, 2022",
+    "source": "10-Q, 2023-11-15, MD&A Liquidity"
+   },
+   {
+    "reason": "Cash is effectively zero. Even at the low Q3 burn of $0.06M a month it covers about 0.1 months, and that ignores debt payments. The low Q3 burn was itself flattered by unpaid bills piling up",
+    "kind": "from the filings",
+    "numbers": "cash $6,759; months of cash 0.02 at the 9-month burn, 0.1 at the last-quarter burn; payables and accrued expenses up $5.9M over 9 months",
+    "peer_comparison": "",
+    "quote": "its cash position may not be sufficient to support its daily operations.",
+    "source": "10-Q, 2023-11-15, Note 3 Going Concern"
+   },
+   {
+    "reason": "Senior secured notes are in payment default and accruing default interest",
+    "kind": "from the filings",
+    "numbers": "$2,265,447 principal in default; 18% default interest, $334,296 accrued",
+    "peer_comparison": "",
+    "quote": "As of September 30, 2023, the Company is in default on $2,265,447 in principal on senior secured notes from The July 2022 Convertible Note Offering.",
+    "source": "10-Q, 2023-11-15, Part II Item 3"
+   },
+   {
+    "reason": "The PPP loan and a long list of high-cost short-term notes are in default. Lenders can demand immediate payment or sue",
+    "kind": "from the filings",
+    "numbers": "PPP $198,577; Second August 2022 Note $923,000 at 167%; other notes from $13k to $322k",
+    "peer_comparison": "",
+    "quote": "As of September 30, 2023, the Loan is in default, and the lender may require immediate payment of all amounts owed under the Loan or file suit and obtain judgment.",
+    "source": "10-Q, 2023-11-15, Note 5 Notes Payable"
+   },
+   {
+    "reason": "Debt maturities are bunched into a single near-term date that cash cannot cover",
+    "kind": "from the filings",
+    "numbers": "$2,485,000 + $2,267,140 due February 28, 2024",
+    "peer_comparison": "",
+    "quote": "extend the maturity dates for the Debentures, which have a cumulative remaining balance of $2,267,140 including interest and fees, to February 28, 2024.",
+    "source": "8-K, 2023-11-01, Item 1.01"
+   },
+   {
+    "reason": "New loans add monthly cash demands starting within weeks of the filing",
+    "kind": "from the filings",
+    "numbers": "$47,142.85 per month from Dec 11, 2023; $45,416.67 per month from Nov 30, 2023; $11,021 per month to Feb 2024",
+    "peer_comparison": "",
+    "quote": "The Principal Amount and the Guaranteed Interest shall be due and payable in seven equal monthly payments (each, a \u201cMonthly Payment\u201d) of $47,142.85, commencing on December 11, 2023",
+    "source": "10-Q, 2023-11-15, Note 5"
+   },
+   {
+    "reason": "The secured lenders hold a lien on everything, which makes a foreclosure or court-supervised outcome plausible if the February 2024 maturity is missed",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "whereby the Company granted a first priority security interest in all of their respective assets to the Holders",
+    "source": "8-K, 2022-09-19, Item 1.01"
+   },
+   {
+    "reason": "Going concern doubt is stated in every 2023 filing, and the auditor flagged it for fiscal 2022",
+    "kind": "from the filings",
+    "numbers": "accumulated deficit $190.5M",
+    "peer_comparison": "",
+    "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern for a period of one year from the issuance of these financial statements.",
+    "source": "10-Q, 2023-11-15, Note 3"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "Lenders keep extending rather than enforcing. Both debenture groups agreed in October 2023 to push maturities to February 28, 2024",
+    "quote": "extend the maturity dates for the Debentures, which have a cumulative remaining balance of $2,485,000, to February 28, 2024",
+    "source": "10-Q 2023-11-15 Note 14; 8-K 2023-11-01"
+   },
+   {
+    "point": "Operating cash burn fell sharply. The 9-month burn was $3.4M against $13.7M a year earlier, and Q3 alone used only about $0.2M",
+    "quote": "Net cash used in operating activities for the nine months ended September 30, 2023, was $3,384,288, an improvement of $10,335,705 from the same period in 2022.",
+    "source": "10-Q, 2023-11-15, MD&A"
+   },
+   {
+    "point": "A large part of the loss is non-cash. Stock compensation of $8.3M plus debt discount accretion of $4.3M means the cash-adjusted 9-month loss was -$14.9M, and about 36% of the loss was non-cash",
+    "quote": "Stock-based compensation for stock options has been recorded in the consolidated statements of operations and totaled $8,283,267 for the nine months ended September 30, 2023.",
+    "source": "10-Q, 2023-11-15, stock options note"
+   },
+   {
+    "point": "Some liabilities are being cut without cash. Debt is converting to equity, a $2.07M payroll tax liability was eliminated, a $405k severance claim was settled mostly in shares, and Brave and Basis liabilities were shed in a brand sale",
+    "quote": "The Company and Executive agreed to settle the outstanding liability of $405,208 in exchange for $75,000 in cash payment and 5,753,472 shares of the Company\u2019s common stock.",
+    "source": "8-K, 2023-11-01, Item 1.01"
+   },
+   {
+    "point": "Small OTC companies in this condition often dilute, go dark or wind down informally rather than file Chapter 7 or 11, and those outcomes do not count as bankruptcy here",
+    "quote": "",
+    "source": "inference"
+   },
+   {
+    "point": "The company still has access to an equity line and the CEO is lending it money",
+    "quote": "the Company drew down from its outstanding Equity Line of Credit and issued 4,242,322 shares for total proceeds of $75,000.",
+    "source": "10-Q, 2023-11-15, Note 14"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2022-09-02",
+    "event": "May 2022 convertible notes go into default; Nasdaq panel decides to delist the stock"
+   },
+   {
+    "date": "2022-09-19",
+    "event": "Restructuring Agreement grants a first-priority lien on all assets and caps cash burn at $600k a month"
+   },
+   {
+    "date": "2022-10-26",
+    "event": "Nasdaq delisting completed; stock moves to OTC"
+   },
+   {
+    "date": "2023-04-19",
+    "event": "10-K filed with auditor going concern paragraph"
+   },
+   {
+    "date": "2023-05-03",
+    "event": "8-K reports auditor change from RRBB to Turner Stone"
+   },
+   {
+    "date": "2023-06-23",
+    "event": "Second September 2022 Note extended to December 31, 2023"
+   },
+   {
+    "date": "2023-09-30",
+    "event": "Quarter end: cash $6,759; working capital deficit $21.3M; multiple notes in default"
+   },
+   {
+    "date": "2023-10-12",
+    "event": "Third September 2022 Note matures and goes into default"
+   },
+   {
+    "date": "2023-10-16",
+    "event": "CFO resigns; CEO Frommer becomes CFO"
+   },
+   {
+    "date": "2023-11-01",
+    "event": "8-K: debentures extended to Feb 28, 2024; conversion price cut to $0.025; severance claim settled"
+   },
+   {
+    "date": "2023-11-15",
+    "event": "NT 10-Q filed and Q3 10-Q filed, stating going concern doubt"
+   }
+  ],
+  "dates_to_watch": [
+   "2023-11-30: first $45,416.67 monthly payment on the Third July 2023 Note",
+   "2023-12-11: first $47,142.85 monthly payment on the First July 2023 Note",
+   "2023-12-15: deferred note payments due",
+   "2023-12-23: CEO notes mature",
+   "2023-12-31: Second September 2022 Note extended maturity",
+   "2024-02-28: about $4.75M of debentures and the Second May 2023 Note mature",
+   "FY2023 10-K (around April 2024): auditor opinion and timeliness"
+  ],
+  "would_change_my_mind": [
+   "A financing of several million dollars, or a conversion of the February 2024 debentures into equity",
+   "A further long extension, or a full debt-for-equity exchange by the secured debenture holders",
+   "A sale of the company or its assets that pays off the secured debt outside of court",
+   "Lenders enforcing defaults, filing suit or moving to foreclose, which would raise my risk",
+   "A missed February 28, 2024 maturity without an extension, which would raise my risk"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Whether any lender has accelerated or started enforcement actions after the filing date",
+   "The exact total of debt maturing over the next 12 months, since note balances are reported piecemeal",
+   "Whether the secured holders would choose out-of-court foreclosure, receivership or bankruptcy if a default occurs",
+   "How much of the equity line remains usable at a sub-2-cent share price",
+   "Peer set composition and how comparable its 23 peers are"
+  ]
+ },
+ "chart_plan": {
+  "action": "done",
+  "chart": 3,
+  "point": "Chart 3 is clear and not misleading. Both axes say they are log or symlog, the 1x line marks where liabilities equal assets, the peer medians are labelled, and Creatd's 8.2x liabilities and 1,073% loss match the assessment. The six peers in the distressed corner are visible, so the title's 'among the worst, not uniquely the worst' holds. The three charts cover liquidity, balance-sheet history and peer standing, which is enough. I am not adding a loss-split chart because the stated non-cash items ($8.3M + $4.3M) do not reconcile with the stated cash-adjusted loss (-$14.9M) and the 36% share, so it would risk showing inconsistent numbers.",
+  "caption": "Each dot is a peer filing at about the same date. Creatd (red) has liabilities of 8.2x assets and an annualized loss of about 10.7x assets. It sits in the distressed lower-right corner with six peers, far from the peer medians (0.85x and -23%). Note the log and symlog scales.",
+  "code": ""
+ },
+ "chart_steps": 6,
+ "chart_log": [
+  {
+   "point": "Cash of $6,759 at 9/30/2023 is too small to see next to the $4.75M of debentures due February 28, 2024, and the small sums raised after the quarter do not close the gap.",
+   "caption": "Cash available (green) versus cash demanded (red) and total current liabilities (grey), in $ millions. Cash at 9/30/2023 was about 0.03% of current liabilities. Post-quarter raises were $75,000 from the equity line, a $20,500 PIPE and a $100,000 note. Monthly note payments are the scheduled amortization from November 2023 through February 2024. Source: 10-Q filed 2023-11-15 and 8-K filed 2023-11-01.",
+   "code": "cl = 21.69e6\ntry:\n    v = history.sort_values('ddate').iloc[-1]['current_liabilities']\n    if pd.notna(v) and v > 0:\n        cl = float(v)\nexcept Exception:\n    pass\nmonthly = 45416.67*4 + 47142.85*3 + 11021*4\nlabels = ['Cash at 9/30/2023', 'Raised after quarter\\n(equity line + PIPE + note)', 'Monthly note payments\\nNov 2023 - Feb 2024', 'Senior secured notes\\nalready in default', 'Debentures due\\nFeb 28, 2024', 'Total current liabilities\\nat 9/30/2023']\nvals = [6759, 195500, monthly, 2265447, 2485000 + 2267140, cl]\ncolors = ['#2ca02c', '#98df8a', '#ff9896', '#d62728', '#d62728', 'grey']\ntexts = ['\\\\$6,759 (too small to see)', '\\\\$195,500', '\\\\$%s' % format(int(round(monthly)), ','), '\\\\$2.27M', '\\\\$4.75M', '\\\\$%.2fM' % (cl/1e6)]\nfig, ax = plt.subplots(figsize=(7, 3.5))\ny = np.arange(len(vals))[::-1]\nax.barh(y, np.array(vals)/1e6, color=colors)\nfor yi, v, t in zip(y, vals, texts):\n    ax.text(v/1e6 + 0.25, yi, t, va='center', fontsize=8)\nax.set_yticks(y)\nax.set_yticklabels(labels, fontsize=8)\nax.set_xlabel('US dollars, millions')\nax.set_xlim(0, max(vals)/1e6 * 1.2)\nax.grid(axis='x', alpha=0.3)\nax.set_axisbelow(True)\nhandles = [plt.Rectangle((0, 0), 1, 1, color='#2ca02c'), plt.Rectangle((0, 0), 1, 1, color='#d62728'), plt.Rectangle((0, 0), 1, 1, color='grey')]\nax.legend(handles, ['cash available or raised', 'cash demanded', 'all current liabilities'], fontsize=7, loc='upper right', frameon=False)\nax.set_title('Creatd had \\\\$6,759 of cash against \\\\$4.75M of debentures due Feb 2024', fontsize=10)\nfig.tight_layout()",
+   "file": "chart_1.png",
+   "status": "ok",
+   "error": ""
+  },
+  {
+   "point": "Over its reporting history Creatd's liabilities rose far above its shrinking assets, so the balance sheet became deeply insolvent before this quarter.",
+   "caption": "Total assets and total liabilities at each reported period end, in millions of US dollars. The gap between the two lines is the shortfall of assets against what the company owes. At 9/30/2023 liabilities were $23.6M against $2.9M of assets (8.2x).",
+   "code": "h = history.copy()\nh['ddate'] = h['ddate'].astype(str)\nh['filed'] = h['filed'].astype(str)\nh = h.sort_values(['ddate', 'filed']).drop_duplicates('ddate', keep='last')\nh = h.dropna(subset=['total_assets', 'total_liabilities'])\nh['date'] = pd.to_datetime(h['ddate'], format='%Y%m%d')\nh = h.sort_values('date')\nta = h['total_assets'] / 1e6\ntl = h['total_liabilities'] / 1e6\nfig, ax = plt.subplots(figsize=(7, 3.5))\nax.plot(h['date'], ta, marker='o', color='tab:green', label='Total assets')\nax.plot(h['date'], tl, marker='o', color='tab:red', label='Total liabilities')\nax.fill_between(h['date'], ta, tl, where=(tl > ta), color='tab:red', alpha=0.12, interpolate=True, label='Liabilities above assets')\nlast_a, last_l = ta.iloc[-1], tl.iloc[-1]\nax.annotate(f'${last_l:.1f}M', (h['date'].iloc[-1], last_l), textcoords='offset points', xytext=(-10, 6), ha='right', fontsize=8, color='tab:red')\nax.annotate(f'${last_a:.1f}M', (h['date'].iloc[-1], last_a), textcoords='offset points', xytext=(-10, 6), ha='right', fontsize=8, color='tab:green')\nfirst_a, first_l = ta.iloc[0], tl.iloc[0]\nfy = h['date'].iloc[0].year\nax.set_title(f'Liabilities went from {first_l/first_a if first_a else float(\"nan\"):.1f}x assets ({fy}) to {last_l/last_a:.1f}x assets (Sep 2023)', fontsize=10)\nax.set_xlabel('Period end')\nax.set_ylabel('US dollars, millions')\nax.set_ylim(bottom=0)\nax.grid(axis='y', alpha=0.3)\nax.legend(fontsize=8, loc='upper left')\nfig.autofmt_xdate()\nfig.tight_layout()",
+   "file": "chart_2.png",
+   "status": "ok",
+   "error": ""
+  },
+  {
+   "point": "Creatd is in the distressed corner of its peer group: a loss about 10.7x its assets and liabilities about 8.2x its assets. It shares that corner with a handful of other peers, so it is among the worst, not uniquely the worst.",
+   "caption": "Each dot is a same-industry peer near September 2023. Creatd (red) has an annualized loss of about 1,073% of its assets and liabilities of 8.2x its assets. A few peers are as bad or worse on one of the two measures. The dotted lines are the peer medians and the dashed line is liabilities = assets. The y-axis is symlog, so the gap between -100% and -1,000% is visually compressed.",
+   "code": "h = history.sort_values('ddate').iloc[-1]\nc_lev = h['total_liabilities'] / h['total_assets']\nc_roa = h['net_income'] / h['total_assets']\np = peers.copy()\np = p[~p['name'].astype(str).str.upper().str.contains('CREATD')]\np = p[(p['total_assets'] > 0) & p['total_liabilities'].notna() & p['net_income'].notna()]\np = p[p['total_liabilities'] > 0]\np['lev'] = p['total_liabilities'] / p['total_assets']\np['roa'] = p['net_income'] / p['total_assets']\nmed_lev = p['lev'].median()\nmed_roa = p['roa'].median()\nn_corner = int(((p['lev'] > 1) & (p['roa'] < -1)).sum())\nfig, ax = plt.subplots(figsize=(7.5, 3.8))\nax.scatter(p['lev'], p['roa'] * 100, color='grey', alpha=0.75, s=36, label=f'Peers (n={len(p)})')\nax.scatter([c_lev], [c_roa * 100], color='#d62728', edgecolor='black', s=110, zorder=5, label='Creatd, Sep 2023')\nax.set_xscale('log')\nax.set_yscale('symlog', linthresh=100)\nax.axvline(1, color='black', ls='--', lw=1)\nax.axhline(0, color='black', lw=0.8)\nax.axvline(med_lev, color='grey', ls=':', lw=1)\nax.axhline(med_roa * 100, color='grey', ls=':', lw=1)\nax.text(1.05, 40, 'liabilities = assets', fontsize=8, rotation=90, va='top')\nax.text(med_lev, -300, f'peer median {med_lev:.2f}x', fontsize=7, color='dimgrey', rotation=90, ha='right', va='center')\nax.text(ax.get_xlim()[1] if False else 60, med_roa * 100, f'peer median {med_roa*100:.0f}%', fontsize=7, color='dimgrey', va='bottom', ha='center')\nax.annotate(f'Creatd\\nliabilities {c_lev:.1f}x assets\\nloss {abs(c_roa)*100:,.0f}% of assets', (c_lev, c_roa * 100), xytext=(-20, 25), textcoords='offset points', ha='right', fontsize=8.5, color='#d62728')\nax.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f'{v:,.0f}%'))\nax.xaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f'{v:g}x'))\nax.set_xlabel('Total liabilities / total assets (log scale)')\nax.set_ylabel('Net income / total assets\\n(annualized, symlog scale)')\nax.set_title(f'Creatd sits in the distressed corner with {n_corner} peers: loss ~{abs(c_roa):.0f}x and debts {c_lev:.1f}x assets', fontsize=9.5)\nax.grid(alpha=0.3)\nax.legend(loc='lower left', fontsize=8)\nfig.tight_layout()",
+   "file": "chart_3.png",
+   "status": "ok",
+   "error": ""
+  }
+ ],
+ "chart_last": {
+  "chart": 3,
+  "error": ""
+ },
+ "charts": [
+  [
+   "charts/chart_1.png",
+   "Cash available (green) versus cash demanded (red) and total current liabilities (grey), in $ millions. Cash at 9/30/2023 was about 0.03% of current liabilities. Post-quarter raises were $75,000 from the equity line, a $20,500 PIPE and a $100,000 note. Monthly note payments are the scheduled amortization from November 2023 through February 2024. Source: 10-Q filed 2023-11-15 and 8-K filed 2023-11-01."
+  ],
+  [
+   "charts/chart_2.png",
+   "Total assets and total liabilities at each reported period end, in millions of US dollars. The gap between the two lines is the shortfall of assets against what the company owes. At 9/30/2023 liabilities were $23.6M against $2.9M of assets (8.2x)."
+  ],
+  [
+   "charts/chart_3.png",
+   "Each dot is a same-industry peer near September 2023. Creatd (red) has an annualized loss of about 1,073% of its assets and liabilities of 8.2x its assets. A few peers are as bad or worse on one of the two measures. The dotted lines are the peer medians and the dashed line is liabilities = assets. The y-axis is symlog, so the gap between -100% and -1,000% is visually compressed."
+  ]
+ ],
+ "problems": [],
+ "attempts": 3
+}

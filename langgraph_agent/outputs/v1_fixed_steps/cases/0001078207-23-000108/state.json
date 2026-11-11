@@ -1,0 +1,1051 @@
+{
+ "adsh": "0001078207-23-000108",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001078207-23-000108",
+ "case": {
+  "adsh": "0001078207-23-000108",
+  "cik": 1078207,
+  "name": "NAUTILUS, INC.",
+  "form": "10-Q",
+  "fp": "Q1",
+  "period_end": "20230630",
+  "filed": "20230809",
+  "sic": 3949,
+  "score": 0.644,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 140.2,
+    "year_before_musd": 229.1,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 43
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 86.4,
+    "year_before_musd": 157.6,
+    "share_of_assets_pct": 61.7,
+    "peer_percentile": 62
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 43.3,
+    "year_before_musd": 62.5,
+    "share_of_assets_pct": 30.9,
+    "peer_percentile": 64
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 81.1,
+    "year_before_musd": 124.3,
+    "share_of_assets_pct": 57.9,
+    "peer_percentile": 51
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 167.0,
+    "year_before_musd": 219.3,
+    "share_of_assets_pct": 119.1,
+    "peer_percentile": 76
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -19.7,
+    "year_before_musd": -240.7,
+    "share_of_assets_pct": -14.1,
+    "peer_percentile": 43
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -42.1,
+    "year_before_musd": -204.7,
+    "share_of_assets_pct": -30.1,
+    "peer_percentile": 28
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -9.5,
+    "year_before_musd": -23.9,
+    "share_of_assets_pct": -6.7,
+    "peer_percentile": 43
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 0.58,
+   "current_ratio": 1.99,
+   "peer_count": 37,
+   "peer_median_liabilities_to_assets": 0.57,
+   "peer_median_current_ratio": 2.04,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "history": [
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20221231,
+    "filed": 20230209,
+    "total_assets": 225093000.0,
+    "current_assets": 155048000.0,
+    "current_liabilities": 61553000.0,
+    "total_liabilities": 142100000.0,
+    "revenue": 291138666.6666667,
+    "net_income": -112614666.66666669,
+    "operating_income": -101085333.33333331,
+    "operating_cash_flow": -15706666.666666666
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20230331,
+    "filed": 20230601,
+    "total_assets": 163532000.0,
+    "current_assets": 96222000.0,
+    "current_liabilities": 54036000.0,
+    "total_liabilities": 102232000.0,
+    "revenue": 286773000.0,
+    "net_income": -105399000.0,
+    "operating_income": -93361000.0,
+    "operating_cash_flow": 18846000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230630,
+    "filed": 20230809,
+    "total_assets": 140181000.0,
+    "current_assets": 86445000.0,
+    "current_liabilities": 43333000.0,
+    "total_liabilities": 81110000.0,
+    "revenue": 167000000.0,
+    "net_income": -19696000.0,
+    "operating_income": -42132000.0,
+    "operating_cash_flow": -9460000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001078207-23-000108",
+   "form": "10-Q",
+   "date": "2023-08-09",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001078207-23-000055",
+   "form": "10-K",
+   "date": "2023-06-01",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001078207-23-000095",
+   "form": "8-K",
+   "date": "2023-07-10",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0001193125-23-168081",
+   "form": "8-K",
+   "date": "2023-06-15",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001078207-23-000022",
+   "form": "8-K",
+   "date": "2023-05-02",
+   "why": "8-K items 1.01,2.02,2.03,7.01,9.01"
+  },
+  {
+   "adsh": "0001078207-22-000206",
+   "form": "8-K",
+   "date": "2022-12-01",
+   "why": "8-K items 1.01,1.02,2.03,8.01,9.01"
+  },
+  {
+   "adsh": "0001078207-22-000132",
+   "form": "8-K",
+   "date": "2022-07-15",
+   "why": "8-K items 2.02,5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001839882-22-013387",
+   "form": "8-K",
+   "date": "2022-06-21",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001078207-22-000093",
+   "form": "8-K",
+   "date": "2022-05-19",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001078207-22-000027",
+   "form": "8-K",
+   "date": "2022-02-25",
+   "why": "8-K items 5.02,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "going_concern",
+   "direction": "against",
+   "finding": "Management expects existing cash, restricted cash, borrowing availability and operating cash to fund operating and capital needs for at least twelve months; the passages contain no substantial doubt language.",
+   "numbers": "",
+   "quote": "to be sufficient to fund our operating and capital requirements for at least the next twelve months.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Cash and restricted cash were flat versus March 31, 2023, but revolver availability fell from $14.9 million to $9.5 million.",
+   "numbers": "$18.3 million cash, cash equivalents and restricted cash; $9.5 million available (vs $14.9 million at March 31, 2023)",
+   "quote": "As of June 30, 2023, we had $18.3 million of cash, cash equivalents and restricted cash, and $9.5 million was available for borrowing under the WF ABL Revolving Facility",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operations still consumed cash in the quarter, though less than a year earlier.",
+   "numbers": "Net cash used in operating activities $(2,365) vs $(5,980); net decrease in cash $(32)",
+   "quote": "Cash used in operating activities was $2.4 million for the three-month period ended June 30, 2023, compared to cash used in operating activities of $6.0 million for the three-month period ended June 30, 2022.",
+   "section": "MD&A - Liquidity and Capital Resources; Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management ties future liquidity to keeping covenant compliance and says it may need more equity or debt financing.",
+   "numbers": "",
+   "quote": "including if we are able to maintain compliance with debt-related financial covenants, we may be required to seek additional equity or debt financing.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company was in compliance with the financial covenants of both the SLR Term Loan and the ABL Credit Facility at quarter end.",
+   "numbers": "",
+   "quote": "As of June 30, 2023, we were in compliance with the financial covenants contained in the agreements governing both the SLR Term Loan and ABL Credit Facility",
+   "section": "Note 17 Borrowings"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The April 25, 2023 amendments allowed asset sales and stepped down the minimum excess availability covenant from $10.0 million to $9.0 million and then $7.0 million after each subsequent sale.",
+   "numbers": "$10.0 million -> $9.0 million -> $7.0 million; 12.5% of the Combined Line Cap",
+   "quote": "the minimum excess availability covenant will step-down from the greater of: $10.0 million and 12.5% of the Combined Line Cap",
+   "section": "Note 17 Borrowings - Entry into Amended Term Loan Facility"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Proceeds from the asset sales were used to prepay $11.8 million of term loan principal, cutting total debt to about $17.3 million.",
+   "numbers": "$11.8 million prepaid; payments on long-term debt $(12,876)",
+   "quote": "We prepaid $11.8 million of principal outstanding on the Term Loan with the cash proceeds received from the consummation of the Specified Transactions and the License Amendment Transaction.",
+   "section": "Note 17 Borrowings"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Total outstanding debt at quarter end was $17.3 million, almost all under the SLR Term Loan.",
+   "numbers": "$17.3 million total; $17.1 million SLR Term Loan; $0.2 million ABL",
+   "quote": "As of June 30, 2023, outstanding principal and accrued and unpaid interest totaled $17.3 million, with $17.1 million and $0.2 million under our SLR Term Loan and ABL Credit Facility, respectively.",
+   "section": "Note 17 Borrowings"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The debt carries high floating interest rates, and quarterly interest expense jumped, partly from $1.5 million of amendment losses.",
+   "numbers": "10.28% ABL; 13.79% SLR Term Loan; interest expense $2.5 million vs $0.4 million; $0.9 million and $0.6 million amendment losses",
+   "quote": "As of June 30, 2023, our interest rate was 10.28% for the ABL Credit Facility and 13.79% for the SLR Term Loan.",
+   "section": "Note 17 Borrowings; MD&A - Interest Expense"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The April ABL amendment cut the maximum revolving commitment from $100 million to $60 million.",
+   "numbers": "$100 million -> $60 million",
+   "quote": "In addition, the ABL Amendment reduced the maximum revolving loan commitment amount from $100 million to $60 million.",
+   "section": "Note 17 Borrowings - Amendment to Existing ABL Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "A subsequent July 28, 2023 amendment further shrinks the maximum revolving commitment to $40.0 million.",
+   "numbers": "$60.0 million -> $40.0 million",
+   "quote": "the Second ABL Amendment will reduce the maximum revolving loan commitment amount from $60.0 million to $40.0 million.",
+   "section": "Note 20 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The July 28, 2023 amendments with both lenders raise the borrowing advance rate on Amazon receivables and relax reporting from weekly to monthly, showing continued lender cooperation.",
+   "numbers": "",
+   "quote": "The Second Term Loan Amendment will provide us with a greater borrowing advance rate for certain eligible accounts owing by Amazon.com, Inc. and its affiliates",
+   "section": "Note 20 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised new equity in a registered direct offering at $1.22 per share, with the pre-funded warrants exercised on July 28, 2023.",
+   "numbers": "3,525,000 shares at $1.22; 573,362 pre-funded warrants at $1.2199; net proceeds $4.6 million",
+   "quote": "we sold 3,525,000 shares of our common stock for $1.22 per share and pre-funded warrants to purchase up to 573,362 shares of our common stock at $1.2199 per share for net proceeds of $4.6 million after offering expenses.",
+   "section": "MD&A - Liquidity and Capital Resources; Note 20 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company sold the Nautilus brand trademarks and related licenses for $10.5 million in cash as part of a strategic review.",
+   "numbers": "$10.5 million proceeds; $3.7 million carrying value",
+   "quote": "we completed the sale of indefinite-lived intellectual property for $10.5 million as part of our ongoing comprehensive strategic review.",
+   "section": "Note 9 Goodwill and Other Intangible Assets"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company also sold its Vi Labs equity investment for $2.3 million, booking a $2.2 million gain.",
+   "numbers": "$2.3 million proceeds; $2.2 million gain",
+   "quote": "the Company completed the sale of Vi Labs for $2.3 million as part of its ongoing comprehensive strategic review.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "The quarter's $4.9 million net loss was reduced by a one-off $9.0 million gain on asset sales, so the underlying operating loss was much larger at $10.5 million.",
+   "numbers": "Net loss $(4,924); gain on asset dispositions $(9,021); operating loss $(10,533); Other, net $8,567",
+   "quote": "Gain on asset dispositions (9,021) \u2014",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Non-cash charges in the quarter were modest (depreciation, stock compensation, debt extinguishment loss), and there was no impairment, unlike the $26,965 impairment a year earlier.",
+   "numbers": "D&A 3,150; stock-based compensation 1,015; loss on debt extinguishment 352; impairment \u2014 vs 26,965",
+   "quote": "Goodwill and intangible impairment charge \u2014 26,965",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company remains loss-making at the operating level as product sales fell sharply year over year.",
+   "numbers": "Operating loss $10.5 million vs $51.2 million; product sales $36,771 vs $49,596",
+   "quote": "Operating loss was $10.5 million compared to an operating loss of $51.2 million last year, primarily driven by lower operating expenses and higher gross profit.",
+   "section": "MD&A - Overview"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Gross margin improved substantially on lower landed product costs and reduced discounting, and operating expenses were cut.",
+   "numbers": "Gross profit $8.6 million vs $7.0 million; margin 20.7% vs 12.7%; operating expenses $19.2 million vs $58.1 million",
+   "quote": "Gross profit margins were 20.7% compared to 12.7% last year.",
+   "section": "MD&A - Overview"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Management says near-term demand is hard to forecast, with weak retail reorders.",
+   "numbers": "",
+   "quote": "We have had significant difficulty in forecasting near-term demand and, as a result, our expected near-term operating performance.",
+   "section": "MD&A - Factors Affecting Results"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Inventory continued to fall, releasing working capital.",
+   "numbers": "Inventory $39.8 million vs $46.6 million at March 31, 2023 and $103.9 million at June 30, 2022",
+   "quote": "Inventory was $39.8 million as of June 30, 2023, down 15% compared to $46.6 million as of March 31, 2023",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Non-cancellable purchase obligations nearly tripled during the quarter, creating a future cash commitment.",
+   "numbers": "$33.0 million vs $12.1 million",
+   "quote": "As of June 30, 2023, we had approximately $33.0 million, compared to $12.1 million as of March 31, 2023 in non-cancellable market-based purchase obligations",
+   "section": "MD&A - Off-Balance Sheet Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The February 2023 workforce-reduction plan continued with small charges in the quarter.",
+   "numbers": "Charges $440; accrued liability $645",
+   "quote": "In February 2023, we announced and began implementing a restructuring plan that included a reduction in workforce and other exit costs.",
+   "section": "Note 3 Restructuring and Exit Charges"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Shareholders' equity has shrunk to about $59.1 million from $104.8 million a year earlier.",
+   "numbers": "Total shareholders' equity $59,071 (June 30, 2023) vs $104,847 (June 30, 2022)",
+   "quote": "Balance, June 30, 2023 35,515 $ 12,384 $ 217 $ 47,770 $ (1,300) $ 59,071",
+   "section": "Condensed Consolidated Statements of Shareholders' Equity"
+  },
+  {
+   "filing": "10-Q filed 2023-08-09",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Because of the deferred tax valuation allowance, no tax benefit is recorded on domestic losses; quarterly tax expense was $0.5 million.",
+   "numbers": "Income tax expense $0.5 million vs $8.1 million",
+   "quote": "No tax benefit associated with domestic losses was recognized due to the U.S. deferred tax asset valuation allowance position established last year.",
+   "section": "MD&A - Income Tax Expense"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "going_concern",
+   "direction": "against",
+   "finding": "The auditor gave an unqualified opinion on the FY2023 financial statements and on internal control, and the passages contain no substantial doubt language.",
+   "numbers": "",
+   "quote": "In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of March 31, 2023 and 2022",
+   "section": "Report of Independent Registered Public Accounting Firm"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company had a large operating loss for fiscal 2023 and warns that losses may continue.",
+   "numbers": "Operating loss $93.4 million (negative 32.6% margin) vs $25.3 million",
+   "quote": "We incurred an operating loss for the year ended March 31, 2023 of $93.4 million, and we may incur operating losses in the future.",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Net loss widened sharply as revenue and gross profit collapsed.",
+   "numbers": "Net loss $105.4 million vs $22.4 million; loss from continuing operations $107.5 million; product sales $264,077 vs $567,914",
+   "quote": "Net loss was $105.4 million for 2023, compared to a net loss of $22.4 million for 2022.",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Gross profit fell by about two-thirds and margins dropped due to heavy discounting and exiting Nautilus-branded products.",
+   "numbers": "Gross profit $52.0 million vs $148.5 million; margin 18.1% vs 25.2%",
+   "quote": "Gross profit was $52.0 million, compared to $148.5 million last year.",
+   "section": "MD&A - Overview"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large part of the loss came from a non-cash goodwill and intangible impairment.",
+   "numbers": "$27.0 million impairment ($24.5 million goodwill)",
+   "quote": "resulted in a non-cash goodwill and indefinite-lived intangible assets impairment charge of $27.0 million.",
+   "section": "MD&A - Goodwill and Intangible Impairment Charge"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Tax expense was driven by a non-cash deferred tax asset valuation allowance.",
+   "numbers": "Income tax expense $9.4 million; $25.4 million valuation allowance; deferred income taxes 8,958",
+   "quote": "The income tax expense in the current year was primarily the result of the $25.4 million deferred tax asset valuation allowance recorded in fiscal 2023.",
+   "section": "MD&A - Overview"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Other non-cash charges included depreciation and amortization and stock compensation.",
+   "numbers": "D&A 11,103; stock-based compensation 3,885; loss on debt extinguishment 228",
+   "quote": "Depreciation and amortization 11,103 8,615",
+   "section": "Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Operating cash flow turned positive, though mainly from releasing working capital (inventory and receivables) rather than profits.",
+   "numbers": "$18.8 million provided vs $(66.6) million used; inventories 64,954; trade receivables 39,247",
+   "quote": "Cash provided by operating activities was $18.8 million for fiscal 2023, compared to cash used in operating activities of $66.6 million for fiscal 2022.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash rose slightly, but revolver availability fell sharply from $65.8 million a year earlier.",
+   "numbers": "$18.3 million cash and restricted cash; $14.9 million available vs $65.8 million at March 31, 2022",
+   "quote": "As of March 31, 2023, we had $18.3 million of cash and restricted cash, and $14.9 million was available for borrowing under the WF ABL Revolving Facility",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Inventory was cut by more than half.",
+   "numbers": "Inventory $46.6 million vs $111.2 million",
+   "quote": "Inventory decreased by $64.6 million to $46.6 million as of March 31, 2023, compared to $111.2 million as of March 31, 2022.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In November 2022 the company refinanced with a new SLR term loan of up to $30.0 million, maturing October 29, 2026, so no major debt is due near term.",
+   "numbers": "Up to $30.0 million; maturity October 29, 2026",
+   "quote": "Borrowings under the SLR Credit Agreement will mature, and all outstanding amounts thereunder will be payable on October 29, 2026",
+   "section": "MD&A - SLR Credit Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The new debt is expensive and secured by substantially all assets, and the Wells Fargo revolver margin was raised substantially.",
+   "numbers": "SLR SOFR + 8.25%; WF SOFR margin 5.00% to 5.50% from 1.75% to 2.25%",
+   "quote": "The Amendment increased the margin applicable to SOFR loans and letters of credit to a range of 5.00% to 5.50% from a range of 1.75% to 2.25%",
+   "section": "MD&A - Amendment to Existing WF ABL Revolving Facility"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Debt outstanding at year end was $30.0 million at double-digit interest rates.",
+   "numbers": "$30.0 million SLR Term Loan; 12.00% WF Revolver; 13.42% SLR Term Loan; interest expense $3.8 million vs $1.6 million",
+   "quote": "As of March 31, 2023, our interest rate was 12.00% for the WF Revolver and 13.42% for the SLR Term Loan Facility.",
+   "section": "MD&A - Debt Summary"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company was in compliance with the financial covenants of both credit agreements at year end.",
+   "numbers": "",
+   "quote": "As of March 31, 2023, we were in compliance with the financial covenants of both the SLR Credit Agreement and WF Credit Agreement",
+   "section": "MD&A - Debt Summary"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The main covenant requires minimum excess availability of the greater of $10.0 million or 12.5% of the Combined Line Cap.",
+   "numbers": "$10.0 million or 12.5% of Combined Line Cap",
+   "quote": "maintain minimum excess availability of at least the greater of (i) $10.0 million",
+   "section": "MD&A - SLR Credit Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Risk factors warn that a covenant default could lead to acceleration that the company might not be able to pay.",
+   "numbers": "",
+   "quote": "If our lender accelerates the maturity of our indebtedness, we may not have sufficient capital available at that time to pay the amounts due to our lender on a timely basis.",
+   "section": "Item 1A Risk Factors - We are subject to a number of debt covenants"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Public float has fallen below $75 million, limiting how much equity the company can raise under its shelf registration.",
+   "numbers": "Shelf $100.0 million; public float less than $75 million; limited to one-third of public float per twelve months",
+   "quote": "as of the filing of this Annual Report on Form 10-K, our public float is less than $75 million",
+   "section": "MD&A - Shelf Registration Statement"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Market capitalization fell by more than half during early fiscal 2023, which triggered the impairment test.",
+   "numbers": "$137 million vs $66 million",
+   "quote": "Our trailing 30-day average market capitalization was approximately $137 million at March 31, 2022 compared to $66 million, the trailing 30-day average, as of June 30, 2022.",
+   "section": "Critical Accounting Estimates - Goodwill and Other Intangible"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Shareholders' equity shrank from $164.0 million to $61.3 million over the year.",
+   "numbers": "$61,300 vs $164,049",
+   "quote": "Balances at March 31, 2023 31,845 $ 10,084 $ 52,694 $ (1,478) $ 61,300",
+   "section": "Consolidated Statements of Shareholders' Equity"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The company took restructuring charges for a workforce reduction begun in February 2023.",
+   "numbers": "$2.5 million total; $1.7 million severance; $0.9 million third-party costs",
+   "quote": "Restructuring and exit charges of $2.5 million in fiscal 2023 included $1.7 million in severance and termination plan benefits and $0.9 million in third-party related costs.",
+   "section": "MD&A - Restructuring and Exit Charges"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue is concentrated, with one customer accounting for 19% of net sales.",
+   "numbers": "19% of net sales",
+   "quote": "In fiscal 2023, we had one customer that accounted for 19% of our net sales.",
+   "section": "Note 1 Significant Accounting Policies"
+  },
+  {
+   "filing": "10-K filed 2023-06-01",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Management reports significant difficulty forecasting near-term demand amid weak retail reorders.",
+   "numbers": "",
+   "quote": "We have had significant difficulty in forecasting near-term demand and, as a result, our expected near-term operating performance.",
+   "section": "MD&A - Factors Affecting Results"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The Chief Accounting Officer resigned effective August 9, 2023, the 10-Q filing date, and a replacement search is underway.",
+   "numbers": "Resignation notice June 30, 2023; effective August 9, 2023",
+   "quote": "On June 30, 2023, Sarah A. Jones, the Chief Accounting Officer of Nautilus, Inc. (the \u201cCompany\u201d), notified the Company that she would resign effective as of August 9, 2023.",
+   "section": "8-K filed 2023-07-10, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised about $5 million of new equity in a registered direct offering with one institutional investor, for general corporate purposes.",
+   "numbers": "Approximately $5 million gross; 3,525,000 shares; 573,362 pre-funded warrants",
+   "quote": "We received aggregate proceeds, before deducting Placement Agent fees, in the amount of approximately $5 million.",
+   "section": "8-K filed 2023-06-15, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The offering was priced at $1.22 per share and came with warrants for 4,098,362 more shares at $1.35, which is dilutive; the placement fee was 7.0%.",
+   "numbers": "$1.22 per share; $1.2199 per pre-funded warrant; 4,098,362 Common Warrants at $1.35; 7.0% placement fee",
+   "quote": "Each Share is being sold at an offering price of $1.22",
+   "section": "8-K filed 2023-06-15, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The purchase agreement bars new equity issuance for 90 days and variable-rate deals for one year (at-the-market allowed after six months), limiting near-term fundraising options.",
+   "numbers": "90 days; one year; six months",
+   "quote": "for a period of 90 days following the closing of the Offerings.",
+   "section": "8-K filed 2023-06-15, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "On April 25, 2023 the term lender amended the loan to permit asset disposition and license transactions, with the minimum excess availability covenant stepping down after each sale.",
+   "numbers": "$10 million -> $9 million -> $7 million; 12.5% of the Combined Line Cap",
+   "quote": "The Term Loan Amendment will permit the Company to enter into certain asset disposition transactions (the \u201cSpecified Transactions\u201d) and a license amendment transaction (the \u201cLicense Amendment Transaction\u201d)",
+   "section": "8-K filed 2023-05-02, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Net cash proceeds from the permitted asset sales are to be used to prepay term loan obligations.",
+   "numbers": "",
+   "quote": "The Company will prepay certain Obligations under the Term Loan Credit Agreement with the Net Cash Proceeds received from the consummation of the Specified Transactions and the License Amendment Transaction.",
+   "section": "8-K filed 2023-05-02, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The ABL amendment cut the maximum revolving commitment from $100 million to $60 million.",
+   "numbers": "$100 million -> $60 million",
+   "quote": "In addition, the ABL Amendment will reduce the maximum revolving loan commitment amount from $100 million to $60 million.",
+   "section": "8-K filed 2023-05-02, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The company provided an update on its ongoing strategic review process.",
+   "numbers": "",
+   "quote": "the Company issued a press release providing updates regarding its previously announced strategic review process, which is intended to evaluate opportunities for the Company to accelerate transformation and enhance shareholder value.",
+   "section": "8-K filed 2023-05-02, Item 7.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In November 2022 the company refinanced its Wells Fargo term loan with a new SLR term loan of up to $30,000,000.",
+   "numbers": "Up to $30,000,000",
+   "quote": "to make available to the Borrowers a term loan facility in the aggregate principal amount of up to $30,000,000, subject to a borrowing base",
+   "section": "8-K filed 2022-12-01, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Both the SLR term loan and the Wells Fargo revolver mature October 29, 2026, so no large maturity falls within the next year.",
+   "numbers": "October 29, 2026",
+   "quote": "will be payable on October 29, 2026",
+   "section": "8-K filed 2022-12-01, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The refinancing is costly: the SLR loan bears SOFR plus 8.25%, and the Wells Fargo SOFR margin rose to 5.00%-5.50% from 1.75%-2.25%.",
+   "numbers": "SOFR + 8.25%; 5.00% to 5.50% from 1.75% to 2.25%",
+   "quote": "The Amendment increased the margin applicable to SOFR loans and letters of credit to a range of 5.00% to 5.50% from a range of 1.75% to 2.25%",
+   "section": "8-K filed 2022-12-01, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The SLR loan is secured by substantially all company assets.",
+   "numbers": "",
+   "quote": "Repayment of obligations under the SLR Credit Agreement is secured by a pledge over substantially all assets and proceeds thereof now owned or hereafter acquired by the Company and certain of its subsidiaries.",
+   "section": "8-K filed 2022-12-01, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The financial covenant requires minimum excess availability of the greater of $10 million or 12.5% of the Combined Line Cap, and events of default include nonpayment and covenant noncompliance.",
+   "numbers": "$10 million or 12.5% of Combined Line Cap",
+   "quote": "maintain minimum excess availability of at least the greater of (i) $10 million",
+   "section": "8-K filed 2022-12-01, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The Senior Vice President and Chief Digital Officer resigned in July 2022.",
+   "numbers": "",
+   "quote": "On July 8, 2022, Garry R. Wiseman, a Senior Vice President and Chief Digital Officer of Nautilus, Inc. (the \u201cCompany\u201d), submitted his resignation.",
+   "section": "8-K filed 2022-07-15, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "A press release contained a minor typographical error on JRNY member growth (13% reported instead of 12%), which was corrected.",
+   "numbers": "13% vs 12%",
+   "quote": "The correct increase in JRNY members for such period should have been reported as being approximately 12%.",
+   "section": "8-K filed 2022-07-15, Item 2.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The Board Chairman chose not to stand for re-election, with no disagreements cited.",
+   "numbers": "",
+   "quote": "There were no disagreements between Mr. Johnson and the Company or any officer or director of the Company that led to Mr. Johnson\u2019s",
+   "section": "8-K filed 2022-06-21, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "A new director joined the Audit Committee and two directors announced retirements, with no disagreements cited.",
+   "numbers": "Board increased from eight to nine directors",
+   "quote": "There were no disagreements between Mr. Horn and Mr. Siegert, respectively, and the Company or any officer or director of the Company",
+   "section": "8-K filed 2022-05-19, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "against",
+   "finding": "No late-filing (NT) notices appear among the passages, and the 8-Ks show no defaults, missed payments, forbearance or delisting notices.",
+   "numbers": "",
+   "quote": "",
+   "section": "All 8-Ks and late-filing notices"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score sits in the 0.5-0.7 band mainly because the annualized results are deeply negative relative to a shrunken asset base: operating income of -$42.1M is -30.1% of assets (28th peer percentile), net income is -$19.7M even after a one-off $9.0M asset-sale gain, operating cash flow is -$9.5M, and total assets fell from $229.1M to $140.2M in a year. The balance-sheet ratios look ordinary (liabilities/assets 0.58 vs peer median 0.57, current ratio 1.99 vs 2.04), but the footnotes show a company selling its brand and assets, shrinking revolver commitments ($100M to $60M to $40M), headroom of $9.5M availability against a $7.0M-$9.0M minimum excess availability covenant, 13.79% debt and an underlying operating loss of $10.5M per quarter, so the score reflects real, though not imminent, distress rather than an artefact.",
+  "verdict": "real risk",
+  "own_risk": "medium",
+  "own_risk_pct": 6,
+  "agree_with_model": "yes",
+  "moved_by": [
+   "Revolver availability fell to $9.5M from $14.9M a quarter earlier and $65.8M a year earlier, close to the minimum excess availability covenant that steps down only to $9.0M then $7.0M, so a covenant breach is a realistic path to acceleration (up)",
+   "Underlying operating loss of $10.5M in the quarter is masked by a $9.0M one-off gain on asset sales; the quarter's small $2.4M cash burn relied on inventory release that cannot repeat indefinitely (up)",
+   "Non-cancellable purchase obligations nearly tripled to $33.0M from $12.1M, a future cash call against $18.3M cash (up)",
+   "ABL maximum commitment cut again to $40.0M by the July 28, 2023 amendment, and equity raises are limited by a public float under $75M and a 90-day issuance lockup (up)",
+   "Chief Accounting Officer resigned effective on the 10-Q filing date (slightly up)",
+   "Covenant compliance at quarter end, cooperative lender amendments, $11.8M term loan prepayment cutting debt to $17.3M, no maturity until October 29, 2026, ~$4.6M net new equity, and no substantial doubt language (down)"
+  ],
+  "reasons": [
+   {
+    "reason": "Large annualized operating loss relative to assets, the weakest of the model's inputs versus peers",
+    "kind": "model input",
+    "numbers": "Operating income -$42.1M annualized, -30.1% of assets; year before -$204.7M",
+    "peer_comparison": "28th percentile of 37 peers (72% of peers have a higher operating-income-to-assets ratio)",
+    "quote": "Operating loss was $10.5 million compared to an operating loss of $51.2 million last year, primarily driven by lower operating expenses and higher gross profit.",
+    "source": "10-Q, 2023-08-09, MD&A - Overview"
+   },
+   {
+    "reason": "Net loss continues, and the reported figure is flattered by a one-off gain on asset sales; the core loss is larger than net income shows",
+    "kind": "model input",
+    "numbers": "Net income -$19.7M annualized (-14.1% of assets); quarter net loss $(4,924)K after $9,021K gain on asset dispositions; operating loss $(10,533)K",
+    "peer_comparison": "43rd percentile of peers",
+    "quote": "Gain on asset dispositions (9,021) \u2014",
+    "source": "10-Q, 2023-08-09, Condensed Consolidated Statements of Cash Flows"
+   },
+   {
+    "reason": "Operations still consume cash; the burn is small only because inventory is being liquidated",
+    "kind": "model input",
+    "numbers": "Operating cash flow -$9.5M annualized; quarter $(2.4)M vs $(6.0)M a year earlier; inventory $39.8M vs $46.6M at March 31, 2023 and $103.9M a year earlier",
+    "peer_comparison": "43rd percentile of peers",
+    "quote": "Cash used in operating activities was $2.4 million for the three-month period ended June 30, 2023, compared to cash used in operating activities of $6.0 million for the three-month period ended June 30, 2022.",
+    "source": "10-Q, 2023-08-09, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "The company is shrinking fast: assets, current assets and revenue all down sharply, partly from selling the Nautilus brand",
+    "kind": "model input",
+    "numbers": "Total assets $140.2M vs $229.1M; current assets $86.4M vs $157.6M; revenue $167.0M annualized vs $219.3M; product sales $36,771K vs $49,596K in the quarter",
+    "peer_comparison": "Total assets 43rd percentile; revenue/assets 76th percentile",
+    "quote": "we completed the sale of indefinite-lived intellectual property for $10.5 million as part of our ongoing comprehensive strategic review.",
+    "source": "10-Q, 2023-08-09, Note 9 Goodwill and Other Intangible Assets"
+   },
+   {
+    "reason": "Balance-sheet ratios look normal for the industry, which disagrees with the alarming footnotes",
+    "kind": "model input",
+    "numbers": "Liabilities/assets 0.58; current ratio 1.99; total liabilities $81.1M; current liabilities $43.3M",
+    "peer_comparison": "Peer median liabilities/assets 0.57 and current ratio 2.04; liabilities 51st percentile, current liabilities 64th percentile",
+    "quote": "",
+    "source": "shared/financials.csv, 10-Q 2023-08-09"
+   },
+   {
+    "reason": "Liquidity runway: cash on hand covers roughly 23 months at the last quarter's $2.4M operating burn (about $0.8M per month, matching the -$9.5M annualized figure), but only about 5 months if the $10.5M quarterly operating loss ($3.5M per month) had to be funded in cash once inventory release ends; the $9.5M revolver availability is mostly unusable because of the minimum excess availability covenant",
+    "kind": "from the filings",
+    "numbers": "$18.3M cash and restricted cash; $9.5M available vs $14.9M at March 31, 2023; covenant floor $9.0M then $7.0M",
+    "peer_comparison": "",
+    "quote": "As of June 30, 2023, we had $18.3 million of cash, cash equivalents and restricted cash, and $9.5 million was available for borrowing under the WF ABL Revolving Facility",
+    "source": "10-Q, 2023-08-09, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Covenant headroom is thin and lenders keep shrinking the revolver",
+    "kind": "from the filings",
+    "numbers": "$10.0M -> $9.0M -> $7.0M minimum excess availability; ABL commitment $100M -> $60M -> $40.0M",
+    "peer_comparison": "",
+    "quote": "the Second ABL Amendment will reduce the maximum revolving loan commitment amount from $60.0 million to $40.0 million.",
+    "source": "10-Q, 2023-08-09, Note 20 Subsequent Events"
+   },
+   {
+    "reason": "A covenant default could trigger acceleration the company says it might not be able to pay",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "If our lender accelerates the maturity of our indebtedness, we may not have sufficient capital available at that time to pay the amounts due to our lender on a timely basis.",
+    "source": "10-K, 2023-06-01, Item 1A Risk Factors - We are subject to a number of debt covenants"
+   },
+   {
+    "reason": "Expensive floating-rate debt and rising interest expense",
+    "kind": "from the filings",
+    "numbers": "10.28% ABL; 13.79% SLR Term Loan; quarterly interest expense $2.5M vs $0.4M",
+    "peer_comparison": "",
+    "quote": "As of June 30, 2023, our interest rate was 10.28% for the ABL Credit Facility and 13.79% for the SLR Term Loan.",
+    "source": "10-Q, 2023-08-09, Note 17 Borrowings; MD&A - Interest Expense"
+   },
+   {
+    "reason": "Purchase commitments nearly tripled, a coming cash call relative to $18.3M cash",
+    "kind": "from the filings",
+    "numbers": "$33.0M vs $12.1M",
+    "peer_comparison": "",
+    "quote": "As of June 30, 2023, we had approximately $33.0 million, compared to $12.1 million as of March 31, 2023 in non-cancellable market-based purchase obligations",
+    "source": "10-Q, 2023-08-09, MD&A - Off-Balance Sheet Arrangements"
+   },
+   {
+    "reason": "Management links liquidity to covenant compliance and may need more capital, while equity access is constrained",
+    "kind": "from the filings",
+    "numbers": "Public float under $75M; 90-day issuance lockup; new shares priced at $1.22",
+    "peer_comparison": "",
+    "quote": "including if we are able to maintain compliance with debt-related financial covenants, we may be required to seek additional equity or debt financing.",
+    "source": "10-Q, 2023-08-09, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Equity is eroding quickly",
+    "kind": "from the filings",
+    "numbers": "Shareholders' equity $59,071K vs $104,847K a year earlier and $164,049K at March 31, 2022",
+    "peer_comparison": "",
+    "quote": "Balance, June 30, 2023 35,515 $ 12,384 $ 217 $ 47,770 $ (1,300) $ 59,071",
+    "source": "10-Q, 2023-08-09, Condensed Consolidated Statements of Shareholders' Equity"
+   },
+   {
+    "reason": "Weak demand visibility and customer concentration",
+    "kind": "from the filings",
+    "numbers": "One customer 19% of net sales",
+    "peer_comparison": "",
+    "quote": "We have had significant difficulty in forecasting near-term demand and, as a result, our expected near-term operating performance.",
+    "source": "10-Q, 2023-08-09, MD&A - Factors Affecting Results"
+   },
+   {
+    "reason": "Chief Accounting Officer departure on the filing date",
+    "kind": "from the filings",
+    "numbers": "Notice June 30, 2023; effective August 9, 2023",
+    "peer_comparison": "",
+    "quote": "On June 30, 2023, Sarah A. Jones, the Chief Accounting Officer of Nautilus, Inc. (the \u201cCompany\u201d), notified the Company that she would resign effective as of August 9, 2023.",
+    "source": "8-K, 2023-07-10, Item 5.02"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "Management expects to fund operations for at least twelve months and there is no going concern doubt",
+    "quote": "to be sufficient to fund our operating and capital requirements for at least the next twelve months.",
+    "source": "10-Q, 2023-08-09, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "point": "In compliance with all financial covenants at quarter end",
+    "quote": "As of June 30, 2023, we were in compliance with the financial covenants contained in the agreements governing both the SLR Term Loan and ABL Credit Facility",
+    "source": "10-Q, 2023-08-09, Note 17 Borrowings"
+   },
+   {
+    "point": "Debt is small and was cut further with asset-sale proceeds",
+    "quote": "As of June 30, 2023, outstanding principal and accrued and unpaid interest totaled $17.3 million, with $17.1 million and $0.2 million under our SLR Term Loan and ABL Credit Facility, respectively.",
+    "source": "10-Q, 2023-08-09, Note 17 Borrowings"
+   },
+   {
+    "point": "Asset-sale proceeds prepaid $11.8M of term loan",
+    "quote": "We prepaid $11.8 million of principal outstanding on the Term Loan with the cash proceeds received from the consummation of the Specified Transactions and the License Amendment Transaction.",
+    "source": "10-Q, 2023-08-09, Note 17 Borrowings"
+   },
+   {
+    "point": "No major debt maturity before October 29, 2026",
+    "quote": "will be payable on October 29, 2026",
+    "source": "8-K, 2022-12-01, Item 1.01"
+   },
+   {
+    "point": "Lenders keep cooperating, improving the Amazon receivables advance rate and relaxing reporting",
+    "quote": "The Second Term Loan Amendment will provide us with a greater borrowing advance rate for certain eligible accounts owing by Amazon.com, Inc. and its affiliates",
+    "source": "10-Q, 2023-08-09, Note 20 Subsequent Events"
+   },
+   {
+    "point": "New equity raised in June 2023",
+    "quote": "we sold 3,525,000 shares of our common stock for $1.22 per share and pre-funded warrants to purchase up to 573,362 shares of our common stock at $1.2199 per share for net proceeds of $4.6 million after offering expenses.",
+    "source": "10-Q, 2023-08-09, MD&A - Liquidity and Capital Resources; Note 20 Subsequent Events"
+   },
+   {
+    "point": "Gross margin recovered and operating expenses were cut sharply",
+    "quote": "Gross profit margins were 20.7% compared to 12.7% last year.",
+    "source": "10-Q, 2023-08-09, MD&A - Overview"
+   },
+   {
+    "point": "Additional cash from selling the Vi Labs stake",
+    "quote": "the Company completed the sale of Vi Labs for $2.3 million as part of its ongoing comprehensive strategic review.",
+    "source": "10-Q, 2023-08-09, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "point": "Unqualified audit opinion on FY2023 statements",
+    "quote": "In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of March 31, 2023 and 2022",
+    "source": "10-K, 2023-06-01, Report of Independent Registered Public Accounting Firm"
+   },
+   {
+    "point": "No late filings, defaults, missed payments, forbearance or delisting notices in the 8-Ks",
+    "quote": "",
+    "source": "All 8-Ks and late-filing notices"
+   },
+   {
+    "point": "Balance-sheet ratios are in line with peers (liabilities/assets 0.58 vs 0.57; current ratio 1.99 vs 2.04)",
+    "quote": "",
+    "source": "shared/financials.csv, 10-Q 2023-08-09"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2022-07-08",
+    "event": "SVP and Chief Digital Officer resigned"
+   },
+   {
+    "date": "2022-11-29",
+    "event": "Approximate date of refinancing with SLR term loan of up to $30.0M at SOFR + 8.25%, maturing October 29, 2026; Wells Fargo revolver margin raised to 5.00%-5.50% (reported in 8-K filed 2022-12-01)"
+   },
+   {
+    "date": "2023-02-01",
+    "event": "Approximate start of restructuring plan with workforce reduction (announced February 2023)"
+   },
+   {
+    "date": "2023-03-31",
+    "event": "Fiscal 2023 year end: operating loss $93.4M, net loss $105.4M, cash $18.3M, revolver availability $14.9M, debt $30.0M"
+   },
+   {
+    "date": "2023-04-25",
+    "event": "Term loan and ABL amendments permit asset sales, step down excess availability covenant, cut ABL commitment from $100M to $60M"
+   },
+   {
+    "date": "2023-06-01",
+    "event": "10-K filed with unqualified audit opinion; public float below $75M"
+   },
+   {
+    "date": "2023-06-15",
+    "event": "8-K on registered direct offering of ~$5M gross at $1.22 per share with warrants at $1.35"
+   },
+   {
+    "date": "2023-06-30",
+    "event": "Quarter end: cash $18.3M, availability $9.5M, debt $17.3M after $11.8M prepayment, equity $59.1M; CAO gives resignation notice"
+   },
+   {
+    "date": "2023-07-28",
+    "event": "Second ABL and term loan amendments: commitment cut to $40.0M, better Amazon receivable advance rate, monthly reporting; pre-funded warrants exercised"
+   },
+   {
+    "date": "2023-08-09",
+    "event": "10-Q filed; CAO resignation effective"
+   }
+  ],
+  "dates_to_watch": [
+   "Each monthly borrowing base report under the July 2023 amendments: excess availability versus the $9.0M/$7.0M covenant floor",
+   "Mid-September 2023: end of the 90-day equity issuance lockup from the June offering",
+   "Next 10-Q for the quarter ending 2023-09-30 (around November 2023): cash, availability, inventory and operating loss trend",
+   "Holiday 2023 retail reorder season and fiscal Q3 results (quarter ending 2023-12-31)",
+   "Any further strategic review outcome (sale of the company or more asset sales)",
+   "10-K for fiscal year ending 2024-03-31: auditor opinion and any going concern language",
+   "SLR term loan and Wells Fargo revolver maturity on 2026-10-29"
+  ],
+  "would_change_my_mind": [
+   "Toward higher risk: a covenant breach, waiver or forbearance, availability dropping below the covenant floor, a going concern paragraph, missed interest payment, or a Nasdaq minimum bid notice",
+   "Toward higher risk: cash burn rising toward the $10.5M quarterly operating loss once inventory release ends, or the $33.0M purchase obligations draining cash",
+   "Toward lower risk: a sale of the company or a sizeable new equity or debt raise, return to operating break-even, or availability rising well above the covenant floor"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "The exact borrowing base and how much of the $9.5M availability can be drawn without breaching the minimum excess availability covenant",
+   "Monthly cash burn after June 2023 and the timing of payments on the $33.0M purchase obligations",
+   "The outcome or status of the broader strategic review beyond the asset sales",
+   "Whether the SLR term loan has any other financial covenants or amortization not described in the passages",
+   "Exact date of the SLR refinancing (only the 8-K filing date of 2022-12-01 is given)",
+   "How much each model input moved the score"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

@@ -1,0 +1,24 @@
+var | now $m | year-ago $m | peer median $m | ATHX pctile (share of peers below)
+total_assets 10.48 35.2 157.8 12 811
+current_assets 3.69 21.38 124.7 8 803
+current_liabilities 42.7 33.22 19.1 66 806
+total_liabilities 47.9 46.94 38.0 55 814
+revenue 0.1 10.46 36.5 9 518
+net_income -41.47 -91.73 -32.5 45 810
+operating_income -40.64 -93.27 -35.5 48 767
+operating_cash_flow -21.1 -73.21 -28.1 55 802
+TL/TA 4.57 yr ago 1.33
+CR 0.086 yr ago 0.643
+equity $k -37419 NI/TA -3.96
+Q2 OCF -4585 monthly -1528 H1 monthly -1758
+months cash Jun30 @Q2 burn 1.18 @H1 burn 1.03
+months cash Aug9 @Q2 burn 0.52
+FY22 monthly burn -4912 FY21 -6349
+cash vs current liabs 0.042
+    period  net_loss  noncash  adj_loss    ocf
+0   FY2020    -78765     8269    -70496 -61810
+1   FY2021    -86955    10218    -76737 -76185
+2   FY2022    -72534    10634    -61900 -58950
+3  H1 2022    -45864     9151    -36713 -36606
+4  H1 2023    -20735     9279    -11456 -10551
+peers CR<0.1 2.7 peers TL/TA>4 2.8 peers TA<10.5m 12.3

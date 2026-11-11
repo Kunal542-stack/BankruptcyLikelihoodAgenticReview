@@ -1,0 +1,1859 @@
+{
+ "adsh": "0001641172-25-023889",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001641172-25-023889",
+ "case": {
+  "adsh": "0001641172-25-023889",
+  "cik": 1643988,
+  "name": "LOOP MEDIA, INC.",
+  "form": "10-Q",
+  "fp": "Q3",
+  "period_end": "20250630",
+  "filed": "20250814",
+  "sic": 7363,
+  "score": 0.718,
+  "band": "above 0.7",
+  "base_rate_pct": 18.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 3.4,
+    "year_before_musd": 10.3,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 14
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 1.8,
+    "year_before_musd": 6.5,
+    "share_of_assets_pct": 54.8,
+    "peer_percentile": 58
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 25.2,
+    "year_before_musd": 20.6,
+    "share_of_assets_pct": 750.0,
+    "peer_percentile": 94
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 30.0,
+    "year_before_musd": 22.8,
+    "share_of_assets_pct": 891.6,
+    "peer_percentile": 94
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 8.9,
+    "year_before_musd": 24.7,
+    "share_of_assets_pct": 265.4,
+    "peer_percentile": 95
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -16.2,
+    "year_before_musd": -24.4,
+    "share_of_assets_pct": -482.6,
+    "peer_percentile": 4
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -11.9,
+    "year_before_musd": -21.2,
+    "share_of_assets_pct": -354.2,
+    "peer_percentile": 5
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -5.6,
+    "year_before_musd": -7.1,
+    "share_of_assets_pct": -167.6,
+    "peer_percentile": 6
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 8.92,
+   "current_ratio": 0.07,
+   "peer_count": 598,
+   "peer_median_liabilities_to_assets": 0.59,
+   "peer_median_current_ratio": 1.42,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "cash": {
+   "cash_usd": 109692,
+   "period_months": 9,
+   "operating_cash_flow_musd": -4.2,
+   "monthly_cash_burn_musd": 0.47,
+   "months_of_cash": 0.23,
+   "net_income_musd": -12.2,
+   "non_cash_charges_musd": {
+    "stock_compensation": 0.7,
+    "depreciation_amortization": 0.7
+   },
+   "cash_adjusted_net_income_musd": -10.8,
+   "non_cash_share_of_loss_pct": 11,
+   "note": "from this filing's XBRL, for its period to date (not annualized); months_of_cash = cash / monthly burn over that period; non-cash charges counted: stock compensation, depreciation and amortization, impairment (a negative stock compensation is a reversal that makes the loss look smaller)"
+  },
+  "history": [
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20221231,
+    "filed": 20230207,
+    "total_assets": 31060647.0,
+    "current_assets": 26393226.0,
+    "current_liabilities": 21336005.0,
+    "total_liabilities": 28875187.0,
+    "revenue": NaN,
+    "net_income": NaN,
+    "operating_income": NaN,
+    "operating_cash_flow": NaN
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230331,
+    "filed": 20230515,
+    "total_assets": 18624432.0,
+    "current_assets": 14196336.0,
+    "current_liabilities": 16591589.0,
+    "total_liabilities": 23865411.0,
+    "revenue": 40438124.0,
+    "net_income": -30153112.0,
+    "operating_income": -26291350.0,
+    "operating_cash_flow": -17430774.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230630,
+    "filed": 20230809,
+    "total_assets": 20297526.0,
+    "current_assets": 15762989.0,
+    "current_liabilities": 19766404.0,
+    "total_liabilities": 22422096.0,
+    "revenue": 34605384.0,
+    "net_income": -30602782.666666668,
+    "operating_income": -27521325.333333332,
+    "operating_cash_flow": -19491352.0
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20230930,
+    "filed": 20231219,
+    "total_assets": 16881645.0,
+    "current_assets": 12487010.0,
+    "current_liabilities": 19054762.0,
+    "total_liabilities": 21697978.0,
+    "revenue": 31642293.0,
+    "net_income": -31963679.0,
+    "operating_income": -28785612.0,
+    "operating_cash_flow": -14595226.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20231231,
+    "filed": 20240207,
+    "total_assets": 19370364.0,
+    "current_assets": 14359849.0,
+    "current_liabilities": 22432143.0,
+    "total_liabilities": 23057533.0,
+    "revenue": 40685024.0,
+    "net_income": -21141608.0,
+    "operating_income": -17026152.0,
+    "operating_cash_flow": -6107980.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240331,
+    "filed": 20240503,
+    "total_assets": 12070343.0,
+    "current_assets": 8186388.0,
+    "current_liabilities": 19529193.0,
+    "total_liabilities": 22034546.0,
+    "revenue": 28347438.0,
+    "net_income": -25712070.0,
+    "operating_income": -22198806.0,
+    "operating_cash_flow": -4574910.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20240630,
+    "filed": 20240807,
+    "total_assets": 10343953.0,
+    "current_assets": 6528233.0,
+    "current_liabilities": 20637136.0,
+    "total_liabilities": 22797169.0,
+    "revenue": 24699052.0,
+    "net_income": -24410202.666666668,
+    "operating_income": -21172984.0,
+    "operating_cash_flow": -6599352.0
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20240930,
+    "filed": 20241212,
+    "total_assets": 7511437.0,
+    "current_assets": 5072719.0,
+    "current_liabilities": 23009049.0,
+    "total_liabilities": 25295600.0,
+    "revenue": 22254959.0,
+    "net_income": -24495602.0,
+    "operating_income": -20768681.0,
+    "operating_cash_flow": -7337757.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20241231,
+    "filed": 20250204,
+    "total_assets": 6780196.0,
+    "current_assets": 4675839.0,
+    "current_liabilities": 25368741.0,
+    "total_liabilities": 27841159.0,
+    "revenue": 14922892.0,
+    "net_income": -18160884.0,
+    "operating_income": -13918712.0,
+    "operating_cash_flow": -10485412.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20250331,
+    "filed": 20250515,
+    "total_assets": 4818678.0,
+    "current_assets": 3010049.0,
+    "current_liabilities": 24793188.0,
+    "total_liabilities": 28435404.0,
+    "revenue": 10823278.0,
+    "net_income": -17547748.0,
+    "operating_income": -13342108.0,
+    "operating_cash_flow": -6466982.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20250630,
+    "filed": 20250814,
+    "total_assets": 3364896.0,
+    "current_assets": 1843164.0,
+    "current_liabilities": 25235127.0,
+    "total_liabilities": 30001841.0,
+    "revenue": 8929201.333333334,
+    "net_income": -16238313.333333334,
+    "operating_income": -11918728.0,
+    "operating_cash_flow": -5640400.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001641172-25-023889",
+   "form": "10-Q",
+   "date": "2025-08-14",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001493152-24-049828",
+   "form": "10-K",
+   "date": "2024-12-12",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001641172-25-010677",
+   "form": "10-Q",
+   "date": "2025-05-15",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001493152-25-004826",
+   "form": "10-Q",
+   "date": "2025-02-04",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001641172-25-023252",
+   "form": "8-K",
+   "date": "2025-08-12",
+   "why": "8-K items 2.04,9.01"
+  },
+  {
+   "adsh": "0001641172-25-021060",
+   "form": "8-K",
+   "date": "2025-07-25",
+   "why": "8-K items 2.04,9.01"
+  },
+  {
+   "adsh": "0001641172-25-020456",
+   "form": "8-K",
+   "date": "2025-07-21",
+   "why": "8-K items 2.04,9.01"
+  },
+  {
+   "adsh": "0001641172-25-019542",
+   "form": "8-K",
+   "date": "2025-07-14",
+   "why": "8-K items 2.04,9.01"
+  },
+  {
+   "adsh": "0001641172-25-017405",
+   "form": "8-K",
+   "date": "2025-07-01",
+   "why": "8-K items 2.04,9.01"
+  },
+  {
+   "adsh": "0001641172-25-001388",
+   "form": "8-K",
+   "date": "2025-03-31",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-25-008308",
+   "form": "8-K",
+   "date": "2025-02-26",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001493152-25-000236",
+   "form": "8-K",
+   "date": "2025-01-03",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-24-052512",
+   "form": "8-K",
+   "date": "2024-12-30",
+   "why": "8-K items 4.01,9.01"
+  },
+  {
+   "adsh": "0001493152-24-051818",
+   "form": "8-K",
+   "date": "2024-12-23",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-24-049477",
+   "form": "8-K",
+   "date": "2024-12-10",
+   "why": "8-K items 1.01,2.02,3.02,9.01"
+  },
+  {
+   "adsh": "0001493152-24-048714",
+   "form": "8-K",
+   "date": "2024-12-04",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-24-048027",
+   "form": "8-K",
+   "date": "2024-11-27",
+   "why": "8-K items 1.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001493152-24-044880",
+   "form": "8-K",
+   "date": "2024-11-12",
+   "why": "8-K items 2.04,9.01"
+  },
+  {
+   "adsh": "0001493152-24-043525",
+   "form": "8-K",
+   "date": "2024-11-04",
+   "why": "8-K items 2.04,9.01"
+  },
+  {
+   "adsh": "0001493152-24-042422",
+   "form": "8-K",
+   "date": "2024-10-24",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-24-041570",
+   "form": "8-K",
+   "date": "2024-10-18",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-24-039572",
+   "form": "8-K",
+   "date": "2024-10-04",
+   "why": "8-K items 5.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001493152-24-035189",
+   "form": "8-K",
+   "date": "2024-09-05",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-24-034582",
+   "form": "8-K",
+   "date": "2024-08-30",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-24-033462",
+   "form": "8-K",
+   "date": "2024-08-21",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001493152-24-030877",
+   "form": "8-K",
+   "date": "2024-08-09",
+   "why": "8-K items 3.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001493152-24-029875",
+   "form": "8-K",
+   "date": "2024-08-01",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001493152-24-028282",
+   "form": "8-K",
+   "date": "2024-07-18",
+   "why": "8-K items 3.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001104659-24-067490",
+   "form": "8-K",
+   "date": "2024-06-03",
+   "why": "8-K items 1.01,1.02,3.02,5.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001104659-24-050683",
+   "form": "8-K",
+   "date": "2024-04-24",
+   "why": "8-K items 1.01,2.03,3.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001104659-24-042754",
+   "form": "8-K",
+   "date": "2024-04-03",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001104659-24-035736",
+   "form": "8-K",
+   "date": "2024-03-19",
+   "why": "8-K items 2.02,5.02,8.01,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states that recurring losses, an accumulated deficit, expected further losses and negative operating cash flow raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "These factors raise substantial doubt about our ability to continue as a going concern.",
+   "section": "Note 1 - Going concern"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company has received notices of default and acceleration letters from several lenders, payments remain past due, and the outcome of any lender enforcement cannot be predicted.",
+   "numbers": "",
+   "quote": "We have received notices of default and acceleration letters from certain lenders related to outstanding debt obligations.",
+   "section": "Note 1 - Going concern; Note 8 - Debt"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The May 2023 Secured Line of Credit matured on May 10, 2025 and was not repaid; a lender sent a demand notice on June 10, 2025, default interest can rise by 500 basis points, and the default remains uncured.",
+   "numbers": "$889,000 owed to three lenders at maturity; $300,000 owed to Lender No. 1; balance $813,549 at June 30, 2025; 12% rate plus 500 basis points on default",
+   "quote": "this default has not yet been cured; however, no further action has been taken against the Company with respect to the May 2023 Secured Note.",
+   "section": "Note 8 - Debt, May 2023 Secured Loan"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company missed a June 1, 2025 payment on the 30% Bellino Trust $2M Convertible Note, and on June 16, 2025 the holder declared a default and said it would move to accelerate repayment.",
+   "numbers": "$2,000,000 principal; 30% interest; $150,000 interest expense in the quarter",
+   "quote": "we received written notice from the Bellino Trust declaring a default on our payment obligations under the Bellino Trust $2M Convertible Note",
+   "section": "Note 8 - Debt, Bellino Trust $2.0M Convertible Note; Note 13 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After the quarter, the defaulted Bellino Trust note was assigned to the Executive Chairman and majority stockholder, Mr. Cassidy (who also personally guarantees it), and no further action has been taken on it.",
+   "numbers": "$2.0M note; assigned July 15, 2025",
+   "quote": "In a private transaction on July 15, 2025, the Bellino Trust $2.0M Convertible Note was assigned to Mr. Cassidy with no changes to the terms.",
+   "section": "Note 13 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company missed payments due June 16, 2025 on the 1800 Diagonal notes, and the lender declared a default on all of them and demanded 150% of the remaining principal plus 22% default interest.",
+   "numbers": "$79,260 missed payments; $286,326 aggregate principal demanded (150%); 22% default interest",
+   "quote": "On June 20, 2025, in response to our failure to make payments due on June 16, 2025, in the aggregate amount of $79,260, which breach continued for five (5) days without cure",
+   "section": "Note 8 - Debt, 1800 Diagonal Note Defaults"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "1800 Diagonal is enforcing by converting defaulted debt into stock at quickly falling prices, from $0.01302 in June to $0.001353 by August 12, 2025, which shows a collapsing share price and heavy dilution.",
+   "numbers": "Conversion prices fell from $0.01302 (June 20, 2025) to $0.001353 (August 12, 2025); $118,020 still due on the $96,000 Bridge Note after the last conversion",
+   "quote": "1800 Diagonal converted $9,490 of the principal amount due into 7,014,043 shares of our common stock at a conversion price of $0.001353.",
+   "section": "Note 13 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "On July 8, 2025, ASCAP declared the full settlement amount immediately due after a payment default, and the default has not been cured.",
+   "numbers": "$1,175,000",
+   "quote": "The amount owed to ASCAP under the Settlement Agreement is $1,175,000.",
+   "section": "Note 13 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Balboa Capital accelerated an equipment financing on July 11, 2025 for missed payments and demanded return of the equipment; the default has not been cured.",
+   "numbers": "$82,427",
+   "quote": "Balboa accelerated and declared immediately due and payable the entire unpaid balance of $82,427, plus the return of the equipment no later than three business days from the letter notice date.",
+   "section": "Note 13 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "On July 15, 2025, content licensor Cara Communications sent a final demand for the full amount owed under its license agreement, payable within five business days.",
+   "numbers": "$361,800",
+   "quote": "The amount owed to CCC under the License Agreement is $361,800.",
+   "section": "Note 13 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "At June 30, 2025, the company was not in compliance with financial covenants on many equipment and software financings (Balboa, several De Lage Landen agreements, and both AFG agreements); it was in compliance only with WinTrust, BMO, Dell and PEAC.",
+   "numbers": "Balboa $70,485; De Lage Landen #1 $162,133; AFG No. 1 and No. 2 $88,126 each",
+   "quote": "there was an unpaid principal balance of $70,485 and we were not in compliance with all financial covenants of the Balboa Capital Equipment Financing Agreement.",
+   "section": "Note 8 - Debt, equipment financings"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash is very low: no cash exceeded the FDIC insured limit at June 30, 2025, versus $490,195 above the limit at September 30, 2024, and the company had no cash equivalents.",
+   "numbers": "$0 vs $490,195 above FDIC limits",
+   "quote": "approximately $0 and $490,195, respectively, of cash exceeded the FDIC insurance limits.",
+   "section": "Note 2 - Cash"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Of the nine-month net loss, a meaningful part was non-cash: stock-based compensation, depreciation, debt discount amortization and content asset amortization total about $4.0 million.",
+   "numbers": "Nine-month net loss $(12,178,735) vs $(18,307,652); stock-based compensation 2,094,857; depreciation and amortization 733,849; amortization of debt discount 651,014; amortization of content assets 553,642",
+   "quote": "",
+   "section": "Condensed consolidated statements of cash flows"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash flow relied on stretching payables: accounts payable rose by $4.1 million in the nine months while accrued royalties and revenue share and license content liability fell.",
+   "numbers": "Accounts payable 4,137,485; accrued royalties and revenue share (2,405,627); license content liability (499,660)",
+   "quote": "",
+   "section": "Condensed consolidated statements of cash flows"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Total liabilities are about $30.0 million, with current convertible debt (including $3.0 million to a related party) and large line-of-credit maturities due in fiscal 2025 and 2026.",
+   "numbers": "Total liabilities 30,001,841; convertible debt current 2,152,668; convertible debt related party current 3,000,000; line-of-credit maturities 2025 $2,941,485, 2026 6,318,046, 2027 1,985,018",
+   "quote": "",
+   "section": "Condensed consolidated balance sheet; Note 8 - Debt"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In February 2025 the company obtained a new $2.0 million revolving facility from Capital Foundry maturing in 2028, which was nearly fully drawn at June 30, 2025.",
+   "numbers": "$2.0 million limit; unpaid principal 1,985,018; Prime plus 7.5%; matures 02/02/2028",
+   "quote": "The loan matures on February 2, 2028",
+   "section": "Note 8 - Debt, Capital Foundry Revolving Line of Credit"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The former senior lender GemCap was fully paid off under a November 27, 2024 settlement, and the RAT line of credit was paid off on November 21, 2024.",
+   "numbers": "GemCap balance $0 vs $2,916,763; RAT payoff $334,575.50",
+   "quote": "all amounts, including principal and accrued interest, owing to GemCap were paid off and all of our obligations to GemCap have been extinguished",
+   "section": "Note 8 - Debt, GemCap and RAT lines of credit"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The majority stockholder's entity Excel exchanged its $1.0M note plus interest into equity, removing that debt.",
+   "numbers": "$1,103,000 exchanged into 26,261,905 shares at $0.042 per share",
+   "quote": "As a result, our obligations under the Excel $1.0M Note were extinguished.",
+   "section": "Note 8 - Debt, Excel $1.0M Line of Credit"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Excel, controlled by the Executive Chairman, provides a $3.0M convertible line at 20% interest due 12 months after issue (extendable with Excel's consent), which is insider support but costly and short-dated.",
+   "numbers": "Balance $3,362,461 at June 30, 2025; 20% interest; 12-month maturity from November 27, 2024",
+   "quote": "The Excel $3.0M Line of Credit Convertible Note accrues interest at 20% per annum, unless converted into our common stock.",
+   "section": "Note 8 - Debt, Excel $3.0M Line of Credit Convertible Note"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The related-party Excel $2.5M revolver is a perpetual loan that matures only 12 months after Excel gives notice of termination, and its first interest payment was deferred to July 1, 2025.",
+   "numbers": "Balance $2,837,451 at June 30, 2025; 10% interest",
+   "quote": "The Excel $2.5M Revolving Line of Credit is a perpetual loan, with a maturity date that is twelve (12) months from the date of formal notice of termination by Excel",
+   "section": "Note 8 - Debt, Excel $2.5M Revolving Line of Credit"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company keeps rolling expensive short-term Agile loans with large weekly repayments; one matured July 29, 2025 and another matures October 23, 2025.",
+   "numbers": "Agile $800,000 Loan: $1,112,000 repaid at $37,067 weekly, balance $640,468; Agile $660,000 Loan: balance $241,645, maturity July 29, 2025",
+   "quote": "Principal and interest in the aggregate amount of $1,112,000 under the Agile $800,000 Note is repaid in weekly payments of $37,067 commencing on April 3, 2025",
+   "section": "Note 8 - Debt, Agile loans"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The stock has traded on the OTC Pink since being delisted from the NYSE American in August 2024.",
+   "numbers": "",
+   "quote": "common stock was delisted from the NYSE American on August 8, 2024, and began trading under the symbol \u201cLPTV\u201d on the OTC Pink Market on August 9, 2024.",
+   "section": "Note 11 - Stockholders' Deficit"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Shares outstanding rose sharply year over year because of debt-to-equity conversions, which means heavy dilution.",
+   "numbers": "113,635,408 vs 79,048,736 shares",
+   "quote": "As of June 30, 2025, and 2024, there were 113,635,408 and 79,048,736, respectively, shares of common stock issued and outstanding.",
+   "section": "Note 11 - Stockholders' Deficit"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "Cost cuts, headcount reductions and organizational restructuring that began in fiscal 2023 continue, and the company is exploring strategic alternatives and financing.",
+   "numbers": "",
+   "quote": "We continue to explore potential strategic alternatives to maximize shareholder value and to evaluate potential financing opportunities.",
+   "section": "Note 1 - Going concern; Note 2"
+  },
+  {
+   "filing": "10-Q filed 2025-08-14",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Revenue is concentrated: two customers each made up more than 10% of nine-month net revenue.",
+   "numbers": "19% and 18% of net revenue",
+   "quote": "These customers represented 19% and 18% of net revenue, respectively.",
+   "section": "Note 2 - Concentration of credit risk"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The independent auditor's report says conditions raise substantial doubt about the company's ability to continue as a going concern for 12 months.",
+   "numbers": "",
+   "quote": "Our independent registered public accounting firm has indicated in its report that these conditions raise substantial doubt about our ability to continue as a going concern",
+   "section": "Item 1A Risk Factors - Risks Related to Our Financial Condition"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Fiscal year-end cash was small compared with a very large accumulated deficit.",
+   "numbers": "Cash $824,658; accumulated deficit $152,781,145 at September 30, 2024",
+   "quote": "as of September 30, 2024, our cash totaled $824,658, and we had an accumulated deficit of $152,781,145.",
+   "section": "MD&A - Liquidity / Going concern"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "In fiscal 2024 the company lost $24.5 million, burned $7.3 million of cash in operations, and does not expect positive operating cash flow in the near future.",
+   "numbers": "Net loss $24,495,602; cash used in operations $7,337,757",
+   "quote": "During the year ended September 30, 2024, we incurred a net loss of $24,495,602 and used $7,337,757 of cash in operations.",
+   "section": "MD&A - Future Capital Requirements"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company has no committed financing and says it may have to significantly reduce or discontinue operations if it cannot raise funds.",
+   "numbers": "",
+   "quote": "We have no agreements, commitments, or understandings to secure additional financing at this time",
+   "section": "Item 1A Risk Factors - Going concern"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management warns that if it cannot raise funds it may have to significantly reduce or discontinue operations.",
+   "numbers": "",
+   "quote": "If we are unable to raise funds when required or on acceptable terms, we may have to significantly reduce or discontinue our operations.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "As of December 11, 2024, total debt was about $11.0 million in principal and accrued interest, all secured by company assets or carried as convertible notes and other high-cost instruments.",
+   "numbers": "$10,996,068 total; $1,964,267 non-revolving lines; $2,696,479 revolving line; $5,034,731 convertible notes; $1,300,591 other debt",
+   "quote": "we owed an aggregate of $10,996,068 in principal and accrued interest on debt arrangements.",
+   "section": "Item 1A Risk Factors - Debt arrangements"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Senior lender GemCap declared events of default in October 2024, accelerated the loan in November, withdrew forbearance talks, and served a UCC public sale notice to foreclose on company assets; the company won a temporary injunction against the auction.",
+   "numbers": "Acceleration demand by November 8, 2024; GemCap balance $2,916,763 at September 30, 2024",
+   "quote": "GemCap rescinded its offer to negotiate a forbearance of the Demand and delivered to the Company the Lender a Notice of Secured Party Public Sale",
+   "section": "MD&A - Recent Developments - The GemCap Litigation"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "Under a November 27, 2024 settlement, all amounts owed to GemCap were paid off and the obligations were extinguished.",
+   "numbers": "",
+   "quote": "all amounts, including principal and accrued interest, owing to GemCap were paid off and all of our obligations to GemCap have been extinguished.",
+   "section": "MD&A - Future Capital Requirements - GemCap Revolving Line of Credit"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "With the GemCap revolver terminated, the company has no asset-based revolving facility and is looking for a replacement.",
+   "numbers": "",
+   "quote": "we are currently seeking a new asset-based lending facility to replace the GemCap Revolving Line of Credit that was terminated in November 2024",
+   "section": "Item 1A Risk Factors - Debt arrangements"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Management warns that being unable to repay or refinance debt at maturity could cause defaults and cross-defaults.",
+   "numbers": "",
+   "quote": "Any inability to repay or refinance the indebtedness under our existing or any future loan agreements at maturity may cause us to be in default, which could cause cross-defaults under other debt arrangements",
+   "section": "Item 1A Risk Factors - Debt arrangements"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The new Bellino Trust $2.0M Convertible Note carries 30% interest, is due 12 months after issue, converts at a 30% discount, and is personally guaranteed by the Executive Chairman.",
+   "numbers": "$2,000,000 principal; 30% interest; balance $2,010,000 at December 11, 2024; conversion at 70% of lowest VWAP",
+   "quote": "The Bellino Trust $2.0M Convertible Note is guaranteed personally by Bruce Cassidy, our Executive Chairman.",
+   "section": "MD&A - Recent Developments / Future Capital Requirements - Bellino Trust Note"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Excel, an entity managed by the Executive Chairman, provided a new $3.0M convertible line of credit in November 2024, which is insider support but at 20% interest with a 12-month maturity.",
+   "numbers": "Up to $3,000,000; 20% interest; balance $3,024,731 at December 11, 2024",
+   "quote": "we entered into a Non-Revolving Line of Credit Loan Agreement with Excel (the \u201cExcel $3.0M Line of Credit Loan Agreement\u201d), for an aggregate principal amount of up to $3,000,000",
+   "section": "MD&A - Recent Developments - Excel $3M Line of Credit Convertible Note"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "Insider lender Excel agreed in December 2024 to defer the first interest payment on the $2.5M revolver to July 1, 2025 and to extend the $1.0M line to September 24, 2025.",
+   "numbers": "Excel $2.5M revolver balance $2,696,479; Excel $1.0M line balance $1,084,000 at December 11, 2024",
+   "quote": "to extend the date on which the first payment of interest is due under the Excel $2.5M Revolving Line of Credit by one (1) year, from July 1, 2024, to July 1, 2025.",
+   "section": "MD&A - Recent Developments - Excel amendments"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The RAT Non-Revolving Line of Credit was paid off on November 21, 2024.",
+   "numbers": "$334,575.50",
+   "quote": "the outstanding principal and accrued interest in the amount of $334,575.50 on the RAT Non-Revolving Line of Credit was paid off",
+   "section": "MD&A - Recent Developments - RAT debt extinguishment"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company relies on expensive short-term debt with weekly or monthly payments (Agile loans maturing in 2025, 1800 Diagonal notes maturing August 15, 2025, and a CFG future-receipts sale), with harsh default terms.",
+   "numbers": "Agile $388,500 Note: $559,440 repaid at $17,482.50 weekly, matures May 26, 2025; Agile $525,000 balance $484,611; CFG $653,414 at September 30, 2024",
+   "quote": "Principal and interest in the aggregate amount of $559,440 under the Agile $388,500 Note is repaid in weekly payments of $17,482.50",
+   "section": "MD&A - Recent Developments - Debt Activities"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "If the 1800 Diagonal notes default, the company owes 150% of principal plus interest and 22% default interest, and the lender can convert into stock at a discount.",
+   "numbers": "150% default multiplier; 22% default interest; conversion at 70% of the average of the three lowest trading prices",
+   "quote": "the Company is obligated to pay to the 1800 Diagonal Lender an amount equal to 150% times the sum of",
+   "section": "MD&A - Future Capital Requirements - 1800 Diagonal Lending"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The NYSE American suspended trading and delisted the stock on August 8, 2024 because of its low price; the stock now trades on the OTC Pink, which hurts the company's ability to raise equity.",
+   "numbers": "",
+   "quote": "the Company is no longer suitable for listing pursuant to Section 1003(f)(v) of the NYSE American Company Guide due to the low selling price of the Company\u2019s common stock",
+   "section": "Item 1A Risk Factors - Risks Related to Owning Our Common Stock"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The share price had fallen to about four cents by December 2024.",
+   "numbers": "$0.039 on December 11, 2024",
+   "quote": "the last reported sale price per share of our common stock as quoted on the OTC Pink Current was $0.039.",
+   "section": "Item 5 Market Information"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "In December 2024 the company raised only a small amount of new equity through a private placement.",
+   "numbers": "2,127,659 shares at $0.0470; $100,000.00",
+   "quote": "for an aggregate purchase price of $100,000.00, which proceeds will be used for general corporate purposes.",
+   "section": "MD&A - Recent Developments"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Part of the fiscal 2024 loss was non-cash or one-off: stock-based compensation, restructuring costs and loss on disposal of Loop players.",
+   "numbers": "Stock-based compensation $4,232,673; restructuring $220,053; loss on disposal $315,863; non-recurring expense 500,473",
+   "quote": "Our stock-based compensation expense (non-cash) for the year ended September 30, 2024, was $4,232,673",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Cost cutting reduced operating expenses by 32% and SG&A by 30% in fiscal 2024, and further vendor cuts of about $750,000 a year are planned.",
+   "numbers": "Operating expenses $26,749,678 vs $39,444,972; SG&A $20,566,552 vs $29,427,139; about $750,000 in planned yearly savings",
+   "quote": "operating expenses for the year ended September 30, 2024, were $26,749,678, a decrease of $12,695,294, or 32%, from $39,444,972",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The former CEO, Mr. Niermann, left the board on September 30, 2024, and the delisting has hurt the company's ability to retain employees with equity.",
+   "numbers": "",
+   "quote": "Our former Chief Executive Officer, Mr. Niermann, was a Board member until September 30, 2024",
+   "section": "Item 10 - Board Leadership Structure"
+  },
+  {
+   "filing": "10-K filed 2024-12-12",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Management continues to explore strategic alternatives and financing opportunities.",
+   "numbers": "",
+   "quote": "We continue to explore potential strategic alternatives to maximize shareholder value as well as evaluate potential financing opportunities.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The notes to the financial statements state that recurring losses, an accumulated deficit and negative operating cash flows raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "These factors raise substantial doubt about our ability to continue as a going concern.",
+   "section": "Note 1 (going concern) and MD&A Liquidity and Management's Plan"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash was very small against a large accumulated deficit at March 31, 2025, and the going concern doubt is stated for at least one year from issuance.",
+   "numbers": "cash $425,646; accumulated deficit $161,555,019",
+   "quote": "as of March 31, 2025, our cash totaled $425,646, and we had an accumulated deficit of $161,555,019.",
+   "section": "MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash burn grew in the first half of fiscal 2025.",
+   "numbers": "net cash used in operating activities six months $3,233,491, up $787,074 or 32%",
+   "quote": "net cash used in operating activities during the six months ended March 31, 2025, was $3,233,491, an increase of $787,074, or 32%, from",
+   "section": "MD&A Net Cash Flow Used in Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management says it must raise outside capital over the next twelve months and that failure to do so may force it to significantly reduce or discontinue operations.",
+   "numbers": "",
+   "quote": "If we are unable to raise funds when required or on acceptable terms, we may have to significantly reduce or discontinue our operations.",
+   "section": "MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Part of the six-month net loss is non-cash, mainly stock-based compensation, depreciation, content and debt-discount amortization; no impairment is shown in the passages.",
+   "numbers": "net loss $(8,773,874) vs $(12,856,035); stock-based compensation 1,745,215; depreciation PPE 508,761; amortization of debt discount 459,001; amortization of content assets 387,040; bad debt 139,114; loss on disposal 117,809",
+   "quote": "",
+   "section": "Condensed consolidated statement of cash flows"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Lines of credit payable total about $10.2 million, with large amounts maturing in fiscal 2025 and 2026, far exceeding cash on hand.",
+   "numbers": "total lines of credit payable, net $10,167,786; maturities FY2025 $3,586,777, FY2026 6,417,840, FY2027 938,451",
+   "quote": "Total Lines of credit payable, related and non-related party, net",
+   "section": "Note 8 Debt, maturity analysis"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Convertible debt of $5.0 million is classified as current, including a $2.0 million Bellino Trust note at 30% interest due 12 months after issue that is personally guaranteed by the Executive Chairman.",
+   "numbers": "convertible debt current 2,000,000; convertible debt related party current 3,000,000; Bellino interest expense $150,000 for the quarter",
+   "quote": "The Bellino Trust $2.0M Convertible Note is guaranteed personally by Mr. Cassidy.",
+   "section": "Balance sheet; Note 8 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The majority stockholder's entity Excel provided a $3.0 million convertible line of credit, though at a high 20% rate and due 12 months after issue (extendable 12 months with Excel's consent).",
+   "numbers": "balance incl. interest $3,210,794; 20% interest",
+   "quote": "The Excel $3.0M Line of Credit Convertible Note accrues interest at 20% per annum, unless converted into our common stock.",
+   "section": "Note 8 The Excel $3.0M Line of Credit Convertible Note"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "In October-November 2024 the senior lender GemCap declared events of default, accelerated the loan and served a UCC public sale notice to foreclose on the company's assets.",
+   "numbers": "",
+   "quote": "informing us that events of default had occurred and were continuing under the GemCap Revolving Line of Credit Agreement",
+   "section": "Note 8 The GemCap Litigation Settlement"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "GemCap rescinded its forbearance offer and set a foreclosure sale of the company's personal property, which the company temporarily enjoined through litigation.",
+   "numbers": "",
+   "quote": "purporting to set a sale, under the UCC, of our personal property in order to foreclose the security interest it held in and to our assets",
+   "section": "Note 8 The GemCap Litigation Settlement"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Under a November 27, 2024 settlement the GemCap facility was fully paid off and all obligations extinguished, ending the senior lender default.",
+   "numbers": "GemCap balance $0 vs $2,916,763",
+   "quote": "all amounts, including principal and accrued interest, owing to GemCap were paid off and all of our obligations to GemCap have been extinguished",
+   "section": "Note 8 GemCap Revolving Line of Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company obtained a new $2.0 million revolving facility from Capital Foundry in February 2025 with a 2028 maturity at Prime plus 7.5%, partly drawn.",
+   "numbers": "facility up to $2.0 million; net carrying 875,595; unpaid principal 938,451; matures 02/02/2028",
+   "quote": "The loan matures on February 2, 2028",
+   "section": "Note 8 Capital Foundry Revolving Line of Credit"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Excel exchanged the $1.0M note plus interest into restricted common stock, removing that debt.",
+   "numbers": "$1,103,000 exchanged into 26,261,905 shares at $0.042",
+   "quote": "the outstanding principal and accrued interest in the amount of $1,103,000 under the Excel $1.0M Note was exchanged into 26,261,905 restricted shares of our common stock at an exchange rate of $0.042 per share",
+   "section": "Note 8 Excel $1.0M Line of Credit"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The related-party Excel $2.5M revolver was amended to defer the first interest payment by one year to July 1, 2025, and its balance kept growing.",
+   "numbers": "balance incl. interest $2,774,257 vs $2,646,479",
+   "quote": "to extend the date on which the first payment of interest is due under the Excel Revolving Line of Credit by one (1) year from July 1, 2024, to July 1, 2025",
+   "section": "Note 8 Excel $2.5M Revolving Line of Credit"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The May 2023 secured line, with $800,000 unpaid principal, had a contractual maturity of 05/10/2025, and the passages do not say it was repaid or extended.",
+   "numbers": "unpaid principal 800,000; net current 762,546; 12%; maturity 05/10/2025",
+   "quote": "The May 2023 Secured Line of Credit matures twenty-four (24) months from the date of the May 2023 Secured Line of Credit Agreement",
+   "section": "Note 8 May 2023 Secured Loan"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company relies on expensive short-term Agile loans with weekly payments, rolling older Agile loans into new ones.",
+   "numbers": "Agile $800,000: $1,112,000 repaid weekly $37,066.67, due October 23, 2025, balance $812,720; Agile $660,000: weekly $30,580, due July 29, 2025, balance $456,419; Agile $388,500 refinanced $157,417",
+   "quote": "Principal and interest in the aggregate amount of $1,112,000 under the Agile $800,000 Note is repaid in weekly payments of $37,066.67 commencing on April 3, 2025",
+   "section": "Note 8 Other Debt Instruments, Agile"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "A merchant cash advance from CFG sold future receipts at a steep discount, collected by weekly bank debits and guaranteed by the Executive Chairman.",
+   "numbers": "Amount Sold $962,500 for $700,000; weekly $24,063; balance $221,671; six-month interest $199,002",
+   "quote": "CFG is entitled to collect the Daily Amounts at the end of each week by debiting our bank account by an amount equaling $24,063",
+   "section": "Note 8 CFG Purchase Agreement"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Small unsecured 1800 Diagonal notes carry punitive default terms (150% default amount, 22% default interest, conversion at 70% of low prices).",
+   "numbers": "balances $75,900, $55,104, $24,024, $107,520",
+   "quote": "we are obligated to pay to the 1800 Diagonal Lender an amount equal to 150% times the sum of",
+   "section": "Note 8 1800 Diagonal Notes"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "After quarter end the company issued a small convertible note to Red Road Holdings, showing continued reliance on small high-cost convertible financing.",
+   "numbers": "10% interest; matures February 28, 2026",
+   "quote": "The Red Road Convertible Note matures on February 28, 2026, with an interest rate of ten percent (10%) per annum",
+   "section": "Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The common stock was delisted from NYSE American in August 2024 and trades on the OTC Pink market.",
+   "numbers": "",
+   "quote": "Our common stock was delisted from the NYSE American on August 8, 2024",
+   "section": "Note 11 NYSE American Delisting"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The share price was about four cents at quarter end, limiting the ability to raise equity without heavy dilution.",
+   "numbers": "stock price $0.04 at March 31, 2025 vs $0.37 a year earlier; shares outstanding 110,985,208",
+   "quote": "based on our stock price of $0.04 as of March 31, 2025",
+   "section": "Note 12 Restricted Stock Units"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Operating expenses were cut sharply versus the prior-year quarter, mainly lower SG&A, payroll and marketing.",
+   "numbers": "Q2 operating expenses $3,424,224 vs $7,261,028 (-53%); six-month SG&A $5,964,513 vs $11,906,671 (-50%)",
+   "quote": "operating expenses for the three months ended March 31, 2025, were $3,424,224, a decrease of $3,836,804, or 53%, from $7,261,028",
+   "section": "MD&A Consolidated Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "The company continues cost cuts including headcount reductions and organizational restructuring, and is exploring strategic alternatives and financing.",
+   "numbers": "",
+   "quote": "We continue to explore potential strategic alternatives to maximize shareholder value and to evaluate potential financing opportunities.",
+   "section": "Note 1 and Note 2"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Revenue is concentrated in two customers.",
+   "numbers": "22% and 16% of net revenue",
+   "quote": "These customers represented 22% and 16% of net revenue, respectively.",
+   "section": "Note 2 Concentration of credit risk"
+  },
+  {
+   "filing": "10-Q filed 2025-05-15",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company reports compliance with financial covenants on its equipment and software financings.",
+   "numbers": "",
+   "quote": "we were in compliance with all financial covenants of the Dell Equipment Financing Agreement",
+   "section": "Note 8 equipment financings"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The notes state that recurring losses, an accumulated deficit and negative operating cash flows raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "These factors raise substantial doubt about our ability to continue as a going concern.",
+   "section": "Note 1 (going concern)"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash was only about $0.3 million at December 31, 2024 against a large accumulated deficit, with going concern doubt for at least one year from issuance.",
+   "numbers": "cash $323,587; accumulated deficit $157,321,366",
+   "quote": "as of December 31, 2024, our cash totaled $323,587, and we had an accumulated deficit of $157,321,366.",
+   "section": "MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management says it needs additional capital to sustain operations and may have to significantly reduce or discontinue operations if it cannot raise funds.",
+   "numbers": "",
+   "quote": "If we are unable to raise funds when required or on acceptable terms, we may have to significantly reduce or discontinue our operations.",
+   "section": "MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Senior lender GemCap declared events of default in October 2024 because the Bellino Trust note was not subordinated, then accelerated the full loan.",
+   "numbers": "",
+   "quote": "demanding payment of the full amount outstanding on the Revolving Loan Facility by 5:00 p.m. Central time on November 8, 2024",
+   "section": "Note 8 / Note 9 GemCap Litigation"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "GemCap rescinded its forbearance offer and served a UCC public sale notice to foreclose on the company's personal property; the company sued and won a temporary injunction against the auction.",
+   "numbers": "",
+   "quote": "purporting to set a sale, under the UCC, of our personal property in order to foreclose the security interest it held in and to our assets",
+   "section": "Note 8 / Note 9 GemCap Litigation"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Under the November 27, 2024 settlement, GemCap was fully paid off, obligations were extinguished, and the litigation claims were dismissed with prejudice.",
+   "numbers": "GemCap balance $0 vs $2,916,763",
+   "quote": "all amounts, including principal and accrued interest, owing to GemCap were paid off and all of our obligations to GemCap have been extinguished",
+   "section": "Note 8 GemCap Revolving Line of Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The RAT non-revolving line of credit was paid off in November 2024.",
+   "numbers": "$334,575.50 paid; balance $0 vs $442,107",
+   "quote": "the outstanding principal and accrued interest in the amount of $334,575.50 on the RAT Non-Revolving Line of Credit was paid off",
+   "section": "Note 8 RAT Non-Revolving Line of Credit"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The majority stockholder's entity Excel provided a new $3.0 million convertible line of credit in November 2024, though at 20% interest and due 12 months after issue.",
+   "numbers": "balance incl. interest $3,057,461; 20%",
+   "quote": "The Excel $3.0M Line of Credit Convertible Note accrues interest at 20% per annum, and unless converted into our common stock.",
+   "section": "Note 8 The Excel $3.0M Line of Credit Convertible Note"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "A $2.0 million Bellino Trust convertible note, due 12 months after issue and convertible at 70% of the lowest VWAP, is guaranteed personally by the Executive Chairman.",
+   "numbers": "balance incl. interest $2,116,667; quarterly interest $116,667",
+   "quote": "The Bellino Trust $2.0M Convertible Note is guaranteed personally by Mr. Cassidy.",
+   "section": "Note 8 Convertible Notes"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Current debt includes $5.0 million of convertible notes plus $1.0 million related-party and other non-revolving lines, far above cash, and line-of-credit maturities are concentrated in fiscal 2025-2026.",
+   "numbers": "convertible current 2,000,000; related party convertible current 3,000,000; related party non-revolving current 1,000,000; non-revolving current 706,368; maturities FY2025 $5,363,459, FY2026 5,627,200",
+   "quote": "",
+   "section": "Balance sheet; Note 8 maturity analysis"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Related-party debt terms were amended: first interest on the Excel $2.5M revolver deferred one year to July 1, 2025, and the Excel $1.0M line maturity extended 12 months to September 24, 2025.",
+   "numbers": "Excel $2.5M balance $2,710,368; Excel $1.0M balance $1,092,667",
+   "quote": "to extend the date on which the first payment of interest is due under the Excel Revolving Line of Credit by one (1) year, from July 1, 2024, to July 1, 2025",
+   "section": "Note 8 Excel $2.5M Revolving Line of Credit and Excel $1.0M Line of Credit"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter end the company signed a new $2.0 million revolving facility with Capital Foundry maturing in 2028, but had not yet borrowed under it.",
+   "numbers": "up to $2.0 million; Prime plus 7.5%; matures February 2, 2028",
+   "quote": "As of the date of this Report, we have not yet borrowed under the Capital Foundry Loan.",
+   "section": "Note 13 Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company uses expensive short-term Agile loans repaid weekly, refinancing one Agile loan into another.",
+   "numbers": "Agile $660,000: $917,400 repaid weekly $30,580.00, due July 29, 2025, balance $666,246; Agile $388,500: weekly $17,482.50, due May 26, 2025, balance $287,291; Agile $525,000 refinanced $297,175.00",
+   "quote": "Principal and interest in the aggregate amount of $917,400 under the Agile $660,000 Note is repaid in weekly payments of $30,580.00 and shall be repaid on or before the maturity date of July 29, 2025",
+   "section": "Note 8 Other Debt Instruments, Agile"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "Agile agreements include events of default for missed payments and material adverse change, with a 5% default interest add-on.",
+   "numbers": "default interest 5%",
+   "quote": "a default interest rate of 5% will become effective upon the occurrence of an event of default under the Agile Notes",
+   "section": "Note 8 Agile Agreements"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "A CFG merchant cash advance on future receipts is collected by weekly bank debits and personally guaranteed by the Executive Chairman.",
+   "numbers": "Amount Sold $962,500 for $700,000; weekly $24,063; balance $461,558; quarterly interest $123,544",
+   "quote": "The CFG Guarantor has given a personal guaranty of our performance and obligations under the CFG Purchase Agreement.",
+   "section": "Note 8 CFG Purchase Agreement"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Small unsecured 1800 Diagonal notes carry punitive default terms (150% default amount, 22% default interest, conversion at 70% of the lowest prices).",
+   "numbers": "balances $121,440, $55,104, $34,320, $107,520",
+   "quote": "we are obligated to pay to the 1800 Diagonal Lender an amount equal to 150% times the",
+   "section": "Note 8 1800 Diagonal Notes"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The common stock was delisted from NYSE American on August 8, 2024 and trades on OTC Pink.",
+   "numbers": "",
+   "quote": "common stock was delisted from the NYSE American on August 8, 2024",
+   "section": "Note 11 NYSE American Delisting"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Employee options were repriced to about five cents per share after the delisting, showing a very low share price.",
+   "numbers": "$0.0511 per share; shares outstanding 82,953,569",
+   "quote": "to $0.0511 per share, which was the closing price of our common stock on September 27, 2024",
+   "section": "Note 12 Repricing of Certain Employee Stock Options"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Part of the quarter's loss is non-cash stock compensation and depreciation, both lower than a year earlier.",
+   "numbers": "stock-based compensation 1,163,421 vs 1,328,225; depreciation and amortization 260,978 vs 381,875",
+   "quote": "",
+   "section": "Statement of operations / cash flows"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "Costs fell sharply, including an 80% drop in marketing and 47% drop in professional fees, with about $750,000 of yearly vendor costs targeted for elimination.",
+   "numbers": "marketing $433,407 vs $2,178,247; professional fees $326,015 vs $609,654",
+   "quote": "a decrease of $1,744,840, or 80%, from $2,178,247",
+   "section": "MD&A Results of Operations"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "Cost cuts including headcount reductions and organizational restructuring continue, and the company is exploring strategic alternatives and financing.",
+   "numbers": "",
+   "quote": "We continue to explore potential strategic alternatives to maximize shareholder value as well as evaluate potential financing opportunities.",
+   "section": "MD&A Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "One customer accounted for a large share of quarterly revenue.",
+   "numbers": "30% of net revenue",
+   "quote": "This customer represented 30%",
+   "section": "Note 2 Concentration of credit risk"
+  },
+  {
+   "filing": "10-Q filed 2025-02-04",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "The company reports compliance with financial covenants on its equipment and software financings.",
+   "numbers": "",
+   "quote": "we were in compliance with all financial covenants of the Balboa Capital Equipment Financing Agreement",
+   "section": "Note 8 equipment financings"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "On August 6, 2025, Alliance Funding Group accelerated the full balance on two equipment financing agreements and demanded payment within 15 days, with possible repossession of equipment or litigation if unpaid.",
+   "numbers": "$268,035 due within fifteen (15) days of the August 6, 2025 Notices",
+   "quote": "AFG has demanded an aggregate amount of two hundred sixty-eight thousand thirty-five dollars ($268,035)",
+   "section": "8-K filed 2025-08-12, Item 2.04"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "On July 21, 2025, Agile called a default for missed payments on its two subordinated secured loans and accelerated all amounts, due within seven days, with rights to the collateral.",
+   "numbers": "$1,000,476 accelerated; Agile $660,000 and $800,000 loans; due within seven days of July 21, 2025",
+   "quote": "the aggregate amount of one million four hundred seventy six dollars ($1,000,476), due and payable within seven days of the July 21 Notice.",
+   "section": "8-K filed 2025-07-25, Item 2.04"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "On July 15, 2025, Cara Communications sent a formal and final demand declaring the full amount under a license agreement due within five business days.",
+   "numbers": "$361,800 due within five (5) business days",
+   "quote": "The amount owed to CCC under the License Agreement is three hundred sixty-one thousand eight hundred dollars ($361,800).",
+   "section": "8-K filed 2025-07-21, Item 2.04"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "On July 8, 2025, ASCAP accelerated the full remaining amount under a December 2024 settlement agreement after a payment default.",
+   "numbers": "$1,175,000 owed to ASCAP",
+   "quote": "The amount owed to ASCAP under the Settlement Agreement is one million one hundred seventy-five thousand dollars ($1,175,000).",
+   "section": "8-K filed 2025-07-14, Item 2.04"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company failed to repay the May 2023 Secured Line of Credit (secured by all assets) at its May 10, 2025 maturity, and one lender issued a demand notice declaring it 30 days past due.",
+   "numbers": "$889,000 owed to three lenders at May 10, 2025 maturity; $300,000 owed to Lender No. 1; payment demanded within ten (10) days of June 10, 2025",
+   "quote": "the May 2023 Secured Line of Credit had a principal balance, including accrued interest, amounting to eight hundred eighty-nine thousand dollars ($889,000) owed to three remaining lenders.",
+   "section": "8-K filed 2025-07-01, Item 2.04 (May 2023 Secured Line of Credit)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "After an Event of Default, interest on the May 2023 Secured Note rises from 12% by 500 basis points and may apply retroactively.",
+   "numbers": "12% base rate plus 500 basis points",
+   "quote": "shall be increased by five hundred (500) basis points.",
+   "section": "8-K filed 2025-07-01, Item 2.04 (May 2023 Secured Line of Credit)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company missed a June 1, 2025 payment on the 30% interest Bellino Trust $2M convertible note (guaranteed by the Executive Chairman), and the holder declared a default and said it will accelerate repayment.",
+   "numbers": "$2,000,000 principal; 30% per annum interest; due twelve months after October 18, 2024 issue; missed payment June 1, 2025; default notice June 16, 2025",
+   "quote": "the Company received written notice from the Bellino Trust declaring a default on the Company\u2019s payment obligations under the Bellino Trust $2M Convertible Note",
+   "section": "8-K filed 2025-07-01, Item 2.04 (The Bellino Trust $2M Convertible Note)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company missed payments due June 16, 2025 on the 1800 Diagonal notes, and the lender called a default and demanded 150% of remaining principal plus 22% default interest.",
+   "numbers": "$79,260 missed on June 16, 2025; demand of $286,326 (150% multiplier) plus 22% default interest",
+   "quote": "the Company\u2019s failure to make payments due on June 16, 2025, in the aggregate amount of $79,260",
+   "section": "8-K filed 2025-07-01, Item 2.04 (1800 Diagonal Lending Promissory and Bridge Notes)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The 1800 Diagonal lender has begun converting defaulted debt into common stock at a discount and may convert more and sell the shares in the public market, diluting holders.",
+   "numbers": "$15,000 converted into 1,152,073 shares and $20,000 into 1,498,127 shares; $36,310.00 remains on the $138,000 note; conversion at 70% of average of three lowest trading prices",
+   "quote": "As a result of these Conversions, an aggregate of $36,310.00 remains due under the 1800 Diagonal $138,000 Promissory Note.",
+   "section": "8-K filed 2025-07-01, Item 2.04; 8-K filed 2024-12-23, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "When it issued the Bellino note, the company stated that a senior lender default, cross-default and acceleration would leave it without funds to pay its obligations.",
+   "numbers": "",
+   "quote": "Upon such a default, cross-default and acceleration, the Company would not have the funds to pay all amounts outstanding and coming due.",
+   "section": "8-K filed 2024-10-24, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The prior auditor Marcum's report for fiscal year ended September 30, 2024 included a substantial doubt going concern paragraph; Marcum was dismissed on December 30, 2024 and replaced by Grassi & Co., with no disagreements reported.",
+   "numbers": "fiscal year ended September 30, 2024; auditor change December 30, 2024",
+   "quote": "it included an explanatory paragraph regarding substantial doubt as to the Company\u2019s ability to continue as a going concern.",
+   "section": "8-K filed 2024-12-30, Item 4.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "In late 2024 the senior lender GemCap declared events of default, accelerated the revolving facility, and moved to auction company property; courts only temporarily blocked the auction and denied other relief.",
+   "numbers": "Acceleration notice November 5, 2024; payment demanded by November 8, 2024",
+   "quote": "temporarily enjoining GemCap from auctioning the personal property of the Company, but denied the application in all other respects.",
+   "section": "8-K filed 2024-11-12, Item 2.04; 8-K filed 2024-11-27, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company settled with GemCap through a payoff, which released GemCap's security interests, cancelled the public sale of company property, and dismissed all claims.",
+   "numbers": "$1,644,613.41 payoff amount; November 27, 2024",
+   "quote": "the Company agreed to pay to GemCap a total payoff amount, including outstanding principal, accrued interest and fees and a legal reserve, of $1,644,613.41",
+   "section": "8-K filed 2024-11-27, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "NYSE American suspended trading and delisted the common stock in August 2024 because of its low selling price; the company did not appeal, and the stock moved to OTC Pink.",
+   "numbers": "Notice August 8, 2024; Form 25 filed August 15, 2024; OTC Pink trading from August 9, 2024",
+   "quote": "it has notified the NYSE American of its decision not to pursue such an appeal.",
+   "section": "8-K filed 2024-08-21 and 2024-08-09, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Earlier, NYSE American found the company below stockholders' equity standards, with a stockholders' deficit and losses in each of its five most recent fiscal years.",
+   "numbers": "stockholders' deficit of $(3.7) million as of December 31, 2023",
+   "quote": "the Company reported stockholders\u2019 deficit of $(3.7) million as of December 31, 2023",
+   "section": "8-K filed 2024-04-24, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "An entity managed by the Executive Chairman exchanged the entire balance of its $1.0M secured note into restricted common stock, reducing debt.",
+   "numbers": "$1,103,000 exchanged into 26,261,905 shares at $0.042 per share; 109,215,474 shares outstanding as of February 20, 2025",
+   "quote": "the entire balance owed under the Note (totaling $1,103,000) was exchanged into 26,261,905 restricted shares of the Company\u2019s common stock",
+   "section": "8-K filed 2025-02-26, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The Executive Chairman's entity Excel provided a new non-revolving convertible line of credit at 20% interest, maturing in 12 months and extendable by 12 more months, showing insider support; the filing does not say how much was drawn.",
+   "numbers": "up to $3,000,000; 20% per annum; effective November 27, 2024",
+   "quote": "for an aggregate principal amount of up to $3,000,000",
+   "section": "8-K filed 2024-12-04, Item 1.01 (Excel $3M Line of Credit Convertible Note)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The secured Excel $2.5M revolver is fully drawn, and its first interest payment was deferred one year to July 1, 2025.",
+   "numbers": "$2,500,000 fully drawn; 10% interest; first interest payment moved from July 1, 2024 to July 1, 2025",
+   "quote": "The Excel $2.5M Revolving Line of Credit has been fully drawn upon",
+   "section": "8-K filed 2024-12-04, Item 1.01 (Excel $2.5M Revolving Line of Credit Amendment)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company kept refinancing expensive short-term Agile loans with weekly payments; the March 2025 loan rolled over earlier debt and left about $602,582.50 for operations, maturing October 23, 2025.",
+   "numbers": "$800,000 principal; $1,112,000.00 repayable at $37,066.67 weekly; $157,417.50 used to repay prior loan; $602,582.50 for operations; maturity October 23, 2025; 5% default interest",
+   "quote": "Principal and interest in the aggregate amount of $1,112,000.00 under the Agile Note shall be repaid in weekly payments of $37,066.67 commencing on April 3, 2025",
+   "section": "8-K filed 2025-03-31, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The December 2024 Agile loan also refinanced earlier Agile debt and provided only $329,825.00 net for operations, with weekly payments through a July 29, 2025 maturity.",
+   "numbers": "$660,000 principal; $917,400.00 repayable at $30,580.00 weekly; $297,175.00 used to repay prior loan; $329,825.00 for operations; maturity July 29, 2025",
+   "quote": "with the balance, net an administration fee, of $329,825.00 being used for general operations.",
+   "section": "8-K filed 2025-01-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "In August 2024 the company sold future receipts to a merchant cash advance buyer at a steep discount, with weekly debits from its bank account and a personal guaranty from the Executive Chairman.",
+   "numbers": "$962,500 of future receipts sold for $700,000; 14.44% purchased percentage; $4,812.60 daily; $24,063 weekly",
+   "quote": "with such weekly payment equaling $24,063",
+   "section": "8-K filed 2024-09-05, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company received $2,000,000 of new money from the Bellino Trust convertible note in October 2024 for working capital.",
+   "numbers": "$2,000,000 received October 21, 2024",
+   "quote": "Company received the purchase price of $2,000,000 under the Convertible Note on October 21, 2024",
+   "section": "8-K filed 2024-10-24, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised small amounts of equity: a May 2024 registered direct offering plus an insider private placement, and a December 2024 private placement at $0.0470 per share.",
+   "numbers": "approximately $1.45 million registered offering; approximately $1.0 million insider private placement; $100,000.00 for 2,127,659 shares at $0.0470 in December 2024",
+   "quote": "for aggregate gross proceeds to the Company of approximately $1.45 million",
+   "section": "8-K filed 2024-06-03, Item 1.01; 8-K filed 2024-12-10, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The May 2022 non-revolving line of credit lenders extended maturity twice (to January 13, 2025) and waived their right to one-third of capital raise proceeds in exchange for repriced warrants.",
+   "numbers": "$2.2 million line; maturity extended to January 13, 2025; nine monthly payments of $110,000 plus interest; warrant price cut from $1.00 to $0.24",
+   "quote": "to irrevocably waive their rights to receive one-third (1/3) of the net proceeds of any non-affiliate capital raise",
+   "section": "8-K filed 2024-04-24, Item 1.01; 8-K filed 2024-06-03, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Cash strain is visible in compensation: FY2022 bonuses were deferred because of cash flow, director cash compensation was deferred to September 30, 2025, and non-employee director cash pay was eliminated for fiscal 2025.",
+   "numbers": "Board FY2024 cash compensation deferred to September 30, 2025",
+   "quote": "In light of the Company\u2019s cashflow position, payment of the FY2022 Bonuses was deferred.",
+   "section": "8-K filed 2024-10-04, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Leadership turnover was heavy: the CEO stepped down in March 2024 for an interim CEO, the CRO, COO/CMO and CPTO left, the CFO departed September 30, 2024 for an interim CFO, and three directors resigned.",
+   "numbers": "three directors resigned effective September 30, 2024; Interim CFO effective October 1, 2024",
+   "quote": "The resignations were not because of a disagreement with the Company on any matter relating to the Company\u2019s operations, policies or practices.",
+   "section": "8-K filed 2024-10-04, Item 5.02; 8-K filed 2024-03-19, Item 5.02; 8-K filed 2024-06-03, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "In March 2024 the company began operational cost cutting, including layoffs, furloughs and salary reductions, aimed at a path to break-even.",
+   "numbers": "",
+   "quote": "The Company has begun to implement a variety of cost-cutting measures, including, but not limited to, employee layoffs, furloughs and salary reductions",
+   "section": "8-K filed 2024-03-19, Item 8.01"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score is high because the 8 inputs show a tiny, shrinking company: total liabilities of $30.0M against only $3.4M of assets (8.9x versus a peer median of 0.59x), a current ratio of 0.07, and an annualized net loss of $16.2M, which is -483% of assets and in the bottom 4% of peers. The filings confirm this is real distress and not an artefact. Cash was only $109,692 (0.23 months of burn), and since the quarter ended the company has been hit by a series of defaults and accelerations from Agile, AFG, ASCAP, Cara, Balboa, the May 2023 secured lenders, 1800 Diagonal and the Bellino Trust, together several million dollars that its cash cannot cover.",
+  "verdict": "real risk",
+  "own_risk": "very high",
+  "own_risk_pct": 50,
+  "agree_with_model": "yes",
+  "moved_by": [
+   "Secured lender Agile called a default on July 21, 2025 and accelerated $1,000,476, payable within seven days, with rights to the collateral",
+   "The May 2023 Secured Line of Credit, secured by all assets, was not repaid at its May 10, 2025 maturity ($889,000 owed), and the default is uncured",
+   "Further accelerations and final demands in July-August 2025: ASCAP $1,175,000, Cara Communications $361,800, AFG $268,035, Balboa $82,427, and 1800 Diagonal $286,326 at 150%",
+   "Missed June 1, 2025 payment and declared default on the $2.0M, 30% Bellino Trust note",
+   "Cash of $109,692 at June 30, 2025 (0.23 months of cash) against roughly $4M of accelerated non-insider claims",
+   "Not in compliance with financial covenants on most equipment financings at June 30, 2025",
+   "Lender converting defaulted debt into stock at $0.001353 per share, a share price near zero, so raising equity is effectively closed",
+   "Partly offsetting: the Executive Chairman took over the defaulted Bellino note and keeps funding the company through Excel"
+  ],
+  "reasons": [
+   {
+    "reason": "Liabilities are many times assets, leaving a deep stockholders' deficit and almost no asset cover for creditors",
+    "kind": "model input",
+    "numbers": "Total liabilities $30.0M vs total assets $3.4M (8.92x); assets fell from $10.3M a year before",
+    "peer_comparison": "Liabilities-to-assets 8.92 vs peer median 0.59; total liabilities as a share of assets is higher than 94% of 598 peers",
+    "quote": "",
+    "source": "10-Q, 2025-08-14, balance sheet"
+   },
+   {
+    "reason": "Current liabilities far exceed current assets, so short-term obligations cannot be met from working capital",
+    "kind": "model input",
+    "numbers": "Current assets $1.8M vs current liabilities $25.2M; current ratio 0.07",
+    "peer_comparison": "Current ratio 0.07 vs peer median 1.42; current liabilities share of assets higher than 94% of peers",
+    "quote": "",
+    "source": "10-Q, 2025-08-14, balance sheet"
+   },
+   {
+    "reason": "Large continuing losses relative to the asset base; the loss is mostly cash, not accounting charges",
+    "kind": "model input",
+    "numbers": "Annualized net loss -$16.2M (-483% of assets); 9-month net loss -$12.2M, cash-adjusted -$10.8M; non-cash share of loss 11%",
+    "peer_comparison": "Net income as a share of assets is in the 4th percentile; operating income 5th percentile",
+    "quote": "",
+    "source": "10-Q, 2025-08-14, statements of operations and cash flows"
+   },
+   {
+    "reason": "Revenue collapsed and operating cash flow is still negative",
+    "kind": "model input",
+    "numbers": "Annualized revenue $8.9M vs $24.7M a year before; annualized operating cash flow -$5.6M",
+    "peer_comparison": "Operating cash flow as a share of assets in the 6th percentile",
+    "quote": "",
+    "source": "10-Q, 2025-08-14"
+   },
+   {
+    "reason": "Cash is almost gone: about one week of burn on hand; last-quarter burn of about $1.0M (9-month $4.2M minus 6-month $3.23M) gives the same picture, and months_of_cash ignores the debts now due",
+    "kind": "from the filings",
+    "numbers": "Cash $109,692; monthly burn $0.47M; 0.23 months of cash; $0 above FDIC limits vs $490,195 at September 30, 2024",
+    "peer_comparison": "",
+    "quote": "approximately $0 and $490,195, respectively, of cash exceeded the FDIC insurance limits.",
+    "source": "10-Q, 2025-08-14, Note 2 - Cash"
+   },
+   {
+    "reason": "Management and the notes state substantial doubt about going concern (already in the base rate)",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "These factors raise substantial doubt about our ability to continue as a going concern.",
+    "source": "10-Q, 2025-08-14, Note 1 - Going concern"
+   },
+   {
+    "reason": "Multiple lenders have sent default notices and acceleration letters",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "We have received notices of default and acceleration letters from certain lenders related to outstanding debt obligations.",
+    "source": "10-Q, 2025-08-14, Note 1 and Note 8"
+   },
+   {
+    "reason": "Secured lender Agile accelerated about $1.0M with rights to the collateral",
+    "kind": "from the filings",
+    "numbers": "$1,000,476 due within seven days of July 21, 2025",
+    "peer_comparison": "",
+    "quote": "the aggregate amount of one million four hundred seventy six dollars ($1,000,476), due and payable within seven days of the July 21 Notice.",
+    "source": "8-K, 2025-07-25, Item 2.04"
+   },
+   {
+    "reason": "The all-asset secured May 2023 line matured unpaid and the default is uncured",
+    "kind": "from the filings",
+    "numbers": "$889,000 owed at May 10, 2025 maturity; balance $813,549 at June 30, 2025; 12% plus 500 bp on default",
+    "peer_comparison": "",
+    "quote": "this default has not yet been cured; however, no further action has been taken against the Company with respect to the May 2023 Secured Note.",
+    "source": "10-Q, 2025-08-14, Note 8 - May 2023 Secured Loan"
+   },
+   {
+    "reason": "Missed payment and declared default on the $2.0M, 30% Bellino Trust note",
+    "kind": "from the filings",
+    "numbers": "$2,000,000 principal; 30% interest; missed June 1, 2025; default notice June 16, 2025",
+    "peer_comparison": "",
+    "quote": "we received written notice from the Bellino Trust declaring a default on our payment obligations under the Bellino Trust $2M Convertible Note",
+    "source": "10-Q, 2025-08-14, Note 8 and Note 13"
+   },
+   {
+    "reason": "Trade and licensing creditors are also accelerating",
+    "kind": "from the filings",
+    "numbers": "ASCAP $1,175,000 (July 8, 2025); Cara $361,800 (July 15, 2025)",
+    "peer_comparison": "",
+    "quote": "The amount owed to ASCAP under the Settlement Agreement is $1,175,000.",
+    "source": "10-Q, 2025-08-14, Note 13 - Subsequent Events"
+   },
+   {
+    "reason": "Equipment lenders accelerated and may repossess equipment; most equipment financings were out of covenant compliance",
+    "kind": "from the filings",
+    "numbers": "AFG $268,035 (August 6, 2025, due in 15 days); Balboa $82,427 (July 11, 2025)",
+    "peer_comparison": "",
+    "quote": "AFG has demanded an aggregate amount of two hundred sixty-eight thousand thirty-five dollars ($268,035)",
+    "source": "8-K, 2025-08-12, Item 2.04"
+   },
+   {
+    "reason": "1800 Diagonal called a default and is converting debt into stock at a fraction of a cent, which shows a collapsed share price and shuts off equity funding",
+    "kind": "from the filings",
+    "numbers": "$79,260 missed June 16, 2025; $286,326 demanded at 150%; conversion price fell from $0.01302 to $0.001353",
+    "peer_comparison": "",
+    "quote": "1800 Diagonal converted $9,490 of the principal amount due into 7,014,043 shares of our common stock at a conversion price of $0.001353.",
+    "source": "10-Q, 2025-08-14, Note 13 - Subsequent Events"
+   },
+   {
+    "reason": "Operating cash flow was propped up by not paying suppliers",
+    "kind": "from the filings",
+    "numbers": "Accounts payable up $4,137,485 in nine months",
+    "peer_comparison": "",
+    "quote": "",
+    "source": "10-Q, 2025-08-14, statements of cash flows"
+   },
+   {
+    "reason": "Stock delisted and trading on OTC Pink, limiting access to capital",
+    "kind": "from the filings",
+    "numbers": "Delisted August 8, 2024",
+    "peer_comparison": "",
+    "quote": "common stock was delisted from the NYSE American on August 8, 2024, and began trading under the symbol \u201cLPTV\u201d on the OTC Pink Market on August 9, 2024.",
+    "source": "10-Q, 2025-08-14, Note 11"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "The majority holder and Executive Chairman took over the defaulted Bellino note, which removes an outside creditor from that $2.0M claim and shows he is still willing to support the company",
+    "quote": "In a private transaction on July 15, 2025, the Bellino Trust $2.0M Convertible Note was assigned to Mr. Cassidy with no changes to the terms.",
+    "source": "10-Q, 2025-08-14, Note 13 - Subsequent Events"
+   },
+   {
+    "point": "Insider entity Excel has repeatedly funded the company, swapped debt for equity and deferred interest, and its $2.5M revolver only matures 12 months after notice",
+    "quote": "As a result, our obligations under the Excel $1.0M Note were extinguished.",
+    "source": "10-Q, 2025-08-14, Note 8 - Excel $1.0M Line of Credit"
+   },
+   {
+    "point": "The company avoided a GemCap foreclosure in late 2024 by settling and paying it off, so it has escaped a near-default before",
+    "quote": "all amounts, including principal and accrued interest, owing to GemCap were paid off and all of our obligations to GemCap have been extinguished",
+    "source": "10-Q, 2025-08-14, Note 8 - GemCap"
+   },
+   {
+    "point": "A $2.0M Capital Foundry revolver maturing in 2028 was put in place in February 2025, though it was nearly fully drawn",
+    "quote": "The loan matures on February 2, 2028",
+    "source": "10-Q, 2025-08-14, Note 8 - Capital Foundry"
+   },
+   {
+    "point": "Some lenders have not yet enforced, for example on the May 2023 secured note",
+    "quote": "this default has not yet been cured; however, no further action has been taken against the Company with respect to the May 2023 Secured Note.",
+    "source": "10-Q, 2025-08-14, Note 8"
+   },
+   {
+    "point": "Costs were cut sharply, and the annualized loss is smaller than a year earlier ($16.2M vs $24.4M)",
+    "quote": "operating expenses for the three months ended March 31, 2025, were $3,424,224, a decrease of $3,836,804, or 53%, from $7,261,028",
+    "source": "10-Q, 2025-05-15, MD&A"
+   },
+   {
+    "point": "Many of the defaulted claims are small in absolute dollars, so a modest insider injection could cure some of them; a small creditor may also prefer workouts or repossession over a court filing",
+    "quote": "",
+    "source": "Inference from Note 13 amounts"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2024-03-19",
+    "event": "Cost-cutting begins (layoffs, furloughs, salary reductions); CEO steps down for an interim CEO"
+   },
+   {
+    "date": "2024-08-08",
+    "event": "NYSE American delists the stock for low price; trading moves to OTC Pink"
+   },
+   {
+    "date": "2024-10-21",
+    "event": "Company receives $2.0M from the 30% Bellino Trust convertible note"
+   },
+   {
+    "date": "2024-11-05",
+    "event": "Senior lender GemCap accelerates its revolver and moves to auction company property"
+   },
+   {
+    "date": "2024-11-27",
+    "event": "GemCap settlement payoff ($1,644,613.41); Excel $3.0M convertible line provided"
+   },
+   {
+    "date": "2024-12-30",
+    "event": "Auditor Marcum dismissed (its FY2024 report had a going concern paragraph); Grassi & Co. engaged"
+   },
+   {
+    "date": "2025-02-02",
+    "event": "New $2.0M Capital Foundry revolver signed, maturing February 2, 2028"
+   },
+   {
+    "date": "2025-05-10",
+    "event": "May 2023 Secured Line of Credit matures unpaid ($889,000 owed)"
+   },
+   {
+    "date": "2025-06-01",
+    "event": "Missed payment on the Bellino Trust $2M note"
+   },
+   {
+    "date": "2025-06-10",
+    "event": "Demand notice from a May 2023 secured lender"
+   },
+   {
+    "date": "2025-06-16",
+    "event": "Bellino Trust declares default; missed $79,260 of 1800 Diagonal payments"
+   },
+   {
+    "date": "2025-06-20",
+    "event": "1800 Diagonal declares default on all notes, demands 150% of principal plus 22% default interest"
+   },
+   {
+    "date": "2025-06-30",
+    "event": "Quarter end: cash $109,692, total liabilities $30.0M vs assets $3.4M"
+   },
+   {
+    "date": "2025-07-08",
+    "event": "ASCAP accelerates $1,175,000 settlement balance"
+   },
+   {
+    "date": "2025-07-11",
+    "event": "Balboa accelerates $82,427 and demands return of equipment"
+   },
+   {
+    "date": "2025-07-15",
+    "event": "Cara Communications final demand for $361,800; Bellino note assigned to Mr. Cassidy"
+   },
+   {
+    "date": "2025-07-21",
+    "event": "Agile declares default and accelerates $1,000,476 on two secured loans"
+   },
+   {
+    "date": "2025-08-06",
+    "event": "AFG accelerates $268,035 on two equipment financings, due in 15 days"
+   },
+   {
+    "date": "2025-08-12",
+    "event": "1800 Diagonal converts debt at $0.001353 per share"
+   },
+   {
+    "date": "2025-08-14",
+    "event": "10-Q filed with going concern doubt and uncured defaults"
+   }
+  ],
+  "dates_to_watch": [
+   "2025-08-21: end of AFG's 15-day payment window on $268,035 (repossession or litigation possible)",
+   "Any Agile enforcement against its collateral after the July 21, 2025 acceleration",
+   "2025-09-24: extended maturity of the Excel $1.0M line, already exchanged into equity; watch other Excel terms",
+   "2025-09-30: fiscal year end and deferred board cash compensation due; the 10-K audit opinion",
+   "2025-10-18: 12-month maturity of the Bellino $2.0M note, now held by Mr. Cassidy",
+   "2025-10-23: Agile $800,000 loan maturity (already accelerated)",
+   "2025-11-27: 12-month maturity of the Excel $3.0M convertible line unless extended",
+   "Any new 8-K Item 2.04 acceleration, Item 1.03 bankruptcy or receivership, or secured-party sale notice"
+  ],
+  "would_change_my_mind": [
+   "A sizable new equity or insider cash injection that cures the Agile, May 2023 secured, ASCAP and AFG defaults",
+   "Written forbearance or settlement agreements with Agile and the May 2023 secured lenders",
+   "Excel or Mr. Cassidy converting the Bellino, $3.0M and $2.5M insider debt to equity",
+   "A sale of the business or assets that pays creditors outside court",
+   "On the other side: a secured lender foreclosing on collateral or a creditor filing an involuntary petition would raise the risk further"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Whether any payment, forbearance or settlement was made on the Agile, AFG, ASCAP or Cara demands after the notices",
+   "How much undrawn capacity, if any, remains on the Excel lines and whether Mr. Cassidy will keep funding",
+   "The exact total of debt payments due in the next 12 months beyond the amounts named in the findings",
+   "Cash balance after June 30, 2025",
+   "Whether a secured creditor prefers a UCC sale or repossession over a court filing, which would be an outcome other than bankruptcy"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

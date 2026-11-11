@@ -1,0 +1,1853 @@
+{
+ "adsh": "0000950170-25-043326",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0000950170-25-043326",
+ "case": {
+  "adsh": "0000950170-25-043326",
+  "cik": 1936224,
+  "name": "SURF AIR MOBILITY INC.",
+  "form": "10-K",
+  "fp": "FY",
+  "period_end": "20241231",
+  "filed": "20250321",
+  "sic": 4522,
+  "score": 0.794,
+  "band": "above 0.7",
+  "base_rate_pct": 18.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 124.1,
+    "year_before_musd": 111.0,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 14
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 33.9,
+    "year_before_musd": 17.7,
+    "share_of_assets_pct": 27.3,
+    "peer_percentile": 59
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 89.6,
+    "year_before_musd": 140.1,
+    "share_of_assets_pct": 72.2,
+    "peer_percentile": 86
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 244.1,
+    "year_before_musd": 188.5,
+    "share_of_assets_pct": 196.7,
+    "peer_percentile": 95
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 119.4,
+    "year_before_musd": 60.5,
+    "share_of_assets_pct": 96.3,
+    "peer_percentile": 73
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -74.9,
+    "year_before_musd": -250.7,
+    "share_of_assets_pct": -60.4,
+    "peer_percentile": 9
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -60.3,
+    "year_before_musd": -196.8,
+    "share_of_assets_pct": -48.6,
+    "peer_percentile": 5
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -54.3,
+    "year_before_musd": -64.4,
+    "share_of_assets_pct": -43.8,
+    "peer_percentile": 5
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 1.97,
+   "current_ratio": 0.38,
+   "peer_count": 22,
+   "peer_median_liabilities_to_assets": 0.81,
+   "peer_median_current_ratio": 0.78,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "cash": {
+   "cash_usd": 21107000,
+   "period_months": 12,
+   "operating_cash_flow_musd": -54.3,
+   "monthly_cash_burn_musd": 4.53,
+   "months_of_cash": 4.66,
+   "net_income_musd": -74.9,
+   "non_cash_charges_musd": {
+    "stock_compensation": -6.0,
+    "depreciation_amortization": 8.3,
+    "impairment": 0.0
+   },
+   "cash_adjusted_net_income_musd": -72.5,
+   "non_cash_share_of_loss_pct": 3,
+   "note": "from this filing's XBRL, for its period to date (not annualized); months_of_cash = cash / monthly burn over that period; non-cash charges counted: stock compensation, depreciation and amortization, impairment (a negative stock compensation is a reversal that makes the loss look smaller)"
+  },
+  "history": [
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230829,
+    "total_assets": 14781000.0,
+    "current_assets": 10069000.0,
+    "current_liabilities": 131767000.0,
+    "total_liabilities": 160449000.0,
+    "revenue": 23404000.0,
+    "net_income": -130186000.0,
+    "operating_income": -50404000.0,
+    "operating_cash_flow": -41244000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230930,
+    "filed": 20231114,
+    "total_assets": 185474000.0,
+    "current_assets": 28034000.0,
+    "current_liabilities": 104482000.0,
+    "total_liabilities": 157176000.0,
+    "revenue": 44892000.0,
+    "net_income": -186269333.33333337,
+    "operating_income": -117633333.33333331,
+    "operating_cash_flow": -60100000.0
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20231231,
+    "filed": 20240329,
+    "total_assets": 110989000.0,
+    "current_assets": 17736000.0,
+    "current_liabilities": 140114000.0,
+    "total_liabilities": 188474000.0,
+    "revenue": 60505000.0,
+    "net_income": -250696000.0,
+    "operating_income": -196767000.0,
+    "operating_cash_flow": -64371000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20240331,
+    "filed": 20240515,
+    "total_assets": 108786000.0,
+    "current_assets": 16713000.0,
+    "current_liabilities": 165470000.0,
+    "total_liabilities": 215087000.0,
+    "revenue": 122496000.0,
+    "net_income": -147860000.0,
+    "operating_income": -137880000.0,
+    "operating_cash_flow": -51240000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240630,
+    "filed": 20240814,
+    "total_assets": 105547000.0,
+    "current_assets": 15875000.0,
+    "current_liabilities": 186843000.0,
+    "total_liabilities": 233637000.0,
+    "revenue": 125980000.0,
+    "net_income": -127896000.0,
+    "operating_income": -119454000.0,
+    "operating_cash_flow": -36864000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20240930,
+    "filed": 20241114,
+    "total_assets": 97879000.0,
+    "current_assets": 14176000.0,
+    "current_liabilities": 133102000.0,
+    "total_liabilities": 233489000.0,
+    "revenue": 121834666.66666669,
+    "net_income": -101564000.0,
+    "operating_income": -91153333.33333331,
+    "operating_cash_flow": -40989333.333333336
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20241231,
+    "filed": 20250321,
+    "total_assets": 124058000.0,
+    "current_assets": 33875000.0,
+    "current_liabilities": 89610000.0,
+    "total_liabilities": 244055000.0,
+    "revenue": 119425000.0,
+    "net_income": -74908000.0,
+    "operating_income": -60256000.0,
+    "operating_cash_flow": -54322000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0000950170-25-043326",
+   "form": "10-K",
+   "date": "2025-03-21",
+   "why": "this report"
+  },
+  {
+   "adsh": "0000950170-24-038767",
+   "form": "10-K",
+   "date": "2024-03-29",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0000950170-24-127106",
+   "form": "10-Q",
+   "date": "2024-11-14",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0000950170-24-097145",
+   "form": "10-Q",
+   "date": "2024-08-14",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0000950170-24-060529",
+   "form": "10-Q",
+   "date": "2024-05-15",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0000950170-24-138511",
+   "form": "8-K",
+   "date": "2024-12-19",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0000950170-24-134778",
+   "form": "8-K",
+   "date": "2024-12-10",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0000950170-24-098593",
+   "form": "8-K",
+   "date": "2024-08-19",
+   "why": "8-K items 3.03,5.02,5.03,9.01"
+  },
+  {
+   "adsh": "0000950170-24-095740",
+   "form": "8-K",
+   "date": "2024-08-13",
+   "why": "8-K items 1.01,7.01,9.01"
+  },
+  {
+   "adsh": "0000950170-24-081694",
+   "form": "8-K",
+   "date": "2024-07-05",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0000950170-24-078608",
+   "form": "8-K",
+   "date": "2024-06-27",
+   "why": "8-K items 5.02,5.07,9.01"
+  },
+  {
+   "adsh": "0000950170-24-064654",
+   "form": "8-K",
+   "date": "2024-05-24",
+   "why": "8-K items 3.01,7.01,9.01"
+  },
+  {
+   "adsh": "0000950170-24-062450",
+   "form": "8-K",
+   "date": "2024-05-20",
+   "why": "8-K items 5.02"
+  },
+  {
+   "adsh": "0000950170-24-042349",
+   "form": "8-K",
+   "date": "2024-04-05",
+   "why": "8-K items 3.01,9.01"
+  },
+  {
+   "adsh": "0000950170-24-027197",
+   "form": "8-K",
+   "date": "2024-03-06",
+   "why": "8-K items 1.01,2.03,3.02,9.01"
+  },
+  {
+   "adsh": "0000950170-23-073436",
+   "form": "8-K",
+   "date": "2023-12-28",
+   "why": "8-K items 1.01"
+  },
+  {
+   "adsh": "0000950170-23-073152",
+   "form": "8-K",
+   "date": "2023-12-27",
+   "why": "8-K items 5.02"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The filing explicitly states substantial doubt about the company's ability to continue as a going concern and says additional financing is needed to fund operations.",
+   "numbers": "",
+   "quote": "There is substantial doubt about our ability to continue as a going concern. We will need additional financing to execute our business plan, to fund our operations and to continue as a going concern.",
+   "section": "Summary Risk Factors; Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is currently in default on certain excise and property taxes as well as certain debt, tax and other contractual obligations, and has losses, negative operating cash flow and a working capital deficit.",
+   "numbers": "",
+   "quote": "We are currently in default of certain excise and property taxes, as well as certain debt, tax and other contractual obligations",
+   "section": "Item 1A Risk Factors - Financial Position and Capital Requirements"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company defaulted in 2019 on an IRS installment plan for unpaid federal excise taxes and remains in default, with the liability now grown to $7.7 million.",
+   "numbers": "$1.9 million original lien amount; $7.7 million outstanding federal excise tax liability as of December 31, 2024",
+   "quote": "The Company is currently in default of these obligations, with a total outstanding federal excise tax liability, including accrued penalties and interest, of $7.7 million",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company has defaulted on California property taxes, and Los Angeles County has placed a tax lien on four aircraft over a late 2022 property tax return.",
+   "numbers": "$1.6 million total property tax liability; $1.1 million related to Los Angeles County lien; four aircraft under lien",
+   "quote": "Los Angeles County has imposed a tax lien on four of the Company\u2019s aircraft due to the late filing of the Company\u2019s 2022 property tax return.",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company remains in default on a SAFE-T note that matured in July 2019 and cannot repay it before the senior Convertible Note Purchase Agreement.",
+   "numbers": "$0.5 million outstanding principal as of December 31, 2024 and December 31, 2023",
+   "quote": "As of December 31, 2024, the Company was also in default of the Simple Agreements for Future Equity with Token allocation (\u201cSAFE-T\u201d) note, where the note matured in July 2019",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Debt principal outstanding more than doubled to $122.6 million at year-end 2024, consisting of term loans, related party promissory notes and convertible notes.",
+   "numbers": "$122.6 million debt outstanding as of December 31, 2024",
+   "quote": "As of December 31, 2024, we had $122.6 million in debt outstanding, representing principal related to term loans, related party promissory notes and convertible notes.",
+   "section": "Item 1A Risk Factors - Previous defaults on debt"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Financing agreements contain minimum liquidity and other covenants and are cross-collateralized, so a default under one could trigger defaults and acceleration under others and foreclosure on aircraft.",
+   "numbers": "",
+   "quote": "certain of our financing agreements are cross-collateralized, such that an event of default or acceleration of indebtedness under one agreement could result in an event of default under other financing agreements.",
+   "section": "Item 1A Risk Factors - Covenants"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company continues to post large net losses, though the 2024 loss was much smaller than 2023.",
+   "numbers": "Net loss $74.9 million (2024) vs $250.7 million (2023)",
+   "quote": "We incurred net losses of $74.9 million and $250.7 million for the years ended December 31, 2024 and 2023, respectively.",
+   "section": "Item 1A Risk Factors - Losses since inception"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating activities burned $54.3 million of cash in 2024, only modestly better than 2023.",
+   "numbers": "Net cash used in operating activities $54.3 million (2024) vs $64.4 million (2023); decrease of $10.1 million",
+   "quote": "For the year ended December 31, 2024, net cash used in operating activities was $54.3 million, driven by a net loss of $74.9 million, net reversals of $6.0 million in non-cash stock-based compensation",
+   "section": "MD&A - Cash Flow from Operating Activities"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The 2024 loss had little non-cash relief: there was no goodwill impairment, stock compensation was a net reversal, and non-cash add-backs were limited to fair value changes and depreciation, so most of the loss was cash.",
+   "numbers": "No 2024 goodwill impairment (vs $60.0 million in 2023); $6.0 million net SBC reversal; $11.7 million fair value changes; $8.3 million D&A",
+   "quote": "No such charges were recorded during the year ended December 31, 2024.",
+   "section": "MD&A - Impairment of Goodwill; Cash Flow from Operating Activities"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Most of the year-over-year improvement in net loss came from lower non-cash and one-off items (goodwill impairment, stock compensation, listing costs, fair value changes) rather than from operating gains.",
+   "numbers": "Net loss decrease $175.8 million; SBC decrease $54.3 million; listing costs decrease $22.0 million; fair value change decrease $38.5 million; goodwill impairment reduction $60.0 million",
+   "quote": "a decrease in stock-based compensation expense of $54.3 million and decreases in transaction related costs associated with the Company\u2019s public listing, of $22.0 million.",
+   "section": "MD&A - General and Administrative; Net Loss"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised $77.2 million in financing in 2024, mostly new long-term debt and related-party borrowings, which covered the operating cash burn.",
+   "numbers": "$77.2 million financing inflow; $36.2 million net long-term debt; $34.5 million related party borrowings; $2.8 million collateralized borrowings; $3.9 million GEM",
+   "quote": "net cash provided by financing activities was $77.2 million due to proceeds from borrowings under long term debt agreements, net of repayments, of $36.2 million, borrowings from related parties of $34.5 million",
+   "section": "MD&A - Cash Flow from Financing Activities"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Entities affiliated with a co-founder have provided a significant share of funding, indicating insider support.",
+   "numbers": "",
+   "quote": "A significant amount of funding to date has been provided by entities affiliated with a co-founder of the Company.",
+   "section": "Item 1A Risk Factors - Financial Position and Capital Requirements"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The company may draw GEM Advances in 2025 under a $400 million Share Subscription Facility, but access is uncertain, capped by trading volume and ownership limits, and dilutive; only $2.5 million of advances were received in 2024.",
+   "numbers": "$400 million total GEM commitment; draws capped at 400% of 30-day average daily trading volume; $2.5 million GEM advances received in 2024",
+   "quote": "There can be no guarantee that we will be able to access any or all of the GEM Advances or other draw downs available under the Share Subscription Facility.",
+   "section": "Item 1A Risk Factors - Share Subscription Facility; MD&A - Liquidity"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company warns that without new financing it would need to restructure, possibly divest the business, or cease operations.",
+   "numbers": "",
+   "quote": "We may be required to cease operations which could result in our stockholders losing all or most of their investment.",
+   "section": "Item 1A Risk Factors - Capital needs"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The NYSE notified the company that it was below the $50 million market capitalization and stockholders' equity standard; the NYSE accepted its plan, which gives an 18-month cure period with quarterly reviews.",
+   "numbers": "Market cap and stockholders' equity below $50 million; notice May 20, 2024; plan accepted August 21, 2024; 18-month cure period",
+   "quote": "The NYSE accepted our plan on August 21, 2024. As a result, our common stock will continue to be listed and traded on the NYSE during the 18-month cure period",
+   "section": "Item 1A Risk Factors - NYSE listing"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "delisting",
+   "direction": "against",
+   "finding": "The company regained compliance with the NYSE $1.00 minimum price standard after an April 2024 deficiency notice.",
+   "numbers": "Notice April 2, 2024; compliance regained September 30, 2024",
+   "quote": "The Company regained compliance with the requirements of Section 802.01C as of September 30, 2024.",
+   "section": "Item 1A Risk Factors - NYSE listing"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company has significant fixed commitments: 40 aircraft operating leases and a commitment to buy 90 Cessna Caravans over five years.",
+   "numbers": "40 aircraft under operating leases; 4.29 years average remaining term; $17.3 million future minimum lease payments; 90 Cessna Caravans committed, option for 25 more",
+   "quote": "As of December 31, 2024, we had 40 aircraft under operating leases, with an average remaining lease term of approximately 4.29 years.",
+   "section": "Item 1A Risk Factors - Contractual obligations; Capital needs"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company generated cash from asset sales in 2024, which cut net investing outflows to $3.6 million.",
+   "numbers": "$10.5 million increase in cash from sales of fixed assets; $3.6 million net cash used in investing",
+   "quote": "driven by an increase of $10.5 million in cash from sales of fixed assets",
+   "section": "MD&A - Cash Flow from Investing Activities"
+  },
+  {
+   "filing": "10-K filed 2025-03-21",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Material weaknesses in internal control over financial reporting continued to exist at year-end 2024.",
+   "numbers": "",
+   "quote": "As of December 31, 2024, material weaknesses continued to exist in our internal control over financial reporting",
+   "section": "Item 1A Risk Factors - Internal controls"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The filing explicitly states substantial doubt about the company's ability to continue as a going concern and says additional financing is needed.",
+   "numbers": "",
+   "quote": "There is substantial doubt about our ability to continue as a going concern. We will need additional financing to execute our business plan, to fund our operations and to continue as a going concern.",
+   "section": "Summary Risk Factors; Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is currently in default on certain excise and property taxes and certain debt, tax and other contractual obligations, with losses, negative operating cash flow and a working capital deficit.",
+   "numbers": "",
+   "quote": "We are currently in default of certain excise and property taxes, as well as certain debt, tax and other contractual obligations",
+   "section": "Item 1A Risk Factors - Financial Position and Capital Requirements"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "COVID-19 disruption significantly contributed to the company's default on convertible notes owed to a lender and to the renegotiation of those notes.",
+   "numbers": "",
+   "quote": "COVID-19 related disruption in air travel has led to a decrease in membership sales, flight cancellations and significant operational volatility which significantly contributed to our defaulting on convertible notes owed to one of our lenders",
+   "section": "Item 1A Risk Factors - COVID-19"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company has past-due aircraft lease rental and maintenance payments, with repayment deferred under a payment plan until it raises at least $30 million.",
+   "numbers": "Approximately $6.0 million past due; repayment deferred until at least $30 million raised; additional $1 million due at $40 million raised",
+   "quote": "in connection with certain past due rental and maintenance payments under our aircraft leases totaling approximately $6.0 million, we have in place a payment plan",
+   "section": "Item 1A Risk Factors - Contractual obligations"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Net loss more than tripled in 2023 compared with 2022.",
+   "numbers": "Net loss $250.7 million (2023) vs $74.4 million (2022)",
+   "quote": "We incurred net losses of $250.7 million and $74.4 million for the years ended December 31, 2023 and 2022, respectively.",
+   "section": "Item 1A Risk Factors - Losses since inception"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large part of the 2023 loss was a non-cash goodwill impairment on the Southern business unit.",
+   "numbers": "$60.0 million goodwill impairment (2023); none in 2022",
+   "quote": "The Company recorded impairment charges to previously recorded goodwill of its Southern business unit of $60.0 million during the year ended December 31, 2023",
+   "section": "MD&A - Impairment of Goodwill"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Higher stock-based compensation, a non-cash expense, drove much of the 2023 G&A increase, along with one-off public listing costs.",
+   "numbers": "G&A up $63.8 million (173%); SBC up $35.8 million; listing-related professional fees up $11.4 million",
+   "quote": "an increase in stock-based compensation expense of $35.8 million",
+   "section": "MD&A - General and Administrative"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Other expense rose mostly because of non-cash fair value changes on SAFEs and derivatives tied to the direct listing.",
+   "numbers": "Other expense up $33.8 million (144%); fair value changes up $22.5 million; SAFE Notes $20.1 million; derivative liabilities $10.0 million",
+   "quote": "driven by an increase of $22.5 million in changes in fair value of financial instruments carried at fair value.",
+   "section": "MD&A - Other Income/(Expense)"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Debt principal outstanding was $52.1 million at year-end 2023, made up of term loans, related party promissory notes and convertible notes.",
+   "numbers": "$52.1 million debt outstanding as of December 31, 2023",
+   "quote": "As of December 31, 2023, we had $52.1 million in debt outstanding, representing principal related to term loans, related party promissory notes and convertible notes.",
+   "section": "Item 1A Risk Factors - Previous defaults on debt"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Interest expense increased in 2023, partly because of debt acquired from Southern.",
+   "numbers": "Interest expense up $2.4 million; $1.3 million from Southern debt",
+   "quote": "due to an increase in interest expense of $2.4 million driven by $1.3 million of expense due to debt acquired from Southern",
+   "section": "MD&A - Other Income/(Expense)"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Financing agreements include minimum liquidity and other covenants and are cross-collateralized, so one default could trigger others and foreclosure on aircraft.",
+   "numbers": "",
+   "quote": "certain of our financing agreements are cross-collateralized, such that an event of default or acceleration of indebtedness under one agreement could result in an event of default under other financing agreements.",
+   "section": "Item 1A Risk Factors - Covenants"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The company plans to rely on GEM Advances under a $400 million Share Subscription Facility in 2024 and 2025, but access depends on conditions and ownership limits and is not guaranteed.",
+   "numbers": "$400 million maximum aggregate purchase price; GEM Advances up to $100 million",
+   "quote": "We intend to draw upon the GEM Advances in 2024 and 2025 to augment our capital resources to address our capital needs.",
+   "section": "Item 1A Risk Factors - Share Subscription Facility"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company says it may be unable to access future GEM draws, which without other financing would hurt its ability to operate as a going concern.",
+   "numbers": "",
+   "quote": "There can be no guarantee that we will be able to access future GEM Advances or other draw downs available under the Share Subscription Facility.",
+   "section": "Item 1A Risk Factors - Share Subscription Facility"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Entities affiliated with an officer and co-founder have supplied a significant share of the company's funding, indicating insider support.",
+   "numbers": "",
+   "quote": "A significant amount of our funding to date has been provided by entities affiliated with an officer and co-founder of the Company.",
+   "section": "Item 1A Risk Factors - Capital needs"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In 2022 some debt facilities were converted into preferred shares, producing a gain on extinguishment of debt.",
+   "numbers": "$6.0 million gain on extinguishment of debt (2022); $0.3 million loss on extinguishment (2023)",
+   "quote": "During the year ended December 31, 2022 there was a $6.0 million gain on extinguishment of debt due to debt facilities converted to preferred shares",
+   "section": "MD&A - Other Income/(Expense)"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company warns that without additional financing it would need to restructure, possibly divest the business, or cease operations.",
+   "numbers": "",
+   "quote": "We may be required to cease operations which could result in our stockholders losing all or most of their investment.",
+   "section": "Item 1A Risk Factors - Capital needs"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company has fixed commitments: 27 aircraft operating leases and a commitment to buy 90 Cessna Caravans over five years starting in 2024.",
+   "numbers": "27 aircraft under operating leases; 2.24 years average remaining term; $13.0 million future minimum lease payments; 90 Cessna Caravans committed, option for 38 more",
+   "quote": "As of December 31, 2023, we had 27 aircraft under operating leases, with an average remaining lease term of approximately 2.24 years.",
+   "section": "Item 1A Risk Factors - Contractual obligations; Capital needs"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "delisting",
+   "direction": "neutral",
+   "finding": "The company flags a general risk that it may fail to meet NYSE continued listing standards; these passages report no specific deficiency notice.",
+   "numbers": "",
+   "quote": "We cannot assure you that our securities will continue to be listed on the NYSE.",
+   "section": "Item 1A Risk Factors - NYSE listing"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The company waived lock-up provisions on shares held by lenders, including PFG, LamVen and LamJam.",
+   "numbers": "Approximately 13.3 million shares",
+   "quote": "we have agreed to waive the lock-up provisions in respect of the approximately 13.3 million shares of Common Stock held by lenders",
+   "section": "Item 1A Risk Factors - Lock-up provisions"
+  },
+  {
+   "filing": "10-K filed 2024-03-29",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Material weaknesses in internal control over financial reporting continued to exist at year-end 2023, and management has limited public company experience.",
+   "numbers": "",
+   "quote": "As of December 31, 2023, material weaknesses continued to exist in our internal control over financial reporting",
+   "section": "Item 1A Risk Factors - Internal controls; Management experience"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states that recurring operating losses, negative operating cash flows, a working capital deficit and defaults on taxes and debt raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash, cash equivalents and restricted cash fell to about $1.1 million at September 30, 2024 from $2.4 million at the start of the year.",
+   "numbers": "$1,122 thousand end of period vs $2,431 thousand beginning of period; decrease of $(1,309) thousand",
+   "quote": "Cash, cash equivalents and restricted cash at end of period",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operations burned $30.7 million of cash in the nine months, on a net loss of $76.2 million.",
+   "numbers": "Net cash used in operating activities $30.7 million; net loss $(76,173) thousand (2023: $(139,702) thousand)",
+   "quote": "For the nine months ended September 30, 2024, net cash used in operating activities was $30.7 million, driven by a net loss of $76.2 million.",
+   "section": "MD&A, Cash Flow from Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Part of the nine-month loss is non-cash: stock-based compensation, depreciation and amortization, non-cash lease expense and fair value changes.",
+   "numbers": "Stock-based compensation $14,643 thousand; depreciation and amortization $6,161 thousand; non-cash operating lease expense $4,184 thousand; fair value changes $1,918 thousand",
+   "quote": "These operating outflows were partially offset by non-cash stock-based compensation expenses of $14.6 million",
+   "section": "Cash flow statement; MD&A, Cash Flow from Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The company swapped part of the Southern Incentive Bonus Plan for RSUs, reversing $9.3 million of accrued stock compensation, but $22.9 million is still accrued in current liabilities under that plan.",
+   "numbers": "$9.3 million reversal; $22.9 million accrued; 205,800 RSUs issued; about 35% of participation units settled",
+   "quote": "This resulted in a $9.3 million reversal of previously accrued stock-based compensation during the three months ended September 30, 2024",
+   "section": "Note 14, Management Incentive Bonus Plan"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company defaulted in 2019 on an IRS installment plan for unpaid federal excise taxes, and the liability including penalties and interest has grown to $7.7 million.",
+   "numbers": "Original lien $1.9 million; outstanding liability $7.7 million at September 30, 2024 ($7.6 million at December 31, 2023)",
+   "quote": "The Company\u2019s total outstanding federal excise tax liability including accrued penalties and interest of $7.7 million is included in accrued expenses and other current liabilities",
+   "section": "Note 1, Liquidity and Going Concern; Note 12, Tax Commitment"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "An offer-in-compromise sent to the IRS in June 2024 pauses collection actions while the company pays $34 thousand a month.",
+   "numbers": "$34 thousand monthly payments",
+   "quote": "In June 2024, the Company submitted a formal offer-in-compromise (\u201cOIC\u201d) to the IRS, seeking to resolve all excise tax liabilities.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is in default on California property taxes, and Los Angeles County has put a tax lien on four leased aircraft after a late property tax filing.",
+   "numbers": "Property tax liability approximately $1.8 million; Los Angeles County lien-related accrual approximately $1.2 million",
+   "quote": "Los Angeles County has imposed a tax lien on four of the Company\u2019s leased aircraft due to the late filing of the Company\u2019s 2022 property tax return.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The SAFE-T note, which matured in July 2019, is still in default and cannot be repaid before the PFG note.",
+   "numbers": "Principal $0.5 million; fair value $22 thousand",
+   "quote": "As of September 30, 2024 and December 31, 2023, the Company was in default of the SAFE-T note, but the holder has elected not to effect an equity conversion of the instrument.",
+   "section": "Note 8, Fair Value of SAFE Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company missed interest payments on the PFG convertible note, so PFG is charging a default interest rate, although it has taken no other enforcement action.",
+   "numbers": "$818 thousand interest in arrears; default rate 15.75%; principal $8.0 million",
+   "quote": "As of September 30, 2024, the Company was in arrears of $818 thousand in contractual interest payments due under the Convertible Note Purchase Agreement.",
+   "section": "Note 8, Financing Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company needed a waiver from PFG of its $10 million minimum cash covenant, and the waiver runs only to the original December 31, 2024 maturity.",
+   "numbers": "$10 million minimum cash; waiver through December 31, 2024",
+   "quote": "The waiver effectively waives the requirement through the maturity date of December 31, 2024.",
+   "section": "Note 8, Financing Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "About $5.0 million of past-due aircraft rent and maintenance is deferred under a payment plan, $1.0 million of it is classified as current, and nothing has been paid yet.",
+   "numbers": "$5.0 million past due; $1.0 million current; repayment triggers at $30.0 million and $50.0 million of capital raised",
+   "quote": "As of September 30, 2024 the Company has not made any payments under this payment plan.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The related-party LamVen term notes were kept alive through a run of short maturity extensions, the latest to August 20, 2024, before being exchanged in November 2024.",
+   "numbers": "Maturities extended to January 15, 2024, February 9, 2024, May 15, 2024 and August 20, 2024; $38.2 million received by September 30, 2024 plus $4.9 million after",
+   "quote": "On July 31, 2024, the term notes were further amended to extend the maturity date to August 20, 2024, with an effective date of May 15, 2024.",
+   "section": "Note 18, Related Party Transactions (LamVen notes)"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company kept being funded by its related party LamVen, receiving $38.2 million under one note by quarter end and $43.1 million in total.",
+   "numbers": "$38.2 million as of September 30, 2024; additional $4.9 million; aggregate $43.1 million; related-party borrowings $29.7 million in nine months",
+   "quote": "The Company received $38.2 million as of September 30, 2024.",
+   "section": "Note 18, Related Party Transactions"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter end, the company signed a 4-year Comvest credit agreement for $44.5 million of term loans plus $5.5 million of delayed-draw commitments, with no required amortization.",
+   "numbers": "$44.5 million term loans; $5.5 million delayed draw; SOFR (1.00% floor) plus 5.00%; 1.50% fee",
+   "quote": "pursuant to which the Company borrowed $44.5 million of term loans, and $5.5 million of delayed draw commitments.",
+   "section": "Note 19, Subsequent Events, Credit Agreement"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The Comvest loan is fully backstopped by an HSBC letter of credit arranged by Park Lane; if it is drawn, the company owes Park Lane 15.00% interest and must send it part of any equity raise proceeds.",
+   "numbers": "15.00% interest on drawn amounts; 1.00% per annum fee on letter of credit face amount",
+   "quote": "The Credit Agreement is fully backstopped by a letter of credit issued by HSBC Bank USA, N.A. and arranged by Park Lane (\u201cCredit Support Provider\u201d)",
+   "section": "Note 19, Subsequent Events, Park Lane Reimbursement Agreement"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In November 2024 LamVen's existing notes were refinanced into a $50.0 million secured convertible note due December 31, 2028, and $7,473,131 of principal was exchanged for shares and warrants.",
+   "numbers": "$50.0 million principal; maturity December 31, 2028; interest greater of SOFR plus 5.00% or 9.75%; $7,473,131 exchanged for 750,000 shares and 3,389,398 warrants at $1.83",
+   "quote": "the Company issued a secured convertible promissory note (the \u201cLamVen Note\u201d) in aggregate principal amount of $50.0 million to LamVen, to refinance certain existing notes.",
+   "section": "Note 19, Subsequent Events, LamVen Note"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The PFG note's maturity was pushed from December 31, 2024 to December 31, 2028, and the note is now secured and guaranteed by subsidiaries.",
+   "numbers": "$8.0 million principal; maturity December 31, 2028; conversion price $42.00",
+   "quote": "The maturity of the PFG Note is December 31, 2028, which may be accelerated upon the occurrence of certain events of default.",
+   "section": "Note 19, Subsequent Events, Amendment to PFG Convertible Note Purchase Agreement"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The GEM Share Purchase Agreement still has large stated capacity, but GEM's 10% ownership cap (it holds 9.4%) and daily volume limits sharply restrict what can actually be drawn.",
+   "numbers": "Advances up to $97.5 million; draws up to $298.6 million; GEM holds 9.4%; about 686 thousand shares per draw",
+   "quote": "As of September 30, 2024, GEM held 9.4% of the then fully-diluted shares of the Company.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company is trying to cure an NYSE listing violation, and it can only use the GEM facility while it stays listed.",
+   "numbers": "one listing requirement violation",
+   "quote": "The Company is currently attempting to resolve one listing requirement violations with the New York Stock Exchange.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The GEM Mandatory Convertible Security, due August 7, 2029, is carried as a $13.4 million liability, and its valuation assumes a 15.5% probability of default.",
+   "numbers": "Par amount $34,290 thousand; liability $13.4 million; probability of default 15.5% (15.8% at August 7, 2024); $910 thousand converted",
+   "quote": "resulting in a liability of $13.4 million as of September 30, 2024",
+   "section": "Note 9, GEM Mandatory Convertible Security"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "A new uncommitted receivables financing facility of up to $5.0 million had $2.8 million drawn, and the company also took a $3.0 million advance against an expected Employee Retention Credit refund.",
+   "numbers": "$5.0 million maximum; $2.8 million outstanding; $3.0 million ERC advance; prime plus 1%",
+   "quote": "As of September 30, 2024, and December 31, 2023, the outstanding amount due under this facility amounted to $2.8 million and $3.0 million, respectively.",
+   "section": "Note 7, Collateralized Borrowings"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Third-party debt totals $22.5 million, of which $4.8 million is current, and the company reports compliance with the covenants on these notes.",
+   "numbers": "Total debt $22,529 thousand; current maturities $4,822 thousand; remainder of 2024 $2,925 thousand; 2025 $2,512 thousand",
+   "quote": "As of September 30, 2024, the Company was in compliance with all covenants in the loan agreements.",
+   "section": "Note 8, Financing Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "The quarterly net loss fell sharply from the prior year, mostly because of lower general and administrative costs tied to the 2023 direct listing and stock compensation.",
+   "numbers": "Q3 net loss decrease $62.4 million (84%); G&A down $55.2 million; revenue up $6.4 million",
+   "quote": "The decrease in net loss of $62.4 million, or 84%, for the three months ended September 30, 2024 compared to the three months ended September 30, 2023",
+   "section": "MD&A, Net Loss"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Most of the nine-month cash came from related-party borrowings rather than operations or outside capital.",
+   "numbers": "Financing inflow $33.9 million; related-party borrowings $29.7 million; collateralized borrowings $2.8 million; GEM $3.9 million; debt repayments $2.3 million",
+   "quote": "net cash provided by financing activities was $33.9 million due to proceeds from borrowings from related parties of $29.7 million",
+   "section": "MD&A, Cash Flow from Financing Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-11-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "A $60.0 million non-cash goodwill impairment was booked on Southern in Q4 2023 because of maintenance delays, flight cancellations and aircraft delivery cancellations, problems the filing says continued into 2024.",
+   "numbers": "$60.0 million goodwill impairment",
+   "quote": "The resulting goodwill impairment charge of $60.0 million was the result of comparing the fair value of the Southern reporting unit to its carrying value.",
+   "section": "Note 3, Business Combination"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states that recurring operating losses, negative operating cash flows, a working capital deficit and defaults on taxes and debt raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern.",
+   "section": "Note 1, Liquidity and Going Concern; MD&A, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash, cash equivalents and restricted cash were only about $2.1 million at June 30, 2024.",
+   "numbers": "$2,074 thousand end of period vs $2,431 thousand beginning; decrease of $(357) thousand",
+   "quote": "Cash, cash equivalents and restricted cash at end of period",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operations burned $18.4 million of cash in the six months, on a net loss of $63.9 million.",
+   "numbers": "Net cash used in operating activities $18.4 million; net loss $(63,948) thousand (2023: $(65,093) thousand)",
+   "quote": "For the six months ended June 30, 2024, net cash used in operating activities was $18.4 million, driven by a net loss of $63.9 million.",
+   "section": "MD&A, Cash Flow from Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large part of the six-month loss is non-cash stock-based compensation, along with depreciation and non-cash lease expense.",
+   "numbers": "Stock-based compensation $19,995 thousand; depreciation and amortization $4,040 thousand; non-cash operating lease expense $2,762 thousand; fair value changes $669 thousand",
+   "quote": "These operating outflows were partially offset by non-cash stock-based compensation expenses of $20.0 million",
+   "section": "Cash flow statement; MD&A, Cash Flow from Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Stock compensation under the Southern Incentive Bonus Plan was $14.3 million for the half-year, and $31.0 million is accrued in current liabilities; it can be paid in cash or stock at the company's option.",
+   "numbers": "$14.3 million expense; $31.0 million accrued",
+   "quote": "As of June 30, 2024, a total of $31.0 million has been accrued under the Incentive Bonus Plan.",
+   "section": "Note 14, Management Incentive Bonus Plan"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company defaulted in 2019 on an IRS installment plan for unpaid federal excise taxes, and the liability including penalties and interest is now $7.9 million.",
+   "numbers": "Original lien $1.9 million; liability $7.9 million at June 30, 2024 ($7.6 million at December 31, 2023)",
+   "quote": "The Company\u2019s total outstanding federal excise tax liability including accrued penalties and interest of $7.9 million is included in accrued expenses and other current liabilities",
+   "section": "Note 1, Liquidity and Going Concern; Note 12, Tax Commitment"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "An offer-in-compromise sent to the IRS in June 2024 pauses collection actions while the company pays $34 thousand a month.",
+   "numbers": "$34 thousand monthly payments",
+   "quote": "During June 2024, the Company submitted a formal offer-in-compromise (\u201cOIC\u201d) to the IRS, seeking to resolve all consolidated excise tax liabilities.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is in default on California property taxes, and Los Angeles County has put a tax lien on four leased aircraft after a late property tax filing.",
+   "numbers": "Property tax liability approximately $1.7 million; Los Angeles County lien-related accrual approximately $1.2 million",
+   "quote": "Additionally, Los Angeles County has imposed a tax lien on four of the Company\u2019s leased aircraft due to the late filing of the Company\u2019s 2022 property tax return.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The SAFE-T note, which matured in July 2019, is still in default and is subordinate to the PFG note.",
+   "numbers": "Principal $0.5 million; fair value $6 thousand",
+   "quote": "As of June 30, 2024 and December 31, 2023, the Company was in default of the SAFE-T note, but the holder has elected not to effect an equity conversion of the instrument.",
+   "section": "Note 8, Fair Value of SAFE Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "About $5.0 million of past-due aircraft rent and maintenance is deferred under a payment plan, $1.0 million of it is classified as current, and nothing has been paid yet.",
+   "numbers": "$5.0 million past due; $1.0 million current; repayment triggers at $30.0 million and $50.0 million of capital raised",
+   "quote": "As of June 30, 2024 the Company has not made any payments under this payment plan.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company relies on a waiver from PFG of its $10 million minimum cash covenant, valid only to December 31, 2024; it reports compliance with all other PFG covenants.",
+   "numbers": "$10 million minimum cash; waiver through December 31, 2024",
+   "quote": "The waiver effectively waives the requirement through the maturity date of December 31, 2024.",
+   "section": "Note 8, Financing Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The $8.0 million PFG convertible note comes due December 31, 2024, less than six months after the balance sheet date, against cash of about $2.1 million.",
+   "numbers": "$8.0 million principal; 9.75% interest; maturity December 31, 2024; fair value $8,014 thousand",
+   "quote": "The note bears interest at a rate of 9.75% and matures on December 31, 2024.",
+   "section": "Note 8, Financing Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The related-party LamVen term notes have been rolled over with repeated short extensions, the latest to August 20, 2024, while one note's principal was raised to $36.1 million.",
+   "numbers": "Maturity extended to August 20, 2024; principal increased to $36.1 million; $33.4 million cash received since inception",
+   "quote": "On July 31, 2024, the LamVen term notes originally dated November 30, 2022, January 18, 2023, May 22, 2023, and June 15, 2023 were further amended to extend the maturity date to August 20, 2024",
+   "section": "Note 19, Subsequent Events; Note 18, Related Party Transactions"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The related party LamVen keeps funding the company and has advanced $33.4 million under one note since inception.",
+   "numbers": "$28.0 million as of June 30, 2024; additional $5.3 million; aggregate $33.4 million; related-party borrowings $19.5 million in six months",
+   "quote": "for an aggregate total of $33.4 million cash received under the note since inception",
+   "section": "Note 18, Related Party Transactions"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The lender behind the receivables financing gave notice of termination and cut capacity; the company paid a fee to extend it, with capacity shrinking every month until December 2024.",
+   "numbers": "Capacity cut to 80% of eligible receivables; $100 thousand extension fee; further 10% monthly reductions; maximum $3 million; $2.0 million outstanding",
+   "quote": "During April 2024, the Company received notice from the counterparty to its accounts receivable financing arrangement that such arrangement would be terminated as of May 20, 2024.",
+   "section": "Note 2, Collateralized Borrowings"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "On August 9, 2024 the company replaced that arrangement with a new revolving receivables facility of up to $5 million, with a one-year term that renews automatically.",
+   "numbers": "Up to $5 million; prime plus 1%",
+   "quote": "up to a maximum unsettled amount of $5 million",
+   "section": "Note 19, Subsequent Events, Collateralized Borrowings"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The GEM Mandatory Convertible Security closed on August 7, 2024, due August 7, 2029, and restored the GEM share facility to full capacity.",
+   "numbers": "Par amount $35,200,000; maturity August 7, 2029; 6,300,000 shares returned; facility up to $400 million",
+   "quote": "At the closing, the Company issued a mandatory convertible security with a par amount of $35,200,000 (the \u201cMandatory Convertible Security\u201d).",
+   "section": "Note 19, Subsequent Events, GEM Mandatory Convertible Security"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The GEM Share Purchase Agreement has large stated capacity, but GEM's 10% ownership cap, daily volume limits and the need to stay listed restrict what can actually be drawn.",
+   "numbers": "Advances up to $90.0 million; draws up to $296.0 million; GEM holds 4.5%; about 5.7 million shares per draw",
+   "quote": "As of June 30, 2024, the contractual terms allow the Company to make further advances of up to $90.0 million under the Share Purchase Agreement.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company is trying to cure two NYSE listing violations, and it can only use the GEM facility while it stays listed.",
+   "numbers": "two listing requirement violations",
+   "quote": "The Company is currently attempting to resolve two listing requirement violations with the New York Stock Exchange.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "delisting",
+   "direction": "neutral",
+   "finding": "The board approved a 1-for-7 reverse stock split, effective August 19, 2024.",
+   "numbers": "one-for-seven; effective August 19, 2024",
+   "quote": "On August 8, 2024, the Company\u2019s board of directors approved an amendment to the Company\u2019s Certificate of Incorporation effecting a one-for-seven reverse split of the Company\u2019s common stock.",
+   "section": "Note 19, Subsequent Events, Stock Split"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Third-party debt totals $23.3 million, of which $4.9 million is current, and the company reports compliance with the covenants on these notes.",
+   "numbers": "Total debt $23,268 thousand; current maturities $4,922 thousand; remainder of 2024 $3,659 thousand; 2025 $2,512 thousand",
+   "quote": "As of June 30, 2024, the Company was in compliance with all covenants in the loan agreements.",
+   "section": "Note 8, Financing Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Most of the six-month financing inflow came from related-party borrowings.",
+   "numbers": "Financing inflow $20.7 million; related-party borrowings $19.5 million; GEM $3.8 million; debt repayments $1.5 million",
+   "quote": "For the six months ended June 30, 2024, net cash provided by financing activities was $20.7 million due to proceeds from borrowings from related parties of $19.5 million",
+   "section": "MD&A, Cash Flow from Financing Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "General and administrative expense rose sharply in the half-year, driven by stock-based compensation and management incentive plan costs.",
+   "numbers": "G&A up $26.5 million (149%); stock-based compensation up $17.2 million; incentive plan expenses up $4.0 million",
+   "quote": "General and administrative expenses increased by $26.5 million, or 149%, for the six months ended June 30, 2024, compared to the six months ended June 30, 2023.",
+   "section": "MD&A, General and Administrative"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Growth plans need about $1.2 billion of aircraft over five years, to be financed through a sale-leaseback arrangement of up to $450 million and other facilities the company has not yet obtained.",
+   "numbers": "Approximately $1.2 billion; 90 Cessna Grand Caravans plus 26 options; $5.0 million deposits; up to $450 million Jetstream facility",
+   "quote": "Expansion of the network will require acquisition of aircraft over the next five years with an expected cost of approximately $1.2 billion.",
+   "section": "MD&A, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The company reports material weaknesses in internal control over financial reporting that have led to audit adjustments across its accounts.",
+   "numbers": "",
+   "quote": "These material weaknesses resulted in audit adjustments to substantially all of our accounts",
+   "section": "Item 4, Controls and Procedures"
+  },
+  {
+   "filing": "10-Q filed 2024-08-14",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "A $60.0 million non-cash goodwill impairment was booked on Southern in Q4 2023 because of maintenance delays, flight cancellations and aircraft delivery cancellations, problems the filing says continued into 2024.",
+   "numbers": "$60.0 million goodwill impairment",
+   "quote": "The resulting goodwill impairment charge of $60.0 million was the result of comparing the fair value of the Southern reporting unit to its carrying value.",
+   "section": "Note 3, Business Combination"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management states that recurring losses, negative operating cash flow, a working capital deficit and defaults raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern.",
+   "section": "Note 1, Liquidity and Going Concern; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company has operating losses, negative operating cash flows and a working capital deficit.",
+   "numbers": "",
+   "quote": "The Company has incurred losses from operations, negative cash flows from operating activities and has a working capital deficit.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash, cash equivalents and restricted cash fell to about $2.0 million at quarter end, of which $713 thousand was restricted cash.",
+   "numbers": "Cash, cash equivalents and restricted cash: $1,991 thousand end of period vs $2,431 thousand beginning; decrease (440); restricted cash 713",
+   "quote": "Cash, cash equivalents and restricted cash at end of period",
+   "section": "Condensed Consolidated Statements of Cash Flows; Balance Sheet"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash burn for the quarter was $12.8 million on a net loss of $36.9 million, far above the cash on hand.",
+   "numbers": "Net cash used in operating activities $12.8 million; net loss $36.9 million (36,965 thousand)",
+   "quote": "For the three months ended March 31, 2024, net cash used in operating activities was $12.8 million, driven by a net loss of $36.9 million.",
+   "section": "MD&A, Cash Flow from Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "A large part of the quarterly loss is non-cash, mainly stock-based compensation, plus depreciation and amortization and non-cash lease expense.",
+   "numbers": "Stock-based compensation 12,643; depreciation and amortization 1,978; non-cash operating lease expense 1,368; fair value changes 515 (thousands)",
+   "quote": "These operating outflows were partially offset by non-cash stock-based compensation expenses of $12.6 million, increases in accounts payable and accrued expenses of $8.3 million, and increases in depreciation and amortization expense of $2.0 million.",
+   "section": "Cash flow statement; MD&A Cash Flow from Operating Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "$10.0 million of the stock compensation relates to the Southern Incentive Bonus Plan, with $26.7 million accrued as a current liability payable in cash or stock at the company's option.",
+   "numbers": "$10.0 million expense in Q1 2024; $26.7 million accrued",
+   "quote": "Due to current expectations of revenue targets being achieved, the Company has recorded $10.0 million of stock based compensation expense related to the Incentive Bonus Plan during the three months ended March 31, 2024.",
+   "section": "Note 14, Stock-Based Compensation"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The full $60.0 million of goodwill from the Southern acquisition was impaired in Q4 2023, a non-cash charge driven by operating problems.",
+   "numbers": "Goodwill impairment $60.0 million",
+   "quote": "The resulting goodwill impairment charge of $60.0 million was the result of comparing the fair value of the Southern reporting unit to its carrying value.",
+   "section": "Note 3, Business Combination"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Aircraft maintenance delays from parts shortages, higher cancellations, higher maintenance cash needs and Textron delivery cancellations continued into 2024.",
+   "numbers": "",
+   "quote": "These delays have continued into 2024.",
+   "section": "Note 3, Business Combination"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company defaulted on its IRS installment plan for unpaid federal excise taxes, exposing it to IRS collection action.",
+   "numbers": "Original lien $1.9 million; total outstanding liability $7.6 million",
+   "quote": "In 2019, the Company defaulted on the Installment Plan.",
+   "section": "Note 1, Liquidity and Going Concern; Note 12, Tax Commitment"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is in default on property taxes in several California counties.",
+   "numbers": "Property tax liability approximately $2.0 million (vs $1.9 million at December 31, 2023)",
+   "quote": "The Company has also defaulted on its property tax obligations in various California counties in relation to fixed assets, plane usage and aircraft leases.",
+   "section": "Note 1, Liquidity and Going Concern; Note 12"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Los Angeles County placed a tax lien on four aircraft after a late 2022 property tax filing.",
+   "numbers": "approximately $1.2 million accrued",
+   "quote": "Additionally, Los Angeles County has imposed a tax lien on four of the Company\u2019s aircraft due to the late filing of the Company\u2019s 2022 property tax return.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company is in default on the SAFE-T note that matured in July 2019, though the holder has not acted and the amount is small.",
+   "numbers": "Outstanding principal $0.5 million",
+   "quote": "As of March 31, 2024 and December 31, 2023, the Company was in default of the SAFE-T note, but the holder has elected not to effect an equity conversion of the instrument.",
+   "section": "Note 8, Fair Value of SAFE Notes"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Past due aircraft lease rental and maintenance payments are deferred under a payment plan, and nothing has been paid under it, though $1.0 million is now classified as current.",
+   "numbers": "Past due approximately $5.0 million; $1.0 million current; repayment triggers at $30.0 million and $50.0 million of capital contributions",
+   "quote": "As of March 31, 2024 the Company has not made any payments under this payment plan.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Related party LamVen term notes have been extended several times by only a few weeks each, most recently to May 15, 2024, with the principal of one note raised to $25.0 million.",
+   "numbers": "Maturity extended to May 15, 2024; principal increased to $25.0 million",
+   "quote": "On April 28, 2024, the note was further amended to extend the maturity date to May 15, 2024 and the principal amount increased to $25.0 million, effective as of April 15, 2024.",
+   "section": "Related party note; Note 19, Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The related party lender LamVen keeps funding the company, providing $21.6 million in cash under one note since inception, including $3.1 million after quarter end.",
+   "numbers": "$18.4 million received as of March 31, 2024; additional $3.1 million; $21.6 million total",
+   "quote": "Subsequent to March 31, 2024, the Company received an additional $3.1 million under this note agreement, for an aggregate total of $21.6 million cash received under the note since inception.",
+   "section": "Related party transactions note"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company needed a waiver from PFG of the $10 million minimum cash covenant on its $8.0 million convertible note, which matures December 31, 2024.",
+   "numbers": "Minimum cash requirement $10 million waived through December 31, 2024; PFG note $8.0 million at 9.75%",
+   "quote": "The Company has received a waiver from PFG regarding the maintenance of minimum cash requirement of $10 million.",
+   "section": "Note 8, Financing Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Total debt to unrelated parties is $25.1 million, with $4.4 million due in the remainder of 2024, and the company reports compliance with loan covenants.",
+   "numbers": "Total debt 25,065; current maturities 5,080; long-term 19,985; remainder of 2024 4,446; 2025 2,612 (thousands)",
+   "quote": "As of March 31, 2024, the Company was in compliance with all covenants in the loan agreements.",
+   "section": "Note 8, Financing Arrangements"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "After quarter end, the lender gave notice that the accounts receivable financing facility would end on May 20, 2024 and cut borrowing capacity to 80%, and the company is seeking a replacement.",
+   "numbers": "Facility max $5 million; $3.1 million outstanding; capacity cut to 80%; $100,000 extension fee option",
+   "quote": "During April 2024, the Company received notice from the counterparty to its accounts receivable financing arrangement that such arrangement would be terminated as of May 20, 2024.",
+   "section": "Note 19, Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The GEM share purchase agreement still allows more advances and draws, which is a potential source of equity funding.",
+   "numbers": "Further advances up to $90.0 million; additional draws $296.0 million; GEM held 7.6%",
+   "quote": "As of March 31, 2024, the contractual terms allow the Company to make further advances of up to $90.0 million under the Share Purchase Agreement.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Daily volume limits and GEM's 10% ownership cap restrict how much the company can actually draw under the GEM facility.",
+   "numbers": "approximately 2.3 million shares per draw; 10% ownership cap",
+   "quote": "At March 31, 2024, the daily volume limitations under the Share Purchase Agreement restricted our ability to take additional draws under the Share Purchase Agreement to approximately 2.3 million shares per draw.",
+   "section": "Note 1, Liquidity and Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Quarterly financing inflows came mostly from related party borrowings and GEM share sales.",
+   "numbers": "Net financing $13.1 million; related party borrowings $10.0 million; GEM $3.8 million; debt repayments $0.8 million",
+   "quote": "For the three months ended March 31, 2024, net cash provided by financing activities was $13.1 million from proceeds from borrowings due to related parties of $10.0 million, and proceeds from the GEM stock purchase agreement of $3.8 million",
+   "section": "MD&A, Cash Flow from Financing Activities"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The GEM mandatory convertible security of up to $35.2 million is paid for by GEM returning shares, not cash, and had not yet closed.",
+   "numbers": "Par up to $35,200,000; max 8,000,000 shares; 6,300,000 shares returned; redemption at 115%",
+   "quote": "The transaction contemplated by the MCSPA is expected to close following the waiver or satisfaction of all closing conditions, which is currently expected to occur by the end of the second quarter of 2024 (the \u201cClosing Date\u201d).",
+   "section": "Note 9, GEM Mandatory Convertible Security"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The company paid for services with stock, issuing shares worth $2,000,000 in each of February and March 2024.",
+   "numbers": "1,851,852 shares (February) and 1,755,156 shares (March), each for $2,000,000 in services",
+   "quote": "In March 2024, we issued an aggregate of 1,755,156 shares of Common Stock to one accredited investor for in-kind services worth $2,000,000.",
+   "section": "Part II, Unregistered Sales of Equity Securities"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The growth plan needs about $1.2 billion of aircraft over five years, to be funded through a Jetstream sale-leaseback facility and debt the company has not yet obtained.",
+   "numbers": "approximately $1.2 billion; sale-leaseback up to $450 million; $5.0 million deposits",
+   "quote": "The Company intends to finance these aircraft through Jetstream Aviation Capital, with which the Company currently has a sale-leaseback financing arrangement of up to $450 million, and additional debt facilities that it intends to obtain.",
+   "section": "MD&A, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The GEM commitment is carried as a derivative liability at fair value, so part of the liabilities and fair value losses are non-cash.",
+   "numbers": "$14.1 million (March 31, 2024) vs $11.3 million (December 31, 2023)",
+   "quote": "As of March 31, 2024 and December 31, 2023, the fair value of the GEM commitment was $14.1 million and $11.3 million, respectively.",
+   "section": "Note 9, Share Purchase Agreement"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The FAA is investigating Hawaii flights alleged to have been operated beyond required maintenance intervals.",
+   "numbers": "Up to $14,950 per flight; $0.5 million accrued",
+   "quote": "Each violation is subject to a civil penalty not to exceed $14,950 per flight.",
+   "section": "Note 12, Commitments and Contingencies"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Pervasive material weaknesses in internal control continue and have caused audit adjustments to substantially all accounts.",
+   "numbers": "",
+   "quote": "These material weaknesses resulted in audit adjustments to substantially all of our accounts",
+   "section": "Item 4, Controls and Procedures"
+  },
+  {
+   "filing": "10-Q filed 2024-05-15",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "Part II Item 3 reports no defaults upon senior securities, even though the notes disclose tax defaults and the SAFE-T note default.",
+   "numbers": "",
+   "quote": "None.",
+   "section": "Part II, Item 3 Defaults Upon Senior Securities"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The NYSE notified the company that it fell below continued listing standards because both its market capitalization and its stockholders' equity were under $50 million, with a large stockholders' deficit.",
+   "numbers": "30 trading-day average market cap approximately $40.9 million; stockholders' deficit approximately ($106.3) million; $50 million threshold",
+   "quote": "the Company\u2019s 30 trading-day average market capitalization was approximately $40.9 million and its last reported stockholders\u2019 deficit as of March 31, 2024, was approximately ($106.3) million.",
+   "section": "8-K filed 2024-05-24, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company has 18 months to cure the market cap and equity deficiency, and missing the plan or the deadline leads to suspension and delisting.",
+   "numbers": "45 days to submit plan; 18-month cure period",
+   "quote": "If the Company fails to comply with the plan or does not meet continued listing standards at the end of the 18-month cure period, it will be subject to the prompt initiation of NYSE suspension and delisting procedures.",
+   "section": "8-K filed 2024-05-24, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "against",
+   "finding": "The NYSE notice does not trigger a default under the company's material debt or other agreements.",
+   "numbers": "",
+   "quote": "it does not conflict with or cause an event of default under any of the Company\u2019s material debt or other agreements.",
+   "section": "8-K filed 2024-05-24, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Earlier, the NYSE notified the company that its average share price had been below $1.00 for 30 trading days.",
+   "numbers": "Below $1.00 over 30 trading days; six-month cure period",
+   "quote": "indicating the Company is not in compliance with Section 802.01C of the NYSE Listed Company Manual because the average closing price of the Company\u2019s common stock was less than $1.00 over a consecutive 30 trading-day period.",
+   "section": "8-K filed 2024-04-05, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "neutral",
+   "finding": "The company carried out a 1-for-7 reverse stock split in August 2024, an action that addresses the low share price, leaving about 12.8 million shares outstanding.",
+   "numbers": "1-for-7; approximately 12,826,529 shares outstanding after the split",
+   "quote": "Immediately following the Reverse Stock Split there were approximately 12,826,529 shares of Common Stock outstanding.",
+   "section": "8-K filed 2024-08-19, Item 3.03"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "GEM agreed to buy a mandatory convertible security of up to $35.2 million, paid for by returning shares it already held rather than new cash.",
+   "numbers": "Par up to $35,200,000; max 8,000,000 shares; 6,300,000 shares returned; 5-year maturity",
+   "quote": "The proceeds will be comprised of the cancellation of certain shares of the Company\u2019s common stock previously issued or issuable to GEM.",
+   "section": "8-K filed 2023-12-28, Item 1.01; 8-K filed 2024-03-06, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The GEM security matures in five years, payable in cash or shares at the company's option, and if conversions hit the 8,000,000-share cap the company may have to pay 115% in cash or increase the par.",
+   "numbers": "115% cash payment or 15% par increase; $4.45 fixed conversion price",
+   "quote": "pay to GEM an amount in cash equal to 115% of the remaining outstanding par amount",
+   "section": "8-K filed 2024-03-06, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "When the GEM deal closes, the company's GEM equity facility returns to its full capacity of up to $400 million.",
+   "numbers": "Regular drawdowns up to $300 million; advance drawdowns up to $100 million; total up to $400 million",
+   "quote": "will be restored to full capacity, subject to any drawdowns prior to the Closing Date.",
+   "section": "8-K filed 2024-03-06, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The company signed a software joint venture with Palantir that is to be funded by outside investors, with closing expected by November 30, 2024 and subject to conditions including securing outside capital.",
+   "numbers": "Initial target raise not less than $5 million",
+   "quote": "Surf Air Technologies will also be capitalized by outside third-party investors sourced by the Company and Palantir, with an initial target raise of not less than $5 million.",
+   "section": "8-K filed 2024-08-13, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The company paid Palantir for services in stock instead of cash.",
+   "numbers": "4,856,727 shares for in-kind services worth $2 million",
+   "quote": "issued and sold to Palantir Technologies Inc. an aggregate of 4,856,727 shares of the Company\u2019s common stock for in-kind services worth $2 million.",
+   "section": "8-K filed 2024-07-05, Item 3.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "CEO Stan Little resigned in May 2024 and the former CFO Deanna White became interim CEO and COO.",
+   "numbers": "Base salary $650,000; option for 876,059 shares",
+   "quote": "On May 15, 2024, Mr. Stan Little resigned from his role as Chief Executive Officer of the Company, effective as of the Effective Date.",
+   "section": "8-K filed 2024-05-20, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "against",
+   "finding": "Deanna White was appointed permanent CEO and COO in December 2024, ending the interim period.",
+   "numbers": "",
+   "quote": "On December 4, 2024, the Board of Directors of Surf Air Mobility Inc. (the \u201cCompany\u201d) appointed Deanna White as the Company\u2019s Chief Executive Officer and Chief Operating Officer, effective immediately.",
+   "section": "8-K filed 2024-12-10, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "A new CFO, Oliver Reeves, replaced Deanna White effective January 1, 2024.",
+   "numbers": "Base salary $650,000; option for 1,800,000 shares",
+   "quote": "Mr. Reeves replaces Deanna White who has served as the Company\u2019s Chief Financial Officer since December 2022.",
+   "section": "8-K filed 2023-12-27, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "Former CEO Stan Little resigned from the board in August 2024, with no disagreement disclosed, and stays on as Special Advisor.",
+   "numbers": "",
+   "quote": "Mr. Little\u2019s resignation was not because of a disagreement with the Company on any matter relating to the Company\u2019s operations, policies or practices.",
+   "section": "8-K filed 2024-08-19, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "New director David Anderman, the former Chief Legal Officer, is paid through an advisory agreement and a warrant rather than director pay.",
+   "numbers": "$20,000 per month; warrant for 142,857 shares",
+   "quote": "Proxima Centauri, LLC, an entity wholly-owned by Mr. Anderman, will provide advisory services to the Company pursuant to an Advisory Services Agreement for a monthly fee of $20,000 per month.",
+   "section": "8-K filed 2024-12-19, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Stockholders approved a reverse split range and a larger equity incentive plan share reserve, and ratified PwC as auditor for 2024.",
+   "numbers": "Share reserve increase 7,500,000 shares; reverse split range 2:1 to 10:1",
+   "quote": "Our stockholders voted to ratify the appointment of PwC as our independent registered public accounting firm for the fiscal year ending December 31, 2024.",
+   "section": "8-K filed 2024-06-27, Items 5.02 and 5.07"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "neutral",
+   "finding": "There are no NT late-filing notices among these passages, and none of the 8-Ks reports a missed payment or a debt default.",
+   "numbers": "",
+   "quote": "",
+   "section": "All 8-Ks provided"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score is high because the 8 inputs show a company whose liabilities are almost twice its assets (1.97 vs a peer median of 0.81), with a current ratio of 0.38, a $74.9 million net loss and $54.3 million of operating cash burn, all in the bottom 5-14% of peers. The filings confirm this is real distress, not an artefact: there is explicit going concern doubt, ongoing tax and SAFE-T note defaults, only $21.1 million of cash (about 4.7 months at the annual burn and less at the implied Q4 burn), and almost no non-cash relief in the loss. The late-2024 refinancing pushed most debt maturities to 2028 and the co-founder's entities keep funding the company, which offsets some of the risk, so I put it slightly above the band's base rate.",
+  "verdict": "real risk",
+  "own_risk": "high",
+  "own_risk_pct": 22,
+  "agree_with_model": "yes",
+  "moved_by": [
+   "Very short cash runway: $21.1 million of cash covers 4.66 months at the 2024 average burn, and the implied Q4 2024 operating burn (about $23.6 million, from $54.3 million for the year less $30.7 million for nine months) would use it up in about one quarter",
+   "Ongoing defaults on federal excise taxes ($7.7 million), California property taxes with a lien on four aircraft, and the SAFE-T note, plus missed PFG interest payments during 2024",
+   "Cross-collateralized financing agreements with minimum liquidity covenants, so one default could trigger acceleration and aircraft foreclosure",
+   "Almost all of the 2024 loss was cash (non-cash share about 3%), so the loss is not inflated by accounting charges",
+   "Offsetting (toward lower risk): the November 2024 refinancing pushed the LamVen $50.0 million note and the PFG $8.0 million note to December 31, 2028, and the $44.5 million Comvest term loan has a 4-year term with no required amortization",
+   "Offsetting: repeated funding from entities affiliated with the co-founder ($34.5 million related-party borrowings in 2024)"
+  ],
+  "reasons": [
+   {
+    "reason": "Liabilities are nearly twice total assets, giving a large stockholders' deficit",
+    "kind": "model input",
+    "numbers": "Total liabilities $244.1M vs total assets $124.1M; liabilities/assets 1.97 (up from about 1.70 a year earlier)",
+    "peer_comparison": "Peer median liabilities/assets 0.81; total liabilities share of assets at the 95th percentile of 22 peers",
+    "quote": "",
+    "source": "10-K, 2025-03-21, balance sheet (model inputs)"
+   },
+   {
+    "reason": "Weak short-term liquidity: current liabilities far exceed current assets",
+    "kind": "model input",
+    "numbers": "Current assets $33.9M vs current liabilities $89.6M; current ratio 0.38 (improved from about 0.13 a year earlier)",
+    "peer_comparison": "Peer median current ratio 0.78; current liabilities share of assets at the 86th percentile",
+    "quote": "",
+    "source": "10-K, 2025-03-21, balance sheet (model inputs)"
+   },
+   {
+    "reason": "Large net and operating losses relative to the asset base",
+    "kind": "model input",
+    "numbers": "Net income -$74.9M (-60.4% of assets); operating income -$60.3M (-48.6% of assets); prior year net loss $250.7M",
+    "peer_comparison": "Net income at the 9th percentile and operating income at the 5th percentile of peers",
+    "quote": "We incurred net losses of $74.9 million and $250.7 million for the years ended December 31, 2024 and 2023, respectively.",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - Losses since inception"
+   },
+   {
+    "reason": "Heavy operating cash burn, only modestly better than 2023",
+    "kind": "model input",
+    "numbers": "Operating cash flow -$54.3M in 2024 vs -$64.4M in 2023; monthly burn $4.53M",
+    "peer_comparison": "Operating cash flow at the 5th percentile of peers",
+    "quote": "For the year ended December 31, 2024, net cash used in operating activities was $54.3 million, driven by a net loss of $74.9 million, net reversals of $6.0 million in non-cash stock-based compensation",
+    "source": "10-K, 2025-03-21, MD&A - Cash Flow from Operating Activities"
+   },
+   {
+    "reason": "The loss is almost entirely cash: stock compensation was a net reversal, there was no impairment, and only D&A adds back",
+    "kind": "from the filings",
+    "numbers": "Cash-adjusted net income -$72.5M; non-cash share of loss 3%; SBC -$6.0M; D&A $8.3M; impairment $0",
+    "peer_comparison": "",
+    "quote": "No such charges were recorded during the year ended December 31, 2024.",
+    "source": "10-K, 2025-03-21, MD&A - Impairment of Goodwill"
+   },
+   {
+    "reason": "Short cash runway: year-end cash covers under five months of average burn, and the implied Q4 burn was much faster",
+    "kind": "from the filings",
+    "numbers": "Cash $21.1M; months of cash 4.66; nine-month 2024 operating burn $30.7M implies Q4 burn of about $23.6M; cash had fallen to about $1.1M at September 30, 2024 before the Comvest loan",
+    "peer_comparison": "",
+    "quote": "For the nine months ended September 30, 2024, net cash used in operating activities was $30.7 million, driven by a net loss of $76.2 million.",
+    "source": "10-Q, 2024-11-14, MD&A, Cash Flow from Operating Activities"
+   },
+   {
+    "reason": "Explicit going concern doubt and need for additional financing",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "There is substantial doubt about our ability to continue as a going concern. We will need additional financing to execute our business plan, to fund our operations and to continue as a going concern.",
+    "source": "10-K, 2025-03-21, Summary Risk Factors; Item 1A Risk Factors"
+   },
+   {
+    "reason": "Current defaults on taxes, debt and other contractual obligations",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "We are currently in default of certain excise and property taxes, as well as certain debt, tax and other contractual obligations",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - Financial Position and Capital Requirements"
+   },
+   {
+    "reason": "Long-running federal excise tax default that keeps growing with penalties and interest",
+    "kind": "from the filings",
+    "numbers": "$7.7 million outstanding federal excise tax liability; original lien $1.9 million; default since 2019",
+    "peer_comparison": "",
+    "quote": "The Company is currently in default of these obligations, with a total outstanding federal excise tax liability, including accrued penalties and interest, of $7.7 million",
+    "source": "10-K, 2025-03-21, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Property tax default with a county lien on aircraft",
+    "kind": "from the filings",
+    "numbers": "$1.6 million property tax liability; $1.1 million related to the Los Angeles County lien; four aircraft",
+    "peer_comparison": "",
+    "quote": "Los Angeles County has imposed a tax lien on four of the Company\u2019s aircraft due to the late filing of the Company\u2019s 2022 property tax return.",
+    "source": "10-K, 2025-03-21, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "SAFE-T note in default since 2019",
+    "kind": "from the filings",
+    "numbers": "$0.5 million principal",
+    "peer_comparison": "",
+    "quote": "As of December 31, 2024, the Company was also in default of the Simple Agreements for Future Equity with Token allocation (\u201cSAFE-T\u201d) note, where the note matured in July 2019",
+    "source": "10-K, 2025-03-21, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Missed interest payments on the PFG convertible note during 2024, triggering default interest",
+    "kind": "from the filings",
+    "numbers": "$818 thousand interest in arrears; default rate 15.75%; principal $8.0 million",
+    "peer_comparison": "",
+    "quote": "As of September 30, 2024, the Company was in arrears of $818 thousand in contractual interest payments due under the Convertible Note Purchase Agreement.",
+    "source": "10-Q, 2024-11-14, Note 8, Financing Arrangements"
+   },
+   {
+    "reason": "Debt more than doubled during 2024",
+    "kind": "from the filings",
+    "numbers": "$122.6 million debt principal at December 31, 2024 vs $52.1 million at December 31, 2023",
+    "peer_comparison": "",
+    "quote": "As of December 31, 2024, we had $122.6 million in debt outstanding, representing principal related to term loans, related party promissory notes and convertible notes.",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - Previous defaults on debt"
+   },
+   {
+    "reason": "Cross-default and minimum liquidity covenants mean a single breach could cascade, and the company already needed a PFG waiver of its $10 million minimum cash covenant during 2024",
+    "kind": "from the filings",
+    "numbers": "$10 million minimum cash covenant waived through December 31, 2024",
+    "peer_comparison": "",
+    "quote": "certain of our financing agreements are cross-collateralized, such that an event of default or acceleration of indebtedness under one agreement could result in an event of default under other financing agreements.",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - Covenants"
+   },
+   {
+    "reason": "Equity facility access is uncertain and capped, so it is not a reliable backstop for the short runway",
+    "kind": "from the filings",
+    "numbers": "$400 million total GEM commitment; only $2.5 million of GEM advances received in 2024; draws capped at 400% of 30-day average daily volume",
+    "peer_comparison": "",
+    "quote": "There can be no guarantee that we will be able to access any or all of the GEM Advances or other draw downs available under the Share Subscription Facility.",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - Share Subscription Facility"
+   },
+   {
+    "reason": "NYSE listing deficiency on market cap and equity still being cured; the GEM facility depends on staying listed",
+    "kind": "from the filings",
+    "numbers": "Market cap and equity below $50 million; plan accepted August 21, 2024; 18-month cure period",
+    "peer_comparison": "",
+    "quote": "The NYSE accepted our plan on August 21, 2024. As a result, our common stock will continue to be listed and traded on the NYSE during the 18-month cure period",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - NYSE listing"
+   },
+   {
+    "reason": "Growing fixed commitments for leased and ordered aircraft",
+    "kind": "from the filings",
+    "numbers": "40 aircraft under operating leases (27 a year earlier); 90 Cessna Caravans committed",
+    "peer_comparison": "",
+    "quote": "As of December 31, 2024, we had 40 aircraft under operating leases, with an average remaining lease term of approximately 4.29 years.",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - Contractual obligations; Capital needs"
+   },
+   {
+    "reason": "Management itself warns of restructuring or ceasing operations without new financing",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "We may be required to cease operations which could result in our stockholders losing all or most of their investment.",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - Capital needs"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "The November 2024 refinancing moved the related-party LamVen debt into a $50.0 million secured convertible note due December 31, 2028, removing the string of short maturity extensions",
+    "quote": "the Company issued a secured convertible promissory note (the \u201cLamVen Note\u201d) in aggregate principal amount of $50.0 million to LamVen, to refinance certain existing notes.",
+    "source": "10-Q, 2024-11-14, Note 19, Subsequent Events, LamVen Note"
+   },
+   {
+    "point": "The PFG note maturity was pushed from December 31, 2024 to December 31, 2028, so the near-term maturity that cash could not cover is gone",
+    "quote": "The maturity of the PFG Note is December 31, 2028, which may be accelerated upon the occurrence of certain events of default.",
+    "source": "10-Q, 2024-11-14, Note 19, Subsequent Events, Amendment to PFG Convertible Note Purchase Agreement"
+   },
+   {
+    "point": "New 4-year Comvest term loan of $44.5 million (plus $5.5 million delayed draw) with no required amortization, backstopped by an HSBC letter of credit; this lifted cash from about $1.1 million in September to $21.1 million at year end",
+    "quote": "pursuant to which the Company borrowed $44.5 million of term loans, and $5.5 million of delayed draw commitments.",
+    "source": "10-Q, 2024-11-14, Note 19, Subsequent Events, Credit Agreement"
+   },
+   {
+    "point": "Entities affiliated with a co-founder have repeatedly funded the company, providing $34.5 million of related-party borrowings in 2024",
+    "quote": "A significant amount of funding to date has been provided by entities affiliated with a co-founder of the Company.",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - Financial Position and Capital Requirements"
+   },
+   {
+    "point": "Financing inflows of $77.2 million in 2024 more than covered the $54.3 million operating burn",
+    "quote": "net cash provided by financing activities was $77.2 million due to proceeds from borrowings under long term debt agreements, net of repayments, of $36.2 million, borrowings from related parties of $34.5 million",
+    "source": "10-K, 2025-03-21, MD&A - Cash Flow from Financing Activities"
+   },
+   {
+    "point": "Revenue nearly doubled and the net loss fell by about 70%, and current liabilities fell from $140.1 million to $89.6 million",
+    "quote": "",
+    "source": "10-K, 2025-03-21, model inputs"
+   },
+   {
+    "point": "The IRS offer-in-compromise pauses collection actions on the excise tax default while the company pays $34 thousand a month, so the tax default is not an immediate trigger",
+    "quote": "In June 2024, the Company submitted a formal offer-in-compromise (\u201cOIC\u201d) to the IRS, seeking to resolve all excise tax liabilities.",
+    "source": "10-Q, 2024-11-14, Note 1, Liquidity and Going Concern"
+   },
+   {
+    "point": "The company regained compliance with the NYSE $1.00 minimum price standard",
+    "quote": "The Company regained compliance with the requirements of Section 802.01C as of September 30, 2024.",
+    "source": "10-K, 2025-03-21, Item 1A Risk Factors - NYSE listing"
+   },
+   {
+    "point": "The NYSE notice did not trigger a default under the company's debt agreements",
+    "quote": "it does not conflict with or cause an event of default under any of the Company\u2019s material debt or other agreements.",
+    "source": "8-K, 2024-05-24, Item 3.01"
+   },
+   {
+    "point": "Asset sales brought in cash and cut net investing outflows to $3.6 million",
+    "quote": "driven by an increase of $10.5 million in cash from sales of fixed assets",
+    "source": "10-K, 2025-03-21, MD&A - Cash Flow from Investing Activities"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2019-07-31",
+    "event": "SAFE-T note matures (July 2019) and goes into default; IRS excise tax installment plan defaulted in 2019"
+   },
+   {
+    "date": "2023-12-31",
+    "event": "FY2023: net loss $250.7M including $60.0M Southern goodwill impairment; debt $52.1M"
+   },
+   {
+    "date": "2024-03-29",
+    "event": "FY2023 10-K filed with going concern doubt"
+   },
+   {
+    "date": "2024-04-05",
+    "event": "8-K: NYSE notice that average share price was below $1.00"
+   },
+   {
+    "date": "2024-05-15",
+    "event": "CEO Stan Little resigns; Q1 10-Q shows cash of about $2.0M; AR facility termination notice"
+   },
+   {
+    "date": "2024-05-24",
+    "event": "8-K: NYSE notice that market cap and stockholders' equity are below $50M"
+   },
+   {
+    "date": "2024-08-07",
+    "event": "GEM Mandatory Convertible Security closes, restoring the GEM facility"
+   },
+   {
+    "date": "2024-08-19",
+    "event": "1-for-7 reverse stock split takes effect"
+   },
+   {
+    "date": "2024-08-21",
+    "event": "NYSE accepts the company's plan; 18-month cure period begins"
+   },
+   {
+    "date": "2024-09-30",
+    "event": "Cash about $1.1M; $818 thousand PFG interest in arrears; company regains $1.00 price compliance"
+   },
+   {
+    "date": "2024-11-14",
+    "event": "Q3 10-Q discloses Comvest $44.5M term loan, LamVen $50.0M note and PFG extension, all maturing in 2028"
+   },
+   {
+    "date": "2024-12-04",
+    "event": "Deanna White appointed permanent CEO and COO"
+   },
+   {
+    "date": "2024-12-31",
+    "event": "FY2024: cash $21.1M, debt $122.6M, net loss $74.9M, operating cash burn $54.3M"
+   },
+   {
+    "date": "2025-03-21",
+    "event": "FY2024 10-K filed, again with going concern doubt and ongoing defaults"
+   }
+  ],
+  "dates_to_watch": [
+   "Q1 2025 10-Q (around mid-May 2025): cash balance and whether the Q4 2024 burn rate continued",
+   "Mid-2025: when $21.1M of cash would run out at the 2024 average burn of $4.53M a month, absent new funding",
+   "Any minimum liquidity covenant tests under the Comvest, LamVen and PFG agreements",
+   "NYSE quarterly reviews and the end of the 18-month cure period (about February 2026)",
+   "IRS decision on the offer-in-compromise for the $7.7M excise tax liability",
+   "Any new related-party funding or GEM draws"
+  ],
+  "would_change_my_mind": [
+   "Toward lower risk: a sizable new equity raise or further committed co-founder funding that covers 12 months or more of burn",
+   "Toward lower risk: quarterly operating cash burn falling well below $10M as revenue growth continues",
+   "Toward higher risk: a covenant breach, missed interest payment or acceleration under the Comvest, LamVen or PFG debt",
+   "Toward higher risk: IRS rejection of the offer-in-compromise and renewed collection action, or aircraft foreclosure",
+   "Toward higher risk: NYSE delisting, which would also cut off the GEM facility",
+   "Toward higher risk: the related-party lender stopping support"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Exact quarterly cash burn for Q4 2024; the roughly $23.6M figure is inferred from the annual and nine-month totals and may include one-off payments such as arrears catch-up",
+   "Whether the company was in compliance with all covenants at December 31, 2024, including any minimum liquidity test under the new Comvest loan",
+   "Principal payments due in 2025 on the $122.6M of debt; months_of_cash ignores debt payments",
+   "Whether the PFG interest arrears and the past-due aircraft lease payments were cured in the refinancing",
+   "Cash available under the Park Lane reimbursement arrangement and the cost if the HSBC letter of credit is drawn",
+   "Any events after the filing date of 2025-03-21"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

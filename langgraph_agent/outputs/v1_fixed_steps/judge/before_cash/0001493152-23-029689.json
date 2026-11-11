@@ -1,0 +1,83 @@
+{
+ "gold_verdict": "real risk; agrees with the flag but says the 0.536 score understates the risk",
+ "gold_own_risk": "very high, about 35% within 12 months (band base rate 4%)",
+ "candidate_verdict": "real risk; agrees with the model",
+ "candidate_own_risk": "high, about 25%",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk very high (~35%), agrees with the flag but the score understates the distress",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Cash was only $35,359 at 30 Jun 2023 (down from $1.28M), covering under one day of a ~$1.36M/month burn",
+   "importance": "critical",
+   "candidate": "missing"
+  },
+  {
+   "point": "Debt in default: $1.48M SPAC notes unpaid and the remaining \u00a5100M ($0.69M) CEO loan in default, about 61x cash",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Creditors enforcing: Japanese bank account seized 10 Aug 2023 for delinquent health insurance premiums, which may trigger immediate acceleration of the CEO loan",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Going concern doubt plus listing and governance stress: two Nasdaq notices, auditor dismissed, CEO/COO/directors left, two NT 10-Qs",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Negative equity (-$11.4M), liabilities/assets 2.71 and current ratio 0.47, far worse than peers",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Net loss -5.8x assets is extreme vs all peers but less unusual among small peers, so part of the mid-band score reflects size",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Non-cash items were only 29% of the 2023 loss; the cash-adjusted continuing loss doubled ($13.0M vs $6.7M)",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Evidence against: Lind third tranche ($1.5M, about one month of burn) needs an effective registration and no event of default",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: $100M YA equity line can raise little given $0.298 stock price and 4.99% ownership cap; insiders paid $312k of bills; lender negotiating not suing",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Candidate infers a runway of about 4 months using current assets and says it could not check the June 30 cash balance; GOLD reports cash of $35,359, covering under one day of burn.",
+  "Candidate's year-before balance sheet figures are the pre-merger SPAC (total assets $117.0M, current assets $0.1M, current liabilities $0.5M, total liabilities $4.5M) while labelled as the filing's prior-year column; GOLD uses the operating company's 31 Dec 2022 comparatives ($11.78M, $8.23M, $5.90M, $9.87M) and explicitly rejects the SPAC row.",
+  "Peer percentiles differ materially: candidate gives current assets 86, current liabilities 94, total liabilities 95, revenue 18, operating income 6, operating cash flow 3 vs GOLD's 13th, 19th, 18th, 6th, 27th, 33rd.",
+  "Candidate presents the non-cash share of the loss as evidence against; GOLD says non-cash items were only 29% of the loss and the real cash loss doubled."
+ ],
+ "extra_points_in_candidate": [
+  "Lind notes carry tight default triggers: cross-default over $100,000, market cap below $20M for 10 days, and delisting, with Nasdaq notices open (GOLD lists the Lind cross-default terms as unchecked).",
+  "Default interest rate of 14.6% on the related-party loan and $29,392 accrued interest on the defaulted notes.",
+  "Specific seized amount of $28,075 and accumulated deficit of $65,695,768.",
+  "Lind note maturities of 12 Apr and 23 May 2025; SEPA with YA II PN announced 23 Jan 2023.",
+  "Possible funding from the Outsourcing Inc. MOU or the Vault JV listed as unchecked."
+ ],
+ "scores": {
+  "verdict_agreement": 4,
+  "coverage": 3,
+  "consistency": 2,
+  "overall": 3
+ },
+ "summary": "CANDIDATE reaches the same real-risk verdict and covers the defaults, the bank-account seizure, going concern and the balance-sheet weakness, but puts risk one step lower (25% vs 35%) and misses the critical $35,359 cash balance, instead inferring a roughly 4-month runway. It also uses pre-merger SPAC figures for the year-before inputs and gives peer percentiles that conflict with GOLD, which weakens consistency.",
+ "critical_recall": 0.25,
+ "all_recall": 0.6,
+ "candidate_check_problems": 0,
+ "gold_words": 1199,
+ "candidate_words": 1181
+}

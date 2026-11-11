@@ -1,0 +1,85 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "very high, about 50% within 365 days (vs 4% base rate for the 0.5-0.7 band); agrees with the model's direction but says the score understates it",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "very high, about 45%; agrees with the model only partly, saying the filings point higher than the 4% band rate",
+ "key_points": [
+  {
+   "point": "Verdict real risk, very high (~50%), well above the 4% band base rate; model direction right but score understates risk",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "No liquidity: cash $1.8m vs $42.7m current liabilities (current ratio 0.09), only $0.8m cash on 9 Aug 2023 against $16.5m payables, about two weeks to a month of runway at ~$1.5m/month burn",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Management states it would likely have to file for bankruptcy protection without adequate financing (Note 2 Going Concern)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Supplier forbearance on ~$20.9m past-due debt: $15.0m note plus deferred payables at $0.25m/month from October 2023 that cash cannot cover; 60 days late lets the supplier accelerate everything",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Liabilities 4.57x assets (1.33 a year earlier), top ~3% of SIC-28 peers; equity -$37.4m",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Annualized loss is 3.96x assets (3rd pct) although the dollar loss is near the peer median, so the ratios rather than the dollar loss drive the score",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Lawsuits (landlord suit, Healios breach allegation) that could trigger the note's default clause via a >$3m judgment",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Nasdaq delisting risk: Panel exception only through 15 Sep 2023; bid-price deadline 24 Jan 2024",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Loss is real cash: adjusted loss after non-cash add-backs is close to operating cash flow each period",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Evidence against: pre-revenue Phase 3 biotech already in base rate, continued (though shrinking) capital raises, supplier chose forbearance with PIK note maturing May 2026, small Healios MOU, accounting reason for NT 10-Q, out-of-court wind-down would not count as bankruptcy",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Peer percentiles for flow items differ sharply: CANDIDATE puts net income and operating income at the 5th percentile and operating cash flow at the 8th, while GOLD puts them at the 45th, 48th and 55th, saying the dollar loss is ordinary for peers; this changes the explanation of what drives the score",
+  "CANDIDATE puts current liabilities and total liabilities at the 95th peer percentile, GOLD at the 66th and 55th",
+  "Peer set size differs: CANDIDATE uses 958 peers, GOLD 816 SIC-28 Jun-2023 10-Qs (with different asset/current-asset percentiles, 17th/19th vs 12th/8th)",
+  "CANDIDATE presents part of the loss as non-cash ($7.5m impairment) as evidence against, while GOLD's adjusted-loss analysis concludes the loss is essentially real cash",
+  "CANDIDATE describes the 10-Q as filed late, while GOLD notes it was filed within the NT 10-Q grace period"
+ ],
+ "extra_points_in_candidate": [
+  "Accumulated deficit of $676.6M",
+  "$8.7M of the $16.5M accounts payable on Aug 9 is deferred supplier payables",
+  "Gain on extinguishment of $2.6M from the supplier restructuring",
+  "H1 operating cash burn fell to $10.6M from $36.6M a year earlier, cited as evidence against",
+  "Peer medians: liabilities/assets 0.45 and current ratio 3.51",
+  "Positive MASTERS-2 data and a sale outside court listed as things that would change the view"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 3,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same real-risk verdict at a very high risk level (45% vs 50%) and covers all of GOLD's critical drivers: near-zero cash, the bankruptcy statement, the supplier forbearance with acceleration risk, and liabilities far above assets. It weakens lawsuits and delisting to watch items, skips GOLD's point that the loss is real cash and most of its evidence against, and its peer percentiles for losses and liabilities contradict GOLD's view that the dollar loss is ordinary.",
+ "critical_recall": 1.0,
+ "all_recall": 0.75,
+ "candidate_check_problems": 0,
+ "gold_words": 1199,
+ "candidate_words": 1039
+}

@@ -1,0 +1,1136 @@
+{
+ "adsh": "0001628280-25-038860",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001628280-25-038860",
+ "case": {
+  "adsh": "0001628280-25-038860",
+  "cik": 1001233,
+  "name": "SANGAMO THERAPEUTICS, INC",
+  "form": "10-Q",
+  "fp": "Q2",
+  "period_end": "20250630",
+  "filed": "20250807",
+  "sic": 2836,
+  "score": 0.688,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 97.6,
+    "year_before_musd": 93.0,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 45
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 49.9,
+    "year_before_musd": 40.1,
+    "share_of_assets_pct": 51.1,
+    "peer_percentile": 28
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 47.7,
+    "year_before_musd": 39.0,
+    "share_of_assets_pct": 48.9,
+    "peer_percentile": 81
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 78.0,
+    "year_before_musd": 69.3,
+    "share_of_assets_pct": 79.9,
+    "peer_percentile": 75
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 49.5,
+    "year_before_musd": 1.7,
+    "share_of_assets_pct": 50.7,
+    "peer_percentile": 62
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -101.2,
+    "year_before_musd": -170.4,
+    "share_of_assets_pct": -103.7,
+    "peer_percentile": 22
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -95.0,
+    "year_before_musd": -177.2,
+    "share_of_assets_pct": -97.3,
+    "peer_percentile": 25
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -88.6,
+    "year_before_musd": -151.1,
+    "share_of_assets_pct": -90.8,
+    "peer_percentile": 22
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 0.8,
+   "current_ratio": 1.05,
+   "peer_count": 844,
+   "peer_median_liabilities_to_assets": 0.46,
+   "peer_median_current_ratio": 3.26,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230223,
+    "total_assets": 562509000.0,
+    "current_assets": 300327000.0,
+    "current_liabilities": 111711000.0,
+    "total_liabilities": 267551000.0,
+    "revenue": 111299000.0,
+    "net_income": -192278000.0,
+    "operating_income": -201281000.0,
+    "operating_cash_flow": -223627000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230508,
+    "total_assets": 440567000.0,
+    "current_assets": 227087000.0,
+    "current_liabilities": 57839000.0,
+    "total_liabilities": 104957000.0,
+    "revenue": 631828000.0,
+    "net_income": 84532000.0,
+    "operating_income": 72136000.0,
+    "operating_cash_flow": -265200000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230808,
+    "total_assets": 325074000.0,
+    "current_assets": 159609000.0,
+    "current_liabilities": 53792000.0,
+    "total_liabilities": 91432000.0,
+    "revenue": 329584000.0,
+    "net_income": -186746000.0,
+    "operating_income": -211076000.0,
+    "operating_cash_flow": -254022000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230930,
+    "filed": 20231101,
+    "total_assets": 219697000.0,
+    "current_assets": 147576000.0,
+    "current_liabilities": 48482000.0,
+    "total_liabilities": 84775000.0,
+    "revenue": 232253333.33333337,
+    "net_income": -263381333.33333337,
+    "operating_income": -282594666.6666667,
+    "operating_cash_flow": -232405333.33333337
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20231231,
+    "filed": 20240313,
+    "total_assets": 165320000.0,
+    "current_assets": 94328000.0,
+    "current_liabilities": 47731000.0,
+    "total_liabilities": 82433000.0,
+    "revenue": 176232000.0,
+    "net_income": -257831000.0,
+    "operating_income": -274005000.0,
+    "operating_cash_flow": -224842000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20240331,
+    "filed": 20240509,
+    "total_assets": 128961000.0,
+    "current_assets": 68636000.0,
+    "current_liabilities": 40242000.0,
+    "total_liabilities": 72264000.0,
+    "revenue": 1924000.0,
+    "net_income": -196356000.0,
+    "operating_income": -206104000.0,
+    "operating_cash_flow": -194652000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240630,
+    "filed": 20240806,
+    "total_assets": 93014000.0,
+    "current_assets": 40075000.0,
+    "current_liabilities": 39005000.0,
+    "total_liabilities": 69324000.0,
+    "revenue": 1674000.0,
+    "net_income": -170434000.0,
+    "operating_income": -177220000.0,
+    "operating_cash_flow": -151094000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20240930,
+    "filed": 20241112,
+    "total_assets": 111263000.0,
+    "current_assets": 58131000.0,
+    "current_liabilities": 43161000.0,
+    "total_liabilities": 72129000.0,
+    "revenue": 66998666.666666664,
+    "net_income": -99393333.33333331,
+    "operating_income": -103972000.0,
+    "operating_cash_flow": -85050666.66666667
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20241231,
+    "filed": 20250317,
+    "total_assets": 101635000.0,
+    "current_assets": 51691000.0,
+    "current_liabilities": 45805000.0,
+    "total_liabilities": 78865000.0,
+    "revenue": 57800000.0,
+    "net_income": -97941000.0,
+    "operating_income": -103969000.0,
+    "operating_cash_flow": -67139000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20250331,
+    "filed": 20250512,
+    "total_assets": 86166000.0,
+    "current_assets": 37597000.0,
+    "current_liabilities": 49562000.0,
+    "total_liabilities": 81260000.0,
+    "revenue": 25748000.0,
+    "net_income": -122388000.0,
+    "operating_income": -118512000.0,
+    "operating_cash_flow": -104596000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20250630,
+    "filed": 20250807,
+    "total_assets": 97558000.0,
+    "current_assets": 49893000.0,
+    "current_liabilities": 47659000.0,
+    "total_liabilities": 77956000.0,
+    "revenue": 49486000.0,
+    "net_income": -101166000.0,
+    "operating_income": -94966000.0,
+    "operating_cash_flow": -88614000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001628280-25-038860",
+   "form": "10-Q",
+   "date": "2025-08-07",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001628280-25-013088",
+   "form": "10-K",
+   "date": "2025-03-17",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001628280-25-024650",
+   "form": "10-Q",
+   "date": "2025-05-12",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001628280-25-031559",
+   "form": "8-K",
+   "date": "2025-06-16",
+   "why": "8-K items 5.02,5.07,9.01"
+  },
+  {
+   "adsh": "0001628280-25-022664",
+   "form": "8-K",
+   "date": "2025-05-06",
+   "why": "8-K items 3.01"
+  },
+  {
+   "adsh": "0001628280-24-052579",
+   "form": "8-K",
+   "date": "2024-12-30",
+   "why": "8-K items 1.02"
+  },
+  {
+   "adsh": "0001628280-24-026903",
+   "form": "8-K",
+   "date": "2024-06-05",
+   "why": "8-K items 5.02,5.03,5.07,9.01"
+  },
+  {
+   "adsh": "0001628280-24-019337",
+   "form": "8-K",
+   "date": "2024-04-30",
+   "why": "8-K items 3.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concludes that substantial doubt exists about the company's ability to continue as a going concern for twelve months from issuance of the financial statements.",
+   "numbers": "",
+   "quote": "management believes that substantial doubt exists about the Company\u2019s ability to continue as a going concern for a period of twelve months from the date these Condensed Consolidated Financial Statements are issued.",
+   "section": "Note 1 - Liquidity, Going Concern, and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash plus post-quarter ATM proceeds are expected to fund operations only into the fourth quarter of 2025, i.e. only a few months beyond the filing date.",
+   "numbers": "cash and cash equivalents $38.3 million at June 30, 2025; $8.9 million ATM proceeds since June 30, 2025",
+   "quote": "will be sufficient to meet our liquidity requirements only into the fourth quarter of 2025",
+   "section": "MD&A - Financial Position - Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company states it has explored and will continue to explore whether filing for bankruptcy protection is in its best interest.",
+   "numbers": "",
+   "quote": "We have explored, and will continue to explore, whether filing for bankruptcy protection is in the best interest of our Company and our stakeholders.",
+   "section": "MD&A - Financial Position - Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "If funds are not available, the company says it may have to cease operations, liquidate assets and/or seek protection under the U.S. Bankruptcy Code.",
+   "numbers": "",
+   "quote": "we may be required to cease operations entirely, liquidate all or a portion of our assets, and/or seek protection under the U.S. Bankruptcy Code, and you may lose all or part of your investment.",
+   "section": "Special Note Regarding Forward-Looking Statements; MD&A"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company currently does not meet Nasdaq Capital Market listing standards and its stock may be delisted, which would impair its ability to raise capital.",
+   "numbers": "",
+   "quote": "We currently do not meet, and may not regain compliance with, the listing standards of the Nasdaq Capital Market, and as a result our common stock may be delisted.",
+   "section": "Special Note Regarding Forward-Looking Statements - risk summary"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash burn remains large relative to cash on hand, though lower than the prior year period.",
+   "numbers": "net cash used in operating activities $(44,307) thousand for six months 2025 vs $(75,547) thousand in 2024; cash, cash equivalents and restricted cash $39,844 thousand at June 30, 2025",
+   "quote": "Net cash used in operating activities (44,307) (75,547)",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Net loss narrowed versus the prior year, helped by license revenue and lower operating expenses, but the company remains loss-making.",
+   "numbers": "Q2 2025 net loss $(19,986) thousand vs $(36,128) thousand; six months 2025 $(50,583) thousand vs $(85,217) thousand; loss from operations six months $(47,483) thousand",
+   "quote": "Net loss $ (19,986) $ (36,128) $ (50,583) $ (85,217)",
+   "section": "Condensed Consolidated Statements of Operations"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Non-cash items are a small share of the six-month loss and there were no impairments in 2025, so most of the loss is cash-driven.",
+   "numbers": "stock-based compensation $4,822 thousand; depreciation and amortization $2,013 thousand; ROU asset amortization $1,808 thousand; impairment \u2014 (vs $5,521 thousand in 2024)",
+   "quote": "Stock-based compensation 4,822 5,784",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Other expense in 2025 was driven mainly by foreign currency transaction losses.",
+   "numbers": "foreign currency transaction losses $3.6 million (six months 2025); other (expense) income, net $(3,649) thousand",
+   "quote": "Foreign currency transaction losses during the six months ended June 30, 2025 were $3.6 million",
+   "section": "Note 1 - Foreign Currency Translation"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Stockholders' equity is thin relative to the accumulated deficit.",
+   "numbers": "total stockholders' equity $19,602 thousand; accumulated deficit $(1,554,900) thousand; total assets $97,558 thousand at June 30, 2025",
+   "quote": "Balances at June 30, 2025 272,803,887 $ 2,728 $ 1,573,233 $ (1,554,900) $ (1,459) $ 19,602",
+   "section": "Condensed Consolidated Statements of Stockholders' Equity"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised new equity in a May 2025 underwritten offering of common stock, pre-funded warrants and warrants.",
+   "numbers": "net proceeds $21.1 million; underwriting discounts and commissions $1.4 million; other offering costs $0.5 million",
+   "quote": "We received aggregate net proceeds of $21.1 million, after deducting underwriting discounts and commissions of $1.4 million and other offering costs of $0.5 million.",
+   "section": "MD&A - Underwritten Offering"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company continues to sell stock through its Jefferies ATM program and has substantial remaining capacity.",
+   "numbers": "net proceeds $7.3 million (Q2) and $17.6 million (six months 2025); $168.8 million remaining of $325.0 million program",
+   "quote": "Approximately $168.8 million remained available under the sales agreement as of June 30, 2025.",
+   "section": "Note 9 - Stockholders' Equity - At-the-Market Offering Program"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter end the company raised additional ATM proceeds and pre-funded warrants were fully exercised.",
+   "numbers": "17,250,862 shares sold for approximately $8.9 million; 12,000,000 shares issued on pre-funded warrant exercise in July 2025",
+   "quote": "Subsequent to June 30, 2025, the Company sold 17,250,862 shares of its common stock under the Open Market Sale Agreement\u2120 with Jefferies, for net proceeds of approximately $8.9 million.",
+   "section": "Note 12 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "A new STAC-BBB license with Eli Lilly brought an upfront payment, with large potential future milestones.",
+   "numbers": "$18.0 million upfront received April 2025; up to $1.4 billion in additional fees and milestones",
+   "quote": "Under the Lilly Agreement, the Company received an $18.0 million upfront license payment in April 2025.",
+   "section": "Note 6 - Major Customers, Partnerships and Strategic Alliances (Lilly)"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The Pfizer collaboration terminated April 21, 2025; the company received a final $5.0 million but no future milestones or royalties.",
+   "numbers": "$5.0 million recognized in six months 2025",
+   "quote": "Pfizer will not be obligated to pay the Company the remaining milestone payments and royalties.",
+   "section": "Note 6 - Major Customers, Partnerships and Strategic Alliances (Pfizer)"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company has not secured a commercialization partner for its Fabry program, which it says is key to raising capital.",
+   "numbers": "",
+   "quote": "we are engaged in business development discussions with potential counterparties concerning a commercialization agreement for our Fabry disease program, but have been unsuccessful in consummating any such transaction to date.",
+   "section": "MD&A - Financial Position - Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "R&D spending is expected to rise near term due to Fabry BLA readiness activities, increasing cash needs.",
+   "numbers": "Q2 2025 R&D $27,084 thousand vs $24,223 thousand",
+   "quote": "We expect research and development expenses to increase in the near-term due to Fabry disease program BLA readiness activities",
+   "section": "MD&A - Research and Development Expenses"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "No borrowings appear in the passages; management lists debt financing only as a possible future funding source alongside equity and collaborations.",
+   "numbers": "",
+   "quote": "raise funding through debt financing; and",
+   "section": "Note 1 - Liquidity, Going Concern, and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "Prior operational restructurings are essentially complete, with no accrued restructuring liability left and only modest Brisbane close-out costs remaining.",
+   "numbers": "accrued restructuring balance $\u2014 at June 30, 2025; $0.9 million to $1.9 million remaining to be incurred",
+   "quote": "The France Restructuring and the cash payments related thereto were completed as of June 30, 2025.",
+   "section": "Note 10 - Restructuring Charges"
+  },
+  {
+   "filing": "10-Q filed 2025-08-07",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "No impairment was recorded in 2025, but further impairment of the Brisbane facility remains possible.",
+   "numbers": "",
+   "quote": "It is reasonably possible that additional impairment charges will be recognized, for example, if sublease rates of the Brisbane, California facility are less than those estimated.",
+   "section": "Note 7 - Impairment of Long-Lived Assets"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The 10-K states the company's financial position raises substantial doubt about its ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "Our financial position raises substantial doubt about our ability to continue to operate as a going concern.",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Even including early-2025 ATM proceeds and an expected Pfizer payment, cash was expected to last only into the middle of Q2 2025.",
+   "numbers": "$10.1 million ATM proceeds in 2025; $5.0 million expected from Pfizer by end of March 2025",
+   "quote": "we expect to meet our liquidity requirements only into the middle of the second quarter of 2025.",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company disclosed it has explored and will continue to explore whether filing for bankruptcy protection is in its best interest.",
+   "numbers": "",
+   "quote": "We have explored, and will continue to explore, whether filing for bankruptcy protection is in the best interest of our company and our stakeholders.",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "A dedicated risk factor discusses a possible Chapter 11 reorganization and Chapter 7 liquidation with possibly no recovery for common stockholders.",
+   "numbers": "",
+   "quote": "If we seek to reorganize under the U.S. Bankruptcy Code, our future operations are uncertain, and such reorganization could be unsuccessful and/or result in no recovery for holders of our common stock.",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Without adequate funds the company says it may have to cease operations, liquidate assets and/or seek bankruptcy protection.",
+   "numbers": "",
+   "quote": "we may be required to cease operations entirely, liquidate all or a portion of our assets, and/or seek protection under the U.S. Bankruptcy Code",
+   "section": "Summary of Risk Factors; Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company has recurring large net losses and expects continued losses for the foreseeable future.",
+   "numbers": "net losses $97.9 million (2024) and $257.8 million (2023)",
+   "quote": "We have a history of recurring net losses, including $97.9 million and $257.8 million for the years ended December 31, 2024 and 2023, respectively",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Part of the losses were non-cash impairment charges, very large in 2023 and smaller in 2024.",
+   "numbers": "impairment charges $5.5 million (2024) and $155.0 million (2023)",
+   "quote": "During the years ended December 31, 2024 and 2023, we recognized impairment charges of $5.5 million and $155.0 million, respectively.",
+   "section": "Item 1A Risk Factors - impairment risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Pfizer terminated its collaboration for convenience effective April 21, 2025, after earlier Biogen and Novartis terminations and Kite expiry, removing future milestones and royalties.",
+   "numbers": "",
+   "quote": "As a result, we are no longer entitled to any milestone payments or royalties from Biogen, Novartis, Kite or Pfizer",
+   "section": "Item 1A Risk Factors - Risks Relating to our Reliance on Third Parties"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "operations",
+   "direction": "against",
+   "finding": "The company has received upfront and milestone money from capsid licenses with Genentech and Astellas and may earn more.",
+   "numbers": "$50.0 million from Genentech; $20.0 million upfront from Astellas",
+   "quote": "Although we have received $50.0 million in upfront license fees and milestone payments",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Raising capital depends heavily on securing a Fabry commercialization partner in the near term, which had not happened.",
+   "numbers": "",
+   "quote": "If we are not able to secure a commercialization partner for our Fabry disease program in the near term, our ability to raise additional capital needed to support our operations will be substantially impaired.",
+   "section": "Item 1A Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company has previously failed Nasdaq listing standards and warns of possible delisting that would impair fundraising.",
+   "numbers": "",
+   "quote": "We have in the past, and may in the future, be unable to comply with the listing standards of the Nasdaq Stock Market LLC.",
+   "section": "Summary of Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company is relying on equity sales including its Jefferies ATM, and warns dilution may be substantial given the stock price decline.",
+   "numbers": "224,710,019 shares outstanding as of March 13, 2025",
+   "quote": "such dilution may be substantial given our current stock price decline",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The company is actively seeking equity, debt, royalty financing or strategic collaborations, but says capital may not be available.",
+   "numbers": "",
+   "quote": "We cannot be certain that we will be able to obtain financing on terms acceptable to us, or at all.",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "No existing debt is described in the passages; debt financing is discussed only as a possible future source that could carry covenants.",
+   "numbers": "",
+   "quote": "If we raise additional capital through debt financing, we may be subject to specified financial covenants",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "Multiple cost-cutting restructurings (April 2023, November 2023, France) have been completed or are nearly complete, but cash could be used faster than expected.",
+   "numbers": "",
+   "quote": "we may use our available capital more quickly than we expect, which could otherwise accelerate our liquidity needs",
+   "section": "Item 1A Risk Factors - Risks Relating to our Finances"
+  },
+  {
+   "filing": "10-K filed 2025-03-17",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "After facility closures the company relies solely on contract manufacturers for preclinical and clinical supply.",
+   "numbers": "",
+   "quote": "we now rely solely on CMOs to manufacture preclinical and clinical supply.",
+   "section": "Item 1A Risk Factors - Risks Relating to Manufacturing"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded that substantial doubt exists about the company's ability to continue as a going concern for twelve months from issuance of the Q1 2025 financial statements.",
+   "numbers": "",
+   "quote": "Based on the Company\u2019s current operating plan, management believes that substantial doubt exists about the Company\u2019s ability to continue as a going concern for a period of twelve months",
+   "section": "Note 1 - Liquidity, Going Concern, and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Even including the Lilly upfront fee and post-quarter ATM proceeds, cash was projected to last only into early Q3 2025, i.e. around the time of the report being scored.",
+   "numbers": "$18.0 million Lilly upfront; $5.1 million ATM since March 31, 2025; runway only early into Q3 2025",
+   "quote": "will be sufficient to meet our liquidity requirements only early into the third quarter of 2025",
+   "section": "MD&A - Financial Position \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company states it has explored and will continue to explore whether filing for bankruptcy protection is in its best interest.",
+   "numbers": "",
+   "quote": "We have explored, and will continue to explore, whether filing for bankruptcy protection is in the best interest of our Company and our stakeholders.",
+   "section": "MD&A - Financial Position \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "If funds are not available, the company says it may have to cease operations, liquidate assets and/or seek protection under the U.S. Bankruptcy Code.",
+   "numbers": "",
+   "quote": "the Company may be required to cease operations entirely, liquidate all or a portion of its assets, and/or seek protection under the U.S. Bankruptcy Code",
+   "section": "Note 1 - Liquidity, Going Concern, and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Cash and cash equivalents fell sharply during the quarter, with only $1.5 million of restricted cash (a lease letter of credit) on top.",
+   "numbers": "Cash and cash equivalents $25.2 million at March 31, 2025 vs $41.9 million at December 31, 2024; restricted cash $1,500 thousand; total cash incl. restricted $26,680 vs $43,418 thousand",
+   "quote": "As of March 31, 2025, we had cash and cash equivalents of $25.2 million, compared to cash and cash equivalents of $41.9 million as of December 31, 2024.",
+   "section": "MD&A - Liquidity and Capital Resources; Note 1 cash reconciliation"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Quarterly operating cash burn remained large relative to cash on hand, though it was lower than the prior-year quarter.",
+   "numbers": "Net cash used in operating activities $(26,149) thousand Q1 2025 vs $(48,663) thousand Q1 2024; net decrease in cash $(16,738) thousand",
+   "quote": "Net cash used in operating activities (26,149) (48,663)",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The Q1 2025 net loss was mostly cash-driven; non-cash items were small and there was no impairment this quarter (vs $4,349 thousand in Q1 2024).",
+   "numbers": "Net loss $(30,597) thousand vs $(49,089) thousand; stock-based compensation $2,596; depreciation and amortization $1,020; ROU amortization $904; impairment \u2014 vs 4,349 (thousands)",
+   "quote": "During the three months ended March 31, 2025 no additional impairment was recorded.",
+   "section": "Statements of Operations; Cash Flows; Note 7"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Other expense included a foreign currency transaction loss, and management warns further long-lived asset impairments are reasonably possible.",
+   "numbers": "Foreign currency transaction losses $1.2 million in Q1 2025; other (expense) income, net $(1,159) thousand",
+   "quote": "It is reasonably possible that additional impairment charges will be recognized, for example, if sublease rates of the Brisbane, California facility are less than those estimated.",
+   "section": "Note 1 - Foreign Currency Translation; Note 7"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Stockholders' equity had shrunk to a very small amount and total assets declined over the quarter, while accounts payable rose.",
+   "numbers": "Total stockholders' equity $4,906 thousand at March 31, 2025; total assets $86,166 vs $101,635 thousand; accounts payable $18,204 vs $15,485 thousand",
+   "quote": "Balances at March 31, 2025 225,364,090 $ 2,254 $ 1,543,093 $ (1,534,914) $ (5,527) $ 4,906",
+   "section": "Condensed Consolidated Balance Sheets and Statements of Stockholders' Equity"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter end the company signed a capsid license deal with Eli Lilly and received an upfront payment, with large potential future milestones.",
+   "numbers": "$18.0 million upfront; up to $1.4 billion in additional fees and milestones",
+   "quote": "Under the Lilly Agreement, the Company has received an $18.0 million upfront license payment.",
+   "section": "Note 12 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised equity through its Jefferies at-the-market program during and after the quarter, and substantial capacity remained under the program.",
+   "numbers": "9,528,752 shares for net proceeds of approximately $10.5 million in Q1 2025; 7,090,385 shares for approximately $5.1 million after March 31, 2025; approximately $176.1 million remaining",
+   "quote": "Approximately $176.1 million remained available under the sales agreement as of March 31, 2025.",
+   "section": "Note 9 - Stockholders' Equity; Note 12 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Management's funding plans (equity, debt or royalty financing, collaborations) are not assured, and the going-concern perception is making financing harder.",
+   "numbers": "",
+   "quote": "the perception of our ability to continue to operate as a going concern has made and will continue to make it more difficult to obtain financing for the continuation of our operations",
+   "section": "MD&A - Financial Position \u2013 Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company's ability to raise capital depends heavily on securing a commercialization partner for its Fabry disease program in the near term.",
+   "numbers": "",
+   "quote": "if the Company is not able to secure a commercialization partner for its Fabry disease program in the near term, the Company\u2019s ability to raise additional capital needed to support its operations will be substantially impaired",
+   "section": "Note 1 - Liquidity, Going Concern, and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Pfizer terminated the hemophilia A collaboration effective April 21, 2025; Sangamo recognized a final $5.0 million but will receive no further milestones or royalties.",
+   "numbers": "$5.0 million recognized in Q1 2025",
+   "quote": "Pfizer will not be obligated to pay the Company the remaining milestone payments and royalties.",
+   "section": "Note 6 - Major Customers, Partnerships and Strategic Alliances (Pfizer)"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Management expects R&D expenses to increase near term due to Fabry BLA readiness activities, which would raise cash burn.",
+   "numbers": "R&D $26,006 thousand Q1 2025 vs $35,891 thousand Q1 2024",
+   "quote": "We expect research and development expenses to increase in the near-term due to Fabry disease program BLA readiness activities.",
+   "section": "MD&A - Research and Development Expenses"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "The company does not currently meet Nasdaq Capital Market listing standards and its stock may be delisted, which would impair its ability to raise capital.",
+   "numbers": "",
+   "quote": "We currently do not meet, and may not regain compliance with, the listing standards of the Nasdaq Capital Market, and as a result our common stock may be delisted.",
+   "section": "Special Note Regarding Forward-Looking Statements"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "restructuring",
+   "direction": "neutral",
+   "finding": "Prior restructurings (France wind-down and November 2023 U.S. reduction) are essentially complete, with the accrued restructuring liability reduced to zero and only facility close-out costs remaining.",
+   "numbers": "Accrual $896 thousand at December 31, 2024 to $\u2014 at March 31, 2025; $0.9 million to $1.9 million remaining to be incurred",
+   "quote": "The remaining employees in France departed, the France Restructuring and the cash payments related thereto were completed during the three months ended March 31, 2025.",
+   "section": "Note 10 - Restructuring Charges"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Deferred revenue from the Astellas option rights is a non-cash liability tied to option exercise or expiration rather than a cash obligation.",
+   "numbers": "Deferred revenue $13.5 million, of which $7.6 million current and $5.9 million non-current",
+   "quote": "As of March 31, 2025, the Company had deferred revenue of $13.5 million related to the options with material rights, of which $7.6 million is classified as current",
+   "section": "Note 6 - Astellas"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The passages describe no borrowings; operations have been funded by equity, collaborations and grants, and debt or royalty financing is only listed as a possible future step.",
+   "numbers": "",
+   "quote": "raise funding through debt or royalty financing; and",
+   "section": "Note 1 - Liquidity, Going Concern, and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-05-12",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "Common warrants from the March 2024 registered direct offering remained unexercised and outstanding.",
+   "numbers": "28,571,428 Common Warrants, exercise price $1.00 per share",
+   "quote": "The Common Warrants had not been exercised and remained outstanding as of March 31, 2025.",
+   "section": "Note 9 - Stockholders' Equity"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "On April 30, 2025 Nasdaq notified the company that its stock had closed below the $1.00 minimum bid price for 30 consecutive business days, with a compliance deadline of October 27, 2025.",
+   "numbers": "$1.00 minimum bid; 30 consecutive business days; 180 calendar days; Compliance Date October 27, 2025",
+   "quote": "the Company has 180 calendar days, or until October 27, 2025, or the Compliance Date, to regain compliance with the minimum bid price requirement",
+   "section": "8-K filed 2025-05-06, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "against",
+   "finding": "The 2025 deficiency notice had no immediate effect on listing, and a second 180-day period may be available, possibly via a reverse stock split.",
+   "numbers": "additional 180-day period",
+   "quote": "The Notice has no immediate effect on the listing of the Company\u2019s common stock on the Nasdaq Capital Market.",
+   "section": "8-K filed 2025-05-06, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "This is a repeat bid-price deficiency: a similar notice was received on April 24, 2024 while listed on the Nasdaq Global Select Market, and the stock is now on the Nasdaq Capital Market.",
+   "numbers": "Notice April 24, 2024; Compliance Date October 21, 2024",
+   "quote": "On April 24, 2024, Sangamo Therapeutics, Inc. (the \u201cCompany\u201d) received a deficiency notice, or the Notice, from the Listing Qualifications Staff",
+   "section": "8-K filed 2024-04-30, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Pfizer terminated for convenience the hemophilia A collaboration effective April 21, 2025, ending Sangamo's eligibility for remaining milestones and royalties.",
+   "numbers": "up to $220.0 million remaining milestones for giroctocogene fitelparvovec and up to $175.0 million for other products forgone; royalties of 14% - 20% forgone",
+   "quote": "Sangamo will not be entitled to any royalties from Pfizer. In addition, Pfizer will not be liable for any milestone payment under the Collaboration Agreement that accrues between now and the Termination Date.",
+   "section": "8-K filed 2024-12-30, Item 1.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "Sangamo regains rights to the SB-525 program and plans to seek a new partner, but the company flags the risk it cannot find one and may cease development.",
+   "numbers": "",
+   "quote": "Over the coming months, Sangamo expects to seek a new potential partner to seek regulatory approvals for and, if approved, commercialize giroctocogene fitelparvovec.",
+   "section": "8-K filed 2024-12-30, Item 1.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The Pfizer termination 8-K lists the company's cash position and ability to raise capital among key risk factors.",
+   "numbers": "",
+   "quote": "Sangamo\u2019s lack of resources to fully develop, obtain regulatory approval for and commercialize its product candidates; Sangamo\u2019s cash position; and Sangamo\u2019s ability to raise additional capital on acceptable terms or at all",
+   "section": "8-K filed 2024-12-30, Forward-Looking Statements"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "In June 2024 stockholders approved increasing authorized common shares by 50%, giving capacity for further equity issuance (and dilution).",
+   "numbers": "640,000,000 to 960,000,000 authorized shares; 107,950,334 for, 8,623,071 against",
+   "quote": "increase the total number of authorized shares of common stock from 640,000,000 shares to 960,000,000 shares",
+   "section": "8-K filed 2024-06-05, Item 5.03"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "At the June 12, 2025 annual meeting stockholders approved adding 14,000,000 shares to the 2018 equity incentive plan, by a relatively narrow margin.",
+   "numbers": "14,000,000 additional shares; ISO limit total 123,200,000 shares; 32,399,878 for vs 24,199,905 against",
+   "quote": "increase the aggregate number of shares of common stock that may be issued under the 2018 Plan by 14,000,000 shares",
+   "section": "8-K filed 2025-06-16, Items 5.02 and 5.07"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "All nine directors were re-elected in 2025, but with markedly higher opposition than in 2024 (about 20 million against each versus roughly 6-24 million in 2024), and say-on-pay drew substantial opposition.",
+   "numbers": "Say-on-pay 32,804,256 for vs 23,176,425 against; e.g., Courtney Beers 34,998,605 for vs 20,276,585 against",
+   "quote": "Each of the nominees for director listed in the Proxy Statement was elected by the votes set forth below:",
+   "section": "8-K filed 2025-06-16, Item 5.07"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Stockholders ratified Ernst & Young LLP as independent auditor for fiscal 2025; no auditor change is disclosed.",
+   "numbers": "119,619,742 for; 12,041,357 against; 7,786,709 abstain",
+   "quote": "the ratification of the appointment by the Audit Committee of the Board of Ernst & Young LLP as the Company\u2019s independent registered public accounting firm for the fiscal year ending December 31, 2025",
+   "section": "8-K filed 2025-06-16, Item 5.07"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "None of the 8-Ks report missed payments, debt defaults, forbearance, restructuring advisors or late filings, and no NT late-filing notices are included.",
+   "numbers": "",
+   "quote": "",
+   "section": "All 8-Ks provided"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score of 0.688 comes mainly from a deep annualized net loss ($101.2M, about 104% of assets) and operating cash burn ($88.6M) set against only $97.6M of assets, liabilities at 80% of assets (peer median 46%) and a current ratio of 1.05 (peer median 3.26). The filing text is worse than the numbers suggest: management has substantial going concern doubt, says cash lasts only into Q4 2025, and states it has explored and will keep exploring a bankruptcy filing, while no Fabry partner has been signed and Nasdaq delisting is a live threat. The score reflects real distress, and if anything the 0.5-0.7 band's 4% base rate understates it.",
+  "verdict": "real risk",
+  "own_risk": "high",
+  "own_risk_pct": 30,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "Management explicitly says it has explored, and will continue to explore, filing for bankruptcy protection (10-Q 2025-08-07, repeated from the 10-K and Q1 10-Q)",
+   "Cash runway only into Q4 2025: about $47.2M ($38.3M cash plus $8.9M post-quarter ATM) against a reported Q2 operating burn of about $18.2M, or about $36M a quarter without the one-time $18.0M Lilly upfront. That is roughly 4 to 8 months, with R&D expected to rise",
+   "No Fabry commercialization partner yet, which management calls key to raising capital; Pfizer, Biogen, Novartis and Kite collaborations have all ended",
+   "Repeat Nasdaq minimum bid price deficiency with a compliance date of 2025-10-27, which would make equity raising harder",
+   "Against: no debt, so no lender can force a filing; ATM capacity of $168.8M remains; $21.1M May 2025 offering and $18.0M Lilly upfront show the company can still raise money"
+  ],
+  "reasons": [
+   {
+    "reason": "Large losses relative to a small asset base; net income is the model's most important input",
+    "kind": "model input",
+    "numbers": "net income -$101.2M annualized (-103.7% of assets); operating income -$95.0M; prior year -$170.4M",
+    "peer_comparison": "net income peer percentile 22 of 844 peers",
+    "quote": "",
+    "source": "10-Q, 2025-08-07, financial statements (annualized)"
+   },
+   {
+    "reason": "Heavy operating cash burn relative to assets",
+    "kind": "model input",
+    "numbers": "operating cash flow -$88.6M annualized (-90.8% of assets); six-month burn $44.3M, Q2 alone about $18.2M",
+    "peer_comparison": "peer percentile 22",
+    "quote": "Net cash used in operating activities (44,307) (75,547)",
+    "source": "10-Q, 2025-08-07, Condensed Consolidated Statements of Cash Flows"
+   },
+   {
+    "reason": "Leveraged, illiquid balance sheet compared with biotech peers",
+    "kind": "model input",
+    "numbers": "liabilities/assets 0.80; current ratio 1.05; current liabilities $47.7M vs current assets $49.9M",
+    "peer_comparison": "peer median liabilities/assets 0.46 and current ratio 3.26; current liabilities at peer percentile 81, total liabilities at 75",
+    "quote": "",
+    "source": "10-Q, 2025-08-07, balance sheet"
+   },
+   {
+    "reason": "Thin equity against a $1.55B accumulated deficit; equity was only $4.9M at March 31, 2025",
+    "kind": "from the filings",
+    "numbers": "stockholders' equity $19.6M; accumulated deficit $(1,554.9)M; total assets $97.6M",
+    "peer_comparison": "",
+    "quote": "Balances at June 30, 2025 272,803,887 $ 2,728 $ 1,573,233 $ (1,554,900) $ (1,459) $ 19,602",
+    "source": "10-Q, 2025-08-07, Statements of Stockholders' Equity"
+   },
+   {
+    "reason": "Substantial going concern doubt for the next twelve months",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "management believes that substantial doubt exists about the Company\u2019s ability to continue as a going concern for a period of twelve months from the date these Condensed Consolidated Financial Statements are issued.",
+    "source": "10-Q, 2025-08-07, Note 1 - Liquidity, Going Concern, and Capital Resources"
+   },
+   {
+    "reason": "Runway is only a few months. $47.2M of cash divided by the Q2 burn of about $6.1M a month gives about 7.8 months, and the six-month average of $7.4M a month gives about 6.4 months. Without the one-time $18.0M Lilly upfront, burn is about $12M a month, or about 4 months. Management's own guidance, into Q4 2025, matches the short end",
+    "kind": "from the filings",
+    "numbers": "cash $38.3M at 2025-06-30 plus $8.9M ATM since; six-month burn $44.3M; Q2 burn about $18.2M including the $18.0M Lilly upfront",
+    "peer_comparison": "",
+    "quote": "will be sufficient to meet our liquidity requirements only into the fourth quarter of 2025",
+    "source": "10-Q, 2025-08-07, MD&A - Financial Position - Going Concern"
+   },
+   {
+    "reason": "Management openly says it is considering a bankruptcy filing",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "We have explored, and will continue to explore, whether filing for bankruptcy protection is in the best interest of our Company and our stakeholders.",
+    "source": "10-Q, 2025-08-07, MD&A - Financial Position - Going Concern"
+   },
+   {
+    "reason": "No Fabry commercialization partner, which management says its ability to raise capital depends on",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "we are engaged in business development discussions with potential counterparties concerning a commercialization agreement for our Fabry disease program, but have been unsuccessful in consummating any such transaction to date.",
+    "source": "10-Q, 2025-08-07, MD&A - Financial Position - Going Concern"
+   },
+   {
+    "reason": "Partner revenue has dried up after the Pfizer termination, following earlier Biogen, Novartis and Kite exits",
+    "kind": "from the filings",
+    "numbers": "final $5.0M from Pfizer; up to $220.0M and $175.0M in milestones and 14%-20% royalties forgone",
+    "peer_comparison": "",
+    "quote": "Pfizer will not be obligated to pay the Company the remaining milestone payments and royalties.",
+    "source": "10-Q, 2025-08-07, Note 6 (Pfizer)"
+   },
+   {
+    "reason": "Cash needs are set to rise because of Fabry BLA work",
+    "kind": "from the filings",
+    "numbers": "Q2 2025 R&D $27.1M vs $24.2M",
+    "peer_comparison": "",
+    "quote": "We expect research and development expenses to increase in the near-term due to Fabry disease program BLA readiness activities",
+    "source": "10-Q, 2025-08-07, MD&A - Research and Development Expenses"
+   },
+   {
+    "reason": "Nasdaq listing at risk, which would impair the equity raising the company depends on",
+    "kind": "from the filings",
+    "numbers": "$1.00 minimum bid; compliance date 2025-10-27; repeat of the 2024 deficiency",
+    "peer_comparison": "",
+    "quote": "We currently do not meet, and may not regain compliance with, the listing standards of the Nasdaq Capital Market, and as a result our common stock may be delisted.",
+    "source": "10-Q, 2025-08-07, Special Note Regarding Forward-Looking Statements"
+   },
+   {
+    "reason": "Most of the loss is cash-driven, so it is not an artefact of impairments",
+    "kind": "from the filings",
+    "numbers": "stock-based compensation $4.8M; D&A $2.0M; ROU amortization $1.8M; no impairment in 2025; FX loss $3.6M",
+    "peer_comparison": "",
+    "quote": "Stock-based compensation 4,822 5,784",
+    "source": "10-Q, 2025-08-07, Condensed Consolidated Statements of Cash Flows"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "No borrowings, so there are no covenants, maturities or lenders who could force a filing. A filing would be the company's own choice once it runs out of cash",
+    "quote": "raise funding through debt financing; and",
+    "source": "10-Q, 2025-08-07, Note 1"
+   },
+   {
+    "point": "Large remaining ATM capacity, and the company keeps selling shares through it",
+    "quote": "Approximately $168.8 million remained available under the sales agreement as of June 30, 2025.",
+    "source": "10-Q, 2025-08-07, Note 9 - At-the-Market Offering Program"
+   },
+   {
+    "point": "Raised $21.1M in a May 2025 underwritten offering, showing access to capital despite going concern doubt",
+    "quote": "We received aggregate net proceeds of $21.1 million, after deducting underwriting discounts and commissions of $1.4 million and other offering costs of $0.5 million.",
+    "source": "10-Q, 2025-08-07, MD&A - Underwritten Offering"
+   },
+   {
+    "point": "New Lilly capsid license brought $18.0M upfront, with up to $1.4B in potential milestones; earlier Genentech and Astellas capsid deals also brought cash",
+    "quote": "Under the Lilly Agreement, the Company received an $18.0 million upfront license payment in April 2025.",
+    "source": "10-Q, 2025-08-07, Note 6 (Lilly)"
+   },
+   {
+    "point": "Post-quarter ATM sales added $8.9M",
+    "quote": "Subsequent to June 30, 2025, the Company sold 17,250,862 shares of its common stock under the Open Market Sale Agreement\u2120 with Jefferies, for net proceeds of approximately $8.9 million.",
+    "source": "10-Q, 2025-08-07, Note 12 - Subsequent Events"
+   },
+   {
+    "point": "Losses and burn have narrowed a lot from the prior year, and equity recovered from $4.9M to $19.6M during the quarter",
+    "quote": "Net loss $ (19,986) $ (36,128) $ (50,583) $ (85,217)",
+    "source": "10-Q, 2025-08-07, Condensed Consolidated Statements of Operations"
+   },
+   {
+    "point": "The company has repeatedly extended its runway: the 10-K said cash would last only into mid-Q2 2025, and it is still operating, now guiding into Q4 2025",
+    "quote": "we expect to meet our liquidity requirements only into the middle of the second quarter of 2025.",
+    "source": "10-K, 2025-03-17, Item 1A Risk Factors"
+   },
+   {
+    "point": "The deficiency notice had no immediate effect on listing, and a second 180-day period may be available",
+    "quote": "The Notice has no immediate effect on the listing of the Company\u2019s common stock on the Nasdaq Capital Market.",
+    "source": "8-K, 2025-05-06, Item 3.01"
+   },
+   {
+    "point": "No missed payments, defaults, forbearance, restructuring advisors or late filings reported",
+    "quote": "",
+    "source": "All 8-Ks provided"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2024-04-24",
+    "event": "First Nasdaq minimum bid price deficiency notice (Global Select Market)"
+   },
+   {
+    "date": "2024-06-05",
+    "event": "8-K: stockholders approved raising authorized shares from 640M to 960M"
+   },
+   {
+    "date": "2024-12-30",
+    "event": "8-K: Pfizer terminates the hemophilia A collaboration for convenience, effective 2025-04-21"
+   },
+   {
+    "date": "2025-03-17",
+    "event": "10-K: going concern doubt, runway only into mid-Q2 2025, bankruptcy filing being explored"
+   },
+   {
+    "date": "2025-04-21",
+    "event": "Pfizer termination effective; no further milestones or royalties"
+   },
+   {
+    "date": "2025-04-30",
+    "event": "Second Nasdaq bid price deficiency notice; compliance deadline 2025-10-27"
+   },
+   {
+    "date": "2025-05-12",
+    "event": "Q1 10-Q: Lilly license with $18.0M upfront, equity $4.9M, runway only early into Q3 2025"
+   },
+   {
+    "date": "2025-06-12",
+    "event": "Annual meeting: equity plan increase and directors approved with notable opposition"
+   },
+   {
+    "date": "2025-06-30",
+    "event": "Quarter end: cash $38.3M, equity $19.6M after the May underwritten offering ($21.1M net) and ATM sales"
+   },
+   {
+    "date": "2025-08-07",
+    "event": "Q2 10-Q: going concern doubt, runway into Q4 2025, bankruptcy still being explored, $8.9M post-quarter ATM proceeds"
+   }
+  ],
+  "dates_to_watch": [
+   "2025-10-27: Nasdaq minimum bid price compliance deadline (reverse split or second 180-day period)",
+   "Q4 2025: the point at which management says current cash runs out",
+   "Q3 2025 10-Q (around November 2025): updated runway and going concern language",
+   "Any announcement of a Fabry commercialization partner or new financing",
+   "Any 8-K naming restructuring advisors or a strategic alternatives process"
+  ],
+  "would_change_my_mind": [
+   "A signed Fabry commercialization deal with meaningful upfront cash",
+   "A sizeable equity or royalty financing that extends runway well into 2026",
+   "New capsid license deals or Lilly milestones bringing in cash",
+   "Regaining Nasdaq compliance without losing access to the ATM",
+   "Toward more risk: hiring restructuring advisors, failure to raise money before Q4 2025, or delisting"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Exact Q2 2025 cash burn without the Lilly upfront (derived as six-month minus Q1 operating cash flow, then adjusted)",
+   "Current share price and how much more ATM selling the market can absorb",
+   "Terms and remaining value of the Astellas and Genentech deals beyond what the findings state",
+   "Lease obligations and other off-balance-sheet commitments that would count in a bankruptcy",
+   "Status of Fabry partnering talks and the FDA/BLA timeline"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

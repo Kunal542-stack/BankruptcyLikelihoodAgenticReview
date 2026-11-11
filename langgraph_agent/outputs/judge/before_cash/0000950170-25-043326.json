@@ -1,0 +1,87 @@
+{
+ "gold_verdict": "Unclear, close to the band's rate; agrees with the model that risk is high",
+ "gold_own_risk": "high, about 15% (band base rate 18%)",
+ "candidate_verdict": "Real risk; agrees with the model",
+ "candidate_own_risk": "high, roughly 20%",
+ "key_points": [
+  {
+   "point": "Verdict: unclear, own risk high ~15% vs band 18%, agrees with model; distress real but insider-backed Nov 2024 refinancing pushed debt to 2028",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Cash runway: $21.1M year-end cash, ~4.7 months at average burn and ~2.7 months at Q4's $7.9M/month (roughly the filing date); January 2025 flight cancellations for maintenance",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Losses are mostly cash losses: only 18% of 2024 loss non-cash; $32.3M stock-comp reversal made Q4 look profitable (+$1.3M) while Q4 underlying loss was ~$31M",
+   "importance": "critical",
+   "candidate": "missing"
+  },
+  {
+   "point": "Leverage: liabilities 197% of assets (2nd highest of peers), equity -$120.0M, current ratio 0.38 vs peer median 0.78",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Defaults and going-concern doubt: $7.7M IRS excise tax, $1.6M property tax, $0.5M note unpaid since 2019; substantial doubt in Note 1 and PwC report",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Debt maturities pushed to 2028: $44.5M Comvest loan interest-only to Nov 2028, $50M LamVen and $8M PFG notes to Dec 2028, only $2.5M due 2025, $5.5M delayed draw",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Insiders keep funding: founder-linked entities lent $34.5M in 2024 and $22.5M in 2023; Comvest loan backstopped by HSBC letter of credit arranged by related party Park Lane",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Limited access to equity: GEM share purchase agreement volume limits and NYSE-listing requirement while below NYSE standards",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "In compliance with all loan covenants at 31 Dec 2024",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Revenue doubled (first full year of Southern, partly EAS subsidy); S-3 shelf filed 2025-02-11; Palantir JV deadline 31 May 2025",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Verdict: GOLD says unclear at ~15%, CANDIDATE says real risk at ~20%",
+  "Revenue peer rank: GOLD says smaller than 88% of peers, CANDIDATE gives 73rd peer percentile",
+  "Cash at 30 Sep 2024: GOLD $0.5M, CANDIDATE $1.1M",
+  "NYSE cure period end: GOLD about 20 Nov 2025, CANDIDATE through about Feb 2026 (18 months from Aug 2024 plan acceptance)",
+  "Year-end cash: GOLD reports $21.1M from the 10-K, CANDIDATE says it could not check year-end cash and infers ~$21.7M",
+  "Peer count: GOLD 24 SIC-45 peers, CANDIDATE 22"
+ ],
+ "extra_points_in_candidate": [
+  "Property tax liens on four aircraft",
+  "PFG interest arrears of $818K charged at a 15.75% default rate",
+  "Company regained NYSE $1.00 price compliance as of Sep 30, 2024",
+  "Pending IRS offer-in-compromise on excise tax",
+  "2024 financing of $77.2M; debt rose to $122.6M from $52.1M",
+  "Current ratio improved from ~0.13 to 0.38",
+  "Unknown cash needs for 90 Cessna Caravans and post-2024 minimum cash covenant"
+ ],
+ "scores": {
+  "verdict_agreement": 3,
+  "coverage": 3,
+  "consistency": 3,
+  "overall": 3
+ },
+ "summary": "CANDIDATE matches GOLD on leverage, going-concern doubt, tax and note defaults, and the 2028 refinancing, but calls it real risk at 20% rather than unclear at 15%, and it misses GOLD's central point that the $32.3M stock-comp reversal flatters the loss and that losses are mostly cash. It also leaves out the January flight cancellations, equity-access limits and covenant compliance, and it differs from GOLD on several facts (Sep 30 cash, revenue peer rank, NYSE cure date).",
+ "critical_recall": 0.5,
+ "all_recall": 0.5,
+ "candidate_check_problems": 0,
+ "gold_words": 1207,
+ "candidate_words": 958
+}

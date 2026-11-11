@@ -1,0 +1,85 @@
+{
+ "gold_verdict": "unclear, close to the band's rate; agrees with the model that this is high risk",
+ "gold_own_risk": "high, about 15% (band base rate 18%)",
+ "candidate_verdict": "real risk; agrees with the model",
+ "candidate_own_risk": "high, roughly 22% (band base rate 18%)",
+ "key_points": [
+  {
+   "point": "Verdict unclear (not clearly above band rate), own risk high ~15%, agrees with model's high score because November 2024 insider-backed refinancing pushed nearly all debt to 2028",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Short cash runway: $21.1M cash lasts ~4.7 months at average $4.5M/month burn, ~2.7 months at Q4's $7.9M/month (roughly the filing date); January 2025 voluntary flight cancellations for maintenance made it worse",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Losses are cash losses: reported loss fell 70% but cash-adjusted loss fell only 31% ($89.2M to $61.3M); a $32.3M stock-comp reversal made Q4 show +$1.3M net income while Q4 really lost ~$31M and Q4 burn was the year's worst",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Leverage: liabilities ~197% of assets (2nd highest of peers), equity -$120.0M vs -$77.5M, current ratio 0.38 vs peer median 0.78",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Defaults and going-concern doubt: $7.7M IRS excise tax, $1.6M property tax, $0.5M note unpaid since 2019; substantial doubt in Note 1 and auditor report",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Limited equity access: GEM facility restricted by daily volume limits and requires NYSE listing; company below NYSE standards since May 2024",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: debt runs to 2028 (only $2.5M due 2025; Comvest interest-only to Nov 2028 with delayed-draw line for interest; $50M LamVen and $8M PFG notes to Dec 2028)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: insiders keep funding ($34.5M in 2024, $22.5M in 2023) and the Comvest loan is backstopped by an HSBC letter of credit arranged by related party Park Lane",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: in compliance with all loan covenants at December 31, 2024",
+   "importance": "supporting",
+   "candidate": "missing"
+  },
+  {
+   "point": "Evidence against: revenue doubled (partly Essential Air Service subsidy) and an S-3 shelf filed 2025-02-11",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Non-cash share of the 2024 loss: CANDIDATE says only about 3% is non-cash (cash-adjusted loss -$72.5M, stock comp a $6.0M net reversal), while GOLD says 18% is non-cash (adjusted loss -$61.3M) and highlights a $32.3M stock-comp reversal",
+  "NYSE cure period end: CANDIDATE says about February 2026, GOLD says about 20 November 2025",
+  "Revenue peer rank: CANDIDATE puts revenue at the 73rd percentile of peers, GOLD says revenue is smaller than 88% of peers",
+  "Cash at 30 September 2024: CANDIDATE says about $1.1M, GOLD says $0.5M"
+ ],
+ "extra_points_in_candidate": [
+  "Cross-collateralized financing agreements create cross-default/acceleration risk",
+  "PFG waiver of the $10 million minimum cash covenant was needed through December 31, 2024",
+  "IRS offer-in-compromise pauses excise tax collection while the company pays $34 thousand a month",
+  "County property-tax lien on four aircraft",
+  "Debt principal rose from $52.1M to $122.6M; financing inflows of $77.2M covered the $54.3M burn",
+  "NYSE $1.00 price compliance regained, GEM restored and 1-for-7 reverse split in August 2024",
+  "$818 thousand PFG interest in arrears at September 30, 2024 listed as a current default"
+ ],
+ "scores": {
+  "verdict_agreement": 3,
+  "coverage": 3,
+  "consistency": 3,
+  "overall": 3
+ },
+ "summary": "CANDIDATE agrees with GOLD on high risk, leverage, defaults, going-concern doubt and the 2028 refinancing, but calls it real risk at ~22% where GOLD sees an unclear case at ~15%. It misses GOLD's key insight that a $32.3M stock-comp reversal flattered Q4 and the January 2025 cancellations, omits year-end covenant compliance, and contradicts GOLD on the non-cash share of the loss and the NYSE cure date.",
+ "critical_recall": 0.5,
+ "all_recall": 0.6,
+ "candidate_check_problems": 0,
+ "gold_words": 1207,
+ "candidate_words": 1041
+}

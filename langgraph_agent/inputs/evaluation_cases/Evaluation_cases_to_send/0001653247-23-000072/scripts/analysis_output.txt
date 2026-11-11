@@ -1,0 +1,24 @@
+8 numbers ($k): now vs Q3-2022
+  total_assets               21,585     90,651    -76%
+  current_assets             10,814     29,890    -64%
+  current_liabilities        79,520     28,579    178%
+  total_liabilities          80,650     86,816     -7%
+  revenue                    56,180    121,803    -54%
+  net_income                -34,168   -216,465    -84%
+  operating_income          -30,147   -194,111    -84%
+  operating_cash_flow        -8,029    -28,935    -72%
+liabilities/assets 3.74  current ratio 0.136  equity -59065
+prior-year liab/assets 0.96  current ratio 1.05
+FY2021: net loss -5,229  non-cash 7,396 (141% of loss)  loss ex non-cash 2,167
+FY2022: net loss -206,789  non-cash 184,470 (89% of loss)  loss ex non-cash -22,319
+9M2022: net loss -162,349  non-cash 146,522 (90% of loss)  loss ex non-cash -15,827
+9M2023: net loss -25,626  non-cash 18,566 (72% of loss)  loss ex non-cash -7,060
+6M2023: net loss -20,420  non-cash 15,382 (75% of loss)  loss ex non-cash -5,038
+Q3-2023 net loss -5206 non-cash 3184 loss ex non-cash -2022
+quarterly OCF {'Q1-23': -4824, 'Q2-23': -903, 'Q3-23': -295}
+monthly burn: 9M OCF 669, Q3 OCF 98, Q3 loss ex non-cash 674, October cash drop 662
+months of cash at 9/30: 9M burn 7.0, Q3 OCF burn 47.3, Q3 cash-loss 6.9
+months of cash at 10/31 at October pace: 6.0;  cash/debt due 5/15/24: 7.0%
+revenue Q3 yoy -54 %; orders yoy -68 %
+Q4-22 revenue 20449
+peer n 700 la median 0.6 cr median 1.34 share peers with la>Waitr 9.1 share with cr<Waitr 10.9

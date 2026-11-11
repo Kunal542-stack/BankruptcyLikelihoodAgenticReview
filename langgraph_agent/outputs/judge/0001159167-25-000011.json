@@ -1,0 +1,85 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 30% within 12 months (vs 4% for the 0.5-0.7 band); agrees with the model's flag but thinks the band understates the risk",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "high, about 30% (vs 4% band rate); agrees with the model partly, risk higher than the band suggests",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk high ~30% vs 4% band; agrees with the flag but the band understates the risk",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going concern opinion itself breaches the term-loan Going Concern Covenant; waiver only until May 6, 2025, at lenders' sole discretion, no cure possible before the March 2026 10-K",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "The $145.5M loss (28% of assets) is cushioned by $88.7M of one-offs ($75.2M Amazon fee, $13.5M settlement); underlying 2024 cash loss excluding one-offs about -$156M, and the forecast depends on a successful 2025 product launch",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Debt larger than cash: $248.3M of principal and minimum return due in 1-3 years, maturity July 24, 2026, against $134.3M cash, only ~$94M unrestricted after returning $40M",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Waiver terms: Minimum Core Assets covenant ($200M) also waived with about $60M headroom; lenders took a 2% PIK fee and penny warrants for 6% of shares",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Going concern doubt is new: the FY2023 10-K said cash was sufficient for the next twelve months",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Fewer funding options: ATM sales suspended and formal strategic review (sale, strategic transaction, refinancing)",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "High leverage and thin liquidity: liabilities 88% of assets, equity down to $61M, current ratio 1.32",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Runway: ~48 months on FY2024 OCF but ~15 months (10 on $94M) without the net Amazon fee; Q1 seasonally heavy",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Evidence against: no default and lender waived rather than accelerated, in compliance with Minimum Core Assets covenant, maturity outside 12 months, operating loss cut by $161.1M and Q4 OCF only -$2.7M",
+   "importance": "supporting",
+   "candidate": "covered"
+  }
+ ],
+ "contradictions": [
+  "Candidate derives the term loan at about $180M; GOLD gives $200.6M at fair value and $248.3M of principal plus minimum return due",
+  "Candidate gives a cash-adjusted 2024 loss of -$99.4M (non-cash charges 32% of the loss); GOLD gives a cash loss of -$67M and -$156M excluding one-offs",
+  "Peer comparisons differ materially: candidate uses 258 peers with liabilities/assets median 0.50 and current ratio median 2.19, net income at the 30th percentile and total assets at the 53rd; GOLD uses 67 peers with medians 0.37 and 2.72, net income at the 15th and total assets at the 33rd percentile",
+  "Candidate attributes the fall in total assets to losses; GOLD attributes it to inventory halving and lower cash"
+ ],
+ "extra_points_in_candidate": [
+  "The 10-K names a Bankruptcy Code case as a possible outcome",
+  "Minimum guaranteed return of 1.4x to 1.7x of principal, implying about $250M to $300M owed on acceleration",
+  "Q3 2024 operating income of $7.3M and gross margin up to 32.2% from 25.8%",
+  "New robots launched March 11, 2025",
+  "Extra 10% China tariff from February 2025",
+  "Picea manufacturing agreement expires 2025-08-17",
+  "Opex down $126.4M excluding one-time benefits"
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 3,
+  "overall": 4
+ },
+ "summary": "CANDIDATE matches GOLD's verdict (real risk, high, about 30% vs a 4% band) and its central argument that the going-concern covenant breach is waived only to May 6, 2025, plus most of the evidence against. It is weaker on the underlying loss (no -$156M figure), on net unrestricted cash of about $94M, and on the ATM suspension and PIK fee, and it contradicts GOLD on the loan size, the cash-adjusted loss and the peer statistics.",
+ "critical_recall": 0.5,
+ "all_recall": 0.7,
+ "candidate_check_problems": 0,
+ "gold_words": 1199,
+ "candidate_words": 1056
+}

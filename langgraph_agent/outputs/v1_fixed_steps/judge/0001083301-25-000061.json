@@ -1,0 +1,86 @@
+{
+ "gold_verdict": "false alarm",
+ "gold_own_risk": "low, about 2%",
+ "candidate_verdict": "unclear",
+ "candidate_own_risk": "low, about 3%",
+ "key_points": [
+  {
+   "point": "Verdict is false alarm with own risk low at about 2%, below the 4% band base rate. GOLD partly disagrees with the model: the loss is inflated, but there is a real funding need the model cannot see.",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "The annualized loss of -$159.6M is H1 x 2 and is inflated by a one-off $38.7M Q1 stock-comp charge. Q2 alone annualizes to -$73.5M, matching FY2024. Adjusted for non-cash items, the business is roughly break-even (+$2.0M in H1 2025).",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "The real weakness is cash against capex. Cash fell 274.1 -> 218.2 -> ~90M on ~$120M of Q2 capex, leaving about 2.2-2.5 months of runway. There is no committed financing for the rest of the build, so new funding is needed.",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "No debt matures before 2030: $500M of 2.75% converts, about $13.75M of interest a year.",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "The current ratio of 0.66 is mostly non-debt: $47.7M of deferred rent is settled in space, and $30M is earnout. Excluding these, the ratio is 1.35.",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Leverage of 0.80 is near the peer median of 0.84, with equity of $174.3M.",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Operating cash flow is flattered by $90M of customer prepaid rent, which is also evidence of customer commitment.",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "$200M of ATM capacity remains available.",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "No defaults (Part II Item 3 reads 'None'), no going-concern doubt, and a clean FY2024 audit opinion.",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "The HPC build is progressing: the CB-1 earnout milestone was achieved and the company is on track for 72.5 MW for Core42. Buybacks and capex are discretionary and can be cut.",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Operating income peer percentile: CANDIDATE gives the 37th, GOLD gives the 5th.",
+  "Net income peer percentile: CANDIDATE gives the 24th, GOLD gives the 6th ($) and the 22nd (% of revenue). The gap may reflect a different normalization.",
+  "Revenue peer percentile: CANDIDATE gives the 41st, GOLD gives the 51st.",
+  "Revenue driver: CANDIDATE says 'mining plus early HPC leases', while GOLD says bitcoin mining only, with Core42 leases not yet paying."
+ ],
+ "extra_points_in_candidate": [
+  "Six-month Adjusted EBITDA fell to $9.8M from $51.5M; Q1 was -$4.7M and Q2 recovered to $14.5M.",
+  "The notes are valued at about 85% of par, so they are not priced as distressed.",
+  "The 2024 auditor change came with disclosed material weaknesses in cash-flow-statement controls.",
+  "The Chief Accounting Officer's resignation took effect in June 2025.",
+  "Capped calls (~$60M) and buybacks (~$115M) were funded from the convertible proceeds.",
+  "Peer median current ratio of 1.42.",
+  "No bitcoin reserve remains to sell.",
+  "Six-month capex totaled $213.6M."
+ ],
+ "scores": {
+  "verdict_agreement": 3,
+  "coverage": 4,
+  "consistency": 3,
+  "overall": 4
+ },
+ "summary": "CANDIDATE matches GOLD's substance: the loss is inflated by non-cash charges, cash runway against capex is the real risk, there is no debt before 2030, and ATM capacity remains. It also gives a similar low own risk (3% vs 2%), but labels the case 'unclear' rather than 'false alarm'. It does not clearly attribute the stock comp to a one-off Q1 charge, only guesses at the deferred-rent/earnout makeup of current liabilities, and has some peer-percentile and revenue-driver discrepancies with GOLD.",
+ "critical_recall": 0.5,
+ "all_recall": 0.75,
+ "candidate_check_problems": 1,
+ "gold_words": 1195,
+ "candidate_words": 1280
+}

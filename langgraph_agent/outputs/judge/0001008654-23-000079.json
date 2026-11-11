@@ -1,0 +1,85 @@
+{
+ "gold_verdict": "Real risk",
+ "gold_own_risk": "High, about 30% within 12 months (vs 4% band rate); agrees with model direction but says score understates risk",
+ "candidate_verdict": "Real risk",
+ "candidate_own_risk": "High, roughly 30%; partly agrees with model, direction right but 0.5-0.7 band (4%) understates risk",
+ "key_points": [
+  {
+   "point": "Verdict: real risk, own risk high ~30% vs 4% band; agrees with model direction but score understates the risk",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Liabilities 158% of assets and current ratio 0.43, worst among SIC-30 peers; equity about -$429.8m; all ~$710m debt reclassified as current",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Missed/past-due interest and lender defaults; company says it lacks resources to repay if debt is accelerated",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going concern doubt from auditor, 10-K 7 months late, 2023 10-Qs unfiled, NYSE notices, explicit bankruptcy warning",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Net loss of -$232.5m is mostly a non-cash deferred tax write-off; underlying continuing-ops cash earnings $68m (vs $193m in 2021), so loss overstates damage but cash earnings still fell ~65%",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Almost no liquidity: $16.3m unused credit lines vs $56.8m of 2023 cash interest (2.4x 2022 operating income); supplier pressure on payment terms",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Sales still falling in 2023: Q1 down 17-19%, Q2 guided to $260-270m (-21% to -24%)",
+   "importance": "critical",
+   "candidate": "missing"
+  },
+  {
+   "point": "Evidence against: lender restructuring waived defaults, extended ~$348m to 2027 with PIK, cut amortization; nothing large due before July 2025; deadlines extended by lenders and NYSE",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Operating cash flow -$34.0m (near worst among peers), FCF -$65.8m, cash $110.1m lasts ~20 months (or ~9 at Q1-2022 burn), Q4 2022 positive, 97% of cash abroad",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "One-off cash inflows (Indonesian property sales, Brazil deposit refund, Indonesian tax refunds, Hemingway plant sale) and covenant tests from ~March 2024 where a breach is expected",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Candidate places operating cash flow at the 29th peer percentile and net income at the 12th, while GOLD says both are near the worst (only 1 of 23 peers lower on each).",
+  "Candidate estimates cash would last about 36 months at the current burn (using $102.9M September 2022 cash), while GOLD estimates about 20 months using $110.1m year-end cash and free cash flow of -$65.8m (or ~9 months at the Q1-2022 rate).",
+  "Candidate's revenue peer percentile (86) and current assets percentile (67) do not match GOLD's peer ranks (11 of 21 and 12 of 24 peers lower, i.e. near the median)."
+ ],
+ "extra_points_in_candidate": [
+  "Restructured debt is costly: SOFR + 6.00% and 14.00% PIK.",
+  "Moelis engaged alongside the CRO.",
+  "July 2023 interest payment forecast at risk due to insufficient liquidity (8-K 2023-07-07).",
+  "Limited Revolver access of up to $21.0 million restored after the restructuring.",
+  "Weekly $15M minimum U.S. liquidity test and 13-week cash forecasts as near-term tripwires.",
+  "Material weaknesses disclosed in the 10-K.",
+  "Q1 2022 $75.0M buyback funded by the revolver; $880.0M Credit Agreement of November 2021.",
+  "Nuvo asset sale mentioned among asset sales."
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE matches GOLD on the verdict (real risk, high ~30%, model understates) and covers the core distress evidence: the underwater balance sheet, missed interest, defaults, going concern doubt and the lender restructuring. It misses the continuing ~20% sales decline in 2023, only partly covers the thin liquidity versus cash interest and the underlying cash earnings, and gives peer ranks and a cash runway that differ from GOLD's.",
+ "critical_recall": 0.62,
+ "all_recall": 0.7,
+ "candidate_check_problems": 0,
+ "gold_words": 1301,
+ "candidate_words": 1082
+}

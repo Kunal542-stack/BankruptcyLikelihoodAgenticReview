@@ -1,0 +1,83 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 45% (agrees with the model)",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "very high, about 50% (agrees with the model)",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk high about 45% vs 18% band rate, agrees with the model",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Liabilities 8.9x assets (peer median 0.59x), up from 2.2x a year earlier; current ratio 0.07; equity -$26.6M",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Cash only $109,692, about 0.2-0.3 months of runway; MD&A warns operations may be discontinued without funding",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Uncured defaults/accelerations by eight outside creditors (ASCAP, Agile, NRS, Cara, May-2023 lender, 1800 Diagonal, AFG, Balboa) totalling about $4.3M, 39x cash; NRS has started a civil action to enforce a confession of judgment",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Going concern doubt and NYSE American delisting to OTC Pink; notes converting to stock at $0.001-0.013 a share",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Large losses, increasingly cash: non-cash share of loss fell 63% -> 51% -> 36%; revenue down sharply",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Owner support: Bellino $2.0M note assigned to majority owner Cassidy, who also advanced $217K and holds $3.0M related-party debt; an insider is unlikely to push for bankruptcy",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "A court filing may never happen: with $3.4M of assets, foreclosure, sale or informal wind-down is plausible; main reason not to go higher",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Revolver (Capital Foundry) still funding; creditors mostly sending letters, company in discussions with lenders; GemCap foreclosure threat settled Nov 2024",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Burn is falling: operating cash outflow down 20% year on year; part of the score reflects tiny size",
+   "importance": "supporting",
+   "candidate": "partly"
+  }
+ ],
+ "contradictions": [
+  "Non-cash share of the 9-month loss: CANDIDATE says only 11% (cash-adjusted loss -$10.8M of -$12.2M), GOLD says 36% (cash-adjusted loss -$7.8M).",
+  "May 2023 credit line: CANDIDATE cites $889,000 owed, GOLD lists the May-2023 line lender demand as $0.30M.",
+  "Prior-year annualized operating cash flow: CANDIDATE -$7.1M vs GOLD -$6.60M.",
+  "Peer percentiles for current assets, current liabilities, total liabilities and revenue differ sharply (e.g. current assets 58 vs 17%, revenue 95 vs 22%), likely a different basis (ratio to assets) but not labelled as such."
+ ],
+ "extra_points_in_candidate": [
+  "Bellino Trust declared default on its $2.0M, 30% note before it was assigned to Cassidy; note matures 2025-10-18.",
+  "Most equipment financings were out of covenant compliance.",
+  "Insider entity Excel swapped debt for equity (Excel $1.0M note extinguished); Excel $3.0M line matures 2025-11-27.",
+  "AFG 15-day payment window ends 2025-08-21; watch for Item 1.03 or secured-party sale notices.",
+  "Operating expenses cut 53% year on year in the March 2025 quarter."
+ ],
+ "scores": {
+  "verdict_agreement": 4,
+  "coverage": 4,
+  "consistency": 4,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same real-risk verdict and agrees with the model, with a slightly higher risk level (very high, 50% vs high, 45%), and covers the core case: extreme leverage, near-zero cash, a cascade of uncured defaults, owner support and the chance of an out-of-court ending. It misses the NRS court action, the still-funding revolver and the size effect, and it contradicts GOLD on the non-cash share of the loss (11% vs 36%) and the May 2023 line amount.",
+ "critical_recall": 0.83,
+ "all_recall": 0.8,
+ "candidate_check_problems": 0,
+ "gold_words": 1270,
+ "candidate_words": 1071
+}

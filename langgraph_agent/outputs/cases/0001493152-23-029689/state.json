@@ -1,0 +1,1202 @@
+{
+ "adsh": "0001493152-23-029689",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001493152-23-029689",
+ "case": {
+  "adsh": "0001493152-23-029689",
+  "cik": 1855631,
+  "name": "AERWINS TECHNOLOGIES INC.",
+  "form": "10-Q",
+  "fp": "Q2",
+  "period_end": "20230630",
+  "filed": "20230821",
+  "sic": 3721,
+  "score": 0.536,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 6.6,
+    "year_before_musd": 117.0,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 10
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 5.5,
+    "year_before_musd": 0.1,
+    "share_of_assets_pct": 82.3,
+    "peer_percentile": 86
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 11.5,
+    "year_before_musd": 0.5,
+    "share_of_assets_pct": 173.9,
+    "peer_percentile": 94
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 18.0,
+    "year_before_musd": 4.5,
+    "share_of_assets_pct": 271.4,
+    "peer_percentile": 95
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 0.9,
+    "year_before_musd": 3.9,
+    "share_of_assets_pct": 13.8,
+    "peer_percentile": 18
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -38.4,
+    "year_before_musd": -14.5,
+    "share_of_assets_pct": -579.6,
+    "peer_percentile": 5
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -34.2,
+    "year_before_musd": -14.8,
+    "share_of_assets_pct": -515.9,
+    "peer_percentile": 6
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -16.3,
+    "year_before_musd": -18.1,
+    "share_of_assets_pct": -245.9,
+    "peer_percentile": 3
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 2.71,
+   "current_ratio": 0.47,
+   "peer_count": 132,
+   "peer_median_liabilities_to_assets": 0.63,
+   "peer_median_current_ratio": 1.74,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "cash": {
+   "cash_usd": 35359,
+   "period_months": 6,
+   "operating_cash_flow_musd": -8.2,
+   "monthly_cash_burn_musd": 1.36,
+   "months_of_cash": 0.03,
+   "net_income_musd": -19.2,
+   "non_cash_charges_musd": {
+    "stock_compensation": 3.7,
+    "depreciation_amortization": 0.2,
+    "impairment": 1.6
+   },
+   "cash_adjusted_net_income_musd": -13.8,
+   "non_cash_share_of_loss_pct": 28,
+   "note": "from this filing's XBRL, for its period to date (not annualized); months_of_cash = cash / monthly burn over that period; non-cash charges counted: stock compensation, depreciation and amortization, impairment (a negative stock compensation is a reversal that makes the loss look smaller)"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230331,
+    "total_assets": 120820316.0,
+    "current_assets": 219579.0,
+    "current_liabilities": 1616330.0,
+    "total_liabilities": 5709543.0,
+    "revenue": NaN,
+    "net_income": 2732973.0,
+    "operating_income": -2302272.0,
+    "operating_cash_flow": -1233766.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230523,
+    "total_assets": 11332535.0,
+    "current_assets": 8034650.0,
+    "current_liabilities": 11256796.0,
+    "total_liabilities": 15551239.0,
+    "revenue": 5063532.0,
+    "net_income": -31206176.0,
+    "operating_income": -32168960.0,
+    "operating_cash_flow": -16151092.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230821,
+    "total_assets": 6633480.0,
+    "current_assets": 5457032.0,
+    "current_liabilities": 11532773.0,
+    "total_liabilities": 18005527.0,
+    "revenue": 915506.0,
+    "net_income": -38445730.0,
+    "operating_income": -34219470.0,
+    "operating_cash_flow": -16314808.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001493152-23-029689",
+   "form": "10-Q",
+   "date": "2023-08-21",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001193125-23-087988",
+   "form": "10-K",
+   "date": "2023-03-31",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001493152-23-018755",
+   "form": "10-Q",
+   "date": "2023-05-23",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001493152-23-028547",
+   "form": "NT 10-Q",
+   "date": "2023-08-14",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001493152-23-027024",
+   "form": "8-K",
+   "date": "2023-08-07",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001493152-23-025052",
+   "form": "8-K",
+   "date": "2023-07-20",
+   "why": "8-K items 5.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001493152-23-021050",
+   "form": "8-K",
+   "date": "2023-06-13",
+   "why": "8-K items 3.01,9.01"
+  },
+  {
+   "adsh": "0001493152-23-019458",
+   "form": "8-K",
+   "date": "2023-05-30",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001493152-23-019179",
+   "form": "8-K",
+   "date": "2023-05-26",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001493152-23-018320",
+   "form": "8-K",
+   "date": "2023-05-19",
+   "why": "8-K items 5.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001493152-23-017612",
+   "form": "NT 10-Q",
+   "date": "2023-05-16",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001193125-23-122083",
+   "form": "8-K",
+   "date": "2023-04-27",
+   "why": "8-K items 4.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-110488",
+   "form": "8-K",
+   "date": "2023-04-21",
+   "why": "8-K items 3.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-099941",
+   "form": "8-K",
+   "date": "2023-04-13",
+   "why": "8-K items 1.01,3.02,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-085508",
+   "form": "8-K",
+   "date": "2023-03-30",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001193125-23-079093",
+   "form": "8-K",
+   "date": "2023-03-24",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001193125-23-077858",
+   "form": "8-K",
+   "date": "2023-03-23",
+   "why": "8-K items 1.01,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-058119",
+   "form": "8-K",
+   "date": "2023-03-02",
+   "why": "8-K items 1.01,2.03,5.02,9.01"
+  },
+  {
+   "adsh": "0001193125-23-030277",
+   "form": "8-K",
+   "date": "2023-02-09",
+   "why": "8-K items 1.01,7.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-030266",
+   "form": "8-K",
+   "date": "2023-02-09",
+   "why": "8-K items 1.01,2.01,3.02,3.03,5.01,5.02,5.03,5.05,5.06,7.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001193125-23-024348",
+   "form": "8-K",
+   "date": "2023-02-03",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001193125-23-013217",
+   "form": "8-K",
+   "date": "2023-01-23",
+   "why": "8-K items 1.01,3.02,9.01"
+  },
+  {
+   "adsh": "0001193125-23-011176",
+   "form": "8-K",
+   "date": "2023-01-20",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001493152-22-031183",
+   "form": "8-K",
+   "date": "2022-11-10",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001493152-22-025254",
+   "form": "8-K",
+   "date": "2022-09-07",
+   "why": "8-K items 1.01,7.01,9.01"
+  },
+  {
+   "adsh": "0001493152-22-021928",
+   "form": "8-K",
+   "date": "2022-08-10",
+   "why": "8-K items 1.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001493152-22-021927",
+   "form": "8-K",
+   "date": "2022-08-10",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001493152-22-007220",
+   "form": "8-K",
+   "date": "2022-03-18",
+   "why": "8-K items 1.01,7.01,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The going concern note states that the loss from continuing operations and accumulated deficit raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "net loss from continuing operations $18,376,366; accumulated deficit $65,695,768",
+   "quote": "These factors raise substantial doubt on the Company\u2019s ability to continue as a going concern.",
+   "section": "Note 2 - Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management says the company's cash may not be enough to support daily operations and that it depends on raising more debt or equity, which is not assured.",
+   "numbers": "",
+   "quote": "the Company\u2019s cash position may not be sufficient to support the Company\u2019s daily operations.",
+   "section": "Note 2 - Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company did not pay $1,480,000 of notes payable by their due date, is regarded as in default, and is accruing interest on them.",
+   "numbers": "notes payable $1,480,000; accrued interest $29,392",
+   "quote": "the Company is regarded as in default and recognizes interest expenses of $29,392 as accrued expenses.",
+   "section": "Notes to financial statements - notes payable"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The 200,000,000 yen loan from the former CEO was already extended from April 15, 2023 to June 30, 2023, yet 100,000,000 yen was still unpaid at June 30, so the company is in default and negotiating with the lender.",
+   "numbers": "unpaid 100,000,000 yen (approximately US$692,185); interest 2.475%; accrued expenses $8,775; maturity extended from April 15, 2023 to June 30, 2023",
+   "quote": "Accordingly, the Company is regarded in default and negotiates the terms with the lender.",
+   "section": "Notes to financial statements - short-term loan from related party"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "In a subsequent event, the Japanese subsidiary A.L.I. Technologies says it has not paid some accounts payable by their due date.",
+   "numbers": "",
+   "quote": "A.L.I. Technologies has not been able to pay some accounts payable by due date.",
+   "section": "Note 24 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "On August 10, 2023 a health insurance association seized the company's Japanese bank account because of unpaid health insurance premiums.",
+   "numbers": "28,075 USD seized",
+   "quote": "As of August 10, 2023, the health insurance association seized our bank account in Japan for delinquent health insurance premiums.",
+   "section": "Note 24 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Two directors paid company payables personally, and the company will repay them only when its finances allow.",
+   "numbers": "Kiran Sidhu $102,000; Daisuke Katano $210,424 outstanding as of June 30, 2023",
+   "quote": "The Company will pay to them at an appropriate timing in light of its financial situation.",
+   "section": "Notes to financial statements - Payable to Directors of Aerwins"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The net loss for the six months more than doubled from the prior year, and the quarter's loss from continuing operations was $10,737,846.",
+   "numbers": "six-month net loss $19,222,865 vs $7,227,936; loss from continuing operations $18,376,366 vs $6,548,417; loss from discontinued operations $846,499; Q2 net loss from continuing operations $10,737,846",
+   "quote": "Net loss of $19,222,865 for the six months ended June 30, 2023.",
+   "section": "Statement of cash flows; MD&A - Results of Operations and Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "A significant part of the loss is non-cash: stock compensation, impairment, derivative expense, interest accretion, depreciation and lease expense, partly offset by non-cash gains on warrant and derivative liabilities.",
+   "numbers": "share-based compensation $3,658,298; impairment loss $1,565,853; derivative expense $1,088,477; interest expense $435,072; non-cash lease expense $205,103; depreciation $187,054; amortization $23,541; change in fair value of warrant liabilities $(1,199,672); change in fair value of derivative liability $(595,673)",
+   "quote": "Share-based compensation of $3,658,298.",
+   "section": "Statement of cash flows; MD&A - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "Because of continuing losses and uncertain future cash flows, the company wrote all of its fixed assets in Japan down to zero, which leaves property and equipment and intangible assets at nil.",
+   "numbers": "impairment loss $1,565,853; property and equipment, net $ - vs $1,390,547; intangible assets, net $ - vs $150,576",
+   "quote": "the Company recognizes impairment loss for all fixed assets in Japan",
+   "section": "Note 11 - Impairment Loss; Property and equipment and intangible assets notes"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Working capital was helped by a large increase in accounts payable, which fits the reported unpaid payables.",
+   "numbers": "increase in accounts payable $2,871,733; decrease in other receivable $1,215,560",
+   "quote": "Increase in Accounts payable of $2,871,733.",
+   "section": "MD&A - Liquidity, operating activities"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "MD&A says financing raised so far did not cover operations and that more financing may not be available.",
+   "numbers": "",
+   "quote": "cash generated from financing activities was not sufficient to fund operations",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company says it cannot be sure that additional financing will be available when needed or on acceptable terms.",
+   "numbers": "",
+   "quote": "There can be no assurance that additional financing will be available",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised new money by selling two convertible notes with warrants in April and May 2023, and it expects a third note to close.",
+   "numbers": "two notes: aggregate principal $4,200,000 for purchase price $3,500,000, warrants for 3,921,129 shares; third note: principal $1,800,000 for $1,500,000, warrant for 1,680,484 shares",
+   "quote": "sale of a third Convertible Note in the principal amount of $1,800,000 for a purchase price of $1,500,000",
+   "section": "MD&A - Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "The third closing requires that no Event of Default has occurred under the first two notes and that the registration statement becomes effective, along with other conditions precedent.",
+   "numbers": "",
+   "quote": "So long as no Event of Default has occurred under the Convertible Note sold",
+   "section": "MD&A - Recent Financing Transactions"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The convertible notes mature in 2025 and bear no interest, but they convert at up to a 10% discount to the lowest VWAP and carry 2% monthly interest if payments are missed.",
+   "numbers": "first tranche $2,520,000 due April 12, 2025; second tranche $1,680,000 due May 23, 2025; conversion price lesser of $0.90 or 90% of lowest VWAP over 20 trading days; 2% per month on late payments",
+   "quote": "interest at the rate of 2% per month (prorated for partial months) until paid in full.",
+   "section": "Notes to financial statements - convertible notes; MD&A - Recent Financing Transactions"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "A Standby Equity Purchase Agreement (SEPA) with YA is described as a source of equity funding, and it carries a structuring fee and a commitment fee paid in shares.",
+   "numbers": "structuring fee $15,000; commitment fee shares worth one million dollars",
+   "quote": "the Company agreed to issue to YA shares with aggregate value equal to one million dollars, as a commitment fee.",
+   "section": "MD&A - Liquidity, Standby Equity Purchase Agreement"
+  },
+  {
+   "filing": "10-Q filed 2023-08-21",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "Part II Item 3 (Defaults Upon Senior Securities) says not applicable, even though the notes describe defaults on notes payable and the related-party loan.",
+   "numbers": "",
+   "quote": "Not applicable.",
+   "section": "Part II, Item 3"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "going_concern",
+   "direction": "against",
+   "finding": "The pre-merger SPAC (Pono) had substantial doubt from its liquidity and business combination deadline, and the filing says the February 3, 2023 merger closing removed those conditions.",
+   "numbers": "Combination Period ended February 13, 2023; Business Combination closed February 3, 2023",
+   "quote": "The closing of the Business Combination on February 3, 2023 alleviated the above mentioned conditions.",
+   "section": "Note 1 - Going Concern Consideration; MD&A - Going Concern, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "At year-end 2022 the SPAC held little cash and had swung to a working capital deficit.",
+   "numbers": "cash $193,829 (2022) vs $337,595 (2021); working capital deficit $1,396,751 vs surplus $262,964",
+   "quote": "the Company had $193,829 and $337,595 in cash, respectively, and a working capital deficit of $1,396,751",
+   "section": "Note 1 - Going Concern Consideration"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "The SPAC's 2022 net income came from a non-cash gain on warrant fair value and from trust dividends, while operating cash flow was negative.",
+   "numbers": "net income $2,732,973; gain on fair value of warrant liability $3,612,764; trust dividend income $1,702,524; net cash used in operating activities $1,233,766",
+   "quote": "For the year ended December 31, 2022, net cash used in operating activities was $1,233,766",
+   "section": "MD&A - Going Concern, Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "The reporting entity was a SPAC with no operations or revenue as of December 31, 2022, so these financials do not show the AERWINS operating business.",
+   "numbers": "",
+   "quote": "The Company neither engaged in any operations nor generated any revenues as of December 31, 2022.",
+   "section": "MD&A - Results of Operations"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "Trust Account investments at year-end 2022 are reported, but the passages do not say how much was left after redemptions at the merger.",
+   "numbers": "Trust Account $120,600,737 (2022) vs $116,728,213 (2021)",
+   "quote": "At December 31, 2022 and December 31, 2021, the investments held in the Trust Account totaled $120,600,737 and $116,728,213, respectively.",
+   "section": "Note 2 - Marketable Securities Held in Trust Account"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "After the merger, subsidiary A.L.I. borrowed 200,000,000 yen from the former CEO, due within about seven weeks.",
+   "numbers": "200,000,000 yen (approximately $1,469,400); interest 2.475% per annum; entered February 27, 2023; maturity April 15, 2023",
+   "quote": "The maturity date of the Loan under the Agreement is April 15, 2023 (the \u201cMaturity Date\u201d).",
+   "section": "Recent Developments - Loan Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "The loan becomes immediately due if A.L.I. suspends payments, faces seizure orders or pays late, and late repayment raises the rate to 14.6%.",
+   "numbers": "default interest rate 14.6% per annum",
+   "quote": "if A.L.I. does not timely repay the Loan in accordance with the terms of the Agreement, the interest rate on the Loan will increase to 14.6% per annum until the full payment is made.",
+   "section": "Recent Developments - Loan Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "A Standby Equity Purchase Agreement (SEPA) with YA lets the company sell up to $100 million of common stock over 36 months, but only after a registration statement is effective, at a 3-4% discount, and subject to a 19.99% cap without shareholder approval.",
+   "numbers": "up to one hundred million dollars; 36 months; 96% or 97% of Market Price; 4.99% ownership limit; 19.99% cap; structuring fee $15,000; commitment fee shares worth one million dollars",
+   "quote": "The Company is required to have a Registration Statement declared effective by the SEC before it can raise any funds using the SEPA.",
+   "section": "Recent Developments - Standby Equity Purchase Agreement"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "Sponsor Working Capital Loans were outstanding at year-end, with another draw in January 2023.",
+   "numbers": "$960,000 outstanding at December 31, 2022; additional $170,000 drawn January 27, 2023",
+   "quote": "As of December 31, 2022, there was $960,000 outstanding under the Sponsor Working Capital Loan.",
+   "section": "MD&A - Contractual Obligations, Sponsor Working Capital Loans"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "The CEO and Chairman resigned about six weeks after the merger; Taiji Ito became CEO and Daisuke Katano became director and COO, and the filing says the resignation was not due to a disagreement.",
+   "numbers": "",
+   "quote": "On March 20, 2023, Shuhei Komatsu resigned from his positions as Chief Executive Officer and Director and Chairman of the Board of the Company.",
+   "section": "Recent Developments - Officer and Director Changes"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "other",
+   "direction": "neutral",
+   "finding": "The auditor's opinion in the passages is unqualified for the SPAC financial statements; no going concern emphasis paragraph appears in the excerpt, but the Basis for Opinion text is cut off.",
+   "numbers": "",
+   "quote": "In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2022 and 2021",
+   "section": "Report of Independent Registered Public Accounting Firm"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "A risk factor warns that the business plan needs significant capital and that without funding the company may have to curtail or discontinue operations.",
+   "numbers": "",
+   "quote": "If we are unable to raise sufficient funds, we will have to significantly reduce our spending, delay or cancel our planned activities",
+   "section": "Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "A risk factor says the company may not generate enough cash flow to service its subsidiaries' significant debt.",
+   "numbers": "",
+   "quote": "We may be unable to generate sufficient cash flow to satisfy the significant debt service obligations of our subsidiaries",
+   "section": "Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "delisting",
+   "direction": "neutral",
+   "finding": "A standard risk factor says Nasdaq could delist the company's securities; no actual delisting notice appears in the passages.",
+   "numbers": "",
+   "quote": "Nasdaq may delist the Company\u2019s securities from trading on its exchange",
+   "section": "Risk Factors - Risks Related to Ownership of Our Securities"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "other",
+   "direction": "against",
+   "finding": "The company says it is not party to any material legal proceedings.",
+   "numbers": "",
+   "quote": "We are not a party to any material ongoing legal or administrative proceedings.",
+   "section": "Business - Legal Proceedings"
+  },
+  {
+   "filing": "10-K filed 2023-03-31",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "A.L.I. signed a joint venture agreement with Vault Investments to develop its business in the UAE and GCC region, and no funding amounts are stated.",
+   "numbers": "",
+   "quote": "ALI and VAULT agreed to establish a new joint venture company in Dubai, U.A.E. (the \u201cJV Entity\u201d)",
+   "section": "Recent Developments - JV Agreement"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "The going concern note states that operating losses and the accumulated deficit raise substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "operating losses $8,042,240; accumulated deficit $54,274,448",
+   "quote": "These factors raise substantial doubt on the Company\u2019s ability to continue as a going concern.",
+   "section": "Note 2 - Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management says the company's cash may not be enough to support daily operations and that it depends on raising more debt or equity, which is not assured.",
+   "numbers": "",
+   "quote": "the Company\u2019s cash position may not be sufficient to support the Company\u2019s daily operations.",
+   "section": "Note 2 - Going Concern"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The quarterly net loss more than doubled from the prior-year quarter.",
+   "numbers": "net loss $7,801,544 vs $3,392,003",
+   "quote": "Net loss of $7,801,544 for the three months ended March 31, 2023.",
+   "section": "Statement of cash flows; MD&A - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "About 43% of the quarter's loss was non-cash stock compensation tied to the merger, with smaller non-cash charges for depreciation, amortization and leases.",
+   "numbers": "share-based compensation $3,338,298; depreciation $98,541; amortization $12,930; non-cash lease expense $111,654; change in fair value of warrant liabilities $(86,251)",
+   "quote": "Share-based compensation of $3,338,298.",
+   "section": "Statement of cash flows; MD&A - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The related-party short-term loan's maturity was pushed out only about 2.5 months, from April 15, 2023 to June 30, 2023.",
+   "numbers": "interest 2.475% per annum; original maturity April 15, 2023; extended to June 30, 2023",
+   "quote": "and has been extended to June 30, 2023.",
+   "section": "Notes to financial statements - short-term loans payable"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The company repaid part of the short-term loan by May 22, 2023.",
+   "numbers": "100,000,000 yen (approximately $753,266) paid as of May 22, 2023",
+   "quote": "Company has paid 100,000,000 yen (approximately $753,266) as of May 22, 2023.",
+   "section": "Notes to financial statements - short-term loans payable"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "After quarter-end the company signed a securities purchase agreement (SPA) with Lind Global for up to three convertible notes plus warrants, to be issued in three closings.",
+   "numbers": "up to $5,000,000 total investment; up to 5,601,613 warrants; SPA dated April 12, 2023",
+   "quote": "for a total investment in the Company of up to $5,000,000",
+   "section": "Note 20 - Subsequent Events"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Operating cash flow was hurt by a large inventory build and supported by a rise in other payables.",
+   "numbers": "increase in inventory $1,022,122; increase in other payable $1,092,114; accounts payable increase $74,318; prior-year Q1 net cash used in operating activities $3,789,071",
+   "quote": "An increase in Inventory of $1,022,122.",
+   "section": "Statement of cash flows; MD&A - Liquidity"
+  },
+  {
+   "filing": "10-Q filed 2023-05-23",
+   "topic": "default",
+   "direction": "neutral",
+   "finding": "Part II Item 3 (Defaults Upon Senior Securities) is reported as not applicable.",
+   "numbers": "",
+   "quote": "Not applicable.",
+   "section": "Part II, Item 3"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The company filed an NT 10-Q saying it could not file the Q2 2023 10-Q (quarter ended June 30, 2023) by the August 14, 2023 due date because it was delayed in obtaining and compiling the required information.",
+   "numbers": "due date August 14, 2023; expected within 5 calendar days",
+   "quote": "This delay principally relates to the fact that the Company was delayed in obtaining and compiling information required to be included in its Form 10-Q",
+   "section": "NT 10-Q filed 2023-08-14, Part III Narrative"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The company was also late with its Q1 2023 10-Q (quarter ended March 31, 2023), missing the May 15, 2023 due date, so two quarters in a row were filed late; both notices said no significant change in results was expected and all other periodic reports had been filed.",
+   "numbers": "due date May 15, 2023",
+   "quote": "it requires additional time to complete its financial statements",
+   "section": "NT 10-Q filed 2023-05-16, Part III Narrative"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Nasdaq notified the company on June 8, 2023 that it did not meet the $50,000,000 minimum Market Value of Listed Securities requirement, with until December 5, 2023 to regain compliance or face delisting, with a transfer to the Nasdaq Capital Market as an alternative.",
+   "numbers": "MVLS minimum $50,000,000; deadline December 5, 2023; 10 consecutive business days; transfer fee $5,000",
+   "quote": "the Company no longer meets the minimum MVLS price requirement",
+   "section": "8-K filed 2023-06-13, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Nasdaq notified the company on April 20, 2023 that its stock had closed below the $1.00 minimum bid price for 30 consecutive business days, with until October 17, 2023 to regain compliance; the company said there was no assurance it would regain compliance.",
+   "numbers": "$1.00 minimum bid; 30 consecutive business days; deadline October 17, 2023; possible additional 180 days",
+   "quote": "indicating that the Company is not in compliance with the $1.00 minimum bid price requirement set forth in Nasdaq Listing Rule 5550(a)(2) for continued listing on the Nasdaq Capital Market.",
+   "section": "8-K filed 2023-04-21, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised new money from Lind Global Fund II through secured convertible notes with warrants: $2,100,000 in April 2023 and $1,400,000 in May 2023, with proceeds used for general working capital.",
+   "numbers": "up to $6,000,000 aggregate principal; Tranche 1 purchase price $2,100,000 / principal $2,520,000 (April 12, 2023); Tranche 2 purchase price $1,400,000 / principal $1,680,000 (May 23, 2023); 2.5% commitment fee",
+   "quote": "a Note with a purchase price of $1,400,000 and a principal amount of $1,680,000, and the issuance to the Investor of 1,568,542 Warrants",
+   "section": "8-K filed 2023-05-30, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The third Lind tranche depends on no Event of Default under the first two notes and on the resale registration statement becoming effective, so the remaining funding is not assured.",
+   "numbers": "Tranche 3 purchase price $1,500,000 / principal $1,800,000; 1,680,484 warrants",
+   "quote": "So long as no Event of Default has occurred under the Notes issued at the First Closing and the Second Closing",
+   "section": "8-K filed 2023-05-30, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The Lind notes convert at the lower of $0.90 or 90% of the lowest VWAP over the 20 prior trading days, which means heavy dilution if the share price falls. The notes come with an original issue discount and mature in 2025.",
+   "numbers": "fixed price US$0.90; 90% of lowest VWAP over 20 trading days; maturities April 12, 2025 and May 23, 2025; warrant exercise price $0.8926",
+   "quote": "The Note has a conversion price equal to the lesser of: (i) US$0.90 (\u201cFixed Price\u201d); or (ii) 90% of the lowest single VWAP during the 20 Trading Days prior to conversion of the Note",
+   "section": "8-K filed 2023-04-13 and 8-K filed 2023-05-30, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The Lind notes are senior to all other debt and equity and carry 2% per month interest if payments are late.",
+   "numbers": "default interest 2% per month",
+   "quote": "all obligations of the Company pursuant to the SPA and the Note will be senior to all other existing indebtedness and equity of the Company",
+   "section": "8-K filed 2023-04-13, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Lind events of default include the company's market capitalization being below $20,000,000 for 10 consecutive days, a material adverse effect, and a default on other debt over $100,000. These triggers are tight given the Nasdaq market value deficiency.",
+   "numbers": "market cap below $20,000,000 for 10 consecutive days; cross-default over $100,000; 3 business day cure periods",
+   "quote": "(r) the Company\u2019s market capitalization is below $20,000,000 for 10 consecutive days",
+   "section": "8-K filed 2023-05-30, Item 1.01 (Events of Default)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Losing the stock's listing or public trading is also an event of default under the Lind notes, so the Nasdaq deficiencies could lead to a default on the notes.",
+   "numbers": "",
+   "quote": "(n) the Company\u2019s common stock is no longer publicly traded or cease to be listed on the trading market",
+   "section": "8-K filed 2023-05-30, Item 1.01 (Events of Default)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Lind SPA restricts other funding: the company agreed not to issue equity or debt or incur debt (except exempted securities) for a period, to avoid variable-price deals, and to use 20% of any raise above $5,000,000 to repay the notes.",
+   "numbers": "20% of proceeds of raises over $5,000,000; restriction until 60 days after investor shares are resellable or registered",
+   "quote": "the Company agrees not to issue any equity or debt securities, or otherwise incur any indebtedness for the period beginning on the date hereof",
+   "section": "8-K filed 2023-04-13, Item 1.01; 8-K filed 2023-05-30, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "On July 18, 2023 the board formed a special Funding Committee to consider funding alternatives and recommend them to the board, a sign the company is looking for capital.",
+   "numbers": "",
+   "quote": "The purpose of the committee is to consider funding alternatives and make recommendations on such alternatives to the Board.",
+   "section": "8-K filed 2023-07-20, Item 5.02 (Formation of Special Committee)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "In February 2023 the subsidiary A.L.I. took a short-term loan of about $1.47 million from then-CEO Shuhei Komatsu, due April 15, 2023, with a penalty rate of 14.6% if not repaid on time. These passages do not say whether it was repaid.",
+   "numbers": "200,000,000 yen (approximately $1,469,400); interest 2.475% per annum; maturity April 15, 2023; default rate 14.6%",
+   "quote": "Mr. Komatsu agreed to lend A.L.I. 200,000,000 yen (approximately $1,469,400 US Dollars",
+   "section": "8-K filed 2023-03-02, Item 1.01 / 2.03"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "At the business combination closing, investors bought shares for $5,000,000 in cash.",
+   "numbers": "$5,000,000; 5,000,000 Company shares",
+   "quote": "in exchange for an aggregate sum of $5,000,000.00 (the \u201cPurchase Price\u201d)",
+   "section": "8-K filed 2023-02-03, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company has a Standby Equity Purchase Agreement with YA II PN for up to $100 million of share sales over 36 months, but it can only be used after a registration statement becomes effective and is capped at 19.99% of shares without shareholder approval.",
+   "numbers": "up to $100 million over 36 months; 96% or 97% of market price; 19.99% cap; $1 million commitment fee in shares",
+   "quote": "The Company is required to have a Registration Statement declared effective by the SEC before it can raise any funds using the SEPA.",
+   "section": "8-K filed 2023-01-23, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "An MOU with Outsourcing Inc. for up to 300,000,000 yen (about $2.3 million) of investment in a planned joint venture depended on conditions being met by April 30, 2023. These passages do not show that the conditions were met.",
+   "numbers": "300,000,000 yen (approximately $2.3 million); deadline April 30, 2023",
+   "quote": "If the Definitive Agreement is not executed by the end of the Term, OSI will not be obligated to make the Investment in the JVC.",
+   "section": "8-K filed 2023-03-23, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The auditor Marcum LLP was dismissed in April 2023 and replaced by TAAD LLP, with no engagement letter yet signed, shortly before the late Q1 filing. The company reported no disagreements.",
+   "numbers": "dismissal approved April 21 and April 25, 2023",
+   "quote": "On April 21, 2023, the Audit Committee of AERWINS Technologies Inc. (the \u201cCompany\u201d) approved the dismissal of Marcum LLP (\u201cMarcum\u201d) as the Company\u2019s independent registered public accounting firm.",
+   "section": "8-K filed 2023-04-27, Item 4.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "going_concern",
+   "direction": "neutral",
+   "finding": "Marcum's audit report on the financial statements for the period ended December 31, 2022 (period from February 12, 2021 inception) was not modified for uncertainties, so no substantial-doubt language is reported in this passage.",
+   "numbers": "",
+   "quote": "did not contain an adverse opinion or a disclaimer of opinion, and was not qualified or modified as to uncertainties, audit scope, or accounting principles",
+   "section": "8-K filed 2023-04-27, Item 4.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "CEO and Chairman Shuhei Komatsu resigned on March 20, 2023, about six weeks after the merger closed, and Taiji Ito was appointed CEO.",
+   "numbers": "",
+   "quote": "On March 20, 2023, Shuhei Komatsu resigned from his positions as Chief Executive Officer and Director and Chairman of the Board of AERWINS Technologies Inc.",
+   "section": "8-K filed 2023-03-24, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The Chief Product Officer was removed on March 27, 2023, less than two months after his appointment.",
+   "numbers": "",
+   "quote": "approved the removal of Kazuo Miura as the Company\u2019s Chief Product Officer",
+   "section": "8-K filed 2023-03-30, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The board turned over heavily in May 2023: Kiran Sidhu became Chairman, directors Sayama, Yamada and Iwamura resigned, and new independent directors Field and Gill joined. The company said none of the resignations involved disagreements.",
+   "numbers": "",
+   "quote": "Mike Sayama and Marehiko Yamada resigned as members of the Board, effective May 18, 2023 and May 15, 2023, respectively.",
+   "section": "8-K filed 2023-05-19 and 8-K filed 2023-05-26, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "On July 18, 2023 Kiran Sidhu was made Executive Chairman and President, and the board committees were rebuilt with the new directors.",
+   "numbers": "board expanded to seven persons",
+   "quote": "appointed Mr. Kiran Sidhu as Executive Chairman and President of the Company",
+   "section": "8-K filed 2023-07-20, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "COO Daisuke Katano left the board on July 17, 2023 and then resigned as COO on July 25, 2023, continuing the senior management turnover. The company said there was no disagreement.",
+   "numbers": "",
+   "quote": "On July 25, 2023, Mr. Daisuke Katano, Chief Operating Officer of Aerwins Technology, Inc. (the \u201cCompany\u201d) resigned from his role as the Company\u2019s Chief Operating Officer.",
+   "section": "8-K filed 2023-08-07, Item 5.02"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "At closing, executives received options at an exercise price of $0.00015 per share, which create non-cash stock compensation expense.",
+   "numbers": "Komatsu 1,525,196; Ito 703,937; Miura 739,916; Okabe 469,291 options at $0.00015; base salaries $200,000 each",
+   "quote": "Shuhei Komatsu - 1,525,196 options at an exercise price of $0.00015 per share of common stock",
+   "section": "8-K filed 2023-02-09, Item 1.01 (Option Award Agreements)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "A.L.I. signed a joint venture agreement with Vault Investments to develop its business in the U.A.E. and GCC region. A.L.I. would own 49% and receive 5% of JV sales as a software license fee; no funding amount is stated.",
+   "numbers": "ALI 49% / VAULT 51%; 5% license fee",
+   "quote": "the JV Entity will be structured to be owned 49% by ALI and 51% by VAULT",
+   "section": "8-K filed 2023-02-09, Item 1.01 (Joint Venture Agreement)"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score of 0.536 comes from an annualized net loss of $38.4M against only $6.6M of assets (5th peer percentile), liabilities of 2.71 times assets and a current ratio of 0.47, after the post-merger SPAC trust money did not come through as assets. The filings show the distress is real and probably worse than the band suggests: cash was $35,359 against a monthly burn of about $1.36M, the company was already in default on $1,480,000 of notes payable and on a related-party yen loan, and a health insurance association seized its Japanese bank account on August 10, 2023. Only part of the loss is non-cash (28%), so the score is not an artefact.",
+  "verdict": "real risk",
+  "own_risk": "very high",
+  "own_risk_pct": 30,
+  "agree_with_model": "yes",
+  "moved_by": [
+   "cash of $35,359 is about 0.03 months of burn at $1.36M per month, and that ignores debt due",
+   "default on $1,480,000 of notes payable not paid by their due date",
+   "default on the related-party loan: 100,000,000 yen (about $692,185) unpaid after the maturity had already been extended to June 30, 2023",
+   "Japanese bank account seized on August 10, 2023 for unpaid health insurance premiums, and A.L.I. Technologies has not paid some accounts payable by their due date",
+   "directors paid company payables personally ($102,000 and $210,424 outstanding)",
+   "Lind notes have a cross-default on other debt over $100,000 and a default if market cap is below $20,000,000 for 10 days, and the third $1,500,000 tranche needs no Event of Default",
+   "two Nasdaq deficiency notices (minimum bid and MVLS), where delisting is itself a Lind event of default",
+   "two late 10-Q filings in a row, an auditor change, heavy turnover of management and the board, and a special Funding Committee formed July 18, 2023"
+  ],
+  "reasons": [
+   {
+    "reason": "The net loss is huge compared with the asset base, and net income is the input the model weighs most.",
+    "kind": "model input",
+    "numbers": "net income -$38.4M annualized (-$14.5M a year before), -579.6% of assets; operating income -$34.2M",
+    "peer_comparison": "net income 5th percentile, operating income 6th percentile of 132 peers",
+    "quote": "Net loss of $19,222,865 for the six months ended June 30, 2023.",
+    "source": "10-Q, 2023-08-21, Statement of cash flows; MD&A"
+   },
+   {
+    "reason": "Liabilities are far larger than assets, and current liabilities are about twice current assets, so equity is deeply negative.",
+    "kind": "model input",
+    "numbers": "total liabilities $18.0M vs total assets $6.6M (2.71x); current liabilities $11.5M vs current assets $5.5M (current ratio 0.47)",
+    "peer_comparison": "peer median liabilities to assets 0.63 and current ratio 1.74; total liabilities 95th percentile, current liabilities 94th percentile",
+    "quote": "",
+    "source": "model inputs from the 10-Q filed 2023-08-21"
+   },
+   {
+    "reason": "Operating cash burn is large and cash is close to zero, so the company cannot run without new money right away.",
+    "kind": "model input",
+    "numbers": "operating cash flow -$16.3M annualized (-$8.2M for six months); cash $35,359; monthly burn $1.36M; months of cash 0.03",
+    "peer_comparison": "operating cash flow 3rd percentile of peers",
+    "quote": "the Company\u2019s cash position may not be sufficient to support the Company\u2019s daily operations.",
+    "source": "10-Q, 2023-08-21, Note 2 - Going Concern"
+   },
+   {
+    "reason": "Revenue is tiny and falling, so the business cannot fund itself.",
+    "kind": "model input",
+    "numbers": "revenue $0.9M annualized vs $3.9M a year before",
+    "peer_comparison": "18th percentile of peers",
+    "quote": "",
+    "source": "model inputs from the 10-Q filed 2023-08-21"
+   },
+   {
+    "reason": "The company is already in payment default on notes payable and on the related-party loan.",
+    "kind": "from the filings",
+    "numbers": "notes payable $1,480,000 with accrued interest $29,392; 100,000,000 yen (about $692,185) unpaid on the loan from the former CEO; contractual default rate 14.6%",
+    "peer_comparison": "",
+    "quote": "the Company is regarded as in default and recognizes interest expenses of $29,392 as accrued expenses.",
+    "source": "10-Q, 2023-08-21, Notes to financial statements - notes payable"
+   },
+   {
+    "reason": "Creditors have started enforcement: a bank account was seized and trade payables are going unpaid.",
+    "kind": "from the filings",
+    "numbers": "28,075 USD seized on August 10, 2023",
+    "peer_comparison": "",
+    "quote": "As of August 10, 2023, the health insurance association seized our bank account in Japan for delinquent health insurance premiums.",
+    "source": "10-Q, 2023-08-21, Note 24 - Subsequent Events"
+   },
+   {
+    "reason": "Directors are paying the company's bills personally, which shows how little cash is left.",
+    "kind": "from the filings",
+    "numbers": "Kiran Sidhu $102,000; Daisuke Katano $210,424",
+    "peer_comparison": "",
+    "quote": "The Company will pay to them at an appropriate timing in light of its financial situation.",
+    "source": "10-Q, 2023-08-21, Payable to Directors of Aerwins"
+   },
+   {
+    "reason": "The Lind notes are senior and carry tight default triggers, so the existing defaults and the Nasdaq problems could make them due early and block the third tranche.",
+    "kind": "from the filings",
+    "numbers": "cross-default over $100,000; market cap below $20,000,000 for 10 consecutive days; third tranche $1,500,000 purchase price",
+    "peer_comparison": "",
+    "quote": "(r) the Company\u2019s market capitalization is below $20,000,000 for 10 consecutive days",
+    "source": "8-K, 2023-05-30, Item 1.01 (Events of Default)"
+   },
+   {
+    "reason": "Going concern doubt and management's own statement that financing has not covered operations.",
+    "kind": "from the filings",
+    "numbers": "accumulated deficit $65,695,768; loss from continuing operations $18,376,366",
+    "peer_comparison": "",
+    "quote": "cash generated from financing activities was not sufficient to fund operations",
+    "source": "10-Q, 2023-08-21, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "reason": "Nasdaq deficiency notices put the listing at risk, and losing the listing is an event of default under the Lind notes.",
+    "kind": "from the filings",
+    "numbers": "$1.00 minimum bid, deadline October 17, 2023; MVLS minimum $50,000,000, deadline December 5, 2023",
+    "peer_comparison": "",
+    "quote": "(n) the Company\u2019s common stock is no longer publicly traded or cease to be listed on the trading market",
+    "source": "8-K, 2023-05-30, Item 1.01 (Events of Default)"
+   },
+   {
+    "reason": "Governance strain: two late 10-Qs, an auditor dismissal, and fast turnover of the CEO, COO, CPO and board.",
+    "kind": "from the filings",
+    "numbers": "Q2 10-Q due August 14, 2023, filed August 21, 2023; Q1 10-Q due May 15, 2023",
+    "peer_comparison": "",
+    "quote": "This delay principally relates to the fact that the Company was delayed in obtaining and compiling information required to be included in its Form 10-Q",
+    "source": "NT 10-Q, 2023-08-14, Part III Narrative"
+   },
+   {
+    "reason": "All fixed assets in Japan were written down to zero, which shows management expects little future cash from the operating business.",
+    "kind": "from the filings",
+    "numbers": "impairment loss $1,565,853; property and equipment net nil vs $1,390,547",
+    "peer_comparison": "",
+    "quote": "the Company recognizes impairment loss for all fixed assets in Japan",
+    "source": "10-Q, 2023-08-21, Note 11 - Impairment Loss"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "About 28% of the six-month loss is non-cash (stock compensation $3.7M, impairment $1.6M, depreciation and amortization $0.2M), so the cash-adjusted loss is -$13.8M rather than -$19.2M.",
+    "quote": "Share-based compensation of $3,658,298.",
+    "source": "10-Q, 2023-08-21, Statement of cash flows"
+   },
+   {
+    "point": "The company raised $3,500,000 from Lind in April and May 2023 and expects a third $1,500,000 tranche.",
+    "quote": "sale of a third Convertible Note in the principal amount of $1,800,000 for a purchase price of $1,500,000",
+    "source": "10-Q, 2023-08-21, MD&A - Liquidity and Capital Resources"
+   },
+   {
+    "point": "A $100 million SEPA with YA could provide equity funding once a registration statement is effective.",
+    "quote": "The Company is required to have a Registration Statement declared effective by the SEC before it can raise any funds using the SEPA.",
+    "source": "8-K, 2023-01-23, Item 1.01"
+   },
+   {
+    "point": "The Lind notes do not mature until April and May 2025 and bear no regular interest, so there is no large scheduled maturity in the next year unless a default speeds them up.",
+    "quote": "",
+    "source": "10-Q, 2023-08-21, Notes to financial statements - convertible notes"
+   },
+   {
+    "point": "Half of the related-party loan was repaid by May 22, 2023, and the lender is negotiating rather than suing.",
+    "quote": "Accordingly, the Company is regarded in default and negotiates the terms with the lender.",
+    "source": "10-Q, 2023-08-21, short-term loan from related party"
+   },
+   {
+    "point": "Total debt is small in dollar terms ($18.0M of liabilities), so a modest raise or a sale could fix the balance sheet, and the company reported no material legal proceedings.",
+    "quote": "We are not a party to any material ongoing legal or administrative proceedings.",
+    "source": "10-K, 2023-03-31, Business - Legal Proceedings"
+   },
+   {
+    "point": "Going concern doubt alone is common in this band, and the defaults so far are against small or related-party creditors.",
+    "quote": "",
+    "source": ""
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2023-01-23",
+    "event": "8-K on the $100 million SEPA with YA II PN"
+   },
+   {
+    "date": "2023-02-03",
+    "event": "Business combination with Pono SPAC closed; $5,000,000 PIPE purchase"
+   },
+   {
+    "date": "2023-02-27",
+    "event": "A.L.I. borrowed 200,000,000 yen from CEO Shuhei Komatsu, due April 15, 2023"
+   },
+   {
+    "date": "2023-03-20",
+    "event": "CEO and Chairman Shuhei Komatsu resigned; Taiji Ito became CEO"
+   },
+   {
+    "date": "2023-03-27",
+    "event": "Chief Product Officer Kazuo Miura removed"
+   },
+   {
+    "date": "2023-04-12",
+    "event": "Lind SPA signed; first convertible note ($2,100,000 purchase price, $2,520,000 principal)"
+   },
+   {
+    "date": "2023-04-15",
+    "event": "Original maturity of the related-party loan, extended to June 30, 2023"
+   },
+   {
+    "date": "2023-04-20",
+    "event": "Nasdaq minimum bid price deficiency notice"
+   },
+   {
+    "date": "2023-04-21",
+    "event": "Audit Committee approved dismissal of Marcum LLP"
+   },
+   {
+    "date": "2023-05-16",
+    "event": "NT 10-Q for Q1 2023"
+   },
+   {
+    "date": "2023-05-22",
+    "event": "100,000,000 yen of the related-party loan repaid"
+   },
+   {
+    "date": "2023-05-23",
+    "event": "Second Lind note ($1,400,000 purchase price, $1,680,000 principal); Q1 10-Q filed"
+   },
+   {
+    "date": "2023-06-08",
+    "event": "Nasdaq MVLS deficiency notice"
+   },
+   {
+    "date": "2023-06-30",
+    "event": "Extended maturity of the related-party loan; 100,000,000 yen still unpaid, loan in default"
+   },
+   {
+    "date": "2023-07-18",
+    "event": "Funding Committee formed; Kiran Sidhu named Executive Chairman and President"
+   },
+   {
+    "date": "2023-07-25",
+    "event": "COO Daisuke Katano resigned"
+   },
+   {
+    "date": "2023-08-10",
+    "event": "Health insurance association seized the Japanese bank account"
+   },
+   {
+    "date": "2023-08-14",
+    "event": "NT 10-Q for Q2 2023"
+   },
+   {
+    "date": "2023-08-21",
+    "event": "Q2 10-Q filed with going concern doubt and disclosed defaults"
+   }
+  ],
+  "dates_to_watch": [
+   "2023-10-17: deadline to regain the Nasdaq $1.00 minimum bid price",
+   "2023-12-05: deadline to regain the Nasdaq MVLS requirement",
+   "Whether the third Lind tranche ($1,500,000) closes or Lind declares an Event of Default",
+   "Whether the resale registration statement becomes effective so the SEPA can be used",
+   "Outcome of negotiations on the defaulted related-party loan and the $1,480,000 notes payable",
+   "Any further seizures or creditor actions against A.L.I. Technologies in Japan",
+   "Recommendations of the Funding Committee",
+   "Q3 2023 10-Q due mid-November 2023 and whether it is filed on time"
+  ],
+  "would_change_my_mind": [
+   "A sizable equity raise or SEPA draws that pay off the defaulted notes and the related-party loan",
+   "Lind waiving the cross-default and funding the third tranche",
+   "A sale of the business or a strategic investor taking a stake",
+   "Signs instead that Lind accelerates the notes, more accounts are seized, or the Japanese subsidiary starts an insolvency proceeding, which would raise my risk"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Cash in the weeks after June 30, 2023 and how much of the Lind and PIPE money is left",
+   "Q2 2023 operating cash burn alone, separate from the six-month figure",
+   "Whether Lind has declared or waived an Event of Default given the other defaults",
+   "How much was left in the SPAC trust after redemptions at the merger",
+   "Whether a Japanese insolvency proceeding for A.L.I. Technologies would count as a court-supervised restructuring for the parent",
+   "Whether the Outsourcing Inc. MOU investment of 300,000,000 yen ever happened",
+   "Current market capitalization against the $20,000,000 Lind trigger"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

@@ -1,0 +1,83 @@
+{
+ "gold_verdict": "real risk",
+ "gold_own_risk": "high, about 12% (vs 4% base rate for the 0.5-0.7 band); agrees with the flag but thinks the model ranks the report too low",
+ "candidate_verdict": "real risk",
+ "candidate_own_risk": "high, about 20%; agrees with the model partly, says the model may understate the risk because it does not see the defaults",
+ "key_points": [
+  {
+   "point": "Verdict real risk, own risk high (~12%), agrees with the flag but the model understates the risk",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Score driven by annualized loss of $31.0M on $2.9M of assets (10.7x assets, 5th percentile of peers), liabilities 8.16x assets, current ratio 0.017 vs peer median 0.35",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Essentially no cash: $6,759, covering about 0.02 months of the 9-month burn; Note 3 says cash may not support daily operations",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Debt already in default: $2,265,447 of senior secured July 2022 notes plus about $828k of promissory notes including the PPP loan; about $7.8M of note principal against $6,759 cash",
+   "importance": "critical",
+   "candidate": "partly"
+  },
+  {
+   "point": "Hidden burn: payables and accruals rose $5.9M in nine months, so operating cash burn looks small only because bills go unpaid",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "Going concern doubt (auditor FY2022 and 10-Q), Nasdaq delisting, late-filing notices, auditor replaced, CFO changes",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Evidence against: lenders extend and convert rather than enforce ($2.485M debentures extended to 2024-02-28, payments deferred, former CEO claim settled for $75k plus shares), and small funding still arrives ($100k note, $75k equity line, $20,500 PIPE)",
+   "importance": "critical",
+   "candidate": "covered"
+  },
+  {
+   "point": "56% of the 9M 2023 loss is non-cash; cash-basis loss $10.2M, down 40% year on year",
+   "importance": "supporting",
+   "candidate": "partly"
+  },
+  {
+   "point": "Inference that a company this small is more likely to dilute or go dark than file Chapter 11; no restructuring advisors or forbearance mentioned",
+   "importance": "supporting",
+   "candidate": "covered"
+  },
+  {
+   "point": "Disagreement in the filings: 10-Q still calls the Dec 2022/Jan 2023/Feb 2023 debentures in default while the 8-K says they were extended",
+   "importance": "supporting",
+   "candidate": "missing"
+  }
+ ],
+ "contradictions": [
+  "Non-cash share of the loss: CANDIDATE says 36% with a cash-adjusted loss of $14.9M; GOLD says 56% with a cash-basis loss of $10.2M.",
+  "Prior-period balance sheet: CANDIDATE gives prior-year total assets of $8.7M and current assets of $1.7M while GOLD gives FY2022 (Dec 2022) total assets of $4.82M and current assets of $1.48M; CANDIDATE also gives revenue $5.3M and operating cash flow -$18.5M vs GOLD's FY2022 $4.80M and -$16.81M (possibly a different comparison period).",
+  "Debentures due 2024-02-28: CANDIDATE says about $4.75M ($2,485,000 plus $2,267,140), while GOLD says $2.485M matures on that date; CANDIDATE may be double counting the extended debentures.",
+  "Own risk: CANDIDATE puts it at about 20% vs GOLD's about 12% (same 'high' level but a notably higher probability)."
+ ],
+ "extra_points_in_candidate": [
+  "Lenders hold a first-priority lien on all assets (2022-09-19) and the 10-K warns assets may be foreclosed upon.",
+  "18% default interest on the defaulted senior secured notes.",
+  "October 2023 conversion of $150,000 of a note into 6,000,000 shares, and new money priced at $0.016-$0.025 per share.",
+  "Additional near-term dates: monthly payments on new July 2023 notes (2023-11-30, 2023-12-11), CEO convertible notes maturing 2023-12-23, Second September 2022 Note maturing 2023-12-31.",
+  "Explicit statement that the model does not see the defaults and so may understate risk."
+ ],
+ "scores": {
+  "verdict_agreement": 5,
+  "coverage": 4,
+  "consistency": 3,
+  "overall": 4
+ },
+ "summary": "CANDIDATE reaches the same real-risk, high-risk verdict and covers GOLD's main reasons: the outsized loss, the $6,759 cash, the note defaults, the payables-funded burn, going concern, and lenders extending rather than enforcing. It sets risk higher (20% vs 12%), misses the 10-Q/8-K default disagreement, and differs from GOLD on the non-cash share of the loss, the prior-year balance sheet figures, and the size of the February 2024 debenture maturity.",
+ "critical_recall": 0.67,
+ "all_recall": 0.75,
+ "candidate_check_problems": 0,
+ "gold_words": 1140,
+ "candidate_words": 1006
+}

@@ -1,0 +1,1622 @@
+{
+ "adsh": "0001749723-25-000123",
+ "folder": "/Users/pavan/Desktop/Capstone/langgraph_agent/outputs/cases/0001749723-25-000123",
+ "case": {
+  "adsh": "0001749723-25-000123",
+  "cik": 1749723,
+  "name": "NEW FORTRESS ENERGY INC.",
+  "form": "10-Q",
+  "fp": "Q2",
+  "period_end": "20250630",
+  "filed": "20250905",
+  "sic": 4924,
+  "score": 0.636,
+  "band": "0.5-0.7",
+  "base_rate_pct": 4.0
+ },
+ "numbers": {
+  "inputs": [
+   {
+    "input": "total_assets",
+    "this_report_musd": 11957.3,
+    "year_before_musd": 11408.4,
+    "share_of_assets_pct": 100.0,
+    "peer_percentile": 55
+   },
+   {
+    "input": "current_assets",
+    "this_report_musd": 1482.5,
+    "year_before_musd": 1124.3,
+    "share_of_assets_pct": 12.4,
+    "peer_percentile": 72
+   },
+   {
+    "input": "current_liabilities",
+    "this_report_musd": 2201.3,
+    "year_before_musd": 1564.8,
+    "share_of_assets_pct": 18.4,
+    "peer_percentile": 86
+   },
+   {
+    "input": "total_liabilities",
+    "this_report_musd": 10564.0,
+    "year_before_musd": 9623.3,
+    "share_of_assets_pct": 88.3,
+    "peer_percentile": 92
+   },
+   {
+    "input": "revenue",
+    "this_report_musd": 1224.2,
+    "year_before_musd": 1801.5,
+    "share_of_assets_pct": 10.2,
+    "peer_percentile": 9
+   },
+   {
+    "input": "net_income",
+    "this_report_musd": -1508.4,
+    "year_before_musd": -60.4,
+    "share_of_assets_pct": -12.6,
+    "peer_percentile": 12
+   },
+   {
+    "input": "operating_income",
+    "this_report_musd": -811.6,
+    "year_before_musd": 457.7,
+    "share_of_assets_pct": -6.8,
+    "peer_percentile": 11
+   },
+   {
+    "input": "operating_cash_flow",
+    "this_report_musd": -768.3,
+    "year_before_musd": 325.9,
+    "share_of_assets_pct": -6.4,
+    "peer_percentile": 9
+   }
+  ],
+  "extras": {
+   "liabilities_to_assets": 0.88,
+   "current_ratio": 0.67,
+   "peer_count": 147,
+   "peer_median_liabilities_to_assets": 0.67,
+   "peer_median_current_ratio": 0.86,
+   "missing_inputs": [],
+   "year_before_note": "from the prior-year column of this filing (XBRL); income and cash flow annualized"
+  },
+  "history": [
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20221231,
+    "filed": 20230301,
+    "total_assets": 7705082000.0,
+    "current_assets": 1387154000.0,
+    "current_liabilities": 1409238000.0,
+    "total_liabilities": 6263223000.0,
+    "revenue": 1978645000.0,
+    "net_income": 194479000.0,
+    "operating_income": 737380000.0,
+    "operating_cash_flow": 355111000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20230331,
+    "filed": 20230504,
+    "total_assets": 8223746000.0,
+    "current_assets": 1154137000.0,
+    "current_liabilities": 1396176000.0,
+    "total_liabilities": 6774420000.0,
+    "revenue": 2006752000.0,
+    "net_income": 600824000.0,
+    "operating_income": 1068896000.0,
+    "operating_cash_flow": 800560000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20230630,
+    "filed": 20230808,
+    "total_assets": 9135239000.0,
+    "current_assets": 713691000.0,
+    "current_liabilities": 2067870000.0,
+    "total_liabilities": 7584364000.0,
+    "revenue": 1992614000.0,
+    "net_income": 538908000.0,
+    "operating_income": 916378000.0,
+    "operating_cash_flow": 1007754000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20230930,
+    "filed": 20231109,
+    "total_assets": 9796370000.0,
+    "current_assets": 866201000.0,
+    "current_liabilities": 1911203000.0,
+    "total_liabilities": 8217808000.0,
+    "revenue": 1889566666.6666667,
+    "net_income": 440900000.0,
+    "operating_income": 810377333.3333334,
+    "operating_cash_flow": 716245333.3333334
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20231231,
+    "filed": 20240229,
+    "total_assets": 10501245000.0,
+    "current_assets": 979973000.0,
+    "current_liabilities": 1706288000.0,
+    "total_liabilities": 8723376000.0,
+    "revenue": 2060212000.0,
+    "net_income": 547882000.0,
+    "operating_income": 942667000.0,
+    "operating_cash_flow": 824756000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20240331,
+    "filed": 20240509,
+    "total_assets": 10880362000.0,
+    "current_assets": 1038783000.0,
+    "current_liabilities": 1566873000.0,
+    "total_liabilities": 8984080000.0,
+    "revenue": 2438016000.0,
+    "net_income": 216324000.0,
+    "operating_income": 738016000.0,
+    "operating_cash_flow": 280200000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20240630,
+    "filed": 20240809,
+    "total_assets": 11408377000.0,
+    "current_assets": 1124333000.0,
+    "current_liabilities": 1564800000.0,
+    "total_liabilities": 9623264000.0,
+    "revenue": 1801452000.0,
+    "net_income": -69546000.0,
+    "operating_income": 457664000.0,
+    "operating_cash_flow": 325936000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q3",
+    "ddate": 20240930,
+    "filed": 20241112,
+    "total_assets": 11969896000.0,
+    "current_assets": 1033956000.0,
+    "current_liabilities": 2709065000.0,
+    "total_liabilities": 10182886000.0,
+    "revenue": 1795698666.6666667,
+    "net_income": -33965333.333333336,
+    "operating_income": 411158666.6666667,
+    "operating_cash_flow": 194933333.33333337
+   },
+   {
+    "form": "10-K",
+    "fp": "FY",
+    "ddate": 20241231,
+    "filed": 20250310,
+    "total_assets": 12867496000.0,
+    "current_assets": 1610110000.0,
+    "current_liabilities": 1707418000.0,
+    "total_liabilities": 10777838000.0,
+    "revenue": 1698348000.0,
+    "net_income": -242387000.0,
+    "operating_income": 538639000.0,
+    "operating_cash_flow": 586742000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q1",
+    "ddate": 20250331,
+    "filed": 20250630,
+    "total_assets": 13028080000.0,
+    "current_assets": 1473708000.0,
+    "current_liabilities": 1473682000.0,
+    "total_liabilities": 11115846000.0,
+    "revenue": 1539524000.0,
+    "net_income": -789492000.0,
+    "operating_income": -73916000.0,
+    "operating_cash_flow": -126820000.0
+   },
+   {
+    "form": "10-Q",
+    "fp": "Q2",
+    "ddate": 20250630,
+    "filed": 20250905,
+    "total_assets": 11957330000.0,
+    "current_assets": 1482499000.0,
+    "current_liabilities": 2201304000.0,
+    "total_liabilities": 10563982000.0,
+    "revenue": 1224170000.0,
+    "net_income": -1508400000.0,
+    "operating_income": -811614000.0,
+    "operating_cash_flow": -768312000.0
+   }
+  ]
+ },
+ "filings": [
+  {
+   "adsh": "0001749723-25-000123",
+   "form": "10-Q",
+   "date": "2025-09-05",
+   "why": "this report"
+  },
+  {
+   "adsh": "0001749723-25-000029",
+   "form": "10-K",
+   "date": "2025-03-10",
+   "why": "latest 10-K before"
+  },
+  {
+   "adsh": "0001749723-25-000100",
+   "form": "10-Q",
+   "date": "2025-06-30",
+   "why": "10-Q since the 10-K"
+  },
+  {
+   "adsh": "0001749723-25-000117",
+   "form": "8-K",
+   "date": "2025-08-22",
+   "why": "8-K items 3.01,7.01,9.01"
+  },
+  {
+   "adsh": "0001749723-25-000112",
+   "form": "8-K",
+   "date": "2025-08-14",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001749723-25-000109",
+   "form": "NT 10-Q",
+   "date": "2025-08-12",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001749723-25-000076",
+   "form": "8-K",
+   "date": "2025-05-27",
+   "why": "8-K items 3.01,7.01,9.01"
+  },
+  {
+   "adsh": "0001749723-25-000073",
+   "form": "8-K",
+   "date": "2025-05-21",
+   "why": "8-K items 2.01,9.01"
+  },
+  {
+   "adsh": "0001749723-25-000060",
+   "form": "NT 10-Q",
+   "date": "2025-05-13",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001749723-25-000057",
+   "form": "8-K",
+   "date": "2025-05-12",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001749723-25-000032",
+   "form": "8-K",
+   "date": "2025-03-27",
+   "why": "8-K items 1.01,7.01,9.01"
+  },
+  {
+   "adsh": "0001749723-25-000022",
+   "form": "8-K",
+   "date": "2025-03-07",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001749723-25-000019",
+   "form": "NT 10-K",
+   "date": "2025-03-04",
+   "why": "late-filing notice"
+  },
+  {
+   "adsh": "0001749723-25-000009",
+   "form": "8-K",
+   "date": "2025-02-06",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001749723-25-000002",
+   "form": "8-K",
+   "date": "2025-01-03",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000125",
+   "form": "8-K",
+   "date": "2024-12-11",
+   "why": "8-K items 1.01,2.03,3.02,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000122",
+   "form": "8-K",
+   "date": "2024-11-27",
+   "why": "8-K items 1.01,2.03,8.01,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000118",
+   "form": "8-K",
+   "date": "2024-11-15",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000111",
+   "form": "8-K",
+   "date": "2024-11-07",
+   "why": "8-K items 1.01,2.03,3.02,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000100",
+   "form": "8-K",
+   "date": "2024-10-24",
+   "why": "8-K items 5.02,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000092",
+   "form": "8-K",
+   "date": "2024-10-02",
+   "why": "8-K items 1.01,3.02,3.03,5.03,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000085",
+   "form": "8-K",
+   "date": "2024-10-01",
+   "why": "8-K items 1.01,3.02,8.01,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000083",
+   "form": "8-K",
+   "date": "2024-09-30",
+   "why": "8-K items 1.01,8.01,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000078",
+   "form": "8-K",
+   "date": "2024-09-06",
+   "why": "8-K items 1.01,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000064",
+   "form": "8-K",
+   "date": "2024-07-25",
+   "why": "8-K items 1.01,2.03,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000022",
+   "form": "8-K",
+   "date": "2024-03-25",
+   "why": "8-K items 1.01,3.02,3.03,5.03,8.01,9.01"
+  },
+  {
+   "adsh": "0001749723-24-000019",
+   "form": "8-K",
+   "date": "2024-03-08",
+   "why": "8-K items 1.01,2.03,9.01"
+  }
+ ],
+ "findings": [
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded that liquidity and forecasted operating cash flows are not probable to be sufficient to meet obligations, and there is substantial doubt about the company's ability to continue as a going concern.",
+   "numbers": "",
+   "quote": "management has concluded that, the Company\u2019s current liquidity and forecasted cash flows from operations are not probable to be sufficient to support, in full, its obligations as they become due",
+   "section": "Note 2. Basis of presentation (going concern); repeated in MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company failed to provide a required $79,100 bank guarantee to PortoCem Debenture holders by August 17, 2025, giving a majority of holders the right to declare early maturity, which would make substantially all indebtedness payable on demand.",
+   "numbers": "$79,100 bank guarantee due August 17, 2025",
+   "quote": "this guarantee was not provided by the deadline, and as a result, a majority of debenture holders have the right to call for a meeting of holders and declare an event of early maturity.",
+   "section": "Note 2. Basis of presentation; Debt note - PortoCem Debentures"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company does not expect to meet the first lien ratio or fixed charge coverage ratio covenants in the Revolving Facility, Letter of Credit Facility and Term Loan A for the quarter ending September 30, 2025, which without a waiver allows acceleration.",
+   "numbers": "fiscal quarter ending September 30, 2025",
+   "quote": "the Company does not expect to be in compliance with the consolidated first lien ratio or the fixed charge coverage ratio included within the Revolving Facility, Letter of Credit Facility and Term Loan A Credit Agreement",
+   "section": "Note 2. Basis of presentation; Debt note - Revolving Facility, Letter of Credit Facility, Term Loan A"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "If substantially all debt is accelerated, the company states it would not have sufficient liquidity or capital resources to repay the principal.",
+   "numbers": "",
+   "quote": "If substantially all of the Company's outstanding indebtedness is accelerated, the Company would not have sufficient liquidity or capital resources to satisfy the outstanding principal obligations.",
+   "section": "Note 2. Basis of presentation (going concern)"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "Debt arrangements contain cross-acceleration clauses, so a default under one agreement can accelerate principal under others.",
+   "numbers": "",
+   "quote": "The Company's debt arrangements include cross-acceleration clauses whereby events of default under an individual debt agreement can lead to acceleration of principal under other debt arrangements.",
+   "section": "Debt note"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Unless the 2026 Notes are largely retired before springing maturity dates in mid-2026, the New 2029 Notes, Revolving Facility, Term Loan A and Term Loan B become due early.",
+   "numbers": "2026 Notes $510,879 due September 30, 2026; New 2029 Notes $2,730,127; Term Loan A $295,000; Term Loan B $1,269,259; Revolver $710,400 drawn",
+   "quote": "If more than $100,000 of the 2026 Notes remain outstanding 91 days prior to the maturity date (the \"Springing Maturity Date\"), the outstanding principal of $2,730,127 under the New 2029 Notes becomes due.",
+   "section": "Note 2. Basis of presentation (going concern)"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The Revolving Facility, permanently reduced to $730,000 of capacity, was fully utilized as of June 30, 2025.",
+   "numbers": "$710,400 revolving loans plus $19,533 letters of credit; capacity $729,933",
+   "quote": "including the outstanding letters of credit, the Company has fully utilized the borrowing capacity of $729,933 as of June 30, 2025.",
+   "section": "Debt note - Revolving Facility"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "restructuring",
+   "direction": "toward",
+   "finding": "The company has begun a strategic alternatives process with a financial advisor and is negotiating waivers with PortoCem holders and bank lenders, with no assurance of success.",
+   "numbers": "",
+   "quote": "The Company has also initiated a process to evaluate strategic alternatives and has retained a financial advisor to assist in this evaluation.",
+   "section": "Note 2. Basis of presentation; MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company needed May 2025 covenant holidays on the first lien debt ratio and fixed charge coverage ratio for the June 30, 2025 quarter under the Revolving Facility, Letter of Credit Facility and Term Loan A.",
+   "numbers": "fiscal quarter ending June 30, 2025",
+   "quote": "provide for a covenant holiday with respect to the consolidated first lien debt ratio and fixed charge coverage ratio contained therein for the fiscal quarter ending June 30, 2025",
+   "section": "Debt note - Revolving Facility and Letter of Credit Facility amendments"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The company missed the July 7, 2025 deadline for a $50,000 PortoCem bank guarantee, providing it on July 9, which required another waiver from debenture holders on August 7, 2025.",
+   "numbers": "$50,000 guarantee; due July 7, 2025; provided July 9, 2025",
+   "quote": "The Company provided the required $50,000 bank guarantee on July 9, 2025, subsequent to the required deadline of July 7, 2025.",
+   "section": "Debt note - PortoCem Debentures"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Multiple credit rating downgrades triggered early maturity rights under the PortoCem Debentures, which holders waived in exchange for a $129,100 bank guarantee, and holders suspended the downgrade trigger through August 30, 2026.",
+   "numbers": "$129,100 bank guarantee; downgrade on June 5, 2025",
+   "quote": "On June 5, 2025, the Company received an additional downgrade of its credit rating, which triggered an additional non-automatic event of early maturity under the PortoCem Debenture.",
+   "section": "Debt note - PortoCem Debentures"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The Letter of Credit Facility went through a string of short deferrals and extensions in July 2025, then a ninth amendment extended maturity only to November 14, 2025 and cut commitments; non-compliance could require 102% cash collateralization.",
+   "numbers": "commitments reduced to approximately $195,000, then approximately $155,000 on October 5, 2025; maturity November 14, 2025; 102% cash collateralization",
+   "quote": "(ii) extend the maturity date to November 14, 2025; (iii) add an asset sale sweep prepayment provision; and (iv) make certain changes to fees and pricing.",
+   "section": "Note 27. Subsequent events - Letter of Credit Facility; MD&A Recent Developments"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "non_cash_items",
+   "direction": "against",
+   "finding": "Much of the Q2 2025 loss is non-cash goodwill and asset impairment, although the goodwill impairment was triggered by a significant decline in the stock price and a higher company-specific risk premium.",
+   "numbers": "Q2 2025 goodwill impairment 582,172; asset impairment 117,312; Q2 net loss (556,827); depreciation and amortization 52,870",
+   "quote": "we recognized an impairment of goodwill of $582.2 million primarily as a result of (i) the significant increase in the weighted average cost of capital which reflected a higher company specific risk premium",
+   "section": "MD&A Results of Operations - Goodwill impairment expense; Note 14"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "non_cash_items",
+   "direction": "toward",
+   "finding": "Results were also flattered by a one-off non-cash gain on the Jamaica sale, so the underlying loss before that gain is larger.",
+   "numbers": "(Gain) loss on sale (472,699); six-month net loss (754,200)",
+   "quote": "the Company recognized a gain of $472,699 during the six months ended June 30, 2025",
+   "section": "Note 4. Dispositions"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Operating cash flow turned negative for the first half of 2025 compared with positive cash flow a year earlier.",
+   "numbers": "Net cash used in operating activities (384,156) for six months 2025 vs 162,968 in 2024",
+   "quote": "Net cash (used in) provided by operating activities (384,156) 162,968",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company reported operating losses and negative operating cash flow in both quarters of 2025, worsening in Q2, and expects lower earnings after the Jamaica sale, higher interest and cash taxes on the gain.",
+   "numbers": "Consolidated Segment Operating Margin Q2 2025 $24,967 vs $158,351 Q2 2024; operating loss Q2 (387,328)",
+   "quote": "In the first and second quarters of 2025, the Company recognized operating losses and negative operating cash flows, and this decline in earnings accelerated in the second quarter of 2025.",
+   "section": "Note 2. Basis of presentation; Note 26 segment reconciliation"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Interest expense more than doubled year over year, and less interest is being capitalized.",
+   "numbers": "Q2 2025 interest expense 206,408 vs 80,399; six months 420,102 vs 157,743",
+   "quote": "Interest expense 206,408 80,399 420,102 157,743",
+   "section": "Condensed Consolidated Statements of Operations"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The current portion of long-term debt more than doubled, and the fair value of debt is far below its carrying amount, which signals creditor concern.",
+   "numbers": "Current portion of long-term debt $1,181,559 vs $539,132; long-term debt 7,805,260; fair value $5,785,322 vs $9,087,890 at December 31, 2024",
+   "quote": "The fair value of the Company's long-term debt was $5,785,322 and $9,087,890 as of June 30, 2025 and December 31, 2024, respectively",
+   "section": "Debt note"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company completed the Jamaica Business sale in May 2025 for $1,055,000, receiving net cash after repaying South Power Bonds plus escrowed amounts, and used part of it to repay the Revolver and Term Loan A.",
+   "numbers": "consideration $1,055,000; net proceeds approximately $678,480; escrow $98,635; Revolver repaid $270,000; Term Loan A repaid $55,000",
+   "quote": "the Company received net proceeds of approximately $678,480, with an additional $98,635 of proceeds held in escrow.",
+   "section": "Note 4. Dispositions; Debt note"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company raised new money in early 2025 through incremental Term Loan B loans and Brazil Financing Notes, though at high cost (SOFR plus 5.5% and 15.0% with PIK option).",
+   "numbers": "incremental Term Loan B up to $425,000, net proceeds $391,000; Brazil Financing Notes up to $350,000 at 15.0%",
+   "quote": "certain lenders agreed to provide incremental term loans in an aggregate principal amount of up to $425,000, which increased the total outstanding principal amount to $1,272,440",
+   "section": "Debt note - Term Loan B and Brazil Financing Notes"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Cash plus restricted cash was $821,407 at June 30, 2025, but part of the restricted cash is limited to Brazil power plant construction.",
+   "numbers": "Cash and cash equivalents $551,109; restricted cash $270,298; total $821,407",
+   "quote": "Uses of cash proceeds under the BNDES Term Loan, Brazil Financing Notes and PortoCem Debentures (see Note 18) are restricted to certain payments to construct the Company's power plants in Brazil.",
+   "section": "Condensed Consolidated Balance Sheets; Note 8. Restricted cash"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Remaining committed capital expenditures are about $467 million, of which about $196 million has secured financing.",
+   "numbers": "approximately $467 million committed capex; approximately $196 million financed",
+   "quote": "Our remaining committed capital expenditures, inclusive of invoiced amounts in Accounts payable, is approximately $467 million",
+   "section": "MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "Possible additional cash sources not included in the forecast include Puerto Rico claim settlements, up to $110.0 million from the Genera agreement modification, about $98.6 million of escrowed Jamaica proceeds, and new business.",
+   "numbers": "up to $110.0 million Genera; approximately $98.6 million escrow",
+   "quote": "realization of up to $110.0 million in proceeds from the modification of Genera\u2019s Operation and Maintenance Agreement",
+   "section": "MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Credit rating downgrades allowed Series B preferred holders to require redemption, which the company settled by issuing more than 10 million new Class A shares on August 1, 2025.",
+   "numbers": "36,746 shares redeemed at $950 per share plus $761 dividend; 10,351,360 Class A shares issued",
+   "quote": "the Company redeemed a total of 36,746 shares through a conversion at a price of $950 per share plus accumulated and unpaid dividend of $761 and issued 10,351,360 shares of Class A common stock",
+   "section": "Note 27. Subsequent events - Series B Convertible Preferred Stock"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The PREPA island-wide gas supply agreement has been running on short-term extensions and is set to expire September 12, 2025 without an assured long-term deal.",
+   "numbers": "expires September 12, 2025",
+   "quote": "The gas supply agreement is currently set to expire on September 12, 2025.",
+   "section": "MD&A Factors Impacting Comparability"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The Revolver amendment limits prepayment of the 2026 Notes beyond $200,000 except to avoid springing maturities or with refinancing or equity proceeds.",
+   "numbers": "$200,000",
+   "quote": "restrict the Company from prepaying the 2026 Notes in excess of $200,000 other than to avoid springing maturities",
+   "section": "Debt note - Revolving Facility"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "The parent is no longer permitted to pay common dividends under intercompany agreements, and GMLP preferred dividends of $3,019 are unpaid.",
+   "numbers": "unpaid cumulative GMLP dividends $3,019",
+   "quote": "New Fortress Energy Inc. is no longer permitted to pay dividends to shareholders.",
+   "section": "Equity note - dividends"
+  },
+  {
+   "filing": "10-Q filed 2025-09-05",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "The company discloses material weaknesses in internal control over financial reporting that it still needs to remediate.",
+   "numbers": "",
+   "quote": "including our ability to remediate our material weaknesses in our internal control over financial reporting",
+   "section": "Cautionary Statement on Forward-Looking Statements"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Before counting its mitigation plans, management concluded that current liquidity and forecasted operating cash flows were not enough to meet obligations as they come due, and the forward-looking statements refer to substantial doubt about going concern.",
+   "numbers": "",
+   "quote": "Management has concluded that the Company\u2019s current liquidity and forecasted cash flows (which exclude the effect of the Transactions as defined below), from operations are not sufficient to support, in full, obligations as they become due.",
+   "section": "Item 1A. Risk Factors - going concern risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "going_concern",
+   "direction": "against",
+   "finding": "Management concluded its plans are probable of being implemented and will give enough liquidity for the next twelve months, so the substantial doubt was treated as alleviated at the 10-K date.",
+   "numbers": "next twelve months",
+   "quote": "Management concluded that such plans are probable of being implemented and the Company will have sufficient liquidity to meet its obligations as they become due over the next twelve months",
+   "section": "Item 1A. Risk Factors - going concern risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The liquidity plan depends on delaying discretionary payments such as capital expenditures and dividends and continuously renewing the LNG cargo financing facility.",
+   "numbers": "",
+   "quote": "(i) delaying certain discretionary payments, including planned capital expenditures and dividends, that are within management\u2019s control, and (ii) continuously renewing the LNG cargo financing facility over the succeeding twelve months.",
+   "section": "Item 1A. Risk Factors - going concern risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "A backstop agreement executed in March 2025 provides up to $100 million of availability as part of the liquidity plan.",
+   "numbers": "up to $100 million",
+   "quote": "Management\u2019s plan also includes the availability of a backstop agreement that was executed in March 2025 and provides up to $100 million of availability.",
+   "section": "Item 1A. Risk Factors - going concern risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company warns that future liquidity depends on continuing to stretch vendor payments and other obligations.",
+   "numbers": "",
+   "quote": "there are inherent risks with the Company\u2019s ability to continue to implement plans in future periods that will support its liquidity position, such as its ability to further extend the terms of vendor payments and other obligations.",
+   "section": "Item 1A. Risk Factors - going concern risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "restructuring",
+   "direction": "against",
+   "finding": "The company is exploring asset sales, claim settlements and other strategic transactions for added liquidity, but says their execution is outside management's control and not assured.",
+   "numbers": "",
+   "quote": "the Company continues to explore asset sales, settlement of claims and other strategic transactions (collectively, the \u201cTransactions\u201d) that seek to optimize the value of the Company\u2019s portfolio while providing additional liquidity and cash flow to the Company.",
+   "section": "Item 1A. Risk Factors - going concern risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company names a possible sale of its Jamaica assets as an option for raising funds.",
+   "numbers": "",
+   "quote": "the opportunistic sale of one of our non-core assets such as the sale of our assets in Jamaica",
+   "section": "Item 1A. Risk Factors - additional funding risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "In another risk factor, the company says it believes it has enough liquidity and capital access for the next 12 months.",
+   "numbers": "next 12 months",
+   "quote": "We believe we will have sufficient liquidity, cash flow from operations and access to additional capital sources to fund our capital expenditures and working capital needs for the next 12 months and the reasonably foreseeable future.",
+   "section": "Item 1A. Risk Factors - additional funding risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Consolidated debt was about $9.0 billion at year-end 2024.",
+   "numbers": "approximately $9,027.1 million at December 31, 2024",
+   "quote": "As of December 31, 2024, we had approximately $9,027.1 million aggregate principal amount of indebtedness outstanding on a consolidated basis",
+   "section": "Item 1A. Risk Factors - indebtedness risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The New 2029 Notes from the refinancing carry a 12.000% coupon, which significantly raises annual interest expense and total principal outstanding.",
+   "numbers": "12.000% per annum",
+   "quote": "bear interest at a rate of 12.000% per annum, representing a signficiant increasing our annual interest expense",
+   "section": "Item 1A. Risk Factors - indebtedness risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "covenant_or_waiver",
+   "direction": "neutral",
+   "finding": "Debt agreements carry restrictive covenants and financial ratios, and a breach or missed payment could lead to acceleration or cross-acceleration; asset sale proceeds must be used to pay down debt.",
+   "numbers": "",
+   "quote": "If we fail to comply with any of these restrictions or are unable to pay our debt service when due, our debt could be accelerated or cross-accelerated",
+   "section": "Item 1A. Risk Factors - indebtedness risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "The company says the Notes financing significantly limits its ability to take on more debt and that its access to capital has at times been hurt by its own execution progress.",
+   "numbers": "",
+   "quote": "may subject us to increased restrictive covenants that could limit, and in the case of the former, significantly limit, our flexibility to incur additional indebtedness",
+   "section": "Item 1A. Risk Factors - additional funding risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The first Fast LNG unit had not yet supplied LNG to customers, and an April 2024 equipment failure at Altamira delayed operations and raised costs.",
+   "numbers": "",
+   "quote": "We have commenced operations at our first Fast LNG solution, but we have not yet supplied any LNG from that facility to customers",
+   "section": "Item 1A. Risk Factors - Fast LNG risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company reports time delays and cost overruns on its projects, most recently at the First LNG project in Altamira, Mexico.",
+   "numbers": "",
+   "quote": "We have experienced time delays and cost overruns in the construction and development of our projects as a result of the occurrence of various of the above factors, including most recently with our First LNG project in Altamira, Mexico",
+   "section": "Item 1A. Risk Factors - construction risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Revenue depends on a few customers, including PREPA, which is in bankruptcy proceedings and relies on federal funding to pay.",
+   "numbers": "",
+   "quote": "PREPA is currently subject to bankruptcy proceedings pending in the U.S. District Court for the District of Puerto Rico.",
+   "section": "Item 1A. Risk Factors - customer dependence risk factor"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "The USCG recommended against proposed San Juan ship-to-ship operations and issued a Letter of Warning; the company withdrew its appeal and is working with the USCG on alternative plans.",
+   "numbers": "",
+   "quote": "recommended against the allowance of the proposed operations",
+   "section": "Item 1. Business - FERC Authorization; Item 1A. Risk Factors"
+  },
+  {
+   "filing": "10-K filed 2025-03-10",
+   "topic": "operations",
+   "direction": "neutral",
+   "finding": "PHMSA denied renewal of the special permit to ship LNG by rail from the Pennsylvania Facility, and the DOT suspended LNG rail transport authorization.",
+   "numbers": "",
+   "quote": "On April 24, 2023, PHMSA issued a decision denying this special permit renewal request.",
+   "section": "Item 1. Business - Pipeline and Hazardous Materials Safety Administration"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Management concluded there is substantial doubt about the company's ability to continue as a going concern because current liquidity and forecasted operating cash flows are not probable to cover obligations as they come due.",
+   "numbers": "",
+   "quote": "management has concluded that, the Company\u2019s current liquidity and forecasted cash flows from operations are not probable to be sufficient to support, in full, obligations as they become due",
+   "section": "Note 2 Basis of presentation"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Forecasted cash flows are hurt by lost Jamaica earnings, higher interest and collateral needs, cash taxes on the Jamaica sale gain, and falling commodity prices.",
+   "numbers": "",
+   "quote": "(ii) increased interest expense and collateral requirements for certain debt instruments, (iii) cash tax payments resulting from the taxable gain on the sale of the Company\u2019s Jamaica business in May 2025, and (iv) recent declines in commodity prices.",
+   "section": "Note 2 Basis of presentation"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "going_concern",
+   "direction": "toward",
+   "finding": "Even after management's plan to delay capex and dividends and keep renewing the LNG cargo financing facility, substantial doubt remains.",
+   "numbers": "",
+   "quote": "Notwithstanding these plans, management's concluded that there continues to be substantial doubt as to the Company's ability to continue as a going concern.",
+   "section": "Note 2 Basis of presentation"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "A springing maturity means that if more than $100 million of the 2026 Notes are still outstanding 91 days before September 30, 2026, the $2.73 billion New 2029 Notes come due, and the Revolving Facility comes due if any 2026 Notes remain; these amounts are left out of the going concern analysis.",
+   "numbers": "2026 Notes outstanding $510,879; New 2029 Notes $2,730,127; Revolving Facility $750,000 (thousands)",
+   "quote": "If more than $100,000 of the 2026 Notes remain outstanding 91 days prior to the maturity date (the \"Springing Maturity Date\"), the outstanding principal of $2,730,127 under the New 2029 Notes becomes due.",
+   "section": "Note 2 Basis of presentation"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Unrestricted cash and restricted cash both fell during the quarter, and total cash including restricted cash dropped by $128.8 million to $836.7 million.",
+   "numbers": "Cash $447,862 vs $492,881; restricted cash $379,537 vs $472,696; net decrease $(128,832) (thousands)",
+   "quote": "Cash and cash equivalents $ 447,862 $ 492,881",
+   "section": "Condensed Consolidated Balance Sheets / Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "liquidity",
+   "direction": "neutral",
+   "finding": "Most restricted cash is held under loan agreements and can only be used for building the Brazilian power plants.",
+   "numbers": "Loan-agreement restricted cash $321,454 vs $422,098 (thousands)",
+   "quote": "Cash restricted under the terms of loan agreements $ 321,454 $ 422,098",
+   "section": "Note 8 Restricted cash"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Operating cash flow turned negative in the quarter, and that figure was already helped by a large rise in payables and accrued liabilities.",
+   "numbers": "Operating cash flow $(31,705) vs $70,050; increase in AP/accrued liabilities $130,433 (thousands)",
+   "quote": "Net cash (used in) provided by operating activities (31,705) 70,050",
+   "section": "Condensed Consolidated Statements of Cash Flows"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Management's liquidity plans depend partly on further stretching vendor payments and other obligations, and accrued interest rose sharply.",
+   "numbers": "Accrued interest $143,288 vs $84,566 (thousands)",
+   "quote": "such as its ability to further extend the terms of vendor payments and other obligations.",
+   "section": "MD&A Liquidity and Capital Resources; Note 15 Accrued liabilities"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "The company had a $197.4 million net loss and an operating loss in the quarter, compared with a profit a year earlier, while interest expense almost tripled.",
+   "numbers": "Net loss $(197,373) vs income $56,670; operating loss $(18,479) vs $184,504; interest expense $213,694 vs $77,344 (thousands)",
+   "quote": "Interest expense 213,694 77,344",
+   "section": "Condensed Consolidated Statements of Operations"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Consolidated Segment Operating Margin fell by about 72% from the year-ago quarter.",
+   "numbers": "$106,026 vs $384,260 (thousands)",
+   "quote": "Consolidated Segment Operating Margin $ 106,026 $ 384,260",
+   "section": "Note 25 Segment information"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Non-cash items in the loss were small compared with the $197.4 million loss: D&A of $63.4 million, an $18.1 million write-off of capitalized Term Loan A fees booked as interest, a tiny impairment and negative share-based compensation; a $63.9 million non-cash foreign-currency gain reduced the loss.",
+   "numbers": "D&A $63,353; TLA fees $18,121; impairment $246; share-based comp $(229); other income $(63,937) (thousands)",
+   "quote": "$18,121 of origination, structuring and other fees, which were previously capitalized in Other non-current assets on the Condensed Consolidated Balance Sheet were recognized as interest expense",
+   "section": "Note 17 Debt; Cash Flows; MD&A Other expense (income)"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Total debt principal grew to $9.4 billion from $7.2 billion a year earlier, and cross-acceleration clauses mean a default under one agreement can accelerate others.",
+   "numbers": "Principal $9.4 billion vs $7.2 billion; current portion $260,848; long-term debt $8,931,506 (thousands)",
+   "quote": "The Company's debt arrangements include cross-acceleration clauses whereby events of default under an individual debt agreement can lead to acceleration of principal under other debt arrangements.",
+   "section": "Note 17 Debt; MD&A Interest expense"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Repeated credit rating downgrades triggered early-maturity rights under the PortoCem Debentures; holders waived them both times, in exchange for a $129.1 million bank guarantee, and suspended the downgrade trigger through August 30, 2026.",
+   "numbers": "Bank guarantee $129,100 ($50,000 by July 7, 2025; $79,100 by August 17, 2025) (thousands)",
+   "quote": "On June 5, 2025, the Company received an additional downgrade of its credit rating, which triggered a non-automatic event of early maturity under the PortoCem Debenture.",
+   "section": "Note 17 Debt - PortoCem Debentures"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The May 2025 amendments to the RCF, TLA and ULCA give a covenant holiday for the quarter ending June 30, 2025, so the leverage and fixed charge coverage covenants will not be tested that quarter.",
+   "numbers": "",
+   "quote": "Neither the first lien debt ratio covenant nor the fixed charge coverage ratio covenant will be tested for the fiscal quarter ending June 30, 2025.",
+   "section": "Note 26 Subsequent events; MD&A Recent Developments"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "After the holiday, the covenants get tighter: the first lien debt ratio cap falls to 6.75x for September 30, 2025, and the fixed charge coverage minimum rises from 0.80x to 1.00x.",
+   "numbers": "First lien debt ratio 8.75x (Q1 2025), 6.75x (Q3 2025), 6.50x (Q4 2025); FCCR 0.80x then 1.00x",
+   "quote": "the Company cannot permit the fixed charge coverage ratio for the Company and its restricted subsidiaries to be less than or equal to 0.80 to 1.00 for the fiscal quarter ending March 31, 2025",
+   "section": "Note 26 Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The Fifth Amendment to the Term Loan A raised its interest margin and added rate floors, so borrowing got more expensive.",
+   "numbers": "SOFR margin 6.70%; base rate margin 5.70%; SOFR floor 4.30%; base rate floor 5.30%",
+   "quote": "increases the applicable margin to 6.70% for SOFR loans and 5.70% for Base Rate Loans and implements a SOFR floor of 4.30% and a base rate floor of 5.30%",
+   "section": "Note 26 Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "covenant_or_waiver",
+   "direction": "against",
+   "finding": "RCF lenders waived the 75% asset-sale proceeds sweep, so only $270 million of the Jamaica proceeds had to go to the RCF and the rest can be reinvested or used to repay the TLA.",
+   "numbers": "$270,000 to RCF; $55,000 to TLA (thousands)",
+   "quote": "Among other things, the Twelfth Amendment waives the requirement that the Company pay 75% of net proceeds from certain asset sales to repay indebtedness",
+   "section": "Note 26 Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The Jamaica Business sale closed on May 14, 2025 for $1.055 billion, bringing in net proceeds of about $678.5 million plus $98.6 million held in escrow, after the South Power Bonds were repaid.",
+   "numbers": "Sale price $1.055 billion; South Power Bonds repaid $227,157; net proceeds $678,480; escrow $98,635 (thousands)",
+   "quote": "After the repayment of debt, the Company received net proceeds of approximately $678,480, with an additional $98,635 proceeds held in escrow and to be returned to the Company on the release dates as stated in the EAPA.",
+   "section": "Note 4 Dispositions; Note 26 Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "debt",
+   "direction": "against",
+   "finding": "The company used the sale proceeds to repay and permanently cut the Revolving Facility and to repay part of the Term Loan A.",
+   "numbers": "RCF reduced $270,000; TLA repaid $55,000 (thousands)",
+   "quote": "the Company repaid and permanently reduced the Revolving Facility commitments of $270,000 and repaid $55,000 of the Term Loan A Credit Agreement with the sale proceeds.",
+   "section": "Note 26 Subsequent events"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In March 2025, lenders provided new money through incremental Term Loan B loans, issued at a discount, with SOFR plus 5.5% interest.",
+   "numbers": "Incremental up to $425,000; total TLB $1,272,440; net proceeds $391,000 (thousands)",
+   "quote": "The incremental term loans were issued at a discount, and the Company received proceeds, net of discount, of $391,000.",
+   "section": "Note 17 Debt - Term Loan B"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "financing",
+   "direction": "neutral",
+   "finding": "A Brazilian subsidiary issued expensive 15% secured notes at 97.75% of par; interest can be paid in kind for 30 months, and part of the proceeds repaid the Barcarena Debentures.",
+   "numbers": "Up to $350,000; 15.0%; 97.75% of par; $208,727 used to repay Barcarena Debentures (thousands)",
+   "quote": "to issue up to $350,000 aggregate principal amount of 15.0% Senior Secured Notes due 2029",
+   "section": "Note 17 Debt - Brazil Financing Notes"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "default",
+   "direction": "toward",
+   "finding": "The company skipped the GMLP preferred unit dividend due May 15, 2025 and has not said when or whether it will pay this or future dividends.",
+   "numbers": "",
+   "quote": "The Company did not pay the preferred stock dividend on the GMLP Preferred Units that was scheduled to be paid on May 15, 2025.",
+   "section": "Note 26 Subsequent events - GMLP dividend"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "financing",
+   "direction": "toward",
+   "finding": "Intercompany agreements from the Q4 2024 Refinancing Transactions bar the parent from paying common dividends.",
+   "numbers": "",
+   "quote": "New Fortress Energy Inc. is no longer permitted to pay dividends to shareholders.",
+   "section": "Note 22 Stockholders' equity; MD&A Cash provided by financing activities"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "Remaining committed capex is about $881 million, and secured project financing covers only about $294 million of it.",
+   "numbers": "Committed capex ~$881 million; secured financing ~$294 million",
+   "quote": "Our remaining committed capital expenditures, inclusive of invoiced amounts in Accounts payable, is approximately $881 million",
+   "section": "MD&A Liquidity and Capital Resources"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "liquidity",
+   "direction": "against",
+   "finding": "Possible liquidity sources left out of the forecast include Puerto Rico contract termination claims, up to $110 million from the Genera agreement change, $98.6 million in escrow and new business; management also plans to delay discretionary capex and keep renewing the LNG cargo financing facility.",
+   "numbers": "Genera up to $110.0 million; escrow ~$98.6 million; FEMA request for equitable adjustment $659,000 (thousands)",
+   "quote": "(2) realization of up to $110.0 million in proceeds from the modification of Genera\u2019s Operation and Maintenance Agreement; (3) receipt of proceeds from the Jamaica Sale that are currently in escrow of approximately $98.6 million",
+   "section": "MD&A Liquidity and Capital Resources; Note 2"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "Market capitalization fell from $2.3 billion to $1.9 billion after quarter-end, and management is checking whether this is a trigger for goodwill and intangible impairment testing.",
+   "numbers": "Market cap $2.3 billion to $1.9 billion; T&I goodwill $578,318 (thousands)",
+   "quote": "the Company has experienced a significant decline in its market capitalization, from $2.3 billion to $1.9 billion (as of May 14, 2025).",
+   "section": "Note 13 Goodwill and intangible assets"
+  },
+  {
+   "filing": "10-Q filed 2025-06-30",
+   "topic": "management",
+   "direction": "toward",
+   "finding": "Disclosure controls were not effective as of March 31, 2025, and one material weakness concerns spotting events that let lenders demand early repayment.",
+   "numbers": "",
+   "quote": "we previously identified a material weakness in our internal control related to the assessment and disclosure of events that have occurred that permit lenders to require repayment prior to the debt's stated maturity.",
+   "section": "Item 4 Controls and Procedures; Risk Factors"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The Q2 2025 10-Q was filed late because the company was still negotiating additional credit support it is required to deliver under one of its debt instruments.",
+   "numbers": "Period ended June 30, 2025; NT 10-Q filed 2025-08-12",
+   "quote": "due to ongoing negotiations related to additional credit support that is required to be delivered under one of our debt instruments",
+   "section": "NT 10-Q filed 2025-08-12, Part III Narrative"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The company warned that how the credit support talks end, or fail to end, could change how its long-term debt is presented in the financial statements, which points to a possible reclassification.",
+   "numbers": "",
+   "quote": "the resolution, or lack thereof, may change the financial statement presentation of our long-term debt and related disclosures in the Quarterly Report",
+   "section": "NT 10-Q filed 2025-08-12, Part III Narrative"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Nasdaq notified the company on August 19, 2025 that it was out of compliance with Listing Rule 5250(c)(1) for not filing the Q2 2025 10-Q, with delisting possible if compliance is not regained.",
+   "numbers": "60 calendar days to submit a plan; up to 180 calendar days, until February 16, 2026",
+   "quote": "If the Company fails to timely regain compliance with Nasdaq\u2019s listing rules, the Company\u2019s Class A common stock will be subject to delisting from Nasdaq.",
+   "section": "8-K filed 2025-08-22, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "delisting",
+   "direction": "toward",
+   "finding": "Nasdaq had already sent an earlier non-compliance notice on May 20, 2025 for the late Q1 2025 10-Q, so this was the second notice in a row.",
+   "numbers": "Deadline up to November 11, 2025",
+   "quote": "because the Company has not yet filed its Form 10-Q for the period ended March 31, 2025",
+   "section": "8-K filed 2025-05-27, Item 3.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The Q1 2025 10-Q was late because the Jamaica disposition was delayed and the Chief Accounting Officer resigned, which took resources away from preparing the report.",
+   "numbers": "CAO resignation effective April 29, 2025",
+   "quote": "due to a delay in completing the previously announced disposition of the Company\u2019s business in Jamaica, which is expected to close in the near term, as well as the resignation of our Chief Accounting Officer effective April 29, 2025",
+   "section": "NT 10-Q filed 2025-05-13, Part III Narrative"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "late_filing",
+   "direction": "toward",
+   "finding": "The FY2024 10-K was also late, partly so it could reflect financing transactions the company needed to support its obligations and debt service.",
+   "numbers": "Period ended December 31, 2024; NT 10-K filed 2025-03-04",
+   "quote": "in order to reflect certain financing transactions which will support the Company's obligations and debt service and are expected to close in the near term",
+   "section": "NT 10-K filed 2025-03-04, Part III Narrative"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "operations",
+   "direction": "toward",
+   "finding": "Terminal operations revenue fell significantly in the three and six months ended June 30, 2025, because the Puerto Rico temporary power project ended, the Jamaica business was sold and cargo sales were lower.",
+   "numbers": "",
+   "quote": "The Company's revenue from terminal operations for the three and six month periods ended June 30, 2025 significantly decreased compared with the three and six month periods of 2024",
+   "section": "NT 10-Q filed 2025-08-12, Part IV (3)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "non_cash_items",
+   "direction": "neutral",
+   "finding": "Operating expenses for the 2025 periods rose significantly, mainly because of non-cash goodwill and asset impairments, partly offset by the gain on the Jamaica sale.",
+   "numbers": "",
+   "quote": "significantly increased compared with the corresponding periods of 2024 largely as a result of goodwill and asset impairments, partially offset by the gain on the sale of our business in Jamaica",
+   "section": "NT 10-Q filed 2025-08-12, Part IV (3)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The Ninth Amendment made the letter of credit facility committed, but its maturity is now only about three months away and its commitments were cut and will be cut again.",
+   "numbers": "Maturity November 14, 2025; commitments approximately $195,000, reduced on October 5, 2025 to approximately $155,000",
+   "quote": "the commitments were reduced to approximately $195,000 and are automatically reduced on October 5, 2025 to approximately $155,000",
+   "section": "8-K filed 2025-08-14, Item 1.01 (Ninth Amendment to ULCA)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "The company completed the sale of its Jamaica business to Excelerate on May 14, 2025 for $1.055 billion in cash, subject to adjustments.",
+   "numbers": "$1.055 billion",
+   "quote": "for a purchase price of $1.055 billion in cash, subject to certain adjustments",
+   "section": "8-K filed 2025-05-21, Item 2.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Lenders under the RCF and the letter of credit facility granted a covenant holiday on the first lien debt ratio and the fixed charge coverage ratio for the quarter ended June 30, 2025.",
+   "numbers": "Fiscal quarter ending June 30, 2025",
+   "quote": "provides for a covenant holiday with respect to the consolidated first lien debt ratio and fixed charge coverage ratio contained therein for the fiscal quarter ending June 30, 2025",
+   "section": "8-K filed 2025-05-12, Item 1.01 (Twelfth Amendment to RCF; Eighth Amendment to ULCA)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "neutral",
+   "finding": "The RCF lenders waived the 75% asset-sale sweep, so $270,000,000 of the Jamaica proceeds could repay the RCF extended tranche that was due by September 30, 2025, with the rest going to reinvestment and to repaying the TLA.",
+   "numbers": "75%; $270,000,000; September 30, 2025; sweep ends once commitments reach $550,000,000 (was $600,000,000)",
+   "quote": "allowing the Company to apply $270,000,000 of the Asset Sale proceeds to the extended tranche of the Existing RCF prior to September 30, 2025, when such amount was due.",
+   "section": "8-K filed 2025-05-12, Item 1.01 (Twelfth Amendment)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The TLA Fifth Amendment raised the loan's interest margin, added rate floors, required a $55,000,000 prepayment from the Jamaica proceeds and directed 12.5% of any proceeds from the $659 million FEMA equitable adjustment claim to prepayment.",
+   "numbers": "6.70% SOFR margin; 5.70% base rate margin; SOFR floor 4.30%; base rate floor 5.30%; $55,000,000; 12.5%; $659 million",
+   "quote": "increases the applicable margin to 6.70% for SOFR loans and 5.70% for Base Rate Loans and implements a SOFR floor of 4.30% and a base rate floor of 5.30%",
+   "section": "8-K filed 2025-05-12, Item 1.01 (Fifth Amendment to TLA)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "After the Q2 2025 holiday the covenants get tighter: the first lien debt ratio cap falls from 8.75x to 6.75x and then 6.50x, and the fixed charge coverage ratio floor rises to 1.00x from Q3 2025.",
+   "numbers": "8.75x (Q1 2025); 6.75x (Q3 2025); 6.50x (Q4 2025); 7.25x (Q1 and Q3 2026); FCCR 0.80x then 1.00x",
+   "quote": "6.75 to 1.00, for the fiscal quarter ending September 30, 2025, (iii) 6.50 to 1.00, for the fiscal quarter ending December 31, 2025",
+   "section": "8-K filed 2025-05-12, Item 1.01 (Fifth Amendment financial covenants)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The 2025 amendments limit how much cash can go to repurchasing the 2026 senior secured notes, except payments to avoid springing maturities, so the remaining 2026 notes could pull other debt maturities forward.",
+   "numbers": "",
+   "quote": "the Amendments each added a covenant limiting the amount of cash the Company can use to repurchase our outstanding senior secured notes due 2026, other than payments to avoid springing maturities in respect thereof",
+   "section": "8-K filed 2025-05-12, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The 12.000% New Notes due 2029 have a springing maturity: they come due 91 days before any other borrowed-money debt matures if more than $100 million of that debt is still outstanding.",
+   "numbers": "91 days; $100 million; maturity November 15, 2029",
+   "quote": "the Maturity Date shall be accelerated to the date that is 91 days prior to the stated maturity date of any other indebtedness of the Company or its subsidiaries",
+   "section": "8-K filed 2024-11-27, Item 1.01 (New Notes Indenture)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In the Nov\u2013Dec 2024 refinancing, NFE Financing issued about $2.7 billion of 12.000% notes due 2029; the company used them to redeem the $875.0 million 2025 notes, exchange 2026 and 2029 notes, and receive about $325 million for general corporate purposes.",
+   "numbers": "$1.207 billion; $1.520 billion; $875.0 million redeemed; approximately $325 million dividend; 15,700,998 commitment fee shares",
+   "quote": "NFE Financing issued approximately $1.207 billion aggregate principal amount of its 12.000% Senior Secured Notes due 2029",
+   "section": "8-K filed 2024-12-11 and 8-K filed 2024-11-27, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "The intercompany Brazil Parent Term Loans tied to the refinancing are very expensive, with a 16.5997% cash rate plus 2.00% paid-in-kind interest.",
+   "numbers": "$970 million facility; 16.5997% cash; 2.00% PIK",
+   "quote": "bear interest at a rate of 16.5997% (exclusive of 2.00% interest being paid-in-kind) per annum",
+   "section": "8-K filed 2024-11-27, Brazil Parent Credit Agreement"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In March 2025 the TLB Second Amendment allowed $425,000,000 of new incremental term loans maturing October 30, 2028, but closing depended on conditions, including finishing the FY2024 audit.",
+   "numbers": "$425,000,000 incremental; $847,440,000 exchanged; $1,272,440,000 total; SOFR + 5.50%",
+   "quote": "The Second Amendment Closing Date is subject to the satisfaction of certain conditions (including the completion of the Company\u2019s audit for the fiscal year ended December 31, 2024).",
+   "section": "8-K filed 2025-03-07, Item 1.01 (Second Amendment to TLB)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The TLA Fourth Amendment cut the available commitments to zero, so the company can no longer borrow more under the TLA.",
+   "numbers": "",
+   "quote": "reducing the available commitments thereunder to zero, eliminating the potential for future borrowings under the Amended TLA",
+   "section": "8-K filed 2025-03-07, Item 1.01 (Fourth Amendment to TLA)"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "In September 2024 the company estimated only about $80 million of cash and liquidity, and it saved cash by cutting capex, delaying the dividend and pushing vendor payments into later quarters.",
+   "numbers": "Approximately $80 million as of September 30, 2024",
+   "quote": "The Company estimates that it has available cash and liquidity of approximately $80 million as of September 30, 2024.",
+   "section": "8-K filed 2024-09-30, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "The 2024 credit agreement amendments suspended the maximum Debt to Total Capitalization Ratio test for three quarters and added minimum liquidity covenants.",
+   "numbers": "Suspension for quarters ending September 30, 2024, December 31, 2024 and March 31, 2025; $50.0 million monthly; $100.0 million quarterly; 0.30% consent fee",
+   "quote": "requires a minimum consolidated liquidity of (i) $50.0 million as of the last day of each month, commencing as of October 31, 2024",
+   "section": "8-K filed 2024-09-30 and 8-K filed 2024-09-06, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "liquidity",
+   "direction": "toward",
+   "finding": "The company delayed its declared common dividend until it reached a deal with noteholders on near-term maturities and liquidity, and said it does not expect to pay quarterly cash dividends in future quarters.",
+   "numbers": "$0.10 per share",
+   "quote": "until such time as the Company has reached an agreement with its noteholders to address the Company\u2019s near-term maturities and liquidity requirements",
+   "section": "8-K filed 2024-09-30, Item 8.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "covenant_or_waiver",
+   "direction": "toward",
+   "finding": "Management's expectation of covenant compliance through December 31, 2025 depends on asset sales, PREPA payments, new operations and cost cuts, and the company gave no assurance it will comply.",
+   "numbers": "Through December 31, 2025",
+   "quote": "there can be no assurances that the Company will be able to comply with its financial covenants in future periods",
+   "section": "8-K filed 2024-10-01, Item 8.01 Compliance with Financial Covenants"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "financing",
+   "direction": "against",
+   "finding": "In October 2024 the company raised about $387.25 million of new equity, and the chairman and CEO bought 5,793,742 shares in the offering.",
+   "numbers": "46,349,942 shares at $8.63; approximately $387.25 million net; 5,793,742 shares bought by Wesley R. Edens",
+   "quote": "The net proceeds to the Company, after deducting Underwriters\u2019 discounts and commissions and the estimated offering expenses payable by the Company, were approximately $387.25 million.",
+   "section": "8-K filed 2024-10-02, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "debt",
+   "direction": "toward",
+   "finding": "Under the July 2024 TLA, the term loans become due early if the 2025 or 2026 notes are not refinanced or repaid at least 60 days before they mature.",
+   "numbers": "Up to $700 million; maturity July 19, 2027; 60 days",
+   "quote": "are not refinanced or repaid at least 60 days prior to their respective maturities, the Term Loans will become due and payable on such date.",
+   "section": "8-K filed 2024-07-25, Item 1.01"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "other",
+   "direction": "toward",
+   "finding": "A putative securities class action was filed in September 2024 alleging misleading statements about growth and the Fast LNG projects; the company says the claims lack merit.",
+   "numbers": "Class period February 29, 2024 to August 8, 2024",
+   "quote": "violated federal securities laws by, among other things, making materially false or misleading statements regarding the Company\u2019s growth trends",
+   "section": "8-K filed 2024-09-30, Item 8.01 Securities Class Action"
+  },
+  {
+   "filing": "8-K / NT",
+   "topic": "management",
+   "direction": "neutral",
+   "finding": "Andrew Dete, appointed President in October 2024, moved to an outside consulting role and stopped serving as president effective January 2, 2025.",
+   "numbers": "",
+   "quote": "has transitioned to an external role acting under a consulting agreement with the Company on the Hygo business, and as a result will no longer serve as president of the Company, effective January 2, 2025.",
+   "section": "8-K filed 2025-01-03, Item 5.02"
+  }
+ ],
+ "charts": [
+  [
+   "charts/1_revenue_net_income.png",
+   "Revenue and net income over time"
+  ],
+  [
+   "charts/2_operating_cash_flow.png",
+   "Operating cash flow over time"
+  ],
+  [
+   "charts/3_liabilities_vs_assets.png",
+   "Total liabilities against total assets"
+  ]
+ ],
+ "assessment": {
+  "answer": "The score of 0.636 is driven by a large annualized net loss (-$1,508M, -12.6% of assets), negative operating income and operating cash flow, falling revenue and liabilities at 88% of assets, all near the worst of 147 peers. The filings show distress that is worse than the band suggests. Management has substantial going concern doubt, the company missed a $79.1M guarantee deadline that lets PortoCem debenture holders declare early maturity, which can trigger cross-acceleration, it expects to breach its Q3 2025 bank covenants, its revolver is fully drawn, its debt has a fair value of about 64% of carrying value, and it has hired a financial advisor to review strategic alternatives. The score reflects real distress, and if anything it understates the risk.",
+  "verdict": "real risk",
+  "own_risk": "very high",
+  "own_risk_pct": 45,
+  "agree_with_model": "partly",
+  "moved_by": [
+   "Missed the August 17, 2025 deadline for the $79,100K PortoCem bank guarantee, so a majority of holders can declare early maturity, and cross-acceleration clauses can pull in other debt",
+   "Company states it would not have sufficient liquidity to repay principal if substantially all debt is accelerated",
+   "Expected non-compliance with first lien and fixed charge coverage covenants for the quarter ending September 30, 2025, after needing a covenant holiday for Q2 2025",
+   "Revolving Facility fully utilized ($729,933K) and TLA commitments cut to zero, so there is no undrawn committed liquidity",
+   "Letter of Credit Facility now matures November 14, 2025 with shrinking commitments and a possible 102% cash collateral requirement",
+   "Retained a financial advisor and started a strategic alternatives process",
+   "Fair value of debt of $5,785M versus $9,087,890K fair value at year-end 2024, a deep market discount that signals creditor concern",
+   "Q2 2025 operating cash burn of about $352M in one quarter leaves about 5 months of unrestricted cash",
+   "Springing maturities in mid-2026 on $2.73B New 2029 Notes, the Revolver and Term Loans unless the $510.9M 2026 Notes are retired, while prepayment of the 2026 Notes is restricted",
+   "Missed GMLP preferred dividend on May 15, 2025, two missed or late PortoCem guarantee deadlines, and repeated late filings with Nasdaq notices"
+  ],
+  "reasons": [
+   {
+    "reason": "The annualized net loss is very large against assets and much worse than a year earlier. It mixes $699M of Q2 impairments with a $473M one-off Jamaica gain, so the underlying loss is real rather than an accounting artefact.",
+    "kind": "model input",
+    "numbers": "Net income -$1,508.4M annualized vs -$60.4M year before; -12.6% of assets",
+    "peer_comparison": "12th percentile of 147 peers",
+    "quote": "the Company recognized a gain of $472,699 during the six months ended June 30, 2025",
+    "source": "10-Q, 2025-09-05, Note 4. Dispositions"
+   },
+   {
+    "reason": "Operating income and operating cash flow both swung from positive to deeply negative, and the decline accelerated in Q2.",
+    "kind": "model input",
+    "numbers": "Operating income -$811.6M vs +$457.7M; operating cash flow -$768.3M vs +$325.9M (annualized); six-month OCF -$384,156K vs +$162,968K",
+    "peer_comparison": "11th and 9th percentile",
+    "quote": "In the first and second quarters of 2025, the Company recognized operating losses and negative operating cash flows, and this decline in earnings accelerated in the second quarter of 2025.",
+    "source": "10-Q, 2025-09-05, Note 2. Basis of presentation"
+   },
+   {
+    "reason": "Months of cash: unrestricted cash is $551.1M. The six-month burn of $384.2M (about $64M a month) gives about 8.6 months. The Q2 burn of about $352.5M (six-month -$384.2M less Q1 -$31.7M, about $117M a month) gives about 4.7 months. Including restricted cash ($821.4M total, partly limited to Brazil construction), the range is about 7 to 13 months. This comes before about $271M of unfinanced committed capex.",
+    "kind": "from the filings",
+    "numbers": "Cash $551,109K; restricted $270,298K; Q2 OCF about -$352.5M; committed capex about $467M, of which about $196M financed",
+    "peer_comparison": "",
+    "quote": "Uses of cash proceeds under the BNDES Term Loan, Brazil Financing Notes and PortoCem Debentures (see Note 18) are restricted to certain payments to construct the Company's power plants in Brazil.",
+    "source": "10-Q, 2025-09-05, Note 8. Restricted cash"
+   },
+   {
+    "reason": "Management has substantial going concern doubt in the latest 10-Q. This reverses the 10-K, where the doubt was judged alleviated.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "management has concluded that, the Company\u2019s current liquidity and forecasted cash flows from operations are not probable to be sufficient to support, in full, its obligations as they become due",
+    "source": "10-Q, 2025-09-05, Note 2. Basis of presentation"
+   },
+   {
+    "reason": "An active default-type event: the PortoCem guarantee was not delivered, so holders can declare early maturity, and cross-acceleration could make substantially all debt payable on demand.",
+    "kind": "from the filings",
+    "numbers": "$79,100K guarantee due August 17, 2025",
+    "peer_comparison": "",
+    "quote": "this guarantee was not provided by the deadline, and as a result, a majority of debenture holders have the right to call for a meeting of holders and declare an event of early maturity.",
+    "source": "10-Q, 2025-09-05, Note 2 / Debt note - PortoCem Debentures"
+   },
+   {
+    "reason": "The company cannot cover accelerated debt.",
+    "kind": "from the filings",
+    "numbers": "Debt principal about $9.4B; cash $551M",
+    "peer_comparison": "",
+    "quote": "If substantially all of the Company's outstanding indebtedness is accelerated, the Company would not have sufficient liquidity or capital resources to satisfy the outstanding principal obligations.",
+    "source": "10-Q, 2025-09-05, Note 2. Basis of presentation"
+   },
+   {
+    "reason": "The company expects a covenant breach at the next test date, after already needing a covenant holiday for Q2. The covenants also tighten after the holiday.",
+    "kind": "from the filings",
+    "numbers": "Quarter ending September 30, 2025; first lien cap 6.75x; FCCR floor 1.00x",
+    "peer_comparison": "",
+    "quote": "the Company does not expect to be in compliance with the consolidated first lien ratio or the fixed charge coverage ratio included within the Revolving Facility, Letter of Credit Facility and Term Loan A Credit Agreement",
+    "source": "10-Q, 2025-09-05, Note 2 / Debt note"
+   },
+   {
+    "reason": "No committed borrowing capacity is left: the revolver is fully drawn and TLA commitments are zero.",
+    "kind": "from the filings",
+    "numbers": "$710,400K revolving loans plus $19,533K LCs = $729,933K capacity",
+    "peer_comparison": "",
+    "quote": "including the outstanding letters of credit, the Company has fully utilized the borrowing capacity of $729,933 as of June 30, 2025.",
+    "source": "10-Q, 2025-09-05, Debt note - Revolving Facility"
+   },
+   {
+    "reason": "A strategic alternatives process with a financial advisor, while waiver talks continue, is a common step before a court-supervised restructuring.",
+    "kind": "from the filings",
+    "numbers": "",
+    "peer_comparison": "",
+    "quote": "The Company has also initiated a process to evaluate strategic alternatives and has retained a financial advisor to assist in this evaluation.",
+    "source": "10-Q, 2025-09-05, Note 2 / MD&A Liquidity"
+   },
+   {
+    "reason": "The market values the debt far below par, and fair value fell sharply in six months.",
+    "kind": "from the filings",
+    "numbers": "Fair value $5,785,322K vs $9,087,890K at December 31, 2024; long-term debt $7,805,260K plus current $1,181,559K",
+    "peer_comparison": "",
+    "quote": "The fair value of the Company's long-term debt was $5,785,322 and $9,087,890 as of June 30, 2025 and December 31, 2024, respectively",
+    "source": "10-Q, 2025-09-05, Debt note"
+   },
+   {
+    "reason": "Leverage and short-term liquidity are both weak against peers. The balance sheet also understates near-term claims, because most debt is still classified as long-term even though it could be accelerated.",
+    "kind": "model input",
+    "numbers": "Liabilities/assets 0.88; current ratio 0.67; current liabilities $2,201.3M vs $1,564.8M",
+    "peer_comparison": "Liabilities/assets 92nd percentile (peer median 0.67); current ratio below peer median 0.86",
+    "quote": "",
+    "source": "Model inputs, 10-Q 2025-09-05"
+   },
+   {
+    "reason": "Interest costs more than doubled and borrowing is at very high rates, so the earnings decline compounds.",
+    "kind": "from the filings",
+    "numbers": "Q2 interest expense $206,408K vs $80,399K; New 2029 Notes 12.000%; Brazil notes 15.0%; Brazil Parent loans 16.5997% plus 2.00% PIK",
+    "peer_comparison": "",
+    "quote": "Interest expense 206,408 80,399 420,102 157,743",
+    "source": "10-Q, 2025-09-05, Statements of Operations"
+   },
+   {
+    "reason": "Springing maturities in mid-2026 would pull forward billions of debt unless the 2026 Notes are largely retired, and the Revolver amendment limits paying them down.",
+    "kind": "from the filings",
+    "numbers": "2026 Notes $510,879K; New 2029 Notes $2,730,127K; TLA $295,000K; TLB $1,269,259K",
+    "peer_comparison": "",
+    "quote": "If more than $100,000 of the 2026 Notes remain outstanding 91 days prior to the maturity date (the \"Springing Maturity Date\"), the outstanding principal of $2,730,127 under the New 2029 Notes becomes due.",
+    "source": "10-Q, 2025-09-05, Note 2"
+   },
+   {
+    "reason": "Revenue fell sharply after the Jamaica sale and the end of the Puerto Rico temporary power project, and the PREPA gas supply deal is on short-term extensions.",
+    "kind": "model input",
+    "numbers": "Revenue $1,224.2M vs $1,801.5M annualized; segment margin Q2 $24,967K vs $158,351K",
+    "peer_comparison": "9th percentile",
+    "quote": "The gas supply agreement is currently set to expire on September 12, 2025.",
+    "source": "10-Q, 2025-09-05, MD&A Factors Impacting Comparability"
+   },
+   {
+    "reason": "The Letter of Credit Facility is on very short extensions with shrinking commitments.",
+    "kind": "from the filings",
+    "numbers": "Maturity November 14, 2025; commitments about $195,000K, cut to about $155,000K on October 5, 2025; 102% cash collateral",
+    "peer_comparison": "",
+    "quote": "(ii) extend the maturity date to November 14, 2025; (iii) add an asset sale sweep prepayment provision; and (iv) make certain changes to fees and pricing.",
+    "source": "10-Q, 2025-09-05, Note 27. Subsequent events"
+   },
+   {
+    "reason": "Other stress signals: a skipped GMLP preferred dividend, a ban on common dividends, two late 10-Qs with Nasdaq deficiency notices, and material weaknesses, including one on spotting lender early-repayment events.",
+    "kind": "from the filings",
+    "numbers": "Nasdaq notices May 20 and August 19, 2025",
+    "peer_comparison": "",
+    "quote": "The Company did not pay the preferred stock dividend on the GMLP Preferred Units that was scheduled to be paid on May 15, 2025.",
+    "source": "10-Q, 2025-06-30, Note 26 Subsequent events"
+   }
+  ],
+  "evidence_against": [
+   {
+    "point": "Much of the Q2 loss is non-cash goodwill and asset impairment, so the net income the model sees is partly an accounting effect. The impairment itself, however, reflects a higher risk premium.",
+    "quote": "we recognized an impairment of goodwill of $582.2 million primarily as a result of (i) the significant increase in the weighted average cost of capital which reflected a higher company specific risk premium",
+    "source": "10-Q, 2025-09-05, MD&A Results of Operations"
+   },
+   {
+    "point": "The Jamaica sale closed for $1.055B, bringing net proceeds of about $678.5M plus $98.6M in escrow, and part of it paid down the Revolver and TLA.",
+    "quote": "the Company received net proceeds of approximately $678,480, with an additional $98,635 of proceeds held in escrow.",
+    "source": "10-Q, 2025-09-05, Note 4. Dispositions"
+   },
+   {
+    "point": "Lenders have kept granting waivers, amendments and new money: incremental TLB with $391M net proceeds, Brazil Financing Notes, covenant holidays, PortoCem waivers, and LC facility extensions. This suggests creditors prefer to work out of court.",
+    "quote": "certain lenders agreed to provide incremental term loans in an aggregate principal amount of up to $425,000, which increased the total outstanding principal amount to $1,272,440",
+    "source": "10-Q, 2025-09-05, Debt note - Term Loan B"
+   },
+   {
+    "point": "Possible cash sources left out of the forecast: Puerto Rico claims (FEMA equitable adjustment of $659M), up to $110M from the Genera modification, and about $98.6M in escrow.",
+    "quote": "realization of up to $110.0 million in proceeds from the modification of Genera\u2019s Operation and Maintenance Agreement",
+    "source": "10-Q, 2025-09-05, MD&A Liquidity and Capital Resources"
+   },
+   {
+    "point": "Unrestricted cash of $551M gives some runway of several months. No acceleration had been declared as of the filing date, and the downgrade trigger under PortoCem is suspended through August 30, 2026.",
+    "quote": "",
+    "source": "10-Q, 2025-09-05, Balance Sheet; Debt note - PortoCem Debentures"
+   },
+   {
+    "point": "The company has shown access to equity markets: a $387.25M offering in October 2024 with CEO participation, and preferred redemption settled in shares, not cash.",
+    "quote": "The net proceeds to the Company, after deducting Underwriters\u2019 discounts and commissions and the estimated offering expenses payable by the Company, were approximately $387.25 million.",
+    "source": "8-K, 2024-10-02, Item 1.01"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2024-07-25",
+    "event": "Term Loan A of up to $700M signed, with early maturity if the 2025/2026 notes are not refinanced 60 days before maturity"
+   },
+   {
+    "date": "2024-09-30",
+    "event": "Company estimates only about $80M of cash and liquidity, delays the common dividend, and amends covenants with minimum liquidity tests"
+   },
+   {
+    "date": "2024-10-02",
+    "event": "About $387.25M equity offering, with the CEO buying 5,793,742 shares"
+   },
+   {
+    "date": "2024-11-27",
+    "event": "Refinancing: 12.000% New 2029 Notes with springing maturity; 2025 notes later redeemed"
+   },
+   {
+    "date": "2025-03-04",
+    "event": "NT 10-K: FY2024 10-K filed late to reflect financing transactions"
+   },
+   {
+    "date": "2025-03-07",
+    "event": "TLB Second Amendment ($425M incremental); TLA commitments cut to zero"
+   },
+   {
+    "date": "2025-03-10",
+    "event": "10-K filed; going concern doubt judged alleviated by management plans"
+   },
+   {
+    "date": "2025-05-12",
+    "event": "Covenant holiday for Q2 2025 under RCF/ULCA/TLA; TLA margin raised; 75% asset-sale sweep waived"
+   },
+   {
+    "date": "2025-05-13",
+    "event": "NT 10-Q for Q1 2025, citing the Jamaica sale delay and CAO resignation"
+   },
+   {
+    "date": "2025-05-14",
+    "event": "Jamaica business sale to Excelerate closed for $1.055B"
+   },
+   {
+    "date": "2025-05-15",
+    "event": "GMLP preferred dividend not paid"
+   },
+   {
+    "date": "2025-05-20",
+    "event": "First Nasdaq non-compliance notice for the late Q1 10-Q"
+   },
+   {
+    "date": "2025-06-05",
+    "event": "Further credit rating downgrade triggers PortoCem early maturity right"
+   },
+   {
+    "date": "2025-06-30",
+    "event": "Q1 2025 10-Q filed with substantial going concern doubt"
+   },
+   {
+    "date": "2025-07-09",
+    "event": "$50M PortoCem guarantee delivered two days after the July 7 deadline"
+   },
+   {
+    "date": "2025-08-01",
+    "event": "Series B preferred redemption settled by issuing 10,351,360 Class A shares"
+   },
+   {
+    "date": "2025-08-07",
+    "event": "Waiver from PortoCem debenture holders for the late guarantee"
+   },
+   {
+    "date": "2025-08-12",
+    "event": "NT 10-Q for Q2 2025, citing credit support negotiations"
+   },
+   {
+    "date": "2025-08-14",
+    "event": "Ninth Amendment to the LC facility: maturity November 14, 2025, commitments cut to about $195M"
+   },
+   {
+    "date": "2025-08-17",
+    "event": "$79.1M PortoCem bank guarantee not provided by the deadline; holders gain early maturity right"
+   },
+   {
+    "date": "2025-08-19",
+    "event": "Second Nasdaq non-compliance notice for the late Q2 10-Q"
+   },
+   {
+    "date": "2025-09-05",
+    "event": "Q2 2025 10-Q filed: going concern doubt, expected Q3 covenant breach, strategic alternatives process with financial advisor"
+   }
+  ],
+  "dates_to_watch": [
+   "2025-09-12: PREPA gas supply agreement expiry",
+   "2025-09-30: covenant test date (first lien 6.75x, FCCR 1.00x) that the company expects to fail",
+   "Any PortoCem debenture holder meeting declaring early maturity, and whether bank lenders grant waivers",
+   "2025-10-05: LC facility commitments drop to about $155M",
+   "2025-11-14: LC facility maturity",
+   "Q3 2025 10-Q timing (Nasdaq compliance, possible reclassification of debt to current)",
+   "2026-02-16: Nasdaq deadline to regain compliance",
+   "About 2026-07-01: springing maturity date, 91 days before the 2026 Notes mature on 2026-09-30",
+   "2026-08-30: end of the PortoCem downgrade-trigger suspension"
+  ],
+  "would_change_my_mind": [
+   "PortoCem holders and bank lenders sign waivers and covenant resets for Q3 2025 and later",
+   "An out-of-court refinancing or exchange that retires the 2026 Notes and removes the springing maturities",
+   "Large cash inflows from Puerto Rico claims, the Genera modification or escrow release, or a new asset sale",
+   "A long-term PREPA gas supply agreement and a return to positive operating cash flow",
+   "Conversely, a declaration of early maturity or acceleration, a missed coupon, or the advisor process turning to a restructuring support agreement would push the risk much higher"
+  ],
+  "confidence": "moderate",
+  "could_not_check": [
+   "Whether PortoCem holders had already convened or declared early maturity after August 17, 2025",
+   "Status of waiver negotiations with Revolver, LC facility and TLA lenders",
+   "Exact Q2 2025 standalone cash flows; the Q2 burn is derived as the six-month figure minus Q1",
+   "How much restricted cash is actually usable for general obligations",
+   "Upcoming interest payment dates and amounts on the New 2029 Notes and other debt",
+   "Contribution of each model input to the score"
+  ]
+ },
+ "problems": [],
+ "attempts": 1
+}

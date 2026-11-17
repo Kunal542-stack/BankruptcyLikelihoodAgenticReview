@@ -1,0 +1,4 @@
+# the SEC files and the built dataframe are too big for the repo; the notebooks rebuild them
+data/
+*.pkl
+agent/

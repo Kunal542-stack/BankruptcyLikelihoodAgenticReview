@@ -1,4 +1,5 @@
-# the SEC files and the built dataframe are too big for the repo; the notebooks rebuild them
-data/
+# the SEC zip files and the built dataframe are too big for the repo; collect_data.ipynb downloads them
+# (data/efts/, the saved full text search results, is in the repo so the search doesn't have to run again)
+data/zips/
 *.pkl
 agent/

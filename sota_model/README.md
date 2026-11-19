@@ -14,7 +14,7 @@ The SEC asks for a name and email with every request, so set it before starting 
 export SEC_USER_AGENT="Your Name your.email@school.edu"
 ```
 
-The data and the `.pkl` file are not in the repo (too big). Running 1 and 2 rebuilds them.
+The full text search results are already in `data/efts/` (85 MB), so step 1 skips that search and only downloads the zip files (about 7 GB, not in the repo). The `.pkl` file is not in the repo either; running 2 rebuilds it.
 
 ## The test
 
